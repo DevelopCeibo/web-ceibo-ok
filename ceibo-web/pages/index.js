@@ -13,6 +13,7 @@ import useTranslation from "next-translate/useTranslation"
 import { useRouter } from "next/router"
 import Head from "next/head"
 
+
 const Index = () => {
   const { locale, locales, push } = useRouter()
 
