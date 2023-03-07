@@ -1,0 +1,421 @@
+[
+  {
+    "path-url": "data-scientist",
+    "title": "Data Scientist",
+    "bgcolor": "#6fc7b5",
+    "content": [
+      {
+        "type": "p",
+        "text": "Seguimos creciendo y buscamos sumar un Data Scientist a nuestro equipo para trabajar en proyectos de toda América."
+      },
+      { "type": "subtitle", "text": "Responsabilidades:" },
+      {
+        "type": "list",
+        "items": [
+          "Diseñar e implementar modelos estadísticos y de machine learning",
+          "Interés en problemas complejos. Aprendizaje continuo de herramientas de exploración, descubrimiento, análisis y modelado de datos",
+          "Diseñar métricas de performance e impacto productivo de las soluciones"
+        ]
+      },
+      { "type": "subtitle", "text": "Requisitos:" },
+      {
+        "type": "list",
+        "items": [
+          "Graduado de Ciencias Exactas, Economía, Matemática, Estadística, Actuario, Ingeniería o carreras afines",
+          "Experiencia mínima deseada de 5 años en proyectos con tratamiento de datos y desarrollo de modelos de analítica descriptiva y/o de diagnóstico",
+          "Experiencia mínima deseada de 2 años en ciencia de datos, modelado predictivo y/o prescriptivo",
+          "Manejo de lenguajes de programación para análisis de datos a gran escala: R o Python",
+          "Nociones de SQL, NoSQL, Hadoop, Map Reduce, Spark, Hive, HBase, BigQuery, Scala",
+          "Capacidad de estudiar problemas nuevos y buscar soluciones",
+          "Profesionales proactivos que se comprometan con los resultados, con gran capacidad de análisis, que comprendan la dinámica del mercado de consultoría y con gran capacidad de adaptación a entornos dinámicos y desafiantes."
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "manager",
+    "title": "Manager",
+    "bgcolor": "#891924",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "¿Te intriga el mundo de la consultoría y te apasiona la tecnología?"
+      },
+      {
+        "type": "p",
+        "text": "¡En CEIBO te estamos buscando! 🙌"
+      },
+      {
+        "type": "p",
+        "text": "Seguimos creciendo y necesitamos más consultores. Estamos en la búsqueda de profesionales con fuertes capacidades analíticas e interpersonales para participar de proyectos desafiantes de Consultoría en Transformación Digital dentro de nuestro equipo para trabajar en proyectos de toda América."
+      },
+      {
+        "type": "subtitle",
+        "text": "Perfil"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Problem solver: fuertes habilidades analíticas y cuantitativas para la resolución de problemas",
+          "Capacidades robustas de comunicación",
+          "Capacidad para trabajar colaborativamente en equipo",
+          "Apasionado y ambicioso en el desarrollo de su carrera profesional"
+        ]
+      },
+      { "type": "subtitle", "text": "Software:" },
+      {
+        "type": "list",
+        "items": [
+          "Excel: nivel avanzado",
+          "Power Point: nivel avanzado",
+          "Curiosidad y predisposición en aprender nuevas e innovadoras herramientas"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Experiencia profesional relevante mayor a 7 años:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Consultoría",
+          "Proyectos de innovación",
+          "Empresas o áreas con sesgos tecnológicos, analytics, análisis de negocio y/o innovación",
+          "Experiencia en manejo de equipos de alta performance",
+          "Relación y gestión con el cliente"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Estar graduado de las carreras de referencia:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Administración de Empresas",
+          "Informática",
+          "Ingeniería en Informática / Sistemas",
+          "Ingeniería Industrial",
+          "Licenciatura en Administración y Sistemas",
+          "Licenciatura en Análisis de Sistemas",
+          "Licenciatura en Analítica Empresarial y Social",
+          "Licenciatura en Informática",
+          "MBA",
+          "Maestría en Dirección Estratégica y Tecnológica",
+          "Maestría en Evaluación de Proyectos",
+          "Carreras afines"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Disponibilidad full time y disponibilidad para viajar ocasionalmente."
+      },
+      {
+        "type": "subtitle",
+        "text": "Idiomas"
+      },
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "Inglés",
+            "insideItems": [
+              "Lectura: Nivel avanzado",
+              "Escritura: Nivel avanzado",
+              "Conversación: Nivel avanzado"
+            ]
+          },
+          {
+            "title": "Español",
+            "insideItems": ["Nativo o fluido"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "senior-consultant",
+    "title": "Consultant - Project Leader",
+    "bgcolor": "#891924",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "¿Te intriga el mundo de la consultoría y te apasiona la tecnología?"
+      },
+      {
+        "type": "p",
+        "text": "¡En CEIBO te estamos buscando! 🙌"
+      },
+      {
+        "type": "p",
+        "text": "Seguimos creciendo y necesitamos más consultores. Estamos en la búsqueda de profesionales con fuertes capacidades analíticas e interpersonales para participar de proyectos desafiantes de Consultoría en Transformación Digital dentro de nuestro equipo para trabajar en proyectos de toda América."
+      },
+      {
+        "type": "subtitle",
+        "text": "Perfil"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Problem solver: fuertes habilidades analíticas y cuantitativas para la resolución de problemas",
+          "Capacidades robustas de comunicación",
+          "Capacidad para trabajar colaborativamente en equipo",
+          "Apasionado y ambicioso en el desarrollo de su carrera profesional"
+        ]
+      },
+      { "type": "subtitle", "text": "Software:" },
+      {
+        "type": "list",
+        "items": [
+          "Excel: nivel avanzado",
+          "Power Point: nivel avanzado",
+          "Curiosidad y predisposición en aprender nuevas e innovadoras herramientas"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Experiencia profesional relevante mayor a 3 años:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Consultoría",
+          "Proyectos de innovación",
+          "Empresas o áreas con sesgos tecnológicos, analytics, análisis de negocio y/o innovación"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Estar graduado de las carreras de referencia:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Administración de Empresas",
+          "Informática",
+          "Ingeniería en Informática / Sistemas",
+          "Ingeniería Industrial",
+          "Licenciatura en Administración y Sistemas",
+          "Licenciatura en Análisis de Sistemas",
+          "Licenciatura en Analítica Empresarial y Social",
+          "Licenciatura en Informática",
+          "MBA",
+          "Maestría en Dirección Estratégica y Tecnológica",
+          "Maestría en Evaluación de Proyectos",
+          "Carreras afines"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Disponibilidad full time y disponibilidad para viajar ocasionalmente:"
+      },
+      {
+        "type": "subtitle",
+        "text": "Idiomas"
+      },
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "Inglés",
+            "insideItems": [
+              "Lectura: Nivel avanzado",
+              "Escritura: Nivel avanzado",
+              "Conversación: Nivel avanzado"
+            ]
+          },
+          {
+            "title": "Español",
+            "insideItems": ["Nativo o fluido"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "associate",
+    "title": "Associate",
+    "bgcolor": "#891924",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "¿Te intriga el mundo de la consultoría y te apasiona la tecnología?"
+      },
+      {
+        "type": "p",
+        "text": "¡En CEIBO te estamos buscando! 🙌"
+      },
+      {
+        "type": "p",
+        "text": "Seguimos creciendo y necesitamos más consultores. ¿Te recibiste recientemente o estás próximo a graduarte? Buscamos a una persona con mucho potencial para desarrollar su carrera en Consultoría en Transformación Digital dentro de nuestro equipo para trabajar en proyectos de toda América."
+      },
+      {
+        "type": "subtitle",
+        "text": "Perfil"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Problem solver: fuertes habilidades analíticas y cuantitativas para la resolución de problemas",
+          "Capacidades robustas de comunicación",
+          "Capacidad para trabajar colaborativamente en equipo",
+          "Apasionado y ambicioso en el desarrollo de su carrera profesional"
+        ]
+      },
+      { "type": "subtitle", "text": "Software:" },
+      {
+        "type": "list",
+        "items": [
+          "Excel: nivel avanzado",
+          "Power Point: nivel avanzado",
+          "Curiosidad y predisposición en aprender nuevas e innovadoras herramientas"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Estar graduado de las carreras de referencia:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Administración de Empresas",
+          "Informática",
+          "Ingeniería en Informática / Sistemas",
+          "Ingeniería Industrial",
+          "Licenciatura en Administración y Sistemas",
+          "Licenciatura en Análisis de Sistemas",
+          "Licenciatura en Analítica Empresarial y Social",
+          "Licenciatura en Informática",
+          "MBA",
+          "Maestría en Dirección Estratégica y Tecnológica",
+          "Maestría en Evaluación de Proyectos",
+          "Carreras afines"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Disponibilidad part-time / full-time y disponibilidad para viajar ocasionalmente."
+      },
+      {
+        "type": "subtitle",
+        "text": "Idiomas"
+      },
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "Inglés",
+            "insideItems": [
+              "Lectura: Nivel avanzado",
+              "Escritura: Nivel avanzado",
+              "Conversación: Nivel avanzado"
+            ]
+          },
+          {
+            "title": "Español",
+            "insideItems": ["Nativo o fluido"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "senior-developer",
+    "title": "Developer Full-stack Sr.",
+    "bgcolor": "#6fc7b5",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "¿Sos Developer Full Stack Senior y estás en búsqueda de nuevos desafíos?"
+      },
+      {
+        "type": "p",
+        "text": "¡En CEIBO te estamos buscando! 🙌"
+      },
+
+      {
+        "type": "subtitle",
+        "text": "Responsabilidades"
+      },
+      {
+        "type": "p",
+        "text": "Como Developer Full Stack Senior serás parte de proyectos innovadores, de alto impacto, desafiantes y ágiles, siendo responsable de:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Participar activamente en todas las fases del ciclo de vida de desarrollo de software",
+          "Participar en el desarrollo e implementación de nuevos productos",
+          "Colaborar en el diseño de soluciones a nivel backend y frontend",
+          "Construir código cumpliendo con los estándares y la calidad requerida",
+          "Trabajar con integraciones a otros sistemas",
+          "Realizar revisiones de código de pares y documentación técnica"
+        ]
+      },
+      { "type": "subtitle", "text": "Requerimientos:" },
+      {
+        "type": "p",
+        "text": "Estamos en la búsqueda de un Developer Full Stack Senior con experiencia y que cumpla con la mayoría de los requerimientos técnicos mencionados a continuación:"
+      },
+
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "Base de datos",
+            "insideItems": [
+              "Microsoft SQL",
+              "MySQL",
+              "MongoDB",
+              "Experiencia en CosmoDB  (deseable)",
+              "Experiencia en Firebase (deseable)"
+            ]
+          },
+          {
+            "title": "Back End",
+            "insideItems": [
+              ".net frameworks > 4.5",
+              ".net Core 3.1 o superior",
+              "C#",
+              "Node.js v12+ "
+            ]
+          },
+          {
+            "title": "Front End",
+            "insideItems": [
+              "Javascript",
+              "HTML5",
+              "CSS 3",
+              "Responsive Design",
+              "Typescript (deseable)",
+              "Bootstrap (deseable)",
+              "Sass (deseable)"
+            ]
+          },
+          {
+            "title": "Frameworks deseables",
+            "insideItems": [
+              "Angular 8+",
+              "RXJS",
+              "NGRX Store",
+              "React",
+              "Hooks",
+              "Redux"
+            ]
+          },
+          {
+            "title": "Se valoran otros conocimientos",
+            "insideItems": [
+              "API RESTFull, Web Services (SOAP), GraphQL",
+              "GIT",
+              "Patrones de diseño y arquitectura",
+              "Python (deseable)",
+              "Ionic (deseable)",
+              "Xamarin.Forms (deseable)"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

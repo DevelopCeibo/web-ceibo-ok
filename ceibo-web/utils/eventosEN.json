@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "All you need to know about NFTs",
+    "img": "/images-ceibo/eventos/Foto2023-03-0518.59.25.png",
+    "desc": "Connie Ansaldi and Nicolas Balestrini, experts in NFTs and Blockchain, joined us in this webinar to answer all the important questions about Non-Fungible Tokens (NFTs).",
+    "link": "https://www.youtube.com/watch?v=9peR6lQN-QY",
+    "metadata": {
+      "date": "October 11th, 2022"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Great Talk: Leadership in agile teams ",
+    "img": "/images-ceibo/eventos/IMG_4239.JPG",
+    "desc": "We participated in the Great Talk 'Leadership in agile teams' of Great Place to Work® Argentina, where we talked about the importance of building a strong workspace culture in agile and dynamic teams.",
+    "link": "https://youtu.be/w5kohdJihyI",
+    "metadata": {
+      "date": "September 29th, 2022"
+    }
+  },
+  {
+    "id": "3",
+    "title": "New rules for banking in Latin America ",
+    "img": "/images-ceibo/eventos/abril22webinar-07.jpeg",
+    "desc": "Join this webinar where our Managing Partner analyzes how banks are responding to Fintech and BigTech’s disruption in the financial market. Are they competition or allies?",
+    "link": "https://www.youtube.com/watch?v=4IdGco_udoM",
+    "metadata": {
+      "date": "May 12th, 2022"
+    }
+  },
+  {
+    "id": "4",
+    "title": "How did Ceibo Digital succeed in getting its employees to build the company’s brand?",
+    "img": "/images-ceibo/eventos/Ceibomarcaempleadora.jpeg",
+    "desc": "Hernán Gutsztat, Ceibo’s Managing Partner, talks to Khris Olivero, GPTW consultant, about the foundations that build our team and our company.",
+    "link": "https://www.youtube.com/watch?v=Jfgs0O0dayI",
+    "metadata": {
+      "date": "June 17th, 2021"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Aapresid Congress: myths and truths about agricultural transformation",
+    "img": "/images-ceibo/eventos/EventoAgro-01.png",
+    "desc": "Our Partner, David Wilson, was invited to participate in Aapresid's 2021 Congress. In this webinar, he discusses myths and truths about agricultural transformation.",
+    "link": "https://www.youtube.com/watch?v=dk97XKWZw8o",
+    "metadata": {
+      "date": "August 19th, 2021"
+    }
+  },
+  {
+    "id": "6",
+    "title": "The importance of 'contactability",
+    "img": "/images-ceibo/eventos/Políticadecontactabilidad.jpg",
+    "desc": "David Wilson, Partner at Ceibo Digital, explains how a correct Contactability helps to define a clear governance and automate the management of campaigns between the different departments.",
+    "link": "https://www.youtube.com/watch?v=ZOqIXbvhFPE",
+    "metadata": {
+      "date": "September 22th, 2020"
+    }
+  }
+]

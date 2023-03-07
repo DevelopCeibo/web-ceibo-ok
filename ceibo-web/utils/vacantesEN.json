@@ -1,0 +1,421 @@
+[
+  {
+    "path-url": "data-scientist",
+    "title": "Data Scientist",
+    "bgcolor": "#6fc7b5",
+    "content": [
+      {
+        "type": "p",
+        "text": "We continue growing and are looking to add a Data Scientist to our team to work on projects across the world."
+      },
+      { "type": "subtitle", "text": "Responsibilities:" },
+      {
+        "type": "list",
+        "items": [
+          "Design and implement statistical and machine learning models",
+          "Interest in complex problems. Eager to learn about data exploration, discovery, analysis and modeling tools",
+          "Design performance metrics and productive impact of solutions"
+        ]
+      },
+      { "type": "subtitle", "text": "Requirements:" },
+      {
+        "type": "list",
+        "items": [
+          "Graduated from Exact Sciences, Economics, Mathematics, Statistics, Actuarial Science, Engineering or related careers",
+          "5 years experience required in projects with data processing and development of descriptive analytics and/or diagnostic models",
+          "2 years experience required in data science, predictive and/or prescriptive modeling",
+          "Proficiency in programming languages for large scale data analytics: R or Python",
+          "Good working knowledge of SQL, NoSQL, Hadoop, Map Reduce, Spark, Hive, HBase, BigQuery, Scala",
+          "Ability to study new problems and seek solutions",
+          "Proactive professionals who are committed to results, with strong analytical skills, who understand the dynamics of the consulting market and with strong ability to adapt to dynamic and challenging environments"
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "manager",
+    "title": "Manager",
+    "bgcolor": "#891924",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "Are you intrigued by the world of consulting and passionate about technology?"
+      },
+      {
+        "type": "p",
+        "text": "At CEIBO we are looking for you! 🙌"
+      },
+      {
+        "type": "p",
+        "text": "We continue growing so we need more consultants. We are looking for professionals with strong analytical and interpersonal skills to participate in challenging Digital Transformation Consulting projects across the world."
+      },
+      {
+        "type": "subtitle",
+        "text": "Profile"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Problem solver: strong analytical and quantitative problem solving skills",
+          "Robust communication skills",
+          "Ability to work collaboratively in a team",
+          "Passionate, proactive and ambitious in career development"
+        ]
+      },
+      { "type": "subtitle", "text": "Skills:" },
+      {
+        "type": "list",
+        "items": [
+          "Excel: advanced level",
+          "Power Point: advanced level",
+          "Curiosity and predisposition in learning new and innovative tools"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Relevant professional experience for at least 7 years in:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Consulting",
+          "Innovation projects",
+          "Companies or areas with technological bias, analytics, business analysis and/or innovation",
+          "Experience in managing high performance teams",
+          "Customer relationship and management"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Graduated from the following degree programs:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Business Administration",
+          "Computer Science",
+          "Computer / Systems Engineering",
+          "Industrial Engineering",
+          "Bachelor's Degree in Administration and Systems",
+          "Bachelor's Degree in Systems Analysis",
+          "Bachelor's Degree in Business and Social Analytics",
+          "Bachelor's Degree in Computer Science",
+          "MBA",
+          "Master's Degree in Strategic and Technological Management",
+          "Master's Degree in Project Evaluation",
+          "Related careers"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Full time availability and availability to travel occasionally."
+      },
+      {
+        "type": "subtitle",
+        "text": "Languages"
+      },
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "English",
+            "insideItems": [
+              "Reading:  Advanced level",
+              "Writing: Advanced level",
+              "Conversation: Advanced level"
+            ]
+          },
+          {
+            "title": "Spanish",
+            "insideItems": ["Native or fluent"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "senior-consultant",
+    "title": "Consultant - Project Leader",
+    "bgcolor": "#891924",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "Are you intrigued by the world of consulting and passionate about technology?"
+      },
+      {
+        "type": "p",
+        "text": "At CEIBO we are looking for you! 🙌"
+      },
+      {
+        "type": "p",
+        "text": "We keep on growing so we need more consultants. We are looking for professionals with strong analytical and interpersonal skills to participate in challenging Digital Transformation Consulting projects across the world."
+      },
+      {
+        "type": "subtitle",
+        "text": "Profile"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Problem solver: strong analytical and quantitative problem solving skills.",
+          "Robust communication skills",
+          "Ability to work collaboratively in a team",
+          "Passionate, proactive and ambitious in career development"
+        ]
+      },
+      { "type": "subtitle", "text": "Skills:" },
+      {
+        "type": "list",
+        "items": [
+          "Excel: advanced level",
+          "Power Point: advanced level",
+          "Curiosity and predisposition in learning new and innovative tools"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Relevant professional experience for at least 3 years in:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Consulting",
+          "Innovation projects",
+          "Companies or areas with technological bias, analytics, business analysis and/or innovation."
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Graduated from the following careers:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Business Administration",
+          "Computer Science",
+          "Computer / Systems Engineering",
+          "Industrial Engineering",
+          "Bachelor's Degree in Administration and Systems",
+          "Bachelor's Degree in Systems Analysis",
+          "Bachelor's Degree in Business and Social Analytics",
+          "Bachelor's Degree in Computer Science",
+          "MBA",
+          "Master's Degree in Strategic and Technological Management",
+          "Master's Degree in Project Evaluation",
+          "Related careers"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Full time availability and availability to travel occasionally."
+      },
+      {
+        "type": "subtitle",
+        "text": "Languages"
+      },
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "English",
+            "insideItems": [
+              "Reading: Advanced level",
+              "Writing: Advanced level",
+              "Conversation: Advanced level"
+            ]
+          },
+          {
+            "title": "Spanish",
+            "insideItems": ["Native or fluent"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "associate",
+    "title": "Associate",
+    "bgcolor": "#891924",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "Are you intrigued by the world of consulting and passionate about technology?"
+      },
+      {
+        "type": "p",
+        "text": "At CEIBO we are looking for you! 🙌"
+      },
+      {
+        "type": "p",
+        "text": "We keep on growing so we need more consultants. Have you recently graduated or are you about to do so? We are looking for a person with a lot of potential to develop your career in Digital Transformation Consulting within our team to work on projects across the world."
+      },
+      {
+        "type": "subtitle",
+        "text": "Profile"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Problem solver: strong analytical and quantitative problem solving skills",
+          "Robust communication skills",
+          "Ability to work collaboratively in a team",
+          "Passionate, proactive and ambitious in career development"
+        ]
+      },
+      { "type": "subtitle", "text": "Skills:" },
+      {
+        "type": "list",
+        "items": [
+          "Excel: advanced level",
+          "Power Point: advanced level",
+          "Curiosity and predisposition in learning new and innovative tools"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Graduated from the following degree programs:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Business Administration",
+          "Computer Science",
+          "Computer / Systems Engineering",
+          "Industrial Engineering",
+          "Bachelor's Degree in Administration and Systems",
+          "Bachelor's Degree in Systems Analysis",
+          "Bachelor's Degree in Business and Social Analytics",
+          "Bachelor's Degree in Computer Science",
+          "MBA",
+          "Master's Degree in Strategic and Technological Management",
+          "Master's Degree in Project Evaluation",
+          "Related careers"
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Full time availability and availability to travel occasionally."
+      },
+      {
+        "type": "subtitle",
+        "text": "Languages"
+      },
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "English",
+            "insideItems": [
+              "Reading:  Advanced level",
+              "Writing: Advanced level",
+              "Conversation: Advanced level"
+            ]
+          },
+          {
+            "title": "Spanish",
+            "insideItems": ["Native or fluent"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path-url": "senior-developer",
+    "title": "Developer Full-stack Sr.",
+    "bgcolor": "#6fc7b5",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "Are you a Full Stack Senior Developer and are you looking for new challenges?"
+      },
+      {
+        "type": "p",
+        "text": "At Ceibo Digital we are looking for you! 🙌"
+      },
+
+      {
+        "type": "subtitle",
+        "text": "Responsibilities"
+      },
+      {
+        "type": "p",
+        "text": "As a Full Stack Senior Developer you will be part of innovative, high impact, challenging and agile projects, being responsible for:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Actively participate in all phases of the software development lifecycle",
+          "Participate in the development and implementation of new products",
+          "Collaborate in the design of solutions at backend and frontend level",
+          "Build code complying with standards and quality requirements",
+          "Work with integrations to other systems",
+          "Perform peer code reviews and technical documentation"
+        ]
+      },
+      { "type": "subtitle", "text": "Requirements:" },
+      {
+        "type": "p",
+        "text": "We are in search of an experienced Senior Full Stack Developer who meets most of the technical requirements listed below:"
+      },
+
+      {
+        "type": "doublelist",
+        "items": [
+          {
+            "title": "Database",
+            "insideItems": [
+              "Microsoft SQL",
+              "MySQL",
+              "MongoDB",
+              "CosmoDB experience (desirable)",
+              "Firebase experience (desirable)"
+            ]
+          },
+          {
+            "title": "Back End",
+            "insideItems": [
+              ".net frameworks > 4.5",
+              ".net Core 3.1 or higher",
+              "C#",
+              "Node.js v12+ "
+            ]
+          },
+          {
+            "title": "Front End",
+            "insideItems": [
+              "Javascript",
+              "HTML5",
+              "CSS 3",
+              "Responsive Design",
+              "Typescript (desirable)",
+              "Bootstrap (desirable)",
+              "Sass (desirable)"
+            ]
+          },
+          {
+            "title": "Desired frameworks",
+            "insideItems": [
+              "Angular 8+",
+              "RXJS",
+              "NGRX Store",
+              "React",
+              "Hooks",
+              "Redux"
+            ]
+          },
+          {
+            "title": "Other skills are an asset",
+            "insideItems": [
+              "API RESTFull, Web Services (SOAP), GraphQL",
+              "GIT",
+              "Design and architecture patterns",
+              "Python (desirable)",
+              "Ionic (desirable)",
+              "Xamarin.Forms (desirable)"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1416 @@
+[
+  {
+    "id": "1",
+    "cliente": "Ingram Micro",
+    "clientimg": "/images-ceibo/clientes-iconos/0029_ingram.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Ingram Micro es una empresa distribuidora de productos y servicios de tecnología. La multinacional, con sede en Irvine CA, fue fundada en 1979 y actualmente cuenta con más de 60 subsidiarias a lo largo de 6 continentes.",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "En diciembre de 2020, el fondo de inversión Platinum Equity adquirió al Grupo HNA la propiedad de Ingram Micro por valor aproximado de 7.2 mil millones de dólares.",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "Posee más de 35 mil empleados y un ingreso anual de más de 49 mil millones de doláres.",
+        "color": "white"
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde enero 2021 a diciembre 2021"
+      },
+      {
+        "type": "tag",
+        "text": "Tecnología"
+      },
+      {
+        "type": "tag",
+        "text": "Customer Engagement"
+      }
+    ],
+
+    "content": [
+      {
+        "type": "title",
+        "text": "Se conformó un Hub global de marketing digital para dar servicio a todas las regiones de Ingram Micro",
+        "align": "right"
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "Ingram Micro percibía una asimetría a nivel de sus subsidiarias. Las mismas presentaban diferentes niveles de madurez en relación a sus capacidades digitales. Esto generaba que en los países más rezagados, con mayor foco en lo tradicional que en los digital, se note una pérdida de competitividad versus otros jugadores del mercado."
+      },
+      {
+        "type": "p",
+        "text": "En resumen, esto generaba una pérdida de oportunidades de ventas y menores ingresos, tanto para los vendors, como para los resellers y, por supuesto, para Ingram. Necesitaban diseñar una estrategia para potenciar a los equipos locales, brindándoles un soporte a nivel global, con expertise, procesos, metodología y tecnología, fomentando de este modo la consolidación y evolución de sus capacidades digitales."
+      },
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "Se conformó un Hub global de marketing digital para dar servicio a todas las regiones de Ingram Micro. El propósito del Hub es generar capacidades digitales en las distintas subsidiarias permitiéndoles conocer más a sus clientes, descubrir patrones y capturar interés para accionar en el momento más oportuno y por el canal correcto, aumentando la probabilidad de conversión."
+      },
+      {
+        "type": "p",
+        "text": "El Hub trabaja en campañas dinámicas, personalizadas y segmentadas por perfil y comportamiento, apalancando los objetivos de negocio definidos."
+      },
+      {
+        "type": "p",
+        "text": "Estas nuevas capacidades permitieron a Ingram crear una unidad de generación de ingreso para los equipos de marketing locales."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "En el último año el Hub estuvo a cargo de la ejecución exitosa de 130 campañas con alcance regional y global. El Hub coordinó las acciones en 62 países distintos de América, Europa, Asia y Oceanía."
+      },
+      {
+        "type": "p",
+        "text": "Logramos que las subsidiarias generen:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Más de 100 landing pages",
+          "Envío de más de 500 campañas de email",
+          "Más de 1100 posteos orgánicos en redes sociales",
+          "Optimización de más de 300 anuncios pago"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Además, en algunas regiones, el Hub se ha posicionado como una fuente de ingresos principal de la operación de marketing."
+      }
+    ],
+    "metadata": {
+      "autor": {
+        "name": "Martin Kraitman",
+        "position": "Senior Specialist"
+      },
+      "tags": ["Tecnología", "Customer engagement"],
+      "image": "/images-ceibo/casos-de-exito/Ingram.jpeg",
+      "clientimgType": "horizontal"
+    },
+    "en": {
+      "bannerContent": [
+        {
+          "type": "p-white",
+          "text": "Ingram Micro es una empresa distribuidora de productos y servicios de tecnología. La multinacional, con sede en Irvine CA, fue fundada en 1979 y actualmente cuenta con más de 60 subsidiarias a lo largo de 6 continentes.",
+          "color": "white"
+        },
+        {
+          "type": "p-white",
+          "text": "En diciembre de 2020, el fondo de inversión Platinum Equity adquirió al Grupo HNA la propiedad de Ingram Micro por valor aproximado de 7.2 mil millones de dólares.",
+          "color": "white"
+        },
+        {
+          "type": "p-white",
+          "text": "Posee más de 35 mil empleados y un ingreso anual de más de 49 mil millones de doláres.",
+          "color": "white"
+        }
+      ],
+      "subcontent": [
+        {
+          "type": "duration",
+          "text": "Desde enero 2021 a diciembre 2021"
+        },
+        {
+          "type": "tag",
+          "text": "Tecnología"
+        },
+        {
+          "type": "tag",
+          "text": "Customer Engagement"
+        }
+      ],
+      "content": [
+        {
+          "type": "title",
+          "text": "ingram content in english is missing..",
+          "align": "right"
+        },
+        {
+          "type": "subtitle",
+          "text": "El dolor"
+        },
+        {
+          "type": "p",
+          "text": "Ingram Micro percibía una asimetría a nivel de sus subsidiarias. Las mismas presentaban diferentes niveles de madurez en relación a sus capacidades digitales. Esto generaba que en los países más rezagados, con mayor foco en lo tradicional que en los digital, se note una pérdida de competitividad versus otros jugadores del mercado."
+        },
+        {
+          "type": "p",
+          "text": "En resumen, esto generaba una pérdida de oportunidades de ventas y menores ingresos, tanto para los vendors, como para los resellers y, por supuesto, para Ingram. Necesitaban diseñar una estrategia para potenciar a los equipos locales, brindándoles un soporte a nivel global, con expertise, procesos, metodología y tecnología, fomentando de este modo la consolidación y evolución de sus capacidades digitales."
+        },
+        {
+          "type": "subtitle",
+          "text": "La solución"
+        },
+        {
+          "type": "p",
+          "text": "Se conformó un Hub global de marketing digital para dar servicio a todas las regiones de Ingram Micro. El propósito del Hub es generar capacidades digitales en las distintas subsidiarias permitiéndoles conocer más a sus clientes, descubrir patrones y capturar interés para accionar en el momento más oportuno y por el canal correcto, aumentando la probabilidad de conversión."
+        },
+        {
+          "type": "p",
+          "text": "El Hub trabaja en campañas dinámicas, personalizadas y segmentadas por perfil y comportamiento, apalancando los objetivos de negocio definidos."
+        },
+        {
+          "type": "p",
+          "text": "Estas nuevas capacidades permitieron a Ingram crear una unidad de generación de ingreso para los equipos de marketing locales."
+        },
+        {
+          "type": "subtitle",
+          "text": "Los resultados"
+        },
+        {
+          "type": "p",
+          "text": "En el último año el Hub estuvo a cargo de la ejecución exitosa de 130 campañas con alcance regional y global. El Hub coordinó las acciones en 62 países distintos de América, Europa, Asia y Oceanía."
+        },
+        {
+          "type": "p",
+          "text": "Logramos que las subsidiarias generen:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Más de 100 landing pages",
+            "Envío de más de 500 campañas de email",
+            "Más de 1100 posteos orgánicos en redes sociales",
+            "Optimización de más de 300 anuncios pago"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Además, en algunas regiones, el Hub se ha posicionado como una fuente de ingresos principal de la operación de marketing."
+        }
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "cliente": "CIE",
+    "clientimg": "/images-ceibo/clientes-iconos/CIE-Logo.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Empresa de capitales paraguayos privados fundada en 1978. Dedicada a producir y proveer bienes de capital metalmecánicos y servicios para los sectores energético, industrial y naval dentro del mercado nacional e internacional, contando con clientes en los 5 continentes y presencia en 14 países.",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "Su primer contrato icónico le permitió participar en la construcción de la Central Hidroeléctrica de Itaipú, una de las siete grandes obras de la ingeniería del mundo moderno.",
+        "color": "white"
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde octubre 2020 a diciembre  2021"
+      },
+      {
+        "type": "tag",
+        "text": "Industria"
+      },
+      {
+        "type": "tag",
+        "text": "Excelencia operacional"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": " Mejoramos los procesos de negocio de CIE"
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "CIE es una compañía con foco puesto en la excelencia de sus productos y servicios e inversión intensiva en los procesos productivos. Esta situación dejó relegado el foco en los procesos no productivos (administrativos y de negocio)."
+      },
+      {
+        "type": "p",
+        "text": "En este sentido, estos procesos presentaban oportunidades de automatización y mejora en términos de riesgos operacionales que pudieran generar mayor eficiencia y robustez."
+      },
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "Con el propósito de mejorar los procesos de negocio, se dividió el trabajo en dos etapas: mapeo de procesos AS-IS y mapeo de procesos TO-BE con recomendaciones de mejora. En primera instancia se construyó la cadena de valor de la empresa donde se distinguieron más de 90 procesos."
+      },
+      {
+        "type": "p",
+        "text": "Para realizar el mapeo AS-IS se relevaron punta a punta 68 procesos de la empresa, analizando las herramientas tecnológicas, metodologías, información de las 34 áreas que intervienen en cada proceso.  Luego se inició la siguiente etapa, TO-BE. Identificando las oportunidades de automatización vía herramientas tecnológicas y nueva arquitectura de software. Generando eficiencia a partir de eliminar las redundancias y desperdicios, minimizando el error humano, generando los controles necesarios para mitigar las pérdidas operacionales y adoptando buenas practicas en los procesos."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Se mapearon 63 de los 90 procesos identificados a partir de la cadena de valor. De dichos procesos se definieron las oportunidades de mejora considerando: eficiencia, seguridad y productividad. Asimismo, cada oportunidad de mejora fue ponderada según su esfuerzo de implementación: tiempo e inversión. Además, se detallaron alrededor de 500 funcionalidades necesarias que debería presentar el software seleccionado."
+      },
+      {
+        "type": "p",
+        "text": "También se realizó el acompañamiento a la empresa para poder seleccionar el software a implementar para dar soporte a los procesos TO-BE generados."
+      }
+    ],
+    "metadata": {
+      "created_date": "21-12-1996",
+      "updated_date": "22-12-1996",
+      "autor": {
+        "name": "Martin Kraitman",
+        "position": "Senior Specialist"
+      },
+      "tags": ["Industria", "Excelencia operacional"],
+      "image": "/images-ceibo/casos-de-exito/CIE 2.jpeg",
+      "clientimgType": "vertical"
+    },
+    "en": {
+      "bannerContent": [
+        {
+          "type": "p-white",
+          "text": "Empresa de capitales paraguayos privados fundada en 1978. Dedicada a producir y proveer bienes de capital metalmecánicos y servicios para los sectores energético, industrial y naval dentro del mercado nacional e internacional, contando con clientes en los 5 continentes y presencia en 14 países.",
+          "color": "white"
+        },
+        {
+          "type": "p-white",
+          "text": "Su primer contrato icónico le permitió participar en la construcción de la Central Hidroeléctrica de Itaipú, una de las siete grandes obras de la ingeniería del mundo moderno.",
+          "color": "white"
+        }
+      ],
+      "subcontent": [
+        {
+          "type": "duration",
+          "text": "Desde octubre 2020 a diciembre  2021"
+        },
+        {
+          "type": "tag",
+          "text": "Industria"
+        },
+        {
+          "type": "tag",
+          "text": "Excelencia operacional"
+        }
+      ],
+      "content": [
+        {
+          "type": "title",
+          "text": "We improved CIE's business processes"
+        },
+        {
+          "type": "subtitle",
+          "text": "El dolor"
+        },
+        {
+          "type": "p",
+          "text": "CIE es una compañía con foco puesto en la excelencia de sus productos y servicios e inversión intensiva en los procesos productivos. Esta situación dejó relegado el foco en los procesos no productivos (administrativos y de negocio)."
+        },
+        {
+          "type": "p",
+          "text": "En este sentido, estos procesos presentaban oportunidades de automatización y mejora en términos de riesgos operacionales que pudieran generar mayor eficiencia y robustez."
+        },
+        {
+          "type": "subtitle",
+          "text": "La solución"
+        },
+        {
+          "type": "p",
+          "text": "Con el propósito de mejorar los procesos de negocio, se dividió el trabajo en dos etapas: mapeo de procesos AS-IS y mapeo de procesos TO-BE con recomendaciones de mejora. En primera instancia se construyó la cadena de valor de la empresa donde se distinguieron más de 90 procesos."
+        },
+        {
+          "type": "p",
+          "text": "Para realizar el mapeo AS-IS se relevaron punta a punta 68 procesos de la empresa, analizando las herramientas tecnológicas, metodologías, información de las 34 áreas que intervienen en cada proceso.  Luego se inició la siguiente etapa, TO-BE. Identificando las oportunidades de automatización vía herramientas tecnológicas y nueva arquitectura de software. Generando eficiencia a partir de eliminar las redundancias y desperdicios, minimizando el error humano, generando los controles necesarios para mitigar las pérdidas operacionales y adoptando buenas practicas en los procesos."
+        },
+        {
+          "type": "subtitle",
+          "text": "Los resultados"
+        },
+        {
+          "type": "p",
+          "text": "Se mapearon 63 de los 90 procesos identificados a partir de la cadena de valor. De dichos procesos se definieron las oportunidades de mejora considerando: eficiencia, seguridad y productividad. Asimismo, cada oportunidad de mejora fue ponderada según su esfuerzo de implementación: tiempo e inversión. Además, se detallaron alrededor de 500 funcionalidades necesarias que debería presentar el software seleccionado."
+        },
+        {
+          "type": "p",
+          "text": "También se realizó el acompañamiento a la empresa para poder seleccionar el software a implementar para dar soporte a los procesos TO-BE generados."
+        }
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "cliente": "Dominus",
+    "clientimg": "/images-ceibo/clientes-iconos/Dominus-logo.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "DOMINUS S.A.C. es la segunda empresa agroexportadora de mango más grande del Perú. Sus exportaciones de mango se distribuyen en un 85% a Europa, 10% a Asia y 5% a América. La calidad DOMINUS es reconocida a nivel mundial por los principales consumidores de mango y palta del mundo",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "Los socios agricultores son un actor muy importante para dichos logros, puesto que representan más de la mitad de la materia prima.",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "Desde el año 2007 viene creciendo agresivamente y proyecta exportar más de 25 millones de kilos en este 2021.",
+        "color": "white"
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde julio a septiembre 2021"
+      },
+      {
+        "type": "tag",
+        "text": "Agro"
+      },
+      {
+        "type": "tag",
+        "text": "Estrategia"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Trabajamos con Dominus para construir su estrategia digital"
+      },
+      { "type": "subtitle", "text": "El dolor" },
+      {
+        "type": "p",
+        "text": "DOMINUS fue una de las empresas beneficiarias del fondo de Proyectos Colaborativos de Innovación (Innovate Perú), con el proyecto denominado “DESAFÍOS DE INNOVACIÓN ABIERTA EN DOMINUS, HACIA UNA AGROINDUSTRIA INTELIGENTE, ÁGIL Y COMPETITIVA”"
+      },
+      {
+        "type": "p",
+        "text": "El objetivo en esta etapa del proyecto es realizar un diagnóstico que permita identificar las principales brechas y retos a nivel tecnológico y de transformación de DOMINUS y sus socios agricultores."
+      },
+      { "type": "subtitle", "text": "La solución" },
+      {
+        "type": "p",
+        "text": "Durante la fase de diagnóstico se realizó una encuesta a 29 colaboradores Dominus y 18 socios agricultores. Luego se procedió a realizar entrevistas de profundización con algunos encuestados (13 colaboradores Dominus y 8 socios agricultores). También se realizó una visita a planta y a un Fundo modelo. Con toda la información relevada se realizó un diagnóstico sobre la madurez digital de DOMINUS utilizando el modelo de capacidades definido por CEIBO. Y por último, para completar la fase de diagnóstico, se realizó un estudio de benchmark de tendencias y una serie de entrevistas a referentes regionales y globales de la industria.  "
+      },
+      {
+        "type": "p",
+        "text": "Utilizando metodología de talleres, se trabajó en conjunto con el cliente para identificar las iniciativas para cubrir las brechas detectadas. "
+      },
+      { "type": "subtitle", "text": "Los resultados" },
+      {
+        "type": "p",
+        "text": "Se identificaron 35 iniciativas. Estas se priorizaron de acuerdo al impacto/ beneficios y costo/ riesgo/ dificultad de implementar y se elaboró una propuesta de roadmap de implementación."
+      },
+      {
+        "type": "p",
+        "text": "El plan diagramado tiene cuatro horizontes temporales: iniciativas a ser lanzadas durante 2021, iniciativas a ser lanzadas en 2022, un conjunto de iniciativas de largo plazo para ser lanzadas a partir de 2023 e iniciativas a ser evaluados post 2023. "
+      },
+      {
+        "type": "p",
+        "text": "Se seleccionaron dos iniciativas para realizar talleres de maquetado de la solución."
+      }
+    ],
+    "metadata": {
+      "created_date": "21-12-1996",
+      "updated_date": "22-12-1996",
+      "autor": {
+        "name": "Martin Kraitman",
+        "position": "Senior Specialist"
+      },
+      "tags": ["Agro", "Estrategia"],
+      "image": "/images-ceibo/casos-de-exito/Dominus.jpeg",
+      "clientimgType": "vertical"
+    },
+    "en": {
+      "bannerContent": [
+        {
+          "type": "p-white",
+          "text": "DOMINUS S.A.C. es la segunda empresa agroexportadora de mango más grande del Perú. Sus exportaciones de mango se distribuyen en un 85% a Europa, 10% a Asia y 5% a América. La calidad DOMINUS es reconocida a nivel mundial por los principales consumidores de mango y palta del mundo",
+          "color": "white"
+        },
+        {
+          "type": "p-white",
+          "text": "Los socios agricultores son un actor muy importante para dichos logros, puesto que representan más de la mitad de la materia prima.",
+          "color": "white"
+        },
+        {
+          "type": "p-white",
+          "text": "Desde el año 2007 viene creciendo agresivamente y proyecta exportar más de 25 millones de kilos en este 2021.",
+          "color": "white"
+        }
+      ],
+      "subcontent": [
+        {
+          "type": "duration",
+          "text": "Desde julio a septiembre 2021"
+        },
+        {
+          "type": "tag",
+          "text": "Agro"
+        },
+        {
+          "type": "tag",
+          "text": "Estrategia"
+        }
+      ],
+      "content": [
+        {
+          "type": "title",
+          "text": " We work with Dominus to build their digital strategy"
+        },
+        { "type": "subtitle", "text": "El dolor" },
+        {
+          "type": "p",
+          "text": "DOMINUS fue una de las empresas beneficiarias del fondo de Proyectos Colaborativos de Innovación (Innovate Perú), con el proyecto denominado “DESAFÍOS DE INNOVACIÓN ABIERTA EN DOMINUS, HACIA UNA AGROINDUSTRIA INTELIGENTE, ÁGIL Y COMPETITIVA”"
+        },
+        {
+          "type": "p",
+          "text": "El objetivo en esta etapa del proyecto es realizar un diagnóstico que permita identificar las principales brechas y retos a nivel tecnológico y de transformación de DOMINUS y sus socios agricultores."
+        },
+        { "type": "subtitle", "text": "La solución" },
+        {
+          "type": "p",
+          "text": "Durante la fase de diagnóstico se realizó una encuesta a 29 colaboradores Dominus y 18 socios agricultores. Luego se procedió a realizar entrevistas de profundización con algunos encuestados (13 colaboradores Dominus y 8 socios agricultores). También se realizó una visita a planta y a un Fundo modelo. Con toda la información relevada se realizó un diagnóstico sobre la madurez digital de DOMINUS utilizando el modelo de capacidades definido por CEIBO. Y por último, para completar la fase de diagnóstico, se realizó un estudio de benchmark de tendencias y una serie de entrevistas a referentes regionales y globales de la industria.  "
+        },
+        {
+          "type": "p",
+          "text": "Utilizando metodología de talleres, se trabajó en conjunto con el cliente para identificar las iniciativas para cubrir las brechas detectadas. "
+        },
+        { "type": "subtitle", "text": "Los resultados" },
+        {
+          "type": "p",
+          "text": "Se identificaron 35 iniciativas. Estas se priorizaron de acuerdo al impacto/ beneficios y costo/ riesgo/ dificultad de implementar y se elaboró una propuesta de roadmap de implementación."
+        },
+        {
+          "type": "p",
+          "text": "El plan diagramado tiene cuatro horizontes temporales: iniciativas a ser lanzadas durante 2021, iniciativas a ser lanzadas en 2022, un conjunto de iniciativas de largo plazo para ser lanzadas a partir de 2023 e iniciativas a ser evaluados post 2023. "
+        },
+        {
+          "type": "p",
+          "text": "Se seleccionaron dos iniciativas para realizar talleres de maquetado de la solución."
+        }
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "cliente": "Farmacenter",
+    "clientimg": "/images-ceibo/clientes-iconos/Farmacenter-logo.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Farmacenter es una cadena de farmacias 24 horas con foco en la atención y la innovación. Es una de las marcas líder del rubro con más de 38 años en el mercado paraguayo, con presencia a lo largo de todo el país con más de 150 sucursales en la actualidad.",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "En diciembre del 2020 fue adquirida por el grupo Cartes, uno de los grupos económicos más importantes del Paraguay, cuyo principal objetivo es el crecimiento de la cadena y la excelencia en la experiencia de clientes.",
+        "color": "white"
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde noviembre 2021 a abril  2022"
+      },
+      {
+        "type": "tag",
+        "text": "Retail"
+      },
+      {
+        "type": "tag",
+        "text": "Excelencia operacional"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Identificamos 55 oportunidades de mejora en los procesos clave de Farmacenter"
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "Como parte de su estrategia de expansión, escalamiento del negocio y mantenimiento del control de las operaciones, Farmacenter tomó la decisión de realizar una Transformación Digital . Para ello, necesitaba contar con procesos más robustos y con buenas prácticas para implementarlos en las plataformas adquiridas. En este contexto, fuimos invitados a colaborar para identificar y relevar los procesos claves de la cadena, con el objetivo de identificar oportunidades de mejora y herramientas que permitan mayor eficiencia, control y baja de error de dichos procesos."
+      },
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "Con el objetivo de identificar los procesos a relevar, se construyó la cadena de valor de Farmacenter donde se determinaron los procesos clave. Una vez priorizados dichos procesos, se implementó la metodología AS-IS / TO-BE, mediante la cual primero se releva el estado actual de los procesos: tareas y principales capacidades (AS IS) y se validan con los usuarios clave. Luego se procede a identificar las oportunidades de mejora buscando eliminar redundancias, desperdicios y mitigar el error humano. Y, finalmente, se documenta el nuevo estado del proceso, con las modificaciones correspondientes (TO BE)."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Se mapearon y robustecieron 16 procesos claves dentro de la cadena de valor de Farmacenter. De dichos procesos, se definieron un total de 55 oportunidades de mejora, en las cuales se consideraron aspectos como la eficiencia, seguridad y productividad. Asimismo, cada oportunidad fue ponderada según su esfuerzo de implementación, teniendo en cuenta las variables de tiempo e inversión."
+      },
+      {
+        "type": "p",
+        "text": "Se mapearon y robustecieron 16 procesos claves dentro de la cadena de valor de Farmacenter. De dichos procesos, se definieron un total de 55 oportunidades de mejora, en las cuales se consideraron aspectos como la eficiencia, seguridad y productividad. Asimismo, cada oportunidad fue ponderada según su esfuerzo de implementación, teniendo en cuenta las variables de tiempo e inversión."
+      }
+    ],
+    "metadata": {
+      "autor": {
+        "name": "Martin Kraitman",
+        "position": "Senior Specialist"
+      },
+      "tags": ["Retail", "Excelencia operacional"],
+      "image": "/images-ceibo/casos-de-exito/Farmacenter.jpeg",
+      "clientimgType": "vertical"
+    },
+    "en": {
+      "bannerContent": [
+        {
+          "type": "p-white",
+          "text": "Farmacenter is a 24-hour pharmacy chain focused on attention and innovation. It is one of Paraguay's leading companies in the pharma industry, with over 38 years in the market and an extended presence nationwide with more than 150 stores.",
+          "color": "white"
+        },
+        {
+          "type": "p-white",
+          "text": "In December 2020, it was acquired by Grupo Cartes, one of Paraguay's most important economic groups, aiming towards the chain’s growth and expansion and achieving excellence in their customers' experience.",
+          "color": "white"
+        }
+      ],
+      "subcontent": [
+        {
+          "type": "duration",
+          "text": "Desde noviembre 2021 a abril  2022"
+        },
+        {
+          "type": "tag",
+          "text": "Retail"
+        },
+        {
+          "type": "tag",
+          "text": "Excelencia operacional"
+        }
+      ],
+      "content": [
+        {
+          "type": "title",
+          "text": "We identified 55 opportunities for improvement in Farmacenter's key processes"
+        },
+        {
+          "type": "subtitle",
+          "text": "El dolor"
+        },
+        {
+          "type": "p",
+          "text": "Como parte de su estrategia de expansión, escalamiento del negocio y mantenimiento del control de las operaciones, Farmacenter tomó la decisión de realizar una Transformación Digital . Para ello, necesitaba contar con procesos más robustos y con buenas prácticas para implementarlos en las plataformas adquiridas. En este contexto, fuimos invitados a colaborar para identificar y relevar los procesos claves de la cadena, con el objetivo de identificar oportunidades de mejora y herramientas que permitan mayor eficiencia, control y baja de error de dichos procesos."
+        },
+        {
+          "type": "subtitle",
+          "text": "La solución"
+        },
+        {
+          "type": "p",
+          "text": "Con el objetivo de identificar los procesos a relevar, se construyó la cadena de valor de Farmacenter donde se determinaron los procesos clave. Una vez priorizados dichos procesos, se implementó la metodología AS-IS / TO-BE, mediante la cual primero se releva el estado actual de los procesos: tareas y principales capacidades (AS IS) y se validan con los usuarios clave. Luego se procede a identificar las oportunidades de mejora buscando eliminar redundancias, desperdicios y mitigar el error humano. Y, finalmente, se documenta el nuevo estado del proceso, con las modificaciones correspondientes (TO BE)."
+        },
+        {
+          "type": "subtitle",
+          "text": "Los resultados"
+        },
+        {
+          "type": "p",
+          "text": "Se mapearon y robustecieron 16 procesos claves dentro de la cadena de valor de Farmacenter. De dichos procesos, se definieron un total de 55 oportunidades de mejora, en las cuales se consideraron aspectos como la eficiencia, seguridad y productividad. Asimismo, cada oportunidad fue ponderada según su esfuerzo de implementación, teniendo en cuenta las variables de tiempo e inversión."
+        },
+        {
+          "type": "p",
+          "text": "Se mapearon y robustecieron 16 procesos claves dentro de la cadena de valor de Farmacenter. De dichos procesos, se definieron un total de 55 oportunidades de mejora, en las cuales se consideraron aspectos como la eficiencia, seguridad y productividad. Asimismo, cada oportunidad fue ponderada según su esfuerzo de implementación, teniendo en cuenta las variables de tiempo e inversión."
+        }
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "cliente": "Negofin - Estrategia",
+    "clientimg": "/images-ceibo/clientes-iconos/Negofin-logo.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Empresa financiera líder de créditos para el consumo de Paraguay y quinta en cantidad de créditos de todo el mercado incluyendo Bancos. ",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "Comercializa a través de franquicias con diferentes marcas siendo CrediÁgil la más conocida. Posee una cartera propia y más de 150.000 clientes activos. Gestionan punta a punta el negocio desde la originación con foco en riesgos hasta la cobranza.",
+        "color": "white"
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde febrero 2020 a agosto  2020"
+      },
+      {
+        "type": "tag",
+        "text": "Servicios financieros"
+      },
+      {
+        "type": "tag",
+        "text": "Estrategia"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Construimos la estrategia de transformación digital de Negofin"
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "El perfil de algunos segmentos de clientes está migrando su preferencia del canal físico hacia el canal digital. Para lograr un correcto acompañamiento, Negofin necesitaba adaptarse. Negofin debía construir su plan estratégico para satisfacer las nuevas demandas de sus clientes."
+      },
+      {
+        "type": "p",
+        "text": "En ese contexto, Ceibo asistió a Negofin para construir su estrategia de transformación digital."
+      },
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "Internamente se llevó a cabo un relevamiento de las capacidades digitales de Negofin. Externamente se analizaron los competidores, así como también las principales tendencias del mercado."
+      },
+      {
+        "type": "p",
+        "text": "Identificadas las brechas entre las capacidades actuales de Negofin y los líderes regionales e internacionales del mercado, se procedió a la construcción de iniciativas que permitieran saldar dichas brechas."
+      },
+      {
+        "type": "p",
+        "text": "Finalmente, se priorizaron las iniciativas generadas y se construyó el roadmap para ejecutar las iniciativas durante los siguientes meses."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Se diseñaron 25 iniciativas comprendidas en 6 dimensiones: canal digital, experiencia y fidelización de clientes, canal físico, analítica e inteligencia de negocio, riesgo y cobranzas, automatización y eficiencia."
+      },
+      {
+        "type": "p",
+        "text": "Dichas iniciativas abarcaron desde los aspectos más urgentes con mayor impacto en el core del negocio, hasta iniciativas estratégicas con la generación de nuevos modelos de negocio."
+      },
+      {
+        "type": "p",
+        "text": "Se construyó un roadmap priorizando y ordenando las iniciativas, para que Negofin pudiera ejecutarlas de la forma más eficiente al corto, mediano y largo plazo."
+      }
+    ],
+    "metadata": {
+      "created_date": "21-12-1996",
+      "updated_date": "22-12-1996",
+      "autor": {
+        "name": " ",
+        "position": " "
+      },
+      "tags": ["Servicios financieros", "Estrategia"],
+      "image": "/images-ceibo/casos-de-exito/Negofin estrategia.jpeg",
+      "clientimgType": "horizontal"
+    }
+  },
+  {
+    "id": "6",
+    "cliente": "Negofin - Fidelización",
+    "clientimg": "/images-ceibo/clientes-iconos/Negofin-logo.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Empresa financiera líder de créditos para el consumo de Paraguay y quinta en cantidad de créditos de todo el mercado incluyendo Bancos. ",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "Comercializa a través de franquicias con diferentes marcas siendo CrediÁgil la más conocida. Posee una cartera propia y más de 150.000 clientes activos. Gestionan punta a punta el negocio desde la originación con foco en riesgos hasta la cobranza.",
+        "color": "white"
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde noviembre 2021 a febrero  2022"
+      },
+      {
+        "type": "tag",
+        "text": "Servicios financieros"
+      },
+      {
+        "type": "tag",
+        "text": "Estrategia"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": " Identificamos 36 dolores que afectaban la tasa de renovación de los clientes"
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "La empresa presentaba una caída en la tasa de renovación de préstamos frente a los años anteriores en la marca CrediÁgil y no lograba identificar la razón o las múltiples razones causales de no renovación. En ese contexto nos convocan para ayudarlos a identificar los potenciales causantes de este fenómeno."
+      },
+
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "Se realizó un diagnóstico de los dolores que desincentivan al cliente a la renovación, evaluando cuatro dimensiones: experiencia del cliente, análisis de datos, análisis de su CRM y procesos de lealtad. Posteriormente se propuso un plan de acciones correctivas y herramientas en las cuatro dimensiones identificadas que permitan a CrediÁgil mejorar los indicadores de lealtad y fidelización. Durante el proyecto además de la identificación de las acciones se realizó una priorización basada en el potencial impacto."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Se concluyó que el problema es multicausal, encontrando 36 dolores que afectan la tasa de renovación, siendo la experiencia del cliente la dimensión con más oportunidades de mejora. Tras esto, se propusieron 13 planes de acción correctivos."
+      }
+    ],
+    "metadata": {
+      "autor": {
+        "name": " ",
+        "position": " "
+      },
+      "tags": ["Servicios financieros", "Customer engagement"],
+      "image": "/images-ceibo/casos-de-exito/Negofin fidelizacion.jpeg",
+      "clientimgType": "horizontal"
+    }
+  },
+  {
+    "id": "7",
+    "cliente": "Scotiabank - Customer engagement",
+    "clientimg": "/images-ceibo/clientes-iconos/0031_scotiabank.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Scotiabank es un banco de origen canadiense con presencia en más de 50 países. Actualmente, es el tercer banco más grande en su país. Proporciona productos y servicios financieros innovadores a individuos, pequeñas y medianas empresas, y corporaciones alrededor del mundo.",
+        "color": "white"
+      },
+      {
+        "type": "p-white",
+        "text": "Inició sus operaciones en México a inicios de los años 2000 tras incorporar el grupo financiero Inverlat, y hoy cuenta con más de 600 sucursales y 8 mil trabajadores a lo largo del país. Se lo reconoce localmente como un banco con productos innovadores y un excelente servicio al cliente.",
+        "color": "white"
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde julio a octubre 2021"
+      },
+      {
+        "type": "tag",
+        "text": "Servicios financieros"
+      },
+      {
+        "type": "tag",
+        "text": "Customer engagement"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Ayudamos a Scotiabank a implementar una estrategia de comunicación más efectiva"
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "La filial en Mexico del banco se encontraba implementando una estrategia de comunicación enfocada en sus productos y no centrada en los clientes. En cuanto al diseño de customer journeys, se mantenía una sola cadencia de mensajes, se utilizaban los mismos canales y se ofrecía una única propuesta de valor para los distintos segmentos y arquetipos involucrados."
+      },
+      {
+        "type": "p",
+        "text": "El diseño integral propuesto de los journeys le permitiría al banco poder implementar una estrategia de comunicación más efectiva y centrada en sus clientes."
+      },
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "El abordaje con cada customer journey se dividió en tres etapas: análisis técnico, optimización e implementación."
+      },
+      {
+        "type": "p",
+        "text": "En el análisis técnico se realizaron sesiones de relevamiento con los distintos equipos de Scotiabank involucrados para comprender las distintas interacciones con el cliente. Como consecuencia del análisis, se identificaron medidas para mejorar la experiencia del cliente e identificar el MOT (moment of truth) de cada customer journey."
+      },
+      {
+        "type": "p",
+        "text": "En la optimización se realizó el diseño, aplicando las medidas para mejorar la experiencia del cliente y se propusieron mejoras para utilizar en el MOT. Se tuvieron en consideración los cuatro arquetipos principales de Scotiabank, aproximándose con una propuesta de valor diferencial según momento y arquetipo de cliente."
+      },
+      {
+        "type": "p",
+        "text": "Además, se consolidó un documento de seguimiento de la implementación de los CJ, para su medición y futuros ajustes en pos de mejorar la experiencia del cliente."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Se logró la optimización de los cuatro customer journeys priorizados por Scotiabank. En cada uno de ellos, se propusieron diversas iniciativas para mejorar la experiencia del cliente y mejorar el impacto generado del MOT identificado."
+      },
+      {
+        "type": "p",
+        "text": "Además, se diseñaron customer journeys distintos para cada arquetipo, resultando en dieciséis variantes de customer journeys  (cada customer journey dividido en sus cuatro variantes según el arquetipo). A su vez, las propuestas de valor se construyeron diferenciando las distintas etapas del ciclo de vida de los clientes."
+      },
+      {
+        "type": "p",
+        "text": "Por último, se promovió la creación de una nueva área de gestión del banco, que vela por la creación, implementación y actualización de nuevos journeys y existentes. Dicha área cuenta actualmente con el apoyo de Ceibo en la implementación de los marcos metodológicos adecuados."
+      }
+    ],
+    "metadata": {
+      "autor": {
+        "name": "Martin Kraitman",
+        "position": "Senior Specialist"
+      },
+      "tags": ["Servicios financieros", "Customer engagement"],
+      "image": "/images-ceibo/casos-de-exito/Scotiabank customer engagement.jpeg",
+      "clientimgType": "horizontal"
+    },
+    "en": {
+      "bannerContent": [
+        {
+          "type": "p-white",
+          "text": "Scotiabank es un banco de origen canadiense con presencia en más de 50 países. Actualmente, es el tercer banco más grande en su país. Proporciona productos y servicios financieros innovadores a individuos, pequeñas y medianas empresas, y corporaciones alrededor del mundo.",
+          "color": "white"
+        },
+        {
+          "type": "p-white",
+          "text": "Inició sus operaciones en México a inicios de los años 2000 tras incorporar el grupo financiero Inverlat, y hoy cuenta con más de 600 sucursales y 8 mil trabajadores a lo largo del país. Se lo reconoce localmente como un banco con productos innovadores y un excelente servicio al cliente.",
+          "color": "white"
+        }
+      ],
+      "subcontent": [
+        {
+          "type": "duration",
+          "text": "Desde julio a octubre 2021"
+        },
+        {
+          "type": "tag",
+          "text": "Servicios financieros"
+        },
+        {
+          "type": "tag",
+          "text": "Customer engagement"
+        }
+      ],
+      "content": [
+        {
+          "type": "title",
+          "text": "We helped Scotiabank implement a more effective communication strategy"
+        },
+        {
+          "type": "subtitle",
+          "text": "El dolor"
+        },
+        {
+          "type": "p",
+          "text": "La filial en Mexico del banco se encontraba implementando una estrategia de comunicación enfocada en sus productos y no centrada en los clientes. En cuanto al diseño de customer journeys, se mantenía una sola cadencia de mensajes, se utilizaban los mismos canales y se ofrecía una única propuesta de valor para los distintos segmentos y arquetipos involucrados."
+        },
+        {
+          "type": "p",
+          "text": "El diseño integral propuesto de los journeys le permitiría al banco poder implementar una estrategia de comunicación más efectiva y centrada en sus clientes."
+        },
+        {
+          "type": "subtitle",
+          "text": "La solución"
+        },
+        {
+          "type": "p",
+          "text": "El abordaje con cada customer journey se dividió en tres etapas: análisis técnico, optimización e implementación."
+        },
+        {
+          "type": "p",
+          "text": "En el análisis técnico se realizaron sesiones de relevamiento con los distintos equipos de Scotiabank involucrados para comprender las distintas interacciones con el cliente. Como consecuencia del análisis, se identificaron medidas para mejorar la experiencia del cliente e identificar el MOT (moment of truth) de cada customer journey."
+        },
+        {
+          "type": "p",
+          "text": "En la optimización se realizó el diseño, aplicando las medidas para mejorar la experiencia del cliente y se propusieron mejoras para utilizar en el MOT. Se tuvieron en consideración los cuatro arquetipos principales de Scotiabank, aproximándose con una propuesta de valor diferencial según momento y arquetipo de cliente."
+        },
+        {
+          "type": "p",
+          "text": "Además, se consolidó un documento de seguimiento de la implementación de los CJ, para su medición y futuros ajustes en pos de mejorar la experiencia del cliente."
+        },
+        {
+          "type": "subtitle",
+          "text": "Los resultados"
+        },
+        {
+          "type": "p",
+          "text": "Se logró la optimización de los cuatro customer journeys priorizados por Scotiabank. En cada uno de ellos, se propusieron diversas iniciativas para mejorar la experiencia del cliente y mejorar el impacto generado del MOT identificado."
+        },
+        {
+          "type": "p",
+          "text": "Además, se diseñaron customer journeys distintos para cada arquetipo, resultando en dieciséis variantes de customer journeys  (cada customer journey dividido en sus cuatro variantes según el arquetipo). A su vez, las propuestas de valor se construyeron diferenciando las distintas etapas del ciclo de vida de los clientes."
+        },
+        {
+          "type": "p",
+          "text": "Por último, se promovió la creación de una nueva área de gestión del banco, que vela por la creación, implementación y actualización de nuevos journeys y existentes. Dicha área cuenta actualmente con el apoyo de Ceibo en la implementación de los marcos metodológicos adecuados."
+        }
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "cliente": "Scotiabank - JMO",
+    "clientimg": "/images-ceibo/clientes-iconos/0031_scotiabank.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Scotiabank es un banco de origen canadiense con presencia en más de 50 países. Actualmente, es el tercer banco más grande en su país. Proporciona productos y servicios financieros innovadores a individuos, pequeñas y medianas empresas, y corporaciones alrededor del mundo."
+      },
+      {
+        "type": "p-white",
+        "text": "Inició sus operaciones en México a inicios de los años 2000 tras incorporar el grupo financiero Inverlat, y hoy cuenta con más de 600 sucursales y 8 mil trabajadores a lo largo del país. Se lo reconoce localmente como un banco con productos innovadores y un excelente servicio al cliente."
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde julio a octubre 2021"
+      },
+      {
+        "type": "tag",
+        "text": "Servicios financieros"
+      },
+      {
+        "type": "tag",
+        "text": "Customer engagement"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Creamos una oficina de gestión de customer journeys con 6 áreas"
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "Como resultado del proyecto de optimización de Customer Journeys, se propuso un diseño integral que le permitiría al banco poder implementar una estrategia de comunicación más efectiva y centrada en sus clientes."
+      },
+      {
+        "type": "p",
+        "text": "Sin embargo, los equipos responsables de esta tarea contaban con una capacidad limitada y necesitaban una metodología para crear y gestionar los journeys, que el negocio requería reduciendo su time to market."
+      },
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "Se creó una Journey Management Office (JMO) integrada por miembros de Scotiabank y de Ceibo, con dos propósitos:"
+      },
+      {
+        "type": "p",
+        "text": "Por un lado, aumentar el ancho de banda del equipo de Scotiabank y acompañar a los squads en la gestión, ejecución, medición de resultados de los journeys implementados, y optimización de los mismos."
+      },
+      {
+        "type": "p",
+        "text": "En paralelo, se creó y documentó el proceso y metodología de trabajo entre la JMO y los squads, asegurando que el conocimiento permanezca en el área."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Tras la implementación y optimización de los customer journeys se empezaron a destacar resultados visiblemente positivos."
+      },
+      {
+        "type": "p",
+        "text": "En el caso del journey de Adopción Digital, donde el objetivo era que los clientes no digitales se descarguen la app del banco y comiencen a autogestionarse, la cantidad de adoptados digitales incrementó un 90% en el canal de Email y un 230% en SMS."
+      },
+      {
+        "type": "p",
+        "text": "Además, se consiguió que Scotiabank incorpore una metodología que le permita mejorar los tiempos de implementación de nuevos Customer Journeys."
+      }
+    ],
+    "metadata": {
+      "tags": ["Servicios financieros", "Customer engagement"],
+      "image": "/images-ceibo/casos-de-exito/Scotiabank JMO.jpeg",
+      "clientimgType": "horizontal"
+    },
+    "en": {
+      "bannerContent": [
+        {
+          "type": "p-white",
+          "text": "Scotiabank es un banco de origen canadiense con presencia en más de 50 países. Actualmente, es el tercer banco más grande en su país. Proporciona productos y servicios financieros innovadores a individuos, pequeñas y medianas empresas, y corporaciones alrededor del mundo."
+        },
+        {
+          "type": "p-white",
+          "text": "Inició sus operaciones en México a inicios de los años 2000 tras incorporar el grupo financiero Inverlat, y hoy cuenta con más de 600 sucursales y 8 mil trabajadores a lo largo del país. Se lo reconoce localmente como un banco con productos innovadores y un excelente servicio al cliente."
+        }
+      ],
+      "subcontent": [
+        {
+          "type": "duration",
+          "text": "Desde julio a octubre 2021"
+        },
+        {
+          "type": "tag",
+          "text": "Servicios financieros"
+        },
+        {
+          "type": "tag",
+          "text": "Customer engagement"
+        }
+      ],
+      "content": [
+        {
+          "type": "title",
+          "text": "We created a customer journeys management office with six departments"
+        },
+        {
+          "type": "subtitle",
+          "text": "El dolor"
+        },
+        {
+          "type": "p",
+          "text": "Como resultado del proyecto de optimización de Customer Journeys, se propuso un diseño integral que le permitiría al banco poder implementar una estrategia de comunicación más efectiva y centrada en sus clientes."
+        },
+        {
+          "type": "p",
+          "text": "Sin embargo, los equipos responsables de esta tarea contaban con una capacidad limitada y necesitaban una metodología para crear y gestionar los journeys, que el negocio requería reduciendo su time to market."
+        },
+        {
+          "type": "subtitle",
+          "text": "La solución"
+        },
+        {
+          "type": "p",
+          "text": "Se creó una Journey Management Office (JMO) integrada por miembros de Scotiabank y de Ceibo, con dos propósitos:"
+        },
+        {
+          "type": "p",
+          "text": "Por un lado, aumentar el ancho de banda del equipo de Scotiabank y acompañar a los squads en la gestión, ejecución, medición de resultados de los journeys implementados, y optimización de los mismos."
+        },
+        {
+          "type": "p",
+          "text": "En paralelo, se creó y documentó el proceso y metodología de trabajo entre la JMO y los squads, asegurando que el conocimiento permanezca en el área."
+        },
+        {
+          "type": "subtitle",
+          "text": "Los resultados"
+        },
+        {
+          "type": "p",
+          "text": "Tras la implementación y optimización de los customer journeys se empezaron a destacar resultados visiblemente positivos."
+        },
+        {
+          "type": "p",
+          "text": "En el caso del journey de Adopción Digital, donde el objetivo era que los clientes no digitales se descarguen la app del banco y comiencen a autogestionarse, la cantidad de adoptados digitales incrementó un 90% en el canal de Email y un 230% en SMS."
+        },
+        {
+          "type": "p",
+          "text": "Además, se consiguió que Scotiabank incorpore una metodología que le permita mejorar los tiempos de implementación de nuevos Customer Journeys."
+        }
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "cliente": "Scotiabank - WOW",
+    "clientimg": "/images-ceibo/clientes-iconos/0031_scotiabank.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "Scotiabank es un banco de origen canadiense con presencia en más de 50 países. Actualmente, es el tercer banco más grande en su país. Proporciona productos y servicios financieros innovadores a individuos, pequeñas y medianas empresas, y corporaciones alrededor del mundo."
+      },
+      {
+        "type": "p-white",
+        "text": "Inició sus operaciones en México a inicios de los años 2000 tras incorporar el grupo financiero Inverlat, y hoy cuenta con más de 600 sucursales y 8 mil trabajadores a lo largo del país. Se lo reconoce localmente como un banco con productos innovadores y un excelente servicio al cliente."
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde julio a octubre 2021"
+      },
+      {
+        "type": "tag",
+        "text": "Servicios financieros"
+      },
+      {
+        "type": "tag",
+        "text": "Organización"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Cómo logramos mejorar las formas de trabajo de la filial de méxico"
+      },
+      {
+        "text": "video",
+        "src": ""
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "Scotiabank cuenta con definiciones de Ways of Working* aplicables a las subsidiarias. La filial en México, que contaba con sus propias formas de trabajo, buscaba transformarse y definir un marco de trabajo que les permitiera apoyarse en las buenas prácticas de la oficina global."
+      },
+      {
+        "type": "p",
+        "text": "Si bien no hay nada intrínsecamente correcto o incorrecto en las diferentes formas de trabajo, hay que elegir la forma que tenga más probabilidades de conducir al éxito, en términos de la actividad en cuestión y el contexto. A lo largo del proyecto, tras ganar entendimiento en profundidad, identificamos que las formas de trabajo que predominaban en el área eran jerárquicas. Y en función de la necesidad de convertirse en un equipo con mayor velocidad de adaptación frente a los nuevos desafíos, definimos en conjunto que la forma de trabajo que mejor los conduciría al éxito era Workplace communities."
+      },
+      {
+        "type": "p",
+        "text": "Algunos de los dolores identificados de la forma de trabajo eran la poca fluidez en la comunicación entre los distintos equipos, lentitud en procesos internos, la falta de métricas para medir la productividad y el impacto de las mejoras implementadas, la inexistencia de espacios para dar y recibir feedback y la ausencia de una metodología para priorizar tareas."
+      },
+      {
+        "type": "p",
+        "text": "*Ian Gee, experto en desarrollo organizacional, define el Ways of Working  como las diferentes formas de trabajo que pueden existir en una organización.  En su libro “The Workplace Community: A Guide to Releasing Human Potential and Engaging Employees (2014), menciona las siguientes cuatro formas de trabajo: Hierarchical, Program/project, Entrepreneurism/intrapreneurism y Workplace communities."
+      },
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "La solución a esta problemática se abordó en tres etapas: diagnóstico, piloto y adopción."
+      },
+      {
+        "type": "p",
+        "text": "En la etapa del diagnóstico se analizaron las capacidades del banco y se realizaron tanto entrevistas empáticas como encuestas para conocer las opiniones de los colaboradores de la institución. Estas actividades permitieron relevar las formas de trabajo actuales AS-IS para luego establecer las brechas con las formas de trabajo TO-BE deseadas."
+      },
+      {
+        "type": "p",
+        "text": "Durante la etapa de piloto se experimentó con las formas de trabajo propuestas en un Optimizatón, actividad presencial de dos días de duración que nos permitió acompañar a los colaboradores del banco a poner en práctica el WoW deseado. Para que la dinámica sea libre de riesgo y se evite el sesgo de las formas de trabajo del día a día, se crearon distintas iniciativas para una ONG externa, apoyándonos sobre el impacto social del banco, que es una de las fortalezas principales de Scotiabank MX y reconocida por sus propios colaboradores."
+      },
+      {
+        "type": "p",
+        "text": "Para finalizar, la etapa de adopción buscó implementar en el día a día de la organización las formas de trabajo deseadas. Las iniciativas propuestas se nutrieron de todos los aprendizajes de la etapa de diagnóstico y del Optimizatón. Además, se definió una agenda y una ruta del cambio en el Banco, la cual buscó estandarizar las distintas actividades de forma tal que los aprendizajes y buenas prácticas se mantengan luego de finalizado el proyecto."
+      },
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "El proyecto permitió entender las formas de trabajo actuales junto a sus dolores y brechas respecto a las formas deseadas. Este entendimiento derivó en iniciativas y propuestas de mejora que fueron trabajadas de forma presencial en un ámbito libre de riesgo para experimentar con el WOW deseado. Los aprendizajes de la puesta en práctica nutrieron la construcción de un plan de acción para llevar las nuevas formas de trabajo al día a día de la organización."
+      },
+      {
+        "type": "p",
+        "text": "El plan de acción consistió en definir los objetivos WOW a trabajar en el día a día de la organización:  liderazgo y cultura, habilidades, agilidad, modelo organizacional, valores y misión y, visión y alineación estratégica. Además, se definieron embajadores para cada uno de estos, cuya principal función es velar por las buenas prácticas asociadas a su objetivo. Al día de hoy, los equipos de trabajo se encuentran adoptando las nuevas formas de trabajo a través del marco metodológico definido y documentado. Las nuevas formas de trabajo fomentan las metodologías ágiles y la colaboración entre todos los miembros de la organización, mejorando la productividad de todos los equipos en el día a día."
+      }
+    ],
+    "metadata": {
+      "tags": ["Servicios financieros", "Organización"],
+      "image": "/images-ceibo/casos-de-exito/Scotiabank WOW.jpeg",
+      "clientimgType": "horizontal"
+    }
+  },
+  {
+    "id": "10",
+    "cliente": "IAE Business School",
+    "clientimg": "/images-ceibo/clientes-iconos/IAE-LOGO.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "El IAE Business School es la escuela de negocios líder en Argentina. Fue fundada en 1978 y cuenta con un posicionamiento y una trayectoria muy importante en Argentina y en la región."
+      },
+      {
+        "type": "p-white",
+        "text": "Es la única en Argentina que posee la acreditación triple corona(Equis + AACSB + AAMBA) y ha sido reconocida dentro de top 5 mejores escuelas de negocios de Latinoamérica por múltiples rankings."
+      },
+      {
+        "type": "p-white",
+        "text": "Al día de hoy, su red de Alumni está compuesta por más de 18000 exalumnos de más de 55 países."
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde junio 2022 a noviembre 2022"
+      },
+      {
+        "type": "tag",
+        "text": "Educación"
+      },
+      {
+        "type": "tag",
+        "text": "Estrategia"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Identificamos 55 iniciativas para impulsar la transformación digital en IAE Business School"
+      },
+      {
+        "text": "video",
+        "src": ""
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "No había un plan único de cómo ir recorriendo la transformación en relación a los dolores conocidos. Existían muchos procesos manuales automatizables en las propias herramientas que el IAE utilizaba."
+      },
+      {
+        "type": "p",
+        "text": "La cantidad de información generada desde el punto de vista de gestión y del alumno se encontraba subutilizada y no contaba con los procesos e integraciones para visualizarla de forma centralizada para la toma de decisiones."
+      },
+      {
+        "type": "p",
+        "text": "Las acciones realizadas a los clientes no eran producto de una estrategia centrada en los diferentes “journeys” de clientes."
+      },
+
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "Primero se realizó un diagnóstico de madurez digital utilizando una encuesta propia de Ceibo que contempla cinco dimensiones clave del modelo negocio. A continuación, se realizaron 15 entrevistas de profundización a colaboradores de todas las áreas para comprender con mayor detalle los resultados de la encuesta. Estas entrevistas fueron complementadas con otras 25 entrevistas de relevamiento general. A su vez, se realizó un assessment técnico AS-IS de la arquitectura tecnológica."
+      },
+      {
+        "type": "p",
+        "text": "Posteriormente, se mapearon los customer journeys de 5 programas representativos de la oferta de programas de IAE para los cuales se realizaron 12 entrevistas adicionales a colaboradores expertos en esos programas. Luego, se realizó un análisis competitivo que contempló tanto el análisis de tendencias mundiales educativas como el análisis de competidores locales, regionales y globales en cuanto a 4 verticales. Finalmente, se confeccionó un modelo de alto nivel de la arquitectura tecnológica TO-BE sobre la base de los dolores identificados."
+      },
+
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Se identificaron 54 dolores, que fueron la base para la identificación de 55 iniciativas. Las iniciativas fueron priorizadas mediante una matriz impacto complejidad y en función de los resultados se construyó un roadmap con 3 horizontes: corto plazo, mediano plazo y largo plazo. Finalmente se recomendó dar inicio a 25 iniciativas en el corto plazo."
+      }
+    ],
+    "metadata": {
+      "tags": ["Educación", "Estrategia"],
+      "image": "/images-ceibo/casos-de-exito/IAE.jpeg",
+      "clientimgType": "horizontal"
+    }
+  },
+  {
+    "id": "11",
+    "cliente": "NFD Paraguay",
+    "clientimg": "/images-ceibo/clientes-iconos/NFD-caso-de-exito.png",
+    "bannerContent": [
+      {
+        "type": "p-white",
+        "text": "NFD es una Fintech que nace en octubre de 2020 como una “franquicia digital” de Credi Ágil, la casa de crédito número uno de Paraguay. Uno de sus objetivos es ofrecer soluciones financieras a partir del uso de la tecnología, orientadas en la autogestión y automatización de los procesos."
+      },
+      {
+        "type": "p-white",
+        "text": "Comercializa productos financieros, típicamente préstamos para el consumo, a través de canales digitales y un centro de atención al cliente online. Además del negocio central, el cliente ha creado una marca para el negocio financiero con retailers llamado Fraccionate."
+      }
+    ],
+    "subcontent": [
+      {
+        "type": "duration",
+        "text": "Desde junio 2022 a noviembre 2022"
+      },
+      {
+        "type": "tag",
+        "text": "Servicios financieros"
+      },
+      {
+        "type": "tag",
+        "text": "Estrategia"
+      }
+    ],
+    "content": [
+      {
+        "type": "title",
+        "text": "Ayudamos a NFD a construir una estrategia de negocio y un roadmap tecnológico"
+      },
+      {
+        "text": "video",
+        "src": ""
+      },
+      {
+        "type": "subtitle",
+        "text": "El dolor"
+      },
+      {
+        "type": "p",
+        "text": "NFD nació haciendo, por lo tanto, no contaba con un modelo de gestión consolidado que le permitiera escalar ordenadamente el negocio a futuro. Ante el crecimiento observado, la estructura actual no era óptima para gestionar el negocio ni los componentes tecnológicos que la conforman."
+      },
+      {
+        "type": "p",
+        "text": "NFD cuenta actualmente con múltiples proyectos en marcha en distintos frentes de la organización gestionados por el mismo equipo, y se enfrenta con el desafío de crecer ordenadamente."
+      },
+      {
+        "type": "p",
+        "text": "Para ello, requiere una estrategia de negocio y un roadmap tecnológico para evitar pasos en falso."
+      },
+
+      {
+        "type": "subtitle",
+        "text": "La solución"
+      },
+      {
+        "type": "p",
+        "text": "El proyecto se desarrolló en dos etapas. En la etapa de diagnóstico, se relevaron las iniciativas y capacidades tecnológicas actuales, y los cuellos de botella existentes para el crecimiento del negocio. En la segunda etapa, teniendo en consideración las capacidades y dolores relevados del negocio, más el análisis del contexto actual del mercado fintech local y global, se construyeron un conjunto de iniciativas que le permitirán a NFD saldar las brechas identificadas y cumplir con su objetivo de crecimiento ordenado."
+      },
+      {
+        "type": "p",
+        "text": "Además, como recomendación de Ceibo, NFD se estructuró en tres células ágiles para gestionar el crecimiento del negocio: Célula BAU (business as usual), que gestiona las operaciones diarias del negocio digital; Célula Credi Ágil 2.0, que gestiona la evolución del negocio y recorre el roadmap de iniciativas tecnológicas; y Célula Fraccionate, que gestiona el negocio “B2B2C”, para la colocación de préstamos a clientes a través de comercios."
+      },
+
+      {
+        "type": "subtitle",
+        "text": "Los resultados"
+      },
+      {
+        "type": "p",
+        "text": "Se diseñaron 28 iniciativas para las tres células, tanto a nivel individual como iniciativas transversales."
+      },
+      {
+        "type": "p",
+        "text": "Se definieron los equipos y roles necesarios de cada célula, como así también la arquitectura tecnológica requerida para llevar a cabo de forma efectiva las iniciativas."
+      },
+      {
+        "type": "p",
+        "text": "Se construyó un roadmap priorizando las iniciativas según el impacto en las capacidades de NFD y la complejidad de estas en su implementación en el corto, mediano y largo plazo."
+      }
+    ],
+    "metadata": {
+      "tags": ["Servicios Financieros", "Estrategia"],
+      "image": "/images-ceibo/casos-de-exito/NFD.jpeg",
+      "clientimgType": "horizontal"
+    }
+  }
+]
