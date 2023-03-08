@@ -56,7 +56,7 @@ This files table contents are outlined below >>>>>
 .css-1ww04qf-MuiTypography-root,
 .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label,
 .css-1c4onx9-MuiTypography-root {
-  font-family: "Titillium Web";
+  font-family: "Titillium Web" !important;
 }
 /* generales */
 
