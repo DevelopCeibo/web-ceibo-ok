@@ -10,8 +10,11 @@ import ExperienciasRelevantes from "../components/Quehacemos/Experiencias"
 import AreasDeServicio from "../components/Quehacemos/AreasDeServicio"
 import Head from "next/head"
 import useTranslation from "next-translate/useTranslation"
+import { useRouter } from "next/router"
 
 const QueHacemos = () => {
+  const { locale } = useRouter()
+
   const { t } = useTranslation("common")
   const contactanos = t("contactanos")
 
@@ -41,7 +44,10 @@ const QueHacemos = () => {
       <TecnologiasQueUsamos />
       <ExperienciasRelevantes />
       <div className="container btn-two-container mb-5">
-        <a className="default-btn-two" href="/contacto">
+        <a
+          className="default-btn-two"
+          href={locale == "en" ? "/en/contacto" : "/contacto"}
+        >
           {contactanos}
         </a>
       </div>
