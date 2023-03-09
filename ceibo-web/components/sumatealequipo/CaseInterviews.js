@@ -14,21 +14,21 @@ const CaseInterviews = () => {
 
         <section className="d-flex flex-column gap-3 align-items-center justify-content-center">
           <a
-            href="https://ceibo.digital/wp-content/uploads/2021/04/Make-Your-Case-Wall-Street-Oasis.pdf"
+            href="/case-interviews/Make-Your-Case-Wall-Street-Oasis.pdf"
             target={"_blank"}
             className="btn-lightblue"
           >
             Make Your Case - Wall Street Oasis
           </a>
           <a
-            href="https://ceibo.digital/wp-content/uploads/2021/04/1653_McCombs_Case_Book_2008_1.pdf"
+            href="/case-interviews/McCombs_Case_Book_2008.pdf"
             target={"_blank"}
             className="btn-lightblue"
           >
             McCombs Casebook
           </a>
           <a
-            href="https://ceibo.digital/wp-content/uploads/2021/04/2015_Illinois_Gies_Case_Book.pdf"
+            href="/case-interviews/Illinois Consulting Academy 2015-2016 Case Book.pdf"
             target={"_blank"}
             className="btn-lightblue"
           >

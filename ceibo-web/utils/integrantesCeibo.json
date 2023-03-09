@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "HERNAN GUTSZTAT",
+    "nombre": "HERNÁN GUTSZTAT",
     "linkedinurl": "https://www.linkedin.com/in/hernan-gutsztat/",
     "src": "/images-ceibo/integrantes/Hernan Gutsztat.png",
     "posicion": "MANAGING PARTNER"
@@ -54,12 +54,6 @@
     "posicion": "EXPERT"
   },
   {
-    "nombre": "MARÍA EUGENIA GOGORZA",
-    "linkedinurl": "https://www.linkedin.com/in/mar%C3%ADa-eugenia-gogorza-2431a425/",
-    "src": "/images-ceibo/integrantes/M Eugenia Gogorza.png",
-    "posicion": "EXPERT"
-  },
-  {
     "nombre": "AYELÉN RICHARD",
     "linkedinurl": "https://www.linkedin.com/in/ayelenrichard/",
     "src": "/images-ceibo/integrantes/Ayelen Richard.png",
@@ -76,6 +70,12 @@
     "linkedinurl": "https://www.linkedin.com/in/luis-fernando-sanchez-py/",
     "src": "/images-ceibo/integrantes/Luis Sanchez.png",
     "posicion": "PROJECT LEADER"
+  },
+  {
+    "nombre": "DARÍO MELMAN",
+    "linkedinurl": "https://www.linkedin.com/in/dariomelman/",
+    "src": "/images-ceibo/integrantes/Dario Melman.png",
+    "posicion": "TECH LEADER"
   },
   {
     "nombre": "MARTÍN ROMANELLI",

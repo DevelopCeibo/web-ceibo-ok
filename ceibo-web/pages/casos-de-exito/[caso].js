@@ -261,7 +261,7 @@ const Caso = () => {
                       <Link href={`/casos-de-exito/${caso.id}`}>
                         <a className="read-more-btn">
                           {locale === "en"
-                            ? "Read success storie"
+                            ? "Read success story"
                             : "Leer caso de éxito"}
                           <i className="fa-solid fa-angles-right"></i>
                         </a>
