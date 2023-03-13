@@ -158,10 +158,10 @@ const Eventos = () => {
         subtitle={eventosh2}
       />
       <div className="pt-100 pb-70">
-        <div className="section-title">
+        {/* <div className="section-title">
           <h2>{prox}</h2>
-        </div>
-        <section className="row justify-content-center eventos">
+        </div> */}
+        {/* <section className="row justify-content-center eventos">
           <div className="col-12 col-lg-6 p-0">
             <Stack
               sx={{
@@ -248,8 +248,7 @@ const Eventos = () => {
                 </Typography>
                 <Box>
                   <FormControl fullWidth>
-                    {/* <InputLabel id="demo-simple-select-label"></InputLabel> */}
-                    <Select
+                   <Select
                       labelId="demo-simple-select-label"
                       id="demo-simple-select"
                       value={selectSource}
@@ -275,7 +274,7 @@ const Eventos = () => {
               </div>
             </Stack>
           </div>
-        </section>
+        </section> */}
         {/* </div> */}
         <div className="section-title pt-5">
           <h2>{miraPasados}</h2>

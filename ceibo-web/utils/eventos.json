@@ -1,6 +1,16 @@
 [
   {
     "id": "1",
+    "title": "En esta edición de Ceibo Talks, invitamos a Mauricio Valdez Mendía, actual Chief Transformation & Digital Officer de Microsoft para Walmart LATAM, a conversar sobre la importancia de tener una estrategia de Hiper-personalización y cómo pueden desarrollarla las organizaciones.",
+    "img": "/images-ceibo/eventos/898c1e4a-afea-4a13-8447-201a3055b4ea.jpg",
+    "desc": "Junto con Connie Ansaldi de Carnaval Art y Nicolas Balestrini de Origino, expertos en NFTs y Blockchain, respondemos todas las preguntas importantes sobre los Non-Fungible Tokens (NFTs).",
+    "link": "https://www.linkedin.com/video/live/urn:li:ugcPost:7039716609933893632/",
+    "metadata": {
+      "date": ":9 de marzo, 2023"
+    }
+  },
+  {
+    "id": "2",
     "title": " Todo lo que tenes que saber sobre NFTs",
     "img": "/images-ceibo/eventos/Foto2023-03-0518.59.25.png",
     "desc": "Junto con Connie Ansaldi de Carnaval Art y Nicolas Balestrini de Origino, expertos en NFTs y Blockchain, respondemos todas las preguntas importantes sobre los Non-Fungible Tokens (NFTs).",
@@ -10,7 +20,7 @@
     }
   },
   {
-    "id": "2",
+    "id": "3",
     "title": " Great Talk: Liderazgo en equipos ágiles",
     "img": "/images-ceibo/eventos/IMG_4239.JPG",
     "desc": "Fuimos invitados a participar de la Great Talk de Great Place to Work® Argentina para conversar acerca de la importancia de generar una cultura sólida en equipos ágiles y dinámicos.",
@@ -20,7 +30,7 @@
     }
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "Nuevas reglas de juego para la banca en Latinoamérica ",
     "img": "/images-ceibo/eventos/abril22webinar-07.jpeg",
     "desc": "En un contexto donde las Fintech y las BigTech disrumpen en el negocio financiero, analizamos cómo están reaccionando los bancos: ¿son competencia o aliados?",
@@ -30,7 +40,7 @@
     }
   },
   {
-    "id": "4",
+    "id": "5",
     "title": " ¿Cómo logró Ceibo Digital que sus colaboradores también construyan su marca empleadora?",
     "img": "/images-ceibo/eventos/Ceibomarcaempleadora.jpeg",
     "desc": "Hernán Gutsztat, Managing Partner de Ceibo, habla con Khris Olivero, consultora de GPTW, sobre las bases que construyen nuestro equipo y nuestra empresa",
@@ -40,7 +50,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Congreso Aapresid 2021: 'Transformación en Agro: mitos y verdades'",
     "img": "/images-ceibo/eventos/EventoAgro-01.png",
     "desc": " David Wilson, Partner en Ceibo, fue invitado a participar del Congreso Aapresid 2021, donde dictó una charla sobre los mitos y verdades de la transformación en el agro",
@@ -50,7 +60,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "7",
     "title": "La importancia de la política de contactabilidad",
     "img": "/images-ceibo/eventos/Políticadecontactabilidad.jpg",
     "desc": "Conocé de la mano de David Wilson, Partner en Ceibo, cómo una correcta Política de Contactabilidad permite definir un gobierno claro y automatizar la gestión de campañas entre los diferentes departamentos.",

@@ -1,6 +1,16 @@
 [
   {
     "id": "1",
+    "title": "Ceibo Talks: Hyper-personalization, a data-driven approach",
+    "img": "/images-ceibo/eventos/898c1e4a-afea-4a13-8447-201a3055b4ea.jpg",
+    "desc": "We invited Mauricio Valdez Mendía, current Chief Transformation & Digital Officer of Microsoft for Walmart LATAM, to talk about the importance of having a Hyper-personalization strategy and how organizations can implement it.",
+    "link": "https://www.linkedin.com/video/live/urn:li:ugcPost:7039716609933893632/",
+    "metadata": {
+      "date": "March 9th, 2023"
+    }
+  },
+  {
+    "id": "2",
     "title": "All you need to know about NFTs",
     "img": "/images-ceibo/eventos/Foto2023-03-0518.59.25.png",
     "desc": "Connie Ansaldi and Nicolas Balestrini, experts in NFTs and Blockchain, joined us in this webinar to answer all the important questions about Non-Fungible Tokens (NFTs).",
@@ -10,7 +20,7 @@
     }
   },
   {
-    "id": "2",
+    "id": "3",
     "title": "Great Talk: Leadership in agile teams ",
     "img": "/images-ceibo/eventos/IMG_4239.JPG",
     "desc": "We participated in the Great Talk 'Leadership in agile teams' of Great Place to Work® Argentina, where we talked about the importance of building a strong workspace culture in agile and dynamic teams.",
@@ -20,7 +30,7 @@
     }
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "New rules for banking in Latin America ",
     "img": "/images-ceibo/eventos/abril22webinar-07.jpeg",
     "desc": "Join this webinar where our Managing Partner analyzes how banks are responding to Fintech and BigTech’s disruption in the financial market. Are they competition or allies?",
@@ -30,7 +40,7 @@
     }
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "How did Ceibo Digital succeed in getting its employees to build the company’s brand?",
     "img": "/images-ceibo/eventos/Ceibomarcaempleadora.jpeg",
     "desc": "Hernán Gutsztat, Ceibo’s Managing Partner, talks to Khris Olivero, GPTW consultant, about the foundations that build our team and our company.",
@@ -40,7 +50,7 @@
     }
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Aapresid Congress: myths and truths about agricultural transformation",
     "img": "/images-ceibo/eventos/EventoAgro-01.png",
     "desc": "Our Partner, David Wilson, was invited to participate in Aapresid's 2021 Congress. In this webinar, he discusses myths and truths about agricultural transformation.",
@@ -50,7 +60,7 @@
     }
   },
   {
-    "id": "6",
+    "id": "7",
     "title": "The importance of 'contactability",
     "img": "/images-ceibo/eventos/Políticadecontactabilidad.jpg",
     "desc": "David Wilson, Partner at Ceibo Digital, explains how a correct Contactability helps to define a clear governance and automate the management of campaigns between the different departments.",
