@@ -200,12 +200,7 @@
     "src": "/images-ceibo/integrantes/Facundo Yvorra.png",
     "posicion": "ASSOCIATE"
   },
-  {
-    "nombre": "MARCOS MAZZA",
-    "linkedinurl": "https://www.linkedin.com/in/marcos-mazza-b68972206/",
-    "src": "/images-ceibo/integrantes/Marcos Mazza.png",
-    "posicion": "ASSOCIATE"
-  },
+
   {
     "nombre": "MARTÍN IUVARO",
     "linkedinurl": "https://www.linkedin.com/in/mart%C3%ADn-iuvaro-a77a28206/",
@@ -229,6 +224,12 @@
     "linkedinurl": "https://www.linkedin.com/in/lucia-godino-atanasiadis-72169a205/",
     "src": "/images-ceibo/integrantes/Lucia Godino.png",
     "posicion": "ASSOCIATE"
+  },
+  {
+    "nombre": "MARCOS MAZZA",
+    "linkedinurl": "https://www.linkedin.com/in/marcos-mazza-b68972206/",
+    "src": "/images-ceibo/integrantes/Marcos Mazza.png",
+    "posicion": "ANALYST"
   },
   {
     "nombre": "MATÍAS ROCCA",

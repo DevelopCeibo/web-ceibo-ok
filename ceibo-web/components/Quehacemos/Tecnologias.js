@@ -30,6 +30,7 @@ const TecnologiasQueUsamos = () => {
               width={140}
               height={"100%"}
               alt="Meltwater"
+              className="img-grey"
             />
           </div>
           <div className="col-6 col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mt-5">
