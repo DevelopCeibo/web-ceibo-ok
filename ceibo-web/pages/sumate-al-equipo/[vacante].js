@@ -14,16 +14,20 @@ import { marked } from "marked"
 import Head from "next/head"
 import baseUrl from "../../utils/baseUrl"
 
-const Vacante = ({ vacantesES, vacantesEN }) => {
+const Vacante = () => {
+  // const Vacante = ({ vacantesES, vacantesEN }) => {
   const router = useRouter()
   const { locale } = useRouter()
 
   const pathVacante = router.asPath.split("/")[2]
 
   const [vacantes, setvacantes] = useState(
-    locale == "en" ? vacantesEN : vacantesES
+    locale == "es" ? vacantesES : vacantesEN
   )
-  const [vacante, setVacante] = React.useState({})
+  // const [vacantes, setvacantes] = useState(
+  //   locale == "en" ? vacantesEN : vacantesES
+  // )
+  const [vacante, setVacante] = useState({})
 
   React.useEffect(() => {
     if (locale == "en") {
@@ -31,14 +35,24 @@ const Vacante = ({ vacantesES, vacantesEN }) => {
     } else {
       setvacantes(vacantesES)
     }
-  }, [vacantesEN])
+    vacantes.forEach((vac) => {
+      if (vac["path-url"] == pathVacante) {
+        setVacante(vac)
+      }
+    })
 
-  React.useEffect(() => {
-    const selectedVacante = vacantes?.find(
-      (vac) => vac["path-url"] == pathVacante
-    )
-    setVacante(selectedVacante)
-  }, [vacantes, pathVacante])
+    // const selectedVacante = vacantes?.find(
+    //   (vac) => vac["path-url"] === pathVacante
+    // )
+    // setVacante(selectedVacante)
+  }, [locale, pathVacante])
+
+  // React.useEffect(() => {
+  //   const selectedVacante = vacantes?.find(
+  //     (vac) => vac["path-url"] === pathVacante
+  //   )
+  //   setVacante(selectedVacante)
+  // }, [vacantes, pathVacante])
 
   const renderContent = (content) => {
     return content?.map((el, i) => {
@@ -102,7 +116,7 @@ const Vacante = ({ vacantesES, vacantesEN }) => {
   }
 
   const TITLE = `${
-    vacante?.title ? vacante.title : "vacante"
+    vacante?.title ? vacante.title : "Vacante"
   } - Ofertas laborales en Ceibo Digital`
 
   return (
@@ -127,20 +141,20 @@ const Vacante = ({ vacantesES, vacantesEN }) => {
   )
 }
 
-export async function getServerSideProps(context) {
-  const resEs = await axios.get(`${baseUrl}/api/vacantes?locale=es`)
-  const resEn = await axios.get(`${baseUrl}/api/vacantes?locale=en`)
+// export async function getServerSideProps(context) {
+//   const resEs = await axios.get(`${baseUrl}/api/vacantes?locale=es`)
+//   const resEn = await axios.get(`${baseUrl}/api/vacantes?locale=en`)
 
-  const vacantesES = resEs.data
-  const vacantesEN = resEn.data
+//   const vacantesES = resEs.data
+//   const vacantesEN = resEn.data
 
-  return {
-    props: {
-      vacantesES,
-      vacantesEN,
-    },
-  }
-}
+//   return {
+//     props: {
+//       vacantesES,
+//       vacantesEN,
+//     },
+//   }
+// }
 
 // export async function getStaticPaths(context) {
 //   // const locale = context.locale

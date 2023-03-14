@@ -22,7 +22,7 @@ const Vacantes = () => {
           <div className="row justify-content-center">
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
               <div className="bc-post-item card-vacantes">
-                <Link href="/sumate-al-equipo/data-scientist/">
+                <Link href="/sumate-al-equipo/data-scientist">
                   <div
                     className="post-image"
                     style={{
@@ -42,7 +42,7 @@ const Vacantes = () => {
                     <h3>Data scientist</h3>
                     <p>{dataScientist}</p>
                   </div>
-                  <Link href="/sumate-al-equipo/data-scientist/">
+                  <Link href="/sumate-al-equipo/data-scientist">
                     <a className="link-btn link-btn-vacantes">
                       {vermas} <i className="fas fa-chevron-right"></i>
                     </a>
@@ -66,7 +66,7 @@ const Vacantes = () => {
                     <h3>Manager</h3>
                     <p>{manager}</p>
                   </div>
-                  <Link href="/sumate-al-equipo/manager/">
+                  <Link href="/sumate-al-equipo/manager">
                     <a className="link-btn link-btn-vacantes">
                       {vermas} <i className="fas fa-chevron-right"></i>
                     </a>
@@ -90,7 +90,7 @@ const Vacantes = () => {
                     <h3>Consultant - Project Leader</h3>
                     <p>{consultant}</p>
                   </div>
-                  <Link href="/sumate-al-equipo/senior-consultant/">
+                  <Link href="/sumate-al-equipo/senior-consultant">
                     <a className="link-btn link-btn-vacantes">
                       {vermas}
                       <i className="fas fa-chevron-right"></i>
@@ -110,7 +110,7 @@ const Vacantes = () => {
               </div>
             </div>
             <div className="container btn-two-container">
-              <Link href="/sumate-al-equipo/">
+              <Link href="/sumate-al-equipo">
                 <a className="default-btn-two" title="Vacantes en Ceibo">
                   {uniteaceibo} <i className="fas fa-chevron-right"></i>
                 </a>

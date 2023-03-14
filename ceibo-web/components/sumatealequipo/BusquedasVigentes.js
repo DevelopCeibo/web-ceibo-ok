@@ -41,7 +41,7 @@ const BusquedasVigentes = () => {
                   <h6>Data scientist</h6>
                   <p>{dataScientist}</p>
                 </div>
-                <Link href="/sumate-al-equipo/data-scientist/">
+                <Link href="/sumate-al-equipo/data-scientist" passHref>
                   <a className="link-btn link-btn-vacantes">
                     {vermas} <i className="fas fa-chevron-right"></i>
                   </a>
@@ -67,7 +67,7 @@ const BusquedasVigentes = () => {
                   <h6>Manager</h6>
                   <p>{manager}</p>
                 </div>
-                <Link href="/sumate-al-equipo/manager/">
+                <Link href="/sumate-al-equipo/manager">
                   <a className="link-btn link-btn-vacantes">
                     {vermas} <i className="fas fa-chevron-right"></i>
                   </a>
@@ -93,7 +93,7 @@ const BusquedasVigentes = () => {
                   <h6>Consultant- Project Leader</h6>
                   <p>{consultant}</p>
                 </div>
-                <Link href="/sumate-al-equipo/senior-consultant/">
+                <Link href="/sumate-al-equipo/senior-consultant">
                   <a className="link-btn link-btn-vacantes">
                     {vermas}
                     <i className="fas fa-chevron-right"></i>
@@ -120,7 +120,7 @@ const BusquedasVigentes = () => {
                   <h6>Associate</h6>
                   <p>{associate}</p>
                 </div>
-                <Link href="/sumate-al-equipo/associate/">
+                <Link href="/sumate-al-equipo/associate">
                   <a className="link-btn link-btn-vacantes">
                     {vermas}
                     <i className="fas fa-chevron-right"></i>

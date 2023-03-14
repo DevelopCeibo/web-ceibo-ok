@@ -1,5 +1,6 @@
 [
   {
+    "id": "1",
     "path-url": "data-scientist",
     "title": "Data Scientist",
     "bgcolor": "#6fc7b5",
@@ -33,6 +34,7 @@
     ]
   },
   {
+    "id": "2",
     "path-url": "manager",
     "title": "Manager",
     "bgcolor": "#891924",
@@ -134,6 +136,7 @@
     ]
   },
   {
+    "id": "3",
     "path-url": "senior-consultant",
     "title": "Consultant - Project Leader",
     "bgcolor": "#891924",
@@ -233,6 +236,7 @@
     ]
   },
   {
+    "id": "4",
     "path-url": "associate",
     "title": "Associate",
     "bgcolor": "#891924",
@@ -320,6 +324,7 @@
     ]
   },
   {
+    "id": "5",
     "path-url": "senior-developer",
     "title": "Developer Full-stack Sr.",
     "bgcolor": "#6fc7b5",
