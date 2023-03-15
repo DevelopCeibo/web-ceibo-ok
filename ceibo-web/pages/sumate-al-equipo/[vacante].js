@@ -1,59 +1,16 @@
-import { useRouter } from "next/router"
-import React, { useState, useEffect } from "react"
-import Footer from "../../components/Layouts/Footer"
-import NavbarTwo from "../../components/Layouts/NavbarTwo"
-import Formulario from "../../components/sumatealequipo/vacantes/Formulario"
-import PageBanner from "../../components/Common/PageBanner"
+import React from "react"
 import axios from "axios"
-import vacantesES from "../../utils/vacantes.json"
-import vacantesEN from "../../utils/vacantesEN.json"
-
-import DescripcionVacante from "../../components/sumatealequipo/vacantes/DescripcionVacante"
-import { Typography, Box } from "@mui/material"
 import { marked } from "marked"
 import Head from "next/head"
 import baseUrl from "../../utils/baseUrl"
 
-const Vacante = () => {
-  // const Vacante = ({ vacantesES, vacantesEN }) => {
-  const router = useRouter()
-  const { locale } = useRouter()
+import Footer from "../../components/Layouts/Footer"
+import NavbarTwo from "../../components/Layouts/NavbarTwo"
+import Formulario from "../../components/sumatealequipo/vacantes/Formulario"
+import PageBanner from "../../components/Common/PageBanner"
+import { Typography, Box, CircularProgress, Backdrop } from "@mui/material"
 
-  const pathVacante = router.asPath.split("/")[2]
-
-  const [vacantes, setvacantes] = useState(
-    locale == "es" ? vacantesES : vacantesEN
-  )
-  // const [vacantes, setvacantes] = useState(
-  //   locale == "en" ? vacantesEN : vacantesES
-  // )
-  const [vacante, setVacante] = useState({})
-
-  React.useEffect(() => {
-    if (locale == "en") {
-      setvacantes(vacantesEN)
-    } else {
-      setvacantes(vacantesES)
-    }
-    vacantes.forEach((vac) => {
-      if (vac["path-url"] == pathVacante) {
-        setVacante(vac)
-      }
-    })
-
-    // const selectedVacante = vacantes?.find(
-    //   (vac) => vac["path-url"] === pathVacante
-    // )
-    // setVacante(selectedVacante)
-  }, [locale, pathVacante])
-
-  // React.useEffect(() => {
-  //   const selectedVacante = vacantes?.find(
-  //     (vac) => vac["path-url"] === pathVacante
-  //   )
-  //   setVacante(selectedVacante)
-  // }, [vacantes, pathVacante])
-
+const Vacante = ({ vacante }) => {
   const renderContent = (content) => {
     return content?.map((el, i) => {
       switch (el.type) {
@@ -125,51 +82,97 @@ const Vacante = () => {
         <title>{TITLE}</title>
       </Head>
       <NavbarTwo />
-      <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
-      {/* <DescripcionVacante description={ManagerDesc} /> */}
-      <div className="pt-70">
+      {vacante ? (
+        <>
+          <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
+        </>
+      ) : (
+        <PageBanner
+          pageTitle={"Ofertas laborales en Ceibo Digital"}
+          bgcolor={"#b72837"}
+        />
+      )}
+
+      <div className="pt-70" style={{ minHeight: "100vh" }}>
         <div className="container">
-          <Box component="section" sx={{ border: "thin solid #e8e8e8", p: 2 }}>
-            {renderContent(vacante?.content)}
-          </Box>
+          {vacante ? (
+            <Box
+              component="section"
+              sx={{ border: "thin solid #e8e8e8", p: 2 }}
+            >
+              {renderContent(vacante?.content)}
+            </Box>
+          ) : (
+            <Backdrop
+              sx={{
+                color: "#fff",
+                zIndex: (theme) => theme.zIndex.drawer + 1,
+              }}
+              open={!vacante}
+            >
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  padding: "100px",
+                }}
+              >
+                <>
+                  <h4 style={{ padding: "30px", color: "white" }}>
+                    Cargando formulario
+                  </h4>
+                  <CircularProgress />
+                </>
+              </Box>
+            </Backdrop>
+          )}
         </div>
       </div>
 
-      <Formulario vacante={vacante?.title} />
+      {vacante && <Formulario vacante={vacante?.title} />}
+
       <Footer />
     </>
   )
 }
 
-// export async function getServerSideProps(context) {
-//   const resEs = await axios.get(`${baseUrl}/api/vacantes?locale=es`)
-//   const resEn = await axios.get(`${baseUrl}/api/vacantes?locale=en`)
+export async function getStaticProps(context) {
+  const locale = context.locale
+  const slug = context.params.vacante
+  try {
+    const res = await axios.get(
+      `${baseUrl}/api/vacantes?locale=${locale}&single=true&slug=${slug}`
+    )
+    const vacante = res.data
 
-//   const vacantesES = resEs.data
-//   const vacantesEN = resEn.data
+    return {
+      props: {
+        vacante,
+      },
+    }
+  } catch (err) {
+    console.error(`Error fetching data  ${err.message}`)
+    return {
+      props: {
+        vacante: null,
+      },
+    }
+  }
+}
 
-//   return {
-//     props: {
-//       vacantesES,
-//       vacantesEN,
-//     },
-//   }
-// }
+export async function getStaticPaths() {
+  const res = await axios.get(`${baseUrl}/api/vacantes?locale=es`)
+  const vacantes = res.data
 
-// export async function getStaticPaths(context) {
-//   // const locale = context.locale
-
-//   const res = await axios.get(`${baseUrl}/api/vacantes?locale=es`)
-
-//   const vacantes = res.data
-
-//   const paths = vacantes?.map((vacante) => ({
-//     params: { vacante: vacante["path-url"] },
-//   }))
-//   return {
-//     paths: paths,
-//     fallback: true, // Set to true if you want to fallback to SSR or client-side rendering for paths that aren't generated at build time
-//   }
-// }
+  const paths = vacantes?.map((vacante) => ({
+    params: { vacante: vacante["path-url"] },
+  }))
+  return {
+    paths: paths,
+    fallback: true, // Set to true if you want to fallback to SSR or client-side rendering for paths that aren't generated at build time
+  }
+}
 
 export default Vacante
