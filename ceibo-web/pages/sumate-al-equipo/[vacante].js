@@ -7,9 +7,9 @@ import PageBanner from "../../components/Common/PageBanner"
 import vacantesES from "../../utils/vacantes.json"
 import vacantesEN from "../../utils/vacantesEN.json"
 
-import { Typography, Box } from "@mui/material"
 import { marked } from "marked"
 import Head from "next/head"
+import { Typography, Box, CircularProgress, Backdrop } from "@mui/material"
 
 const Vacante = () => {
   const router = useRouter()
@@ -107,7 +107,7 @@ const Vacante = () => {
         <title>{TITLE}</title>
       </Head>
       <NavbarTwo />
-      <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
+      {/* <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
       <div className="pt-70">
         <div className="container">
           <Box component="section" sx={{ border: "thin solid #e8e8e8", p: 2 }}>
@@ -116,7 +116,56 @@ const Vacante = () => {
         </div>
       </div>
 
-      <Formulario vacante={vacante?.title} />
+      <Formulario vacante={vacante?.title} /> */}
+      {vacante ? (
+        <>
+          <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
+        </>
+      ) : (
+        <PageBanner
+          pageTitle={"Ofertas laborales en Ceibo Digital"}
+          bgcolor={"#b72837"}
+        />
+      )}
+      ;
+      <div className="pt-70" style={{ minHeight: "100vh" }}>
+        <div className="container">
+          {vacante ? (
+            <Box
+              component="section"
+              sx={{ border: "thin solid #e8e8e8", p: 2 }}
+            >
+              {renderContent(vacante?.content)}
+            </Box>
+          ) : (
+            <Backdrop
+              sx={{
+                color: "#fff",
+                zIndex: (theme) => theme.zIndex.drawer + 1,
+              }}
+              open={!vacante}
+            >
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  padding: "100px",
+                }}
+              >
+                <>
+                  <h4 style={{ padding: "30px", color: "white" }}>
+                    Cargando formulario
+                  </h4>
+                  <CircularProgress />
+                </>
+              </Box>
+            </Backdrop>
+          )}
+        </div>
+      </div>
+      {vacante && <Formulario vacante={vacante?.title} />}
       <Footer />
     </>
   )
