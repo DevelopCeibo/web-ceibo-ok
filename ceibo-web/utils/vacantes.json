@@ -3,6 +3,7 @@
     "id": "1",
     "path-url": "data-scientist",
     "title": "Data Scientist",
+    "image": "/images-ceibo/sumatealequipo/ceibo-team-2.jpg",
     "bgcolor": "#6fc7b5",
     "content": [
       {
@@ -37,6 +38,7 @@
     "id": "2",
     "path-url": "manager",
     "title": "Manager",
+    "image": "/images-ceibo/manager-1.jpg",
     "bgcolor": "#891924",
     "content": [
       {
@@ -138,6 +140,7 @@
   {
     "id": "3",
     "path-url": "senior-consultant",
+    "image": "/images-ceibo/senior-consultant.jpeg",
     "title": "Consultant - Project Leader",
     "bgcolor": "#891924",
     "content": [
@@ -238,6 +241,7 @@
   {
     "id": "4",
     "path-url": "associate",
+    "image": "/images-ceibo/sumatealequipo/Cultura-culturadigital2.jpeg",
     "title": "Associate",
     "bgcolor": "#891924",
     "content": [
@@ -326,6 +330,7 @@
   {
     "id": "5",
     "path-url": "senior-developer",
+    "image": "/images-ceibo/sumatealequipo/Sumatealequipo-developersr.jpg",
     "title": "Developer Full-stack Sr.",
     "bgcolor": "#6fc7b5",
     "content": [

@@ -1,6 +1,7 @@
 import React from "react"
 import Link from "next/link"
 import useTranslation from "next-translate/useTranslation"
+import vacantes from "../../../utils/vacantes.json"
 
 const Vacantes = () => {
   const { t } = useTranslation("common")
@@ -11,6 +12,8 @@ const Vacantes = () => {
   const vermas = t("vermas")
   const mirarbusquedas = t("mirarbusquedas")
   const uniteaceibo = t("uniteaceibo")
+
+  let vacantesHome = vacantes.slice(0, 3)
   return (
     <>
       <div className="pt-100 pb-70">
@@ -20,85 +23,39 @@ const Vacantes = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <div className="bc-post-item card-vacantes">
-                <Link href="/sumate-al-equipo/data-scientist">
-                  <div
-                    className="post-image"
-                    style={{
-                      backgroundImage: `url(
-                        /images-ceibo/ceibo-team-2.jpg
+            {vacantesHome.map((vac) => {
+              return (
+                <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <div className="bc-post-item card-vacantes">
+                    <div
+                      className="post-image"
+                      style={{
+                        backgroundImage: `url(
+                        ${vac.image}
                       )`,
-                    }}
-                  >
-                    {/* <a className="d-block">
-                      <img src="/images-ceibo/ceibo-team-2.jpg" alt="image" />
-                    </a> */}
-                  </div>
-                </Link>
+                      }}
+                    ></div>
 
-                <div className="post-content">
-                  <div className="post-text">
-                    <h3>Data scientist</h3>
-                    <p>{dataScientist}</p>
+                    <div className="post-content">
+                      <div className="post-text">
+                        <h6>{vac.title}</h6>
+                        <p>{vac.id == "1" && dataScientist}</p>
+                        <p>{vac.id == "2" && manager}</p>
+                        <p>{vac.id == "3" && consultant}</p>
+                      </div>
+                      <Link
+                        href={`/sumate-al-equipo/${vac["path-url"]}`}
+                        passHref
+                      >
+                        <a className="link-btn link-btn-vacantes">
+                          {vermas} <i className="fas fa-chevron-right"></i>
+                        </a>
+                      </Link>
+                    </div>
                   </div>
-                  <Link href="/sumate-al-equipo/data-scientist">
-                    <a className="link-btn link-btn-vacantes">
-                      {vermas} <i className="fas fa-chevron-right"></i>
-                    </a>
-                  </Link>
                 </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <div className="bc-post-item card-vacantes">
-                <div
-                  className="post-image"
-                  style={{
-                    backgroundImage: `url(
-                        /images-ceibo/manager-1.jpg
-                      )`,
-                  }}
-                ></div>
-                <div className="post-content">
-                  <div className="post-text">
-                    <h3>Manager</h3>
-                    <p>{manager}</p>
-                  </div>
-                  <Link href="/sumate-al-equipo/manager">
-                    <a className="link-btn link-btn-vacantes">
-                      {vermas} <i className="fas fa-chevron-right"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <div className="bc-post-item card-vacantes">
-                <div
-                  className="post-image"
-                  style={{
-                    backgroundImage: `url(
-                        /images-ceibo/senior-consultant.jpeg
-                      )`,
-                  }}
-                ></div>
-                <div className="post-content">
-                  <div className="post-text">
-                    <h3>Consultant - Project Leader</h3>
-                    <p>{consultant}</p>
-                  </div>
-                  <Link href="/sumate-al-equipo/senior-consultant">
-                    <a className="link-btn link-btn-vacantes">
-                      {vermas}
-                      <i className="fas fa-chevron-right"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
+              )
+            })}
 
             <div className="col-lg-3 col-md-6">
               <div className="bc-post-item card-vacantes card-vacantes-verbusquedas">

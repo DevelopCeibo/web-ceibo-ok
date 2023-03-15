@@ -1,21 +1,17 @@
 import { useRouter } from "next/router"
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import Footer from "../../components/Layouts/Footer"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
 import Formulario from "../../components/sumatealequipo/vacantes/Formulario"
 import PageBanner from "../../components/Common/PageBanner"
-import axios from "axios"
 import vacantesES from "../../utils/vacantes.json"
 import vacantesEN from "../../utils/vacantesEN.json"
 
-import DescripcionVacante from "../../components/sumatealequipo/vacantes/DescripcionVacante"
 import { Typography, Box } from "@mui/material"
 import { marked } from "marked"
 import Head from "next/head"
-import baseUrl from "../../utils/baseUrl"
 
 const Vacante = () => {
-  // const Vacante = ({ vacantesES, vacantesEN }) => {
   const router = useRouter()
   const { locale } = useRouter()
 
@@ -24,9 +20,7 @@ const Vacante = () => {
   const [vacantes, setvacantes] = useState(
     locale == "es" ? vacantesES : vacantesEN
   )
-  // const [vacantes, setvacantes] = useState(
-  //   locale == "en" ? vacantesEN : vacantesES
-  // )
+
   const [vacante, setVacante] = useState({})
 
   React.useEffect(() => {
@@ -40,19 +34,7 @@ const Vacante = () => {
         setVacante(vac)
       }
     })
-
-    // const selectedVacante = vacantes?.find(
-    //   (vac) => vac["path-url"] === pathVacante
-    // )
-    // setVacante(selectedVacante)
   }, [locale, pathVacante])
-
-  // React.useEffect(() => {
-  //   const selectedVacante = vacantes?.find(
-  //     (vac) => vac["path-url"] === pathVacante
-  //   )
-  //   setVacante(selectedVacante)
-  // }, [vacantes, pathVacante])
 
   const renderContent = (content) => {
     return content?.map((el, i) => {
@@ -126,7 +108,6 @@ const Vacante = () => {
       </Head>
       <NavbarTwo />
       <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
-      {/* <DescripcionVacante description={ManagerDesc} /> */}
       <div className="pt-70">
         <div className="container">
           <Box component="section" sx={{ border: "thin solid #e8e8e8", p: 2 }}>
