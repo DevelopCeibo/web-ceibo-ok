@@ -19,7 +19,6 @@ import withReactContent from "sweetalert2-react-content"
 const MySwal = withReactContent(Swal)
 import baseUrl from "../../../utils/baseUrl"
 import useTranslation from "next-translate/useTranslation"
-import { Label } from "@mui/icons-material"
 
 const alertContent = () => {
   MySwal.fire({
