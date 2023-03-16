@@ -10,6 +10,7 @@ import Head from "next/head"
 
 const Publicacion = () => {
   const router = useRouter()
+  const { locale } = useRouter()
   const pathPublicacion = router.asPath.split("/")[2]
 
   const [data, setdata] = React.useState({})
@@ -33,7 +34,9 @@ const Publicacion = () => {
       <NavbarTwo />
       <PageBanner
         pageTitle={data.title}
-        subtitle={`${data.metadata?.date}  ${
+        subtitle={`${
+          locale == "es" ? data?.metadata.date : data?.metadata?.dateEN
+        }  ${
           data.metadata?.fuenteOriginal
             ? "- " + data.metadata?.fuenteOriginal
             : ""

@@ -309,7 +309,7 @@ const Eventos = () => {
                           </span>
                         )}
                         <Link href={ev.link}>
-                          <a className="read-more-btn">
+                          <a className="read-more-btn" target="_blank">
                             {locale == "en" ? "Watch webinar" : "Ver webinar"}
                             <i className="fa-solid fa-angles-right"></i>
                           </a>

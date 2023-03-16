@@ -5,6 +5,7 @@ import "swiper/css"
 import "swiper/css/autoplay"
 import "swiper/css/pagination"
 import useTranslation from "next-translate/useTranslation"
+import Image from "next/image"
 
 const Partner = () => {
   const { t } = useTranslation("common")
@@ -22,7 +23,7 @@ const Partner = () => {
             pagination={{
               clickable: true,
             }}
-            spaceBetween={30}
+            spaceBetween={0}
             slidesPerView={1}
             modules={[Pagination, Autoplay]}
             autoplay={{ delay: 4000 }}
@@ -36,6 +37,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/0036_galicia.png"
                       alt="galicia"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -46,6 +48,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/0029_ingram.png"
                       alt="Ingram"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -56,6 +59,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/0031_scotiabank.png"
                       alt="scotiabank"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -66,6 +70,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/0044_zurich.png"
                       alt="zurich"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -76,6 +81,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/banco-valores.png"
                       alt="banco de valores"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -89,6 +95,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/upl.png"
                       alt="UPL"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -98,6 +105,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/wom.png"
                       alt="WOM"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -107,6 +115,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/0037_lenovo.png"
                       alt="Lenovo"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -116,6 +125,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/0010_prosegur.png"
                       alt="prosegur"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -125,6 +135,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/fraccionate.png"
                       alt="fraccionate"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>{" "}
@@ -138,6 +149,8 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/CIE-Logo.png"
                       alt="CIE"
                       className="img-grey"
+                      width={140}
+                      style={{ maxHeight: "140px" }}
                     />
                   </div>
                 </div>
@@ -147,6 +160,8 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/Dominus-logo.png"
                       alt="Dominus"
                       className="img-grey"
+                      width={120}
+                      style={{ maxHeight: "140px" }}
                     />
                   </div>
                 </div>
@@ -156,6 +171,8 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/Ebiw-logo.jpeg"
                       alt="Ebiw"
                       className="img-grey"
+                      width={140}
+                      style={{ maxHeight: "140px" }}
                     />
                   </div>
                 </div>
@@ -165,6 +182,8 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/Farmacenter-logo.png"
                       alt="Farmacenter"
                       className="img-grey"
+                      width={140}
+                      style={{ maxHeight: "140px" }}
                     />
                   </div>
                 </div>
@@ -174,6 +193,8 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/Gador-logo.jpeg"
                       alt="Gador"
                       className="img-grey"
+                      width={140}
+                      style={{ maxHeight: "140px" }}
                     />
                   </div>
                 </div>{" "}
@@ -187,6 +208,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/id-logistics-logo.png"
                       alt="id-logistics"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -196,6 +218,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/logo-invera.png"
                       alt="invera"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -205,6 +228,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/Negofin-logo.png"
                       alt="Negofin"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -214,6 +238,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/Teengo-logo.jpeg"
                       alt="Teengo"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>
@@ -223,6 +248,7 @@ const Partner = () => {
                       src="/images-ceibo/clientes-iconos/Telecom_logo_2021.svg.png"
                       alt="Telecom_logo_2021"
                       className="img-grey"
+                      width={200}
                     />
                   </div>
                 </div>{" "}

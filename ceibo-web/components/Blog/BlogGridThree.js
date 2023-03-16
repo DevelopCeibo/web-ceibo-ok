@@ -36,7 +36,11 @@ const BlogGrid = () => {
                       locale == "es" ? "blog" : null
                     }`}
                   >
-                    <span className="date">{publi.metadata.date}</span>
+                    <span className="date">
+                      {locale == "es"
+                        ? publi?.metadata.date
+                        : publi?.metadata.dateEN}
+                    </span>
                     <h3>
                       <Link href={`/publicaciones/${publi.id}`}>
                         <a>{locale == "en" ? publi.titleEN : publi.title}</a>
