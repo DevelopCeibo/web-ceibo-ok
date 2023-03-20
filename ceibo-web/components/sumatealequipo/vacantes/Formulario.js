@@ -23,7 +23,7 @@ import useTranslation from "next-translate/useTranslation"
 const alertContent = () => {
   MySwal.fire({
     title: "",
-    text: "Mensaje enviado",
+    text: "Tu información fue enviada correctamente al equipo de recruiting de CEIBO",
     icon: "success",
     timer: 2000,
     timerProgressBar: true,

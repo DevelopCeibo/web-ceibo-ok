@@ -11,7 +11,7 @@ import { Typography } from "@mui/material"
 const alertContent = () => {
   MySwal.fire({
     title: "",
-    text: "Mensaje enviado",
+    text: "Suscripción realizada con éxito",
     icon: "success",
     timer: 3000,
     timerProgressBar: true,

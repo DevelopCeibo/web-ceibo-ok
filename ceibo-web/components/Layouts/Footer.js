@@ -10,7 +10,7 @@ import axios from "axios"
 const alertContent = () => {
   MySwal.fire({
     title: "",
-    text: "Mensaje enviado",
+    text: "Suscripción realizada con éxito",
     icon: "success",
     timer: 3400,
     timerProgressBar: true,

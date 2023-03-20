@@ -230,11 +230,16 @@ const AreasDeServicio = () => {
             <div className="col-12 ">
               <div className="d-flex justify-content-between align-items-center">
                 <h3>{estrategia}</h3>
-                {!matchesSM && (
+
+                <IconButton onClick={() => setOpenStrategy(false)}>
+                  <CloseIcon color="primary" fontSize="large" />
+                </IconButton>
+
+                {/* {!matchesSM && (
                   <IconButton onClick={() => setOpenStrategy(false)}>
                     <CloseIcon color="primary" fontSize="large" />
                   </IconButton>
-                )}
+                )} */}
               </div>
               <p>{estrategiaModalTxt1}</p>
 
@@ -266,11 +271,11 @@ const AreasDeServicio = () => {
         <Box sx={matches ? style : mobileStyles} className="modal-content">
           <div className="d-flex justify-content-between align-items-center">
             <h3> {excelencia}</h3>
-            {!matchesSM && (
-              <IconButton onClick={() => setOpenExcelencia(false)}>
-                <CloseIcon color="primary" fontSize="large" />
-              </IconButton>
-            )}
+            {/* {!matchesSM && ( */}
+            <IconButton onClick={() => setOpenExcelencia(false)}>
+              <CloseIcon color="primary" fontSize="large" />
+            </IconButton>
+            {/* )} */}
           </div>
           <p>{excelenciaModalText1}</p>
           <Typography id="modal-modal-description" sx={{ my: 1, pb: 1 }}>
@@ -298,11 +303,11 @@ const AreasDeServicio = () => {
         <Box sx={matches ? style : mobileStyles} className="modal-content">
           <div className="d-flex justify-content-between align-items-center">
             <h3> {locale == "es" ? "Organización" : "Organization"}</h3>
-            {!matchesSM && (
-              <IconButton onClick={() => setOpenOrganizacion(false)}>
-                <CloseIcon color="primary" fontSize="large" />
-              </IconButton>
-            )}
+            {/* {!matchesSM && ( */}
+            <IconButton onClick={() => setOpenOrganizacion(false)}>
+              <CloseIcon color="primary" fontSize="large" />
+            </IconButton>
+            {/* )} */}
           </div>
           <p>{organizacionModalText1}</p>
           <Typography id="modal-modal-description" sx={{ my: 1, pb: 1 }}>
@@ -329,11 +334,11 @@ const AreasDeServicio = () => {
         <Box sx={matches ? style : mobileStyles} className="modal-content">
           <div className="d-flex justify-content-between align-items-center">
             <h3> {innovacion}</h3>
-            {!matchesSM && (
-              <IconButton onClick={() => setOpenInnovacion(false)}>
-                <CloseIcon color="primary" fontSize="large" />
-              </IconButton>
-            )}
+            {/* {!matchesSM && ( */}
+            <IconButton onClick={() => setOpenInnovacion(false)}>
+              <CloseIcon color="primary" fontSize="large" />
+            </IconButton>
+            {/* )} */}
           </div>
           <p>{innovacionModalText1}</p>
           <Typography id="modal-modal-description" sx={{ my: 1, pb: 1 }}>
@@ -358,11 +363,11 @@ const AreasDeServicio = () => {
         <Box sx={matches ? style : mobileStyles} className="modal-content">
           <div className="d-flex justify-content-between align-items-center">
             <h3> {customereng}</h3>
-            {!matchesSM && (
-              <IconButton onClick={() => setOpenCustomer(false)}>
-                <CloseIcon color="primary" fontSize="large" />
-              </IconButton>
-            )}
+            {/* {!matchesSM && ( */}
+            <IconButton onClick={() => setOpenCustomer(false)}>
+              <CloseIcon color="primary" fontSize="large" />
+            </IconButton>
+            {/* )} */}
           </div>
           <p>{customerengModalText1}</p>
           <Typography id="modal-modal-description" sx={{ my: 1, pb: 1 }}>

@@ -36,8 +36,6 @@ import "../styles/responsive.css"
 import Head from "next/head"
 import GoTop from "../components/Layouts/GoTop"
 
-// import { Titillium_Web } from "@next/font/google"
-
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     AOS.init()
