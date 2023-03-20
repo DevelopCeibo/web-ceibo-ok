@@ -35,7 +35,7 @@ const Publicacion = () => {
       <PageBanner
         pageTitle={data.title}
         subtitle={`${
-          locale == "es" ? data?.metadata.date : data?.metadata?.dateEN
+          locale == "es" ? data?.metadata?.date : data?.metadata?.dateEN
         }  ${
           data.metadata?.fuenteOriginal
             ? "- " + data.metadata?.fuenteOriginal
