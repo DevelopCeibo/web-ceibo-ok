@@ -123,7 +123,22 @@ const Newsletter = () => {
                   // {...register("email", { required: true })}
                 />
                 {errors.email && (
-                  <Typography color="white">{errors.email.message}</Typography>
+                  <div
+                    style={{
+                      backgroundColor: "white",
+                      padding: "20px",
+                      width: "fit-content",
+                      margin: "10px auto 0",
+                      borderRadius: "8px",
+                      border: "1px solid red",
+                      color: "red",
+                      position: "absolute",
+                      left: "0",
+                      right: "0",
+                    }}
+                  >
+                    {errors.email.message}
+                  </div>
                 )}
 
                 <button type="submit">{suscribirme}!</button>

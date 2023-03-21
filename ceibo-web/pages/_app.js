@@ -35,9 +35,11 @@ import "../styles/responsive.css"
 
 import Head from "next/head"
 import GoTop from "../components/Layouts/GoTop"
+import TagManager from "react-gtm-module"
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
+    TagManager.initialize({ gtmId: "G-2BYZD1VPZ1" })
     AOS.init()
   }, [])
   return (
