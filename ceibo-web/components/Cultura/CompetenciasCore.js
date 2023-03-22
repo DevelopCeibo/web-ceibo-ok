@@ -22,7 +22,7 @@ const CompetenciasCore = () => {
           <h2>{competenciasCore}</h2>
           <h5>{competenciasCoreSubt}</h5>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center competencias-core">
           <div className="col-6 col-sm-4 col-lg-3">
             <div className="ccore-card">
               <img

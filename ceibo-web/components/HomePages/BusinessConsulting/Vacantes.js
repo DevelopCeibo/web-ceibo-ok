@@ -23,9 +23,9 @@ const Vacantes = () => {
           </div>
 
           <div className="row justify-content-center">
-            {vacantesHome.map((vac) => {
+            {vacantesHome.map((vac, i) => {
               return (
-                <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div className="col-lg-3 col-md-6 mb-4 mb-md-0" key={i}>
                   <div className="bc-post-item card-vacantes">
                     <div
                       className="post-image"

@@ -52,17 +52,17 @@ class MyDocument extends Document {
             content="MiSdMw4nLxp1Qd0UF48U_gt7y14H_mlRi8sWs0Q0k_E"
           />
           {/* <!-- Google tag (gtag.js) --> */}
-          {/* <Script
+          <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-2BYZD1VPZ1"
-          ></Script> */}
-          {/* <Script
+          ></script>
+          <script
             dangerouslySetInnerHTML={{
               __html: `window.dataLayer = window.dataLayer || []; function gtag()
             {dataLayer.push(arguments)}
             gtag('js', new Date()); gtag('config', 'G-2BYZD1VPZ1')} `,
             }}
-          /> */}
+          ></script>
         </Head>
         <body>
           <Main />
