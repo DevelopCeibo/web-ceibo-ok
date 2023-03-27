@@ -43,12 +43,17 @@ const Vacantes = () => {
                         <p>{vac.id == "2" && manager}</p>
                         <p>{vac.id == "3" && consultant}</p>
                       </div>
-                      <Link
+                      {/* <Link
                         href={`/sumate-al-equipo/${vac["path-url"]}`}
                         passHref
                       >
                         <a className="link-btn link-btn-vacantes">
                           {vermas} <i className="fas fa-chevron-right"></i>
+                        </a>
+                      </Link> */}
+                      <Link href={`/sumate-al-equipo/${vac["path-url"]}`}>
+                        <a className="read-more-btn">
+                          {vermas} <i className="fa-solid fa-angles-right"></i>
                         </a>
                       </Link>
                     </div>

@@ -4,6 +4,25 @@ const nextTranslate = require("next-translate")
 const path = require("path")
 
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/empleos/:empleo*",
+        destination: "/sumate-al-equipo",
+        permanent: true,
+      },
+      {
+        source: "/tag/:tagg*",
+        destination: "/publicaciones",
+        permanent: true,
+      },
+      {
+        source: "/category/:categori*",
+        destination: "/publicaciones",
+        permanent: true,
+      },
+    ]
+  },
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,

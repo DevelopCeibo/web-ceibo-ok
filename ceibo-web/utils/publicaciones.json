@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "path-url": "vision-de-lideres-2023",
     "title": "Visión de Líderes 2023",
     "titleEN": "Leaders’ Vision 2023",
     "img": "/images-ceibo/publicaciones/lideres2023.png",
@@ -58,6 +59,7 @@
   },
   {
     "id": "2",
+    "path-url": "la-transformacion-digital-no-es-solo-tecnologia",
     "title": "La transformación digital no es solo un concepto bonito",
     "titleEN": "Digital transformation is not only about technology",
     "img": "/images-ceibo/publicaciones/IAE-600x403.png",
@@ -150,6 +152,7 @@
   {
     "id": "3",
     "title": "Darwinismo Tecnológico",
+    "path-url": "darwinismo-tecnologico",
     "titleEN": "Circular Cowork Talks: Getting to know Ceibo Digital",
     "img": "/images-ceibo/publicaciones/darwinismo-tecnologico-600x403.jpg",
     "desc": "Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas.",
@@ -243,6 +246,7 @@
   {
     "id": "4",
     "title": "La empresa argentina que conquistó 40 países y estima facturar casi $300M",
+    "path-url": "ceibo-la-consultora-en-transformacion-digital-que-conquisto-40-paises",
     "titleEN": "Ceibo got ahead of the pandemic with digital transformation and quadrupled revenue in 2021",
     "img": "/images-ceibo/publicaciones/ceibo-digital-consultoria-transformacion-digital-600x403.png",
     "desc": "Ya antes de la pandemia los líderes empresariales habían entendido que la transformación digital era muy importante para la sustentabilidad de sus compañías, pero en el ..",
@@ -343,8 +347,6 @@
       }
     ],
     "metadata": {
-      "author": "Nicolás Calvo - Senior Specialist",
-      "authorImg": "/images-ceibo/integrantes/Nicolas Calvo.png",
       "date": "30 diciembre, 2021",
       "dateEN": "december 30, 2021",
       "bannerImg": "/images-ceibo/publicaciones/ceibo-digital-consultoria-transformacion-digital.png",
@@ -353,6 +355,7 @@
   },
   {
     "id": "5",
+    "path-url": "vision-de-lideres-2022",
     "title": "Visión de Líderes 2022",
     "titleEN": "Leaders’ Vision 2022",
     "img": "/images-ceibo/publicaciones/vision-de-los-lideres-2022-600x403.png",
@@ -402,6 +405,7 @@
   },
   {
     "id": "6",
+    "path-url": "agile-importante-en-el-contexto-actual",
     "title": "Agile ¿Qué es y por qué es importante en el contexto actual?",
     "titleEN": "What is Agile and Why is it Important?",
     "img": "/images-ceibo/publicaciones/metodologias-agiles.jpg",
@@ -447,6 +451,7 @@
   },
   {
     "id": "7",
+    "path-url": "cual-es-el-impacto-de-la-pandemia-en-las-tendencias-de-consumo",
     "title": "¿Cuál es el impacto de la pandemia en las tendencias de consumo?",
     "titleEN": "Covid-19: Impact on consumer trends",
     "img": "/images-ceibo/publicaciones/tendencias-de-consumo.jpg",
@@ -486,6 +491,7 @@
   },
   {
     "id": "8",
+    "path-url": "black-friday-2022-estadisticas-y-tendencias",
     "title": "Cifras y tendencias que se esperan para la próxima edición del Black Friday",
     "titleEN": "Black Friday stats and trends expected for 2022Black Friday stats and trends expected for 2022",
     "img": "/images-ceibo/publicaciones/black-friday-4655335_1920-1536x1024.jpg",
@@ -544,6 +550,7 @@
   },
   {
     "id": "9",
+    "path-url": "mitos-de-la-transformacion-digital",
     "title": "Transformación digital: 5 mitos de la nueva era",
     "titleEN": "5 myths about digital transformation",
     "img": "/images-ceibo/publicaciones/transformacion-digital-5-mitos-1536x1024.jpg",
@@ -617,6 +624,7 @@
   },
   {
     "id": "10",
+    "path-url": "el-desafio-de-la-transformacion-digital-en-paraguay",
     "title": "La transformación digital, uno de los desafíos del 2021",
     "titleEN": "Digital transformation in Paraguay",
     "img": "/images-ceibo/publicaciones/top-banner-contacto-1536x560.jpg",
@@ -730,6 +738,7 @@
   },
   {
     "id": "11",
+    "path-url": "por-que-las-fintech-son-las-grandes-protagonistas-la-transformacion-digital",
     "title": "Por qué las fintech son las grandes protagonistas de la transformación digital",
     "titleEN": "Fintechs and the digital transformation of financial services",
     "img": "/images-ceibo/publicaciones/priscilla-du-preez-341138-1-1536x897.jpg",
@@ -843,6 +852,7 @@
   },
   {
     "id": "12",
+    "path-url": "vision-de-lideres-2021",
     "title": "Ceibo Digital entre las empresas más influyentes de Argentina",
     "titleEN": "Leaders’ Vision 2021",
     "img": "/images-ceibo/publicaciones/WhatsApp-Image-2021-05-11-at-12.34.22.jpeg",
@@ -872,6 +882,7 @@
   },
   {
     "id": "13",
+    "path-url": "ceibo-somos-una-empresa-great-place-to-work",
     "title": "¡Somos una empresa Great Place to Work!",
     "titleEN": "We are a Great Place to Work® Certified Company",
     "img": "/images-ceibo/publicaciones/Ceibo_PW_4.png",

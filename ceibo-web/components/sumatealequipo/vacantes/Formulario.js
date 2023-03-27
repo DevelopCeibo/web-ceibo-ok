@@ -1,7 +1,5 @@
 import {
-  Divider,
   FormControl,
-  TextField,
   Input,
   InputLabel,
   Stack,
@@ -9,9 +7,9 @@ import {
   FormGroup,
   Checkbox,
   FormControlLabel,
+  TextField,
 } from "@mui/material"
 import { Box } from "@mui/system"
-import Link from "next/link"
 import React, { useState } from "react"
 import axios from "axios"
 import Swal from "sweetalert2"
@@ -19,6 +17,7 @@ import withReactContent from "sweetalert2-react-content"
 const MySwal = withReactContent(Swal)
 import baseUrl from "../../../utils/baseUrl"
 import useTranslation from "next-translate/useTranslation"
+import { useForm } from "react-hook-form"
 
 const alertContent = () => {
   MySwal.fire({
@@ -84,6 +83,7 @@ const Formulario = ({ vacante }) => {
   }
 
   const [contact, setContact] = useState(INITIAL_STATE)
+
   const handleChange = (e) => {
     const { name, value } = e.target
     if (name == "cv") {
@@ -93,11 +93,35 @@ const Formulario = ({ vacante }) => {
     }
   }
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    mode: "onBlur",
+    criteriaMode: "all",
+    defaultValues: {
+      email: "",
+      name: "",
+      number: "",
+      lkdurl: "",
+    },
+    shouldFocusError: true,
+    shouldUnregister: true,
+    reValidateMode: "onChange",
+    // messages: {
+    //   required: "Este campo es requerido",
+    //   pattern: "El formato del correo electrónico no es válido",
+    // },
+  })
+
+  const onSubmit = async (data) => {
+    // e.preventDefault()
+    const { email, name, number, lkdurl } = data
     try {
       const url = `${baseUrl}/api/contact`
-      const { name, email, number, lkdurl, cv } = contact
+      const { cv } = contact
+      // const { name, email, number, lkdurl, cv } = contact
       const formData = new FormData()
       formData.append("name", name)
       formData.append("email", email)
@@ -137,47 +161,62 @@ const Formulario = ({ vacante }) => {
             <h4 style={{ padding: "20px 0 10px 10px" }}>{completaform}</h4>
             <Stack component="form">
               <FormControl sx={{ my: 2 }}>
-                <InputLabel htmlFor="fullname">{nombreyape} *</InputLabel>
-                <Input
+                {/* <InputLabel htmlFor="fullname">{nombreyape} *</InputLabel> */}
+                <TextField
+                  placeholder={nombreyape}
                   id="fullname"
                   type="text"
                   name="name"
-                  onChange={handleChange}
-                  value={contact.name}
+                  // onChange={handleChange}
+                  // value={contact.name}
+                  {...register("name", {
+                    required: "This field is required",
+                    minLength: { value: 2, message: "Mínimum of 2 characters" },
+                  })}
+                  error={!!errors.name}
+                  helperText={errors.name?.message}
                   required
                 />
               </FormControl>
               <FormControl sx={{ my: 2 }}>
-                <InputLabel htmlFor="email">Email *</InputLabel>
-                <Input
+                <TextField
+                  placeholder="Email *"
                   id="email"
                   type="email"
                   name="email"
-                  value={contact.email}
-                  onChange={handleChange}
+                  {...register("email", {
+                    required: "This field is required",
+                  })}
+                  error={!!errors.email}
+                  helperText={errors.email?.message}
                   required
                 />
               </FormControl>
               <FormControl sx={{ my: 2 }}>
-                <InputLabel htmlFor="phone">{telefono} *</InputLabel>
-                <Input
+                <TextField
+                  placeholder={telefono}
                   id="phone"
                   type="phone"
                   name="number"
-                  value={contact.number}
-                  onChange={handleChange}
+                  {...register("number", {
+                    required: "This field is required",
+                  })}
+                  error={!!errors.number}
+                  helperText={errors.number?.message}
                   required
                 />
               </FormControl>
               <FormControl sx={{ my: 2 }}>
-                <InputLabel htmlFor="lkd">LinkedIn URL *</InputLabel>
-                <Input
+                <TextField
+                  placeholder="LinkedIn URL *"
                   id="lkd"
                   type="url"
                   name="lkdurl"
-                  onChange={handleChange}
-                  value={contact.lkdurl}
-                  required
+                  {...register("lkdurl", {
+                    required: "This field is required",
+                  })}
+                  error={!!errors.lkdurl}
+                  helperText={errors.lkdurl?.message}
                 />
               </FormControl>
 
@@ -274,7 +313,7 @@ const Formulario = ({ vacante }) => {
 
               <div
                 className="container btn-two-container mb-1"
-                onClick={handleSubmit}
+                onClick={handleSubmit(onSubmit)}
               >
                 <a className="default-btn-two">{enviar}</a>
               </div>

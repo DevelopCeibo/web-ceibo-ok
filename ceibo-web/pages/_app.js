@@ -11,35 +11,17 @@ import "swiper/css"
 import "swiper/css/bundle"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/transformaciondigital.scss"
-
-// Software Startup Home Style
 import "../styles/software-home-page.css"
-// App Showcase Home Style
 import "../styles/app-home-page.css"
-// Digital Marketing Home Page Style
-// import "../styles/digital-marketing-home-page.css"
-// Personal Portfolio Home Style
-// import "../styles/personal-portfolio-home-page.css"
-// Business Consulting Home Page Style
 import "../styles/business-consulting-home-page.css"
-// SaaS Startup Home Page Style
-// import "../styles/saas-startup-home-page.css"
-// Freelancer Portfolio Home Page Style
-// import "../styles/freelancer-portfolio-home-page.css"
-// Cyber Security Agency Home Page Style
-// import "../styles/cyber-security-agency-home-page.css"
-
-// Global Style
 import "../styles/style.css"
 import "../styles/responsive.css"
 
 import Head from "next/head"
 import GoTop from "../components/Layouts/GoTop"
-import TagManager from "react-gtm-module"
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
-    // TagManager.initialize({ gtmId: "G-2BYZD1VPZ1" })
     AOS.init()
   }, [])
   return (

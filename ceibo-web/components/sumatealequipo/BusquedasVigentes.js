@@ -44,12 +44,17 @@ const BusquedasVigentes = () => {
                       <p>{vac.id == "4" && associate}</p>
                       <p>{vac.id == "5" && developer}</p>
                     </div>
-                    <Link
+                    {/* <Link
                       href={`/sumate-al-equipo/${vac["path-url"]}`}
                       passHref
                     >
                       <a className="link-btn link-btn-vacantes">
                         {vermas} <i className="fas fa-chevron-right"></i>
+                      </a>
+                    </Link> */}
+                    <Link href={`/sumate-al-equipo/${vac["path-url"]}`}>
+                      <a className="read-more-btn">
+                        {vermas} <i className="fa-solid fa-angles-right"></i>
                       </a>
                     </Link>
                   </div>
