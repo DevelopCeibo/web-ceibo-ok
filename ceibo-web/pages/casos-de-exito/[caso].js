@@ -258,7 +258,7 @@ const Caso = () => {
                       {/* <Link
                         href={`/casos-de-exito/${generateUrl(caso?.cliente)}`}
                       > */}
-                      <Link href={`/casos-de-exito/${caso.id}`}>
+                      <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                         <a className="read-more-btn">
                           {locale === "en"
                             ? "Read success story"
