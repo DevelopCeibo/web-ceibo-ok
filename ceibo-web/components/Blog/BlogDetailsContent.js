@@ -120,14 +120,17 @@ const BlogRightSidebar = ({ publicacion }) => {
           })
         case "quote":
           return (
-            <div
-              className="blog-quote"
-              style={{
-                color: "black",
-              }}
-            >
-              <p>{el.text}</p>
-              <p style={{ margin: "10px 0" }}>{el.author}</p>
+            <div>
+              <div
+                className="blog-quote"
+                style={{
+                  color: "black",
+                }}
+                dangerouslySetInnerHTML={{ __html: marked(el.text) }}
+              ></div>
+              <p className="blog-quote" style={{ margin: "10px 0" }}>
+                {el.author}
+              </p>
             </div>
           )
         default:
@@ -164,7 +167,8 @@ const BlogRightSidebar = ({ publicacion }) => {
                   </ul> */}
 
                   {/* Category */}
-                  {publicacion?.metadata?.author[0] ? (
+                  {publicacion?.metadata?.author?.length >= 1 &&
+                  publicacion.metadata.author[0] ? (
                     <div style={{ marginTop: "20px" }}>
                       <img
                         src={publicacion?.metadata.authorImg}
