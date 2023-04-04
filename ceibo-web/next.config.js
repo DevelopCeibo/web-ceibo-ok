@@ -3,7 +3,7 @@
 const nextTranslate = require("next-translate");
 const path = require("path");
 
-const ContentSecurityPolicy = `frame-ancestors 'self'`;
+const ContentSecurityPolicy = `default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'`;
 
 let securityheaders = [
   {
