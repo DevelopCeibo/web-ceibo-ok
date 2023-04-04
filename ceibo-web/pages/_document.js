@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document"
 import Script from "next/script"
+import React from "react"
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -16,15 +17,9 @@ class MyDocument extends Document {
             href="https://fonts.gstatic.com"
             crossOrigin="true"
           />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          />
-          <link rel="icon" type="image/png" href="/favicon.png"></link>
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" integrity="sha384-o0gQ0niRDjnNFkVpKDqAnYbkp05R1VGY6KOdntZ8ibnmRgdReF5tFYcOKajGb1G/" crossOrigin="anonymous"/>
+         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" integrity="sha384-j111xKbZeVawL7a9XjsTAedqQINCfVJ7S/C3UsqTuCTvM7IyiFVoJlwIZPcYYW/i" crossOrigin="anonymous" />
+         <link rel="icon" type="image/png" href="/favicon.png"></link>
           {/*  */}
           <meta
             name="description"

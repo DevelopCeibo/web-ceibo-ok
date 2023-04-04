@@ -3,7 +3,7 @@
 const nextTranslate = require("next-translate")
 const path = require("path")
 
-const ContentSecurityPolicy = `default-src 'self' 'https://ceibo.digital'; script-src 'self' https://www.google-analytics.com; font-src 'self' 'https://fonts.googleapis.com';` 
+const ContentSecurityPolicy = `default-src *;` 
 
 let securityheaders = [{
   key: 'X-DNS-Prefetch-Control',
@@ -27,10 +27,14 @@ let securityheaders = [{
 },
 {
   key: 'Referrer-Policy',
-  value: 'origin-when-cross-origin'
-}];
+  value: 'no-referrer, strict-origin-when-cross-origin'
+},
+];
 
-
+//{
+//  key: 'Content-Security-Policy',
+//  value: ContentSecurityPolicy
+//}
 
 
 const nextConfig = {
