@@ -3,7 +3,7 @@
 const nextTranslate = require("next-translate");
 const path = require("path");
 
-const ContentSecurityPolicy = `default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'`;
+const ContentSecurityPolicy = `default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; font-src https://fonts.gstatic.com;`;
 
 let securityheaders = [
   {
