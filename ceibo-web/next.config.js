@@ -3,7 +3,7 @@
 const nextTranslate = require("next-translate");
 const path = require("path");
 
-const ContentSecurityPolicy = `default-src *;`;
+const ContentSecurityPolicy = `frame-ancestors 'self'`;
 
 let securityheaders = [
   {
@@ -30,12 +30,11 @@ let securityheaders = [
     key: "Referrer-Policy",
     value: "no-referrer",
   },
+  {
+    key: "Content-Security-Policy",
+    value: ContentSecurityPolicy,
+  },
 ];
-
-//{
-//  key: 'Content-Security-Policy',
-//  value: ContentSecurityPolicy
-//}
 
 const nextConfig = {
   async headers() {
