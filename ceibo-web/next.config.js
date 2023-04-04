@@ -88,11 +88,11 @@ const nextConfig = {
     // Note: subdomains must be included in the domain value to be matched e.g. "fr.ceibo.digital localhost:3000".
     domains: [
       {
-        domain: "ceibo.digital localhost:3000",
+        domain: "ceibo.digital",
         defaultLocale: "es-ES",
       },
       {
-        domain: "ceibo.digital/en localhost:3000",
+        domain: "ceibo.digital/en",
         defaultLocale: "en-US",
         // an optional http field can also be used to test
         // locale domains locally with http instead of https
