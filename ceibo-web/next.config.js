@@ -3,12 +3,7 @@
 const nextTranslate = require("next-translate")
 const path = require("path")
 
-const ContentSecurityPolicy = `
-  default-src 'self';
-  script-src 'self';
-  child-src example.com;
-  style-src 'self' example.com;
-  font-src 'self'; ` 
+const ContentSecurityPolicy = `default-src 'self' 'https://ceibo.digital'; script-src 'self' https://www.google-analytics.com; font-src 'self' 'https://fonts.googleapis.com';` 
 
 let securityheaders = [{
   key: 'X-DNS-Prefetch-Control',
@@ -33,11 +28,10 @@ let securityheaders = [{
 {
   key: 'Referrer-Policy',
   value: 'origin-when-cross-origin'
-},
-{
-  key: 'Content-Security-Policy',
-  value: ContentSecurityPolicy.replace(/\s{2,}/g, ' ').trim()
 }];
+
+
+
 
 const nextConfig = {
   async headers(){
@@ -87,14 +81,14 @@ const nextConfig = {
     defaultLocale: "es-ES",
     // This is a list of locale domains and the default locale they
     // should handle (these are only required when setting up domain routing)
-    // Note: subdomains must be included in the domain value to be matched e.g. "fr.example.com".
+    // Note: subdomains must be included in the domain value to be matched e.g. "fr.ceibo.digital localhost:3000".
     domains: [
       {
-        domain: "example.com",
+        domain: "ceibo.digital localhost:3000",
         defaultLocale: "es-ES",
       },
       {
-        domain: "example.com/en",
+        domain: "ceibo.digital/en localhost:3000",
         defaultLocale: "en-US",
         // an optional http field can also be used to test
         // locale domains locally with http instead of https
