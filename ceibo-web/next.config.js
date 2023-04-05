@@ -1,49 +1,27 @@
 /** @type {import('next').NextConfig} */
 
-const nextTranslate = require("next-translate");
-const path = require("path");
-
-const ContentSecurityPolicy = `default-src 'unsafe-inline'; style-src-elem https://fonts.gstatic.com https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com https://fonts.googleapis.com 'unsafe-inline'; img-src 'unsafe-inline'`;
-
-let securityheaders = [
-  {
-    key: "X-DNS-Prefetch-Control",
-    value: "on",
-  },
-  {
-    key: "Strict-Transport-Security",
-    value: "max-age=63072000; includeSubDomains; preload",
-  },
-  {
-    key: "X-XSS-Protection",
-    value: "1; mode=block",
-  },
-  {
-    key: "X-Frame-Options",
-    value: "SAMEORIGIN",
-  },
-  {
-    key: "X-Content-Type-Options",
-    value: "nosniff",
-  },
-  {
-    key: "Referrer-Policy",
-    value: "no-referrer",
-  },
-  //{
-  //  key: "Content-Security-Policy",
-  //  value: ContentSecurityPolicy,
-  //},
-];
+const nextTranslate = require("next-translate")
+const path = require("path")
 
 const nextConfig = {
-  async headers() {
+  async redirects() {
     return [
       {
-        source: "/:path*",
-        headers: securityheaders,
+        source: "/empleos/:empleo*",
+        destination: "/sumate-al-equipo",
+        permanent: true,
       },
-    ];
+      {
+        source: "/tag/:tagg*",
+        destination: "/publicaciones",
+        permanent: true,
+      },
+      {
+        source: "/category/:categori*",
+        destination: "/publicaciones",
+        permanent: true,
+      },
+    ]
   },
   reactStrictMode: true,
   swcMinify: true,
@@ -81,8 +59,8 @@ const nextConfig = {
       },
     ],
   },
-};
+}
 
-module.exports = nextTranslate(nextConfig);
+module.exports = nextTranslate(nextConfig)
 
 // module.exports = nextConfig

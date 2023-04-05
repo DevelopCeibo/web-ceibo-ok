@@ -75,7 +75,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="footer-area" id="footer">
+      <footer className="footer-area">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-12 col-md-6">

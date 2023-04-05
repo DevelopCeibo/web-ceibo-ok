@@ -1,11 +1,10 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
-import React from "react";
+import Document, { Html, Head, Main, NextScript } from "next/document"
+import Script from "next/script"
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
   }
   render() {
     return (
@@ -18,18 +17,15 @@ class MyDocument extends Document {
             crossOrigin="true"
           />
           <link
-            rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap"
-            integrity="sha384-o0gQ0niRDjnNFkVpKDqAnYbkp05R1VGY6KOdntZ8ibnmRgdReF5tFYcOKajGb1G/"
-            crossOrigin="anonymous"
+            rel="stylesheet"
           />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            integrity="sha384-j111xKbZeVawL7a9XjsTAedqQINCfVJ7S/C3UsqTuCTvM7IyiFVoJlwIZPcYYW/i"
-            crossOrigin="anonymous"
           />
           <link rel="icon" type="image/png" href="/favicon.png"></link>
+          {/*  */}
           <meta
             name="description"
             content="Ceibo digital es una consultora que le acompaña en el diseño e implementación de la transformación digital para empresas. Tecnologías disruptivas y cultura digital."
@@ -64,7 +60,7 @@ class MyDocument extends Document {
             dangerouslySetInnerHTML={{
               __html: `window.dataLayer = window.dataLayer || []; function gtag()
             {dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'G-2BYZD1VPZ1')`,
+            gtag('js', new Date()); gtag('config', 'G-2BYZD1VPZ1')} `,
             }}
           ></script>
         </Head>
@@ -73,8 +69,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument
