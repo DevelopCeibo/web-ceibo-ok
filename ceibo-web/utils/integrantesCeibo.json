@@ -1,14 +1,14 @@
 [
   {
-    "nombre": "HERNÁN GUTSZTAT",
-    "linkedinurl": "https://www.linkedin.com/in/hernan-gutsztat/",
-    "src": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-    "posicion": "MANAGING PARTNER"
-  },
-  {
     "nombre": "DAVID WILSON",
     "linkedinurl": "https://www.linkedin.com/in/wilsondavidj/",
     "src": "/images-ceibo/integrantes/David Wilson.png",
+    "posicion": "MANAGING PARTNER"
+  },
+  {
+    "nombre": "HERNÁN GUTSZTAT",
+    "linkedinurl": "https://www.linkedin.com/in/hernan-gutsztat/",
+    "src": "/images-ceibo/integrantes/Hernan Gutsztat.png",
     "posicion": "PARTNER"
   },
   {
@@ -95,7 +95,12 @@
     "src": "/images-ceibo/integrantes/Candelaria Ruete Guemes.png",
     "posicion": "CONSULTANT"
   },
-
+  {
+    "nombre": "VICTORIA SELVA",
+    "linkedinurl": "https://www.linkedin.com/in/victoria-selva/",
+    "src": "/images-ceibo/integrantes/Victoria Selva.png",
+    "posicion": "CONSULTANT"
+  },
   {
     "nombre": "SERGIO MILLA",
     "linkedinurl": "https://www.linkedin.com/in/sergio-milla-ab12919a/",
@@ -138,12 +143,6 @@
     "nombre": "BELTRÁN GANDOLFO",
     "linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
     "src": "/images-ceibo/integrantes/Beltran Gandolfo.png",
-    "posicion": "SENIOR ASSOCIATE"
-  },
-  {
-    "nombre": "VICTORIA SELVA",
-    "linkedinurl": "https://www.linkedin.com/in/victoria-selva/",
-    "src": "/images-ceibo/integrantes/Victoria Selva.png",
     "posicion": "SENIOR ASSOCIATE"
   },
   {
@@ -226,6 +225,12 @@
     "posicion": "ASSOCIATE"
   },
   {
+    "nombre": "SANTIAGO CARLINO",
+    "linkedinurl": "https://www.linkedin.com/in/santiago-carlino-7bb148151/",
+    "src": "/images-ceibo/integrantes/Santiago Carlino.png",
+    "posicion": "ASSOCIATE"
+  },
+  {
     "nombre": "MARCOS MAZZA",
     "linkedinurl": "https://www.linkedin.com/in/marcos-mazza-b68972206/",
     "src": "/images-ceibo/integrantes/Marcos Mazza.png",
@@ -244,12 +249,6 @@
     "posicion": "ANALYST"
   },
   {
-    "nombre": "SEGUNDO JUAN",
-    "linkedinurl": "https://www.linkedin.com/in/segundojuan/",
-    "src": "/images-ceibo/integrantes/Segundo Juan.png",
-    "posicion": "ANALYST"
-  },
-  {
     "nombre": "ORNELLA GAUDIOSI",
     "linkedinurl": "https://www.linkedin.com/in/ornella-gaudiosi-4341811b1/",
     "src": "/images-ceibo/integrantes/Ornella Gaudiosi.png",
@@ -265,7 +264,7 @@
   {
     "nombre": "FLORENCIA URRUTIA",
     "linkedinurl": "https://www.linkedin.com/in/florencia-urrutia-330199b7/",
-    "src": "/images-ceibo/integrantes/Foto Florencia Urrutia.png",
+    "src": "/images-ceibo/integrantes/Florencia Urrutia.png",
     "posicion": "STAFF"
   },
   {
@@ -277,7 +276,7 @@
   {
     "nombre": "MARÍA VICTORIA BERLIN",
     "linkedinurl": "https://www.linkedin.com/in/maria-victoria-berlin/",
-    "src": "/images-ceibo/integrantes/Victoria Berlin .png",
+    "src": "/images-ceibo/integrantes/Victoria Berlin.png",
     "posicion": "STAFF"
   }
 ]
