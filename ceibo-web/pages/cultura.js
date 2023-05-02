@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link"
 import NavbarTwo from "../components/Layouts/NavbarTwo"
 import PageBanner from "../components/Common/PageBanner"
 import AboutContent from "../components/About/AboutContent"
@@ -15,7 +16,7 @@ import { useRouter } from "next/router"
 
 const Aabout = () => {
   const { locale } = useRouter()
-
+  console.log("LOCALE->", locale);
   const { t } = useTranslation("common")
   const culturaTitle = t("culturaTitle")
   const contactanos = t("contactanos")
@@ -44,12 +45,11 @@ const Aabout = () => {
       <SwiperFeedback />
       <Conocenos />
       <div className="container btn-two-container mb-5">
-        <a
-          className="default-btn-two"
-          href={`/${locale == "en" && "en/"}contacto`}
-        >
-          {contactanos}
-        </a>
+        <Link href="/contacto/">
+          <a className="default-btn-two">
+            {contactanos}
+          </a>
+        </Link>
       </div>
       <Footer />
     </>
