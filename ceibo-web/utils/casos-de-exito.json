@@ -3,6 +3,7 @@
     "id": "1",
     "cliente": "Ingram Micro",
     "clientimg": "/images-ceibo/clientes-iconos/0029_ingram.png",
+    "path-url": "hub-global-de-marketing-digital-Ingram",
     "bannerContent": [
       {
         "type": "p-white",
@@ -47,7 +48,7 @@
       },
       {
         "type": "p",
-        "text": "Ingram Micro percibía una asimetría a nivel de sus subsidiarias. Las mismas presentaban diferentes niveles de madurez en relación a sus capacidades digitales. Esto generaba que en los países más rezagados, con mayor foco en lo tradicional que en los digital, se note una pérdida de competitividad versus otros jugadores del mercado."
+        "text": "Ingram Micro percibía una asimetría a nivel de sus subsidiarias. Las mismas presentaban diferentes niveles de madurez en relación a sus capacidades digitales. Esto generaba que en los países más rezagados, con mayor foco en lo tradicional que en lo digital, se note una pérdida de competitividad versus otros jugadores del mercado."
       },
       {
         "type": "p",
@@ -202,6 +203,7 @@
     "id": "2",
     "cliente": "CIE",
     "clientimg": "/images-ceibo/clientes-iconos/CIE-Logo.png",
+    "path-url": "mejoramos-los-procesos-de-negocio-CIE",
     "bannerContent": [
       {
         "type": "p-white",
@@ -356,6 +358,7 @@
     "id": "3",
     "cliente": "Dominus",
     "clientimg": "/images-ceibo/clientes-iconos/Dominus-logo.png",
+    "path-url": "estrategia-digital-en-agro-dominus",
     "bannerContent": [
       {
         "type": "p-white",
@@ -510,6 +513,7 @@
     "id": "4",
     "cliente": "Farmacenter",
     "clientimg": "/images-ceibo/clientes-iconos/Farmacenter-logo.png",
+    "path-url": "55-oportunidades-de-mejora-en-farmacenter",
     "bannerContent": [
       {
         "type": "p-white",
@@ -646,6 +650,7 @@
     "id": "5",
     "cliente": "Negofin - Estrategia",
     "clientimg": "/images-ceibo/clientes-iconos/Negofin-logo.png",
+    "path-url": "estrategia-digital-Negofin",
     "bannerContent": [
       {
         "type": "p-white",
@@ -737,6 +742,7 @@
   {
     "id": "6",
     "cliente": "Negofin - Fidelización",
+    "path-url": "tasa-de-renovacion-de-clientes-en-Negofin",
     "clientimg": "/images-ceibo/clientes-iconos/Negofin-logo.png",
     "bannerContent": [
       {
@@ -809,6 +815,7 @@
     "id": "7",
     "cliente": "Scotiabank - Customer engagement",
     "clientimg": "/images-ceibo/clientes-iconos/0031_scotiabank.png",
+    "path-url": "estrategia-de-comunicacion-efectiva-para-Scotiabank",
     "bannerContent": [
       {
         "type": "p-white",
@@ -846,7 +853,7 @@
       },
       {
         "type": "p",
-        "text": "La filial en Mexico del banco se encontraba implementando una estrategia de comunicación enfocada en sus productos y no centrada en los clientes. En cuanto al diseño de customer journeys, se mantenía una sola cadencia de mensajes, se utilizaban los mismos canales y se ofrecía una única propuesta de valor para los distintos segmentos y arquetipos involucrados."
+        "text": "La filial en México del banco se encontraba implementando una estrategia de comunicación enfocada en sus productos y no centrada en los clientes. En cuanto al diseño de customer journeys, se mantenía una sola cadencia de mensajes, se utilizaban los mismos canales y se ofrecía una única propuesta de valor para los distintos segmentos y arquetipos involucrados."
       },
       {
         "type": "p",
@@ -985,6 +992,7 @@
     "id": "8",
     "cliente": "Scotiabank - JMO",
     "clientimg": "/images-ceibo/clientes-iconos/0031_scotiabank.png",
+    "path-url": "gestion-customer-journeys-Scotiabank",
     "bannerContent": [
       {
         "type": "p-white",
@@ -1145,6 +1153,7 @@
     "id": "9",
     "cliente": "Scotiabank - WOW",
     "clientimg": "/images-ceibo/clientes-iconos/0031_scotiabank.png",
+    "path-url": "formas-de-trabajo-de-Scotiabank-mexico",
     "bannerContent": [
       {
         "type": "p-white",
@@ -1172,7 +1181,7 @@
     "content": [
       {
         "type": "title",
-        "text": "Cómo logramos mejorar las formas de trabajo de la filial de méxico"
+        "text": "Cómo logramos mejorar las formas de trabajo de la filial de México"
       },
       {
         "text": "video",
@@ -1241,6 +1250,7 @@
     "id": "11",
     "cliente": "NFD Paraguay",
     "clientimg": "/images-ceibo/clientes-iconos/NFD-caso-de-exito.png",
+    "path-url": "estrategia-de-negocio-y-roadmap-tecnologico-NFD",
     "bannerContent": [
       {
         "type": "p-white",

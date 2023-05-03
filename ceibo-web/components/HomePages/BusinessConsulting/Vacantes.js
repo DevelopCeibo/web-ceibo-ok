@@ -23,9 +23,9 @@ const Vacantes = () => {
           </div>
 
           <div className="row justify-content-center">
-            {vacantesHome.map((vac) => {
+            {vacantesHome.map((vac, i) => {
               return (
-                <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div className="col-lg-3 col-md-6 mb-4 mb-md-0" key={i}>
                   <div className="bc-post-item card-vacantes">
                     <div
                       className="post-image"
@@ -43,12 +43,17 @@ const Vacantes = () => {
                         <p>{vac.id == "2" && manager}</p>
                         <p>{vac.id == "3" && consultant}</p>
                       </div>
-                      <Link
+                      {/* <Link
                         href={`/sumate-al-equipo/${vac["path-url"]}`}
                         passHref
                       >
                         <a className="link-btn link-btn-vacantes">
                           {vermas} <i className="fas fa-chevron-right"></i>
+                        </a>
+                      </Link> */}
+                      <Link href={`/sumate-al-equipo/${vac["path-url"]}`}>
+                        <a className="read-more-btn">
+                          {vermas} <i className="fa-solid fa-angles-right"></i>
                         </a>
                       </Link>
                     </div>

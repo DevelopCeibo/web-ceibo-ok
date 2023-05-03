@@ -33,7 +33,10 @@ const Services = () => {
               data-aos-delay="100"
             >
               <div className="service-card-one">
-                <img src="/images-ceibo/estrategia@2x.png" alt="estrategia" />
+                <img
+                  src="/images-ceibo/areasdeservicio/estrategia@2x.png"
+                  alt="estrategia"
+                />
                 <h3>{estrategia}</h3>
                 <p>{estrategiaTxt}</p>
               </div>
@@ -47,7 +50,7 @@ const Services = () => {
             >
               <div className="service-card-one">
                 <img
-                  src="/images-ceibo/excelencia-operacional@2x.png"
+                  src="/images-ceibo/areasdeservicio/excelencia-operacional@2x.png"
                   alt="Excelencia Operacional"
                 />
                 <h3>{excelencia}</h3>
@@ -64,7 +67,7 @@ const Services = () => {
               <div className="service-card-one">
                 {/* <i className="pe-7s-light bg-ffb700"></i> */}
                 <img
-                  src="/images-ceibo/organizacion@2x.png"
+                  src="/images-ceibo/areasdeservicio/organizacion@2x.png"
                   alt="Organización"
                 />
                 <h3>{org}</h3>
@@ -80,7 +83,10 @@ const Services = () => {
             >
               <div className="service-card-one">
                 {/* <i className="pe-7s-phone bg-fc3549"></i> */}
-                <img src="/images-ceibo/innovacion@2x.png" alt="Innovación" />
+                <img
+                  src="/images-ceibo/areasdeservicio/innovacion@2x.png"
+                  alt="Innovación"
+                />
                 <h3>{innovacion}</h3>
                 <p>{innovacionTxt}</p>
               </div>
@@ -95,7 +101,7 @@ const Services = () => {
               <div className="service-card-one">
                 {/* <i className="pe-7s-cart bg-00d280"></i> */}
                 <img
-                  src="/images-ceibo/customer-engagement@2x.png"
+                  src="/images-ceibo/areasdeservicio/customer-engagement@2x.png"
                   alt="Customer Engagement
 "
                 />

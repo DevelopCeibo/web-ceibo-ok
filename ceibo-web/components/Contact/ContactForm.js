@@ -5,6 +5,7 @@ import withReactContent from "sweetalert2-react-content"
 const MySwal = withReactContent(Swal)
 import baseUrl from "../../utils/baseUrl"
 import useTranslation from "next-translate/useTranslation"
+import { useForm } from "react-hook-form"
 
 const alertContent = () => {
   MySwal.fire({
@@ -44,16 +45,38 @@ const ContactForm = () => {
   const telefono = t("telefono")
   const escrirbimsg = t("escrirbimsg")
 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    mode: "onBlur",
+    criteriaMode: "all",
+    defaultValues: {
+      email: "",
+      name: "",
+    },
+    shouldFocusError: true,
+    shouldUnregister: true,
+    reValidateMode: "onChange",
+    // messages: {
+    //   required: "Este campo es requerido",
+    //   pattern: "El formato del correo electrónico no es válido",
+    // },
+    //  validationSchema: schema, //aquí debes definir tu propio esquema de validación
+  })
+
   const [contact, setContact] = useState(INITIAL_STATE)
   const handleChange = (e) => {
     const { name, value } = e.target
     setContact((prevState) => ({ ...prevState, [name]: value }))
   }
-  const handleSubmit = async (e) => {
-    e.preventDefault()
+  const onSubmit = async (data) => {
+    const { email } = data
+    // e.preventDefault()
     try {
       const url = `${baseUrl}/api/contact`
-      const { name, email, number, subject, text } = contact
+      const { name, number, subject, text } = contact
 
       const formData = new FormData()
       formData.append("name", name)
@@ -105,7 +128,7 @@ const ContactForm = () => {
         </div>
 
         <div className="container mx-auto row d-flex justify-content-center align-items-center">
-          <form onSubmit={handleSubmit} className="col-sm col-md-6">
+          <form onSubmit={handleSubmit(onSubmit)} className="col-sm col-md-6">
             <div className="">
               <div className="row">
                 <div className="col-lg-12 col-md-12">
@@ -115,6 +138,9 @@ const ContactForm = () => {
                       name="name"
                       placeholder={`${nombreyape}*`}
                       className="form-control"
+                      // {...register("name", {
+                      //   required: "Este campo es requerido",
+                      // })}
                       value={contact.name}
                       onChange={handleChange}
                       required
@@ -125,41 +151,39 @@ const ContactForm = () => {
                   <div className="form-group">
                     <input
                       type="text"
-                      name="email"
                       placeholder={`Email *`}
                       className="form-control"
-                      value={contact.email}
-                      onChange={handleChange}
-                      required
+                      name="email"
+                      {...register("email", {
+                        required: "El campo 'email' es requerido",
+                        pattern: {
+                          value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                          message: "El correo ingresado no es válido",
+                        },
+                      })}
+                      // value={contact.email}
+                      // onChange={handleChange}
+                      // required
                     />
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="form-group">
                     <input
-                      type="text"
+                      type="tel"
                       name="number"
                       placeholder={`${telefono}*`}
                       className="form-control"
                       value={contact.number}
                       onChange={handleChange}
                       required
+                      size="20"
+                      minlength="8"
+                      maxlength="18"
                     />
                   </div>
                 </div>
-                {/* <div className="col-lg-6">
-                  <div className="form-group">
-                    <input
-                      type="text"
-                      name="subject"
-                      placeholder=""
-                      className="form-control"
-                      value={contact.subject}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
-                </div> */}
+
                 <div className="col-lg-12 col-md-12">
                   <div className="form-group">
                     <textarea
@@ -168,12 +192,36 @@ const ContactForm = () => {
                       rows="6"
                       placeholder={`${escrirbimsg} *`}
                       className="form-control"
+                      // {...register("text", {
+                      //   required: "Este campo es requerido",
+                      //   minLength: 10,
+                      // })}
+                      required
+                      minlength="12"
                       value={contact.text}
                       onChange={handleChange}
-                      required
                     />
                   </div>
                 </div>
+                {errors.email && (
+                  <div
+                    style={{
+                      backgroundColor: "white",
+                      padding: "20px",
+                      width: "fit-content",
+                      margin: "10px auto ",
+                      borderRadius: "8px",
+                      border: "1px solid red",
+                      color: "red",
+                      // position: "absolute",
+                      // left: "0",
+                      // right: "0",
+                    }}
+                  >
+                    {errors.email.message}
+                    {/* {errors.name.message} */}
+                  </div>
+                )}
                 <div className="col-lg-12 col-sm-12 mb-3">
                   <button type="submit" className="btn btn-primary">
                     {enviarMsg}{" "}

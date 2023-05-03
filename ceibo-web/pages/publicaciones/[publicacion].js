@@ -1,7 +1,6 @@
 import React from "react"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
 import Footer from "../../components/Layouts/Footer"
-import BannerInfo from "../../components/casos-de-exito/BannerInfo"
 import BlogDetailsContent from "../../components/Blog/BlogDetailsContent"
 import publicaciones from "../../utils/publicaciones.json"
 import { useRouter } from "next/router"
@@ -17,7 +16,7 @@ const Publicacion = () => {
 
   React.useEffect(() => {
     publicaciones.forEach((publicacion) => {
-      if (publicacion.id === pathPublicacion) {
+      if (publicacion["path-url"] === pathPublicacion) {
         setdata(publicacion)
       }
     })
@@ -35,7 +34,7 @@ const Publicacion = () => {
       <PageBanner
         pageTitle={data.title}
         subtitle={`${
-          locale == "es" ? data?.metadata.date : data?.metadata?.dateEN
+          locale == "es" ? data?.metadata?.date : data?.metadata?.dateEN
         }  ${
           data.metadata?.fuenteOriginal
             ? "- " + data.metadata?.fuenteOriginal

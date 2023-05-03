@@ -99,8 +99,8 @@ export default async (req, res) => {
         break
       case "contacto":
         ;({ name, email, number, subject, text } = rest)
-        receiver = "info@ceibo.digital"
-        // receiver = "segundo.juan@ceibo.digital"
+        // receiver = "info@ceibo.digital"
+        receiver = "segundo.juan@ceibo.digital"
         data = {
           to: receiver,
           from: email,

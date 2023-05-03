@@ -57,7 +57,7 @@ const CasosDeExito = () => {
                       {/* <Link
                         href={`/casos-de-exito/${generateUrl(caso?.cliente)}`}
                       > */}
-                      <Link href={`/casos-de-exito/${caso.id}`}>
+                      <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                         <a>
                           <Image
                             src={caso?.metadata.image}
@@ -102,7 +102,7 @@ const CasosDeExito = () => {
                       {/* <Link
                         href={`/casos-de-exito/${generateUrl(caso?.cliente)}`}
                       > */}
-                      <Link href={`/casos-de-exito/${caso.id}`}>
+                      <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                         <h6>
                           <a>{caso.content[0].text}</a>
                         </h6>
@@ -111,7 +111,7 @@ const CasosDeExito = () => {
                       {/* <Link
                         href={`/casos-de-exito/${generateUrl(caso?.cliente)}`}
                       > */}
-                      <Link href={`/casos-de-exito/${caso.id}`}>
+                      <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                         <a className="read-more-btn">
                           {locale == "en"
                             ? "Read success story"

@@ -46,7 +46,7 @@ const LatestNewsSlider = () => {
               <SwiperSlide key={i}>
                 <div className="single-blog-item">
                   <div className="blog-image">
-                    <Link href={`/publicaciones/${publi.id}`}>
+                    <Link href={`/publicaciones/${publi["path-url"]}`}>
                       <a>
                         <img
                           src={publi.img}
@@ -64,7 +64,7 @@ const LatestNewsSlider = () => {
                   >
                     {/* <span className="date">Feb 15, 2022</span> */}
                     <h3>
-                      <Link href={`/publicaciones/${publi.id}`}>
+                      <Link href={`/publicaciones/${publi["path-url"]}`}>
                         <a>{locale == "en" ? publi.titleEN : publi.title}</a>
                       </Link>
                     </h3>
@@ -74,7 +74,7 @@ const LatestNewsSlider = () => {
                         ? publi.desc
                         : "*This article is written in Spanish"}
                     </p>
-                    <Link href={`/publicaciones/${publi.id}`}>
+                    <Link href={`/publicaciones/${publi["path-url"]}`}>
                       <a className="read-more-btn">
                         {vermas} <i className="fa-solid fa-angles-right"></i>
                       </a>

@@ -26,7 +26,7 @@ const BlogSidebar = ({ publicacion }) => {
           <h3 className="widget-title">Lo más popular</h3>
 
           <article className="item">
-            <Link href="/publicaciones/1">
+            <Link href="/publicaciones/vision-de-lideres-2023">
               <a className="thumb">
                 <span className="fullimage cover bg1" role="img"></span>
               </a>
@@ -34,7 +34,7 @@ const BlogSidebar = ({ publicacion }) => {
             <div className="info">
               <time>30 noviembre, 2022</time>
               <h4 className="title usmall">
-                <Link href="/publicaciones/1">
+                <Link href="/publicaciones/vision-de-lideres-2023">
                   <a>Vision de lideres 2023</a>
                 </Link>
               </h4>
@@ -44,13 +44,16 @@ const BlogSidebar = ({ publicacion }) => {
           </article>
 
           <article className="item">
-            <a href="/publicaciones/12" className="thumb">
+            <a
+              href="/publicaciones/por-que-las-fintech-son-las-grandes-protagonistas-la-transformacion-digital/"
+              className="thumb"
+            >
               <span className="fullimage cover bg2" role="img"></span>
             </a>
             <div className="info">
               <time>7 febrero, 2021</time>
               <h4 className="title usmall">
-                <Link href="/publicaciones/12">
+                <Link href="/publicaciones/por-que-las-fintech-son-las-grandes-protagonistas-la-transformacion-digital">
                   <a>
                     Por qué las fintech son las grandes protagonistas de la
                     transformación digital
@@ -63,13 +66,16 @@ const BlogSidebar = ({ publicacion }) => {
           </article>
 
           <article className="item">
-            <a href="/publicaciones/2" className="thumb">
+            <a
+              href="/publicaciones/la-transformacion-digital-no-es-solo-tecnologia"
+              className="thumb"
+            >
               <span className="fullimage cover bg3" role="img"></span>
             </a>
             <div className="info">
               <time>29 marzo, 2022</time>
               <h4 className="title usmall">
-                <Link href="/publicaciones/2">
+                <Link href="/publicaciones/la-transformacion-digital-no-es-solo-tecnologia">
                   <a>La transformación digital no es solo un concepto bonito</a>
                 </Link>
               </h4>

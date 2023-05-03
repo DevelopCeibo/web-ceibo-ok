@@ -321,7 +321,10 @@ p {
 .red-tittle {
   color: #b72837;
 }
-
+.competencias-core .content p {
+  font-size: 18px !important;
+  margin-top: 10px;
+}
 .competencias-core-text {
   margin-top: 10px;
 }

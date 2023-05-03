@@ -92,15 +92,7 @@ const ComoNosOrganizamos = () => {
       <div className="about-area">
         <div className="container organizacion-ceibo">
           <h2>{organizacion}</h2>
-          <p>
-            {organizacionSubt}
-            {/* <b> En Ceibo estamos organizados en 3 capas. </b>
-            Esta modalidad responde a una forma flexible y dinámica de una
-            compañía digital preparada para solucionar los desafíos más
-            exigentes de nuestros clientes. Esta decisión se apoya en los
-            conceptos de cercanía, flexibilidad y trabajo en red, alineados con
-            las últimas tendencias de las empresas digitales. */}
-          </p>
+          <p>{organizacionSubt}</p>
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
               <GptwPopover />

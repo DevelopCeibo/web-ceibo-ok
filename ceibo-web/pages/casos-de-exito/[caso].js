@@ -29,7 +29,7 @@ const Caso = () => {
       setcasos(casosES)
     }
     casos.forEach((caso) => {
-      if (caso.id == pathCaso) {
+      if (caso["path-url"] == pathCaso) {
         setdata(caso)
       }
     })
@@ -202,7 +202,7 @@ const Caso = () => {
                 <SwiperSlide key={i}>
                   <div className="single-blog-item">
                     <div className="blog-image">
-                      <Link href={`/casos-de-exito/${caso.id}`}>
+                      <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                         {/* <Link
                         href={`/casos-de-exito/${generateUrl(caso?.cliente)}`}
                       > */}
@@ -249,7 +249,7 @@ const Caso = () => {
                       {/* <Link
                         href={`/casos-de-exito/${generateUrl(caso?.cliente)}`}
                       > */}
-                      <Link href={`/casos-de-exito/${caso.id}`}>
+                      <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                         <h6>
                           <a>{caso.content[0].text}</a>
                         </h6>
@@ -258,7 +258,7 @@ const Caso = () => {
                       {/* <Link
                         href={`/casos-de-exito/${generateUrl(caso?.cliente)}`}
                       > */}
-                      <Link href={`/casos-de-exito/${caso.id}`}>
+                      <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                         <a className="read-more-btn">
                           {locale === "en"
                             ? "Read success story"
