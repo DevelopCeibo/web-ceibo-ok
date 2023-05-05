@@ -1,5 +1,37 @@
 [
   {
+    "id": "14",
+    "path-url": "quien-es-quien-cronista",
+    "title": "Ceibo en el Quién es Quién 2023 de El Cronista",
+    "titleEN": "Ceibo featured in El Cronista's 2023 “Quién es Quién”",
+    "img": "/images-ceibo/publicaciones/Quien_es_quien_cronista.png",
+    "desc": "Junto a nuestro Partner Hernán Gustztat Ceibo forma parte del “Quién es Quién” de El Cronista, la guía que reconoce a los más de 600 ejecutivos que toman decisiones en las empresas y organizaciones más importantes de Argentina.",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "Ceibo en el Quién es Quién 2023 de El Cronista"
+      },
+      {
+        "type": "p",
+        "text": "Junto a nuestro Partner Hernán Gustztat Ceibo forma parte del “Quién es Quién” de El Cronista, la guía que reconoce a los más de 600 ejecutivos que toman decisiones en las empresas y organizaciones más importantes de Argentina."
+      },
+      {
+        "type": "img",
+        "src": "/images-ceibo/publicaciones/el_cronista_nota.png"
+      },
+      {
+        "type": "p",
+        "text": "Lee la nota completa en [El Cronista](https://elcronista.pressreader.com/oneshots)"
+      }
+    ],
+    "metadata": {
+      "date": "28 abril, 2023",
+      "dateEN": "april 28, 2023",
+      "bannerImg": "/images-ceibo/publicaciones/Quien_es_quien_cronista.png",
+      "tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
+    }
+  },
+  {
     "id": "1",
     "path-url": "vision-de-lideres-2023",
     "title": "Visión de Líderes 2023",

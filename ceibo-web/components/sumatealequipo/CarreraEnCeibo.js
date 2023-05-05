@@ -16,7 +16,6 @@ const CarreraEnCeibo = () => {
   const matchesSM = useMediaQuery(theme.breakpoints.up("sm"))
 
   const { locale } = useRouter()
-  // Career - Path - inglés_mobile.png
   return (
     <div className="pt-70 pb-4 mt-4">
       <div className="container">
@@ -29,27 +28,32 @@ const CarreraEnCeibo = () => {
           <br />
           {carreraTxt3}
         </p>
-
-        <Image
-          src={`/images-ceibo/sumatealequipo/${
-            locale == "es"
+        {/* large screen image */}
+        <div className="d-none d-md-block d-lg-block">
+          <Image
+            src={`/images-ceibo/sumatealequipo/${locale == "es"
               ? "carrera-en-ceibo-español.jpg"
               : "Career-Path-inglés_1-11.png"
-          }`}
-          alt="carrera en ceibo"
-          width={5}
-          height={3}
-          layout="responsive"
-          // style={{ maxWidth: "900px" }}
-        />
-
-        {/* </div> */}
-
-        {/* {matchesSM ? (
-          <img src="/images-ceibo/sumatealequipo/carrera-en-ceibo-01-1536x769.jpg" />
-        ) : (
-          <img src="/images-ceibo/sumatealequipo/formato-vertical-pasos@3x-1514x1536.png" />
-        )} */}
+              }`}
+            alt="carrera en ceibo"
+            width={5}
+            height={3}
+            layout="responsive"
+          />
+        </div>
+        {/*mobile screen image */}
+        <div className="d-md-none d-lg-none">
+          <Image
+            src={`/images-ceibo/sumatealequipo/${locale == "es"
+              ? "career-path-español-mobile.png"
+              : "Career-Path-inglés_1-11.png"
+              }`}
+            alt="carrera en ceibo"
+            width={5}
+            height={3}
+            layout="responsive"
+          />
+        </div>
       </div>
     </div>
   )
