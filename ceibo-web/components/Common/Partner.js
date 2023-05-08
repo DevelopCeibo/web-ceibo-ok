@@ -168,7 +168,7 @@ const Partner = () => {
                 <div className="col-lg-2 col-6 col-sm-4">
                   <div className="single-partner">
                     <img
-                      src="/images-ceibo/clientes-iconos/Ebiw-logo.jpeg"
+                      src="/images-ceibo/clientes-iconos/Ebiw-logo.png"
                       alt="Ebiw"
                       className="img-grey"
                       width={140}
@@ -190,7 +190,7 @@ const Partner = () => {
                 <div className="col-lg-2 col-6 col-sm-4">
                   <div className="single-partner">
                     <img
-                      src="/images-ceibo/clientes-iconos/Gador-logo.jpeg"
+                      src="/images-ceibo/clientes-iconos/Gador-logo.png"
                       alt="Gador"
                       className="img-grey"
                       width={140}

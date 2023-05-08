@@ -50,7 +50,7 @@ const CarreraEnCeibo = () => {
               }`}
             alt="carrera en ceibo"
             width={5}
-            height={3}
+            height={5}
             layout="responsive"
           />
         </div>
