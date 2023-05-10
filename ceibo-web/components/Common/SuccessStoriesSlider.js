@@ -18,7 +18,7 @@ const SuccessStoriesSlider = () => {
 
     return (
         <>
-            <div className="blog-area ptb-100">
+            <div className="blog-area ptb-60">
                 <div className="container">
                     <div className="section-title">
                         <h2>{publicacionesTitle}</h2>
@@ -45,8 +45,7 @@ const SuccessStoriesSlider = () => {
                     >
                         {publicaciones.map((caso, i) => (
                             <SwiperSlide key={i}>
-
-                                <div className="single-blog-item" key={i}>
+                                <div className="single-blog-item">
                                     <div className="blog-image">
                                         <Link href={`/casos-de-exito/${caso["path-url"]}`}>
                                             <a>

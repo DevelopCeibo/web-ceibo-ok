@@ -16,7 +16,7 @@ const Vacantes = () => {
   let vacantesHome = vacantes.slice(0, 3)
   return (
     <>
-      <div className="pt-100 pb-70">
+      <div className="pt-60 pb-70">
         <div className="container" id="sumatealequipo">
           <div className="section-title">
             <h2>{sumateAlEquipo}</h2>
