@@ -34,10 +34,10 @@ const Index = () => {
       <MainBanner />
       <OurWorks />
       <Services />
-      <Vacantes />
       <Partner />
-      <LatestNewsSlider />
       <SuccessStoriesSlider />
+      <LatestNewsSlider />
+      <Vacantes />
 
       <div className="pb-70">
         <div className="container">
