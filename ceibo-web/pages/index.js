@@ -3,6 +3,7 @@ import NavbarTwo from "../components/Layouts/NavbarTwo"
 import MainBanner from "../components/HomePages/StudioAgency/MainBanner"
 import Services from "../components/HomePages/DefaultHome/Services"
 import LatestNewsSlider from "../components/Common/LatestNewsSlider"
+import SuccessStoriesSlider from "../components/Common/SuccessStoriesSlider"
 import Vacantes from "../components/HomePages/BusinessConsulting/Vacantes"
 import Partner from "../components/Common/Partner"
 import Footer from "../components/Layouts/Footer"
@@ -36,6 +37,7 @@ const Index = () => {
       <Vacantes />
       <Partner />
       <LatestNewsSlider />
+      <SuccessStoriesSlider />
 
       <div className="pb-70">
         <div className="container">

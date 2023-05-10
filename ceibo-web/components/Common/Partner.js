@@ -144,57 +144,57 @@ const Partner = () => {
             <SwiperSlide>
               <div className="row align-items-center justify-content-center">
                 <div className="col-lg-2 col-6 col-sm-4">
-                  <div className="single-partner">
+                  <div className="single-partner" style={{ marginBottom: '1px' }}>
                     <img
                       src="/images-ceibo/clientes-iconos/CIE-Logo.png"
                       alt="CIE"
                       className="img-grey"
                       width={140}
-                      style={{ maxHeight: "140px" }}
+                      style={{ maxHeight: "110px" }}
                     />
                   </div>
                 </div>
                 <div className="col-lg-2 col-6 col-sm-4">
-                  <div className="single-partner">
+                  <div className="single-partner" style={{ marginBottom: '1px' }}>
                     <img
                       src="/images-ceibo/clientes-iconos/Dominus-logo.png"
                       alt="Dominus"
                       className="img-grey"
                       width={120}
-                      style={{ maxHeight: "140px" }}
+                      style={{ maxHeight: "110px" }}
                     />
                   </div>
                 </div>
                 <div className="col-lg-2 col-6 col-sm-4">
-                  <div className="single-partner">
+                  <div className="single-partner" style={{ marginBottom: '1px' }}>
                     <img
-                      src="/images-ceibo/clientes-iconos/Ebiw-logo.png"
+                      src="/images-ceibo/clientes-iconos/Ebiw-logo.jpeg"
                       alt="Ebiw"
                       className="img-grey"
                       width={140}
-                      style={{ maxHeight: "140px" }}
+                      style={{ maxHeight: "110px" }}
                     />
                   </div>
                 </div>
                 <div className="col-lg-2 col-6 col-sm-4">
-                  <div className="single-partner">
+                  <div className="single-partner" style={{ marginBottom: '1px' }}>
                     <img
                       src="/images-ceibo/clientes-iconos/Farmacenter-logo.png"
                       alt="Farmacenter"
                       className="img-grey"
                       width={140}
-                      style={{ maxHeight: "140px" }}
+                      style={{ maxHeight: "110px" }}
                     />
                   </div>
                 </div>
                 <div className="col-lg-2 col-6 col-sm-4">
-                  <div className="single-partner">
+                  <div className="single-partner" style={{ marginBottom: '1px' }}>
                     <img
-                      src="/images-ceibo/clientes-iconos/Gador-logo.png"
+                      src="/images-ceibo/clientes-iconos/Gador-logo.jpeg"
                       alt="Gador"
                       className="img-grey"
                       width={140}
-                      style={{ maxHeight: "140px" }}
+                      style={{ maxHeight: "110px" }}
                     />
                   </div>
                 </div>{" "}
