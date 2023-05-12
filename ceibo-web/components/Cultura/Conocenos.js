@@ -13,7 +13,7 @@ const Conocenos = () => {
     <div className="pt-100 pb-70">
       <div className="container">
         <div className="section-title">
-          <h3 className="red-tittle">{conocenos}</h3>
+          <h2 className="red-tittle">{conocenos}</h2>
         </div>
         <div className="row justify-content-center align-items-center conocenos-container ">
           {integrantes.map((persona) => (

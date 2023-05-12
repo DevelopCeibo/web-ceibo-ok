@@ -91,7 +91,9 @@ const ComoNosOrganizamos = () => {
 
       <div className="about-area">
         <div className="container organizacion-ceibo">
+          <div className="section-title">
           <h2>{organizacion}</h2>
+          </div>
           <p>{organizacionSubt}</p>
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-12">
