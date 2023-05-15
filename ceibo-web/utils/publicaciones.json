@@ -1,6 +1,6 @@
 [
   {
-    "id": "14",
+    "id": "16",
     "path-url": "quien-es-quien-cronista",
     "title": "Ceibo en el Quién es Quién 2023 de El Cronista",
     "titleEN": "Ceibo featured in El Cronista's 2023 “Quién es Quién”",
@@ -87,6 +87,106 @@
       "dateEN": "november 30, 2022",
       "bannerImg": "/images-ceibo/publicaciones/lideres2023.png",
       "tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
+    }
+  },
+  {
+    "id": "17",
+    "path-url": "transformacion-digital-como-propuesta-de-negocio",
+    "title": "Transformación digital como propuesta de negocio",
+    "titleEN": "Digital transformation as a business concept",
+    "img": "/images-ceibo/publicaciones/Nota_Ceibo_El_nacional_py.png",
+    "desc": "Nuestro Partner, Hernán Gutsztat, conversó sobre transformación digital y la actualidad del país con El Nacional de Paraguay.",
+    "content": [
+      {
+        "type": "first-p",
+        "text": "**Ceibo Digital, la consultora de negocios enfocada en transformación digital, cuenta con clientes en diez países de América y eligió nuestro país para ampliar su red de oficinas.**"
+      },
+      {
+        "type": "p",
+        "text": "Ceibo Digital nació 2018 y comenzó con oficinas en Buenos Aires y en Miami, pero atiende clientes, especialmente compañías globales y multinacionales, en diez países de América con operaciones en más de 40 países alrededor del mundo."
+      },
+      {
+        "type": "p",
+        "text": "Conversamos con Hernán Gutsztat, managing partner de Ceibo, para conocer un poco más sobre la compañía. Desde sus comienzos, Ceibo se concibió como una consultora con perfil global. Siempre tuvo una fuerte inclinación hacia nuestro país, donde trabaja con algunas de las compañías y grupos más importantes. En 2021, inspirada en el fuerte potencial de Paraguay en Latinoamérica, la consultora decidió constituir una sociedad y abrió oficinas en el World Trade Center de Asunción."
+      },
+      {
+        "type": "p",
+        "text": "Ceibo hoy se autodefine como una consultora de negocios enfocada en transformación digital. Su propuesta es acompañar a las empresas en el camino de identificar sus dolores y oportunidades, generar recomendaciones, diseñar alternativas e implementarlas, para llegar a resultados concretos."
+      },
+      {
+        "type": "p",
+        "text": "Desde Ceibo definen la transformación digital como un repensar el modelo de negocios de una empresa a la luz de tres elementos: el nuevo escenario competitivo que incluye no solo una mirada hacia los competidores tradicionales, sino también, con particular atención a los nuevos jugadores que emergen en ese escenario."
+      },
+      {
+        "type": "p",
+        "text": "Estos jugadores cuentan con nuevos modelos de negocios, diferentes capacidades, estructuras de costos más eficientes e incluso, en algunos casos, asimetría en la regulación, como por ejemplo en el caso de las Fintech vs. los bancos."
+      },
+      {
+        "type": "subtitle",
+        "text": "Consumidores"
+      },
+      {
+        "type": "p",
+        "text": "Las nuevas demandas de los consumidores, los cuales no solamente buscan productos y servicios de mayor calidad y menor precio, sino que además demandan experiencias. Lo que hace unos años era satisfactorio para un cliente puede no serlo hoy."
+      },
+      {
+        "type": "p",
+        "text": "Las nuevas tecnologías que permiten mayor eficiencia, ahorro de costos, nuevos modelos de negocios, nuevos canales de atención, la posibilidad de mejorar la experiencia del cliente, y la oportunidad de quitar actores medios dentro de una cadena de valor."
+      },
+      {
+        "type": "p",
+        "text": "En definitiva, la transformación digital es el conjunto de iniciativas que surgen de analizar estos tres elementos, y planificar el camino entre la situación actual de la compañía y la situación deseada."
+      },
+      {
+        "type": "p",
+        "text": "Para Ceibo, trabajar en Paraguay no es algo nuevo. Desde un principio, sus socios mantienen relación con algunos de los empresarios y managers más importantes de diversas industrias."
+      },
+      {
+        "type": "p",
+        "text": "Ceibo colabora, hace tiempo, con grandes empresas de nuestro país. Sus proyectos están enfocados en estrategia, excelencia operacional y procesos, y Customer engagement, entre otros. Entre sus clientes más importantes se destacan CIE, Farmacenter, Negofin y CrediAgil, Banco Atlas, Grupo de Medios ABC, Nueva Americana, Shopping Mariscal, Shopping del Sol, Ferrex, Avanza, entre otros."
+      },
+      {
+        "type": "p",
+        "text": "Ceibo nace como una compañía nativa digital y sus colaboradores están acostumbrados a trabajar de manera remota con gente de todo el mundo. A pesar de esto, destacan la importancia de mantener una relación cercana con sus clientes. Hoy en día nuestro país tiene un papel fundamental en el crecimiento de la empresa y es uno de sus grandes focos."
+      },
+      {
+        "type": "p",
+        "text": "Ceibo nace como una compañía nativa digital y sus colaboradores están acostumbrados a trabajar de manera remota con gente de todo el mundo. A pesar de esto, destacan la importancia de mantener una relación cercana con sus clientes. Hoy en día nuestro país tiene un papel fundamental en el crecimiento de la empresa y es uno de sus grandes focos."
+      },
+      {
+        "type": "subtitle",
+        "text": "¿Por qué estas grandes empresas confían en Ceibo para sus proyectos?"
+      },
+      {
+        "type": "quote",
+        "text": "Ceibo viene a unir el mundo de la estrategia y los negocios con el de las soluciones implementadas. Somos una consultora de negocios, pero con capacidad de arremangarnos y acompañar a nuestros clientes en hacer que las soluciones funcionen. Nos gusta tener conversaciones de negocios, entender los desafíos de negocios, armar el Power Point con las recomendaciones, pero no nos quedamos con eso, sino que vamos a la solución, vamos a dejar algo andando."
+      },
+      {
+        "type": "p",
+        "text": "Esta demanda de las empresas no es algo que vimos nosotros solos. Las grandes consultoras de negocios se están moviendo al mundo de la implementación."
+      },
+      {
+        "type": "p",
+        "text": "Las empresas de tecnología también están reforzando sus capacidades de negocio, empiezan a incorporar perfiles de expertos de industria: antropólogos, psicólogos, sociólogos, para empezar a meterse más a fondo en los procesos y entender mejor los desafíos de hoy. Claramente no les está siendo fácil y eso genera oportunidades a compañías como la nuestra que somos nativas de este nuevo mundo."
+      },
+      {
+        "type": "p",
+        "text": "Las empresas ya no quieren pagar dos millones de dólares por un Power Point, quieren hablar de negocios y quieren la solución. Ceibo entra en ese contexto con una mirada más pragmática de la transformación digital."
+      },
+      {
+        "type": "p",
+        "text": "No creemos que exista el mega proyecto de transformación digital, creemos en caminar la transformación a partir de building blocks que son como piezas de Lego: iniciativas cortas que de forma agregada van transformando la empresa. En lugar de pensar en un proyecto de acá a tres años, pensemos cuáles son los escaloncitos que vamos a ir recorriendo, generando resultados concretos, y dentro de tres años vamos a darnos vuelta y a mirar todo lo que nos transformamos. Ese es el enfoque que nosotros tenemos”, refiere Hernán Gutsztat, managing partner de Ceibo."
+      },
+      {
+        "type": "p",
+        "text": "Lee la nota completa en [El Nacional](https://www.elnacional.com.py/economia/2022/07/16/transformacion-digital-como-propuesta-de-negocio/)"
+      }
+    ],
+    "metadata": {
+      "date": "16 julio, 2022",
+      "dateEN": "july 16, 2022",
+      "bannerImg": "/images-ceibo/publicaciones/Nota_Ceibo_El_nacional_py.png",
+      "tags": ["Ceibo Digital", "Consultoría", "Transformación Digital"]
     }
   },
   {
