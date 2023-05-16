@@ -188,12 +188,6 @@
     "posicion": "ASSOCIATE"
   },
   {
-    "nombre": "CAROL TACHAUER",
-    "linkedinurl": "https://www.linkedin.com/in/carol-victoria-tachauer-138a581b5/",
-    "src": "/images-ceibo/integrantes/Carol Tachauer.png",
-    "posicion": "ASSOCIATE"
-  },
-  {
     "nombre": "FACUNDO YVORRA",
     "linkedinurl": "https://www.linkedin.com/in/facundo-yvorra-b47221177/",
     "src": "/images-ceibo/integrantes/Facundo Yvorra.png",
@@ -234,6 +228,12 @@
     "nombre": "ANDRÉS BORGOGNON",
     "linkedinurl": " https://www.linkedin.com/in/andres-borgognon-322977240",
     "src": "/images-ceibo/integrantes/Andres Borgognon.png",
+    "posicion": "ASSOCIATE"
+  },
+  {
+    "nombre": "FELIPE DINIZ",
+    "linkedinurl": " https://ar.linkedin.com/in/felipe-diniz-7b03a5190?original_referer=https%3A%2F%2Fwww.google.com%2F",
+    "src": "/images-ceibo/integrantes/Felipe Diniz.png",
     "posicion": "ASSOCIATE"
   },
   {

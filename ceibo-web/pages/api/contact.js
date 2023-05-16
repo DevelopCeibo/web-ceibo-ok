@@ -82,7 +82,7 @@ export default async (req, res) => {
       case "evento":
         ;({ name, lastname, email, empresa, cargo, subject, checked } = rest)
         receiver = "prensa@ceibo.digital"
-        // receiver = "segundo.juan@ceibo.digital"
+        //receiver = "mateo.buraschi@ceibo.digital"
         data = {
           to: receiver,
           from: email,
@@ -99,8 +99,8 @@ export default async (req, res) => {
         break
       case "contacto":
         ;({ name, email, number, subject, text } = rest)
-        // receiver = "info@ceibo.digital"
-        receiver = "segundo.juan@ceibo.digital"
+        receiver = "info@ceibo.digital"
+        //receiver = "mateo.buraschi@ceibo.digital"
         data = {
           to: receiver,
           from: email,
@@ -117,7 +117,7 @@ export default async (req, res) => {
         ;({ email, subject } = rest)
         // receiver = "marketing@ceibo.digital"
         receiver = "victoria.selva@ceibo.digital"
-        // receiver = "segundo.juan@ceibo.digital"
+        // receiver = "mateo.buraschi@ceibo.digital"
         data = {
           to: receiver,
           from: email,
@@ -135,7 +135,7 @@ export default async (req, res) => {
         fileStream.push(req.file?.buffer)
         fileStream.push(null)
         receiver = "recruiting@ceibo.digital"
-        // receiver = "segundo.juan@ceibo.digital"
+        // receiver = "mateo.buraschi@ceibo.digital"
         cv = req.file
         data = {
           to: receiver,
@@ -162,16 +162,16 @@ export default async (req, res) => {
     }
     try {
       const response = await sendMail(data)
-      console.log(response)
+      console.log("Res->", response)
       if (response.message == "success") {
         res.status(200).send("Email send successfully")
       }
     } catch (error) {
-      console.log(error)
+      console.log("Error->", error)
       res.status(500).send(`Error sending email`)
     }
   } catch (error) {
-    console.log(error)
+    console.log("Error->", error)
     res.status(500).send("Error processing request")
   }
 }

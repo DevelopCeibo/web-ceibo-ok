@@ -68,11 +68,9 @@ const Eventos = () => {
   const dondeEnteraste = t("dondeEnteraste")
   const miraPasados = t("miraPasados")
   const registernow = t("registernow")
-  const bolsatrabajo = t("bolsatrabajo")
-  const feriauni = t("feriauni")
+  const linkedin = t("linkedin")
   const ceiboweb = t("ceiboweb")
-  const recomendacion = t("recomendacion")
-  const instaAd = t("instaAd")
+  const mail = t("mail")
   const instaPost = t("instaPost")
   const nombre = t("nombre")
   const apellido = t("apellido")
@@ -158,10 +156,12 @@ const Eventos = () => {
         subtitle={eventosh2}
       />
       <div className="pt-100 pb-70">
-        {/* <div className="section-title">
+
+        {/* INICIO FORMULARIO EVENTO */}
+        <div className="section-title">
           <h2>{prox}</h2>
-        </div> */}
-        {/* <section className="row justify-content-center eventos">
+        </div>
+        <section className="row justify-content-center eventos">
           <div className="col-12 col-lg-6 p-0">
             <Stack
               sx={{
@@ -248,19 +248,17 @@ const Eventos = () => {
                 </Typography>
                 <Box>
                   <FormControl fullWidth>
-                   <Select
+                    <Select
                       labelId="demo-simple-select-label"
                       id="demo-simple-select"
                       value={selectSource}
                       label=""
                       onChange={handleChangeSelect}
                     >
-                      <MenuItem value={bolsatrabajo}>{bolsatrabajo}</MenuItem>
-                      <MenuItem value={feriauni}>{feriauni}</MenuItem>
-                      <MenuItem value={ceiboweb}>{ceiboweb}</MenuItem>
-                      <MenuItem value={recomendacion}>{recomendacion}</MenuItem>
-                      <MenuItem value={instaAd}>{instaAd}</MenuItem>
+                      <MenuItem value={linkedin}>{linkedin}</MenuItem>
                       <MenuItem value={instaPost}>{instaPost}</MenuItem>
+                      <MenuItem value={ceiboweb}>{ceiboweb}</MenuItem>
+                      <MenuItem value={mail}>{mail}</MenuItem>
                       <MenuItem value={otros}>{otros}</MenuItem>
                     </Select>
                   </FormControl>
@@ -274,8 +272,9 @@ const Eventos = () => {
               </div>
             </Stack>
           </div>
-        </section> */}
-        {/* </div> */}
+        </section>
+        {/* FIN FORMULARIO */}
+
         <div className="section-title pt-5">
           <h2>{miraPasados}</h2>
         </div>
