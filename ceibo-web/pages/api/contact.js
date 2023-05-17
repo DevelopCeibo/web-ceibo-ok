@@ -3,6 +3,7 @@ import sgTransport from "nodemailer-sendgrid-transport"
 import multer from "multer"
 import path from "path"
 const { Readable } = require("stream")
+const html = require("./templateMail");
 
 export const config = {
   api: {
@@ -57,6 +58,23 @@ const sendMail = (data) => {
     })
   })
 }
+const notificationUser = async (firstName, lastName, mail, oc, ocMail) => {
+  try {
+    let name = `${firstName} ${lastName}`;
+    const msg = {
+      from: ocMail,
+      to: mail,
+      subject: "Te suscribiste a un evento de Ceibo", //REVISAR
+      html: html(mail, name, oc, ocMail),
+    };
+    const res = await sendMail(msg)
+    if (res.message == "success") {
+      console.log("Email send successfully to subscriber");
+    }
+  } catch (err) {
+    console.log("Error->", err);
+  }
+}
 
 export default async (req, res) => {
   try {
@@ -64,6 +82,7 @@ export default async (req, res) => {
 
     const { type, ...rest } = req.body
     let receiver
+    let oc
     let name,
       lastname,
       email,
@@ -82,6 +101,7 @@ export default async (req, res) => {
       case "evento":
         ;({ name, lastname, email, empresa, cargo, subject, checked } = rest)
         receiver = "prensa@ceibo.digital"
+        oc = "Prensa & Eventos"
         //receiver = "mateo.buraschi@ceibo.digital"
         data = {
           to: receiver,
@@ -165,6 +185,10 @@ export default async (req, res) => {
       console.log("Res->", response)
       if (response.message == "success") {
         res.status(200).send("Email send successfully")
+        if (oc) {
+          let { name, lastname, email } = rest
+          await notificationUser(name, lastname, email, oc, receiver)
+        }
       }
     } catch (error) {
       console.log("Error->", error)
