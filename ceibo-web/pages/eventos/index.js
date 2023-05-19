@@ -121,209 +121,209 @@ const Eventos = () => {
         headers: {
           "Content-Type": "multipart/form-data",
         },
-      })
+  })
 
-      console.log(response.data)
-      if (response.status == 200) {
-        setContact(INITIAL_STATE)
-        alertContent()
-      }
-    } catch (error) {
-      console.log(error)
-      alertError()
-    }
+    console.log(response.data)
+  if (response.status == 200) {
+    setContact(INITIAL_STATE)
+    alertContent()
+  }
+} catch (error) {
+  console.log(error)
+  alertError()
+}
   }
 
-  React.useEffect(() => {
-    if (locale == "en") {
-      seteventosData(eventosEN)
-    } else {
-      seteventosData(eventosES)
-    }
-  }, [locale])
+React.useEffect(() => {
+  if (locale == "en") {
+    seteventosData(eventosEN)
+  } else {
+    seteventosData(eventosES)
+  }
+}, [locale])
 
-  return (
-    <>
-      <Head>
-        <title>{eventosTitleTag}</title>
-        <meta name="description" content={eventosMetaDesc} />{" "}
-      </Head>
-      <NavbarTwo />
-      <PageBanner
-        pageTitle={eventosh1}
-        BGImage={"/images-ceibo/Banner-eventos.jpeg"}
-        bgcolor="#b72837"
-        subtitle={eventosh2}
-      />
-      <div className="pt-100 pb-70">
+return (
+  <>
+    <Head>
+      <title>{eventosTitleTag}</title>
+      <meta name="description" content={eventosMetaDesc} />{" "}
+    </Head>
+    <NavbarTwo />
+    <PageBanner
+      pageTitle={eventosh1}
+      BGImage={"/images-ceibo/Banner-eventos.jpeg"}
+      bgcolor="#b72837"
+      subtitle={eventosh2}
+    />
+    <div className="pt-100 pb-70">
 
-        {/* INICIO FORMULARIO EVENTO */}
-        <div className="section-title">
-          <h2>{prox}</h2>
+      {/* INICIO FORMULARIO EVENTO */}
+      <div className="section-title">
+        <h2>{prox}</h2>
+      </div>
+      <section className="row justify-content-center eventos">
+        <div className="col-12 col-lg-6 p-0">
+          <Stack
+            sx={{
+              alignItems: "center",
+              justifyContent: "center",
+              height: "100%",
+            }}
+          >
+            <img src={"/images-ceibo/eventos1.jpg"} className="img-evento" />
+          </Stack>
         </div>
-        <section className="row justify-content-center eventos">
-          <div className="col-12 col-lg-6 p-0">
-            <Stack
-              sx={{
-                alignItems: "center",
-                justifyContent: "center",
-                height: "100%",
-              }}
-            >
-              <img src={"/images-ceibo/eventos1.jpg"} className="img-evento" />
-            </Stack>
-          </div>
-          <div className="col-12 col-lg-6" style={{ padding: 4 }}>
-            <Stack
-              component="form"
-              sx={{
-                bgcolor: "white",
-                padding: 4,
-                borderRadius: "8px",
-                width: "100%",
-              }}
-            >
-              <h4>{suscribiteEvento}</h4>
-              <Stack direction="row" sx={{ justifyContent: "space-between" }}>
-                <FormControl sx={{ my: 2, width: "49%" }}>
-                  <InputLabel htmlFor="fullname">{nombre} *</InputLabel>
-                  <Input
-                    id="name"
-                    type="text"
-                    name="name"
-                    value={contact.name}
-                    onChange={handleChange}
-                    required
-                  />
-                </FormControl>
-                <FormControl sx={{ my: 2, width: "49%" }}>
-                  <InputLabel htmlFor="fullname">{apellido} *</InputLabel>
-                  <Input
-                    id="lastname"
-                    type="text"
-                    name="lastname"
-                    onChange={handleChange}
-                    value={contact.lastname}
-                    required
-                  />
-                </FormControl>
-              </Stack>
-              <FormControl sx={{ my: 2 }}>
-                <InputLabel htmlFor="email">Email *</InputLabel>
+        <div className="col-12 col-lg-6" style={{ padding: 4 }}>
+          <Stack
+            component="form"
+            sx={{
+              bgcolor: "white",
+              padding: 4,
+              borderRadius: "8px",
+              width: "100%",
+            }}
+          >
+            <h4>{suscribiteEvento}</h4>
+            <Stack direction="row" sx={{ justifyContent: "space-between" }}>
+              <FormControl sx={{ my: 2, width: "49%" }}>
+                <InputLabel htmlFor="fullname">{nombre} *</InputLabel>
                 <Input
-                  id="email"
-                  type="email"
-                  name="email"
-                  onChange={handleChange}
-                  value={contact.email}
-                  required
-                />
-              </FormControl>
-              <FormControl sx={{ my: 2 }}>
-                <InputLabel htmlFor="empresa">{empresa}</InputLabel>
-                <Input
-                  id="empresa"
+                  id="name"
                   type="text"
-                  name="empresa"
+                  name="name"
+                  value={contact.name}
                   onChange={handleChange}
-                  value={contact.empresa}
                   required
                 />
               </FormControl>
-              <FormControl sx={{ my: 2 }}>
-                <InputLabel htmlFor="cargo">{cargo}</InputLabel>
+              <FormControl sx={{ my: 2, width: "49%" }}>
+                <InputLabel htmlFor="fullname">{apellido} *</InputLabel>
                 <Input
-                  id="cargo"
+                  id="lastname"
                   type="text"
-                  name="cargo"
+                  name="lastname"
                   onChange={handleChange}
-                  value={contact.cargo}
+                  value={contact.lastname}
                   required
                 />
               </FormControl>
-
-              <FormGroup sx={{ overflowX: "scroll" }}>
-                <Typography component="h6" sx={{ my: 2 }}>
-                  {dondeEnteraste}{" "}
-                </Typography>
-                <Box>
-                  <FormControl fullWidth>
-                    <Select
-                      labelId="demo-simple-select-label"
-                      id="demo-simple-select"
-                      value={selectSource}
-                      label=""
-                      onChange={handleChangeSelect}
-                    >
-                      <MenuItem value={linkedin}>{linkedin}</MenuItem>
-                      <MenuItem value={instaPost}>{instaPost}</MenuItem>
-                      <MenuItem value={ceiboweb}>{ceiboweb}</MenuItem>
-                      <MenuItem value={mail}>{mail}</MenuItem>
-                      <MenuItem value={otros}>{otros}</MenuItem>
-                    </Select>
-                  </FormControl>
-                </Box>
-              </FormGroup>
-
-              <div className="container btn-two-container mb-1">
-                <a className="default-btn-two" onClick={handleSubmit}>
-                  {registernow}
-                </a>
-              </div>
             </Stack>
-          </div>
-        </section>
-        {/* FIN FORMULARIO */}
+            <FormControl sx={{ my: 2 }}>
+              <InputLabel htmlFor="email">Email *</InputLabel>
+              <Input
+                id="email"
+                type="email"
+                name="email"
+                onChange={handleChange}
+                value={contact.email}
+                required
+              />
+            </FormControl>
+            <FormControl sx={{ my: 2 }}>
+              <InputLabel htmlFor="empresa">{empresa}</InputLabel>
+              <Input
+                id="empresa"
+                type="text"
+                name="empresa"
+                onChange={handleChange}
+                value={contact.empresa}
+                required
+              />
+            </FormControl>
+            <FormControl sx={{ my: 2 }}>
+              <InputLabel htmlFor="cargo">{cargo}</InputLabel>
+              <Input
+                id="cargo"
+                type="text"
+                name="cargo"
+                onChange={handleChange}
+                value={contact.cargo}
+                required
+              />
+            </FormControl>
 
-        <div className="section-title pt-5">
-          <h2>{miraPasados}</h2>
+            <FormGroup sx={{ overflowX: "scroll" }}>
+              <Typography component="h6" sx={{ my: 2 }}>
+                {dondeEnteraste}{" "}
+              </Typography>
+              <Box>
+                <FormControl fullWidth>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    value={selectSource}
+                    label=""
+                    onChange={handleChangeSelect}
+                  >
+                    <MenuItem value={linkedin}>{linkedin}</MenuItem>
+                    <MenuItem value={instaPost}>{instaPost}</MenuItem>
+                    <MenuItem value={ceiboweb}>{ceiboweb}</MenuItem>
+                    <MenuItem value={mail}>{mail}</MenuItem>
+                    <MenuItem value={otros}>{otros}</MenuItem>
+                  </Select>
+                </FormControl>
+              </Box>
+            </FormGroup>
+
+            <div className="container btn-two-container mb-1">
+              <a className="default-btn-two" onClick={handleSubmit}>
+                {registernow}
+              </a>
+            </div>
+          </Stack>
         </div>
-        <div className="container">
-          <section className="row justify-content-center">
-            {eventosData[0] &&
-              eventosData.map((ev, idx) => {
-                return (
-                  <div className="col-lg-4 col-md-6" key={idx}>
-                    <div className="single-blog-item ">
-                      <div className="blog-image">
-                        <Link href={ev.link}>
-                          <a target="_blank">
-                            <img src={ev.img} alt="ceibo" />
-                          </a>
-                        </Link>
-                      </div>
+      </section>
+      {/* FIN FORMULARIO */}
 
-                      <div className="blog-post-content blog">
-                        <span className="date">{ev.metadata.date}</span>
+      <div className="section-title pt-5">
+        <h2>{miraPasados}</h2>
+      </div>
+      <div className="container">
+        <section className="row justify-content-center">
+          {eventosData[0] &&
+            eventosData.map((ev, idx) => {
+              return (
+                <div className="col-lg-4 col-md-6" key={idx}>
+                  <div className="single-blog-item ">
+                    <div className="blog-image">
+                      <Link href={ev.link}>
+                        <a target="_blank">
+                          <img src={ev.img} alt="ceibo" />
+                        </a>
+                      </Link>
+                    </div>
 
-                        <h6>
-                          <a>{ev.title}</a>
-                        </h6>
+                    <div className="blog-post-content blog">
+                      <span className="date">{ev.metadata.date}</span>
 
-                        <p>{ev.desc}</p>
+                      <h6>
+                        <a>{ev.title}</a>
+                      </h6>
 
-                        {locale == "en" && (
-                          <span className="date">
-                            This webinar was held in spanish *
-                          </span>
-                        )}
-                        <Link href={ev.link}>
-                          <a className="read-more-btn" target="_blank">
-                            {locale == "en" ? "Watch webinar" : "Ver webinar"}
-                            <i className="fa-solid fa-angles-right"></i>
-                          </a>
-                        </Link>
-                      </div>
+                      <p>{ev.desc}</p>
+
+                      {locale == "en" && (
+                        <span className="date">
+                          This webinar was held in spanish *
+                        </span>
+                      )}
+                      <Link href={ev.link}>
+                        <a className="read-more-btn" target="_blank">
+                          {locale == "en" ? "Watch webinar" : "Ver webinar"}
+                          <i className="fa-solid fa-angles-right"></i>
+                        </a>
+                      </Link>
                     </div>
                   </div>
-                )
-              })}
-          </section>
-        </div>
+                </div>
+              )
+            })}
+        </section>
       </div>
-      <Footer />
-    </>
-  )
+    </div>
+    <Footer />
+  </>
+)
 }
 
 export default Eventos
