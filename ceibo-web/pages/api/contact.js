@@ -2,9 +2,6 @@ import nodemailer from "nodemailer"
 import sgTransport from "nodemailer-sendgrid-transport"
 import multer from "multer"
 import path from "path"
-
-import NextCors from 'nextjs-cors';
-
 const { Readable } = require("stream")
 const html = require("./templateMail");
 
@@ -81,12 +78,6 @@ const notificationUser = async (firstName, lastName, mail, oc, ocMail) => {
 
 export default async (req, res) => {
   try {
-    await NextCors(req, res, {
-      methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
-      origin: '*',
-      optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
-   });
-
     await uploadFile(req)
 
     const { type, ...rest } = req.body
@@ -109,9 +100,9 @@ export default async (req, res) => {
     switch (type) {
       case "evento":
         ;({ name, lastname, email, empresa, cargo, subject, checked } = rest)
-        receiver = "prensa@ceibo.digital"
+        //receiver = "prensa@ceibo.digital"
         oc = "Prensa & Eventos"
-        //receiver = "mateo.buraschi@ceibo.digital"
+        receiver = "mateo.buraschi@ceibo.digital"
         data = {
           to: receiver,
           from: email,
@@ -208,6 +199,3 @@ export default async (req, res) => {
     res.status(500).send("Error processing request")
   }
 }
-
-
-
