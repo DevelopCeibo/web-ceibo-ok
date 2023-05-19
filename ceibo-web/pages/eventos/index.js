@@ -120,6 +120,7 @@ const Eventos = () => {
       const response = await axios.post(url, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
+          'Access-Control-Allow-Origin': '*',
         },
   })
 
