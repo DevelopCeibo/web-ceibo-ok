@@ -23,7 +23,7 @@ const nextConfig = {
       },
     ]
   },
-  async headers() {
+  /* async headers() {
     return [
       {
         // matching all API routes
@@ -36,7 +36,7 @@ const nextConfig = {
         ]
       }
     ]
-  },
+  }, */
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
@@ -59,7 +59,7 @@ const nextConfig = {
     // This is a list of locale domains and the default locale they
     // should handle (these are only required when setting up domain routing)
     // Note: subdomains must be included in the domain value to be matched e.g. "fr.example.com".
-    domains: [
+    /* domains: [
       {
         domain: "example.com",
         defaultLocale: "es-ES",
@@ -71,7 +71,7 @@ const nextConfig = {
         // locale domains locally with http instead of https
         http: true,
       },
-    ],
+    ], */
   },
 }
 
