@@ -159,7 +159,7 @@ return (
     <div className="pt-100 pb-70">
 
       {/* INICIO FORMULARIO EVENTO */}
-      <div className="section-title">
+      {/* <div className="section-title">
         <h2>{prox}</h2>
       </div>
       <section className="row justify-content-center eventos">
@@ -273,7 +273,7 @@ return (
             </div>
           </Stack>
         </div>
-      </section>
+      </section> */}
       {/* FIN FORMULARIO */}
 
       <div className="section-title pt-5">
