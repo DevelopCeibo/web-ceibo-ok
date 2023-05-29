@@ -184,11 +184,11 @@ export default async (req, res) => {
       const response = await sendMail(data)
       console.log("Res->", response)
       if (response.message == "success") {
-        res.status(200).send("Email send successfully")
         if (oc) {
           let { name, lastname, email } = rest
           await notificationUser(name, lastname, email, oc, receiver)
         }
+        res.status(200).send("Email send successfully")
       }
     } catch (error) {
       console.log("Error->", error)
