@@ -1,12 +1,22 @@
 [
   {
+    "id": "9",
+    "title": "Panel UPL en Expo Agro 2023: La sostenibilidad desde todos los campos",
+    "img": "/images-ceibo/eventos/CeiboPaneUPLExpoAgro.png",
+    "desc": "Nuestro Partner, Hernán Gutsztat, fue invitado por UPL para participar en este panel junto a grandes exponentes de innovación en la industria del Agro.",
+    "link": "https://youtube.com/watch?v=OA_WvTBKHh8&feature=share",
+    "metadata": {
+      "date": "09 de marzo, 2023"
+    }
+  },
+  {
     "id": "8",
     "title": "Entrevista a Hernán Gutsztat en 5días Televisión",
     "img": "/images-ceibo/eventos/EntrevistaHernanGutsztatTelevision.png",
     "desc": "Nuestro Partner, Hernán Gutsztat, fue entrevistado por Nadia Servián en 5días Televisión, uno de los canales más importantes de la televisión paraguaya. Conversamos sobre la importancia de apostar por la Transformación Digital como una aliada para las empresas.",
     "link": "https://www.youtube.com/watch?v=ygiZot5nyq8",
     "metadata": {
-      "date": "12 de abril de 2023"
+      "date": "12 de abril, 2023"
     }
   },
   {
