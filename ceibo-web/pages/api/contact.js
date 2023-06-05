@@ -1,9 +1,11 @@
-import nodemailer from "nodemailer"
-import sgTransport from "nodemailer-sendgrid-transport"
-import multer from "multer"
-import path from "path"
-const { Readable } = require("stream")
-const html = require("./templateMail");
+import nodemailer from "nodemailer";
+import sgTransport from "nodemailer-sendgrid-transport";
+import multer from "multer";
+import path from "path";
+import { Readable } from "stream";
+import html from "../../utils/templateFormMail";
+import axios from "axios";
+import baseUrl from "../../utils/baseUrl";
 
 export const config = {
   api: {
@@ -11,14 +13,14 @@ export const config = {
     // en true, el req.body me llega,
     // en false puedo procesar el file
   },
-}
+};
 const transporter = {
   auth: {
     api_key: process.env.SENDGRID_API_KEY,
   },
-}
+};
 
-const mailer = nodemailer.createTransport(sgTransport(transporter))
+const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 const upload = multer({
   storage: multer.memoryStorage(),
@@ -26,63 +28,79 @@ const upload = multer({
     fileSize: 10000000000,
   },
   fileFilter: (req, file, cb) => {
-    const ext = path.extname(file.originalname)
+    const ext = path.extname(file.originalname);
     if (ext !== ".pdf") {
-      return cb(new Error("Only PDFs are allowed"))
+      return cb(new Error("Only PDFs are allowed"));
     }
-    cb(null, true)
+    cb(null, true);
   },
-}).single("cv")
+}).single("cv");
 
 const uploadFile = (req) => {
   return new Promise((resolve, reject) => {
     upload(req, null, (err) => {
       if (err) {
-        console.log("Multer error:", err)
-        reject(new Error("An error occurred while uploading."))
+        console.log("Multer error:", err);
+        reject(new Error("An error occurred while uploading."));
       } else {
-        resolve()
+        resolve();
       }
-    })
-  })
-}
+    });
+  });
+};
 
 const sendMail = (data) => {
   return new Promise((resolve, reject) => {
     mailer.sendMail(data, (error, info) => {
       if (error) {
-        reject(error)
+        reject(error);
       } else {
-        resolve(info)
+        resolve(info);
       }
-    })
-  })
-}
-const notificationUser = async (firstName, lastName, mail, oc, ocMail) => {
+    });
+  });
+};
+const notificationUser = async (oc, ocMail, data) => {
+  console.log("DATA ->", JSON.stringify(data, null, 1));
   try {
-    let name = `${firstName} ${lastName}`;
+    let name = `${data.name} ${data.lastname}`;
     const msg = {
       from: ocMail,
-      to: mail,
-      subject: "Te suscribiste a un evento de Ceibo", //REVISAR
-      html: html(mail, name, oc, ocMail),
+      to: data.email,
+      subject: data.subject,
+      html: html(data.mail, name, oc, ocMail),
     };
-    const res = await sendMail(msg)
+    const res = await sendMail(msg);
     if (res.message == "success") {
       console.log("Email send successfully to subscriber");
+      const url = `${baseUrl}/api/db`;
+      const user = {
+        firstName: data.name,
+        lastName: data.lastname,
+        mail: data.email,
+        company: data.empresa,
+        position: data.cargo,
+        checked: data.checked,
+        subject: data.subject
+      };
+      const response = await axios.post(url, user, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
     }
   } catch (err) {
     console.log("Error->", err);
   }
-}
+};
 
 export default async (req, res) => {
   try {
-    await uploadFile(req)
+    await uploadFile(req);
 
-    const { type, ...rest } = req.body
-    let receiver
-    let oc
+    const { type, ...rest } = req.body;
+    let receiver;
+    let oc;
     let name,
       lastname,
       email,
@@ -94,15 +112,15 @@ export default async (req, res) => {
       cv,
       empresa,
       cargo,
-      vacante
-    let data
+      vacante;
+    let data;
 
     switch (type) {
       case "evento":
-        ;({ name, lastname, email, empresa, cargo, subject, checked } = rest)
+        ({ name, lastname, email, empresa, cargo, subject, checked } = rest);
         //receiver = "prensa@ceibo.digital"
-        oc = "Prensa & Eventos"
-        receiver = "mateo.buraschi@ceibo.digital"
+        oc = "Prensa & Eventos";
+        receiver = "mateo.buraschi@ceibo.digital";
         data = {
           to: receiver,
           from: email,
@@ -115,11 +133,11 @@ export default async (req, res) => {
                 <b>Empresa:</b> ${empresa} <br />
                 <b>Cargo:</b> ${cargo} <br />
                 <b>Se entero por :</b> ${checked}`,
-        }
-        break
+        };
+        break;
       case "contacto":
-        ;({ name, email, number, subject, text } = rest)
-        receiver = "info@ceibo.digital"
+        ({ name, email, number, subject, text } = rest);
+        receiver = "info@ceibo.digital";
         //receiver = "mateo.buraschi@ceibo.digital"
         data = {
           to: receiver,
@@ -131,12 +149,12 @@ export default async (req, res) => {
                 <b>Number:</b> ${number} <br />
                 <b>Message:</b> ${text}
             `,
-        }
-        break
+        };
+        break;
       case "newsletter":
-        ;({ email, subject } = rest)
+        ({ email, subject } = rest);
         // receiver = "marketing@ceibo.digital"
-        receiver = "victoria.selva@ceibo.digital"
+        receiver = "victoria.selva@ceibo.digital";
         // receiver = "mateo.buraschi@ceibo.digital"
         data = {
           to: receiver,
@@ -145,18 +163,18 @@ export default async (req, res) => {
           html: `
                 <b>Email:</b> ${email} <br />
             `,
-        }
-        break
+        };
+        break;
 
       case "recruiting":
-        ;({ name, email, number, lkdurl, subject, checked, vacante } = rest)
-        checked = checked.split(",")
-        const fileStream = new Readable()
-        fileStream.push(req.file?.buffer)
-        fileStream.push(null)
-        receiver = "recruiting@ceibo.digital"
+        ({ name, email, number, lkdurl, subject, checked, vacante } = rest);
+        checked = checked.split(",");
+        const fileStream = new Readable();
+        fileStream.push(req.file?.buffer);
+        fileStream.push(null);
+        receiver = "recruiting@ceibo.digital";
         // receiver = "mateo.buraschi@ceibo.digital"
-        cv = req.file
+        cv = req.file;
         data = {
           to: receiver,
           from: email,
@@ -178,24 +196,23 @@ export default async (req, res) => {
                 },
               ]
             : [],
-        }
+        };
     }
     try {
-      const response = await sendMail(data)
-      console.log("Res->", response)
+      const response = await sendMail(data);
+      console.log("Res->", response);
       if (response.message == "success") {
         if (oc) {
-          let { name, lastname, email } = rest
-          await notificationUser(name, lastname, email, oc, receiver)
+          await notificationUser(oc, receiver, rest);
         }
-        res.status(200).send("Email send successfully")
+        res.status(200).send("Email send successfully");
       }
     } catch (error) {
-      console.log("Error->", error)
-      res.status(500).send(`Error sending email`)
+      console.log("Error->", error);
+      res.status(500).send(`Error sending email`);
     }
   } catch (error) {
-    console.log("Error->", error)
-    res.status(500).send("Error processing request")
+    console.log("Error->", error);
+    res.status(500).send("Error processing request");
   }
-}
+};
