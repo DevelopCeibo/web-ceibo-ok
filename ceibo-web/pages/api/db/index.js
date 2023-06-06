@@ -1,5 +1,5 @@
 import { dbConnect } from "../../../config";
-import User from "../../../models/user";
+import User from "../../../models/User";
 
 dbConnect();
 
