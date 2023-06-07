@@ -309,6 +309,9 @@ const Formulario = ({ vacante }) => {
                 accept="application/pdf"
                 required
                 onChange={handleChange}
+                {...register("cv", {
+                  required: "This field is required"
+                })}
               />
 
               <div
