@@ -133,7 +133,9 @@ const NavbarTwo = () => {
                   <Link href="/alumni" activeClassName="active">
                     <a className="nav-link"> Alumni</a>
                   </Link>
-                </li>
+                </li> 
+
+                {/* Dropdown */}
 
                 {/* <li className="nav-item">
                   <Link href="#">
@@ -168,6 +170,8 @@ const NavbarTwo = () => {
                     </li>
                   </ul>
                 </li> */}
+
+                {/* Fin dropdown */}
 
                 <li className="nav-item">
                   <Link href="/contacto" activeClassName="active">
