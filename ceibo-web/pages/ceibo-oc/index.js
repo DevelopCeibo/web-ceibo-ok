@@ -17,7 +17,6 @@ const UserTable = () => {
   }, []);
 
   const handleDownload = () => {
-    console.log("DESCARGAR");
     const doc = new jsPDF();
     doc.autoTable({ html: tableRef.current });
     doc.save('users.pdf');
@@ -35,10 +34,10 @@ const UserTable = () => {
             />
           </div>
           <div className="col-6 d-flex justify-content-center align-items-center">
-            <h1 className="h1">Usuarios registrados</h1>
+            <h2 style={ {marginBottom: '15px', fontSize: '50px', color: '#b72837'}}>Usuarios registrados</h2>
           </div>
           <div className="col-2 d-flex justify-content-center align-items-center">
-            <button className="btn btn-success" onClick={handleDownload}>
+            <button className="btn btn-primary" onClick={handleDownload}>
               Descargar
             </button>
           </div>
