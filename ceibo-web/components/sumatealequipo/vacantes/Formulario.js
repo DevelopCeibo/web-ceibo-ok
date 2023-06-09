@@ -65,6 +65,7 @@ const Formulario = ({ vacante }) => {
   const enviar = t("enviar");
 
   const [checked, setchecked] = useState([]);
+  const [showCheked, setShowChecked] = useState(false);
 
   const handleCheckbox = (e) => {
     const FormControlLabel = e.target.parentNode.parentNode;
@@ -136,7 +137,6 @@ const Formulario = ({ vacante }) => {
             "Content-Type": "multipart/form-data",
           },
         });
-  
         console.log(response.data);
         if (response.status == 200) {
           setContact(INITIAL_STATE);
@@ -145,6 +145,8 @@ const Formulario = ({ vacante }) => {
         } else {
           alertError();
         }
+      } else {
+        setShowChecked(true)
       }
     } catch (error) {
       console.log(error);
@@ -295,7 +297,7 @@ const Formulario = ({ vacante }) => {
                   }
                   label={otros}
                 ></FormControlLabel>
-                {!checked.length && (
+                {(showCheked && !checked.length) && (
                   <Typography variant="caption" color="error">
                     This field is required.
                   </Typography>
