@@ -114,7 +114,7 @@ const SuccessStoriesSlider = () => {
                         ))}
                     </Swiper>
                     <div className="container btn-two-container">
-                        <Link href="/publicaciones/">
+                        <Link href="/casos-de-exito/">
                             <a className="default-btn-two">
                                 {verpublis}
                                 <i className="fas fa-chevron-right"></i>
