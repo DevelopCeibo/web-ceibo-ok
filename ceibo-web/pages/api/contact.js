@@ -61,7 +61,7 @@ const sendMail = (data) => {
   });
 };
 const notificationUser = async (oc, ocMail, data) => {
-  console.log("DATA ->", JSON.stringify(data, null, 1));
+
   try {
     let name = `${data.name} ${data.lastname}`;
     const msg = {
@@ -97,7 +97,6 @@ const notificationUser = async (oc, ocMail, data) => {
 export default async (req, res) => {
   try {
     await uploadFile(req);
-
     const { type, ...rest } = req.body;
     let receiver;
     let oc;
@@ -173,7 +172,7 @@ export default async (req, res) => {
         fileStream.push(req.file?.buffer);
         fileStream.push(null);
         receiver = "recruiting@ceibo.digital";
-        // receiver = "mateo.buraschi@ceibo.digital"
+        //receiver = "mateo.buraschi@ceibo.digital"
         cv = req.file;
         data = {
           to: receiver,
