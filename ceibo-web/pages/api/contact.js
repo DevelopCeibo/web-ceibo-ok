@@ -97,6 +97,7 @@ const notificationUser = async (oc, ocMail, data) => {
 export default async (req, res) => {
   try {
     await uploadFile(req);
+    console.log('FILE ->', req.file);
     const { type, ...rest } = req.body;
     let receiver;
     let oc;
