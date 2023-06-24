@@ -115,11 +115,9 @@ const Formulario = ({ vacante }) => {
 
   const onSubmit = async (data) => {
     // e.preventDefault()
-    const { email, name, number, lkdurl } = data;
+    const { email, name, number, lkdurl, cv } = data;
     try {
       const url = `${baseUrl}/api/contact`;
-      const { cv } = contact;
-      // const { name, email, number, lkdurl, cv } = contact
       const formData = new FormData();
       formData.append("name", name);
       formData.append("email", email);
@@ -129,8 +127,7 @@ const Formulario = ({ vacante }) => {
       formData.append("subject", "Nueva postulación a vacante en Ceibo");
       formData.append("type", "recruiting");
       formData.append("vacante", vacante);
-      formData.append("cv", cv);
-
+      formData.append("cv", cv[0]);
       if (checked.length) {
         const response = await axios.post(url, formData, {
           headers: {
