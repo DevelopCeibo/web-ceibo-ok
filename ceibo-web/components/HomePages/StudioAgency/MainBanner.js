@@ -111,7 +111,7 @@ const MainBanner = (title, body) => {
                       </article>
                       <article>
                         <Image
-                          src="/images-ceibo/2022_Argentina_Empresas que Cuidan.png"
+                          src="/images-ceibo/gtpw/gtpw_certificado_cuidan_22.png"
                           alt="Aregntina empresas que cuidan"
                           width={160}
                           height={160}
@@ -129,7 +129,7 @@ const MainBanner = (title, body) => {
                     <section className="col-6">
                       <article>
                         <Image
-                          src="/images-ceibo/2022_Argentina_para Millennials (1).png"
+                          src="/images-ceibo/gtpw/gtpw_certificado_milennial_22.png"
                           width={160}
                           height={160}
                           alt="Great place to work para Millenials Argentina "
@@ -145,7 +145,7 @@ const MainBanner = (title, body) => {
                       <article>
                         {" "}
                         <Image
-                          src="/images-ceibo/2022_Argentina.png"
+                          src="/images-ceibo/gtpw/gtpw_certificado_22.png"
                           width={160}
                           height={160}
                           alt="Great place to work Argentina"

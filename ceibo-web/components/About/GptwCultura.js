@@ -4,9 +4,9 @@ import Link from "next/link"
 import Image from "next/image"
 
 //image
-import gptwImage from "../../public/images-ceibo/Screen-Shot-GPTW.png"
-import gptwStatsImage from "../../public/images-ceibo/gtpw-1536x694.png"
-import gptwStatsEng from "../../public/images-ceibo/gptw-ingles.png"
+import gptwImage from "../../public/images-ceibo/gtpw/gtpw_certificado.png"
+import gptwStatsImage from "../../public/images-ceibo/gtpw/gtpw_es_23.png"
+import gptwStatsEng from "../../public/images-ceibo/gtpw/gtpw_en_23.png"
 
 import useTranslation from "next-translate/useTranslation"
 import { useRouter } from "next/router"
@@ -32,8 +32,9 @@ const GptwCultura = () => {
                   alt="image"
                   className="rounded-10"
                   width={1}
-                  height={1}
+                  height={1.4}
                   layout="responsive"
+                  
                 />
 
                 {/* <div className="container btn-two-container">

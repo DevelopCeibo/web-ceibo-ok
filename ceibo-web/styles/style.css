@@ -1052,34 +1052,33 @@ Navbar CSS
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
-  background: #ffffff;
   position: absolute;
   top: 80px;
   left: 0;
   border: none;
   display: block;
-  width: 250px;
+  width: 20px;
   z-index: 99;
   opacity: 0;
   border-radius: 5px;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding-top: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #00000000;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
   padding: 7px 15px;
+  background-color: "transparent";
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a {
   display: inline-block;
   font-size: 14px;
-  color: #18181b;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -1090,7 +1089,7 @@ Navbar CSS
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:hover,
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:focus,
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #ff2c9c;
+  color: #b72837;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -1311,6 +1310,31 @@ Navbar CSS
 .navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > a {
   color: #18181b;
 }
+
+.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu {
+  background-color: #fbfbfb;
+  border-radius: 15px;
+}
+
+.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a {
+  display: inline-block;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a::before {
+  display: none;
+}
+
+.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a:hover,
+.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a:focus,
+.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a.active {
+  color: #b72837;
+}
+
+
+
 
 .navbar-area.navbar-style-3 .container {
   max-width: 1365px;
