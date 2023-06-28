@@ -1,50 +1,50 @@
-import { useRouter } from "next/router"
-import React from "react"
-import Link from "../../utils/ActiveLink"
-import ToggleButton from "@mui/material/ToggleButton"
-import ToggleButtonGroup from "@mui/material/ToggleButtonGroup"
-import useTranslation from "next-translate/useTranslation"
+import { useRouter } from "next/router";
+import React from "react";
+import Link from "../../utils/ActiveLink";
+import ToggleButton from "@mui/material/ToggleButton";
+import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
+import useTranslation from "next-translate/useTranslation";
 
 const NavbarTwo = () => {
-  const { route, locale, locales, push } = useRouter()
-  const [actualLocale, setactualLocale] = React.useState(locale)
+  const { route, locale, locales, push } = useRouter();
+  const [actualLocale, setactualLocale] = React.useState(locale);
 
-  const { t } = useTranslation("common")
-  const navInicio = t("navInicio")
-  const cultura = t("cultura")
-  const queHacemos = t("queHacemos")
-  const sumateAlEquipo = t("sumateAlEquipo")
-  const casosExito = t("casosExito")
-  const contacto = t("contacto")
-  const publicacionesTitle = t("publicacionesTitle")
-  const eventos = t("eventos")
+  const { t } = useTranslation("common");
+  const navInicio = t("navInicio");
+  const cultura = t("cultura");
+  const queHacemos = t("queHacemos");
+  const sumateAlEquipo = t("sumateAlEquipo");
+  const casosExito = t("casosExito");
+  const contacto = t("contacto");
+  const publicacionesTitle = t("publicacionesTitle");
+  const eventos = t("eventos");
 
   const handleLocale = (e) => {
-    setactualLocale(e.target.innerText.toLowerCase())
-    push("/", undefined, { locale: e.target.innerText.toLowerCase() })
-  }
+    setactualLocale(e.target.innerText.toLowerCase());
+    push("/", undefined, { locale: e.target.innerText.toLowerCase() });
+  };
 
-  const [menu, setMenu] = React.useState(true)
+  const [menu, setMenu] = React.useState(true);
   const toggleNavbar = () => {
-    setMenu(!menu)
-  }
+    setMenu(!menu);
+  };
   React.useEffect(() => {
-    let elementId = document.getElementById("navbar")
+    let elementId = document.getElementById("navbar");
     document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
-        elementId.classList.add("is-sticky")
+        elementId.classList.add("is-sticky");
       } else {
-        elementId.classList.remove("is-sticky")
+        elementId.classList.remove("is-sticky");
       }
-    })
-  })
+    });
+  });
 
   const classOne = menu
     ? "collapse navbar-collapse mean-menu"
-    : "collapse navbar-collapse show"
+    : "collapse navbar-collapse show";
   const classTwo = menu
     ? "navbar-toggler navbar-toggler-right collapsed"
-    : "navbar-toggler navbar-toggler-right"
+    : "navbar-toggler navbar-toggler-right";
 
   return (
     <>
@@ -84,16 +84,16 @@ const NavbarTwo = () => {
 
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link href="/" activeClassName="active">
                     <a className="nav-link"> {navInicio}</a>
                   </Link>
-                  {/* <Link href="#">
+                  <Link href="#">
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       Home <i className="fa-solid fa-angle-down"></i>
                     </a>
-                  </Link> */}
-                </li>
+                  </Link>
+                </li> */}
 
                 <li className="nav-item">
                   <Link href="/cultura" activeClassName="active">
@@ -106,11 +106,38 @@ const NavbarTwo = () => {
                   </Link>
                 </li>
 
+                {/* <li className="nav-item">
+                  <Link href="/sumate-al-equipo" activeClassName="active">
+                    <a className="nav-link"> {sumateAlEquipo}</a>
+                  </Link>
+                </li> */}
+
+                {/* Dropdown Sumate al equipo */}
+
                 <li className="nav-item">
                   <Link href="/sumate-al-equipo" activeClassName="active">
                     <a className="nav-link"> {sumateAlEquipo}</a>
                   </Link>
+
+                  <ul
+                    className="dropdown-menu"
+                  >
+                    {/*  <h6 class="dropdown-header">lenguaje</h6> */}
+
+                    <li className="nav-item">
+                      <Link href="#" activeClassName="active">
+                        <a className="nav-link" >Algo</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="#" activeClassName="active">
+                        <a className="nav-link" >Algo 2</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
+
+                {/* Fin dropdown Sumate al equipo*/}
 
                 <li className="nav-item">
                   <Link href="/casos-de-exito" activeClassName="active">
@@ -129,49 +156,6 @@ const NavbarTwo = () => {
                     <a className="nav-link"> {eventos}</a>
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link href="/alumni" activeClassName="active">
-                    <a className="nav-link"> Alumni</a>
-                  </Link>
-                </li> 
-
-                {/* Dropdown */}
-
-                {/* <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
-                      Blog <i className="fa-solid fa-angle-down"></i>
-                    </a>
-                  </Link>
-
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link href="/blog" activeClassName="active">
-                        <a className="nav-link">Blog Grid</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/blog2" activeClassName="active">
-                        <a className="nav-link">Blog Right Sidebar</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/blog3" activeClassName="active">
-                        <a className="nav-link">Blog Left Sidebar</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/blog-details" activeClassName="active">
-                        <a className="nav-link">Blog Details</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </li> */}
-
-                {/* Fin dropdown */}
 
                 <li className="nav-item">
                   <Link href="/contacto" activeClassName="active">
@@ -179,7 +163,71 @@ const NavbarTwo = () => {
                   </Link>
                 </li>
 
-                <div>
+                {/* Dropdown Lenguaje */}
+
+                <li className="nav-item">
+                  <Link href="#">
+                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
+                      <i class="fa-solid fa-globe"></i>{" "}
+                      <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                  </Link>
+
+                  <ul
+                    className="dropdown-menu"
+                    style={{
+                      margin: 0,
+                      padding: 0,
+                      backgroundColor: "transparent",
+                    }}
+                  >
+                    {/*  <h6 class="dropdown-header">lenguaje</h6> */}
+                    <li
+                      className="nav-item" /* style={{margin: 0, padding: 0, margin: 0}} */
+                    >
+                      <ToggleButtonGroup
+                        // value={alignment}
+                        // onChange={handleAlignment}
+                        exclusive
+                        aria-label="text alignment"
+                        size="small"
+                        sx={{ bgcolor: "#fff", height: "max-content" }}
+                      >
+                        <ToggleButton
+                          value="es"
+                          onClick={handleLocale}
+                          sx={{
+                            color: "#000",
+                            bgcolor: locale == "es" ? "#fff" : "#00000047",
+                          }}
+                        >
+                          <p style={{ padding: 0, margin: 0 }}>es</p>
+                        </ToggleButton>
+                        <ToggleButton
+                          value="en"
+                          onClick={handleLocale}
+                          sx={{
+                            color: "#000",
+                            bgcolor: locale == "en" ? "#fff" : "#00000047",
+                          }}
+                        >
+                          <p style={{ padding: 0, margin: 0 }}>en</p>
+                        </ToggleButton>
+                      </ToggleButtonGroup>
+                    </li>
+
+                    {/*  <li className="nav-item">
+                      <Link href="/blog2" activeClassName="active">
+                        <a className="nav-link">Blog Right Sidebar</a>
+                      </Link>
+                    </li> */}
+                  </ul>
+                </li>
+
+                {/* Fin dropdown */}
+
+                {/* TOGGLE LENGUAJE OLD */}
+                {/* <div>
                   {" "}
                   <ToggleButtonGroup
                     // value={alignment}
@@ -209,7 +257,17 @@ const NavbarTwo = () => {
                       <p style={{ padding: 0, margin: 0 }}>en</p>
                     </ToggleButton>
                   </ToggleButtonGroup>
-                </div>
+                </div> */}
+                {/* FIN DE TOGGLE LENGUAJE OLD */}
+
+                <li className="nav-item">
+                  <Link href="/alumni" activeClassName="active">
+                    <a className="nav-link">
+                      {" "}
+                      <i class="fa-regular fa-circle-user"></i> Alumni
+                    </a>
+                  </Link>
+                </li>
               </ul>
 
               {/* <div className="others-options">
@@ -222,7 +280,7 @@ const NavbarTwo = () => {
         </nav>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default NavbarTwo
+export default NavbarTwo;
