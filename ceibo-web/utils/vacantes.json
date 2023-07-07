@@ -1,35 +1,50 @@
 [
   {
     "id": "1",
-    "path-url": "data-scientist",
-    "title": "Data Scientist",
+    "path-url": "data-engineer",
+    "title": "Data Engineer",
     "image": "/images-ceibo/sumatealequipo/ceibo-team-2.jpg",
     "bgcolor": "#6fc7b5",
     "content": [
       {
+        "type": "subtitle",
+        "text": "¿Sos Data Engineer y estás en búsqueda de nuevos desafíos?"
+      },
+      {
         "type": "p",
-        "text": "Seguimos creciendo y buscamos sumar un Data Scientist a nuestro equipo para trabajar en proyectos de toda América."
+        "text": "¡En Ceibo te estamos buscando! Seguimos creciendo y buscamos sumar un Data Engineer a nuestro equipo para trabajar en proyectos globales"
       },
       { "type": "subtitle", "text": "Responsabilidades:" },
       {
         "type": "list",
         "items": [
-          "Diseñar e implementar modelos estadísticos y de machine learning",
-          "Interés en problemas complejos. Aprendizaje continuo de herramientas de exploración, descubrimiento, análisis y modelado de datos",
-          "Diseñar métricas de performance e impacto productivo de las soluciones"
+          "Gestionar y preparar datos para su uso",
+          "Analizar y procesar datos, y garantizar un rendimiento óptimo de los sistemas de datos y análisis",
+          "Gestionar modelos de datos",
+          "Trabajar con diferentes fuentes de datos y crear formas de extraer datos de las fuentes, así como importarlos y modificarlos para que se adapten a las necesidades de la organización"
         ]
       },
       { "type": "subtitle", "text": "Requisitos:" },
       {
         "type": "list",
         "items": [
-          "Graduado de Ciencias Exactas, Economía, Matemática, Estadística, Actuario, Ingeniería o carreras afines",
-          "Experiencia mínima deseada de 5 años en proyectos con tratamiento de datos y desarrollo de modelos de analítica descriptiva y/o de diagnóstico",
-          "Experiencia mínima deseada de 2 años en ciencia de datos, modelado predictivo y/o prescriptivo",
-          "Manejo de lenguajes de programación para análisis de datos a gran escala: R o Python",
-          "Nociones de SQL, NoSQL, Hadoop, Map Reduce, Spark, Hive, HBase, BigQuery, Scala",
-          "Capacidad de estudiar problemas nuevos y buscar soluciones",
-          "Profesionales proactivos que se comprometan con los resultados, con gran capacidad de análisis, que comprendan la dinámica del mercado de consultoría y con gran capacidad de adaptación a entornos dinámicos y desafiantes."
+          "Contar con dos años de experiencia previa cómo ingeniero de datos",
+          "Graduado o estudiante de Ciencias Exactas, Sistemas, Ingeniería o carreras afines",
+          "Experiencia en desarrollo de procesos de ETL",
+          "Manejo de Bases de datos (Postgress, Oracle, MSSQL, Mongo, MySQL, etc)",
+          "Conocimientos avanzados de SQL",
+          "Experiencia trabajando con Data Lakes y Data Warehouses",
+          "Manejo de la metodología Agile"
+        ]
+      },
+      { "type": "subtitle", "text": "Deseables:" },
+      {
+        "type": "list",
+        "items": [
+          "Azure Data Factory",
+          "Azure DataBricks",
+          "Azure Synapse",
+          "Key Vault"
         ]
       }
     ]
@@ -37,7 +52,7 @@
   {
     "id": "2",
     "path-url": "manager",
-    "title": "Manager",
+    "title": "Project Leader - Manager",
     "image": "/images-ceibo/manager-1.jpg",
     "bgcolor": "#891924",
     "content": [
@@ -141,7 +156,7 @@
     "id": "3",
     "path-url": "senior-consultant",
     "image": "/images-ceibo/senior-consultant.jpeg",
-    "title": "Consultant - Project Leader",
+    "title": "Consultant",
     "bgcolor": "#891924",
     "content": [
       {
