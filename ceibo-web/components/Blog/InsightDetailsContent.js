@@ -1,23 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
-import BlogSidebar from "./BlogSidebar";
-import BlogComments from "./BlogComments";
-import { Typography, Box, Button } from "@mui/material";
+import InsigthSidebar from "./InsigthSidebar";
+import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
-import publicaciones from "../../utils/publicaciones.json";
 
-const BlogRightSidebar = ({ publicacion }) => {
-  // const [currentBlogIndex, setcurrentBlogIndex] = useState(
-  //   Number(publicacion?.id)
-  // )
-
-  // const handleNextClick = () => {
-  //   setcurrentBlogIndex(currentBlogIndex + 1)
-  // }
-
-  // const handlePrevClick = () => {
-  //   setcurrentBlogIndex(currentBlogIndex - 1)
-  // }
+const InsightDetailsContent = ({ publicacion }) => {
 
   const renderContent = (content) => {
     return content?.map((el, i) => {
@@ -75,18 +62,21 @@ const BlogRightSidebar = ({ publicacion }) => {
             <>
               <h2
                 style={{
-                  color: "#b72837",
+                  color: "#000000",
+                  fontWeight: '400',
                   marginBottom: "12px",
                   marginTop: "22px",
                 }}
               >
                 {el.text}
               </h2>
-              <hr
+              <div
                 style={{
-                  borderBottom: "2px solid #d8d4d4bf",
-                  color: "#d8d4d4bf",
+                  borderBottom: "2px solid #b72837",
+                  color: "#b72837",
                   padding: "0 20px",
+                  height: '2px',
+                  marginBottom: '10px'
                 }}
               />
             </>
@@ -146,41 +136,10 @@ const BlogRightSidebar = ({ publicacion }) => {
           <div className="row">
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
-                {/* <div className="article-img">
-                  <img src={publicacion.metadata.bannerImg} alt="image" />
-                </div> */}
-
                 <div className="article-content">
                   {renderContent(publicacion?.content)}
-
-                  {/* <ul className="entry-meta">
-                    <li>
-                      <i className="fa-solid fa-user"></i>
-                      <Link href="/blog">
-                        <a>Admin</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-calendar-days"></i> March 08,
-                      2022
-                    </li>
-                  </ul> */}
-
-                  {/* Category */}
-                  {publicacion?.metadata?.author?.length >= 1 &&
-                  publicacion.metadata.author[0] ? (
-                    <div style={{ marginTop: "20px" }}>
-                      <img
-                        src={publicacion?.metadata.authorImg}
-                        alt={publicacion?.metadata.author}
-                        width="200px"
-                      />
-                      <h6 style={{ marginTop: "20px" }}>
-                        Por: {publicacion?.metadata?.author} en Ceibo digital.
-                      </h6>
-                    </div>
-                  ) : null}
-
+                  {/* Horizontal line */}
+                  <div style={{ height: "2px", backgroundColor: '#b72837', borderColor: '#b72837' }}/>
                   <ul className="category">
                     <li>
                       <span>Tags:</span>
@@ -195,27 +154,10 @@ const BlogRightSidebar = ({ publicacion }) => {
                   </ul>
                 </div>
               </div>
-
-              {/* Post controls */}
-              {/* <div className="post-controls-buttons">
-                <div onClick={handlePrevClick}>
-                  <Link href={`/publicaciones/${currentBlogIndex}`}>
-                    <a>Prev Post</a>
-                  </Link>
-                </div>
-                <div onClick={handleNextClick}>
-                  <Link href={`/publicaciones/${currentBlogIndex}`}>
-                    <a>Next Post</a>
-                  </Link>
-                </div>
-              </div> */}
-
-              {/* <BlogComments /> */}
             </div>
-
             <div className="col-lg-4 col-md-12">
               <div className="pl-20">
-                <BlogSidebar />
+                <InsigthSidebar publicacion={publicacion}/>
               </div>
             </div>
           </div>
@@ -225,4 +167,4 @@ const BlogRightSidebar = ({ publicacion }) => {
   );
 };
 
-export default BlogRightSidebar;
+export default InsightDetailsContent;

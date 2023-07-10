@@ -1,7 +1,7 @@
 import React from "react"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
 import Footer from "../../components/Layouts/Footer"
-import BlogDetailsContent from "../../components/Blog/BlogDetailsContent"
+import InsightDetailsContent from "../../components/Blog/InsightDetailsContent"
 import insights from "../../utils/insights.json"
 import { useRouter } from "next/router"
 import PageBanner from "../../components/Common/PageBanner"
@@ -43,7 +43,7 @@ const Insight = () => {
         BGImage={data.metadata?.bannerImg}
         textcenter={true}
       />
-      <BlogDetailsContent publicacion={data} />
+      <InsightDetailsContent publicacion={data} />
       <Footer />
     </>
   )
