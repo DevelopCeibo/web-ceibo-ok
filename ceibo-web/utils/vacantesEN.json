@@ -1,34 +1,49 @@
 [
   {
     "id": "1",
-    "path-url": "data-scientist",
-    "title": "Data Scientist",
+    "path-url": "data-engineer",
+    "title": "Data Engineer",
     "bgcolor": "#6fc7b5",
     "content": [
       {
+        "type": "subtitle",
+        "text": "Are you a Data Engineer looking for new challenges?"
+      },
+      {
         "type": "p",
-        "text": "We continue growing and are looking to add a Data Scientist to our team to work on projects across the world."
+        "text": "At Ceibo we are looking for you! We continue to grow and we are looking to add a Data Engineer to our team to work on global projects."
       },
       { "type": "subtitle", "text": "Responsibilities:" },
       {
         "type": "list",
         "items": [
-          "Design and implement statistical and machine learning models",
-          "Interest in complex problems. Eager to learn about data exploration, discovery, analysis and modeling tools",
-          "Design performance metrics and productive impact of solutions"
+          "Manage and prepare data for use",
+          "Analyze and process data, and ensure optimal performance of data and analytics systems",
+          "Manage data models",
+          "Work with different data sources and create ways to extract data from the sources, as well as import and modify it to suit the needs of the organization."
         ]
       },
       { "type": "subtitle", "text": "Requirements:" },
       {
         "type": "list",
         "items": [
-          "Graduated from Exact Sciences, Economics, Mathematics, Statistics, Actuarial Science, Engineering or related careers",
-          "5 years experience required in projects with data processing and development of descriptive analytics and/or diagnostic models",
-          "2 years experience required in data science, predictive and/or prescriptive modeling",
-          "Proficiency in programming languages for large scale data analytics: R or Python",
-          "Good working knowledge of SQL, NoSQL, Hadoop, Map Reduce, Spark, Hive, HBase, BigQuery, Scala",
-          "Ability to study new problems and seek solutions",
-          "Proactive professionals who are committed to results, with strong analytical skills, who understand the dynamics of the consulting market and with strong ability to adapt to dynamic and challenging environments"
+          "Two years of previous experience as a data engineer",
+          "Graduate or undergraduate degree in Computer Science, Engineering or related field",
+          "Experience in ETL process development",
+          "Database management (Postgress, Oracle, MSSQL, Mongo, MySQL, etc)",
+          "Advanced SQL knowledge",
+          "Experience working with Data Lakes and Data Warehouses",
+          "Agile methodology"
+        ]
+      },
+      { "type": "subtitle", "text": "Desirable:" },
+      {
+        "type": "list",
+        "items": [
+          "Azure Data Factory",
+          "Azure DataBricks",
+          "Azure Synapse",
+          "Key Vault"
         ]
       }
     ]
@@ -36,7 +51,7 @@
   {
     "id": "2",
     "path-url": "manager",
-    "title": "Manager",
+    "title": "Project Leader - Manager",
     "bgcolor": "#891924",
     "content": [
       {
@@ -138,7 +153,7 @@
   {
     "id": "3",
     "path-url": "senior-consultant",
-    "title": "Consultant - Project Leader",
+    "title": "Consultant",
     "bgcolor": "#891924",
     "content": [
       {
