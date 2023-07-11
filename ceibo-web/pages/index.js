@@ -36,7 +36,7 @@ const Index = () => {
       <Services />
       <Partner />
       <SuccessStoriesSlider />
-      <LatestNewsSlider />
+      <LatestNewsSlider type={'publicaciones'}/>
       <Vacantes />
 
       <div className="pb-70">

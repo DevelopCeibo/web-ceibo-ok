@@ -1,11 +1,18 @@
 import React from "react";
 import Link from "next/link";
 
+const linkedin = "/images-ceibo/icons/insight-linkedin.png";
+const mail = "/images-ceibo/icons/insight-mail.png";
+
+import {
+  LinkedinShareButton,
+  EmailShareButton,
+} from "next-share";
+
 const InsigthSidebar = ({ publicacion }) => {
   return (
     <>
       <div className="widget-area" id="secondary">
-        {/* Popular posts */}
         <div className="widget widget_posts_thumb">
           <h3 className="widget-title" style={{ textAlign: "center" }}>
             Autores
@@ -23,9 +30,19 @@ const InsigthSidebar = ({ publicacion }) => {
                   {publicacion?.metadata?.author}
                 </h6>
               </div>
-              <div  style={{textAlign: 'center', backgroundColor: 'red'}} >
-                <i className="fa-brands fa-linkedin"></i>
-                <i className="fa-brands fa-linkedin"></i>
+              <div style={{ textAlign: "center" }}>
+                <LinkedinShareButton url={"https://www.google.com.ar"}>
+                  <i
+                    className="fa-brands fa-linkedin fa-xl"
+                    style={{ color: "#b72837" }}
+                  ></i>
+                </LinkedinShareButton>{" "}
+                <EmailShareButton url={"https://www.google.com.ar"}>
+                  <i
+                    className="fa-regular fa-envelope fa-xl"
+                    style={{ color: "#b72837" }}
+                  ></i>
+                </EmailShareButton>
               </div>
             </div>
           ) : null}

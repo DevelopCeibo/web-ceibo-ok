@@ -4,8 +4,9 @@ import Footer from "../../components/Layouts/Footer"
 import InsightDetailsContent from "../../components/Blog/InsightDetailsContent"
 import insights from "../../utils/insights.json"
 import { useRouter } from "next/router"
-import PageBanner from "../../components/Common/PageBanner"
+import InsightPageBanner from "../../components/Common/InsightPageBanner"
 import Head from "next/head"
+import LatestNewsSlider from '../../components/Common/LatestNewsSlider';
 
 const Insight = () => {
   const router = useRouter()
@@ -31,19 +32,19 @@ const Insight = () => {
         <meta name="description" content={META_DESC} />
       </Head>
       <NavbarTwo />
-      <PageBanner
+      <InsightPageBanner
         pageTitle={data.title}
-        subtitle={`${
+        BGImage={data.metadata?.bannerImg}
+        textcenter={true}
+      />
+      <InsightDetailsContent publicacion={data} date={`${
           locale == "es" ? data?.metadata?.date : data?.metadata?.dateEN
         }  ${
           data.metadata?.fuenteOriginal
             ? "- " + data.metadata?.fuenteOriginal
             : ""
-        }`}
-        BGImage={data.metadata?.bannerImg}
-        textcenter={true}
-      />
-      <InsightDetailsContent publicacion={data} />
+        }`}/>
+      <LatestNewsSlider type={'insights'}/>
       <Footer />
     </>
   )

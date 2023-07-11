@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
 import InsigthSidebar from "./InsigthSidebar";
+import Share from "../Common/Share";
 import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
 
-const InsightDetailsContent = ({ publicacion }) => {
+const InsightDetailsContent = ({ publicacion, date }) => {
+  const content = useRef(null);
 
   const renderContent = (content) => {
     return content?.map((el, i) => {
@@ -63,7 +65,7 @@ const InsightDetailsContent = ({ publicacion }) => {
               <h2
                 style={{
                   color: "#000000",
-                  fontWeight: '400',
+                  fontWeight: "400",
                   marginBottom: "12px",
                   marginTop: "22px",
                 }}
@@ -75,8 +77,8 @@ const InsightDetailsContent = ({ publicacion }) => {
                   borderBottom: "2px solid #b72837",
                   color: "#b72837",
                   padding: "0 20px",
-                  height: '2px',
-                  marginBottom: '10px'
+                  height: "2px",
+                  marginBottom: "10px",
                 }}
               />
             </>
@@ -131,15 +133,37 @@ const InsightDetailsContent = ({ publicacion }) => {
 
   return (
     <>
-      <div className="blog-area ptb-100">
+      <div className="pt-100">
         <div className="container">
+          <div style={{ alignContent: "space-between", paddingLeft: '3%' }}>
+            {publicacion?.metadata?.author?.length >= 1 &&
+            publicacion.metadata.author[0] ? (
+              <h2 style={{ paddingBottom: "1%", color: "grey", fontSize: '20px' }}>
+                {`Por ${publicacion?.metadata.author}`}
+              </h2>
+            ) : null}
+            {date && (
+              <h2 style={{ color: "grey", fontWeight: "300", fontSize: '20px' }}>{date}</h2>
+            )}
+          </div>
           <div className="row">
+            <div className="col-lg-2 col-md-12">
+              <div>
+                <Share publicacion={publicacion} referencia={content} />
+              </div>
+            </div>
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
-                <div className="article-content">
+                <div className="article-content" ref={content}>
                   {renderContent(publicacion?.content)}
                   {/* Horizontal line */}
-                  <div style={{ height: "2px", backgroundColor: '#b72837', borderColor: '#b72837' }}/>
+                  <div
+                    style={{
+                      height: "2px",
+                      backgroundColor: "#b72837",
+                      borderColor: "#b72837",
+                    }}
+                  />
                   <ul className="category">
                     <li>
                       <span>Tags:</span>
@@ -155,9 +179,9 @@ const InsightDetailsContent = ({ publicacion }) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-12">
-              <div className="pl-20">
-                <InsigthSidebar publicacion={publicacion}/>
+            <div className="col-lg-2 col-md-12">
+              <div>
+                <InsigthSidebar publicacion={publicacion} />
               </div>
             </div>
           </div>
