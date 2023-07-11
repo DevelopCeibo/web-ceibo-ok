@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Link from "next/link";
 import InsigthSidebar from "./InsigthSidebar";
 import Share from "../Common/Share";
@@ -6,7 +6,6 @@ import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
 
 const InsightDetailsContent = ({ publicacion, date }) => {
-  const content = useRef(null);
 
   const renderContent = (content) => {
     return content?.map((el, i) => {
@@ -149,12 +148,12 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           <div className="row">
             <div className="col-lg-2 col-md-12">
               <div>
-                <Share publicacion={publicacion} referencia={content} />
+                <Share publicacion={publicacion}/>
               </div>
             </div>
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
-                <div className="article-content" ref={content}>
+                <div className="article-content">
                   {renderContent(publicacion?.content)}
                   {/* Horizontal line */}
                   <div

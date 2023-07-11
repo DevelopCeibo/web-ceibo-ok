@@ -5,15 +5,14 @@ import {
   TwitterShareButton,
   EmailShareButton,
 } from "next-share";
-import jsPDF from "jspdf";
+import useTranslation from "next-translate/useTranslation"
 import baseUrl from "../../utils/baseUrl";
 
-const Share = ({ publicacion, referencia }) => {
-
-  const handleDownload = () => {
-    const doc = new jsPDF();
-    doc.text({html: referencia.current});
-    doc.save("ceibo-digital.pdf");
+const Share = ({ publicacion }) => {
+  const { t } = useTranslation("common")
+  const compartir = t("compartir")
+  const handleCopy = () => {
+    navigator.clipboard.writeText(`${baseUrl}/insights/${publicacion["path-url"]}`)
   };
 
   return (
@@ -21,7 +20,7 @@ const Share = ({ publicacion, referencia }) => {
       <div className="widget-area" id="secondary">
         <div className="widget widget_posts_thumb">
           <h3 className="share-title" style={{ textAlign: "center" }}>
-            Compartir
+            {compartir}
           </h3>
           <div
             style={{
@@ -42,7 +41,7 @@ const Share = ({ publicacion, referencia }) => {
                 style={{ color: "#b72837" }}
               ></i>
             </TwitterShareButton>
-            <button onClick={handleDownload} style={{borderWidth: 0, backgroundColor: 'transparent'}}>
+            <button onClick={handleCopy} style={{borderWidth: 0, backgroundColor: 'transparent'}}>
             <i
               className="fa-solid fa-paperclip fa-xl"
               style={{ color: "#b72837" }}

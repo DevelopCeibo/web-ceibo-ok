@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import useTranslation from "next-translate/useTranslation"
 const linkedin = "/images-ceibo/icons/insight-linkedin.png";
 const mail = "/images-ceibo/icons/insight-mail.png";
 
@@ -10,12 +10,14 @@ import {
 } from "next-share";
 
 const InsigthSidebar = ({ publicacion }) => {
+  const { t } = useTranslation("common")
+  const autores = t("autores")
   return (
     <>
       <div className="widget-area" id="secondary">
         <div className="widget widget_posts_thumb">
           <h3 className="widget-title" style={{ textAlign: "center" }}>
-            Autores
+            {autores}
           </h3>
           {publicacion?.metadata?.author?.length >= 1 &&
           publicacion.metadata.author[0] ? (
