@@ -5,7 +5,7 @@ import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import useTranslation from "next-translate/useTranslation";
 
-const NavbarTwo = () => {
+const NavbarFive = () => {
   const { route, locale, locales, push } = useRouter();
   const [actualLocale, setactualLocale] = React.useState(locale);
 
@@ -17,11 +17,17 @@ const NavbarTwo = () => {
   const casosExito = t("casosExito");
   const contacto = t("contacto");
   const publicacionesTitle = t("publicacionesTitle");
+  const insightsTitle = t("insightsTitle");
   const eventos = t("eventos");
 
   const handleLocale = (e) => {
-    setactualLocale(e.target.innerText.toLowerCase());
-    push("/", undefined, { locale: e.target.innerText.toLowerCase() });
+    console.log("EVENTO->", e);
+    let locale = "es";
+    e.target.innerText.toLowerCase() === "español"
+      ? (locale = "es")
+      : (locale = "en");
+    setactualLocale(locale);
+    push("/", undefined, { locale: locale });
   };
 
   const [menu, setMenu] = React.useState(true);
@@ -128,21 +134,19 @@ const NavbarTwo = () => {
 
                 <li className="nav-item">
                   <Link href="#" activeClassName="active">
-                    <a className="nav-link"> {publicacionesTitle}</a>
+                    <a className="nav-link"> {"News & Insights"}</a>
                   </Link>
-                  <ul
-                    className="dropdown-menu"
-                  >
+                  <ul className="dropdown-menu">
                     {/*  <h6 class="dropdown-header">lenguaje</h6> */}
 
                     <li className="nav-item">
                       <Link href="/publicaciones" activeClassName="active">
-                        <a className="nav-link" >{publicacionesTitle}</a>
+                        <a className="nav-link">{publicacionesTitle}</a>
                       </Link>
                     </li>
                     <li className="nav-item">
                       <Link href="/insights" activeClassName="active">
-                        <a className="nav-link" >Algo 2</a>
+                        <a className="nav-link">{insightsTitle}</a>
                       </Link>
                     </li>
                   </ul>
@@ -174,16 +178,31 @@ const NavbarTwo = () => {
 
                   <ul
                     className="dropdown-menu"
-                    style={{
+                    /* style={{
                       margin: 0,
                       padding: 0,
                       backgroundColor: "transparent",
-                    }}
+                    }} */
                   >
                     {/*  <h6 class="dropdown-header">lenguaje</h6> */}
+
                     <li
-                      className="nav-item" /* style={{margin: 0, padding: 0, margin: 0}} */
+                      className="nav-item"
+                      value="es"
+                      onClick={(e) => handleLocale(e)}
                     >
+                      <a className="nav-link">{"Español"}</a>
+                    </li>
+
+                    <li
+                      className="nav-item"
+                      value="es"
+                      onClick={(e) => handleLocale(e)}
+                    >
+                      <a className="nav-link">{"English"}</a>
+                    </li>
+
+                   {/*  <li className="nav-item">
                       <ToggleButtonGroup
                         // value={alignment}
                         // onChange={handleAlignment}
@@ -213,7 +232,7 @@ const NavbarTwo = () => {
                           <p style={{ padding: 0, margin: 0 }}>en</p>
                         </ToggleButton>
                       </ToggleButtonGroup>
-                    </li>
+                    </li> */}
 
                     {/*  <li className="nav-item">
                       <Link href="/blog2" activeClassName="active">
@@ -282,4 +301,4 @@ const NavbarTwo = () => {
   );
 };
 
-export default NavbarTwo;
+export default NavbarFive;

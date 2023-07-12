@@ -1,5 +1,6 @@
 import React from "react"
 import NavbarTwo from "../components/Layouts/NavbarTwo"
+import NavbarFive from "../components/Layouts/NavbarFive"
 import PageBanner from "../components/Common/PageBanner"
 import Feedback from "../components/Common/Feedback"
 import Footer from "../components/Layouts/Footer"
@@ -29,7 +30,7 @@ const QueHacemos = () => {
         <title>{quehacemosTitleTag}</title>
         <meta name="description" content={quehacemosMetaDesc} />
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle={quehacemosh1}
         subtitle={quehacemosh2}

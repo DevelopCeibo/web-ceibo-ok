@@ -1,5 +1,6 @@
 import React from "react"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
+import NavbarFive from "../../components/Layouts/NavbarFive"
 import Footer from "../../components/Layouts/Footer"
 import InsightDetailsContent from "../../components/Insights/InsightDetailsContent"
 import insights from "../../utils/insights.json"
@@ -31,7 +32,7 @@ const Insight = () => {
         <title>{TITLE_TAG}</title>
         <meta name="description" content={META_DESC} />
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <InsightPageBanner
         pageTitle={data.title}
         BGImage={data.metadata?.bannerImg}

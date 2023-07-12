@@ -2,6 +2,7 @@ import { useRouter } from "next/router"
 import React, { useState } from "react"
 import Footer from "../../components/Layouts/Footer"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
+import NavbarFive from "../../components/Layouts/NavbarFive"
 import Formulario from "../../components/sumatealequipo/vacantes/Formulario"
 import PageBanner from "../../components/Common/PageBanner"
 import vacantesES from "../../utils/vacantes.json"
@@ -106,7 +107,7 @@ const Vacante = () => {
       <Head>
         <title>{TITLE}</title>
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       {/* <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
       <div className="pt-70">
         <div className="container">

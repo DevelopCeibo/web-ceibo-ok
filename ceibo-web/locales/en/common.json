@@ -24,9 +24,9 @@
   "casosTitleTag": "Digital transformation success stories - Ceibo Digital",
   "casosMetaDesc": "Conocé cómo ayudamos a las empresas a diseñar e implementar su transformación digital. Trabajamos con clientes en múltiples industrias y países.",
 
-  "publicacionesh1": "News & insights",
+  "publicacionesh1": "News",
   "publicacionesh2": "All you need to know about Ceibo, digital transformation, consulting and technology",
-  "publicacionesTitleTag": "News and insights",
+  "publicacionesTitleTag": "News",
   "publicacionesMetaDesc": "Noticias y tendencias sobre transformación digital, negocios, consultoría y tecnología. Novedades de Ceibo Digital",
 
   "insightsh1": "Insights",
@@ -55,8 +55,8 @@
   "contacto": "Contact",
   "contactanosPmas": "Contact us for more",
   "informacion": "information",
-  "publicacionesTitle": "News & insights",
-  "insightsTitle": "More insights",
+  "publicacionesTitle": "News",
+  "insightsTitle": "Insights",
   "masInfo": "Learn more",
   "vermas": "Learn more",
   "leerArt": "Read insight",
@@ -66,6 +66,7 @@
   "enviarMsg": "Send message",
   "verpublis": "See all posts",
   "verInsighs": "See all insights",
+  "leeInsights": "More insights",
   "vercasos": "see all success stories",
 
   "title": "­We are a business consulting firm that helps our clients design and implements their digital transformation.",

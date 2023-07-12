@@ -1,5 +1,6 @@
 import React from "react"
 import NavbarTwo from "../components/Layouts/NavbarTwo"
+import NavbarFive from "../components/Layouts/NavbarFive"
 import Footer from "../components/Layouts/Footer"
 import PageBanner from "../components/Common/PageBanner"
 import { Input, FormControl, InputLabel, Stack } from "@mui/material"
@@ -16,7 +17,7 @@ const alumni = () => {
         <title>Alumni - Ceibo Digital</title>
         <meta name="googlebot" content="noindex" />
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle="Alumni"
         BGImage={null}

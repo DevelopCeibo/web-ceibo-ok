@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
+import NavbarFive from "../components/Layouts/NavbarFive"
 import PageBanner from "../../components/Common/PageBanner"
 import Footer from "../../components/Layouts/Footer"
 import Link from "next/link"
@@ -39,7 +40,7 @@ const CasosDeExito = () => {
         <title>{casosTitleTag}</title>
         <meta name="description" content={casosMetaDesc} />{" "}
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle={casosh1}
         subtitle={casosh2}

@@ -21,7 +21,7 @@ const LatestNewsSlider = ({type}) => {
     seccion = 'publicaciones'
     publicaciones = publications
   } else { // insights
-    publicacionesTitle = t("insightsTitle")
+    publicacionesTitle = t("leeInsights")
     vermas = t("leerArt");
     verpublis = t("verInsighs")
     seccion = 'insights'

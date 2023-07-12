@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { useRouter } from "next/router"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
+import NavbarFive from "../components/Layouts/NavbarFive"
 import Footer from "../../components/Layouts/Footer"
 import Link from "next/link"
 import casosES from "../../utils/casos-de-exito.json"
@@ -154,7 +155,7 @@ const Caso = () => {
       <Head>
         <title>{TITLE_TAG}</title>
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <BannerInfo
         pageTitle={
           locale == "en"

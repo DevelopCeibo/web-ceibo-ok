@@ -1,5 +1,6 @@
 import React from "react"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
+import NavbarFive from "../../components/Layouts/NavbarFive"
 import Footer from "../../components/Layouts/Footer"
 import BlogDetailsContent from "../../components/Blog/BlogDetailsContent"
 import publicaciones from "../../utils/publicaciones.json"
@@ -30,7 +31,7 @@ const Publicacion = () => {
         <title>{TITLE_TAG}</title>
         <meta name="description" content={META_DESC} />
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle={data.title}
         subtitle={`${
