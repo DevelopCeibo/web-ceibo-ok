@@ -112,32 +112,11 @@ const NavbarTwo = () => {
                   </Link>
                 </li> */}
 
-                {/* Dropdown Sumate al equipo */}
-
                 <li className="nav-item">
                   <Link href="/sumate-al-equipo" activeClassName="active">
                     <a className="nav-link"> {sumateAlEquipo}</a>
                   </Link>
-
-                  <ul
-                    className="dropdown-menu"
-                  >
-                    {/*  <h6 class="dropdown-header">lenguaje</h6> */}
-
-                    <li className="nav-item">
-                      <Link href="#" activeClassName="active">
-                        <a className="nav-link" >Algo</a>
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="#" activeClassName="active">
-                        <a className="nav-link" >Algo 2</a>
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
-
-                {/* Fin dropdown Sumate al equipo*/}
 
                 <li className="nav-item">
                   <Link href="/casos-de-exito" activeClassName="active">
@@ -145,11 +124,31 @@ const NavbarTwo = () => {
                   </Link>
                 </li>
 
+                {/* Dropdown Publicaciones */}
+
                 <li className="nav-item">
-                  <Link href="/publicaciones" activeClassName="active">
+                  <Link href="#" activeClassName="active">
                     <a className="nav-link"> {publicacionesTitle}</a>
                   </Link>
+                  <ul
+                    className="dropdown-menu"
+                  >
+                    {/*  <h6 class="dropdown-header">lenguaje</h6> */}
+
+                    <li className="nav-item">
+                      <Link href="/publicaciones" activeClassName="active">
+                        <a className="nav-link" >{publicacionesTitle}</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/insights" activeClassName="active">
+                        <a className="nav-link" >Algo 2</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
+
+                {/* Fin dropdown Publicaciones*/}
 
                 <li className="nav-item">
                   <Link href="/eventos" activeClassName="active">
