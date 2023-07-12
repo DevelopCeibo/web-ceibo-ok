@@ -2456,6 +2456,13 @@ Featured Services CSS
   font-weight: 600;
 }
 
+.read-more-btn-high {
+  color: #FFF;
+  background-color: #b72837;
+  font-size: 15px;
+  font-weight: 600;
+}
+
 /* 
 .read-more-btn::before {
   content: "";
@@ -5701,6 +5708,11 @@ Blog CSS
 .single-blog-item .blog-post-content h3 a:hover,
 .single-blog-item .blog-post-content h3 a:focus {
   color: #b72837;
+}
+
+.single-blog-item .blog-post-content a:hover,
+.single-blog-item .blog-post-content a:focus {
+  color: #18181b;
 }
 
 .single-blog-item .blog-post-content p {

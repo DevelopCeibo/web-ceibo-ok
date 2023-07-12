@@ -6,6 +6,7 @@ import Link from "next/link"
 import BlogGridThree from "../../components/Blog/BlogGridThree"
 import Head from "next/head"
 import useTranslation from "next-translate/useTranslation"
+import Hightlight from '../../components/Insights/Highlight'
 
 const Insights = () => {
   const { t } = useTranslation("common")
@@ -24,10 +25,14 @@ const Insights = () => {
       <PageBanner
         pageTitle={insightsh1}
         subtitle={insightsh2}
-        BGImage={"/images-ceibo/Banner-publicaciones.jpg"}
+        BGImage={"/images-ceibo/insights/insight-bg.jpg"}
         // bgcolor="#b72837"
       />
-      <div className="bg-fcfbfb pt-100 pb-70 casos-de-exito">
+      <Hightlight />
+      <div className="container">
+        <h2 style={{marginTop: '5%', paddingLeft: '2%', color: '#b72837', fontWeight: '600', fontSize: '25px'}}>{'Ultimas publicaciones'}</h2>
+        </div>
+      <div className="pb-70 casos-de-exito">
         {/* <div className="container ">asd</div> */}
         <BlogGridThree section={'insights'}/>
       </div>

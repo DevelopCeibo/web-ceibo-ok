@@ -1,10 +1,10 @@
 import React from "react"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
 import Footer from "../../components/Layouts/Footer"
-import InsightDetailsContent from "../../components/Blog/InsightDetailsContent"
+import InsightDetailsContent from "../../components/Insights/InsightDetailsContent"
 import insights from "../../utils/insights.json"
 import { useRouter } from "next/router"
-import InsightPageBanner from "../../components/Common/InsightPageBanner"
+import InsightPageBanner from "../../components/Insights/InsightPageBanner"
 import Head from "next/head"
 import LatestNewsSlider from '../../components/Common/LatestNewsSlider';
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import InsigthSidebar from "./InsigthSidebar";
-import Share from "../Common/Share";
+import Share from "./Share";
 import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
 
