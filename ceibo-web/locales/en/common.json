@@ -29,6 +29,14 @@
   "publicacionesTitleTag": "News and insights",
   "publicacionesMetaDesc": "Noticias y tendencias sobre transformación digital, negocios, consultoría y tecnología. Novedades de Ceibo Digital",
 
+  "insightsh1": "Insights",
+  "insightsh2": "Explore the latest trends shaping the future of business and society",
+  "insightsTitleTag": "Insights",
+  "insightsMetaDesc": "Insights sobre transformación digital, negocios, consultoría y tecnología.",
+
+  "compartir": "Share",
+  "autores": "Authors",
+
   "eventosh1": "Events and webinars",
   "eventosh2": "Listen to our experts talk about digital transformation, consulting, technology and more",
   "eventosTitleTag": "Events and webinars",
@@ -48,13 +56,16 @@
   "contactanosPmas": "Contact us for more",
   "informacion": "information",
   "publicacionesTitle": "News & insights",
+  "insightsTitle": "More insights",
   "masInfo": "Learn more",
   "vermas": "Learn more",
+  "leerArt": "Read insight",
   "suscribiteNews": "Suscribe to our newsletter",
   "suscribirme": "Suscribe me",
   "enviar": "Send",
   "enviarMsg": "Send message",
   "verpublis": "See all posts",
+  "verInsighs": "See all insights",
   "vercasos": "see all success stories",
 
   "title": "­We are a business consulting firm that helps our clients design and implements their digital transformation.",

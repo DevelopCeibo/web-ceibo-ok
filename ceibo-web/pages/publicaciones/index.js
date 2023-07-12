@@ -29,7 +29,7 @@ const Publicaciones = () => {
       />
       <div className="bg-fcfbfb pt-100 pb-70 casos-de-exito">
         {/* <div className="container ">asd</div> */}
-        <BlogGridThree />
+        <BlogGridThree section={'publicaciones'}/>
       </div>
       <Footer />
     </>

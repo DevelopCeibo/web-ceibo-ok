@@ -1,10 +1,10 @@
-import React, { useState } from "react"
-import Link from "next/link"
-import BlogSidebar from "./BlogSidebar"
-import BlogComments from "./BlogComments"
-import { Typography, Box, Button } from "@mui/material"
-import { marked } from "marked"
-import publicaciones from "../../utils/publicaciones.json"
+import React, { useState } from "react";
+import Link from "next/link";
+import BlogSidebar from "./BlogSidebar";
+import BlogComments from "./BlogComments";
+import { Typography, Box, Button } from "@mui/material";
+import { marked } from "marked";
+import publicaciones from "../../utils/publicaciones.json";
 
 const BlogRightSidebar = ({ publicacion }) => {
   // const [currentBlogIndex, setcurrentBlogIndex] = useState(
@@ -23,8 +23,8 @@ const BlogRightSidebar = ({ publicacion }) => {
     return content?.map((el, i) => {
       switch (el.type) {
         case "img":
-          return <img src={el.src} style={{ maxWidth: el.maxWidth }} />
-          break
+          return <img src={el.src} style={{ maxWidth: el.maxWidth }} />;
+          break;
         case "first-p":
           return (
             <p
@@ -32,8 +32,8 @@ const BlogRightSidebar = ({ publicacion }) => {
               // sx={{ pb: 2, fontSize: "30px" }}
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             ></p>
-          )
-          break
+          );
+          break;
         case "p-margin":
           return (
             <Typography
@@ -43,7 +43,7 @@ const BlogRightSidebar = ({ publicacion }) => {
             >
               {/* {marked(el.text)} */}
             </Typography>
-          )
+          );
         case "p":
           return (
             <Typography
@@ -53,13 +53,13 @@ const BlogRightSidebar = ({ publicacion }) => {
             >
               {/* {marked(el.text)} */}
             </Typography>
-          )
+          );
         case "question":
           return (
             <Typography component="p" sx={{ pb: 2 }}>
               <strong style={{ fontSize: "18px" }}>{el.text}</strong>
             </Typography>
-          )
+          );
         case "p-white":
           return (
             <Typography
@@ -69,7 +69,7 @@ const BlogRightSidebar = ({ publicacion }) => {
             >
               {el.text}
             </Typography>
-          )
+          );
         case "subtitle":
           return (
             <>
@@ -90,7 +90,7 @@ const BlogRightSidebar = ({ publicacion }) => {
                 }}
               />
             </>
-          )
+          );
         case "list":
           return (
             <Box
@@ -103,10 +103,10 @@ const BlogRightSidebar = ({ publicacion }) => {
                 </li>
               ))}
             </Box>
-          )
+          );
         case "doublelist":
           return el.items.map((item, idx) => {
-            console.log(item.insideItems)
+            console.log(item.insideItems);
             return (
               <div key={idx}>
                 <Typography sx={{ pb: 1 }}>{item.title}</Typography>
@@ -116,8 +116,8 @@ const BlogRightSidebar = ({ publicacion }) => {
                   ))}
                 </Box>
               </div>
-            )
-          })
+            );
+          });
         case "quote":
           return (
             <div>
@@ -132,12 +132,12 @@ const BlogRightSidebar = ({ publicacion }) => {
                 {el.author}
               </p>
             </div>
-          )
+          );
         default:
-          return null
+          return null;
       }
-    })
-  }
+    });
+  };
 
   return (
     <>
@@ -222,7 +222,7 @@ const BlogRightSidebar = ({ publicacion }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default BlogRightSidebar
+export default BlogRightSidebar;

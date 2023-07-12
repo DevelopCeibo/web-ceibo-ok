@@ -2,15 +2,32 @@ import React from "react"
 import Link from "next/link"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from "swiper"
-import publicaciones from "../../utils/publicaciones.json"
+import publications from "../../utils/publicaciones.json"
+import insights from '../../utils/insights.json'
 import useTranslation from "next-translate/useTranslation"
 import { useRouter } from "next/router"
 
-const LatestNewsSlider = () => {
+const LatestNewsSlider = ({type}) => {
   const { t } = useTranslation("common")
-  const publicacionesTitle = t("publicacionesTitle")
-  const vermas = t("vermas")
-  const verpublis = t("verpublis")
+  let publicacionesTitle;
+  let vermas;
+  let verpublis;
+  let seccion;
+  let publicaciones;
+  if (type === 'publicaciones') {
+    publicacionesTitle = t("publicacionesTitle")
+    vermas = t("vermas");
+    verpublis = t("verpublis")
+    seccion = 'publicaciones'
+    publicaciones = publications
+  } else { // insights
+    publicacionesTitle = t("insightsTitle")
+    vermas = t("leerArt");
+    verpublis = t("verInsighs")
+    seccion = 'insights'
+    publicaciones = insights
+  }
+
 
   const { locale } = useRouter()
   // si locale == en, los titulos de publicaciones van en ingles
@@ -18,9 +35,9 @@ const LatestNewsSlider = () => {
   return (
     <>
       <div className="blog-area ptb-100">
-        <div className="container">
+        <div className="container" >
           <div className="section-title">
-            <h2>{publicacionesTitle}</h2>
+            <h2 style={{}}>{publicacionesTitle}</h2>
           </div>
 
           <Swiper
@@ -46,7 +63,7 @@ const LatestNewsSlider = () => {
               <SwiperSlide key={i}>
                 <div className="single-blog-item">
                   <div className="blog-image">
-                    <Link href={`/publicaciones/${publi["path-url"]}`}>
+                    <Link href={`/${seccion}/${publi["path-url"]}`}>
                       <a>
                         <img
                           src={publi.img}
@@ -64,7 +81,7 @@ const LatestNewsSlider = () => {
                   >
                     {/* <span className="date">Feb 15, 2022</span> */}
                     <h3>
-                      <Link href={`/publicaciones/${publi["path-url"]}`}>
+                      <Link href={`/${seccion}/${publi["path-url"]}`}>
                         <a>{locale == "en" ? publi.titleEN : publi.title}</a>
                       </Link>
                     </h3>
@@ -74,7 +91,7 @@ const LatestNewsSlider = () => {
                         ? publi.desc
                         : "*This article is written in Spanish"}
                     </p>
-                    <Link href={`/publicaciones/${publi["path-url"]}`}>
+                    <Link href={`/${seccion}/${publi["path-url"]}`}>
                       <a className="read-more-btn">
                         {vermas} <i className="fa-solid fa-angles-right"></i>
                       </a>
@@ -85,7 +102,7 @@ const LatestNewsSlider = () => {
             ))}
           </Swiper>
           <div className="container btn-two-container">
-            <Link href="/publicaciones/">
+            <Link href={`/${seccion}/`}>
               <a className="default-btn-two">
                 {verpublis}
                 <i className="fas fa-chevron-right"></i>
