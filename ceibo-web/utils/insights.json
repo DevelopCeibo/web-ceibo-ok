@@ -35,7 +35,6 @@
           "type": "list",
           "items": [
             "el nuevo escenario competitivo",
-            "las nuevas tecnologías",
             "las nuevas tecnologías"
           ]
         },
@@ -132,6 +131,10 @@
         {
           "type": "p",
           "text": "Demanda, sobre todo, la constante reevaluación de iniciativas y adaptabilidad de los consultores que deben afrontar escenarios inciertos y acompañar a las empresas en este proceso fundamental."
+        },
+        {
+          "type": "p",
+          "text": "Nota original: [iProUp](https://www.iproup.com/economia-digital/28202-transformacion-digital-asi-ayudan-los-consultores-a-las-firmas)"
         }
       ],
       "metadata": {
@@ -410,8 +413,8 @@
       "metadata": {
         "author": "Hernán Gutsztat - Managing Partner",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-        "date": " 28 octubre, 2021",
-        "date": "october 28, 2021",
+        "date": "28 de Octubre, 2021",
+        "dateEN": "October 28, 2021",
         "bannerImg": "/images-ceibo/publicaciones/transformacion-digital-5-mitos-scaled.jpg",
         "tags": ["Transformación Digital", "Empresas", "Negocios"]
       }
@@ -741,8 +744,8 @@
       "metadata": {
         "author": "Hernán Gutsztat - Managing Partner",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-        "date": "7 febrero, 2021",
-        "date": "february 7, 2021",
+        "date": "7 Febrero, 2021",
+        "dateEN": "February 7, 2021",
         "bannerImg": "/images-ceibo/publicaciones/priscilla-du-preez-341138-1.jpg",
         "tags": ["Fintech", "Bancos", "Transformación Digital"]
       }
