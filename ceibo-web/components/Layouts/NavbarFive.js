@@ -172,8 +172,8 @@ const NavbarFive = () => {
                 <li className="nav-item">
                  
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
-                      <i class="fa-solid fa-globe"></i>{" "}
-                      <i class="fa-solid fa-angle-down"></i>
+                      <i className="fa-solid fa-globe"></i>{" "}
+                      <i className="fa-solid fa-angle-down"></i>
                     </a>
                  
 
@@ -287,7 +287,7 @@ const NavbarFive = () => {
                   <Link href="/alumni" activeClassName="active">
                     <a className="nav-link">
                       {" "}
-                      <i class="fa-regular fa-circle-user"></i> Alumni
+                      <i className="fa-regular fa-circle-user"></i> Alumni
                     </a>
                   </Link>
                 </li>
