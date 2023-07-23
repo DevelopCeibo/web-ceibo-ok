@@ -5,6 +5,7 @@ import Share from "./Share";
 import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
 import Subscribe from './Subscribe';
+import Download from './Dowload';
 
 const InsightDetailsContent = ({ publicacion, date }) => {
 
@@ -150,6 +151,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
             <div className="col-lg-2 col-md-12">
               <div>
                 <Share publicacion={publicacion}/>
+                <Download />
               </div>
             </div>
             <div className="col-lg-8 col-md-12">
