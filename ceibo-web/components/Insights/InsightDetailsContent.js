@@ -6,6 +6,7 @@ import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
 import Subscribe from './Subscribe';
 import Download from './Dowload';
+import AboutAuthors from './AboutAuthors';
 
 const InsightDetailsContent = ({ publicacion, date }) => {
 
@@ -158,6 +159,18 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               <div className="blog-details">
                 <div className="article-content">
                   {renderContent(publicacion?.content)}
+                  {/* Horizontal line */}
+                  <div
+                    style={{
+                      height: "2px",
+                      backgroundColor: "#b72837",
+                      borderColor: "#b72837",
+                    }}
+                  />
+
+                  <div style={{marginBottom: '2%', marginTop: '2%'}}>
+                    <AboutAuthors />
+                  </div>
                   {/* Horizontal line */}
                   <div
                     style={{

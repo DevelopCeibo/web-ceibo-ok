@@ -29,7 +29,7 @@ const Download = ({ publicacion }) => {
               className="fa-solid fa-download fa-xl"
               style={{ color: "#b72837" }}
               ></i>{' '}
-              <p style={{ color: "#b72837" }}>{'Artículo completo'}</p>
+              <a style={{color: '#b72837'}}>{'Artículo completo'}</a>
           </div>
         </div>
       </div>
