@@ -21,7 +21,6 @@ const NavbarFive = () => {
   const eventos = t("eventos");
 
   const handleLocale = (e) => {
-    console.log("EVENTO->", e);
     let locale = "es";
     e.target.innerText.toLowerCase() === "español"
       ? (locale = "es")
@@ -133,9 +132,11 @@ const NavbarFive = () => {
                 {/* Dropdown Publicaciones */}
 
                 <li className="nav-item">
-                  <Link href="#" activeClassName="active">
-                    <a className="nav-link"> {"News & Insights"}</a>
-                  </Link>
+                  
+                    <a className="nav-link"> {"News & Insights"}
+                    <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                  
                   <ul className="dropdown-menu">
                     {/*  <h6 class="dropdown-header">lenguaje</h6> */}
 
@@ -169,12 +170,12 @@ const NavbarFive = () => {
                 {/* Dropdown Lenguaje */}
 
                 <li className="nav-item">
-                  <Link href="#">
+                 
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       <i class="fa-solid fa-globe"></i>{" "}
                       <i class="fa-solid fa-angle-down"></i>
                     </a>
-                  </Link>
+                 
 
                   <ul
                     className="dropdown-menu"
@@ -191,7 +192,9 @@ const NavbarFive = () => {
                       value="es"
                       onClick={(e) => handleLocale(e)}
                     >
+                      <Link href="#">
                       <a className="nav-link">{"Español"}</a>
+                      </Link>
                     </li>
 
                     <li
@@ -199,7 +202,9 @@ const NavbarFive = () => {
                       value="es"
                       onClick={(e) => handleLocale(e)}
                     >
+                      <Link href="#">
                       <a className="nav-link">{"English"}</a>
+                      </Link>
                     </li>
 
                    {/*  <li className="nav-item">
