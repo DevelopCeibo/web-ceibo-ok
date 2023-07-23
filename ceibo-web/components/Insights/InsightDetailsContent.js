@@ -4,6 +4,7 @@ import InsigthSidebar from "./InsigthSidebar";
 import Share from "./Share";
 import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
+import Subscribe from './Subscribe';
 
 const InsightDetailsContent = ({ publicacion, date }) => {
 
@@ -175,6 +176,9 @@ const InsightDetailsContent = ({ publicacion, date }) => {
                       </li>
                     ))}
                   </ul>
+                  <div >
+                    <Subscribe />
+                  </div>
                 </div>
               </div>
             </div>
