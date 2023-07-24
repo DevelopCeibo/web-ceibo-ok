@@ -101,6 +101,9 @@
   .navbar-area nav .navbar-nav .nav-item .dropdown-menu li {
     padding: 5px 15px;
   }
+  .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a {
+    color: #000000;
+  }
   .navbar-area nav .others-options {
     margin: 10px 0 15px 10px;
   }

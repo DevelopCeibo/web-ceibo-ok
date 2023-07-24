@@ -4,9 +4,12 @@ import InsigthSidebar from "./InsigthSidebar";
 import Share from "./Share";
 import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
+import Subscribe from "./Subscribe";
+import Download from "./Dowload";
+import AboutAuthors from "./AboutAuthors";
+import DownloadFileButton from './DownloadFileButton';
 
 const InsightDetailsContent = ({ publicacion, date }) => {
-
   const renderContent = (content) => {
     return content?.map((el, i) => {
       switch (el.type) {
@@ -134,27 +137,48 @@ const InsightDetailsContent = ({ publicacion, date }) => {
     <>
       <div className="pt-100">
         <div className="container">
-          <div style={{ alignContent: "space-between", paddingLeft: '3%' }}>
+          <div style={{ alignContent: "space-between", paddingLeft: "3%" }}>
             {publicacion?.metadata?.author?.length >= 1 &&
             publicacion.metadata.author[0] ? (
-              <h2 style={{ paddingBottom: "1%", color: "grey", fontSize: '20px' }}>
+              <h2
+                style={{ paddingBottom: "1%", color: "grey", fontSize: "20px" }}
+              >
                 {`Por ${publicacion?.metadata.author}`}
               </h2>
             ) : null}
             {date && (
-              <h2 style={{ color: "grey", fontWeight: "300", fontSize: '20px' }}>{date}</h2>
+              <h2
+                style={{ color: "grey", fontWeight: "300", fontSize: "20px" }}
+              >
+                {date}
+              </h2>
             )}
           </div>
           <div className="row">
             <div className="col-lg-2 col-md-12">
               <div>
-                <Share publicacion={publicacion}/>
+                <Share publicacion={publicacion} />
+                <Download />
               </div>
             </div>
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
                 <div className="article-content">
                   {renderContent(publicacion?.content)}
+                  
+                  <DownloadFileButton />
+
+                  {/* Horizontal line */}
+                  <div
+                    style={{
+                      height: "2px",
+                      backgroundColor: "#b72837",
+                      borderColor: "#b72837",
+                    }}
+                  />
+                  <div style={{ marginBottom: "2%", marginTop: "2%" }}>
+                    <AboutAuthors />
+                  </div>
                   {/* Horizontal line */}
                   <div
                     style={{
@@ -175,6 +199,9 @@ const InsightDetailsContent = ({ publicacion, date }) => {
                       </li>
                     ))}
                   </ul>
+                  <div>
+                    <Subscribe />
+                  </div>
                 </div>
               </div>
             </div>

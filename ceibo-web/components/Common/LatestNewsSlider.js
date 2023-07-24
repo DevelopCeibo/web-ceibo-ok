@@ -14,6 +14,7 @@ const LatestNewsSlider = ({type}) => {
   let verpublis;
   let seccion;
   let publicaciones;
+  let bc;
   if (type === 'publicaciones') {
     publicacionesTitle = t("publicacionesTitle")
     vermas = t("vermas");
@@ -26,6 +27,7 @@ const LatestNewsSlider = ({type}) => {
     verpublis = t("verInsighs")
     seccion = 'insights'
     publicaciones = insights
+    bc = {backgroundColor: '#E6E6E6'}
   }
 
 
@@ -34,7 +36,7 @@ const LatestNewsSlider = ({type}) => {
 
   return (
     <>
-      <div className="blog-area ptb-100">
+      <div className="blog-area ptb-100" style={bc}>
         <div className="container" >
           <div className="section-title">
             <h2 style={{}}>{publicacionesTitle}</h2>
