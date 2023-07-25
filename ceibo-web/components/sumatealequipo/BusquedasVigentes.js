@@ -11,6 +11,8 @@ const BusquedasVigentes = () => {
   const consultant = t("consultant")
   const associate = t("associate")
   const developer = t("developer")
+  const marketingAutomation = t("marketing-automation")
+  const seniorPaidMedia = t("senior-paid-media")
   const vermas = t("vermas")
   const contactanos = t("contactanos")
 
@@ -43,6 +45,8 @@ const BusquedasVigentes = () => {
                       <p>{vac.id == "3" && consultant}</p>
                       <p>{vac.id == "4" && associate}</p>
                       <p>{vac.id == "5" && developer}</p>
+                      <p>{vac.id == "6" && marketingAutomation}</p>
+                      <p>{vac.id == "7" && seniorPaidMedia}</p>
                     </div>
                     {/* <Link
                       href={`/sumate-al-equipo/${vac["path-url"]}`}

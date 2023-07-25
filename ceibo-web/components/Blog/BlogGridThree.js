@@ -1,24 +1,29 @@
 import React from "react"
 import Link from "next/link"
 import publicaciones from "../../utils/publicaciones.json"
+import insights from "../../utils/insights.json"
 import { useRouter } from "next/router"
 import useTranslation from "next-translate/useTranslation"
 
-const BlogGrid = () => {
+const BlogGrid = ({section}) => {
   const { locale } = useRouter()
+
+  const data = section === 'insights' ? insights : publicaciones;
+  const urlFragment = section === 'insights' ? 'insights' : 'publicaciones';
+  const style = section === 'insights' ? {paddingTop: 30} : {};
 
   const { t } = useTranslation("common")
   const vermas = t("vermas")
   return (
     <>
-      <div className="blog-area ptb-100">
+      <div className="blog-area ptb-100" style={style}>
         <div className="container">
           <div className="row justify-content-center">
-            {publicaciones.map((publi, i) => (
+            {data.map((publi, i) => (
               <div className="col-lg-4 col-md-6" key={i}>
                 <div className="single-blog-item ">
                   <div className="blog-image">
-                    <Link href={`/publicaciones/${publi["path-url"]}`}>
+                    <Link href={`/${urlFragment}/${publi["path-url"]}`}>
                       <a>
                         <img src={publi.img} alt="image" />
                       </a>
@@ -42,7 +47,7 @@ const BlogGrid = () => {
                         : publi?.metadata.dateEN}
                     </span>
                     <h3>
-                      <Link href={`/publicaciones/${publi["path-url"]}`}>
+                      <Link href={`/${urlFragment}/${publi["path-url"]}`}>
                         <a>{locale == "en" ? publi.titleEN : publi.title}</a>
                       </Link>
                     </h3>
@@ -53,7 +58,7 @@ const BlogGrid = () => {
                         : "*This article is written in Spanish"}
                     </p>
 
-                    <Link href={`/publicaciones/${publi["path-url"]}`}>
+                    <Link href={`/${urlFragment}/${publi["path-url"]}`}>
                       <a className="read-more-btn">
                         {vermas}
                         <i className="fa-solid fa-angles-right"></i>

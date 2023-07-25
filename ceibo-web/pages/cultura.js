@@ -1,6 +1,7 @@
 import React from "react"
 import Link from "next/link"
 import NavbarTwo from "../components/Layouts/NavbarTwo"
+import NavbarFive from "../components/Layouts/NavbarFive"
 import PageBanner from "../components/Common/PageBanner"
 import AboutContent from "../components/About/AboutContent"
 import GptwCultura from "../components/About/GptwCultura"
@@ -16,7 +17,6 @@ import { useRouter } from "next/router"
 
 const Aabout = () => {
   const { locale } = useRouter()
-  console.log("LOCALE->", locale);
   const { t } = useTranslation("common")
   const culturaTitle = t("culturaTitle")
   const contactanos = t("contactanos")

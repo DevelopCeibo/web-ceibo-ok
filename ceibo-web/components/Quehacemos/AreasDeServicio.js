@@ -71,7 +71,7 @@ const AreasDeServicio = () => {
   const innovacionModalItem4 = t("innovacionModalItem4")
   const innovacionModalItem5 = t("innovacionModalItem5")
 
-  const customerengModalText1 = t("innovacionModalText1")
+  const customerengModalText1 = t("customerengModalText1")
   const customerengModalItem1 = t("customerengModalItem1")
   const customerengModalItem2 = t("customerengModalItem2")
   const customerengModalItem3 = t("customerengModalItem3")

@@ -1,5 +1,6 @@
 import React from "react"
 import NavbarTwo from "../../components/Layouts/NavbarTwo"
+import NavbarFive from "../../components/Layouts/NavbarFive"
 import PageBanner from "../../components/Common/PageBanner"
 import Footer from "../../components/Layouts/Footer"
 import Link from "next/link"
@@ -29,7 +30,7 @@ const Publicaciones = () => {
       />
       <div className="bg-fcfbfb pt-100 pb-70 casos-de-exito">
         {/* <div className="container ">asd</div> */}
-        <BlogGridThree />
+        <BlogGridThree section={'publicaciones'}/>
       </div>
       <Footer />
     </>

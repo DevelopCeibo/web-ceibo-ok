@@ -9,6 +9,8 @@ const Vacantes = () => {
   const dataScientist = t("dataScientist")
   const manager = t("manager")
   const consultant = t("consultant")
+  const marketingAutomation = t("marketing-automation")
+  const seniorPaidMedia = t("senior-paid-media")
   const vermas = t("vermas")
   const mirarbusquedas = t("mirarbusquedas")
   const uniteaceibo = t("uniteaceibo")
