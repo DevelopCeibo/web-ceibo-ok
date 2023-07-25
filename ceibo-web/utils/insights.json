@@ -2,10 +2,12 @@
     {
       "id": "4",
       "title": "Consultores para la Transformación Digital: qué son, qué hacen y cómo pueden ayudar a las empresas",
+      "article": "| Artículo",
+      "theme": "Transformación Digital",
       "path-url": "consultores-en-transformacion-digital",
       "titleEN": "Digital Transformation Consultants: what do they do and how can they help companies?",
       "img": "/images-ceibo/publicaciones/Publicaciones-experiencia-del-cliente.jpg",
-      "desc": "Hernán Gutsztat, managing Partner en Ceibo, analiza la importancia de acompañar la aceleración digital dentro de cada compañía",
+      "desc": "Hernán Gutsztat, managing Partner en Ceibo, analiza la importancia de acompañar la aceleración digital dentro de cada compañía.",
       "content": [
         {
           "type": "p-margin",
@@ -139,21 +141,24 @@
         }
       ],
       "metadata": {
-        "author": "Hernán Gutsztat - Managing Partner",
+        "author": "Hernán Gutsztat",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
         "date": "1 marzo, 2022",
         "dateEN": "march 1, 2022",
         "bannerImg": "/images-ceibo/publicaciones/Publicaciones-experiencia-del-cliente.jpg",
-        "tags": ["Ceibo Digital", "Transformación Digital", "Consultoría"]
+        "tags": ["Ceibo Digital", "Transformación Digital", "Consultoría"],
+        "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
       }
     },
     {
       "id": "5",
       "title": "Ocho puntos clave para mejorar la experiencia del cliente",
+      "article": "| Artículo",
+      "theme": "Experiencia del cliente",
       "path-url": "ocho-puntos-clave-para-mejorar-la-experiencia-del-cliente",
       "titleEN": "8 key points to improve customer experience",
       "img": "/images-ceibo/publicaciones/Publicaciones-consultoría-en-TD.jpg",
-      "desc": "Qué es el Customer Experience Management y cómo la experiencia del cliente se transformó en la actualidad.",
+      "desc": "Muchas organizaciones que se enfocaron en la experiencia del cliente dieron sus primeros pasos de forma exitosa. Sin embargo, el mercado, la competencia y los consumidores evolucionan.",
       "content": [
         {
           "type": "p",
@@ -230,21 +235,28 @@
         {
           "type": "p",
           "text": "En definitiva,<u> el Customer Experience Management debemos entenderlo como la gestión madura y profesional que requieren las empresas que han orientado su operación de cara a los clientes</u>, a fin de poder generar las capacidades necesarias para competir y ganar en mercados desafiantes, cambiantes y muy competitivos."
+        },
+        {
+          "type": "p",
+          "text": "Nota original: [iProUP](https://www.cronista.com/columnistas/ocho-puntos-clave-para-mejorar-la-experiencia-del-cliente/)"
         }
       ],
       "metadata": {
-        "author": "Hernán Gutsztat - Managing Partner",
+        "author": "Hernán Gutsztat",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
         "date": "29 de Enero, 2022",
         "dateEN": "january 29, 2022",
         "bannerImg": "/images-ceibo/publicaciones/Publicaciones-consultoría-en-TD.jpg",
-        "tags": ["Experiencia del cliente", "Marketing", "Customer experience"]
+        "tags": ["Experiencia del cliente", "Marketing", "Customer experience"],
+        "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
       }
     },
     {
       "id": "8",
       "path-url": "agile-importante-en-el-contexto-actual",
       "title": "Agile ¿Qué es y por qué es importante en el contexto actual?",
+      "article": "| Artículo",
+      "theme": "Metodologías ásgiles",
       "titleEN": "What is Agile and Why is it Important?",
       "img": "/images-ceibo/publicaciones/metodologias-agiles.jpg",
       "desc": "Aunque la metodología nació en la industria de desarrollo de software, el contexto actual aceleró la adopción de esta práctica y se masificó su utilización a través de diferentes organizaciones de las industrias más variadas.",
@@ -279,21 +291,24 @@
         }
       ],
       "metadata": {
-        "author": "Ayelen Richard - Project Leader",
+        "author": "Ayelen Richard",
         "authorImg": "/images-ceibo/integrantes/Ayelen Richard.png",
         "date": "7 diciembre, 2021",
         "dateEN": "december 7, 2021",
         "bannerImg": "/images-ceibo/publicaciones/metodologias-agilesbanner.jpg",
-        "tags": ["Agile", "Consultoría", "Metodologías ágiles"]
+        "tags": ["Agile", "Consultoría", "Metodologías ágiles"],
+        "authorIn": "https://www.linkedin.com/in/ayelenrichard/"
       }
     },
     {
       "id": "9",
       "path-url": "black-friday-2022-estadisticas-y-tendencias",
       "title": "Cifras y tendencias que se esperan para la próxima edición del Black Friday",
+      "article": "| Artículo",
+      "theme": "Black Fridey",
       "titleEN": "Black Friday stats and trends expected for 2022Black Friday stats and trends expected for 2022",
       "img": "/images-ceibo/publicaciones/black-friday-4655335_1920-1536x1024.jpg",
-      "desc": "Black Friday (o Viernes negro), fecha especial de compras que ocurre cada año el día siguiente al feriado de Thanksgiving, presentando liquidaciones y descuentos desorbitantes que oscilan entre el 40% y 70%.",
+      "desc": "David Wilson, Partner en Ceibo Digital, consultora de negocios con foco en transformación digital, detalla las expectativas del sector para el evento.",
       "content": [
         {
           "type": "first-p",
@@ -337,22 +352,25 @@
         }
       ],
       "metadata": {
-        "author": "David Wilson - Partner",
+        "author": "David Wilson",
         "authorImg": "/images-ceibo/integrantes/David Wilson.png",
         "date": "26 noviembre, 2021",
         "dateEN": "november 26, 2021",
         "bannerImg": "/images-ceibo/publicaciones/black-friday-4655335_1920banner.jpg",
         "tags": ["Actualidad", "Tendencias", "Economia Digital", "Black Friday"],
-        "fuenteOriginal": "iProUP"
+        "fuenteOriginal": "iProUP",
+        "authorIn": "https://www.linkedin.com/in/wilsondavidj/"
       }
     },
     {
       "id": "10",
       "path-url": "mitos-de-la-transformacion-digital",
       "title": "Transformación digital: 5 mitos de la nueva era",
+      "article": "| Artículo",
+      "theme": "Transformación Digital",
       "titleEN": "5 myths about digital transformation",
       "img": "/images-ceibo/publicaciones/transformacion-digital-5-mitos-1536x1024.jpg",
-      "desc": "La continua disrupción tecnológica y la diversidad de players y opiniones que juegan en el nuevo mundo digital, hacen complicado entender qué es eso de lo que todos hablan cuando se nombra a la “transformación digital”, sobre todo para aquél que viene de un mundo analógico, más físico.",
+      "desc": "Existen aún ciertos 'mitos y verdades' acerca de la transformación digital que todo Directivo tiene que conocer antes de proyectar ese nuevo modelo de negocio o rediseñar la organización.",
       "content": [
         {
           "type": "first-p",
@@ -412,21 +430,24 @@
         }
       ],
       "metadata": {
-        "author": "Hernán Gutsztat - Managing Partner",
+        "author": "Hernán Gutsztat",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
         "date": "28 de Octubre, 2021",
         "dateEN": "October 28, 2021",
         "bannerImg": "/images-ceibo/publicaciones/transformacion-digital-5-mitos-scaled.jpg",
-        "tags": ["Transformación Digital", "Empresas", "Negocios"]
+        "tags": ["Transformación Digital", "Empresas", "Negocios"],
+        "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
       }
     },
     {
       "id": "11",
       "path-url": "el-futuro-del-trabajo",
       "title": "El futuro del trabajo",
+      "article": "| Artículo",
+      "theme": "Futuro del trabajo",
       "titleEN": "Future of work",
       "img": "/images-ceibo/publicaciones/Publicaciones-el-futuro-del-trabajo.jpg",
-      "desc": "Entrando en la recta final de pandemia del Covid-19 y el confinamiento, después de haber pasado el experimento laboral más grande de la historia, todos nos estamos preguntando: ¿Cómo va a quedar configurada la nueva normalidad del trabajo?",
+      "desc": "Tras la pandemia del Covid-19 y el confinamiento, después de haber pasado el experimento laboral más grande de la historia, todos nos estamos preguntando: ¿Cómo va a quedar configurada la nueva normalidad del trabajo?",
       "content": [
         {
           "type": "first-p",
@@ -515,21 +536,24 @@
         }
       ],
       "metadata": {
-        "author": "Hernán Gutsztat - Managing Partner",
+        "author": "Hernán Gutsztat",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
         "date": "15 de Julio, 2021",
         "dateEN": "July 15, 2021",
         "bannerImg": "/images-ceibo/publicaciones/Publicaciones-el-futuro-del-trabajo.jpg",
-        "tags": ["Trabajo", "Empresas", "Tendencias", "Covid-19"]
+        "tags": ["Trabajo", "Empresas", "Tendencias", "Covid-19"],
+        "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
       }
     },
     {
       "id": "12",
       "path-url": "el-desafio-de-la-transformacion-digital-en-paraguay",
       "title": "La transformación digital, uno de los desafíos del 2021",
+      "article": "| Artículo",
+      "theme": "Transformación Digital",
       "titleEN": "Digital transformation in Paraguay",
       "img": "/images-ceibo/publicaciones/top-banner-contacto-1536x560.jpg",
-      "desc": "Paraguay es un país en constante crecimiento y los números así lo reflejan. El incremento sostenido de la economía paraguaya de los últimos 15 años es muy notorio, con un aumento de su PBI per cápita casi constante durante todo el período. Sin embargo ..",
+      "desc": "Paraguay es un país en constante crecimiento y los números así lo reflejan. Sin embargo, el país sigue estando por detrás de muchos otros en materia de transformación digital.",
       "content": [
         {
           "type": "first-p",
@@ -629,21 +653,24 @@
         }
       ],
       "metadata": {
-        "author": "Hernán Gutsztat - Managing Partner",
+        "author": "Hernán Gutsztat",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
         "date": "29 abril, 2021",
         "dateEN": "april 29, 2021",
         "bannerImg": "/images-ceibo/publicaciones/top-banner-contacto.jpg",
-        "tags": ["Transformación Digital", "Paraguay"]
+        "tags": ["Transformación Digital", "Paraguay"],
+        "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
       }
     },
     {
       "id": "13",
       "path-url": "por-que-las-fintech-son-las-grandes-protagonistas-la-transformacion-digital",
       "title": "Por qué las fintech son las grandes protagonistas de la transformación digital",
+      "article": "| Artículo",
+      "theme": "Fintech",
       "titleEN": "Fintechs and the digital transformation of financial services",
       "img": "/images-ceibo/publicaciones/priscilla-du-preez-341138-1-1536x897.jpg",
-      "desc": "Las fintech son grandes protagonistas de la Transformación Digital en la industria de Servicios Financieros. Han golpeado fuerte una industria muy regulada y tradicionalmente..",
+      "desc": "Han golpeado fuerte una industria muy regulada y tradicionalmente poco innovadora desafiando a jugadores centenarios.",
       "content": [
         {
           "type": "first-p",
@@ -743,12 +770,13 @@
         }
       ],
       "metadata": {
-        "author": "Hernán Gutsztat - Managing Partner",
+        "author": "Hernán Gutsztat",
         "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
         "date": "7 Febrero, 2021",
         "dateEN": "February 7, 2021",
         "bannerImg": "/images-ceibo/publicaciones/priscilla-du-preez-341138-1.jpg",
-        "tags": ["Fintech", "Bancos", "Transformación Digital"]
+        "tags": ["Fintech", "Bancos", "Transformación Digital"],
+        "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
       }
     }
   ]

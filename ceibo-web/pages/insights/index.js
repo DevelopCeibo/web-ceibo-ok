@@ -31,7 +31,7 @@ const Insights = () => {
       />
       <Hightlight />
       <div className="container">
-        <h2 style={{marginTop: '5%', paddingLeft: '2%', color: '#b72837', fontWeight: '600', fontSize: '25px'}}>{'Ultimas publicaciones'}</h2>
+        <h2 style={{marginTop: '2%', paddingLeft: '2%', color: '#b72837', fontWeight: '600', fontSize: '25px'}}>{'ÚLTIMAS PUBLICACIONES'}</h2>
         </div>
       <div className="pb-70 casos-de-exito">
         {/* <div className="container ">asd</div> */}

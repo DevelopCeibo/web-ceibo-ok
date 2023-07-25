@@ -37,6 +37,8 @@ const Insight = () => {
         pageTitle={data.title}
         BGImage={data.metadata?.bannerImg}
         textcenter={true}
+        article={data.article}
+        theme={data.theme}
       />
       <InsightDetailsContent publicacion={data} date={`${
           locale == "es" ? data?.metadata?.date : data?.metadata?.dateEN

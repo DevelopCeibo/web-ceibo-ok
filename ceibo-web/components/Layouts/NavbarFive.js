@@ -134,7 +134,7 @@ const NavbarFive = () => {
                 <li className="nav-item">
                   
                     <a className="nav-link"> {"News & Insights"}
-                    <i class="fa-solid fa-angle-down"></i>
+                    <i className="fa-solid fa-angle-down"></i>
                     </a>
                   
                   <ul className="dropdown-menu">

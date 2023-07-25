@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 const Hightlight = () => {
   const { t } = useTranslation("common");
-  const publicacionesTitle = "Feature Insights"; // t("insightsTitle");
+  const publicacionesTitle = "FEATURED INSIGHTS"; // t("insightsTitle");
   const vermas = t("leerArt");
   const verpublis = t("verInsighs");
   const seccion = "insights";
@@ -74,12 +74,12 @@ const Hightlight = () => {
                       className="read-more-btn-high"
                       style={{
                         width: "25%",
-                        paddingLeft: "1%",
                         borderRadius: "10px",
                         overflow: "hidden",
+                        textAlign: 'center'
                       }}
                     >
-                      {vermas} <i className="fa-solid fa-angles-right"></i>
+                      {vermas}
                     </a>
                   </Link>
                 </div>

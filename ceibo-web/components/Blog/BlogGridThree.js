@@ -10,12 +10,13 @@ const BlogGrid = ({section}) => {
 
   const data = section === 'insights' ? insights : publicaciones;
   const urlFragment = section === 'insights' ? 'insights' : 'publicaciones';
+  const style = section === 'insights' ? {paddingTop: 30} : {};
 
   const { t } = useTranslation("common")
   const vermas = t("vermas")
   return (
     <>
-      <div className="blog-area ptb-100">
+      <div className="blog-area ptb-100" style={style}>
         <div className="container">
           <div className="row justify-content-center">
             {data.map((publi, i) => (

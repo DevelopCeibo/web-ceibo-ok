@@ -6,6 +6,8 @@ const InsightPageBanner = ({
   bgcolor,
   textcenter,
   subtitle,
+  article,
+  theme,
 }) => {
   return (
     <>
@@ -29,15 +31,15 @@ const InsightPageBanner = ({
           <div /* className="d-table-cell " */>
             <div
               className="container main-banner-content p-2"
-              style={{ backgroundColor: "#FFF"}}
+              style={{ backgroundColor: "#FFF" }}
             >
-              <div style={{ display: "flex", flexDirection: "row" }}>
+              <div style={{ display: "flex", flexDirection: "row", gap: '1%'}}>
                 <h2 style={{ color: "#b72837", marginRight: "1px" }}>
-                  {"Customer Experience"}
+                  {theme ?? theme}
                 </h2>
-                <h2 style={{ color: "grey" }}>{"| Articulo"}</h2>
+                <h2 style={{ color: "grey" }}>{article ?? article}</h2>
               </div>
-              <h1 style={{ color: "black" }}>{pageTitle}</h1>
+              <h1 style={{ color: "black", padding: "2rem" }}>{pageTitle}</h1>
             </div>
           </div>
         </div>

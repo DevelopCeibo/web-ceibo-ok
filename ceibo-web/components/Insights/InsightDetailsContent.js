@@ -39,7 +39,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           return (
             <Typography
               component="p"
-              sx={{ pb: 2 }}
+              sx={{ pb: 2, fontSize: 18}}
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             >
               {/* {marked(el.text)} */}
