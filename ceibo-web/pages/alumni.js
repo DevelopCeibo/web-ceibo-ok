@@ -17,7 +17,7 @@ const alumni = () => {
         <title>Alumni - Ceibo Digital</title>
         <meta name="googlebot" content="noindex" />
       </Head>
-      <NavbarFive />
+      <NavbarTwo />
       <PageBanner
         pageTitle="Alumni"
         BGImage={null}

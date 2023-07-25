@@ -21,7 +21,7 @@ const Publicaciones = () => {
         <title>{publicacionesTitleTag}</title>
         <meta name="description" content={publicacionesMetaDesc} />{" "}
       </Head>
-      <NavbarFive />
+      <NavbarTwo />
       <PageBanner
         pageTitle={publicacionesh1}
         subtitle={publicacionesh2}

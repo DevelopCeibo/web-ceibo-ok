@@ -30,7 +30,7 @@ const QueHacemos = () => {
         <title>{quehacemosTitleTag}</title>
         <meta name="description" content={quehacemosMetaDesc} />
       </Head>
-      <NavbarFive />
+      <NavbarTwo />
       <PageBanner
         pageTitle={quehacemosh1}
         subtitle={quehacemosh2}

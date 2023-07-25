@@ -31,7 +31,7 @@ const Publicacion = () => {
         <title>{TITLE_TAG}</title>
         <meta name="description" content={META_DESC} />
       </Head>
-      <NavbarFive />
+      <NavbarTwo />
       <PageBanner
         pageTitle={data.title}
         subtitle={`${

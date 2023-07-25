@@ -24,7 +24,7 @@ const Contact = () => {
         <title>{contactoTitleTag}</title>
         <meta name="description" content={contactoMetaDesc} />{" "}
       </Head>
-      <NavbarFive />
+      <NavbarTwo />
 
       <PageBanner
         pageTitle={contactoh1}

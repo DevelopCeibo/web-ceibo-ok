@@ -33,7 +33,7 @@ const sumatealequipo = () => {
         <title>{sumateTitleTag}</title>
         <meta name="description" content={sumateMetaDesc} />
       </Head>
-      <NavbarFive />
+      <NavbarTwo />
       <PageBanner
         pageTitle={sumateh1}
         subtitle={sumateh2}

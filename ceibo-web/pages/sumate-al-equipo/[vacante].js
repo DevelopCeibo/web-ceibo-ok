@@ -107,7 +107,7 @@ const Vacante = () => {
       <Head>
         <title>{TITLE}</title>
       </Head>
-      <NavbarFive />
+      <NavbarTwo />
       {/* <PageBanner pageTitle={vacante?.title} bgcolor={vacante?.bgcolor} />
       <div className="pt-70">
         <div className="container">
