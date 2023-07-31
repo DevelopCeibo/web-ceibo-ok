@@ -5685,6 +5685,11 @@ Blog CSS
   flex-direction: column;
   justify-content: space-around;
 }
+
+.single-blog-item .blog-post-content.blog.insight-card {
+  justify-content: space-between;
+}
+
 .single-blog-item .blog-post-content .date {
   /* color: #ff2c9c; */
   display: block;
@@ -5703,6 +5708,10 @@ Blog CSS
 
 .single-blog-item .blog-post-content h3 a {
   color: #18181b;
+}
+
+.single-blog-item .blog-post-content h3 a.insight-core {
+  color: #757575
 }
 
 .single-blog-item .blog-post-content h3 a:hover,
@@ -6959,6 +6968,14 @@ Sidebar CSS
   /* text-transform: capitalize; */
 }
 
+.insights {
+  margin-top: 2%; 
+  padding-left: 2%; 
+  color: #b72837;
+  font-weight: 600; 
+  font-size: 25px;
+}
+
 .author-sidebar {
   margin-top: 20px;
   align-content: center;
@@ -7057,6 +7074,11 @@ Sidebar CSS
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
+}
+
+.about-authors {
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .widget-area .widget ul {

@@ -31,6 +31,9 @@ const Hightlight = () => {
                   }`}
                 >
                   <h3>
+                    <a className='insight-core'>{locale == "en" ? publi.themeEN : publi.theme}</a>
+                  </h3>
+                  <h3>
                     <Link href={`/${seccion}/${publi["path-url"]}`}>
                       <a>{locale == "en" ? publi.titleEN : publi.title}</a>
                     </Link>

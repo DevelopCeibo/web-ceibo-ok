@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Link from "next/link";
 import {
   LinkedinShareButton,
@@ -11,11 +11,16 @@ import baseUrl from "../../utils/baseUrl";
 const Share = ({ publicacion }) => {
   const { t } = useTranslation("common");
   const compartir = t("compartir");
+
+  const [copy, setCopy] = useState(false);
+
   const handleCopy = () => {
     navigator.clipboard.writeText(
       `${baseUrl}/insights/${publicacion["path-url"]}`
     );
   };
+
+  const handleEvent = () => setCopy(!copy);
 
   return (
     <>
@@ -33,8 +38,13 @@ const Share = ({ publicacion }) => {
             >
               <i className="fa-brands fa-twitter fa-xl insight-icon"></i>
             </TwitterShareButton>
-            <button onClick={handleCopy} className="email-share">
-              <i className="fa-solid fa-paperclip fa-xl insight-icon"></i>
+            <button onClick={handleCopy} className="email-share" onMouseUp={handleEvent}>
+              {copy
+                ? (<abbr title="Copiado">
+                  <i className="fa-solid fa-paperclip fa-xl insight-icon"></i>
+                  </abbr>)
+                : (<i className="fa-solid fa-paperclip fa-xl insight-icon"></i>)
+              }
             </button>
             <EmailShareButton
               url={`${baseUrl}/insights/${publicacion["path-url"]}`}
