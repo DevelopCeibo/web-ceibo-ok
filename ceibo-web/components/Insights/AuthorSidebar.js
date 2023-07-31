@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
 import integrantes from "../../utils/integrantesCeibo.json";
 import { LinkedinShareButton, EmailShareButton } from "next-share";
@@ -14,7 +13,7 @@ const getAuthorsData = (authors) => {
   return authorsData;
 };
 
-const InsigthSidebar = ({ publicacion }) => {
+const AuthorSidebar = ({ publicacion }) => {
   const { t } = useTranslation("common");
   const autores = t("autores");
   const authors = getAuthorsData(publicacion?.metadata?.author);
@@ -49,4 +48,4 @@ const InsigthSidebar = ({ publicacion }) => {
   );
 };
 
-export default InsigthSidebar;
+export default AuthorSidebar;

@@ -40,7 +40,7 @@ const CasosDeExito = () => {
         <title>{casosTitleTag}</title>
         <meta name="description" content={casosMetaDesc} />{" "}
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle={casosh1}
         subtitle={casosh2}

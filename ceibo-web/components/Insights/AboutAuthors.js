@@ -20,7 +20,7 @@ function AboutAuthors() {
     })
   };
   return (
-    <div >
+    <div style={{ marginBottom: "2%", marginTop: "2%" }}>
       <h3 className="share-title" style={{ textAlign: "center" }}>
         {"Acerca de los autores"}
       </h3>

@@ -43,7 +43,7 @@ const Eventos = () => {
         <title>{eventosTitleTag}</title>
         <meta name="description" content={eventosMetaDesc} />{" "}
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle={eventosh1}
         BGImage={"/images-ceibo/Banner-eventos.jpeg"}

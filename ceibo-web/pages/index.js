@@ -31,7 +31,7 @@ const Index = () => {
         <title>{homeTitle}</title>
         <meta name="description" content={homeMetaDesc} />
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <MainBanner />
       <OurWorks />
       <Services />

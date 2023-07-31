@@ -1,13 +1,15 @@
 import React from "react";
-import Link from "next/link";
-import InsigthSidebar from "./InsigthSidebar";
+import AuthorSidebar from "./AuthorSidebar";
 import Share from "./Share";
 import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
 import Subscribe from "./Subscribe";
 import Download from "./Dowload";
 import AboutAuthors from "./AboutAuthors";
-import DownloadFileButton from './DownloadFileButton';
+import DownloadFileButton from "./DownloadFileButton";
+import HorizontalLine from "./HorizontalLine";
+import Tags from "./Tags";
+import AuthorHeader from './AuthorHeader';
 
 const InsightDetailsContent = ({ publicacion, date }) => {
   const renderContent = (content) => {
@@ -15,7 +17,6 @@ const InsightDetailsContent = ({ publicacion, date }) => {
       switch (el.type) {
         case "img":
           return <img src={el.src} style={{ maxWidth: el.maxWidth }} />;
-          break;
         case "first-p":
           return (
             <p
@@ -24,7 +25,6 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             ></p>
           );
-          break;
         case "p-margin":
           return (
             <Typography
@@ -39,7 +39,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           return (
             <Typography
               component="p"
-              sx={{ pb: 2, fontSize: 18}}
+              sx={{ pb: 2, fontSize: 18 }}
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             >
               {/* {marked(el.text)} */}
@@ -132,88 +132,34 @@ const InsightDetailsContent = ({ publicacion, date }) => {
       }
     });
   };
-
   return (
-    <>
       <div className="pt-100">
         <div className="container">
-          <div style={{ alignContent: "space-between", paddingLeft: "3%" }}>
-            {publicacion?.metadata?.author?.length >= 1 &&
-            publicacion.metadata.author[0] ? (
-              <h2
-                style={{ paddingBottom: "1%", color: "grey", fontSize: "20px" }}
-              >
-                {`Por ${publicacion?.metadata.author}`}
-              </h2>
-            ) : null}
-            {date && (
-              <h2
-                style={{ color: "grey", fontWeight: "300", fontSize: "20px" }}
-              >
-                {date}
-              </h2>
-            )}
-          </div>
+          <AuthorHeader author={publicacion?.metadata?.author} date={date} />
           <div className="row">
             <div className="col-lg-2 col-md-12">
-              <div>
-                <Share publicacion={publicacion} />
-                <Download />
-              </div>
+              <Share publicacion={publicacion} />
+              <Download />
             </div>
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
                 <div className="article-content">
                   {renderContent(publicacion?.content)}
-                  
                   <DownloadFileButton />
-
-                  {/* Horizontal line */}
-                  <div
-                    style={{
-                      height: "2px",
-                      backgroundColor: "#b72837",
-                      borderColor: "#b72837",
-                    }}
-                  />
-                  <div style={{ marginBottom: "2%", marginTop: "2%" }}>
-                    <AboutAuthors />
-                  </div>
-                  {/* Horizontal line */}
-                  <div
-                    style={{
-                      height: "2px",
-                      backgroundColor: "#b72837",
-                      borderColor: "#b72837",
-                    }}
-                  />
-                  <ul className="category">
-                    <li>
-                      <span>Tags:</span>
-                    </li>
-                    {publicacion?.metadata?.tags?.map((tag, i) => (
-                      <li key={i}>
-                        <Link href="#">
-                          <a>{tag}</a>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                  <div>
-                    <Subscribe />
-                  </div>
+                  <HorizontalLine />
+                  <AboutAuthors />
+                  <HorizontalLine />
+                  <Tags tags={publicacion?.metadata?.tags} />
+                  <Subscribe />
                 </div>
               </div>
             </div>
             <div className="col-lg-2 col-md-12">
-              <div>
-                <InsigthSidebar publicacion={publicacion} />
-              </div>
+              <AuthorSidebar publicacion={publicacion} />
             </div>
           </div>
         </div>
       </div>
-    </>
   );
 };
 

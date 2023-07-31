@@ -30,7 +30,7 @@ const Aabout = () => {
         <title>{culturaTitleTag}</title>
         <meta name="description" content={culturaMetaDesc} />
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle={culturah1}
         subtitle={culturah2}

@@ -155,7 +155,7 @@ const Caso = () => {
       <Head>
         <title>{TITLE_TAG}</title>
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <BannerInfo
         pageTitle={
           locale == "en"

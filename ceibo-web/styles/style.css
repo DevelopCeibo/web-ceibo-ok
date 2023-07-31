@@ -6965,6 +6965,7 @@ Sidebar CSS
 }
 
 .author-name {
+  text-align: center;
   margin-top: 20px;
 }
 
@@ -6980,6 +6981,28 @@ Sidebar CSS
 .insight-icon {
   color: #b72837
 }
+
+.insight-date {
+  color: grey;
+  font-weight: 300;
+  font-size: 20px
+}
+
+.insight-author {
+  padding-bottom: 1%;
+  color: grey; 
+  font-size: 20px;
+}
+
+.insight-data {
+  align-content: space-between;
+  padding-left: 3%;
+}
+ .insight-data-authors {
+  display: flex;
+  flex-direction: row;
+  gap: 3px
+ }
 
 .share-buttons {
   display: flex;
@@ -7008,6 +7031,32 @@ Sidebar CSS
 
 .anchor-download {
   width: 50%;
+}
+
+.hightlight {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hightlight-conteiner {
+  border-top: 2px solid #b72837;
+  border-bottom: 2px solid #b72837;
+  padding-top: 2%;
+}
+
+.hightlight-title {
+  margin-bottom: 2%;
+  padding-left: 2%;
+  color: #b72837;
+  font-Weight: 600;
+  font-size: 25px;
+}
+
+.hightlight-read {
+  width: 25%;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
 }
 
 .widget-area .widget ul {
