@@ -3,280 +3,326 @@
     "nombre": "DAVID WILSON",
     "linkedinurl": "https://www.linkedin.com/in/wilsondavidj/",
     "src": "/images-ceibo/integrantes/David Wilson.png",
-    "posicion": "MANAGING PARTNER"
+    "posicion": "MANAGING PARTNER",
+    "email": "david@ceibo.digital"
   },
   {
     "nombre": "HERNÁN GUTSZTAT",
     "linkedinurl": "https://www.linkedin.com/in/hernan-gutsztat/",
     "src": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-    "posicion": "PARTNER"
+    "posicion": "PARTNER",
+    "email": "hernan@ceibo.digital"
   },
   {
     "nombre": "IGNACIO NAVARRO MORENO",
     "linkedinurl": "https://www.linkedin.com/in/ignacio-navarro-moreno-49b782/",
     "src": "/images-ceibo/integrantes/Ignacio Navarro Moreno.png",
-    "posicion": "SENIOR MANAGER"
+    "posicion": "SENIOR MANAGER",
+    "email": "ignacio.navarromoreno@ceibo.digital"
   },
   {
     "nombre": "SOLEDAD LOBATO",
     "linkedinurl": "https://www.linkedin.com/in/soledadlobato/",
     "src": "/images-ceibo/integrantes/Soledad Lobato.png",
-    "posicion": "MANAGER"
+    "posicion": "MANAGER",
+    "email": "soledad.lobato@ceibo.digital"
   },
   {
     "nombre": "ANGIE DEANE",
     "linkedinurl": "https://www.linkedin.com/in/angiedeane/",
     "src": "/images-ceibo/integrantes/Angie Deane.png",
-    "posicion": "MANAGER"
+    "posicion": "MANAGER",
+    "email": "angie.deane@ceibo.digital"
   },
   {
     "nombre": "JONATHAN IVANI",
     "linkedinurl": "https://www.linkedin.com/in/jonathan-ivani-68844741/",
     "src": "/images-ceibo/integrantes/Jonathan Ivani.png",
-    "posicion": "MANAGER"
+    "posicion": "MANAGER",
+    "email": "jonathan.ivani@ceibo.digital"
   },
   {
     "nombre": "MARCOS LARGUÍA",
     "linkedinurl": "https://www.linkedin.com/in/marcos-larguia-5921877/",
     "src": "/images-ceibo/integrantes/Marcos Larguia.png",
-    "posicion": "MANAGER"
+    "posicion": "MANAGER",
+    "email": "marcos.larguia@ceibo.digital"
   },
   {
     "nombre": "PABLO SUAREZ ANZORENA",
     "linkedinurl": "https://www.linkedin.com/in/pablo-suarez-anzorena-9b726914/",
     "src": "/images-ceibo/integrantes/Pablo Suarez Anzorena.png",
-    "posicion": "MANAGER"
+    "posicion": "MANAGER",
+    "email": "pablo.suarez.anzorena@ceibo.digital"
   },
   {
     "nombre": "LUCIO FLORES",
     "linkedinurl": "https://www.linkedin.com/in/lucio-flores-67493a69",
     "src": "/images-ceibo/integrantes/Lucio Flores.png",
-    "posicion": "EXPERT"
+    "posicion": "EXPERT",
+    "email": "lucio.flores@ceibo.digital"
   },
   {
     "nombre": "AYELÉN RICHARD",
     "linkedinurl": "https://www.linkedin.com/in/ayelenrichard/",
     "src": "/images-ceibo/integrantes/Ayelen Richard.png",
-    "posicion": "PROJECT LEADER"
+    "posicion": "PROJECT LEADER",
+    "email": "ayelen.richard@ceibo.digital"
   },
   {
     "nombre": "TOMÁS BELL",
     "linkedinurl": "https://www.linkedin.com/in/tomas-bell-7646281/",
     "src": "/images-ceibo/integrantes/Tomas Bell.png",
-    "posicion": "PROJECT LEADER"
+    "posicion": "PROJECT LEADER",
+    "email": "tomas.bell@ceibo.digital"
   },
   {
     "nombre": "LUIS SANCHEZ",
     "linkedinurl": "https://www.linkedin.com/in/luis-fernando-sanchez-py/",
     "src": "/images-ceibo/integrantes/Luis Sanchez.png",
-    "posicion": "PROJECT LEADER"
+    "posicion": "PROJECT LEADER",
+    "email": "luis.sanchez@ceibo.digital"
   },
   {
     "nombre": "DARÍO MELMAN",
     "linkedinurl": "https://www.linkedin.com/in/dariomelman/",
     "src": "/images-ceibo/integrantes/Dario Melman.png",
-    "posicion": "TECH LEADER"
+    "posicion": "TECH LEADER",
+    "email": "dario.melman@ceibo.digital"
   },
   {
     "nombre": "MARTÍN ROMANELLI",
     "linkedinurl": "https://www.linkedin.com/in/martin-ignacio-romanelli-15151b92/",
     "src": "/images-ceibo/integrantes/Martin Romanelli.png",
-    "posicion": "CONSULTANT"
+    "posicion": "CONSULTANT",
+    "email": "martin.romanelli@ceibo.digital"
   },
   {
     "nombre": "TRIANA CAMPOS",
     "linkedinurl": "https://www.linkedin.com/in/triana-campos-3a63671a2/",
     "src": "/images-ceibo/integrantes/Triana Campos.png",
-    "posicion": "CONSULTANT"
+    "posicion": "CONSULTANT",
+    "email": "triana.campos@ceibo.digital"
   },
   {
     "nombre": "CANDELARIA RUETE GÜEMES",
     "linkedinurl": "https://www.linkedin.com/in/candelaria-ruete-g%C3%BCemes//",
     "src": "/images-ceibo/integrantes/Candelaria Ruete Guemes.png",
-    "posicion": "CONSULTANT"
+    "posicion": "CONSULTANT",
+    "email": "candelaria.rueteguemes@ceibo.digital"
   },
   {
     "nombre": "VICTORIA SELVA",
     "linkedinurl": "https://www.linkedin.com/in/victoria-selva/",
     "src": "/images-ceibo/integrantes/Victoria Selva.png",
-    "posicion": "CONSULTANT"
+    "posicion": "CONSULTANT",
+    "email": "victoria.selva@ceibo.digital"
   },
   {
     "nombre": "SERGIO MILLA",
     "linkedinurl": "https://www.linkedin.com/in/sergio-milla-ab12919a/",
     "src": "/images-ceibo/integrantes/Sergio Milla.png",
-    "posicion": "SENIOR SPECIALIST"
+    "posicion": "SENIOR SPECIALIST",
+    "email": "sergio.milla@ceibo.digital"
   },
   {
     "nombre": "NICOLÁS CALVO",
     "linkedinurl": "https://www.linkedin.com/in/nicolascalvo/",
     "src": "/images-ceibo/integrantes/Nicolas Calvo.png",
-    "posicion": "SENIOR SPECIALIST"
+    "posicion": "SENIOR SPECIALIST",
+    "email": "nicolas.calvo@ceibo.digital"
   },
   {
     "nombre": "NAHUEL OJEDA",
     "linkedinurl": "https://www.linkedin.com/in/gonzalo-nahuel-ojeda/",
     "src": "/images-ceibo/integrantes/Nahuel Ojeda.png",
-    "posicion": "SENIOR SPECIALIST"
+    "posicion": "SENIOR SPECIALIST",
+    "email": "nahuel.ojeda@ceibo.digital"
   },
 
   {
     "nombre": "SEBASTIAN AIANI",
     "linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
     "src": "/images-ceibo/integrantes/Sebastian Aiani.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "sebastian.aiani@ceibo.digital"
   },
   {
     "nombre": "ALINA IBAÑEZ",
     "linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
     "src": "/images-ceibo/integrantes/Alina Ibañez.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "alina.ibanez@ceibo.digital"
   },
   {
     "nombre": "SOFÍA RONCHI RIVARA",
     "linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
     "src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "sofia.ronchirivara@ceibo.digital"
   },
 
   {
     "nombre": "BELTRÁN GANDOLFO",
     "linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
     "src": "/images-ceibo/integrantes/Beltran Gandolfo.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "beltran.gandolfo@ceibo.digital"
   },
   {
     "nombre": "IVÁN LENGUAS",
     "linkedinurl": "https://www.linkedin.com/in/ivan-lenguas/",
     "src": "/images-ceibo/integrantes/Ivan Lenguas.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "ivan.lenguas@ceibo.digital"
   },
   {
     "nombre": "NATALIA ADAMO",
     "linkedinurl": "https://www.linkedin.com/in/natalia-adamo/",
     "src": "/images-ceibo/integrantes/Natalia Adamo.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "natalia.adamo@ceibo.digital"
   },
   {
     "nombre": "FELICITAS VIVO",
     "linkedinurl": "https://www.linkedin.com/in/felicitasvivo/?originalSubdomain=ar",
     "src": "/images-ceibo/integrantes/Felicitas Vivo.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "felicitas.vivo@ceibo.digital"
   },
   {
     "nombre": "GERMÁN BEHRENS",
     "linkedinurl": "https://www.linkedin.com/in/germ%C3%A1n-alejandro-behrens-4198a51a9/",
     "src": "/images-ceibo/integrantes/German Behrens.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "posicion": "SENIOR ASSOCIATE",
+    "email": "german.behrens@ceibo.digital"
   },
   {
     "nombre": "ANDRÉS DENHAM",
     "linkedinurl": "https://www.linkedin.com/in/andres-denham-b39a291a4/",
     "src": "/images-ceibo/integrantes/Andres Denham.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "andres.denham@ceibo.digital"
   },
   {
     "nombre": "TOMÁS APOCHIAN",
     "linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
     "src": "/images-ceibo/integrantes/Tomas Apochian.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "tomas.apochian@ceibo.digital"
   },
   {
     "nombre": "FACUNDO YVORRA",
     "linkedinurl": "https://www.linkedin.com/in/facundo-yvorra-b47221177/",
     "src": "/images-ceibo/integrantes/Facundo Yvorra.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "facundo.yvorra@ceibo.digital"
   },
 
   {
     "nombre": "MARTÍN IUVARO",
     "linkedinurl": "https://www.linkedin.com/in/mart%C3%ADn-iuvaro-a77a28206/",
     "src": "/images-ceibo/integrantes/Martin Iuvaro.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "martin.iuvaro@ceibo.digital"
   },
   {
     "nombre": "SANTIAGO SIN",
     "linkedinurl": "https://www.linkedin.com/in/santiago-sin-479715160/",
     "src": "/images-ceibo/integrantes/Santiago Sin.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "santiago.sin@ceibo.digital"
   },
   {
     "nombre": "FACUNDO CASTILLO MARTEL",
     "linkedinurl": "https://www.linkedin.com/in/facundocastillomartel/",
     "src": "/images-ceibo/integrantes/Facundo Castillo.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "facundo.castillo@ceibo.digital"
   },
   {
     "nombre": "LUCÍA GODINO ATANASIADIS",
     "linkedinurl": "https://www.linkedin.com/in/lucia-godino-atanasiadis-72169a205/",
     "src": "/images-ceibo/integrantes/Lucia Godino.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "lucia.godino@ceibo.digital"
   },
   {
     "nombre": "SANTIAGO CARLINO",
     "linkedinurl": "https://www.linkedin.com/in/santiago-carlino-7bb148151/",
     "src": "/images-ceibo/integrantes/Santiago Carlino.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "santiago.carlino@ceibo.digital"
   },
   {
     "nombre": "ANDRÉS BORGOGNON",
     "linkedinurl": " https://www.linkedin.com/in/andres-borgognon-322977240",
     "src": "/images-ceibo/integrantes/Andres Borgognon.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "andres.borgognon@ceibo.digital"
   },
   {
     "nombre": "FELIPE DINIZ",
     "linkedinurl": " https://ar.linkedin.com/in/felipe-diniz-7b03a5190?original_referer=https%3A%2F%2Fwww.google.com%2F",
     "src": "/images-ceibo/integrantes/Felipe Diniz.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "felipe.diniz@ceibo.digital"
   },
   {
     "nombre": "MALENA BURS",
     "linkedinurl": "https://www.linkedin.com/in/malenaburs/?originalSubdomain=ar",
     "src": "/images-ceibo/integrantes/Malena Burs 2.png",
-    "posicion": "ASSOCIATE"
+    "posicion": "ASSOCIATE",
+    "email": "malena.burs@ceibo.digital"
   },
   {
     "nombre": "MARCOS MAZZA",
     "linkedinurl": "https://www.linkedin.com/in/marcos-mazza-b68972206/",
     "src": "/images-ceibo/integrantes/Marcos Mazza.png",
-    "posicion": "ANALYST"
+    "posicion": "ANALYST",
+    "email": "marcos.mazza@ceibo.digital"
   },
   {
     "nombre": "MATEO BURASCHI",
     "linkedinurl": "https://www.linkedin.com/in/matiob/",
     "src": "/images-ceibo/integrantes/Mateo Buraschi.png",
-    "posicion": "ANALYST"
+    "posicion": "ANALYST",
+    "email": "mateo.buraschi@ceibo.digital"
   },
   {
     "nombre": "ORNELLA GAUDIOSI",
     "linkedinurl": "https://www.linkedin.com/in/ornella-gaudiosi-4341811b1/",
     "src": "/images-ceibo/integrantes/Ornella Gaudiosi.png",
-    "posicion": "ANALYST"
+    "posicion": "ANALYST",
+    "email": "ornella.gaudiosi@ceibo.digital"
   },
   {
     "nombre": "JULIETA HABERKORN",
     "linkedinurl": "https://www.linkedin.com/in/julieta-haberkorn-038094157/",
     "src": "/images-ceibo/integrantes/Julieta Haberkorn.png",
-    "posicion": "STAFF"
+    "posicion": "STAFF",
+    "email": "julieta.haberkorn@ceibo.digital"
   },
 
   {
     "nombre": "FLORENCIA URRUTIA",
     "linkedinurl": "https://www.linkedin.com/in/florencia-urrutia-330199b7/",
     "src": "/images-ceibo/integrantes/Florencia Urrutia.png",
-    "posicion": "STAFF"
+    "posicion": "STAFF",
+    "email": "florencia.urrutia@ceibo.digital"
   },
   {
     "nombre": "NAHUEL GONZÁLEZ",
     "linkedinurl": "https://www.linkedin.com/in/nahuel-gonz%C3%A1lez-3a2500183/",
     "src": "/images-ceibo/integrantes/Nahuel Gonzalez.png",
-    "posicion": "STAFF"
+    "posicion": "STAFF",
+    "email": "nahuel.gonzalez@ceibo.digital"
   },
   {
     "nombre": "MARÍA VICTORIA BERLIN",
     "linkedinurl": "https://www.linkedin.com/in/maria-victoria-berlin/",
     "src": "/images-ceibo/integrantes/Victoria Berlin.png",
-    "posicion": "STAFF"
+    "posicion": "STAFF",
+    "email": "victoria.berlin@ceibo.digital"
   }
 ]
