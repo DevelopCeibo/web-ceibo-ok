@@ -6959,6 +6959,57 @@ Sidebar CSS
   /* text-transform: capitalize; */
 }
 
+.author-sidebar {
+  margin-top: 20px;
+  align-content: center;
+}
+
+.author-name {
+  margin-top: 20px;
+}
+
+.author-position {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.author-share {
+  text-align: center;
+}
+
+.insight-icon {
+  color: #b72837
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: space-between;
+  height: 30p;
+}
+
+.email-share {
+  border-width: 0;
+  background-color: transparent;
+}
+
+.share-download {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  align-items: center;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 5%;
+}
+
+.anchor-download {
+  width: 50%;
+}
+
 .widget-area .widget ul {
   padding: 0;
   margin: 0;
