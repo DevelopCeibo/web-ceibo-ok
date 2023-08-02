@@ -54,7 +54,7 @@
       },
       {
         "type": "img",
-        "src": "/images-ceibo/publicaciones/5f19a65e65f7a__822x822.webp"
+        "src": "/images-ceibo/insights/finanzas verdes/Tabla-1-prestamos.png"
       },
       {
         "type": "p",
@@ -70,7 +70,7 @@
       },
       {
         "type": "img",
-        "src": "/images-ceibo/publicaciones/5f19a65e65f7a__822x822.webp"
+        "src": "/images-ceibo/insights/finanzas verdes/Fig-1-deuda-sostenible.png"
       },
       {
         "type": "p",
@@ -86,7 +86,7 @@
       },
       {
         "type": "img",
-        "src": "/images-ceibo/publicaciones/5f19a65e65f7a__822x822.webp"
+        "src": "/images-ceibo/insights/finanzas verdes/Fig-2-bonos.png"
       },
       {
         "type": "p",
@@ -94,7 +94,7 @@
       },
       {
         "type": "img",
-        "src": "/images-ceibo/publicaciones/5f19a65e65f7a__822x822.webp"
+        "src": "/images-ceibo/insights/finanzas verdes/Fig-3-emisiones.png"
       },
       {
         "type": "p",
@@ -173,7 +173,7 @@
       },
       {
         "type": "img",
-        "src": "/images-ceibo/publicaciones/5f19a65e65f7a__822x822.webp"
+        "src": "/images-ceibo/insights/finanzas verdes/Fig-4-sistemas-mrvv.png"
       },
       {
         "type": "p",
@@ -203,7 +203,7 @@
       },
       {
         "type": "img",
-        "src": "/images-ceibo/publicaciones/5f19a65e65f7a__822x822.webp"
+        "src": "/images-ceibo/insights/finanzas verdes/Fig-5-sistema-d-mrvv.png"
       },
       {
         "type": "order-list",
@@ -220,7 +220,7 @@
       },
       {
         "type": "img",
-        "src": "/images-ceibo/publicaciones/5f19a65e65f7a__822x822.webp"
+        "src": "/images-ceibo/insights/finanzas verdes/Tabla-2-mrvv-y-d-mrvv.png"
       },
       {
         "type": "subtitle",
@@ -245,14 +245,6 @@
       {
         "type": "p",
         "text": "El mercado de las finanzas verdes continúa creciendo y la confianza en los instrumentos financieros verdes juega un papel clave en su desarrollo. Las tecnologías ofrecen herramientas para optimizar los procesos de medición, reporte y verificación, así como para garantizar la calidad, trazabilidad y veracidad de la información. La aplicación de tecnologías como blockchain puede tener un impacto significativo en la seguridad y trazabilidad de la información asociada a los proyectos y en el ecosistema financiero en general. Para que las empresas y organizaciones puedan aplicar instrumentos del tipo 'sustainability-linked', será necesario contar con sistemas de información eficientes y eficaces que permitan cuantificar el impacto de sus actividades en el ambiente de manera objetiva. Por lo tanto, es fundamental que se continúe investigando y desarrollando nuevas aplicaciones de tecnología en el mercado de las finanzas verdes, siempre teniendo en cuenta su impacto ambiental y su contribución a la sostenibilidad."
-      },
-      {
-        "type": "quote",
-        "text": "Algo"
-      },
-      {
-        "type": "p-margin",
-        "text": "**Leé la nota completa acá**: https://revistaplus.com.py/2021/04/22/la-transformacion-digital-uno-de-los-desafios-del-2021/"
       }
     ],
     "metadata": {
@@ -266,7 +258,13 @@
         "Mercado Financiero",
         "Tecnología"
       ],
-      "downloadFile": "https://drive.google.com/file/d/1KqYKN4PTtY7GXiyNRqGfIRg7KwejA43O/view?usp=sharing"
+      "downloadFile": "https://drive.google.com/file/d/1KqYKN4PTtY7GXiyNRqGfIRg7KwejA43O/view?usp=sharing",
+      "aboutAuthors": [
+        {
+          "type": "p",
+          "text": "**Ayelén Richard** es Manager en Ceibo; **Martín Romanelli** es Consultant en Ceibo. Además, ambos forman parte del equipo de Research, cuyo objetivo principal es difundir información sobre temas relacionados con el área de experiencia de Ceibo, como así también ampliar el horizonte de conocimiento de Ceibo y sus colaboradores."
+        }
+      ]
     }
   },
   {

@@ -159,15 +159,21 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           <div className="row">
             <div className="col-lg-2 col-md-12">
               <Share publicacion={publicacion} />
-              <Download link={publicacion?.metadata?.downloadFile}/>
+              {publicacion?.article === "| Research Ceibo Digital"
+                ?(<Download link={publicacion?.metadata?.downloadFile}/>)
+                : null}
             </div>
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
                 <div className="article-content">
                   {renderContent(publicacion?.content)}
-                  <DownloadFileButton link={publicacion?.metadata?.downloadFile}/>
-                  <HorizontalLine />
-                  <AboutAuthors />
+                  {publicacion?.article === "| Research Ceibo Digital"
+                    ?(<>
+                      <DownloadFileButton link={publicacion?.metadata?.downloadFile}/>
+                      <HorizontalLine />
+                      <AboutAuthors about={publicacion?.metadata?.aboutAuthors}/>
+                    </>)
+                    : null}
                   <HorizontalLine />
                   <Tags tags={publicacion?.metadata?.tags} />
                   <Subscribe />
