@@ -113,25 +113,19 @@
         "text": "En particular, los “Sustainability Linked-Loans Principles” (SLLP) tuvieron su primera versión en marzo de 2019. En la actualidad, cuentan con una versión publicada en febrero del 2023. Los “Sustainability Linked-Bonds Principles” (SLBP) fueron publicados en junio del 2020. Ambos mencionan que para que un préstamo o bono, según corresponda, pueda ser considerado como “vinculado a la sostenibilidad” debe cumplir con cinco componentes principales:"
       },
       {
-        "type": "order-list",
+        "type": "ol-ul",
         "items": [
           "**Elección de los indicadores clave de rendimiento (KPI’s):** Deben ser relevantes y estratégicos para el negocio del prestatario; medibles bajo una metodología clara y consistente y susceptibles de comparación en el mercado (estándares u otros actores relevantes). Pueden elegirse uno o más KPI’s siendo los más usuales los asociados a la emisión de carbono / gases de efecto invernadero.",
           "**Calibración de los objetivos de performance de sostenibilidad (SPT’s):** Los objetivos deben ser ambiciosos (por encima de estándares del negocio o valores requeridos por regulaciones) y deben tener un plazo claro. Para favorecer la transparencia y confiabilidad tanto en la elección de los indicadores como en su calibración, se sugiere contar con la participación de una tercera parte externa a la organización que demuestre competencia en la temática.",
           "**Características del préstamo o bono:** Alguna característica del préstamo o del bono varía de acuerdo con el grado de cumplimiento de los SPT’s. En los préstamos, usualmente implica una variación de la tasa de interés, disminución en caso de cumplimiento y aumento en caso de incumplimiento. Por su parte, en los bonos usualmente implica una variación en el cupón, aunque también podría variar alguna característica estructural del mismo.",
-          "**Reporte:** El prestatario en el caso de un préstamo, o el emisor en caso de un bono, deben proveer con una frecuencia al menos anual al/a los prestamistas, o al comprador respectivamente, información que indique:"
-        ]
-      },
-      {
-        "type": "list",
-        "items": [
-          "Verificación de que las elecciones de los KPI’s se mantienen relevantes y los SPT’s ambiciosos para el negocio.",
-          "Declaración del desempeño de la organización (con la información respaldatoria) sobre los SPT’s en el período y las implicancias en las características del préstamo o bono."
-        ]
-      },
-      {
-        "type": "order-list",
-        "items": [
-          "Para fomentar la transparencia frente a terceras partes interesadas se promueve la comunicación pública de la información asociada, como por ejemplo, las metodologías de cálculo utilizadas y las asunciones realizadas.",
+          {
+            "head": "**Reporte:** El prestatario en el caso de un préstamo, o el emisor en caso de un bono, deben proveer con una frecuencia al menos anual al/a los prestamistas, o al comprador respectivamente, información que indique:",
+            "subItems": [
+              "Verificación de que las elecciones de los KPI’s se mantienen relevantes y los SPT’s ambiciosos para el negocio.",
+              "Declaración del desempeño de la organización (con la información respaldatoria) sobre los SPT’s en el período y las implicancias en las características del préstamo o bono."
+            ],
+            "last": "Para fomentar la transparencia frente a terceras partes interesadas se promueve la comunicación pública de la información asociada, como por ejemplo, las metodologías de cálculo utilizadas y las asunciones realizadas."
+          },
           "**Verificación:** Las mediciones frente a cada SPT de cada KPI deben contar con una verificación externa e independiente, sea una persona, ente u organismo calificado, para cada fecha o período que implique ajustes en las características económicas del préstamo. Finalizada la verificación, en el caso de los préstamos, el o los prestamistas evaluarán la información suministrada y en el caso de los bonos, la misma debe hacerse pública."
         ]
       },
