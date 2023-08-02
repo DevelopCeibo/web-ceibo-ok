@@ -92,15 +92,35 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               sx={{ color: "black", paddingLeft: "50px", fontSize: 16 }}
             >
               {el.items.map((text, i) => (
-                <li key={i} style={{ margin: "10px 0" }}>
-                  {text}
+                <li 
+                key={i} 
+                style={{ margin: "10px 0" }}
+                dangerouslySetInnerHTML={{ __html: marked(text) }}
+                >
+                  {/* {text} */}
                 </li>
               ))}
             </Box>
           );
+          case "order-list":
+            return (
+              <Box
+                component="ol"
+                sx={{ color: "black", paddingLeft: "50px", fontSize: 16 }}
+              >
+                {el.items.map((text, i) => (
+                  <li 
+                  key={i} 
+                  style={{ margin: "10px 0" }}
+                  dangerouslySetInnerHTML={{ __html: marked(text) }}
+                  >
+                   {/*  {text} */}
+                  </li>
+                ))}
+              </Box>
+            );
         case "doublelist":
           return el.items.map((item, idx) => {
-            console.log(item.insideItems);
             return (
               <div key={idx}>
                 <Typography sx={{ pb: 1 }}>{item.title}</Typography>
@@ -139,13 +159,13 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           <div className="row">
             <div className="col-lg-2 col-md-12">
               <Share publicacion={publicacion} />
-              <Download />
+              <Download link={publicacion?.metadata?.downloadFile}/>
             </div>
             <div className="col-lg-8 col-md-12">
               <div className="blog-details">
                 <div className="article-content">
                   {renderContent(publicacion?.content)}
-                  <DownloadFileButton />
+                  <DownloadFileButton link={publicacion?.metadata?.downloadFile}/>
                   <HorizontalLine />
                   <AboutAuthors />
                   <HorizontalLine />

@@ -23,9 +23,9 @@ const AuthorSidebar = ({ publicacion }) => {
         <div className="widget widget_posts_thumb">
           <h3 className="share-title author-share">{autores}</h3>
           {authors?.length >= 1 &&
-            authors.map((author, i) => {
+            authors?.map((author, i) => {
               return (
-                <div classname="author-sidebar" key={i}>
+                <div classname="author-sidebar" key={i} style={{paddingTop: '5px'}}>
                   <div classname="author-sidebar">
                     <img src={author.src} alt={author.nombre} width="200px" />
                     <h6 className="author-name">{author.nombre}</h6>

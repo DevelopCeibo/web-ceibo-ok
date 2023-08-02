@@ -13,7 +13,6 @@ const Insight = () => {
   const router = useRouter()
   const { locale } = useRouter()
   const pathInsight = router.asPath.split("/")[2]
-
   const [data, setdata] = React.useState({})
 
   React.useEffect(() => {

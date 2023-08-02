@@ -14,7 +14,7 @@ const BlogGrid = ({section}) => {
         <div className="container">
           <div className="row justify-content-center">
             {data.map((publi, i) => (
-              <BlogCard section={section} publi={publi} key={i}/>
+              <BlogCard section={section} publi={publi}/>
             ))}
           </div>
         </div>

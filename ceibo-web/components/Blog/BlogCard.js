@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import useTranslation from "next-translate/useTranslation";
 
-function BlogCard({ section, publi, key }) {
+function BlogCard({ section, publi }) {
   const { locale } = useRouter();
   const urlFragment = section === "insights" ? "insights" : "publicaciones";
   const { t } = useTranslation("common");
@@ -12,7 +12,7 @@ function BlogCard({ section, publi, key }) {
     <>
       {section === "insights" ? (
         // INSIGHTS
-        <div className="col-lg-4 col-md-6" key={key}>
+        <div className="col-lg-4 col-md-6">
           <div className="single-blog-item ">
             <div className="blog-image">
               <Link href={`/${urlFragment}/${publi["path-url"]}`}>
