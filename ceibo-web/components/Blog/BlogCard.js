@@ -48,7 +48,7 @@ function BlogCard({ section, publi }) {
         </div>
       ) : (
         // PUBLICACIONES
-        <div className="col-lg-4 col-md-6" key={key}>
+        <div className="col-lg-4 col-md-6">
           <div className="single-blog-item ">
             <div className="blog-image">
               <Link href={`/${urlFragment}/${publi["path-url"]}`}>

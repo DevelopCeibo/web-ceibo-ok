@@ -6982,7 +6982,7 @@ Sidebar CSS
 }
 
 .bc-w {
-  background-color: #FFF
+  background-color: #FFF;
 }
 
 .banner-core {
@@ -7003,7 +7003,8 @@ Sidebar CSS
 
 .bc-w .article-title {
   color: #000000;
-  padding: 2rem
+  padding: 2rem;
+  margin-bottom: 0;
 }
 
 .author-sidebar {
@@ -7043,7 +7044,7 @@ Sidebar CSS
 
 .insight-data {
   align-content: space-between;
-  padding-left: 10%;
+  padding-left: 6%;
 }
  .insight-data-authors {
   display: flex;
