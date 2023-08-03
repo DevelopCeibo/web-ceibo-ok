@@ -204,7 +204,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
     });
   };
   return (
-    <div className="pt-100">
+    <div /* className="pt-100" */>
       <div className="container">
         <AuthorHeader author={publicacion?.metadata?.author} date={date} />
         <div className="row">

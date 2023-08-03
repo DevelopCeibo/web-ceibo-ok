@@ -2,7 +2,7 @@ import React from "react";
 
 function AuthorHeader({ author, date }) {
   return (
-    <div className="insight-data pt-100">
+    <div className="insight-data">
       {author?.length === 1 ? (
         <h2 className="insight-author">{`Por ${author}`}</h2>
       ) : (

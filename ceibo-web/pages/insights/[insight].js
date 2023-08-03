@@ -33,11 +33,11 @@ const Insight = () => {
       </Head>
       <NavbarFive />
       <InsightPageBanner
-        pageTitle={data.title}
-        BGImage={data.metadata?.bannerImg}
+        pageTitle={data?.title}
+        BGImage={data?.metadata?.bannerImg}
         textcenter={true}
-        article={data.article}
-        theme={data.theme}
+        article={data?.article}
+        theme={data?.theme}
       />
       <InsightDetailsContent publicacion={data} date={`${
           locale == "es" ? data?.metadata?.date : data?.metadata?.dateEN

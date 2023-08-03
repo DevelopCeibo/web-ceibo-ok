@@ -15,9 +15,9 @@ const Hightlight = () => {
       <div className="blog-area pt-100">
         <div className="container hightlight-conteiner">
           <h2 className="hightlight-title">{featureInsights}</h2>
-          <div className="hightlight">
+          <div className="row hightlight">
             {publicaciones.map((publi, i) => (
-              <div className="single-blog-item" style={{ width: "45%" }} key={i}>
+              <div className="single-blog-item col-lg-6 col-md-6" key={i}>
                 <div className="blog-image">
                   <Link href={`/${seccion}/${publi["path-url"]}`}>
                     <a>

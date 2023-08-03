@@ -1088,6 +1088,11 @@
     font-size: 13px;
     padding: 7px 20px;
   }
+
+  .insight-banner {
+    width: 85%;
+    margin-left: 5%;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -2175,6 +2180,7 @@
   .widget-area .widget .widget-title {
     font-size: 19px;
   }
+
   .pagination-area {
     margin-top: 25px;
   }

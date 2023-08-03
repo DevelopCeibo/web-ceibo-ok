@@ -16,30 +16,19 @@ const InsightPageBanner = ({
           BGImage ? "page-title-area-backdrop-justText" : "page-title-area"
         } ${textcenter ? "text-center" : null}`}
         style={{
-          backgroundImage: `url(${BGImage})`,
+          backgroundImage: `url(${BGImage ?? BGImage})`,
           backgroundColor: bgcolor,
           paddingBottom: "0px",
         }}
       >
-        <div
-          className="d-table "
-          style={{
-            width: "65%",
-            marginLeft: "10%",
-          }}
-        >
+        <div className="d-table insight-banner">
           <div /* className="d-table-cell " */>
-            <div
-              className="container main-banner-content p-2"
-              style={{ backgroundColor: "#FFF" }}
-            >
-              <div style={{ display: "flex", flexDirection: "row", gap: '1%'}}>
-                <h2 style={{ color: "#b72837", marginRight: "1px" }}>
-                  {theme ?? theme}
-                </h2>
-                <h2 style={{ color: "grey" }}>{article ?? article}</h2>
+            <div className="container main-banner-content p-2 bc-w">
+              <div className="banner-core">
+                <h2 className="core-concept">{theme ?? theme}</h2>
+                <h2 className="core-article">{article ?? article}</h2>
               </div>
-              <h1 style={{ color: "black", padding: "2rem" }}>{pageTitle}</h1>
+              <h1 className="article-title">{pageTitle}</h1>
             </div>
           </div>
         </div>
