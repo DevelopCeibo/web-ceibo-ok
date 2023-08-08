@@ -48,17 +48,18 @@
     "posicion": "MANAGER"
   },
   {
+    "nombre": "AYELÉN RICHARD",
+    "linkedinurl": "https://www.linkedin.com/in/ayelenrichard/",
+    "src": "/images-ceibo/integrantes/Ayelen Richard.png",
+    "posicion": "MANAGER"
+  },
+  {
     "nombre": "LUCIO FLORES",
     "linkedinurl": "https://www.linkedin.com/in/lucio-flores-67493a69",
     "src": "/images-ceibo/integrantes/Lucio Flores.png",
     "posicion": "EXPERT"
   },
-  {
-    "nombre": "AYELÉN RICHARD",
-    "linkedinurl": "https://www.linkedin.com/in/ayelenrichard/",
-    "src": "/images-ceibo/integrantes/Ayelen Richard.png",
-    "posicion": "PROJECT LEADER"
-  },
+
   {
     "nombre": "TOMÁS BELL",
     "linkedinurl": "https://www.linkedin.com/in/tomas-bell-7646281/",
@@ -102,6 +103,18 @@
     "posicion": "CONSULTANT"
   },
   {
+    "nombre": "SEBASTIAN AIANI",
+    "linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
+    "src": "/images-ceibo/integrantes/Sebastian Aiani.png",
+    "posicion": "CONSULTANT"
+  },
+  {
+    "nombre": "SOFÍA RONCHI RIVARA",
+    "linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
+    "src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
+    "posicion": "CONSULTANT"
+  },
+  {
     "nombre": "SERGIO MILLA",
     "linkedinurl": "https://www.linkedin.com/in/sergio-milla-ab12919a/",
     "src": "/images-ceibo/integrantes/Sergio Milla.png",
@@ -119,23 +132,17 @@
     "src": "/images-ceibo/integrantes/Nahuel Ojeda.png",
     "posicion": "SENIOR SPECIALIST"
   },
-
   {
-    "nombre": "SEBASTIAN AIANI",
-    "linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
-    "src": "/images-ceibo/integrantes/Sebastian Aiani.png",
-    "posicion": "SENIOR ASSOCIATE"
+    "nombre": "NATALIA ADAMO",
+    "linkedinurl": "https://www.linkedin.com/in/natalia-adamo/",
+    "src": "/images-ceibo/integrantes/Natalia Adamo.png",
+    "posicion": "SENIOR SPECIALIST"
   },
+
   {
     "nombre": "ALINA IBAÑEZ",
     "linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
     "src": "/images-ceibo/integrantes/Alina Ibañez.png",
-    "posicion": "SENIOR ASSOCIATE"
-  },
-  {
-    "nombre": "SOFÍA RONCHI RIVARA",
-    "linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
-    "src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
     "posicion": "SENIOR ASSOCIATE"
   },
 
@@ -151,12 +158,7 @@
     "src": "/images-ceibo/integrantes/Ivan Lenguas.png",
     "posicion": "SENIOR ASSOCIATE"
   },
-  {
-    "nombre": "NATALIA ADAMO",
-    "linkedinurl": "https://www.linkedin.com/in/natalia-adamo/",
-    "src": "/images-ceibo/integrantes/Natalia Adamo.png",
-    "posicion": "SENIOR ASSOCIATE"
-  },
+
   {
     "nombre": "FELICITAS VIVO",
     "linkedinurl": "https://www.linkedin.com/in/felicitasvivo/?originalSubdomain=ar",
@@ -175,12 +177,7 @@
     "src": "/images-ceibo/integrantes/Andres Denham.png",
     "posicion": "ASSOCIATE"
   },
-  {
-    "nombre": "TOMÁS APOCHIAN",
-    "linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
-    "src": "/images-ceibo/integrantes/Tomas Apochian.png",
-    "posicion": "ASSOCIATE"
-  },
+
   {
     "nombre": "FACUNDO YVORRA",
     "linkedinurl": "https://www.linkedin.com/in/facundo-yvorra-b47221177/",
@@ -252,6 +249,12 @@
     "nombre": "ORNELLA GAUDIOSI",
     "linkedinurl": "https://www.linkedin.com/in/ornella-gaudiosi-4341811b1/",
     "src": "/images-ceibo/integrantes/Ornella Gaudiosi.png",
+    "posicion": "ANALYST"
+  },
+  {
+    "nombre": "TOMÁS APOCHIAN",
+    "linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
+    "src": "/images-ceibo/integrantes/Tomas Apochian.png",
     "posicion": "ANALYST"
   },
   {
