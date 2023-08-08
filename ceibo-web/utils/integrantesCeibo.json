@@ -56,18 +56,17 @@
     "email": "pablo.suarez.anzorena@ceibo.digital"
   },
   {
+    "nombre": "AYELÉN RICHARD",
+    "linkedinurl": "https://www.linkedin.com/in/ayelenrichard/",
+    "src": "/images-ceibo/integrantes/Ayelen Richard.png",
+    "posicion": "MANAGER"
+  },
+  {
     "nombre": "LUCIO FLORES",
     "linkedinurl": "https://www.linkedin.com/in/lucio-flores-67493a69",
     "src": "/images-ceibo/integrantes/Lucio Flores.png",
     "posicion": "EXPERT",
     "email": "lucio.flores@ceibo.digital"
-  },
-  {
-    "nombre": "AYELÉN RICHARD",
-    "linkedinurl": "https://www.linkedin.com/in/ayelenrichard/",
-    "src": "/images-ceibo/integrantes/Ayelen Richard.png",
-    "posicion": "PROJECT LEADER",
-    "email": "ayelen.richard@ceibo.digital"
   },
   {
     "nombre": "TOMÁS BELL",
@@ -119,6 +118,18 @@
     "email": "victoria.selva@ceibo.digital"
   },
   {
+    "nombre": "SEBASTIAN AIANI",
+    "linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
+    "src": "/images-ceibo/integrantes/Sebastian Aiani.png",
+    "posicion": "CONSULTANT"
+  },
+  {
+    "nombre": "SOFÍA RONCHI RIVARA",
+    "linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
+    "src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
+    "posicion": "CONSULTANT"
+  },
+  {
     "nombre": "SERGIO MILLA",
     "linkedinurl": "https://www.linkedin.com/in/sergio-milla-ab12919a/",
     "src": "/images-ceibo/integrantes/Sergio Milla.png",
@@ -139,27 +150,19 @@
     "posicion": "SENIOR SPECIALIST",
     "email": "nahuel.ojeda@ceibo.digital"
   },
-
   {
-    "nombre": "SEBASTIAN AIANI",
-    "linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
-    "src": "/images-ceibo/integrantes/Sebastian Aiani.png",
-    "posicion": "SENIOR ASSOCIATE",
-    "email": "sebastian.aiani@ceibo.digital"
+    "nombre": "NATALIA ADAMO",
+    "linkedinurl": "https://www.linkedin.com/in/natalia-adamo/",
+    "src": "/images-ceibo/integrantes/Natalia Adamo.png",
+    "posicion": "SENIOR SPECIALIST"
   },
+
   {
     "nombre": "ALINA IBAÑEZ",
     "linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
     "src": "/images-ceibo/integrantes/Alina Ibañez.png",
     "posicion": "SENIOR ASSOCIATE",
     "email": "alina.ibanez@ceibo.digital"
-  },
-  {
-    "nombre": "SOFÍA RONCHI RIVARA",
-    "linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
-    "src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
-    "posicion": "SENIOR ASSOCIATE",
-    "email": "sofia.ronchirivara@ceibo.digital"
   },
 
   {
@@ -175,13 +178,6 @@
     "src": "/images-ceibo/integrantes/Ivan Lenguas.png",
     "posicion": "SENIOR ASSOCIATE",
     "email": "ivan.lenguas@ceibo.digital"
-  },
-  {
-    "nombre": "NATALIA ADAMO",
-    "linkedinurl": "https://www.linkedin.com/in/natalia-adamo/",
-    "src": "/images-ceibo/integrantes/Natalia Adamo.png",
-    "posicion": "SENIOR ASSOCIATE",
-    "email": "natalia.adamo@ceibo.digital"
   },
   {
     "nombre": "FELICITAS VIVO",
@@ -203,13 +199,6 @@
     "src": "/images-ceibo/integrantes/Andres Denham.png",
     "posicion": "ASSOCIATE",
     "email": "andres.denham@ceibo.digital"
-  },
-  {
-    "nombre": "TOMÁS APOCHIAN",
-    "linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
-    "src": "/images-ceibo/integrantes/Tomas Apochian.png",
-    "posicion": "ASSOCIATE",
-    "email": "tomas.apochian@ceibo.digital"
   },
   {
     "nombre": "FACUNDO YVORRA",
@@ -295,6 +284,12 @@
     "src": "/images-ceibo/integrantes/Ornella Gaudiosi.png",
     "posicion": "ANALYST",
     "email": "ornella.gaudiosi@ceibo.digital"
+  },
+  {
+    "nombre": "TOMÁS APOCHIAN",
+    "linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
+    "src": "/images-ceibo/integrantes/Tomas Apochian.png",
+    "posicion": "ANALYST"
   },
   {
     "nombre": "JULIETA HABERKORN",
