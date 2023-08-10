@@ -1316,25 +1316,47 @@ Navbar CSS
   border-radius: 15px;
 }
 
-.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a {
+.navbar-area.navbar-style-2.is-sticky
+  .navbar-nav
+  > .nav-item
+  > .dropdown-menu
+  li
+  a {
   display: inline-block;
   font-size: 14px;
   color: #000000;
   font-weight: 500;
 }
 
-.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a::before {
+.navbar-area.navbar-style-2.is-sticky
+  .navbar-nav
+  > .nav-item
+  > .dropdown-menu
+  li
+  a::before {
   display: none;
 }
 
-.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a:hover,
-.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a:focus,
-.navbar-area.navbar-style-2.is-sticky .navbar-nav > .nav-item > .dropdown-menu li a.active {
+.navbar-area.navbar-style-2.is-sticky
+  .navbar-nav
+  > .nav-item
+  > .dropdown-menu
+  li
+  a:hover,
+.navbar-area.navbar-style-2.is-sticky
+  .navbar-nav
+  > .nav-item
+  > .dropdown-menu
+  li
+  a:focus,
+.navbar-area.navbar-style-2.is-sticky
+  .navbar-nav
+  > .nav-item
+  > .dropdown-menu
+  li
+  a.active {
   color: #b72837;
 }
-
-
-
 
 .navbar-area.navbar-style-3 .container {
   max-width: 1365px;
@@ -2457,7 +2479,7 @@ Featured Services CSS
 }
 
 .read-more-btn-high {
-  color: #FFF;
+  color: #fff;
   background-color: #b72837;
   font-size: 15px;
   font-weight: 600;
@@ -5711,7 +5733,7 @@ Blog CSS
 }
 
 .single-blog-item .blog-post-content h3 a.insight-core {
-  color: #757575
+  color: #757575;
 }
 
 .single-blog-item .blog-post-content h3 a:hover,
@@ -6969,10 +6991,10 @@ Sidebar CSS
 }
 
 .insights {
-  margin-top: 2%; 
-  padding-left: 2%; 
+  margin-top: 2%;
+  padding-left: 2%;
   color: #b72837;
-  font-weight: 600; 
+  font-weight: 600;
   font-size: 25px;
 }
 
@@ -6982,23 +7004,23 @@ Sidebar CSS
 }
 
 .bc-w {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .banner-core {
   margin-left: 4%;
-  display: flex; 
+  display: flex;
   flex-direction: row;
-  gap: 1%
+  gap: 1%;
 }
 
 .banner-core .core-concept {
-  color: #b72837; 
-  margin-right: 1px
+  color: #b72837;
+  margin-right: 1px;
 }
 
 .banner-core .core-article {
-  color: #808080; 
+  color: #808080;
 }
 
 .bc-w .article-title {
@@ -7008,37 +7030,43 @@ Sidebar CSS
 }
 
 .author-sidebar {
-  margin-top: 20px;
+  margin-top: 2rem;
   align-content: center;
+  margin-bottom: 2rem;
 }
 
 .author-name {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
 .author-position {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
 }
 
 .author-share {
   text-align: center;
 }
+.author-share-button {
+  margin-right: 0.5rem;
+}
 
 .insight-icon {
-  color: #b72837
+  color: #b72837;
 }
 
 .insight-date {
   color: grey;
   font-weight: 300;
-  font-size: 20px
+  font-size: 20px;
 }
 
 .insight-author {
   padding-bottom: 1%;
-  color: grey; 
+  color: grey;
   font-size: 20px;
 }
 
@@ -7046,11 +7074,11 @@ Sidebar CSS
   align-content: space-between;
   padding-left: 6%;
 }
- .insight-data-authors {
+.insight-data-authors {
   display: flex;
   flex-direction: row;
-  gap: 3px
- }
+  gap: 3px;
+}
 
 .share-buttons {
   display: flex;
@@ -7096,7 +7124,7 @@ Sidebar CSS
   margin-bottom: 2%;
   padding-left: 2%;
   color: #b72837;
-  font-Weight: 600;
+  font-weight: 600;
   font-size: 25px;
 }
 
@@ -7118,20 +7146,20 @@ Sidebar CSS
 }
 
 .subscribe-p {
-  padding-left: 2%
+  padding-left: 2%;
 }
 
 .subscribe-title {
-  color: #FFF; 
-  font-weight: 400
+  color: #fff;
+  font-weight: 400;
 }
 
 .subscribe-form {
-  display: flex; 
-  flex-direction: row; 
-  gap: 3%; 
-  align-items: center; 
-  justify-content: center
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  align-items: center;
+  justify-content: center;
 }
 
 .widget-area .widget ul {
