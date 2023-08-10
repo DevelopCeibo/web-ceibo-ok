@@ -1,7 +1,7 @@
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import integrantes from "../../utils/integrantesCeibo.json";
-import { LinkedinShareButton, EmailShareButton } from "next-share";
+import { EmailShareButton } from "next-share";
 
 const getAuthorsData = (authors) => {
   const authorsData = authors?.map((author) => {
@@ -25,18 +25,19 @@ const AuthorSidebar = ({ publicacion }) => {
           {authors?.length >= 1 &&
             authors?.map((author, i) => {
               return (
-                <div classname="author-sidebar" key={i} style={{paddingTop: '5px'}}>
-                  <div classname="author-sidebar">
+                <div key={i} className="author-sidebar">
+                  <div>
                     <img src={author.src} alt={author.nombre} width="200px" />
                     <h6 className="author-name">{author.nombre}</h6>
                     <p className="author-position">{author.posicion}</p>
                   </div>
                   <div className="author-share">
-                    <LinkedinShareButton url={author.linkedinurl}>
-                      <i className="fa-brands fa-linkedin fa-xl insight-icon"></i>
-                    </LinkedinShareButton>{" "}
+                    <a href={author.linkedinurl} target="blank">
+                      <i className="fa-brands fa-linkedin fa-xl insight-icon author-share-button"></i>
+                    </a>
+
                     <EmailShareButton url={author.email}>
-                      <i className="fa-regular fa-envelope fa-xl insight-icon"></i>
+                      <i className="fa-regular fa-envelope fa-xl insight-icon author-share-button"></i>
                     </EmailShareButton>
                   </div>
                 </div>
