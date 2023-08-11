@@ -181,7 +181,7 @@
           "**Costo:** Su implementación puede resultar costosa, especialmente para las organizaciones pequeñas o los países en desarrollo con recursos limitados. El costo de recopilar y verificar los datos, formar al personal y mantener el sistema puede suponer un obstáculo importante.",
           "**Complejidad de la verificación:** La verificación independiente de los datos de emisiones puede ser un proceso complejo y largo ya que requiere, en muchas ocasiones, inspecciones in-situ. A su vez, exige un alto nivel de conocimientos técnicos y puede haber diferencias de interpretación o metodología entre los auditores, lo que puede dar lugar a incoherencias en la verificación.",
           "**Falta de normalización:** Actualmente no existe un enfoque estandarizado para su aplicación, lo que significa que diferentes países, organizaciones y empresas pueden utilizar diferentes métodos, métricas y requisitos de información. Esto puede dificultar la comparación de los datos de emisiones entre distintos sectores o regiones."
-        ]        
+        ]
       },
       {
         "type": "subtitle",
@@ -520,7 +520,7 @@
     "path-url": "agile-importante-en-el-contexto-actual",
     "title": "Agile ¿Qué es y por qué es importante en el contexto actual?",
     "article": "| Artículo",
-    "theme": "Metodologías ásgiles",
+    "theme": "Metodologías ágiles",
     "titleEN": "What is Agile and Why is it Important?",
     "img": "/images-ceibo/publicaciones/metodologias-agiles.jpg",
     "desc": "Aunque la metodología nació en la industria de desarrollo de software, el contexto actual aceleró la adopción de esta práctica y se masificó su utilización a través de diferentes organizaciones de las industrias más variadas.",
@@ -569,7 +569,7 @@
     "path-url": "black-friday-2022-estadisticas-y-tendencias",
     "title": "Cifras y tendencias que se esperan para la próxima edición del Black Friday",
     "article": "| Artículo",
-    "theme": "Black Fridey",
+    "theme": "Black Friday",
     "titleEN": "Black Friday stats and trends expected for 2022Black Friday stats and trends expected for 2022",
     "img": "/images-ceibo/publicaciones/black-friday-4655335_1920-1536x1024.jpg",
     "desc": "David Wilson, Partner en Ceibo Digital, consultora de negocios con foco en transformación digital, detalla las expectativas del sector para el evento.",
