@@ -6987,6 +6987,7 @@ Sidebar CSS
   border-top: 1px solid #eeeeee;
   padding-top: 10px;
   margin-top: 20px;
+  margin-bottom: 1.5rem;
   /* text-transform: capitalize; */
 }
 
@@ -7025,14 +7026,19 @@ Sidebar CSS
 
 .bc-w .article-title {
   color: #000000;
-  padding: 2rem;
+  padding: 1rem 2rem;
   margin-bottom: 0;
 }
 
 .author-sidebar {
   margin-top: 2rem;
-  align-content: center;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.author-image {
+  width: 200px;
 }
 
 .author-name {
@@ -7082,8 +7088,9 @@ Sidebar CSS
 
 .share-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 30p;
+  padding-bottom: 0.75rem;
 }
 
 .email-share {
@@ -7100,8 +7107,13 @@ Sidebar CSS
 
 .download-button {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
+  margin-bottom: 1%;
+}
+.download-article-note {
+  text-align: center;
   margin-bottom: 5%;
 }
 
@@ -7142,11 +7154,14 @@ Sidebar CSS
 
 .subscribe-nl {
   margin-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   background-color: #888888;
+  border-radius: 5px;
 }
 
 .subscribe-p {
-  padding-left: 2%;
+  padding-left: 3%;
 }
 
 .subscribe-title {
@@ -7160,6 +7175,13 @@ Sidebar CSS
   gap: 3%;
   align-items: center;
   justify-content: center;
+}
+
+.checkbox-notification {
+  margin-left: 2rem;
+  color: #b72837;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 .widget-area .widget ul {
@@ -8368,5 +8390,10 @@ span.new {
 .partner-slides .swiper-button-next:after {
   color: #ff2c9c;
   font-size: 26px;
+}
+
+.spanish-note-text {
+  font-size: 12px;
+  letter-spacing: 0.05em;
 }
 /*# sourceMappingURL=style.css.map */
