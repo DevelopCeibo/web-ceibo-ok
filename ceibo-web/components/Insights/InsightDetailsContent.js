@@ -9,7 +9,7 @@ import AboutAuthors from "./AboutAuthors";
 import DownloadFileButton from "./DownloadFileButton";
 import HorizontalLine from "./HorizontalLine";
 import Tags from "./Tags";
-import AuthorHeader from "./AuthorHeader";
+import DownloadButtonNote from "./DownloadButtonNote";
 
 const InsightDetailsContent = ({ publicacion, date }) => {
   const renderContent = (content) => {
@@ -119,57 +119,61 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               ))}
             </Box>
           );
-          case "ol-ul":
-            return (
-              <Box
-                component="ol"
-                sx={{ color: "black", paddingLeft: "50px", fontSize: 16 }}
-              >
-                {el.items.map((text, i) => {
-                  if (typeof text === 'string') {
-                    return (
-                      <li
+        case "ol-ul":
+          return (
+            <Box
+              component="ol"
+              sx={{ color: "black", paddingLeft: "50px", fontSize: 16 }}
+            >
+              {el.items.map((text, i) => {
+                if (typeof text === "string") {
+                  return (
+                    <li
                       key={i}
                       style={{ margin: "10px 0" }}
                       dangerouslySetInnerHTML={{ __html: marked(text) }}
-                      >
-                        {/*  {text} */}
-                      </li>
-                    );
-                  } else {
-                    return (
-                      <>
-                        <li
+                    >
+                      {/*  {text} */}
+                    </li>
+                  );
+                } else {
+                  return (
+                    <>
+                      <li
                         key={i}
                         style={{ margin: "10px 0" }}
                         dangerouslySetInnerHTML={{ __html: marked(text.head) }}
-                        >
-                          {/*  {text} */}
-                        </li>
-                        <Box component="ul" sx={{}}>
+                      >
+                        {/*  {text} */}
+                      </li>
+                      <Box component="ul" sx={{}}>
                         {text?.subItems?.map((subItem, i) => (
-                          <li 
-                          key={i}
-                          dangerouslySetInnerHTML={{ __html: marked(subItem) }}
-                          >
-                          {/* {text} */}
-                          </li>
-                        ))}
-                        </Box>
-                        {text?.last && (
-                          <p
-                          style={{ margin: "10px 0" }}
-                          dangerouslySetInnerHTML={{ __html: marked(text.last) }}
+                          <li
+                            key={i}
+                            dangerouslySetInnerHTML={{
+                              __html: marked(subItem),
+                            }}
                           >
                             {/* {text} */}
-                          </p>
-                        )}
-                      </>
-                    );
-                  }
-                })}
-              </Box>
-            );
+                          </li>
+                        ))}
+                      </Box>
+                      {text?.last && (
+                        <p
+                          style={{ margin: "10px 0" }}
+                          dangerouslySetInnerHTML={{
+                            __html: marked(text.last),
+                          }}
+                        >
+                          {/* {text} */}
+                        </p>
+                      )}
+                    </>
+                  );
+                }
+              })}
+            </Box>
+          );
         case "doublelist":
           return el.items.map((item, idx) => {
             return (
@@ -204,39 +208,40 @@ const InsightDetailsContent = ({ publicacion, date }) => {
     });
   };
   return (
-      <div className="container">
-        <AuthorHeader author={publicacion?.metadata?.author} date={date} />
-        <div className="row">
-          <div className="col-lg-2 col-md-12">
-            <Share publicacion={publicacion} />
-            {publicacion?.article === "| Research Ceibo Digital" ? (
-              <Download link={publicacion?.metadata?.downloadFile} />
-            ) : null}
-          </div>
-          <div className="col-lg-8 col-md-12">
-            <div className="blog-details">
-              <div className="article-content">
-                {renderContent(publicacion?.content)}
-                {publicacion?.article === "| Research Ceibo Digital" ? (
-                  <>
-                    <DownloadFileButton
-                      link={publicacion?.metadata?.downloadFile}
-                    />
-                    <HorizontalLine />
-                    <AboutAuthors about={publicacion?.metadata?.aboutAuthors} />
-                  </>
-                ) : null}
-                <HorizontalLine />
-                <Tags tags={publicacion?.metadata?.tags} />
-                <Subscribe />
-              </div>
+    <div className="container">
+      {/* <AuthorHeader author={publicacion?.metadata?.author} date={date} /> */}
+      <div className="row">
+        <div className="col-lg-2 col-md-12">
+          <Share publicacion={publicacion} />
+          {publicacion?.article === "| Research Ceibo Digital" ? (
+            <Download link={publicacion?.metadata?.downloadFile} />
+          ) : null}
+        </div>
+        <div className="col-lg-8 col-md-12">
+          <div className="blog-details">
+            <div className="article-content">
+              {renderContent(publicacion?.content)}
+              {publicacion?.article === "| Research Ceibo Digital" ? (
+                <>
+                  <DownloadFileButton
+                    link={publicacion?.metadata?.downloadFile}
+                  />
+                  <DownloadButtonNote />
+                  <HorizontalLine />
+                  <AboutAuthors about={publicacion?.metadata?.aboutAuthors} />
+                </>
+              ) : null}
+              <HorizontalLine />
+              <Tags tags={publicacion?.metadata?.tags} />
+              <Subscribe />
             </div>
           </div>
-          <div className="col-lg-2 col-md-12">
-            <AuthorSidebar publicacion={publicacion} />
-          </div>
+        </div>
+        <div className="col-lg-2 col-md-12">
+          <AuthorSidebar publicacion={publicacion} />
         </div>
       </div>
+    </div>
   );
 };
 
