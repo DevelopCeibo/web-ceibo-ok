@@ -21,6 +21,7 @@ function Subscribe() {
   };
   const [contact, setContact] = useState(INITIAL_STATE);
   const [disabled, setDisabled] = useState(true);
+  const [notifyDisabled, setNotifyDisabled] = useState(false);
 
   const alertContent = () => {
     MySwal.fire({
@@ -45,6 +46,10 @@ function Subscribe() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (disabled) {
+      setNotifyDisabled(true);
+      return;
+    }
     try {
       const url = `${baseUrl}/api/contact`;
       const formData = new FormData();
@@ -64,6 +69,7 @@ function Subscribe() {
         alertContent();
       }
       setContact("");
+      setNotifyDisabled(false);
     } catch (error) {
       console.log(error);
       alertError();
@@ -78,32 +84,48 @@ function Subscribe() {
         </p>
         <form onSubmit={handleSubmit}>
           <div className="subscribe-form">
-          <div className="form-group col-lg-8 col-sm-12 mb-3">
+            <div className="form-group col-lg-8 col-sm-12 mb-3">
+              <input
+                type="text"
+                name="email"
+                placeholder="Email"
+                className="form-control"
+                value={contact.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="col-lg-3 col-sm-12 mb-3">
+              <button
+                type="submit"
+                className="btn btn-primary"
+                onClick={handleSubmit}
+              >
+                {suscribirme}
+              </button>
+            </div>
+          </div>
+
+          <div style={{ display: "flex", gap: "5px", marginLeft: "3%" }}>
             <input
-              type="text"
-              name="email"
-              placeholder="Email"
-              className="form-control"
-              value={contact.email}
-              onChange={handleChange}
-              required
+              className="form-check-input"
+              type="checkbox"
+              id="newsletter"
+              value=""
+              onChange={() => setDisabled(!disabled)}
             />
+
+            <label className="form-check-label" for="newsletter">
+              {"Acepto recibir información de Ceibo Digital"}
+            </label>
           </div>
-          <div className="col-lg-3 col-sm-12 mb-3">
-            <button
-              type="submit"
-              className={`btn ${!disabled && 'btn-primary'}`}
-              onClick={handleSubmit}
-              disabled={disabled}
-            >
-              {suscribirme}
-            </button>
-          </div>
-          </div>
-          <div style={{display: 'flex', gap: '5px', marginLeft: '3%'}}>
-            <input className='form-check-input' type="checkbox" id="newsletter" value="" onChange={()=>setDisabled(!disabled)}/>
-            <label className='form-check-label' for="newsletter">{'Acepto recibir información de Ceibo Digital'}</label>
-          </div>
+          {notifyDisabled ? (
+            <div className="checkbox-notification">
+              *Por favor, marca la casilla para suscribirte
+            </div>
+          ) : (
+            <p />
+          )}
         </form>
       </div>
     </div>
