@@ -29,7 +29,11 @@ function AuthorHeader({ author, date }) {
           })}
         </div>
       )}
-      {date && <h2 className="insight-date">{date}</h2>}
+      {date && (
+        <h2 className="insight-date" style={authorStyles}>
+          {date}
+        </h2>
+      )}
     </div>
   );
 }
