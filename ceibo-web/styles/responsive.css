@@ -734,7 +734,7 @@
     font-size: 14px;
   }
   .widget-area {
-    margin-top: 40px;
+    margin-top: 0;
   }
   .widget-area .widget .widget-title {
     font-size: 18px;
@@ -1108,11 +1108,34 @@
     text-align: center;
     margin-bottom: 15%;
   }
-  .share-title {
+
+  .widget-area .widget .share-title {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .widget-area .widget .mobile-author {
+    margin-top: 1rem;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.25rem;
+  }
+  .insight-date {
+    padding-bottom: 1.5rem;
+  }
+  .author-share {
     margin-bottom: 1.5rem;
   }
-  .widget-area .widget .share-title {
-    padding-top: 2rem;
+  .anchor-download {
+    width: fit-content;
+  }
+  .subscribe-nl {
+    margin-bottom: 2rem;
+  }
+  .insight-body-image {
+    margin-bottom: 1.5rem;
   }
 }
 
