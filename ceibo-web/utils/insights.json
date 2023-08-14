@@ -13,19 +13,23 @@
     "descEN": "How can technology help boost the market for sustainable instruments in general and sustainability-linked loans/bonds in particular?",
     "content": [
       {
-        "type": "first-p",
+        "type": "subtitle",
+        "text": "Abstract"
+      },
+      {
+        "type": "p",
         "text": "Las finanzas verdes han experimentado un crecimiento sostenido en los últimos años, lo que se demuestra en el aumento del mercado de instrumentos financieros sostenibles. Este crecimiento se explica por el interés que demuestran organizaciones internacionales, gobiernos y empresas en la ejecución de proyectos y actividades que tengan impacto positivo en el medio ambiente. Por tal motivo, generan la búsqueda de opciones de financiamiento que ofrezcan beneficios especiales por la naturaleza de las actividades que se desarrollan."
       },
       {
-        "type": "first-p",
+        "type": "p",
         "text": "Con el tiempo, se ha ampliado la variedad de instrumentos financieros que fomentan estas iniciativas: los del tipo 'sustainability-linked' se posicionan actualmente con mayor proyección de crecimiento ya que, a diferencia de los del tipo “proceed-based”, los fondos no deben destinarse exclusivamente a proyectos sostenibles, sino que pueden ser utilizados para cualquier propósito corporativo."
       },
       {
-        "type": "first-p",
+        "type": "p",
         "text": "Los beneficios que producen este tipo de instrumentos están sujetos a los valores resultantes de indicadores de performance respecto de objetivos prefijados, por lo que surgen una serie de interrogantes: ¿cómo se miden los aspectos ambientales a ser evaluados?, ¿cómo se puede garantizar la veracidad de dichas mediciones?, ¿quién es el responsable de realizarlas?"
       },
       {
-        "type": "first-p",
+        "type": "p",
         "text": "En este sentido, la tecnología hoy en día brinda múltiples soluciones con relación a la gestión de datos y seguridad de la información, lo que lleva a una nueva pregunta: ¿la tecnología puede ayudar a potenciar el mercado de los instrumentos sostenibles en general y el de los sustainability-link loans/bonds en particular?"
       },
       {
@@ -407,8 +411,8 @@
     "metadata": {
       "author": ["Hernán Gutsztat"],
       "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-      "date": "1 marzo, 2022",
-      "dateEN": "march 1, 2022",
+      "date": "1 de Marzo, 2022",
+      "dateEN": "March 1, 2022",
       "bannerImg": "/images-ceibo/publicaciones/Publicaciones-experiencia-del-cliente.jpg",
       "tags": ["Ceibo Digital", "Transformación Digital", "Consultoría"],
       "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
@@ -418,7 +422,9 @@
     "id": "5",
     "title": "Ocho puntos clave para mejorar la experiencia del cliente",
     "article": "| Artículo",
+    "articleEN": "| Article",
     "theme": "Experiencia del cliente",
+    "themeEN": "Customer experience",
     "path-url": "ocho-puntos-clave-para-mejorar-la-experiencia-del-cliente",
     "titleEN": "8 key points to improve customer experience",
     "img": "/images-ceibo/publicaciones/Publicaciones-consultoría-en-TD.jpg",
@@ -509,7 +515,7 @@
       "author": ["Hernán Gutsztat"],
       "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
       "date": "29 de Enero, 2022",
-      "dateEN": "january 29, 2022",
+      "dateEN": "January 29, 2022",
       "bannerImg": "/images-ceibo/publicaciones/Publicaciones-consultoría-en-TD.jpg",
       "tags": ["Experiencia del cliente", "Marketing", "Customer experience"],
       "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
@@ -520,7 +526,9 @@
     "path-url": "agile-importante-en-el-contexto-actual",
     "title": "Agile ¿Qué es y por qué es importante en el contexto actual?",
     "article": "| Artículo",
+    "articleEN": "| Article",
     "theme": "Metodologías ágiles",
+    "themeEN": "Agile methodologies",
     "titleEN": "What is Agile and Why is it Important?",
     "img": "/images-ceibo/publicaciones/metodologias-agiles.jpg",
     "desc": "Aunque la metodología nació en la industria de desarrollo de software, el contexto actual aceleró la adopción de esta práctica y se masificó su utilización a través de diferentes organizaciones de las industrias más variadas.",
@@ -557,8 +565,8 @@
     "metadata": {
       "author": ["Ayelen Richard"],
       "authorImg": "/images-ceibo/integrantes/Ayelen Richard.png",
-      "date": "7 diciembre, 2021",
-      "dateEN": "december 7, 2021",
+      "date": "7 de Diciembre, 2021",
+      "dateEN": "December 7, 2021",
       "bannerImg": "/images-ceibo/publicaciones/metodologias-agilesbanner.jpg",
       "tags": ["Agile", "Consultoría", "Metodologías ágiles"],
       "authorIn": "https://www.linkedin.com/in/ayelenrichard/"
@@ -569,7 +577,9 @@
     "path-url": "black-friday-2022-estadisticas-y-tendencias",
     "title": "Cifras y tendencias que se esperan para la próxima edición del Black Friday",
     "article": "| Artículo",
+    "articleEN": "| Article",
     "theme": "Black Friday",
+    "themeEN": "Black Friday",
     "titleEN": "Black Friday stats and trends expected for 2022Black Friday stats and trends expected for 2022",
     "img": "/images-ceibo/publicaciones/black-friday-4655335_1920-1536x1024.jpg",
     "desc": "David Wilson, Partner en Ceibo Digital, consultora de negocios con foco en transformación digital, detalla las expectativas del sector para el evento.",
@@ -618,8 +628,8 @@
     "metadata": {
       "author": ["David Wilson"],
       "authorImg": "/images-ceibo/integrantes/David Wilson.png",
-      "date": "26 noviembre, 2021",
-      "dateEN": "november 26, 2021",
+      "date": "26 de Noviembre, 2021",
+      "dateEN": "November 26, 2021",
       "bannerImg": "/images-ceibo/publicaciones/black-friday-4655335_1920banner.jpg",
       "tags": ["Actualidad", "Tendencias", "Economia Digital", "Black Friday"],
       "fuenteOriginal": "iProUP",
@@ -631,7 +641,9 @@
     "path-url": "mitos-de-la-transformacion-digital",
     "title": "Transformación digital: 5 mitos de la nueva era",
     "article": "| Artículo",
+    "articleEN": "| Article",
     "theme": "Transformación Digital",
+    "themeEN": "Digital Transformation",
     "titleEN": "5 myths about digital transformation",
     "img": "/images-ceibo/publicaciones/transformacion-digital-5-mitos-1536x1024.jpg",
     "desc": "Existen aún ciertos 'mitos y verdades' acerca de la transformación digital que todo Directivo tiene que conocer antes de proyectar ese nuevo modelo de negocio o rediseñar la organización.",
@@ -708,7 +720,9 @@
     "path-url": "el-futuro-del-trabajo",
     "title": "El futuro del trabajo",
     "article": "| Artículo",
+    "articleEN": "| Article",
     "theme": "Futuro del trabajo",
+    "themeEN": "Future of work",
     "titleEN": "Future of work",
     "img": "/images-ceibo/publicaciones/Publicaciones-el-futuro-del-trabajo.jpg",
     "desc": "Tras la pandemia del Covid-19 y el confinamiento, después de haber pasado el experimento laboral más grande de la historia, todos nos estamos preguntando: ¿Cómo va a quedar configurada la nueva normalidad del trabajo?",
@@ -814,7 +828,9 @@
     "path-url": "el-desafio-de-la-transformacion-digital-en-paraguay",
     "title": "La transformación digital, uno de los desafíos del 2021",
     "article": "| Artículo",
+    "articleEN": "| Article",
     "theme": "Transformación Digital",
+    "themeEN": "Digital Transformation",
     "titleEN": "Digital transformation in Paraguay",
     "img": "/images-ceibo/publicaciones/top-banner-contacto-1536x560.jpg",
     "desc": "Paraguay es un país en constante crecimiento y los números así lo reflejan. Sin embargo, el país sigue estando por detrás de muchos otros en materia de transformación digital.",
@@ -919,8 +935,8 @@
     "metadata": {
       "author": ["Hernán Gutsztat"],
       "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-      "date": "29 abril, 2021",
-      "dateEN": "april 29, 2021",
+      "date": "29 de Abril, 2021",
+      "dateEN": "April 29, 2021",
       "bannerImg": "/images-ceibo/publicaciones/top-banner-contacto.jpg",
       "tags": ["Transformación Digital", "Paraguay"],
       "authorIn": "https://www.linkedin.com/in/hernan-gutsztat/"
@@ -931,7 +947,9 @@
     "path-url": "por-que-las-fintech-son-las-grandes-protagonistas-la-transformacion-digital",
     "title": "Por qué las fintech son las grandes protagonistas de la transformación digital",
     "article": "| Artículo",
+    "articleEN": "| Article",
     "theme": "Fintech",
+    "themeEN": "Fintech",
     "titleEN": "Fintechs and the digital transformation of financial services",
     "img": "/images-ceibo/publicaciones/priscilla-du-preez-341138-1-1536x897.jpg",
     "desc": "Han golpeado fuerte una industria muy regulada y tradicionalmente poco innovadora desafiando a jugadores centenarios.",
@@ -1036,7 +1054,7 @@
     "metadata": {
       "author": ["Hernán Gutsztat"],
       "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-      "date": "7 Febrero, 2021",
+      "date": "7 de Febrero, 2021",
       "dateEN": "February 7, 2021",
       "bannerImg": "/images-ceibo/publicaciones/priscilla-du-preez-341138-1.jpg",
       "tags": ["Fintech", "Bancos", "Transformación Digital"],

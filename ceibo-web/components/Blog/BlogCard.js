@@ -25,18 +25,25 @@ function BlogCard({ section, publi }) {
               className={`blog-post-content ${locale == "es" ? "blog" : null} insight-card`}
             >
               <h3>
-                <a className='insight-core'>{locale == "en" ? publi.themeEN : publi.theme}</a>
+                <a className='insight-core'>{locale == "en" 
+                  ? `${publi.themeEN} ${publi?.articleEN}` 
+                  : `${publi.theme} ${publi?.article}`}</a>
               </h3>
-              <h3>
+              <span className="date">
+                {locale == "es"
+                  ? publi?.metadata?.date
+                  : publi?.metadata?.dateEN}
+              </span>
+              <h3 className='insight-card-title'>
                 <Link href={`/${urlFragment}/${publi["path-url"]}`}>
                   <a>{locale == "en" ? publi.titleEN : publi.title}</a>
                 </Link>
               </h3>
-              <span className="date">
+              <p className='desc-insight'>
                 {locale == "es"
-                  ? `${publi?.metadata.date} ${publi?.article}`
-                  : `${publi?.metadata.dateEN} ${publi?.articleEN}`}
-              </span>
+                  ? publi.desc
+                  : "*This article is written in Spanish"}
+              </p>
               <Link href={`/${urlFragment}/${publi["path-url"]}`}>
                 <a className="read-more-btn">
                   {vermas}
