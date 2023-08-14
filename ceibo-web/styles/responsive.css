@@ -1111,6 +1111,9 @@
   .share-title {
     margin-bottom: 1.5rem;
   }
+  .widget-area .widget .share-title {
+    padding-top: 2rem;
+  }
 }
 
 /* Min width 576px to Max width 767px */
