@@ -26,13 +26,13 @@ const Hightlight = () => {
                 </Link>
               </div>
               <div
-                className={`blog-post-content ${locale == "es" ? "blog" : ""}`}
+                className={`blog-post-content ${locale == "es" ? "blog" : ""} insight-card`}
               >
                 <h3>
-                  <a className="insight-core">
-                    {locale == "en" ? publi.themeEN : publi.theme}
-                  </a>
-                </h3>
+                <a className='insight-core'>{locale == "en" 
+                  ? `${publi.themeEN} ${publi?.articleEN}` 
+                  : `${publi.theme} ${publi?.article}`}</a>
+              </h3>
                 <h3>
                   <Link href={`/${seccion}/${publi["path-url"]}`}>
                     <a>{locale == "en" ? publi.titleEN : publi.title}</a>

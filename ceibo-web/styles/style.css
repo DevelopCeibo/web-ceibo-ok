@@ -2472,10 +2472,16 @@ Featured Services CSS
   color: #18181b;
   color: #b72837;
   display: inline-block;
-  position: relative;
+  /* position: relative; */
   z-index: 1;
   font-size: 15px;
   font-weight: 600;
+  align-self: end;
+}
+
+.desc-insight {
+  align-self: end;
+  height: 175px;
 }
 
 .read-more-btn-high {
@@ -2483,6 +2489,7 @@ Featured Services CSS
   background-color: #b72837;
   font-size: 15px;
   font-weight: 600;
+  align-self: end;
 }
 
 /* 
@@ -5688,10 +5695,19 @@ Blog CSS
 
 .single-blog-item .blog-post-content {
   padding: 30px;
-  min-height: 185px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  min-height: 250px;
+  display: grid;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+}
+.single-blog-item .insight-card {
+  padding: 30px;
+  min-height: 375px;
+  display: grid;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
 }
 /* .single-blog-item .blog-post-content-short {
   padding: 30px;
@@ -5700,22 +5716,30 @@ Blog CSS
   flex-direction: column;
   justify-content: space-around;
 } */
-.single-blog-item .blog-post-content.blog {
+.single-blog-item .insight-cardt.blog {
   padding: 30px;
-  min-height: 375px;
-  display: flex;
+  min-height: 525px;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
 
-.single-blog-item .blog-post-content.blog.insight-card {
-  justify-content: space-between;
+.single-blog-item .blog-post-content.blog {
+  padding: 30px;
+  min-height: 450px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
 }
+
+/* .single-blog-item .blog-post-content.blog.insight-card {
+  justify-content: space-between;
+} */
 
 .single-blog-item .blog-post-content .date {
   /* color: #ff2c9c; */
   display: block;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 14px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -5732,8 +5756,13 @@ Blog CSS
   color: #18181b;
 }
 
+.insight-card-title {
+  height: 152px;
+}
+
 .single-blog-item .blog-post-content h3 a.insight-core {
   color: #757575;
+  font-size: 14px;
 }
 
 .single-blog-item .blog-post-content h3 a:hover,
@@ -7009,10 +7038,11 @@ Sidebar CSS
 }
 
 .banner-core {
-  margin-left: 4%;
+  padding-left: 2rem;
   display: flex;
   flex-direction: row;
   gap: 1%;
+  padding-top: 5px;
 }
 
 .banner-core .core-concept {

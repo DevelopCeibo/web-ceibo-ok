@@ -38,7 +38,7 @@ const Share = ({ publicacion }) => {
             >
               <i className="fa-brands fa-twitter fa-xl insight-icon"></i>
             </TwitterShareButton>
-            <button onClick={handleCopy} className="email-share" onMouseUp={handleEvent}>
+            <button onMouseDown={handleCopy} className="email-share" onMouseUp={handleEvent}>
               {copy
                 ? (<abbr title="Copiado">
                   <i className="fa-solid fa-paperclip fa-xl insight-icon"></i>
