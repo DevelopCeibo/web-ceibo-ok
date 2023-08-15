@@ -21,7 +21,12 @@ const AuthorSidebar = ({ publicacion }) => {
     <>
       <div className="widget-area" id="secondary">
         <div className="widget widget_posts_thumb">
-          <h3 className="share-title author-share mobile-author">{autores}</h3>
+          <h3
+            className="share-title author-share mobile-author"
+            style={{ paddingTop: "3rem" }}
+          >
+            {autores}
+          </h3>
           {authors?.length >= 1 &&
             authors?.map((author, i) => {
               return (

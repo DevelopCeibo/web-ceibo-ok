@@ -9,7 +9,12 @@ const Download = ({ link }) => {
   return (
     <div className="widget-area" id="secondary">
       <div className="widget widget_posts_thumb">
-        <h3 className="share-title author-share">{download}</h3>
+        <h3
+          className="share-title author-share"
+          style={{ marginBottom: "0.5rem" }}
+        >
+          {download}
+        </h3>
         <div className="share-download">
           <i className="fa-solid fa-download fa-xl insight-icon"></i>{" "}
           <a className="insight-icon" href={pdfLink} target={"_blank"}>
