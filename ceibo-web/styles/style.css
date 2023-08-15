@@ -7042,7 +7042,7 @@ Sidebar CSS
   display: flex;
   flex-direction: row;
   gap: 1%;
-  padding-top: 5px;
+  padding-top: 25px;
 }
 
 .banner-core .core-concept {
@@ -8427,3 +8427,10 @@ span.new {
   letter-spacing: 0.05em;
 }
 /*# sourceMappingURL=style.css.map */
+
+abbr {
+  text-decoration: none;
+}
+abbr:hover{
+  cursor: default;
+}
