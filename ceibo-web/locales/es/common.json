@@ -40,8 +40,8 @@
   "autores": "Autores",
   "aboutAuthors": "Acerca de los autores",
   "download": "Descargar",
-  "fullDownload": "Descargar",
-  "fullDownloadNote": "(Descarga el artículo completo en formato PDF)",
+  "fullDownload": "Descargar artículo completo",
+  "uncheckedBoxNotification": "Por favor, marca la casilla para suscribirte",
 
   "fullArticle": "Artículo completo",
 

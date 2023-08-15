@@ -9,14 +9,19 @@ import AboutAuthors from "./AboutAuthors";
 import DownloadFileButton from "./DownloadFileButton";
 import HorizontalLine from "./HorizontalLine";
 import Tags from "./Tags";
-import DownloadButtonNote from "./DownloadButtonNote";
 
 const InsightDetailsContent = ({ publicacion, date }) => {
   const renderContent = (content) => {
     return content?.map((el, i) => {
       switch (el.type) {
         case "img":
-          return <img src={el.src} style={{ maxWidth: el.maxWidth }} />;
+          return (
+            <img
+              className="insight-body-image"
+              src={el.src}
+              style={{ maxWidth: el.maxWidth }}
+            />
+          );
         case "first-p":
           return (
             <p
@@ -226,7 +231,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
                   <DownloadFileButton
                     link={publicacion?.metadata?.downloadFile}
                   />
-                  <DownloadButtonNote />
+
                   <HorizontalLine />
                   <AboutAuthors about={publicacion?.metadata?.aboutAuthors} />
                 </>

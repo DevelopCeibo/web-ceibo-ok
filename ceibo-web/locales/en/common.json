@@ -40,8 +40,8 @@
   "autores": "Authors",
   "aboutAuthors": "About authors",
   "download": "Download",
-  "fullDownload": "Download",
-  "fullDownloadNote": "(Download the full article in PDF format)",
+  "fullDownload": "Download full article",
+  "uncheckedBoxNotification": "*Please, check the box proceed",
 
   "fullArticle": "Full article",
 
@@ -69,7 +69,7 @@
   "vermas": "Learn more",
   "leerArt": "Read insight",
   "suscribiteNews": "Suscribe to our newsletter",
-  "suscribirme": "Suscribe me",
+  "suscribirme": "Subscribe me",
   "enviar": "Send",
   "enviarMsg": "Send message",
   "verpublis": "See all posts",

@@ -7079,12 +7079,13 @@ Sidebar CSS
 
 .author-position {
   text-align: center;
-  margin-bottom: 0.5rem;
+
   font-size: 0.75rem;
 }
 
 .author-share {
   text-align: center;
+  margin-top: 8px;
 }
 .author-share-button {
   margin-right: 0.5rem;
@@ -7148,7 +7149,8 @@ Sidebar CSS
 }
 
 .anchor-download {
-  width: 50%;
+  width: fit-content;
+  margin-bottom: 5rem;
 }
 
 .hightlight {
@@ -8425,6 +8427,11 @@ span.new {
 .spanish-note-text {
   font-size: 12px;
   letter-spacing: 0.05em;
+}
+
+.btn-disabled {
+  color: #b72837;
+  border: 1px solid #b72837;
 }
 /*# sourceMappingURL=style.css.map */
 

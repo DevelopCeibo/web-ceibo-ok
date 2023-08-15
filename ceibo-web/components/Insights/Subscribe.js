@@ -10,6 +10,7 @@ function Subscribe() {
   const { t } = useTranslation("common");
   const suscribiteNews = t("suscribiteNews");
   const suscribirme = t("suscribirme");
+  const uncheckedBoxNotification = t("uncheckedBoxNotification");
 
   // Form initial state
   const INITIAL_STATE = {
@@ -98,7 +99,7 @@ function Subscribe() {
             <div className="col-lg-3 col-sm-12 mb-3">
               <button
                 type="submit"
-                className="btn btn-primary"
+                className={!disabled ? "btn btn-primary" : "btn btn-disabled"}
                 onClick={handleSubmit}
               >
                 {suscribirme}
@@ -121,7 +122,7 @@ function Subscribe() {
           </div>
           {notifyDisabled ? (
             <div className="checkbox-notification">
-              *Por favor, marca la casilla para suscribirte
+              {uncheckedBoxNotification}
             </div>
           ) : (
             <p />
