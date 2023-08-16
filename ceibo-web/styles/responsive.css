@@ -1109,6 +1109,15 @@
     margin-bottom: 15%;
   }
 
+  .banner-core {
+    padding-left: 1rem;
+    padding-top: 25px;
+  }
+  .bc-w .article-title {
+    color: #000000;
+    padding: 1rem 1rem;
+    margin-bottom: 0;
+  }
   .widget-area .widget .share-title {
     margin-top: 1rem;
     padding-top: 1rem;
