@@ -9,7 +9,10 @@ function AuthorHeader({ author, date }) {
   return (
     <div className="insight-data">
       {author?.length === 1 ? (
-        <h2 className="insight-author">{`Por ${author}`}</h2>
+        <h2
+          className="insight-author"
+          style={authorStyles}
+        >{`Por ${author}`}</h2>
       ) : (
         <div className="insight-data-authors">
           {author?.map((author, i) => {
