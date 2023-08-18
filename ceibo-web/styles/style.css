@@ -2476,12 +2476,13 @@ Featured Services CSS
   z-index: 1;
   font-size: 15px;
   font-weight: 600;
-  align-self: end;
+  align-self: start;
+  margin-top: auto;
 }
 
 .desc-insight {
   align-self: end;
-  height: 175px;
+  /* height: 175px; */
 }
 
 .read-more-btn-high {
@@ -2489,7 +2490,8 @@ Featured Services CSS
   background-color: #b72837;
   font-size: 15px;
   font-weight: 600;
-  align-self: end;
+  align-self: start;
+  margin-top: auto;
 }
 
 /* 
@@ -5696,17 +5698,17 @@ Blog CSS
 .single-blog-item .blog-post-content {
   padding: 30px;
   min-height: 250px;
-  display: grid;
-  /* display: flex; */
-  /* flex-direction: column; */
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
   /* justify-content: space-around; */
 }
 .single-blog-item .insight-card {
   padding: 30px;
   min-height: 375px;
-  display: grid;
-  /* display: flex; */
-  /* flex-direction: column; */
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
   /* justify-content: space-around; */
 }
 /* .single-blog-item .blog-post-content-short {
@@ -5727,6 +5729,14 @@ Blog CSS
 .single-blog-item .blog-post-content.blog {
   padding: 30px;
   min-height: 450px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+}
+
+.single-blog-item .blog-post-content.blog.featured {
+  padding: 30px;
+  min-height: 350px;
   /* display: flex;
   flex-direction: column;
   justify-content: space-around; */
@@ -5757,7 +5767,7 @@ Blog CSS
 }
 
 .insight-card-title {
-  height: 152px;
+  /* height: 152px; */
 }
 
 .single-blog-item .blog-post-content h3 a.insight-core {
@@ -8439,6 +8449,6 @@ span.new {
 abbr {
   text-decoration: none;
 }
-abbr:hover{
+abbr:hover {
   cursor: default;
 }
