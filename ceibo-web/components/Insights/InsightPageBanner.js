@@ -27,10 +27,11 @@ const InsightPageBanner = ({
         <div className="insight-banner">
           <div className="container main-banner-content bc-w">
             <div className="banner-core">
-              <h2 className="core-concept">{theme ?? theme}</h2>
-              <h2 className="core-article">{article ?? article}</h2>
+              <h2>
+                <span className="core-concept" style={{fontWeight:"bold",  fontSize:"1.2rem", display:"inline"}}> {theme ?? theme} </span>
+                <span className="core-article" style={{fontWeight:"bold",  fontSize:"1.2rem", display:"inline"}}>  {article ?? article}</span>
+              </h2> 
             </div>
-
             <h1 className="article-title">{pageTitle}</h1>
             <AuthorHeader author={author} date={date}></AuthorHeader>
           </div>
