@@ -1146,6 +1146,10 @@
   .insight-body-image {
     margin-bottom: 1.5rem;
   }
+  .hightlight-read {
+    width: fit-content;
+    padding: 1% 2%;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -1911,6 +1915,10 @@
     height: 30px;
     align-items: center;
     padding: 0 35%;
+  }
+  .hightlight-read {
+    width: fit-content;
+    padding: 1% 2%;
   }
 }
 
