@@ -8,7 +8,7 @@ import Footer from "../components/Layouts/Footer";
 const Error = () => {
   return (
     <>
-      <NavbarTwo />
+      <NavbarFive />
 
       <PageBanner pageTitle="404 Error" BGImage="/images/page-banner3.jpg" />
 

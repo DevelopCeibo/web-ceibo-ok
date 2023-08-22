@@ -1,21 +1,27 @@
 import React from "react";
-import Link from "next/link";
-import InsigthSidebar from "./InsigthSidebar";
+import AuthorSidebar from "./AuthorSidebar";
 import Share from "./Share";
 import { Typography, Box } from "@mui/material";
 import { marked } from "marked";
 import Subscribe from "./Subscribe";
 import Download from "./Dowload";
 import AboutAuthors from "./AboutAuthors";
-import DownloadFileButton from './DownloadFileButton';
+import DownloadFileButton from "./DownloadFileButton";
+import HorizontalLine from "./HorizontalLine";
+import Tags from "./Tags";
 
 const InsightDetailsContent = ({ publicacion, date }) => {
   const renderContent = (content) => {
     return content?.map((el, i) => {
       switch (el.type) {
         case "img":
-          return <img src={el.src} style={{ maxWidth: el.maxWidth }} />;
-          break;
+          return (
+            <img
+              className="insight-body-image"
+              src={el.src}
+              style={{ maxWidth: el.maxWidth }}
+            />
+          );
         case "first-p":
           return (
             <p
@@ -24,7 +30,6 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             ></p>
           );
-          break;
         case "p-margin":
           return (
             <Typography
@@ -39,7 +44,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           return (
             <Typography
               component="p"
-              sx={{ pb: 2, fontSize: 18}}
+              sx={{ pb: 2, fontSize: 18 }}
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             >
               {/* {marked(el.text)} */}
@@ -92,15 +97,90 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               sx={{ color: "black", paddingLeft: "50px", fontSize: 16 }}
             >
               {el.items.map((text, i) => (
-                <li key={i} style={{ margin: "10px 0" }}>
-                  {text}
+                <li
+                  key={i}
+                  style={{ margin: "10px 0" }}
+                  dangerouslySetInnerHTML={{ __html: marked(text) }}
+                >
+                  {/* {text} */}
                 </li>
               ))}
             </Box>
           );
+        case "order-list":
+          return (
+            <Box
+              component="ol"
+              sx={{ color: "black", paddingLeft: "50px", fontSize: 16 }}
+            >
+              {el.items.map((text, i) => (
+                <li
+                  key={i}
+                  style={{ margin: "10px 0" }}
+                  dangerouslySetInnerHTML={{ __html: marked(text) }}
+                >
+                  {/*  {text} */}
+                </li>
+              ))}
+            </Box>
+          );
+        case "ol-ul":
+          return (
+            <Box
+              component="ol"
+              sx={{ color: "black", paddingLeft: "50px", fontSize: 16 }}
+            >
+              {el.items.map((text, i) => {
+                if (typeof text === "string") {
+                  return (
+                    <li
+                      key={i}
+                      style={{ margin: "10px 0" }}
+                      dangerouslySetInnerHTML={{ __html: marked(text) }}
+                    >
+                      {/*  {text} */}
+                    </li>
+                  );
+                } else {
+                  return (
+                    <>
+                      <li
+                        key={i}
+                        style={{ margin: "10px 0" }}
+                        dangerouslySetInnerHTML={{ __html: marked(text.head) }}
+                      >
+                        {/*  {text} */}
+                      </li>
+                      <Box component="ul" sx={{}}>
+                        {text?.subItems?.map((subItem, i) => (
+                          <li
+                            key={i}
+                            dangerouslySetInnerHTML={{
+                              __html: marked(subItem),
+                            }}
+                          >
+                            {/* {text} */}
+                          </li>
+                        ))}
+                      </Box>
+                      {text?.last && (
+                        <p
+                          style={{ margin: "10px 0" }}
+                          dangerouslySetInnerHTML={{
+                            __html: marked(text.last),
+                          }}
+                        >
+                          {/* {text} */}
+                        </p>
+                      )}
+                    </>
+                  );
+                }
+              })}
+            </Box>
+          );
         case "doublelist":
           return el.items.map((item, idx) => {
-            console.log(item.insideItems);
             return (
               <div key={idx}>
                 <Typography sx={{ pb: 1 }}>{item.title}</Typography>
@@ -132,88 +212,41 @@ const InsightDetailsContent = ({ publicacion, date }) => {
       }
     });
   };
-
   return (
-    <>
-      <div className="pt-100">
-        <div className="container">
-          <div style={{ alignContent: "space-between", paddingLeft: "3%" }}>
-            {publicacion?.metadata?.author?.length >= 1 &&
-            publicacion.metadata.author[0] ? (
-              <h2
-                style={{ paddingBottom: "1%", color: "grey", fontSize: "20px" }}
-              >
-                {`Por ${publicacion?.metadata.author}`}
-              </h2>
-            ) : null}
-            {date && (
-              <h2
-                style={{ color: "grey", fontWeight: "300", fontSize: "20px" }}
-              >
-                {date}
-              </h2>
-            )}
-          </div>
-          <div className="row">
-            <div className="col-lg-2 col-md-12">
-              <div>
-                <Share publicacion={publicacion} />
-                <Download />
-              </div>
-            </div>
-            <div className="col-lg-8 col-md-12">
-              <div className="blog-details">
-                <div className="article-content">
-                  {renderContent(publicacion?.content)}
-                  
-                  <DownloadFileButton />
+    <div className="container">
+      {/* <AuthorHeader author={publicacion?.metadata?.author} date={date} /> */}
+      <div className="row">
+        <div className="col-lg-2 col-md-12">
+          <Share publicacion={publicacion} />
+          {publicacion?.article === "| Research Ceibo Digital" ? (
+            <Download link={publicacion?.metadata?.downloadFile} />
+          ) : null}
+        </div>
+        <div className="col-lg-8 col-md-12">
+          <div className="blog-details">
+            <div className="article-content">
+              {renderContent(publicacion?.content)}
+              {publicacion?.article === "| Research Ceibo Digital" ? (
+                <>
+                  <DownloadFileButton
+                    link={publicacion?.metadata?.downloadFile}
+                  />
 
-                  {/* Horizontal line */}
-                  <div
-                    style={{
-                      height: "2px",
-                      backgroundColor: "#b72837",
-                      borderColor: "#b72837",
-                    }}
-                  />
-                  <div style={{ marginBottom: "2%", marginTop: "2%" }}>
-                    <AboutAuthors />
-                  </div>
-                  {/* Horizontal line */}
-                  <div
-                    style={{
-                      height: "2px",
-                      backgroundColor: "#b72837",
-                      borderColor: "#b72837",
-                    }}
-                  />
-                  <ul className="category">
-                    <li>
-                      <span>Tags:</span>
-                    </li>
-                    {publicacion?.metadata?.tags?.map((tag, i) => (
-                      <li key={i}>
-                        <Link href="#">
-                          <a>{tag}</a>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                  <div>
-                    <Subscribe />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-12">
-              <div>
-                <InsigthSidebar publicacion={publicacion} />
-              </div>
+                  <HorizontalLine />
+                  <AboutAuthors about={publicacion?.metadata?.aboutAuthors} />
+                </>
+              ) : null}
+              <HorizontalLine />
+              <Tags tags={publicacion?.metadata?.tags} />
+              <Subscribe />
             </div>
           </div>
         </div>
+        <div className="col-lg-2 col-md-12">
+          <AuthorSidebar publicacion={publicacion} />
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

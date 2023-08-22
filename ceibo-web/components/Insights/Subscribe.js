@@ -10,6 +10,7 @@ function Subscribe() {
   const { t } = useTranslation("common");
   const suscribiteNews = t("suscribiteNews");
   const suscribirme = t("suscribirme");
+  const uncheckedBoxNotification = t("uncheckedBoxNotification");
 
   // Form initial state
   const INITIAL_STATE = {
@@ -20,6 +21,8 @@ function Subscribe() {
     text: "",
   };
   const [contact, setContact] = useState(INITIAL_STATE);
+  const [disabled, setDisabled] = useState(true);
+  const [notifyDisabled, setNotifyDisabled] = useState(false);
 
   const alertContent = () => {
     MySwal.fire({
@@ -44,6 +47,10 @@ function Subscribe() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (disabled) {
+      setNotifyDisabled(true);
+      return;
+    }
     try {
       const url = `${baseUrl}/api/contact`;
       const formData = new FormData();
@@ -63,6 +70,7 @@ function Subscribe() {
         alertContent();
       }
       setContact("");
+      setNotifyDisabled(false);
     } catch (error) {
       console.log(error);
       alertError();
@@ -70,35 +78,55 @@ function Subscribe() {
   };
 
   return (
-    <div className="col-lg-12  col-sm-12 col-md-6" style={{marginTop: '3%', backgroundColor: '#888888'}}>
+    <div className="col-lg-12  col-sm-12 col-md-6 subscribe-nl">
       <div className="single-footer-widget ml-4">
-        <p style={{paddingLeft: '2%'}}>
-          <b style={{color: '#FFF', fontWeight: '400'}}>{suscribiteNews}</b>
+        <p className="subscribe-p">
+          <b className="subscribe-title">{suscribiteNews}</b>
         </p>
-        <form 
-          onSubmit={handleSubmit} 
-          style={{display: 'flex', flexDirection: 'row', gap: '3%', alignItems: 'center', justifyContent: 'center'}}
-        >
-          <div className="form-group col-lg-8 col-sm-12 mb-3">
+        <form onSubmit={handleSubmit}>
+          <div className="subscribe-form">
+            <div className="form-group col-lg-8 col-sm-12 mb-3">
+              <input
+                type="text"
+                name="email"
+                placeholder="Email"
+                className="form-control"
+                value={contact.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="col-lg-3 col-sm-12 mb-3">
+              <button
+                type="submit"
+                className={!disabled ? "btn btn-primary" : "btn btn-disabled"}
+                onClick={handleSubmit}
+              >
+                {suscribirme}
+              </button>
+            </div>
+          </div>
+
+          <div style={{ display: "flex", gap: "5px", marginLeft: "3%" }}>
             <input
-              type="text"
-              name="email"
-              placeholder="Email"
-              className="form-control"
-              value={contact.email}
-              onChange={handleChange}
-              required
+              className="form-check-input"
+              type="checkbox"
+              id="newsletter"
+              value=""
+              onChange={() => setDisabled(!disabled)}
             />
+
+            <label className="form-check-label" for="newsletter">
+              {"Acepto recibir información de Ceibo Digital"}
+            </label>
           </div>
-          <div className="col-lg-3 col-sm-12 mb-3">
-            <button
-              type="submit"
-              className="btn btn-primary"
-              onClick={handleSubmit}
-            >
-              {suscribirme}
-            </button>
-          </div>
+          {notifyDisabled ? (
+            <div className="checkbox-notification">
+              {uncheckedBoxNotification}
+            </div>
+          ) : (
+            <p />
+          )}
         </form>
       </div>
     </div>

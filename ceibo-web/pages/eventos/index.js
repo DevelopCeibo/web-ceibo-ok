@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import NavbarTwo from "../../components/Layouts/NavbarTwo";
-import NavbarFive from "../../components/Layouts/NavbarFive"
+import NavbarFive from "../../components/Layouts/NavbarFive";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/Layouts/Footer";
-import Form from "../../components/Events/eventForm"
+import Form from "../../components/Events/eventForm";
 import Link from "next/link";
 import eventosES from "../../utils/eventos.json";
 import eventosEN from "../../utils/eventosEN.json";
@@ -43,7 +43,7 @@ const Eventos = () => {
         <title>{eventosTitleTag}</title>
         <meta name="description" content={eventosMetaDesc} />{" "}
       </Head>
-      <NavbarTwo />
+      <NavbarFive />
       <PageBanner
         pageTitle={eventosh1}
         BGImage={"/images-ceibo/Banner-eventos.jpeg"}
@@ -51,7 +51,6 @@ const Eventos = () => {
         subtitle={eventosh2}
       />
       <div className="pt-100 pb-70">
-
         {/* INICIO FORMULARIO EVENTO */}
         {/* <Form/> */}
         {/* FIN FORMULARIO */}
@@ -75,7 +74,9 @@ const Eventos = () => {
                       </div>
 
                       <div className="blog-post-content blog">
-                        <span className="date">{ev.metadata.date}</span>
+                        <span className="date">
+                          {ev.metadata.date.toUpperCase()}
+                        </span>
 
                         <h6>
                           <a>{ev.title}</a>

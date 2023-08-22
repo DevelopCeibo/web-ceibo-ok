@@ -1,31 +1,30 @@
-import React from "react"
-import NavbarTwo from "../../components/Layouts/NavbarTwo"
-import NavbarFive from "../../components/Layouts/NavbarFive"
-import Footer from "../../components/Layouts/Footer"
-import InsightDetailsContent from "../../components/Insights/InsightDetailsContent"
-import insights from "../../utils/insights.json"
-import { useRouter } from "next/router"
-import InsightPageBanner from "../../components/Insights/InsightPageBanner"
-import Head from "next/head"
-import LatestNewsSlider from '../../components/Common/LatestNewsSlider';
+import React from "react";
+import NavbarTwo from "../../components/Layouts/NavbarTwo";
+import NavbarFive from "../../components/Layouts/NavbarFive";
+import Footer from "../../components/Layouts/Footer";
+import InsightDetailsContent from "../../components/Insights/InsightDetailsContent";
+import insights from "../../utils/insights.json";
+import { useRouter } from "next/router";
+import InsightPageBanner from "../../components/Insights/InsightPageBanner";
+import Head from "next/head";
+import LatestNewsSlider from "../../components/Common/LatestNewsSlider";
 
 const Insight = () => {
-  const router = useRouter()
-  const { locale } = useRouter()
-  const pathInsight = router.asPath.split("/")[2]
-
-  const [data, setdata] = React.useState({})
+  const router = useRouter();
+  const { locale } = useRouter();
+  const pathInsight = router.asPath.split("/")[2];
+  const [data, setdata] = React.useState({});
 
   React.useEffect(() => {
     insights.forEach((insight) => {
       if (insight["path-url"] === pathInsight) {
-        setdata(insight)
+        setdata(insight);
       }
-    })
-  }, [pathInsight])
+    });
+  }, [pathInsight]);
 
-  const TITLE_TAG = `${data?.title} - Ceibo Digital`
-  const META_DESC = `${data?.desc}`
+  const TITLE_TAG = `${data?.title} - Ceibo Digital`;
+  const META_DESC = `${data?.desc}`;
   return (
     <>
       <Head>
@@ -34,23 +33,25 @@ const Insight = () => {
       </Head>
       <NavbarFive />
       <InsightPageBanner
-        pageTitle={data.title}
-        BGImage={data.metadata?.bannerImg}
+        pageTitle={data?.title}
+        BGImage={data?.metadata?.bannerImg}
         textcenter={true}
-        article={data.article}
-        theme={data.theme}
-      />
-      <InsightDetailsContent publicacion={data} date={`${
+        article={data?.article}
+        theme={data?.theme}
+        author={data?.metadata?.author}
+        date={`${
           locale == "es" ? data?.metadata?.date : data?.metadata?.dateEN
         }  ${
           data.metadata?.fuenteOriginal
             ? "- " + data.metadata?.fuenteOriginal
             : ""
-        }`}/>
-      <LatestNewsSlider type={'insights'}/>
+        }`}
+      />
+      <InsightDetailsContent publicacion={data} />
+      <LatestNewsSlider type={"insights"} />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Insight
+export default Insight;
