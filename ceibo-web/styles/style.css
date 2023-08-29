@@ -75,6 +75,17 @@ p {
 
 /* generales end*/
 
+/* GPTW */
+.gptw-title {
+    text-align: center;
+    margin: -5px auto 60px;
+}
+
+.gptw-subtitle {
+  font-weight: 400;
+  font-size: 48px;
+}
+
 /* EVENTOS */
 .img-evento {
   max-width: 600px;
@@ -8451,4 +8462,29 @@ abbr {
 }
 abbr:hover {
   cursor: default;
+}
+
+/* GPTW */
+.gptw-title {
+  max-width: none;
+}
+
+.gptw-subtitle {
+font-weight: 400;
+font-size: 48px;
+}
+
+.gptw-container {
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.gptw-awards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }

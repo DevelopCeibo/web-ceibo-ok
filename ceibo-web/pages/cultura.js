@@ -5,6 +5,7 @@ import NavbarFive from "../components/Layouts/NavbarFive"
 import PageBanner from "../components/Common/PageBanner"
 import AboutContent from "../components/About/AboutContent"
 import GptwCultura from "../components/About/GptwCultura"
+import GptwCultura2 from '../components/About/GptwCultura2'
 import CompetenciasCore from "../components/Cultura/CompetenciasCore"
 import ComoNosOrganizamos from "../components/Cultura/ComoNosOrganizamos"
 import Feedback from "../components/Common/Feedback"
@@ -38,7 +39,8 @@ const Aabout = () => {
         textcenter={true}
       />
       <AboutContent />
-      <GptwCultura />
+      {/* <GptwCultura /> */}
+      <GptwCultura2 />
       {/* <Feedback /> */}
       <CompetenciasCore />
       <ComoNosOrganizamos />
