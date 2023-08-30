@@ -126,17 +126,24 @@
   "masGptw": "More about Ceibo in GPTW",
 
   "competenciasCore": "Core Skills",
-  "competenciasCoreSubt": "Our core skills are those values and work philosophy that guide us:",
+  "competenciasCoreSubt": "Core competencies represent the values we seek to embody on a daily basis to carry out our work and the philosophy upon which we are governed to fulfill our purpose",
 
   "inspirar": "Inspire",
   "inspirarTxt": "Lead with vision",
+  "inspirarTitleBack": "Go the extra mile",
+  "inspirarTxtImage": "We work in our teams with a clear direction and the same purpose. At ceibo we encourage everyone to think of new ways to address problems, break with structures and develop innovative solutions that contribute to the success of our projects",
   "emprender": "Entrepreneurship",
   "emprenderTxt": "Lead with the example",
+  "emprenderTitleBack": "Walk the talk",
+  "emprenderTxtImage": "We do what we say, we push ourselves together to give a better version of ourselves. At ceibo, we strive to excel in all that we undertake, and there is nothing that fills us with more pride than to take the initiative, give everything and aspire to the highest.",
   "ganar": "Win",
-  "ganarTxt": "Lead with results ",
+  "ganarTxt": "Lead with results",
+  "ganarTitleBack": "Small daily improvements over time lead to stunning results",
+  "ganarTxtImage": "Obtaining good results is a process, a summation of actions that begin in planning and go on to execution. In this process we reward the constant effort, the efficient management of resources and the way in which we overcome adversities or correct mistakes made",
   "transformar": "Transform",
   "transformarTxt": "Lead with change",
-
+  "transformarTitleBack": "Growth and confort do not coexist",
+  "transformarTxtImage": "We effectively manage changes in organizations, adapting to new contexts and always focusing on the positive. At ceibo we enthusiastically embrace the different challenges and we are convinced that in order to grow we must move and challenge ourselves to leave our comfort zone.",
   "organizacion": "Our way of organizing Ceibo",
   "organizacionSubt": "At Ceibo, we are organized into three layers. This form of collaboration reflects the flexibility and dynamism of a digital company prepared to solve our clients' most demanding challenges. This decision is based on proximity, flexibility, and networking, aligned with the latest trends in digital companies.",
   "teamCeiboTxt1": "Team is our value proposition for those collaborators who aim to grow professionally in their careers alongside Ceibo’s growth.",
@@ -150,12 +157,47 @@
   "ecosModalTxt": "People and companies that we recruit for specific projects",
   "commuModalTxt": "Those who permanently work and collaborate with Ceibo",
 
-  "quote1": " Ceibo combines many of the key aspects I was looking for in a company: excellent work environment, challenging projects, international teams and the possibility of learning new abilities.",
+  "quote1": "Ceibo combines many of the key aspects I was looking for in a company: excellent work environment, challenging projects, international teams and the possibility of learning new abilities.",
   "quote2": "Since I joined the company I realized the impact Ceibo had in my development, not only as a professional but also as a human being.",
   "quote3": "The culture at Ceibo is clearly exemplified by two concepts: commitment and cooperation. The commitment of all members to carry out the projects and the cooperation within the team to always be willing to lend a helping hand.",
   "quote4": "",
   "quote5": "",
   "quote6": "",
+
+  "porQueNaceCeiboTitle": "Why was Ceibo Digital created?",
+  "porQueNaceCeiboParagraphs": [
+    {
+      "text": "At Ceibo Digital we bring together the world of business and technology to accompany the transformation of companies, building and enhancing their digital capabilities."
+    },
+    {
+      "text": "Historically, the world of organizational transformation was addressed by two types of service companies: business consultants and technology companies. These companies operated in silos, leaving organizations with fragmented solutions. The companies, after receiving the consultancy's recommendations, had to look for solutions in the technology companies."
+    },
+    {
+      "text": "Convinced that recommendations only leave us halfway, Ceibo Digital was structured to offer an integrated service. Combining great strategic capabilities and a particular expertise of the digital world, we accompany our clients in the implementation and adoption of initiatives, always measuring the key indicators that allow us to improve continuously."
+    }
+  ],
+
+  "queNosHaceDiferentesTitle": "What makes us different",
+  "buildingBlocks": "Building Blocks",
+  "ideacion": "Design and implementation",
+  "nuestroEquipo": "Our team",
+  "buildingBlocksParagraph": "We don't believe in the mega digital transformation project, we believe in building blocks, short initiatives with tangible results that in an aggregate way are transforming the company.",
+  "ideacionParagraph": "Convinced that recommendations only leave us halfway, we accompany our clients in the implementation and adoption of the initiatives devised together.",
+  "nuestroEquipoParagraph": "We are a young talent company. We are experienced leaders in multiple industries and practices. We are great place to work. We are consultants and specialists. We're passionate about digital transformation.",
+  "queNosHaceDiferentesCards": [
+    {
+      "title": "Building Blocks",
+      "text": "No creemos que exista el megaproyecto de transformación digital. Creemos en caminar la transformación a partir de building blocks, iniciativas cortas con resultados tangibles que de forma agregada van transformando la empresa."
+    },
+    {
+      "title": "Ideación e implementación",
+      "text": "Convencidos  de que las recomendaciones solo nos dejan a mitad de camino, acompañamos a nuestros clientes en la implementación y adopción de las iniciativas ideadas en conjunto."
+    },
+    {
+      "title": "Nuestro Equipo",
+      "text": "Somos una empresa de talento joven. Somos líderes con experiencia en múltiples industrias y prácticas. Somos Great Place to Work. Somos consultores y especialistas. Somos apasionados por la transformación digital."
+    }
+  ],
 
   "conocenos": "Our team",
 
