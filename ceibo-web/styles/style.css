@@ -8546,6 +8546,8 @@ font-size: 48px;
   padding-right: 3rem;
 }
 
+.gptw-image {}
+
 .gptw-awards {
   display: flex;
   flex-direction: row;

@@ -14,7 +14,7 @@ const GptwCultura = () => {
 
   const { t } = useTranslation("common");
   const gptw1 = t("gptw1");
-  const gptwTitle = "Somos Great Place to Work";
+  const gptwTitle = t("gptwTitle");;
 
   return (
     <div className="pt-70 pb-100 mb-3 mt-4">
@@ -34,7 +34,7 @@ const GptwCultura = () => {
               layout="responsive"
             />
           </div>
-          <div className="col-lg-9 col-md-12">
+          <div className="col-lg-9 col-md-12 gptw-image">
             <Image
               src={locale == "es" ? gptwStatsImage : gptwStatsEng}
               alt="ceibo great place to work"
