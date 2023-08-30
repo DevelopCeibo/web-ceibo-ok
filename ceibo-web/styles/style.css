@@ -8452,3 +8452,69 @@ abbr {
 abbr:hover {
   cursor: default;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.inst-culture-card {
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.inst-culture-card h3 {
+  margin: 20px 0px;
+}
+
+.card-front,
+.card-back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7%;
+  background-size: 480px;
+  height: 320px;
+  width: 480px;
+}
+
+.card-front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.card-back h5 {
+  margin: 0 4%;
+  text-align: justify;
+}
+
+.card-back h3 {
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+}
+
+.core-competence-title {
+  color: white;
+}
+.core-competence-container {
+  display: flex;
+  justify-content: center;
+}
+
+.core-competence-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.core-competence-card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.core-competence-card:hover {
+  transform: rotateY(180deg);
+}
+
+.core-competence-card:hover .card-back {
+  transform: rotateY(180deg);
+}
