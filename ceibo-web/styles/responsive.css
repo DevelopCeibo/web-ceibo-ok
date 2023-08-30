@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,400;1,600&display=swap");
 
 @media only screen and (max-width: 767px) {
+  .inst-culture-card {
+    margin-bottom: 40px;
+  }
+
   body {
     font-size: 14px;
   }
@@ -1150,6 +1154,23 @@
     width: fit-content;
     padding: 1% 2%;
   }
+
+  .core-competence-section {
+    padding: 0px 0px;
+  }
+  .card-front,
+  .card-back {
+    background-size: 360px;
+    height: 240px;
+    width: 360px;
+  }
+
+  .card-back h5 {
+    font-size: 15px;
+  }
+  .card-back h3 {
+    font-size: 20px;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -1920,6 +1941,26 @@
     width: fit-content;
     padding: 1% 2%;
   }
+  .core-competence-section {
+    padding: 0px 0px;
+  }
+  .card-front,
+  .card-back {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    background-size: 340px;
+    height: 226px;
+    width: 340px;
+  }
+
+  .card-back h5 {
+    font-size: 15px;
+  }
+  .card-back h3 {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -2283,6 +2324,15 @@
     left: 0;
     margin-bottom: 20px;
   }
+  .card-front,
+  .card-back {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    background-size: 440px;
+    height: 293px;
+    width: 440px;
+  }
 }
 
 /* Min width 1200px to Max width 1399px */
@@ -2297,6 +2347,9 @@
   .main-banner-content h1.article-title {
     font-size: 40px;
   }
+  .core-competence-section {
+    margin: 0 40px;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1649px) {
@@ -2305,6 +2358,9 @@
   }
   .insight-data {
     padding-left: 4%;
+  }
+  .core-competence-section {
+    margin: 0 110px;
   }
 }
 
@@ -2320,6 +2376,9 @@
   }
   .insight-data {
     padding-left: 4%;
+  }
+  .core-competence-section {
+    margin: 0 110px;
   }
 }
 
