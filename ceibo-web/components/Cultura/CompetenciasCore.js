@@ -19,6 +19,9 @@ const CompetenciasCore = () => {
   const competenciasCoreTextBack = competenciasCoreArr.map((competency) =>
     t(`${competency}TxtImage`)
   );
+  const competenciasCoreQuotes = competenciasCoreArr.map((competency) =>
+    t(`${competency}Txt`)
+  );
   const imageSources = competenciasCoreArr.map(
     (competency) => baseImageSource + competency + imageExtension
   );
@@ -51,6 +54,9 @@ const CompetenciasCore = () => {
                       alt="Logo"
                     />
                     <h3 className="core-competence-title bold">{quote}</h3>
+                    <h4 className="core-competence-quote">
+                      {competenciasCoreQuotes[index]}
+                    </h4>
                   </div>
                   <div
                     className="card-back"
