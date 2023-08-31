@@ -121,22 +121,30 @@
   "expertosForthP": "en Ceibo estamos comprometidos con el éxito final de su transformación.",
   "expertosFiveP": "Trabajamos en conjunto con nuestros clientes en la implementación de sus proyectos creando capacidades genuinas que les permitan generar ventajas sustentables.",
 
+  "gptwTitle": "Somos Great Place to Work",
   "gptw1": "Great Place to Work® (GPTW) es una firma global de people analytics y consultoría. En el 2023 decidió otorgarle a Ceibo su certificación internacional como uno de los mejores lugares para trabajar dentro de la categoría “hasta 250 empleados”",
   "gptw2": "“La certificación de Great Place to Work es un programa de reconocimiento a la calidad de la cultura organizacional ¡Estamos orgullosos de que Ceibo sea un gran lugar para trabajar!”",
   "masGptw": "Más de Ceibo Digital en GPTW",
 
   "competenciasCore": "Competencias Core",
-  "competenciasCoreSubt": " Las competencias core son los valores y la filosofía con la cual nos regimos.",
+  "competenciasCoreSubt": "Las Competencias Core representan los valores que buscamos encarnar en el día a día para llevar a cabo nuestro trabajo y la filosofía sobre la cuál nos regimos para cumplir nuestro propósito",
 
   "inspirar": "Inspirar",
   "inspirarTxt": "Liderar con visión",
+  "inspirarTxtImage": " Trabajamos en nuestros equipos con una dirección clara y un mismo propósito. Desde Ceibo Digital alentamos a todos a pensar en nuevas formas de abordar los problemas, romper con las estructuras y desarrollar soluciones innovadoras que contribuyan al éxito en nuestros proyectos",
+  "inspirarTitleBack": "Go the extra mile",
   "emprender": "Emprender",
   "emprenderTxt": "Liderar con el ejemplo",
+  "emprenderTxtImage": "Hacemos lo que decimos, nos empujamos entre todos a dar una mejor versión de nosotros mismos. En Ceibo Digital, nos esforzamos por sobresalir en todo lo que emprendemos, y no hay nada que nos llene de más orgullo que tomar la iniciativa, darlo todo y aspirar a lo más alto.",
+  "emprenderTitleBack": "Walk the talk",
   "ganar": "Ganar",
   "ganarTxt": "Liderar con resultados",
+  "ganarTxtImage": "La obtención de buenos resultados es un proceso, una sumatoria de acciones que comienzan en la planificación y van hasta la ejecución. En este proceso premiamos el esfuerzo constante, el manejo eficiente de los recursos y el modo en cuál superamos las adversidades o corregimos los errores cometidos",
+  "ganarTitleBack": "Small daily improvements over time lead to stunning results",
   "transformar": "Transformar",
   "transformarTxt": "Liderar con cambios",
-
+  "transformarTxtImage": "Gestionamos eficazmente los cambios en las organizaciones, adaptándonos a nuevos contextos y enfocandonos siempre en lo positivo. En Ceibo Digital buscamos abrazar con entusiasmos los diferentes desafíos y estamos convencidos de que para crecer debemos movernos y desafiarnos a salir de nuestra zona de confort.",
+  "transformarTitleBack": "Growth and confort do not coexist",
   "organizacion": "Cómo nos organizamos en Ceibo",
   "organizacionSubt": "En Ceibo estamos organizados en 3 capas. Esta modalidad responde a una forma flexible y dinámica de una compañía digital preparada para solucionar los desafíos más exigentes de nuestros clientes. Esta decisión se apoya en los conceptos de cercanía, flexibilidad y trabajo en red, alineados con las últimas tendencias de las empresas digitales.",
   "teamCeiboTxt1": "Es una propuesta de valor para aquellos colaboradores que quieren crecer profesionalmente en su carrera acompañando el crecimiento de Ceibo.",
@@ -157,6 +165,40 @@
   "quote5": "El equipo humano tiene muy buenos valores y siempre está dispuesto a ayudar cuando otro lo necesita... hay un gran compañerismo y trabajo en equipo",
   "quote6": "La cultura en Ceibo se ejemplifica claramente con dos conceptos: compromiso y cooperación. El compromiso de todos los miembros para llevar adelante los proyectos y la cooperación dentro del equipo para estar siempre dispuesto a dar una mano",
 
+  "porQueNaceCeiboTitle": "Por qué nace Ceibo Digital",
+  "porQueNaceCeiboParagraphs": [
+    {
+      "text": "En Ceibo Digital unimos el mundo de los negocios y la tecnología para acompañar la transformación de las empresas, construyendo y potenciando sus capacidades digitales."
+    },
+    {
+      "text": "Históricamente, el mundo de la transformación de las organizaciones estaba abordado por dos tipos de empresas de servicios: consultoras de negocios y empresas de tecnología. Estas empresas operaban en silos, dejando a las organizaciones con soluciones fragmentadas. Las compañías, tras recibir las recomendaciones de la consultora, debían buscar soluciones en las empresas tecnológicas."
+    },
+    {
+      "text": "Convencidos que las recomendaciones solo nos dejan a mitad de camino, Ceibo se estructuró para ofrecer un servicio integrado. Uniendo grandes capacidades estratégicas y un expertise particular del mundo digital, acompañamos a nuestros clientes en la implementación y adopción de las iniciativas, siempre midiendo los indicadores claves que nos permitan mejorar continuamente."
+    }
+  ],
+
+  "queNosHaceDiferentesTitle": "Qué nos hace diferentes",
+  "buildingBlocks": "Building Blocks",
+  "ideacion": "Ideación e implementación",
+  "nuestroEquipo": "Nuestro Equipo",
+  "buildingBlocksParagraph": "No creemos que exista el megaproyecto de transformación digital. Creemos en caminar la transformación a partir de building blocks, iniciativas cortas con resultados tangibles que de forma agregada van transformando la empresa.",
+  "ideacionParagraph": "Convencidos  de que las recomendaciones solo nos dejan a mitad de camino, acompañamos a nuestros clientes en la implementación y adopción de las iniciativas ideadas en conjunto.",
+  "nuestroEquipoParagraph": "Somos una empresa de talento joven. Somos líderes con experiencia en múltiples industrias y prácticas. Somos Great Place to Work. Somos consultores y especialistas. Somos apasionados por la transformación digital.",
+  "queNosHaceDiferentesCards": [
+    {
+      "title": "Building Blocks",
+      "text": "No creemos que exista el megaproyecto de transformación digital. Creemos en caminar la transformación a partir de building blocks, iniciativas cortas con resultados tangibles que de forma agregada van transformando la empresa."
+    },
+    {
+      "title": "Ideación e implementación",
+      "text": "Convencidos  de que las recomendaciones solo nos dejan a mitad de camino, acompañamos a nuestros clientes en la implementación y adopción de las iniciativas ideadas en conjunto."
+    },
+    {
+      "title": "Nuestro Equipo",
+      "text": "Somos una empresa de talento joven. Somos líderes con experiencia en múltiples industrias y prácticas. Somos Great Place to Work. Somos consultores y especialistas. Somos apasionados por la transformación digital."
+    }
+  ],
   "conocenos": "Conocenos",
 
   "queEsTransformacion": "¿Qué es para nosotros la transformación digital?",
