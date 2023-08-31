@@ -9,7 +9,7 @@ const QueNosHaceDiferentes = () => {
   const title = t("queNosHaceDiferentesTitle");
 
   return (
-    <div className="pb-100 mb-3">
+    <div className="pb-60">
       <div className="container">
         <div className="section-title">
           <h2>{title}</h2>
