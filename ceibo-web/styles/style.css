@@ -77,13 +77,14 @@ p {
 
 /* GPTW */
 .gptw-title {
-    text-align: center;
-    margin: -5px auto 60px;
+  text-align: center;
+  margin: -5px auto 60px;
 }
 
 .gptw-subtitle {
   font-weight: 400;
   font-size: 48px;
+  margin: 0 6%;
 }
 
 /* EVENTOS */
@@ -8536,8 +8537,8 @@ abbr:hover {
 }
 
 .gptw-subtitle {
-font-weight: 400;
-font-size: 48px;
+  font-weight: 400;
+  font-size: 48px;
 }
 
 .gptw-container {
@@ -8546,8 +8547,6 @@ font-size: 48px;
   padding-right: 3rem;
 }
 
-.gptw-image {}
-
 .gptw-awards {
   display: flex;
   flex-direction: row;
@@ -8555,4 +8554,9 @@ font-size: 48px;
   margin-top: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.core-competence-quote {
+  color: white;
+  padding-top: 2%;
 }

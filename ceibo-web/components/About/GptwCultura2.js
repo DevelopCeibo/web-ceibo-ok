@@ -14,27 +14,27 @@ const GptwCultura = () => {
 
   const { t } = useTranslation("common");
   const gptw1 = t("gptw1");
-  const gptwTitle = t("gptwTitle");;
+  const gptwTitle = t("gptwTitle");
 
   return (
-    <div className="pt-70 pb-100 mb-3 mt-4">
+    <div className="pt-70 mb-3">
       <div className="section-title gptw-title">
         <h2>{gptwTitle}</h2>
         <h5 className="gptw-subtitle">{gptw1}</h5>
       </div>
       <div className="gptw-container">
-        <div className="row align-items-start justify-content-center">
-          <div className="col-lg-3 col-6">
+        <div className="row align-items-center justify-content-center">
+          <div className="col-md-3 col-lg-3 col-6  gptw-image-banner">
             <Image
               src={gptwImage}
               alt="image"
               className="rounded-10"
-              width={1}
-              height={1.4}
+              width={0.5}
+              height={0.6}
               layout="responsive"
             />
           </div>
-          <div className="col-lg-9 col-md-12 gptw-image">
+          <div className="col-lg-9 col-md-9 col-12 gptw-image">
             <Image
               src={locale == "es" ? gptwStatsImage : gptwStatsEng}
               alt="ceibo great place to work"

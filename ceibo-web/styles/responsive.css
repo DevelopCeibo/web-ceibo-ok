@@ -1171,6 +1171,12 @@
   .card-back h3 {
     font-size: 20px;
   }
+  .gptw-image-banner {
+    width: 150px;
+  }
+  .gptw-container {
+    padding: 0 0;
+  }
 }
 
 /* Min width 576px to Max width 767px */
