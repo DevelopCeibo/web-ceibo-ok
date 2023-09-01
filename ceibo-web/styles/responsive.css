@@ -2356,6 +2356,9 @@
   .core-competence-section {
     margin: 0 40px;
   }
+  .gptw-image {
+    width: 800px;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1649px) {
@@ -2367,6 +2370,12 @@
   }
   .core-competence-section {
     margin: 0 110px;
+  }
+  .gptw-image {
+    width: 900px;
+  }
+  .gptw-image-banner {
+    width: 300px;
   }
 }
 
@@ -2385,6 +2394,12 @@
   }
   .core-competence-section {
     margin: 0 110px;
+  }
+  .gptw-image {
+    width: 1000px;
+  }
+  .gptw-image-banner {
+    width: 350px;
   }
 }
 
