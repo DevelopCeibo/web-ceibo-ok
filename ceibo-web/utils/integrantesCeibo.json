@@ -82,7 +82,8 @@
     "nombre": "MARTÍN ROMANELLI",
     "linkedinurl": "https://www.linkedin.com/in/martin-ignacio-romanelli-15151b92/",
     "src": "/images-ceibo/integrantes/Martin Romanelli.png",
-    "posicion": "CONSULTANT"
+    "posicion": "CONSULTANT",
+    "email": "martin.romanelli@ceibo.digital"
   },
   {
     "nombre": "CANDELARIA RUETE GÜEMES",
@@ -224,8 +225,9 @@
   {
     "nombre": "MALENA BURS",
     "linkedinurl": "https://www.linkedin.com/in/malenaburs/?originalSubdomain=ar",
-    "src": "/images-ceibo/integrantes/Malena Burs 2.png",
-    "posicion": "ASSOCIATE"
+    "src": "/images-ceibo/integrantes/Malena Burs.png",
+    "posicion": "ASSOCIATE",
+    "email": "malena.burs@ceibo.digital"
   },
   {
     "nombre": "MARCOS MAZZA",
@@ -249,6 +251,12 @@
     "nombre": "TOMÁS APOCHIAN",
     "linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
     "src": "/images-ceibo/integrantes/Tomas Apochian.png",
+    "posicion": "ANALYST"
+  },
+  {
+    "nombre": "DELFINA GUARINO",
+    "linkedinurl": "https://www.linkedin.com/in/delfina-guarino/",
+    "src": "/images-ceibo/integrantes/Delfina Guarino.png",
     "posicion": "ANALYST"
   },
   {

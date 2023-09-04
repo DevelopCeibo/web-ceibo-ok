@@ -1,31 +1,32 @@
-import React from "react"
-import NavbarTwo from "../../components/Layouts/NavbarTwo"
-import NavbarFive from "../../components/Layouts/NavbarFive"
-import PageBanner from "../../components/Common/PageBanner"
-import Sumate from "../../components/sumatealequipo/Sumate"
-import CarreraEnCeibo from "../../components/sumatealequipo/CarreraEnCeibo"
-import FeedbackSumate from "../../components/sumatealequipo/FeedbackSumate"
-import ProcesoDeReclutamiento from "../../components/sumatealequipo/ProcesoDeReclutamiento"
-import PasosParaElProceso from "../../components/sumatealequipo/PasosParaElProceso"
-import CaseInterviews from "../../components/sumatealequipo/CaseInterviews"
-import Footer from "../../components/Layouts/Footer"
-import BusquedasVigentes from "../../components/sumatealequipo/BusquedasVigentes"
-import Head from "next/head"
-import Image from "next/image"
-import useTranslation from "next-translate/useTranslation"
+import React from "react";
+import NavbarTwo from "../../components/Layouts/NavbarTwo";
+import NavbarFive from "../../components/Layouts/NavbarFive";
+import PageBanner from "../../components/Common/PageBanner";
+import Sumate from "../../components/sumatealequipo/Sumate";
+import CarreraEnCeibo from "../../components/sumatealequipo/CarreraEnCeibo";
+import FeedbackSumate from "../../components/sumatealequipo/FeedbackSumate";
+import ProcesoDeReclutamiento from "../../components/sumatealequipo/ProcesoDeReclutamiento";
+import PasosParaElProceso from "../../components/sumatealequipo/PasosParaElProceso";
+import CaseInterviews from "../../components/sumatealequipo/CaseInterviews";
+import Footer from "../../components/Layouts/Footer";
+import BusquedasVigentes from "../../components/sumatealequipo/BusquedasVigentes";
+import ComoNosOrganizamos from "../../components/Cultura/ComoNosOrganizamos";
+import Head from "next/head";
+import Image from "next/image";
+import useTranslation from "next-translate/useTranslation";
 
 const sumatealequipo = () => {
-  const { t } = useTranslation("common")
-  const quebuscamos = t("quebuscamos")
-  const sumateAlEquipo = t("sumateAlEquipo")
-  const quebuscamosTxt = t("quebuscamosTxt")
-  const queofrecemos = t("queofrecemos")
-  const queofrecemosTxt = t("queofrecemosTxt")
+  const { t } = useTranslation("common");
+  const quebuscamos = t("quebuscamos");
+  const sumateAlEquipo = t("sumateAlEquipo");
+  const quebuscamosTxt = t("quebuscamosTxt");
+  const queofrecemos = t("queofrecemos");
+  const queofrecemosTxt = t("queofrecemosTxt");
 
-  const sumateh1 = t("sumateh1")
-  const sumateh2 = t("sumateh2")
-  const sumateTitleTag = t("sumateTitleTag")
-  const sumateMetaDesc = t("sumateMetaDesc")
+  const sumateh1 = t("sumateh1");
+  const sumateh2 = t("sumateh2");
+  const sumateTitleTag = t("sumateTitleTag");
+  const sumateMetaDesc = t("sumateMetaDesc");
 
   return (
     <>
@@ -84,13 +85,14 @@ const sumatealequipo = () => {
       </div>
 
       <CarreraEnCeibo />
+      <ComoNosOrganizamos />
       <ProcesoDeReclutamiento />
       <PasosParaElProceso />
       <CaseInterviews />
       <BusquedasVigentes />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default sumatealequipo
+export default sumatealequipo;

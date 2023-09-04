@@ -75,6 +75,18 @@ p {
 
 /* generales end*/
 
+/* GPTW */
+.gptw-title {
+  text-align: center;
+  margin: -5px auto 60px;
+}
+
+.gptw-subtitle {
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0 6%;
+}
+
 /* EVENTOS */
 .img-evento {
   max-width: 600px;
@@ -8451,4 +8463,100 @@ abbr {
 }
 abbr:hover {
   cursor: default;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inst-culture-card {
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.inst-culture-card h3 {
+  margin: 20px 0px;
+}
+
+.card-front,
+.card-back {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7%;
+  background-size: 480px;
+  height: 320px;
+  width: 480px;
+}
+
+.card-front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.card-back h5 {
+  margin: 0 4%;
+  text-align: justify;
+}
+
+.card-back h3 {
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+}
+
+.core-competence-title {
+  color: white;
+}
+.core-competence-container {
+  display: flex;
+  justify-content: center;
+}
+
+.core-competence-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.core-competence-card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.core-competence-card:hover {
+  transform: rotateY(180deg);
+}
+
+.core-competence-card:hover .card-back {
+  transform: rotateY(180deg);
+}
+
+/* GPTW */
+.gptw-title {
+  max-width: none;
+}
+
+.gptw-subtitle {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.gptw-container {
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.gptw-awards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.core-competence-quote {
+  color: white;
+  padding-top: 2%;
 }

@@ -1,31 +1,31 @@
-import React, { useState } from "react"
-import AddIcon from "@mui/icons-material/Add"
-import { Button, Popover, Typography } from "@mui/material"
-import Image from "next/image"
+import React, { useState } from "react";
+import AddIcon from "@mui/icons-material/Add";
+import { Button, Popover, Typography } from "@mui/material";
+import Image from "next/image";
 
 // imagen
-import nucleoCeiboImg from "../../public/images-ceibo/animacion.png"
-import useTranslation from "next-translate/useTranslation"
+import nucleoCeiboImg from "../../public/images-ceibo/animacion.png";
+import useTranslation from "next-translate/useTranslation";
 
 const ComoNosOrganizamos = () => {
-  const { t } = useTranslation("common")
-  const organizacion = t("organizacion")
-  const organizacionSubt = t("organizacionSubt")
-  const teamCeiboTxt1 = t("teamCeiboTxt1")
-  const teamCeiboTxt2 = t("teamCeiboTxt2")
-  const comunidadTxt1 = t("comunidadTxt1")
-  const ecosistemaTxt1 = t("ecosistemaTxt1")
-  const ecosistemaTxt2 = t("ecosistemaTxt2")
-  const comunidad = t("comunidad")
-  const ecosistema = t("ecosistema")
-  const teamModalTxt = t("teamModalTxt")
-  const ecosModalTxt = t("ecosModalTxt")
-  const commuModalTxt = t("commuModalTxt")
+  const { t } = useTranslation("common");
+  const organizacion = t("organizacion");
+  const organizacionSubt = t("organizacionSubt");
+  const teamCeiboTxt1 = t("teamCeiboTxt1");
+  const teamCeiboTxt2 = t("teamCeiboTxt2");
+  const comunidadTxt1 = t("comunidadTxt1");
+  const ecosistemaTxt1 = t("ecosistemaTxt1");
+  const ecosistemaTxt2 = t("ecosistemaTxt2");
+  const comunidad = t("comunidad");
+  const ecosistema = t("ecosistema");
+  const teamModalTxt = t("teamModalTxt");
+  const ecosModalTxt = t("ecosModalTxt");
+  const commuModalTxt = t("commuModalTxt");
 
-  const [toggler, setToggler] = useState(false)
+  const [toggler, setToggler] = useState(false);
 
-  const [anchorEl, setAnchorEl] = React.useState(null)
-  const [contenidoPopover, setcontenidoPopover] = useState()
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [contenidoPopover, setcontenidoPopover] = useState();
   const handleClick = (event) => {
     switch (event.currentTarget.id) {
       case "ecosistema":
@@ -34,35 +34,35 @@ const ComoNosOrganizamos = () => {
             <h3>{ecosistema}</h3>
             <p>{ecosModalTxt}</p>
           </div>
-        )
-        break
+        );
+        break;
       case "comunidad":
         setcontenidoPopover(
           <div class="inner">
             <h3>{comunidad}</h3>
             <p>{commuModalTxt}</p>
           </div>
-        )
-        break
+        );
+        break;
       case "team":
         setcontenidoPopover(
           <div class="inner">
             <h3>Team Ceibo</h3>
             <p>{teamModalTxt}</p>
           </div>
-        )
-        break
+        );
+        break;
     }
 
-    setAnchorEl(event.currentTarget)
-  }
+    setAnchorEl(event.currentTarget);
+  };
 
   const handleClose = () => {
-    setAnchorEl(null)
-  }
+    setAnchorEl(null);
+  };
 
-  const open = Boolean(anchorEl)
-  const id = open ? "simple-popover" : undefined
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
 
   const GptwPopover = () => (
     <Popover
@@ -81,7 +81,7 @@ const ComoNosOrganizamos = () => {
     >
       <Typography sx={{ p: 2 }}>{contenidoPopover}</Typography>
     </Popover>
-  )
+  );
   return (
     <>
       {/* <FsLightbox
@@ -89,10 +89,10 @@ const ComoNosOrganizamos = () => {
         // sources={["https://www.youtube.com/watch?v=5DbtMwwlEIY"]}
       /> */}
 
-      <div className="about-area">
+      <div className="about-area pb-100">
         <div className="container organizacion-ceibo">
           <div className="section-title">
-          <h2>{organizacion}</h2>
+            <h2>{organizacion}</h2>
           </div>
           <p>{organizacionSubt}</p>
           <div className="row align-items-center">
@@ -159,7 +159,7 @@ const ComoNosOrganizamos = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ComoNosOrganizamos
+export default ComoNosOrganizamos;
