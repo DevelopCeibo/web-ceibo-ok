@@ -5,6 +5,7 @@
     "title": "Data Engineer",
     "image": "/images-ceibo/sumatealequipo/ceibo-team-2.jpg",
     "bgcolor": "#6fc7b5",
+    "roleType": "specialist",
     "content": [
       {
         "type": "subtitle",
@@ -55,6 +56,7 @@
     "title": "Project Leader - Manager",
     "image": "/images-ceibo/manager-1.jpg",
     "bgcolor": "#891924",
+    "roleType": "consultant",
     "content": [
       {
         "type": "subtitle",
@@ -158,6 +160,7 @@
     "image": "/images-ceibo/senior-consultant.jpeg",
     "title": "Consultant",
     "bgcolor": "#891924",
+    "roleType": "consultant",
     "content": [
       {
         "type": "subtitle",
@@ -259,6 +262,7 @@
     "image": "/images-ceibo/sumatealequipo/Cultura-culturadigital2.jpeg",
     "title": "Associate - Sr. Associate",
     "bgcolor": "#891924",
+    "roleType": "consultant",
     "content": [
       {
         "type": "subtitle",
@@ -348,6 +352,7 @@
     "image": "/images-ceibo/sumatealequipo/Sumatealequipo-developersr.jpg",
     "title": "Developer Full-stack Sr.",
     "bgcolor": "#6fc7b5",
+    "roleType": "specialist",
     "content": [
       {
         "type": "subtitle",
@@ -449,6 +454,7 @@
     "image": "/images-ceibo/Busqueda-marketing-automation-specialist.jpeg",
     "title": "Marketing Automation Specialist/Analyst",
     "bgcolor": "#891924",
+    "roleType": "specialist",
     "content": [
       {
         "type": "subtitle",
@@ -470,9 +476,9 @@
         "type": "p",
         "text": "Estamos buscando un analista y un especialista en Marketing automation altamente capacitado y motivado para unirse a nuestro equipo. El candidato ideal será responsable de administrar y optimizar nuestras campañas de Marketing automatizadas utilizando Oracle Responsys y Eloqua. Ambos colaborarán estrechamente con los equipos de Ceibo y nuestros clientes para garantizar una implementación efectiva de nuestras estrategias y una ejecución exitosa de campañas personalizadas y basadas en datos."
       },
-      { 
-        "type": "subtitle", 
-        "text": "Responsabilidades clave:" 
+      {
+        "type": "subtitle",
+        "text": "Responsabilidades clave:"
       },
       {
         "type": "list",
@@ -524,6 +530,7 @@
     "image": "/images-ceibo/Busqueda-paid-media-specialist.jpeg",
     "title": "Sr. Paid Media Specialist/Analyst",
     "bgcolor": "#891924",
+    "roleType": "specialist",
     "content": [
       {
         "type": "subtitle",
@@ -554,7 +561,6 @@
           "Configurar campañas definidas en la estrategia, en los diferente medios orgánicos o pagos",
           "Conectar múltiples plataformas de analytics en un reporte único por cada campaña en Data Studio (Looker), Power BI o Tableau",
           "Trabajar en un entorno dinámico con clientes internacionales y volumen de campañas"
-
         ]
       },
       {
@@ -585,7 +591,6 @@
           "Conocimientos de Software de Business Intelligence como QlikView o Tableau (Es un plus) ",
           "Manejo de alguna herramienta de keyword research cómo Semrush, Ubersuggest o SE Ranking",
           "Comprensión de tecnologías web comunes (SQL, Python, JS, PHP.)"
-
         ]
       },
       {
