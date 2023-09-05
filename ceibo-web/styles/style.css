@@ -8560,3 +8560,28 @@ abbr:hover {
   color: white;
   padding-top: 2%;
 }
+
+.navigation-card-body {
+  padding: 4% 4%;
+}
+
+.navigation-card {
+  width: 350px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 0 0;
+  margin: 2% 1.5%;
+}
+
+.navigation-card-image {
+  margin-bottom: 1.5%;
+}
+
+.navigation-card-title {
+  color: #757575;
+}
+
+.background-maroon {
+  background-color: #891924;
+}
