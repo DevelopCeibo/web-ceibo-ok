@@ -25,6 +25,27 @@
   "rolesParaEspecialistas": "Roles for Specialists",
   "postularse": "Apply now",
 
+  "vidaEnCeiboCard": {
+    "title": "LIFE AT CEIBO",
+    "description": "Discover what it means to be part of our team and what our day-to-day looks like",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/team-retreat.png",
+    "href": "/sumate-al-equipo/vida-en-ceibo"
+  },
+
+  "carreraEnCeiboCard": {
+    "title": "CARRERA EN CEIBO",
+    "description": "Conocé como Ceibo acompaña el crecimiento en tu carrera",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
+    "href": "/sumate-al-equipo/vida-en-ceibo"
+  },
+
+  "entrevistasCeiboCard": {
+    "title": "PROCESO DE ENTREVISTAS",
+    "description": "Conocé cómo es nuestro proceso de selección",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/proceso-de-entrevistas.png",
+    "href": "/sumate-al-equipo/vida-en-ceibo"
+  },
+
   "casosh1": "Digital transformation success stories",
   "casosh2": "Learn how we generate value for our customers",
   "casosTitleTag": "Digital transformation success stories - Ceibo Digital",
