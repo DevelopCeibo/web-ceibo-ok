@@ -1,6 +1,6 @@
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
-import vacantes from "../../utils/vacantes.json";
+import vacantes from "../../../utils/vacantes.json";
 import BusquedasVigentesIndividual from "./BusquedasVigentesIndividual";
 
 const BusquedasVigentes = () => {
@@ -16,7 +16,7 @@ const BusquedasVigentes = () => {
   );
 
   return (
-    <div className="pt-70 pb-100 mb-3 mt-4">
+    <div className="pt-70 pb-60 mb-3 mt-4">
       <div className="container">
         <div className="section-title " id="busquedas-vigentes">
           <h2>{rolesParaConsultores}</h2>
