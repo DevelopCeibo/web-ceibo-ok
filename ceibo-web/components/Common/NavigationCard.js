@@ -11,7 +11,7 @@ const NavigationCard = ({ title, description, imagePath, href }) => {
       <Image
         src={imagePath}
         alt="image"
-        className="rounded-10 navigation-card-image"
+        className="navigation-card-image"
         width={1}
         height={0.5}
         layout="responsive"
