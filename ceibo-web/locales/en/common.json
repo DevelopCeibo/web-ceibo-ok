@@ -19,10 +19,10 @@
   "sumateTitleTag": "Work at Ceibo Digital",
   "sumateMetaDesc": "#2 GPTW Argentina 2022. Somos un equipo de consultores y especialistas unidos por la pasión en los negocios y la tecnología. Mirá las búsquedas abiertas",
 
-  "busquedasVigentesh1": "Job offerings",
+  "busquedasVigentesh1": "Job openings",
   "busquedasVigentesh2": "Be part of one of the best companies to work for in the consulting industry",
-  "rolesParaConsultores": "Roles for Consultants",
-  "rolesParaEspecialistas": "Roles for Specialists",
+  "rolesParaConsultores": "Roles for consultants",
+  "rolesParaEspecialistas": "Roles for specialists",
   "postularse": "Apply now",
 
   "vidaEnCeiboCard": {
@@ -85,7 +85,7 @@
   "navInicio": "Home",
   "queHacemos": "What we do",
   "sumateAlEquipo": "Join us",
-  "posicionesAbiertas": "Job openings",
+  "busquedasAbiertas": "Job openings",
   "casosExito": "Success stories",
   "casosExitoSubt": "Learn how we generate value for our customers",
   "contacto": "Contact",
@@ -326,7 +326,7 @@
   "paso6Subt": "Job offer",
   "paso6Txt": "Typically, if the candidate reached this stage, a job offer is extended to join Ceibo in one of the modalities: Team or Community.",
   "prepCases": "Case Interviews Preparation",
-  "busquedasvigentes": "Job offerings",
+  "busquedasvigentes": "Job openings",
 
   "completaform": "Fill this form to apply for the position",
   "nombreyape": "Name and lastname",
