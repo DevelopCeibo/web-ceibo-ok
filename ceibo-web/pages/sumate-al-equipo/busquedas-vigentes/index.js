@@ -14,12 +14,12 @@ const index = () => {
 
   const h1 = t("busquedasVigentesh1");
   const h2 = t("busquedasVigentesh2");
-  const posicionesAbiertas = t("posicionesAbiertas");
+  const busquedasAbiertas = t("busquedasAbiertas");
 
   return (
     <>
       <Head>
-        <title>{posicionesAbiertas}</title>
+        <title>{busquedasAbiertas}</title>
         <meta name="description" content={h2} />
       </Head>
       <NavbarFive />
