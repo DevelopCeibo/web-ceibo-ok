@@ -1,6 +1,8 @@
 import React from "react";
 import NavigationCard from "../../Common/NavigationCard";
 import useTranslation from "next-translate/useTranslation";
+import uniqid from "uniqid";
+
 const NavigationCardSection = () => {
   const { t } = useTranslation("common");
   const cardsData = [
@@ -14,6 +16,7 @@ const NavigationCardSection = () => {
       {cardsData?.map((card) => {
         return (
           <NavigationCard
+            key={uniqid()}
             title={card.title}
             description={card.description}
             imagePath={card.imagePath}

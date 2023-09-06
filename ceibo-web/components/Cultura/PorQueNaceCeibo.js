@@ -1,5 +1,6 @@
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
+import uniqid from "uniqid";
 
 const PorQueNaceCeibo = () => {
   const { t } = useTranslation("common");
@@ -19,7 +20,7 @@ const PorQueNaceCeibo = () => {
         </div>
         <div style={{ textAlign: "center" }}>
           {paragraphs?.map((p, index) => (
-            <p className={index === 0 ? "bold" : ""} key={index}>
+            <p className={index === 0 ? "bold" : ""} key={uniqid()}>
               {p.text}
             </p>
           ))}

@@ -1,6 +1,7 @@
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import Link from "next/link";
+import uniqid from "uniqid";
 
 const BusquedasVigentesIndividual = ({ arregloDeVacantes }) => {
   const { t } = useTranslation("common");
@@ -17,7 +18,7 @@ const BusquedasVigentesIndividual = ({ arregloDeVacantes }) => {
     <div className="row justify-content-center">
       {arregloDeVacantes.map((vac) => {
         return (
-          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div className="col-lg-3 col-md-6 mb-4 mb-md-0" key={uniqid()}>
             <div className="bc-post-item card-vacantes">
               <div
                 className="post-image"

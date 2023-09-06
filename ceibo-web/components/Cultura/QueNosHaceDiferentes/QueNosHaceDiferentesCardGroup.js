@@ -1,6 +1,7 @@
 import React from "react";
 import QueNosHaceDiferentesCard from "./QueNosHaceDiferentesCard.js";
 import useTranslation from "next-translate/useTranslation";
+import uniqid from "uniqid";
 
 const QueNosHaceDiferentesCardGroup = () => {
   const { t } = useTranslation("common");
@@ -21,7 +22,7 @@ const QueNosHaceDiferentesCardGroup = () => {
     <div className="row justify-content-center competencias-core">
       {cardsContent?.map((card, index) => {
         return (
-          <div className="col-12 col-sm-12 col-md-4" key={index}>
+          <div className="col-12 col-sm-12 col-md-4" key={uniqid()}>
             <QueNosHaceDiferentesCard
               src={imageSources[index]}
               title={card.title}
