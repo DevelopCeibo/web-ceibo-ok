@@ -36,14 +36,14 @@
     "title": "CARRERA EN CEIBO",
     "description": "Conocé como Ceibo acompaña el crecimiento en tu carrera",
     "imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
-    "href": "/sumate-al-equipo/vida-en-ceibo"
+    "href": "/sumate-al-equipo/desarrollo-profesional"
   },
 
   "entrevistasCeiboCard": {
     "title": "PROCESO DE ENTREVISTAS",
     "description": "Conocé cómo es nuestro proceso de selección",
     "imagePath": "/images-ceibo/sumatealequipo/navigation-images/proceso-de-entrevistas.png",
-    "href": "/sumate-al-equipo/vida-en-ceibo"
+    "href": "/sumate-al-equipo/proceso-de-reclutamiento"
   },
 
   "casosh1": "Casos de éxito en transformación digital",
