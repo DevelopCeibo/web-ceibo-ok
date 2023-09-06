@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
-
+import uniqid from "uniqid";
 const CompetenciasCore = () => {
   const { t } = useTranslation("common");
   const competenciasCore = t("competenciasCore");
@@ -42,7 +42,10 @@ const CompetenciasCore = () => {
         <div className="row core-competence-section">
           {competenciasCoreArrTranslated.map((quote, index) => {
             return (
-              <div className="col-12 col-md-6 col-lg-6 core-competence-container">
+              <div
+                className="col-12 col-md-6 col-lg-6 core-competence-container"
+                key={uniqid()}
+              >
                 <div className="core-competence-card">
                   <div
                     className="card-front"
