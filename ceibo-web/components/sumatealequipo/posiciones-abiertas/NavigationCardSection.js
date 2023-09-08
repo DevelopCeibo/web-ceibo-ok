@@ -12,7 +12,7 @@ const NavigationCardSection = () => {
   ].map((key) => t(key, {}, { returnObjects: true }));
 
   return (
-    <div className="row justify-content-center mb-5 background-maroon">
+    <div className="row justify-content-center mb-5 pt-3 pb-3 background-maroon">
       {cardsData?.map((card) => {
         return (
           <NavigationCard
