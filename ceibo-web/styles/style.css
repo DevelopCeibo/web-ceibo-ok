@@ -8591,3 +8591,17 @@ abbr:hover {
   text-align: center;
   font-style: italic;
 }
+
+/* ADN */
+.adn-title {
+  text-align: center;
+  margin: -5px auto 60px;
+  max-width: none;
+}
+
+.adn-subtitle {
+  text-align: left;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0 8%;
+}
