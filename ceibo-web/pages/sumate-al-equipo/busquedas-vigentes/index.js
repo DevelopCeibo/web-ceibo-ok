@@ -28,8 +28,7 @@ const index = () => {
         subtitle={h2}
         BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
       />
-      <BusquedasVigentesCategorizado />;
-      <NavigationCardSection />
+      <BusquedasVigentesCategorizado />;{/* <NavigationCardSection /> */}
       <Footer />
     </>
   );
