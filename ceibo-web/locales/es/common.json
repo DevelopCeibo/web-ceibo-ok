@@ -86,6 +86,7 @@
   "queHacemos": "Qué hacemos",
   "sumateAlEquipo": "Sumate al equipo",
   "busquedasAbiertas": "Búsquedas abiertas",
+  "vidaEnCeibo": "Vida en Ceibo",
   "casosExito": "Casos de éxito",
   "casosExitoSubt": "Descubrí cómo generamos valor para nuestros clientes",
   "contacto": "Contacto",
@@ -228,6 +229,64 @@
     }
   ],
   "conocenos": "Conocenos",
+
+  "vidaEnCeiboQuotesTitle": "¿Qué es lo que convierte a Ceibo en un gran lugar para trabajar?",
+  "vidaEnCeiboQuotes": [
+    {
+      "text": "“Se desafía constantemente a los colaboradores y hay una cultura de equipo muy saludable. Se genera un alto sentido de pertenencia.”"
+    },
+    {
+      "text": "“La empresa se caracteriza por delegar la capacidad de tomar decisiones e indagar sobre las soluciones, lo cual hace a las personas desafiar sus capacidades y superar sus límites”"
+    },
+    {
+      "text": "“Posibilidad de crecimiento, dinamismo y aprendizaje”"
+    },
+    {
+      "text": "“Búsqueda de la excelencia y cultura colaborativa”"
+    },
+    {
+      "text": "“La flexibilidad en la modalidad y tiempo de trabajo. La cercanía de los colaboradores hace que puedas ser amigo además de compañero“"
+    },
+    {
+      "text": "“La cultura. Tenemos clases de yoga, recreos de juego (llamados 'cafés'), días con actividades especiales y viajes para conocernos entre todos, divertirnos y descontracturar”"
+    },
+    {
+      "text": "“Considero que la empatía y la preocupación genuina que tenemos entre todos los colaboradores es un valor que resalta mucho en la cultura y contribuye muchísimo al team building. Todos siempre dispuestos a dar una mano, a escuchar cuando hay problemas y a compartir los conocimientos adquiridos, más allá del trabajo, en todos los aspectos”"
+    },
+    {
+      "text": "“Excelente cartera de clientes, los mejores talentos y una excelente cultura organizacional”"
+    }
+  ],
+
+  "comoEsTrabajarEnCeiboTitle": "¿Cómo es trabajar en Ceibo Digital?",
+
+  "comoEsTrabajarEnCeiboVideoContent": [
+    {
+      "videoURL": "",
+      "title": "Retreat Mendoza 2023",
+      "text": "Cada año organizamos un Retreat en el cual planificamos los objetivos por delante, realizamos actividades de team building y nos divertimos mucho. Siempre fieles a nuestra filosofía “work hard, play hard”."
+    },
+    {
+      "videoURL": "",
+      "title": "Transfer Miami",
+      "text": "Una vez por año, un grupo de Ceibers son elegidos para trabajar durante 3 meses en las oficinas de Miami junto a nuestro Managing Partner David Wilson."
+    },
+    {
+      "videoURL": "",
+      "title": "Fútbol y after, ¿qué mejor plan?",
+      "text": "Buscamos promover el work-life balance y el bienestar general de nuestros colaboradores a través de actividades deportivas o recreativas que estén por fuera de lo laboral. Fútbol, paddle, bowling y más!"
+    },
+    {
+      "videoURL": "",
+      "title": "¡Conocé nuestras oficinas!",
+      "text": "La oficina de Buenos Aires, está ubicada en Espacio Circular, Nordelta.  Las facilidades ofrecidas por el cowork, nos permiten compartir entre todos espacios de trabajo, almuerzos y actividades recreativas."
+    },
+    {
+      "videoURL": "",
+      "title": "EL Hackaton desde adentro",
+      "text": "Durante dos días vivimos un encuentro híbrido de desarrollo colaborativo de software, en donde trabajamos diferentes iniciativas que fomentaron la integración, el crecimiento y las buenas prácticas entre Ceibers."
+    }
+  ],
 
   "queEsTransformacion": "¿Qué es para nosotros la transformación digital?",
   "queEsSubtitle": "La transformación digital es repensar el modelo de negocios de una compañía a la luz de tres elementos",

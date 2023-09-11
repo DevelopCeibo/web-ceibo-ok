@@ -86,6 +86,7 @@
   "queHacemos": "What we do",
   "sumateAlEquipo": "Join us",
   "busquedasAbiertas": "Job openings",
+  "vidaEnCeibo": "Life at Ceibo",
   "casosExito": "Success stories",
   "casosExitoSubt": "Learn how we generate value for our customers",
   "contacto": "Contact",
@@ -225,6 +226,64 @@
     {
       "title": "Our team",
       "text": "We are a young talent company. We are experienced leaders in multiple industries and practices. We are great place to work. We are consultants and specialists. We're passionate about digital transformation."
+    }
+  ],
+
+  "vidaEnCeiboQuotesTitle": "What makes Ceibo a Great Place to Work?",
+  "vidaEnCeiboQuotes": [
+    {
+      "text": "“Ceibers are constantly challenged and there is a very healthy team culture. A high sense of belonging is generated“"
+    },
+    {
+      "text": "“The company is characterized for delegating the ability to make decisions and inquire about solutions, which makes people challenge their capabilities and push their limits”"
+    },
+    {
+      "text": "“Growth, dynamism and learning opportunities”"
+    },
+    {
+      "text": "“Pursuit of excellence and collaborative culture”"
+    },
+    {
+      "text": "“The work environment generated at Ceibo makes professional relations naturally grow into personal bonds“"
+    },
+    {
+      "text": "“The culture. We have yoga classes, game breaks (called 'cafés'), days with special activities and trips to get to know each other, have fun and relax”"
+    },
+    {
+      "text": "“I believe that the empathy and genuine concern we have among all employees is a value that stands out in the team culture and contributes a lot to team building. Everyone is always willing to lend a hand, to listen to each others problems and to share the knowledge acquired”"
+    },
+    {
+      "text": "“Excellent client portfolio, the best talents and an excellent organizational culture”"
+    }
+  ],
+
+  "comoEsTrabajarEnCeiboTitle": "What is it like to work at Ceibo Digital?",
+
+  "comoEsTrabajarEnCeiboVideoContent": [
+    {
+      "videoURL": "https://www.youtube.com/embed/dY2GNZkv_F4?si=PXDeBb6qNLgfPT3x",
+      "title": "Mendoza retreat 2023",
+      "text": "Every year we organize a retreat where we plan goals ahead, do team building activities and have a lot of fun. Always faithful to our philosophy “work hard, play hard“."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/gm3jomzFEpk?si=wQMxPiQy0xggsmuz",
+      "title": "Miami transfer",
+      "text": "Once a year, a group of ceibers are chosen to work for 3 months at the Miami offices with our managing partner David Wilson."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/fRWt8_FcfH4?si=AJo0g9TmqH5FKQGB",
+      "title": "After office and football, what a better plan?",
+      "text": "We seek to promote work-life balance and the general well-being of our employees through sports and recreational activities outside the workplace. Football, paddle, bowling and more!"
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/AlnHNi0hdO0?si=c6PXDyQ4lkpo4jZE",
+      "title": "Check out our workplace!",
+      "text": "The Buenos Aires office is located at Circular Innova in Nordelta. The facilities offered by this cowork allow us to share workspaces, lunches and recreational activities."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/DdpyIit7d18?si=mYhEcz137FqRTeEw",
+      "title": "The Hackathon from the inside",
+      "text": "During two days, we went through a collaborative software development experience, where we worked on different initiatives that promoted integration, growth and good practices among ceibers."
     }
   ],
 
