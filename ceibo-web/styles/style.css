@@ -8584,3 +8584,14 @@ abbr:hover {
 .background-maroon {
   background-color: #891924;
 }
+
+.ceibo-green {
+  color: #6fc7b5;
+}
+.background-grey {
+  background-color: rgba(196, 196, 196, 0.13);
+}
+.vida-en-ceibo-quote {
+  text-align: center;
+  font-style: italic;
+}
