@@ -15,6 +15,7 @@ const NavbarFive = () => {
   const queHacemos = t("queHacemos");
   const sumateAlEquipo = t("sumateAlEquipo");
   const busquedasAbiertas = t("busquedasAbiertas");
+  const vidaEnCeibo = t("vidaEnCeibo");
   const casosExito = t("casosExito");
   const contacto = t("contacto");
   const publicacionesTitle = t("publicacionesTitle");
@@ -140,6 +141,14 @@ const NavbarFive = () => {
                         activeClassName="active"
                       >
                         <a className="nav-link">{busquedasAbiertas}</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="/sumate-al-equipo/vida-en-ceibo"
+                        activeClassName="active"
+                      >
+                        <a className="nav-link">{vidaEnCeibo}</a>
                       </Link>
                     </li>
                   </ul>
