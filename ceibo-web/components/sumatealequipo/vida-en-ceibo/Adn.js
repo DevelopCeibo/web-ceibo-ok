@@ -1,22 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import useTranslation from "next-translate/useTranslation";
 
 function Adn() {
-  const adnTitle = "ADN Ceibo Digital";
-  const adnText =
-    "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea work hard sino también play hard.";
-  const pertenenciaTitle = "Sentido de pertenencia";
-  const pertenenciaText =
-    "A través de actividades recreativas, eventos y presencialidad, buscamos que cada colaborador se sienta una parte clave de Ceibo, fomentando así el trabajo en equipo, el compañerismo y el buen clima laboral.";
-  const empatiaTitle = "Empatía y confianza";
-  const empatiaText =
-    "Creamos espacios distendidos y entretenidos donde nuestros colaboradores puedan relacionarse de manera personal, favoreciendo la empatía y la confianza para así fomentar el compañerismo y el team building.";
-  const wellbeingTitle = "Wellbeing";
-  const wellbeingText =
-    "Promovemos el work-life balance y el bienestar general de nuestros colaboradores a través de actividades deportivas, yoga, tips de salud, charlas con especialistas y un buen balance.";
-  const reconocimientoTitle = "Reconocimiento";
-  const reconocimientoText =
-    "Buscamos reconocer las acciones y actitudes que se alinean a los valores que nos identifican, celebrando a quienes los representen. Dos veces al año, se reconocen a los “embajadores” que encarnan los valores de las Competencias Core (inspirar, ganar, emprender, transformar).";
+  const { t } = useTranslation("common");
+  const adnTitle = t("adnTitle");
+  const adnText = t("adnText");
+  const pertenenciaTitle = t("pertenenciaTitle");
+  const pertenenciaText = t("pertenenciaText");
+  const empatiaTitle = t("empatiaTitle");
+  const empatiaText = t("empatiaText");
+  const wellbeingTitle = t("wellbeingTitle");
+  const wellbeingText = t("wellbeingText");
+  const reconocimientoTitle = t("reconocimientoTitle");
+  const reconocimientoText = t("reconocimientoText");
   return (
     <section className="pt-70 mb-3">
       {/* TITULO */}
@@ -39,12 +36,18 @@ function Adn() {
                   alt="sentido de pertenencia"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 col-sm-12 adn-responsive">
+              <div className="col-lg-10 col-md-10 col-sm-12 adn-responsive" 
+              /* style={{
+                position: 'relative',
+                left: '10rem',
+                overflow: 'visible'
+              }} */
+              >
                 <h4>{pertenenciaTitle}</h4>
                 <p>{pertenenciaText}</p>
               </div>
             </article>
-            <article className="row pt-3">
+            <article className="row pt-3 adn-reverse">
               <div className="col-lg-10 col-md-10 col-sm-12 adn-responsive">
                 <h4>{empatiaTitle}</h4>
                 <p>{empatiaText}</p>
@@ -74,7 +77,7 @@ function Adn() {
                 <p>{wellbeingText}</p>
               </div>
             </article>
-            <article className="row pt-3">
+            <article className="row pt-3 adn-reverse">
               <div className="col-lg-10 col-md-10 col-sm-12 adn-responsive">
                 <h4>{reconocimientoTitle}</h4>
                 <p>{reconocimientoText}</p>
@@ -92,6 +95,7 @@ function Adn() {
           </div>
           <div
             className="col-lg-5 col-md-5 col-sm-12"
+            // style={{zIndex: '-1'}}
           >
             <Image
               src="/images-ceibo/sumatealequipo/vidaEnCeibo/adn.png"

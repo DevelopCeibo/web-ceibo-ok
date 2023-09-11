@@ -415,5 +415,16 @@
   "empresa": "Company",
   "cargo": "Position",
   "escrirbimsg": "Write your message..",
-  "ingresaCorreo": "Enter your email"
+  "ingresaCorreo": "Enter your email",
+
+  "adnTitle": "Ceibo Digital’s DNA",
+  "adnText": "Our culture's DNA is composed of 4 pillars that complement each other in order to ensure that the Ceibers' experience within the company is not only work hard but also play hard.",
+  "pertenenciaTitle":"Sense of belonging",
+  "pertenenciaText": "Through recreational activities, events and office days, we seek to make each employee feel a key part of Ceibo, thus fostering teamwork, companionship and a great work environment.",
+  "empatiaTitle": "Empathy and trust",
+  "empatiaText": "We create relaxed and entertaining spaces where our employees can interact in a personal way, fostering empathy and trust in order to promote companionship and team building.",
+  "wellbeingTitle": "Wellbeing",
+  "wellbeingText": "We promote work-life balance and the general wellbeing of our employees through sports activities, yoga, health tips, talks with specialists and a good work-life balance.",
+  "reconocimientoTitle": "Recognition",
+  "reconocimientoText": "We seek to recognize the actions and attitudes that are aligned with the values that identify us, celebrating those who represent them. Twice a year, 'ambassadors' who embody the values of our Core Competencies are awarded."
 }

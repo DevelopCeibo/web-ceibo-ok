@@ -414,5 +414,16 @@
   "empresa": "Empresa",
   "cargo": "Cargo",
   "escrirbimsg": "Escribí tu mensaje..",
-  "ingresaCorreo": "Ingresá tu correo"
+  "ingresaCorreo": "Ingresá tu correo",
+
+  "adnTitle": "ADN Ceibo Digital",
+  "adnText": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea work hard sino también play hard.",
+  "pertenenciaTitle":"Sentido de pertenencia",
+  "pertenenciaText": "A través de actividades recreativas, eventos y presencialidad, buscamos que cada colaborador se sienta una parte clave de Ceibo, fomentando así el trabajo en equipo, el compañerismo y el buen clima laboral.",
+  "empatiaTitle": "Empatía y confianza",
+  "empatiaText": "Creamos espacios distendidos y entretenidos donde nuestros colaboradores puedan relacionarse de manera personal, favoreciendo la empatía y la confianza para así fomentar el compañerismo y el team building.",
+  "wellbeingTitle": "Wellbeing",
+  "wellbeingText": "Promovemos el work-life balance y el bienestar general de nuestros colaboradores a través de actividades deportivas, yoga, tips de salud, charlas con especialistas y un buen balance.",
+  "reconocimientoTitle": "Reconocimiento",
+  "reconocimientoText": "Buscamos reconocer las acciones y actitudes que se alinean a los valores que nos identifican, celebrando a quienes los representen. Dos veces al año, se reconocen a los “embajadores” que encarnan los valores de las Competencias Core (inspirar, ganar, emprender, transformar)."
 }
