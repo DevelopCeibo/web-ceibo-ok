@@ -14,6 +14,7 @@ const NavbarFive = () => {
   const cultura = t("cultura");
   const queHacemos = t("queHacemos");
   const sumateAlEquipo = t("sumateAlEquipo");
+  const busquedasAbiertas = t("busquedasAbiertas");
   const casosExito = t("casosExito");
   const contacto = t("contacto");
   const publicacionesTitle = t("publicacionesTitle");
@@ -119,8 +120,29 @@ const NavbarFive = () => {
 
                 <li className="nav-item">
                   <Link href="/sumate-al-equipo" activeClassName="active">
-                    <a className="nav-link"> {sumateAlEquipo}</a>
+                    <a className="nav-link">
+                      {sumateAlEquipo}
+                      <i className="fa-solid fa-angle-down"></i>
+                    </a>
                   </Link>
+                  <ul className="dropdown-menu">
+                    {/*  <h6 class="dropdown-header">lenguaje</h6> */}
+
+                    <li className="nav-item">
+                      <Link href="/sumate-al-equipo" activeClassName="active">
+                        <a className="nav-link">Overview</a>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="/sumate-al-equipo/busquedas-vigentes"
+                        activeClassName="active"
+                      >
+                        <a className="nav-link">{busquedasAbiertas}</a>
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
 
                 <li className="nav-item">
@@ -132,11 +154,12 @@ const NavbarFive = () => {
                 {/* Dropdown Publicaciones */}
 
                 <li className="nav-item">
-                  
-                    <a className="nav-link"> {"News & Insights"}
+                  <a className="nav-link">
+                    {" "}
+                    {"News & Insights"}
                     <i className="fa-solid fa-angle-down"></i>
-                    </a>
-                  
+                  </a>
+
                   <ul className="dropdown-menu">
                     {/*  <h6 class="dropdown-header">lenguaje</h6> */}
 
@@ -170,12 +193,10 @@ const NavbarFive = () => {
                 {/* Dropdown Lenguaje */}
 
                 <li className="nav-item">
-                 
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
-                      <i className="fa-solid fa-globe"></i>{" "}
-                      <i className="fa-solid fa-angle-down"></i>
-                    </a>
-                 
+                  <a className="nav-link" onClick={(e) => e.preventDefault()}>
+                    <i className="fa-solid fa-globe"></i>{" "}
+                    <i className="fa-solid fa-angle-down"></i>
+                  </a>
 
                   <ul
                     className="dropdown-menu"
@@ -193,7 +214,7 @@ const NavbarFive = () => {
                       onClick={(e) => handleLocale(e)}
                     >
                       <Link href="#">
-                      <a className="nav-link">{"Español"}</a>
+                        <a className="nav-link">{"Español"}</a>
                       </Link>
                     </li>
 
@@ -203,11 +224,11 @@ const NavbarFive = () => {
                       onClick={(e) => handleLocale(e)}
                     >
                       <Link href="#">
-                      <a className="nav-link">{"English"}</a>
+                        <a className="nav-link">{"English"}</a>
                       </Link>
                     </li>
 
-                   {/*  <li className="nav-item">
+                    {/*  <li className="nav-item">
                       <ToggleButtonGroup
                         // value={alignment}
                         // onChange={handleAlignment}

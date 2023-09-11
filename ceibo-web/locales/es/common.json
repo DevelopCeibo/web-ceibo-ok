@@ -19,6 +19,33 @@
   "sumateTitleTag": "Ofertas de trabajo - Equipo Ceibo Digital",
   "sumateMetaDesc": "#2 GPTW Argentina 2022. Somos un equipo de consultores y especialistas unidos por la pasión en los negocios y la tecnología. Mirá las búsquedas abiertas",
 
+  "busquedasVigentesh1": "Búsquedas abiertas",
+  "busquedasVigentesh2": "Formá parte de una de las mejores empresas para trabajar en el mundo de la consultoría",
+  "rolesParaConsultores": "Roles para consultores",
+  "rolesParaEspecialistas": "Roles para especialistas",
+  "postularse": "Postularse",
+
+  "vidaEnCeiboCard": {
+    "title": "VIDA EN CEIBO",
+    "description": "Conocé qué implica formar parte de nuestro equipo y cómo es nuestro día a día",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/team-retreat.png",
+    "href": "/sumate-al-equipo/vida-en-ceibo"
+  },
+
+  "carreraEnCeiboCard": {
+    "title": "CARRERA EN CEIBO",
+    "description": "Conocé como Ceibo acompaña el crecimiento en tu carrera",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
+    "href": "/sumate-al-equipo/desarrollo-profesional"
+  },
+
+  "entrevistasCeiboCard": {
+    "title": "PROCESO DE ENTREVISTAS",
+    "description": "Conocé cómo es nuestro proceso de selección",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/proceso-de-entrevistas.png",
+    "href": "/sumate-al-equipo/proceso-de-reclutamiento"
+  },
+
   "casosh1": "Casos de éxito en transformación digital",
   "casosh2": "Descubrí cómo generamos valor para nuestros clientes con estos casos de referencia",
   "casosTitleTag": "Casos de éxito en transformación digital - Ceibo Digital",
@@ -58,6 +85,7 @@
   "navInicio": "Inicio",
   "queHacemos": "Qué hacemos",
   "sumateAlEquipo": "Sumate al equipo",
+  "busquedasAbiertas": "Búsquedas abiertas",
   "casosExito": "Casos de éxito",
   "casosExitoSubt": "Descubrí cómo generamos valor para nuestros clientes",
   "contacto": "Contacto",
