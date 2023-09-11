@@ -8605,3 +8605,76 @@ abbr:hover {
   font-size: 48px;
   margin: 0 8%;
 }
+
+/* PEOPLE WORTH */
+.people-worth-bc {
+  background-color: #F5F5F5;
+}
+.people-worth-img {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.people-worth-quote {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: justify;
+}
+.people-worth-card-footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+.people-worth-card-question-wrapper {
+  text-align: center;
+}
+.people-worth-card-question {
+  font-weight: 600;
+  font-size: 18px;
+}
+.people-worth-card-tag-wrapper {
+  display: grid;
+  justify-content: center;
+}
+.people-worth-card-tag {
+  padding: 0;
+  margin-top: 10px;
+  list-style-type: none;
+}
+.people-worth-card-tag li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.people-worth-card-tag li a {
+  background-color: #b72837;
+  border: 1px solid #b72837;
+  border-radius: 10px;
+  padding: 4px 15px;
+  font-size: 13px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+  margin: 5px 0;
+}
+.people-worth-linkedin-wrapper {
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.people-worth-linkedin {
+  color: #b72837;
+}
+.people-worth-ceiber-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.people-worth-ceiber {
+  color: #1E1E1E;
+  font-weight: 700;
+  font-size: 18px;
+}

@@ -1193,6 +1193,15 @@
   .adn-reverse {
     flex-direction: column-reverse;
   }
+
+  /* PEOPLE WORTH */
+  .people-worth-responsive {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .people-worth-linkedin-wrapper-responsive {
+    padding: 0;
+  }
 }
 
 /* Min width 576px to Max width 767px */
