@@ -8607,6 +8607,10 @@ abbr:hover {
 }
 
 /* PEOPLE WORTH */
+.people-worth {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
 .people-worth-bc {
   background-color: #F5F5F5;
 }
@@ -8659,10 +8663,9 @@ abbr:hover {
   margin: 5px 0;
 }
 .people-worth-linkedin-wrapper {
-  padding-left: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 .people-worth-linkedin {
   color: #b72837;
@@ -8670,8 +8673,7 @@ abbr:hover {
 .people-worth-ceiber-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-right: 20px;
+  justify-content: start;
 }
 .people-worth-ceiber {
   color: #1E1E1E;

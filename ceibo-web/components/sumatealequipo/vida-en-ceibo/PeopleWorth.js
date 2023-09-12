@@ -1,26 +1,31 @@
 import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import Image from "next/image";
-import ceibers from "../../../utils/integrantesCeibo.json";
+import ceibersJson from "../../../utils/integrantesCeibo.json";
+import useTranslation from "next-translate/useTranslation";
 
 function PeopleWorth() {
+  const { t } = useTranslation("common");
+  const peopleWorthTitle = t("peopleWorthTitle");
+  const titleCase = (str) => {
+    return str.toLowerCase().split(' ').map(function(word) {
+      return word.replace(word[0], word[0].toUpperCase());
+    }).join(' ');
+  }
 
-  const adnTitle = "¿Qué es lo que nuestra gente más valora?";
-  const quote =
-    "Ceibo me da la oportunidad de trabajar con gente que busca como uno encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, cómo pueden ser tecnología y desarrollo.";
-  const question = '¿Cómo describe Corcho de su día en Ceibo?';
-
-  const { locale } = useRouter();
-  // si locale == en, los titulos de publicaciones van en ingles
+  // TODO
+  const ceibers = ceibersJson.filter(ceiber => 
+    ceiber.nombre === 'BELTRÁN GANDOLFO' || 
+    ceiber.nombre === 'SOFÍA RONCHI RIVARA' || 
+    ceiber.nombre === 'SANTIAGO SIN' || 
+    ceiber.nombre === 'MARTÍN IUVARO')
 
   return (
-    <section className="pt-70 mb-3">
+    <section className="pt-70 mb-3 people-worth">
       {/* TITULO */}
       <div className="section-title adn-title">
-        <h2> {adnTitle}</h2>
+        <h2> {peopleWorthTitle}</h2>
       </div>
 
       {/*  CONTENT */}
@@ -48,7 +53,7 @@ function PeopleWorth() {
             <div className="people-worth-bc">
                 <div className="people-worth-img">
                   <Image
-                    src="/images-ceibo/sumatealequipo/vidaEnCeibo/people-worth/beltran.png"
+                    src={ceiber?.ceiber?.img}
                     width={200}
                     height={200}
                     layout="intrinsic"
@@ -56,33 +61,29 @@ function PeopleWorth() {
                   />
                 </div>
                 <div className="people-worth-quote">
-                  <p>{quote}</p>
+                  <p>{ceiber.ceiber.quote}</p>
                 </div>
               <div className='people-worth-card-footer'>
                 <div className='people-worth-card-question-wrapper'>
-                  <p className='people-worth-card-question'>{question}</p>
+                  <p className='people-worth-card-question'>{`¿Cómo describe ${ceiber?.ceiber?.nikname} de su día en Ceibo?`}</p>
                 </div>
                 <div className='people-worth-card-tag-wrapper'>
                   <ul className='people-worth-card-tag'>
-                    <li>
-                      <a href='#'>{'dinamico'}</a>
-                    </li>
-                    <li>
-                      <a href='#'>{'aprendizaje'}</a>
-                    </li>
-                    <li>
-                      <a href='#'>{'autonomia'}</a>
-                    </li>
+                    {ceiber?.ceiber?.tags?.map(tag => (
+                      <li>
+                        <a href='#'>{tag}</a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className='row people-worth-responsive'>
-                  <div className='col-lg-2 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive'>
-                    <a href={"https://www.google.com/"} target="blank">
+                  <div className='col-lg-3 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive'>
+                    <a href={ceiber?.linkedinurl} target="blank">
                       <i className="fa-brands fa-linkedin fa-xl people-worth-linkedin"></i>
                     </a>
                   </div>
-                  <div className='col-lg-10 people-worth-ceiber-wrapper'>
-                    <p className='people-worth-ceiber'>{'Beltrán Gandolfo Gahan, Senior Associate'}</p>
+                  <div className='col-lg-9 people-worth-ceiber-wrapper'>
+                    <p className='people-worth-ceiber'>{`${titleCase(ceiber?.nombre)}, ${titleCase(ceiber?.posicion)}`}</p>
                   </div>
                 </div>
 
