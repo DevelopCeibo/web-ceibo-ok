@@ -1,4 +1,5 @@
 import React from "react";
+import uniqid from "uniqid";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
@@ -22,22 +23,27 @@ const VidaEnCeiboCarruselVideos = () => {
         <div className="section-title">
           <h2>{title}</h2>
         </div>
-
         <Swiper
           pagination={{
             clickable: true,
           }}
           spaceBetween={0}
-          slidesPerView={2}
+          slidesPerView={1}
           modules={[Pagination, Autoplay]}
-          autoplay={{ delay: 4000 }}
+          // autoplay={{ delay: 4000 }}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              // slidesPerGroup: 2,
+            },
+          }}
           className="feedback-slides"
         >
           {videoContentArray.map((video) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={uniqid()}>
                 <div className="row align-items-center justify-content-center">
-                  <div className="col-12 col-lg-12 col-md-12">
+                  <div className="d-flex justify-content-center">
                     <CardWithVideo
                       title={video.title}
                       videoURL={video.videoURL}

@@ -8587,6 +8587,7 @@ abbr:hover {
 .background-grey {
   background-color: rgba(196, 196, 196, 0.13);
 }
+
 .vida-en-ceibo-quote {
   text-align: center;
   font-style: italic;
@@ -8598,7 +8599,6 @@ abbr:hover {
   margin: -5px auto 60px;
   max-width: none;
 }
-
 .adn-subtitle {
   text-align: left;
   font-weight: 400;
@@ -8678,3 +8678,22 @@ abbr:hover {
   font-weight: 700;
   font-size: 18px;
 }
+
+/* CAR WITH VIDEO */
+
+.card-with-video {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 450px;
+}
+.card-with-video iframe {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.card-with-video-content {
+  padding: 0% 3% 3% 3%;
+}
+

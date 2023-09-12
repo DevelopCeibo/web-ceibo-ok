@@ -4,13 +4,9 @@ import { useRouter } from "next/router";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import Image from "next/image";
-import publicaciones from "../../../utils/publicaciones.json";
-
-import LatestNewsSlider from "../../../components/Common/LatestNewsSlider";
+import ceibers from "../../../utils/integrantesCeibo.json";
 
 function PeopleWorth() {
-  const seccion = "publicaciones";
-  const vermas = "Ver más";
 
   const adnTitle = "¿Qué es lo que nuestra gente más valora?";
   const quote =
@@ -47,7 +43,7 @@ function PeopleWorth() {
         modules={[Pagination]}
         className="blog-slides"
       >
-        {publicaciones.map((publi, i) => (
+        {ceibers.map((ceiber, i) => (
           <SwiperSlide key={i}>
             <div className="people-worth-bc">
                 <div className="people-worth-img">

@@ -1,4 +1,5 @@
 import React from "react";
+import uniqid from "uniqid";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
@@ -30,7 +31,7 @@ const VidaEnCeiboQuotesSwiper = () => {
         >
           {quotes.map((quote) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={uniqid()}>
                 <div className="row align-items-center justify-content-center">
                   <div className="col-12">
                     <div>
