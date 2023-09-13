@@ -67,5 +67,6 @@ build
 # dotenv environment variables file
 .env
 .vercel
+.env.local
 
 package-lock.json
