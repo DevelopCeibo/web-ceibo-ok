@@ -1180,6 +1180,28 @@
   .navigation-card {
     width: 80%;
   }
+
+  /* ADN */
+  .adn-responsive {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .adn-reverse {
+    flex-direction: column-reverse;
+  }
+
+  /* PEOPLE WORTH */
+  .people-worth-responsive {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .people-worth-linkedin-wrapper-responsive {
+    padding: 0;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -1261,6 +1283,7 @@
     margin-bottom: 3%;
     margin-top: 5%;
   }
+
 }
 
 /* Min width 768px to Max width 991px */

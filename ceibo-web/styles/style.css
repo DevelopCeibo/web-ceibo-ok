@@ -5778,10 +5778,6 @@ Blog CSS
   color: #18181b;
 }
 
-.insight-card-title {
-  /* height: 152px; */
-}
-
 .single-blog-item .blog-post-content h3 a.insight-core {
   color: #757575;
   font-size: 14px;
@@ -8583,4 +8579,129 @@ abbr:hover {
 
 .background-maroon {
   background-color: #891924;
+}
+
+.ceibo-green {
+  color: #6fc7b5;
+}
+.background-grey {
+  background-color: rgba(196, 196, 196, 0.13);
+}
+
+.vida-en-ceibo-quote {
+  text-align: center;
+  font-style: italic;
+}
+
+/* ADN */
+.adn-title {
+  text-align: center;
+  margin: -5px auto 60px;
+  max-width: none;
+}
+.adn-subtitle {
+  text-align: left;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0 8%;
+}
+
+/* PEOPLE WORTH */
+.people-worth {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.people-worth-bc {
+  background-color: #f5f5f5;
+}
+.people-worth-img {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.people-worth-quote {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: justify;
+}
+.people-worth-card-footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+.people-worth-card-question-wrapper {
+  text-align: center;
+}
+.people-worth-card-question {
+  font-weight: 600;
+  font-size: 18px;
+}
+.people-worth-card-tag-wrapper {
+  display: grid;
+  justify-content: center;
+}
+.people-worth-card-tag {
+  padding: 0;
+  margin-top: 10px;
+  list-style-type: none;
+}
+.people-worth-card-tag li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.people-worth-card-tag li a {
+  background-color: #b72837;
+  border: 1px solid #b72837;
+  border-radius: 10px;
+  padding: 4px 15px;
+  font-size: 13px;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  margin: 5px 0;
+}
+.people-worth-linkedin-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.people-worth-linkedin {
+  color: #b72837;
+}
+.people-worth-ceiber-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.people-worth-ceiber {
+  color: #1e1e1e;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* CAR WITH VIDEO */
+
+.card-with-video {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  height: 450px;
+}
+.card-with-video iframe {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.card-with-video-content {
+  padding: 0% 3% 3% 3%;
+}
+
+.instagram-feed-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid white;
 }
