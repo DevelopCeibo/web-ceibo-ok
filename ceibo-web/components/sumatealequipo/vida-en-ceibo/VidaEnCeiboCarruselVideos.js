@@ -18,7 +18,7 @@ const VidaEnCeiboCarruselVideos = () => {
   );
 
   return (
-    <div className="pt-5 pb-60">
+    <div className="pt-5">
       <div className="container">
         <div className="section-title">
           <h2>{title}</h2>
