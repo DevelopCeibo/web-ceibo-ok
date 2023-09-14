@@ -47,7 +47,7 @@ function Adn() {
                 <p>{pertenenciaText}</p>
               </div>
             </article>
-            <article className="row pt-3 adn-reverse">
+            <article className="row pt-5 adn-reverse">
               <div className="col-lg-10 col-md-10 col-sm-12 adn-responsive">
                 <h4>{empatiaTitle}</h4>
                 <p>{empatiaText}</p>
@@ -62,7 +62,7 @@ function Adn() {
                 />
               </div>
             </article>
-            <article className="row pt-3">
+            <article className="row pt-5">
               <div className="col-lg-2 col-md-2 col-sm-12 adn-responsive">
                 <Image
                   src="/images-ceibo/sumatealequipo/vidaEnCeibo/wellbeing.png"
@@ -77,7 +77,7 @@ function Adn() {
                 <p>{wellbeingText}</p>
               </div>
             </article>
-            <article className="row pt-3 adn-reverse">
+            <article className="row pt-5 adn-reverse">
               <div className="col-lg-10 col-md-10 col-sm-12 adn-responsive">
                 <h4>{reconocimientoTitle}</h4>
                 <p>{reconocimientoText}</p>

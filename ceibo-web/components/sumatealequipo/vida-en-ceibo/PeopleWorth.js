@@ -9,16 +9,16 @@ function PeopleWorth() {
   const { t } = useTranslation("common");
   const peopleWorthTitle = t("peopleWorthTitle");
   const titleCase = (str) => {
-    return str.toLowerCase().split(' ').map(function(word) {
+    return str.toLowerCase().split(' ').map(function (word) {
       return word.replace(word[0], word[0].toUpperCase());
     }).join(' ');
   }
 
   // TODO
-  const ceibers = ceibersJson.filter(ceiber => 
-    ceiber.nombre === 'BELTRÁN GANDOLFO' || 
-    ceiber.nombre === 'SOFÍA RONCHI RIVARA' || 
-    ceiber.nombre === 'SANTIAGO SIN' || 
+  const ceibers = ceibersJson.filter(ceiber =>
+    ceiber.nombre === 'BELTRÁN GANDOLFO' ||
+    ceiber.nombre === 'SOFÍA RONCHI RIVARA' ||
+    ceiber.nombre === 'SANTIAGO SIN' ||
     ceiber.nombre === 'MARTÍN IUVARO')
 
   return (
@@ -51,26 +51,29 @@ function PeopleWorth() {
         {ceibers.map((ceiber, i) => (
           <SwiperSlide key={i}>
             <div className="people-worth-bc">
-                <div className="people-worth-img">
-                  <Image
-                    src={ceiber?.ceiber?.img}
-                    width={200}
-                    height={200}
-                    layout="intrinsic"
-                    alt="ceiber"
-                  />
-                </div>
-                <div className="people-worth-quote">
-                  <p>{ceiber.ceiber.quote}</p>
-                </div>
+
+              <div className="people-worth-img">
+                <Image
+                  src={ceiber?.ceiber?.img}
+                  width={200}
+                  height={200}
+                  layout="intrinsic"
+                  alt="ceiber"
+                />
+              </div>
+              <div className="people-worth-quote">
+                <p>{ceiber.ceiber.quote}</p>
+              </div>
+
+
               <div className='people-worth-card-footer'>
                 <div className='people-worth-card-question-wrapper'>
                   <p className='people-worth-card-question'>{`¿Cómo describe ${ceiber?.ceiber?.nikname} de su día en Ceibo?`}</p>
                 </div>
                 <div className='people-worth-card-tag-wrapper'>
                   <ul className='people-worth-card-tag'>
-                    {ceiber?.ceiber?.tags?.map(tag => (
-                      <li>
+                    {ceiber?.ceiber?.tags?.map((tag, i) => (
+                      <li key={i}>
                         <a href='#'>{tag}</a>
                       </li>
                     ))}

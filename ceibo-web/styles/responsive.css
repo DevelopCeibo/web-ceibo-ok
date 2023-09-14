@@ -1195,12 +1195,31 @@
   }
 
   /* PEOPLE WORTH */
+  .people-worth-bc {
+    height: auto;
+  }
+  .people-worth-quote {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .people-worth-card-footer {
+    margin-top: 1rem;
+  }
+  .people-worth-card-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .people-worth-responsive {
     display: flex;
     flex-direction: column-reverse;
   }
   .people-worth-linkedin-wrapper-responsive {
-    padding: 0;
+    justify-content: center;
+  }
+  .people-worth-ceiber-wrapper {
+    text-align: center;
   }
 }
 
