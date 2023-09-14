@@ -99,9 +99,9 @@ function Adn() {
           >
             <Image
               src="/images-ceibo/sumatealequipo/vidaEnCeibo/adn.png"
-              width={1572}
-              height={1850}
-              layout="intrinsic"
+              width={650}
+              height={1000}
+              // layout="intrinsic"
               alt="adn ceibo"
             />
           </div>
