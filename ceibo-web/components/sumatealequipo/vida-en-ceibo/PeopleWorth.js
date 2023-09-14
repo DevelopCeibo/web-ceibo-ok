@@ -9,17 +9,24 @@ function PeopleWorth() {
   const { t } = useTranslation("common");
   const peopleWorthTitle = t("peopleWorthTitle");
   const titleCase = (str) => {
-    return str.toLowerCase().split(' ').map(function (word) {
-      return word.replace(word[0], word[0].toUpperCase());
-    }).join(' ');
-  }
+    return str
+      .toLowerCase()
+      .split(" ")
+      .map(function (word) {
+        return word.replace(word[0], word[0].toUpperCase());
+      })
+      .join(" ");
+  };
 
   // TODO
-  const ceibers = ceibersJson.filter(ceiber =>
-    ceiber.nombre === 'BELTRÁN GANDOLFO' ||
-    ceiber.nombre === 'SOFÍA RONCHI RIVARA' ||
-    ceiber.nombre === 'SANTIAGO SIN' ||
-    ceiber.nombre === 'MARTÍN IUVARO')
+  const ceibers = ceibersJson.filter(
+    (ceiber) =>
+      ceiber.nombre === "VICTORIA SELVA" ||
+      ceiber.nombre === "BELTRÁN GANDOLFO" ||
+      ceiber.nombre === "SOFÍA RONCHI RIVARA" ||
+      ceiber.nombre === "SANTIAGO SIN" ||
+      ceiber.nombre === "MARTÍN IUVARO"
+  );
 
   return (
     <section className="pt-70 mb-3 people-worth">
@@ -51,7 +58,6 @@ function PeopleWorth() {
         {ceibers.map((ceiber, i) => (
           <SwiperSlide key={i}>
             <div className="people-worth-bc">
-
               <div className="people-worth-img">
                 <Image
                   src={ceiber?.ceiber?.img}
@@ -65,31 +71,31 @@ function PeopleWorth() {
                 <p>{ceiber.ceiber.quote}</p>
               </div>
 
-
-              <div className='people-worth-card-footer'>
-                <div className='people-worth-card-question-wrapper'>
-                  <p className='people-worth-card-question'>{`¿Cómo describe ${ceiber?.ceiber?.nikname} de su día en Ceibo?`}</p>
+              <div className="people-worth-card-footer">
+                <div className="people-worth-card-question-wrapper">
+                  <p className="people-worth-card-question">{`¿Cómo describe ${ceiber?.ceiber?.nikname} de su día en Ceibo?`}</p>
                 </div>
-                <div className='people-worth-card-tag-wrapper'>
-                  <ul className='people-worth-card-tag'>
+                <div className="people-worth-card-tag-wrapper">
+                  <ul className="people-worth-card-tag">
                     {ceiber?.ceiber?.tags?.map((tag, i) => (
                       <li key={i}>
-                        <a href='#'>{tag}</a>
+                        <a href="#">{tag}</a>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className='row people-worth-responsive'>
-                  <div className='col-lg-3 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive'>
+                <div className="row people-worth-responsive">
+                  <div className="col-lg-3 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive">
                     <a href={ceiber?.linkedinurl} target="blank">
                       <i className="fa-brands fa-linkedin fa-xl people-worth-linkedin"></i>
                     </a>
                   </div>
-                  <div className='col-lg-9 people-worth-ceiber-wrapper'>
-                    <p className='people-worth-ceiber'>{`${titleCase(ceiber?.nombre)}, ${titleCase(ceiber?.posicion)}`}</p>
+                  <div className="col-lg-9 people-worth-ceiber-wrapper">
+                    <p className="people-worth-ceiber">{`${titleCase(
+                      ceiber?.nombre
+                    )}, ${titleCase(ceiber?.posicion)}`}</p>
                   </div>
                 </div>
-
               </div>
             </div>
           </SwiperSlide>
