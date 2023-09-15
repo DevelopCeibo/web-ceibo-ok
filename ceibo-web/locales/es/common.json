@@ -25,6 +25,8 @@
   "rolesParaEspecialistas": "Roles para especialistas",
   "postularse": "Postularse",
 
+  "vidaEnCeiboh2": "La cultura es un elemento fundamental de nuestro ADN. Conocé qué implica formar parte de nuestro equipo y cómo es nuestro día a día",
+
   "vidaEnCeiboCard": {
     "title": "VIDA EN CEIBO",
     "description": "Conocé qué implica formar parte de nuestro equipo y cómo es nuestro día a día",
@@ -233,7 +235,7 @@
   "vidaEnCeiboQuotesTitle": "¿Qué es lo que convierte a Ceibo en un gran lugar para trabajar?",
   "vidaEnCeiboQuotes": [
     {
-      "text": "“Se desafía constantemente a los colaboradores y hay una cultura de equipo muy saludable. Se genera un alto sentido de pertenencia.”"
+      "text": "“Se desafía constantemente a los colaboradores y hay una cultura de equipo muy saludable. Se genera un alto sentido de pertenencia”"
     },
     {
       "text": "“La empresa se caracteriza por delegar la capacidad de tomar decisiones e indagar sobre las soluciones, lo cual hace a las personas desafiar sus capacidades y superar sus límites”"
@@ -251,7 +253,10 @@
       "text": "“La cultura. Tenemos clases de yoga, recreos de juego (llamados 'cafés'), días con actividades especiales y viajes para conocernos entre todos, divertirnos y descontracturar”"
     },
     {
-      "text": "“Considero que la empatía y la preocupación genuina que tenemos entre todos los colaboradores es un valor que resalta mucho en la cultura y contribuye muchísimo al team building. Todos siempre dispuestos a dar una mano, a escuchar cuando hay problemas y a compartir los conocimientos adquiridos, más allá del trabajo, en todos los aspectos”"
+      "text": "“Considero que la empatía y la preocupación genuina que tenemos entre todos los colaboradores es un valor que resalta mucho en la cultura y contribuye muchísimo al team building”"
+    },
+    {
+      "text": "“Todos siempre dispuestos a dar una mano, a escuchar cuando hay problemas y a compartir los conocimientos adquiridos, más allá del trabajo, en todos los aspectos“"
     },
     {
       "text": "“Excelente cartera de clientes, los mejores talentos y una excelente cultura organizacional”"

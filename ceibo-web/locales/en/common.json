@@ -25,6 +25,8 @@
   "rolesParaEspecialistas": "Roles for specialists",
   "postularse": "Apply now",
 
+  "vidaEnCeiboh2": "Our culture is a fundamental element of our DNA. Get to know what it means to be a member of our team and experience our daily life",
+
   "vidaEnCeiboCard": {
     "title": "LIFE AT CEIBO",
     "description": "Discover what it means to be part of our team and what our day-to-day looks like",
@@ -250,7 +252,10 @@
       "text": "“The culture. We have yoga classes, game breaks (called 'cafés'), days with special activities and trips to get to know each other, have fun and relax”"
     },
     {
-      "text": "“I believe that the empathy and genuine concern we have among all employees is a value that stands out in the team culture and contributes a lot to team building. Everyone is always willing to lend a hand, to listen to each others problems and to share the knowledge acquired”"
+      "text": "“I believe that the empathy and genuine concern we have among all employees is a value that stands out in the team culture and contributes a lot to team building”"
+    },
+    {
+      "text": "“Everyone is always willing to lend a hand, to listen to each others problems and to share the knowledge acquired“"
     },
     {
       "text": "“Excellent client portfolio, the best talents and an excellent organizational culture”"
@@ -276,12 +281,12 @@
       "text": "We seek to promote work-life balance and the general well-being of our employees through sports and recreational activities outside the workplace. Football, paddle, bowling and more!"
     },
     {
-      "videoURL": "https://www.youtube.com/embed/AlnHNi0hdO0?si=c6PXDyQ4lkpo4jZE",
+      "videoURL": "https://www.youtube.com/embed/KhgLuLww0DA?si=NA1O5wcUaC2Wyxxn",
       "title": "Check out our workplace!",
       "text": "The Buenos Aires office is located at Circular Innova in Nordelta. The facilities offered by this cowork allow us to share workspaces, lunches and recreational activities."
     },
     {
-      "videoURL": "https://www.youtube.com/embed/DdpyIit7d18?si=mYhEcz137FqRTeEw",
+      "videoURL": "https://www.youtube.com/embed/48vG5N7UiFw?si=fJr2UrdL5zTt0Yku",
       "title": "The Hackathon from the inside",
       "text": "During two days, we went through a collaborative software development experience, where we worked on different initiatives that promoted integration, growth and good practices among ceibers."
     }
