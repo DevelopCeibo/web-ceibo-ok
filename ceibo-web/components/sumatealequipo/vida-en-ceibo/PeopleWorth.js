@@ -73,7 +73,7 @@ function PeopleWorth() {
 
               <div className="people-worth-card-footer">
                 <div className="people-worth-card-question-wrapper">
-                  <p className="people-worth-card-question">{`¿Cómo describe ${ceiber?.ceiber?.nikname} de su día en Ceibo?`}</p>
+                  <p className="people-worth-card-question">{`¿Cómo describe ${ceiber?.ceiber?.nikname} su día en Ceibo?`}</p>
                 </div>
                 <div className="people-worth-card-tag-wrapper">
                   <ul className="people-worth-card-tag">
@@ -85,12 +85,12 @@ function PeopleWorth() {
                   </ul>
                 </div>
                 <div className="row people-worth-responsive">
-                  <div className="col-lg-3 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive">
+                  <div className="col-3 col-sm-4 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive">
                     <a href={ceiber?.linkedinurl} target="blank">
                       <i className="fa-brands fa-linkedin fa-xl people-worth-linkedin"></i>
                     </a>
                   </div>
-                  <div className="col-lg-9 people-worth-ceiber-wrapper">
+                  <div className="col-9 col-sm-8 people-worth-ceiber-wrapper">
                     <p className="people-worth-ceiber">{`${titleCase(
                       ceiber?.nombre
                     )}, ${titleCase(ceiber?.posicion)}`}</p>
