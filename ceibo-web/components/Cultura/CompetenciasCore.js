@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import uniqid from "uniqid";
