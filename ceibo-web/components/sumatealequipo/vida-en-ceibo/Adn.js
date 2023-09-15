@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import useTranslation from "next-translate/useTranslation";
-
+import { useRouter } from "next/router";
+import adnImageSpa from "../../../public/images-ceibo/sumatealequipo/vidaEnCeibo/adn-spa.png";
+import adnImageEng from "../../../public/images-ceibo/sumatealequipo/vidaEnCeibo/adn-eng.png";
 function Adn() {
   const { t } = useTranslation("common");
   const adnTitle = t("adnTitle");
@@ -14,6 +16,8 @@ function Adn() {
   const wellbeingText = t("wellbeingText");
   const reconocimientoTitle = t("reconocimientoTitle");
   const reconocimientoText = t("reconocimientoText");
+  const { locale } = useRouter();
+
   return (
     <section className="pt-70 mb-3">
       {/* TITULO */}
@@ -36,8 +40,9 @@ function Adn() {
                   alt="sentido de pertenencia"
                 />
               </div>
-              <div className="col-lg-10 col-md-10 col-sm-12 adn-responsive" 
-              /* style={{
+              <div
+                className="col-lg-10 col-md-10 col-sm-12 adn-responsive"
+                /* style={{
                 position: 'relative',
                 left: '10rem',
                 overflow: 'visible'
@@ -98,7 +103,7 @@ function Adn() {
             // style={{zIndex: '-1'}}
           >
             <Image
-              src="/images-ceibo/sumatealequipo/vidaEnCeibo/adn.png"
+              src={locale == "es" ? adnImageSpa : adnImageEng}
               width={650}
               height={1000}
               // layout="intrinsic"
