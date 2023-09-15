@@ -6,7 +6,7 @@
     "posicion": "MANAGING PARTNER",
     "email": "david@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -19,7 +19,7 @@
     "posicion": "PARTNER",
     "email": "hernan@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -32,7 +32,7 @@
     "posicion": "SENIOR MANAGER",
     "email": "ignacio.navarromoreno@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -45,7 +45,7 @@
     "posicion": "MANAGER",
     "email": "soledad.lobato@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -58,7 +58,7 @@
     "posicion": "MANAGER",
     "email": "angie.deane@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -71,7 +71,7 @@
     "posicion": "MANAGER",
     "email": "jonathan.ivani@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -84,7 +84,7 @@
     "posicion": "MANAGER",
     "email": "marcos.larguia@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -97,7 +97,7 @@
     "posicion": "MANAGER",
     "email": "pablo.suarez.anzorena@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -110,7 +110,7 @@
     "posicion": "MANAGER",
     "email": "",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -123,7 +123,7 @@
     "posicion": "EXPERT",
     "email": "lucio.flores@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -136,7 +136,7 @@
     "posicion": "PROJECT LEADER",
     "email": "tomas.bell@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -149,7 +149,7 @@
     "posicion": "PROJECT LEADER",
     "email": "luis.sanchez@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -162,7 +162,7 @@
     "posicion": "TECH LEADER",
     "email": "dario.melman@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -175,7 +175,7 @@
     "posicion": "CONSULTANT",
     "email": "martin.romanelli@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -188,7 +188,7 @@
     "posicion": "CONSULTANT",
     "email": "candelaria.rueteguemes@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -201,9 +201,11 @@
     "posicion": "CONSULTANT",
     "email": "victoria.selva@ceibo.digital",
     "ceiber": {
-      "nikname": "Vicky",
-      "quote": "Tener una experiencia previa en una de las Big Four de consultoría me permite valorar más lo que es Ceibo. Tenes responsabilidades que en consultoras más grandes no tendrías, la curva de aprendizaje es altísima, un excelente clima de trabajo y buena onda desde el más junior hasta el más senior",
+      "nickname": "Vicky",
+      "quote": "Tener una experiencia previa en una de las Big Four de consultoría me permite valorar más lo que es Ceibo. Tenés responsabilidades que en consultoras más grandes no tendrías, la curva de aprendizaje es altísima, y hay un excelente clima de trabajo y buena onda desde el más junior hasta el más senior.",
+      "quoteEN": "Having previous experience at one of the 'Big Four' firms allows me to appreciate Ceibo even more. You have responsibilities that you might not encounter in larger consulting firms, the learning curve is very steep, and there is an excellent working environment.",
       "tags": ["Aprendizaje", "Desafiante", "Diversión"],
+      "tagsEN": ["Learning", "Challenging", "Fun"],
       "img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Victoria Selva.png"
     }
   },
@@ -214,7 +216,7 @@
     "posicion": "CONSULTANT",
     "email": "",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -227,9 +229,11 @@
     "posicion": "CONSULTANT",
     "email": "",
     "ceiber": {
-      "nikname": "Sofi",
-      "quote": "Ceibo combina muchos aspectos clave que aspiraba a encontrar en una empresa: excelente clima de trabajo y buena onda entre todos, poder trabajar y conocer variedad de industrias, tener que capacitarme en nuevos temas para desarrollar mis actividades",
+      "nickname": "Sofi",
+      "quote": "Ceibo combina muchos aspectos clave que aspiraba a encontrar en una empresa: un excelente clima de trabajo y buena onda entre todos, la posibilidad de trabajar y conocer variedad de industrias, y la necesidad de capacitarme en nuevos temas para desarrollar mis actividades.",
+      "quoteEN": "Ceibo combines many key aspects that I aspired to find in a company: an excellent working environment, the opportunity to work in and learn about a variety of industries, and the possibility to receive training in new subjects to further develop my capabilities.",
       "tags": ["Dinámico", "Desafiante", "Aprendizaje"],
+      "tagsEN": ["Dynamic", "Challenging", "Learning"],
       "img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Sofia Ronchi Rivara.png"
     }
   },
@@ -240,7 +244,7 @@
     "posicion": "SENIOR SPECIALIST",
     "email": "sergio.milla@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -253,7 +257,7 @@
     "posicion": "SENIOR SPECIALIST",
     "email": "nicolas.calvo@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -266,7 +270,7 @@
     "posicion": "SENIOR SPECIALIST",
     "email": "nahuel.ojeda@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -279,7 +283,7 @@
     "posicion": "SENIOR SPECIALIST",
     "email": "",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -293,7 +297,7 @@
     "posicion": "SENIOR ASSOCIATE",
     "email": "alina.ibanez@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -307,9 +311,11 @@
     "posicion": "SENIOR ASSOCIATE",
     "email": "beltran.gandolfo@ceibo.digital",
     "ceiber": {
-      "nikname": "Corcho",
-      "quote": "Ceibo me da la oportunidad de trabajar con gente que busca como uno encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, cómo pueden ser tecnología y desarrollo",
+      "nickname": "Corcho",
+      "quote": "Ceibo me da la oportunidad de trabajar con gente que busca encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, como pueden ser tecnología y desarrollo.",
+      "quoteEN": "Ceibo gives me the opportunity to work with people who are constantly seeking to discover their best selves and to learn from individuals with expertise in various areas of knowledge that interest me, such as technology and development.",
       "tags": ["Trabajo en equipo", "Autonomía", "Aprendizaje"],
+      "tagsEN": ["Teamwork", "Autonomy", "Learning"],
       "img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Beltran Gandolfo.png"
     }
   },
@@ -320,7 +326,7 @@
     "posicion": "SENIOR ASSOCIATE",
     "email": "ivan.lenguas@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -333,7 +339,7 @@
     "posicion": "SENIOR ASSOCIATE",
     "email": "felicitas.vivo@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -346,7 +352,7 @@
     "posicion": "SENIOR ASSOCIATE",
     "email": "german.behrens@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -359,7 +365,7 @@
     "posicion": "ASSOCIATE",
     "email": "andres.denham@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -372,7 +378,7 @@
     "posicion": "ASSOCIATE",
     "email": "facundo.yvorra@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -386,9 +392,11 @@
     "posicion": "ASSOCIATE",
     "email": "martin.iuvaro@ceibo.digital",
     "ceiber": {
-      "nikname": "Tincho",
-      "quote": "Ceibo me permite explorar distintas áreas e industrias que siempre me interesaron y que no hubiese explorado por mi cuenta, de las cuales me llevé grandes aprendizajes. Lo considero un ambiente dinámico de mucho aprendizaje, gran flexibilidad y sobre todo personas increíbles",
+      "nickname": "Tincho",
+      "quote": "Ceibo me permite explorar distintas áreas e industrias que siempre me interesaron y otras que no hubiese explorado por mi cuenta, de las cuales me llevé grandes aprendizajes. Lo considero un ambiente dinámico, de mucho aprendizaje, con gran flexibilidad y, sobre todo, con personas increíbles.",
+      "quoteEN": "Ceibo has enabled me to explore various areas and industries that have always interested me, ones I might not have explored on my own. I consider it a dynamic environment with ample learning opportunities, great flexibility, and, above all, incredible people.",
       "tags": ["Dinámico", "Desafiante", "Nutritivo"],
+      "tagsEN": ["Dynamic", "Nourishing", "Challenging"],
       "img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Martin Iuvaro.png"
     }
   },
@@ -399,9 +407,11 @@
     "posicion": "ASSOCIATE",
     "email": "santiago.sin@ceibo.digital",
     "ceiber": {
-      "nikname": "Santi",
-      "quote": "En estos primeros meses como Ceiber conocí a un grupo de gente increible y mejoré mis capacidades de ser efectivo con el uso del tiempo y ser más específico a la hora de comunicarme, ya sea para sustentar mis decisiones para expresar mi opinión al resto del equipo o clientes",
-      "tags": ["Dinámico", "Variedad", "Pensamiento Crítico"],
+      "nickname": "Santi",
+      "quote": "En estos primeros meses como Ceiber conocí a un grupo de gente increíble y mejoré mis capacidades de ser efectivo con el uso del tiempo y más específico a la hora de comunicarme, tanto para sustentar mis decisiones como para expresar mi opinión frene al resto del equipo o a clientes.",
+      "quoteEN": "In my first few months as a Ceiber, I met an amazing group of people. I improved my ability to be effective in managing time and enhancing my communication skills, whether to support my decisions or to express my opinions to my team or clients.",
+      "tags": ["Dinámico", "Variedad", "Pensamiento crítico"],
+      "tagsEN": ["Dynamic", "Innovative", "Critical thinking"],
       "img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Santiago Sin.png"
     }
   },
@@ -412,7 +422,7 @@
     "posicion": "ASSOCIATE",
     "email": "facundo.castillo@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -425,7 +435,7 @@
     "posicion": "ASSOCIATE",
     "email": "lucia.godino@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -438,7 +448,7 @@
     "posicion": "ASSOCIATE",
     "email": "santiago.carlino@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -451,7 +461,7 @@
     "posicion": "ASSOCIATE",
     "email": "andres.borgognon@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -464,7 +474,7 @@
     "posicion": "ASSOCIATE",
     "email": "felipe.diniz@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -477,7 +487,7 @@
     "posicion": "ASSOCIATE",
     "email": "malena.burs@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -490,7 +500,7 @@
     "posicion": "ANALYST",
     "email": "marcos.mazza@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -503,7 +513,7 @@
     "posicion": "ANALYST",
     "email": "mateo.buraschi@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -516,7 +526,7 @@
     "posicion": "ANALYST",
     "email": "ornella.gaudiosi@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -529,7 +539,7 @@
     "posicion": "ANALYST",
     "email": "",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -542,7 +552,7 @@
     "posicion": "ANALYST",
     "email": "",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -555,7 +565,7 @@
     "posicion": "STAFF",
     "email": "julieta.haberkorn@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -569,7 +579,7 @@
     "posicion": "STAFF",
     "email": "florencia.urrutia@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -582,7 +592,7 @@
     "posicion": "STAFF",
     "email": "nahuel.gonzalez@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
@@ -595,7 +605,7 @@
     "posicion": "STAFF",
     "email": "victoria.berlin@ceibo.digital",
     "ceiber": {
-      "nikname": "",
+      "nickname": "",
       "quote": "",
       "tags": [],
       "img": ""
