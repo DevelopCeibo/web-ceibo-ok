@@ -1213,13 +1213,14 @@
   }
   .people-worth-responsive {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
   }
-  .people-worth-linkedin-wrapper-responsive {
-    justify-content: center;
-  }
+
   .people-worth-ceiber-wrapper {
     text-align: center;
+  }
+  .people-worth {
+    padding: 0 1rem;
   }
 }
 
@@ -1302,7 +1303,6 @@
     margin-bottom: 3%;
     margin-top: 5%;
   }
-
 }
 
 /* Min width 768px to Max width 991px */
@@ -2012,6 +2012,13 @@
     font-size: 20px;
     text-align: center;
   }
+  .people-worth-quote {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .people-worth-bc {
+    height: 650px;
+  }
 }
 
 /* Min width 992px to Max width 1199px */
@@ -2384,6 +2391,13 @@
     height: 293px;
     width: 440px;
   }
+  .people-worth-quote {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .people-worth-bc {
+    height: 700px;
+  }
 }
 
 /* Min width 1200px to Max width 1399px */
@@ -2403,6 +2417,10 @@
   }
   .gptw-image {
     width: 800px;
+  }
+  .people-worth-quote {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
