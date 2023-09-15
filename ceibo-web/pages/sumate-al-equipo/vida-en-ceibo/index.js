@@ -15,8 +15,8 @@ const index = () => {
   const { t } = useTranslation("common");
   const sumateTitleTag = t("sumateTitleTag");
   const sumateMetaDesc = t("sumateMetaDesc");
-  const sumateh1 = t("sumateh1");
-  const sumateh2 = t("sumateh2");
+  const h1 = t("vidaEnCeibo");
+  const h2 = t("vidaEnCeiboh2");
 
   return (
     <>
@@ -26,9 +26,9 @@ const index = () => {
       </Head>
       <NavbarFive />
       <PageBanner
-        pageTitle={sumateh1}
-        subtitle={sumateh2}
-        BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
+        pageTitle={h1}
+        subtitle={h2}
+        BGImage="/images-ceibo/Banner-vida-en-ceibo.jpg"
       />
       <GptwCultura2 />
       <VidaEnCeiboQuotesSwiper />
