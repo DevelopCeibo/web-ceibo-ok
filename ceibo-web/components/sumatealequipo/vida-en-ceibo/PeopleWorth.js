@@ -4,9 +4,10 @@ import { Pagination } from "swiper";
 import Image from "next/image";
 import ceibersJson from "../../../utils/integrantesCeibo.json";
 import useTranslation from "next-translate/useTranslation";
-
+import { useRouter } from "next/router";
 function PeopleWorth() {
   const { t } = useTranslation("common");
+  const { locale } = useRouter();
   const peopleWorthTitle = t("peopleWorthTitle");
   const titleCase = (str) => {
     return str
@@ -68,29 +69,43 @@ function PeopleWorth() {
                 />
               </div>
               <div className="people-worth-quote">
-                <p>{ceiber.ceiber.quote}</p>
+                <p>
+                  {locale === "es"
+                    ? ceiber.ceiber.quote
+                    : ceiber.ceiber.quoteEN}
+                </p>
               </div>
 
               <div className="people-worth-card-footer">
                 <div className="people-worth-card-question-wrapper">
-                  <p className="people-worth-card-question">{`¿Cómo describe ${ceiber?.ceiber?.nikname} su día en Ceibo?`}</p>
+                  <p className="people-worth-card-question">
+                    {locale === "es"
+                      ? `¿Cómo describe ${ceiber?.ceiber?.nickname} su día en Ceibo?`
+                      : `How does ${ceiber.ceiber?.nickname} describe a day at Ceibo?`}
+                  </p>
                 </div>
                 <div className="people-worth-card-tag-wrapper">
                   <ul className="people-worth-card-tag">
-                    {ceiber?.ceiber?.tags?.map((tag, i) => (
-                      <li key={i}>
-                        <a href="#">{tag}</a>
-                      </li>
-                    ))}
+                    {locale === "es"
+                      ? ceiber?.ceiber?.tags?.map((tag, i) => (
+                          <li key={i}>
+                            <a href="#">{tag}</a>
+                          </li>
+                        ))
+                      : ceiber?.ceiber?.tagsEN?.map((tag, i) => (
+                          <li key={i}>
+                            <a href="#">{tag}</a>
+                          </li>
+                        ))}
                   </ul>
                 </div>
                 <div className="row people-worth-responsive">
-                  <div className="col-3 col-sm-4 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive">
+                  <div className="col-3 col-sm-4 col-xl-3 people-worth-linkedin-wrapper people-worth-linkedin-wrapper-responsive">
                     <a href={ceiber?.linkedinurl} target="blank">
                       <i className="fa-brands fa-linkedin fa-xl people-worth-linkedin"></i>
                     </a>
                   </div>
-                  <div className="col-9 col-sm-8 people-worth-ceiber-wrapper">
+                  <div className="col-9 col-sm-8 col-xl-9 people-worth-ceiber-wrapper">
                     <p className="people-worth-ceiber">{`${titleCase(
                       ceiber?.nombre
                     )}, ${titleCase(ceiber?.posicion)}`}</p>
