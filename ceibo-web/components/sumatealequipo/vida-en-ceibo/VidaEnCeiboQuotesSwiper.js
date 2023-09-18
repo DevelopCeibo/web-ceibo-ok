@@ -13,7 +13,7 @@ const VidaEnCeiboQuotesSwiper = () => {
   const quotes = t("vidaEnCeiboQuotes", {}, { returnObjects: true });
 
   return (
-    <div className="background-grey py-3 mt-5">
+    <div className="background-grey py-5 mt-5">
       <div className="container">
         <div className="section-title mb-4">
           <h3 className="ceibo-green">{title}</h3>
