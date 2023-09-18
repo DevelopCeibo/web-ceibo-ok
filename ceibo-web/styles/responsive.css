@@ -1219,8 +1219,22 @@
   .people-worth-ceiber-wrapper {
     text-align: center;
   }
+
   .people-worth {
     padding: 0 1rem;
+  }
+
+  /* ESPECIALIZACIÓN */
+  .esp-responsive {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .esp-reverse {
+    flex-direction: column-reverse;
   }
 }
 
