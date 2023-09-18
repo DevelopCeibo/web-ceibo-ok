@@ -8718,8 +8718,19 @@ abbr:hover {
   margin: -5px auto 60px;
   max-width: none;
 }
-.esp-subtitle {
+.section-title .esp-subtitle {
+  padding-top: 1rem;
+  max-width: none;
   text-align: center;
   font-weight: 400;
   margin: 0 8%;
+}
+.esp-card-text-wrapper {
+  padding-top: 2rem;
+}
+.esp-card-title {
+  font-weight: bold;
+}
+.esp-ra {
+  text-align: right;
 }
