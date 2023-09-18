@@ -436,6 +436,50 @@
 
   "peopleWorthTitle": "¿Qué es lo que nuestra gente más valora?",
 
+  "careerPathTitle": "Explorá nuestro career path",
+  "careerPathParagraphs": [
+    {
+      "text": "En Ceibo valoramos el crecimiento y desarrollo de nuestros colaboradores, y por eso diseñamos un sólido career path que guíe sus pasos dentro de Ceibo y, a la vez, su carrera profesional. En Ceibo nos enorgullece decir que el crecimiento está directamente ligado al desempeño y los logros de cada uno. Evaluamos el rendimiento de nuestros colaboradores en cada trimestre del año y ofrecemos oportunidades de promoción rápida a aquellos que demuestran excelencia y contribuciones significativas."
+    },
+    {
+      "text": "En nuestra organización hay siete niveles que definen la progresión de los colaboradores."
+    },
+    {
+      "text": "Es importante destacar que en Ceibo tenemos dos perfiles distintos: Consultores y Especialistas, que trabajan en conjunto en diferentes proyectos para impulsar la transformación digital. Los primeros cinco niveles del career path son distintos para ambos perfiles. En el sexto nivel la carrera se unifica en la posición de Senior Manager."
+    }
+  ],
+  "careerPathLevelsTitle": "Los 7 niveles del career path",
+  "careerPathLevels": [
+    {
+      "subtitle": "Nivel 1: Associate",
+      "description": "En el nivel de Associate, comenzarás tu trayectoria profesional con nosotros. Aquí, aprenderás los fundamentos de la consultoría, adquiriendo habilidades y conocimientos esenciales para crecer en tu carrera. Trabajarás junto a equipos experimentados en proyectos desafiantes, desarrollando tus habilidades analíticas y de resolución de problemas."
+    },
+    {
+      "subtitle": "Nivel 2: Senior Associate",
+      "description": "Como Senior Associate asumirás más responsabilidades dentro del equipo y continuarás desarrollando habilidades de consultoría. Tu capacidad para elaborar análisis propios y tomar decisiones informadas así como tu habilidad para generar valor para los clientes serán claves para tu éxito en esta etapa."
+    },
+    {
+      "subtitle": "Nivel 3: Consultant",
+      "description": "Al llegar al nivel de Consultant, tendrás mayor responsabilidad e influencia en los resultados de tus equipos, y habrás desarrollado una sólida “caja de herramientas” como consultor. Tus habilidades de comunicación con el cliente y tu capacidad para generar resultados de valor e impacto serán fundamentales en este nivel."
+    },
+    {
+      "subtitle": "Nivel 4: Project Leader",
+      "description": "Como Project Leader, serás responsable de liderar y administrar proyectos completos. Serás el enlace entre nuestros clientes y nuestro equipo de consultores. Además de tus habilidades técnicas, necesitarás habilidades de gestión sólidas para garantizar que los proyectos se entreguen con éxito y dentro del plazo."
+    },
+    {
+      "subtitle": "Nivel 5: Manager",
+      "description": "Al alcanzar el nivel de Manager, estarás a cargo de diferentes equipos de consultores y tendrás la oportunidad de tomar decisiones estratégicas y de alto nivel para impulsar el crecimiento de nuestros clientes y de nuestra empresa. Tu capacidad para liderar y motivar a tu equipo será esencial para lograr resultados sobresalientes."
+    },
+    {
+      "subtitle": "Nivel 6: Senior Manager",
+      "description": "Aquí la carrera de consultor y la carrera de especialista se unen. Tendrás la oportunidad de aplicar tus conocimientos y experiencia en diferentes proyectos. Serás responsable de liderar equipos multidisciplinarios y de garantizar que las soluciones que brindamos sean innovadoras y estén a la vanguardia de la transformación digital."
+    },
+    {
+      "subtitle": "Nivel 7: Partner",
+      "description": "Como Partner, serás parte de la dirección de la empresa, influyendo en la toma de decisiones y forjando el futuro de nuestra consultora. Tu experiencia, habilidades comerciales y capacidad para generar relaciones sólidas con los clientes serán fundamentales para el éxito de nuestra empresa."
+    }
+  ],
+
   "espacializacionTitle": "Especializaciones",
   "especializacionText": "En Ceibo, creemos en forjar un camino profesional único y lleno de posibilidades para cada colaborador. Y es por eso que los consultores tienen la oportunidad de especializarse en tres verticales distintas: datos, growth marketing y desarrollo. Estas especializaciones se pueden dar a través de capacitaciones específicas, experiencia práctica en proyectos relacionados, y trainings tanto dentro de la empresa como en colaboración con instituciones académica. La oportunidad de especializarse permite a los Ceibers fortalecer sus habilidades técnicas, adquirir experiencia práctica y convertirse en líderes en el campo de especialización elegido.",
   "dataTitle": "Datos",

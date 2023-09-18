@@ -437,6 +437,49 @@
 
   "peopleWorthTitle": "What do our people value most?",
 
+  "careerPathTitle": "Explore our career path",
+  "careerPathParagraphs": [
+    {
+      "text": "En Ceibo valoramos el crecimiento y desarrollo de nuestros <strong>colaboradores</strong>, y por eso diseñamos un sólido career path que guíe sus pasos dentro de Ceibo y, a la vez, su carrera profesional. En Ceibo nos enorgullece decir que el crecimiento está directamente ligado al desempeño y los logros de cada uno. Evaluamos el rendimiento de nuestros colaboradores en cada trimestre del año y ofrecemos oportunidades de promoción rápida a aquellos que demuestran excelencia y contribuciones significativas."
+    },
+    {
+      "text": "En nuestra organización hay siete niveles que definen la progresión de los colaboradores."
+    },
+    {
+      "text": "Es importante destacar que en Ceibo tenemos dos perfiles distintos: Consultores y Especialistas, que trabajan en conjunto en diferentes proyectos para impulsar la transformación digital. Los primeros cinco niveles del career path son distintos para ambos perfiles. En el sexto nivel la carrera se unifica en la posición de Senior Manager."
+    }
+  ],
+  "careerPathLevelsTitle": "Explore our career path",
+  "careerPathLevels": [
+    {
+      "subtitle": "Level 1: Associate",
+      "description": "At the Associate level, you'll embark on your professional journey with us. Here, you will learn the fundamentals of consulting, acquiring essential skills and knowledge to foster your career growth. You'll collaborate with experienced teams on challenging projects, honing your analytical and problem-solving abilities."
+    },
+    {
+      "subtitle": "Level 2: Senior Associate",
+      "description": "As a Senior Associate, you'll assume more responsibilities within the team and continue to develop your consulting skills. Your ability to craft independent analyses, make informed decisions, and generate value for clients will be pivotal to your success at this stage."
+    },
+    {
+      "subtitle": "Level 3: Consultant",
+      "description": "Upon reaching the Consultant level, you'll shoulder greater responsibility and wield more influence over your team's outcomes. By now, you will have built a robust toolkit as a consultant. Your client communication skills and your capacity to deliver impactful and valuable results will be paramount at this level."
+    },
+    {
+      "subtitle": "Level 4: Project Leader",
+      "description": "As a Project Leader, you will be responsible for overseeing and managing entire projects. You'll serve as the bridge between our clients and our consulting team. In addition to your technical skills, you'll need strong management abilities to ensure successful project delivery within deadlines."
+    },
+    {
+      "subtitle": "Level 5: Manager",
+      "description": "Upon attaining the Manager level, you will oversee different teams of consultants and have the opportunity to make high-level, strategic decisions that drive the growth of our clients and our company. Your leadership and team motivation skills will be essential in achieving outstanding results."
+    },
+    {
+      "subtitle": "Level 6: Senior Manager",
+      "description": "Here, the consulting and specialist careers converge. You'll have the opportunity to apply your knowledge and experience to various projects. You will lead multidisciplinary teams and ensure that the solutions we provide are innovative and at the forefront of digital transformation."
+    },
+    {
+      "subtitle": "Level 7: Partner",
+      "description": "As a Partner, you will be part of the company's leadership, influencing decision-making and shaping the future of our consultancy. Your experience, business acumen, and ability to cultivate strong client relationships will be critical to our company's success."
+    }
+  ],
   "espacializacionTitle": "Specialization tracks",
   "especializacionText": "At Ceibo, we're committed to fostering a dynamic career environment where your potential knows no bounds, and your career path is uniquely yours to design and follow. And that's why consultants have the opportunity to specialize in three distinct verticals:  data, growth marketing, and development. These specialized tracks can be pursued through comprehensive training programs, hands-on project experience, and collaborative training initiatives with academic institutions. By specializing, you'll sharpen your technical skills, gain practical expertise, and emerge as a leader in your chosen field.",
   "dataTitle": "Data",
