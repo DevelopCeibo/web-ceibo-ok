@@ -434,5 +434,14 @@
   "reconocimientoTitle": "Reconocimiento",
   "reconocimientoText": "Buscamos reconocer las acciones y actitudes que se alinean a los valores que nos identifican, celebrando a quienes los representen. Dos veces al año, se reconocen a los “embajadores” que encarnan los valores de las Competencias Core (inspirar, ganar, emprender, transformar).",
 
-  "peopleWorthTitle": "¿Qué es lo que nuestra gente más valora?"
+  "peopleWorthTitle": "¿Qué es lo que nuestra gente más valora?",
+
+  "espacializacionTitle": "Especializaciones",
+  "especializacionText": "En Ceibo, creemos en forjar un camino profesional único y lleno de posibilidades para cada colaborador. Y es por eso que los consultores tienen la oportunidad de especializarse en tres verticales distintas: datos, growth marketing y desarrollo. Estas especializaciones se pueden dar a través de capacitaciones específicas, experiencia práctica en proyectos relacionados, y trainings tanto dentro de la empresa como en colaboración con instituciones académica. La oportunidad de especializarse permite a los Ceibers fortalecer sus habilidades técnicas, adquirir experiencia práctica y convertirse en líderes en el campo de especialización elegido.",
+  "dataTitle": "Datos",
+  "dataText": "En un mundo impulsando por la información, nuestros Especialistas en Datos son los encargados de extraer de ella significado y valor. Su dominio de herramientas y técnicas analíticas les permite explorar conjuntos de datos con precisión, identificando patrones y tendencias que sustentan decisiones estratégicas.",
+  "growthTitle": "Growth Marketing",
+  "growthText": "Nuestros expertos en Growth Marketing ayudan a impulsar el crecimiento de nuestros clientes  mediante estrategias de marketing efectivas. No solo entienden las métricas, sino que también saben cómo traducirlas en estrategias innovadoras y experimentos que generan un impacto medible y escalable.",
+  "developerTitle": "Desarrollo",
+  "developerText": "Nuestros especialistas en desarrollo son los creadores de las aplicaciones, sistemas y programas que transforman ideas en soluciones concretas. Combinando su ingenio creativo con habilidades técnicas sólidas, estos expertos trabajan en la intersección entre la creatividad y la funcionalidad, asegurando que cada línea de código sea una puerta abierta hacia experiencias digitales intuitivas y fluidas."
 }

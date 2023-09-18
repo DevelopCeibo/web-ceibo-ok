@@ -435,5 +435,14 @@
   "reconocimientoTitle": "Recognition",
   "reconocimientoText": "We seek to recognize the actions and attitudes that are aligned with the values that identify us, celebrating those who represent them. Twice a year, 'ambassadors' who embody the values of our Core Competencies are awarded.",
 
-  "peopleWorthTitle": "What do our people value most?"
+  "peopleWorthTitle": "What do our people value most?",
+
+  "espacializacionTitle": "Specialization tracks",
+  "especializacionText": "At Ceibo, we're committed to fostering a dynamic career environment where your potential knows no bounds, and your career path is uniquely yours to design and follow. And that's why consultants have the opportunity to specialize in three distinct verticals:  data, growth marketing, and development. These specialized tracks can be pursued through comprehensive training programs, hands-on project experience, and collaborative training initiatives with academic institutions. By specializing, you'll sharpen your technical skills, gain practical expertise, and emerge as a leader in your chosen field.",
+  "dataTitle": "Data",
+  "dataText": "In a world driven by information, our Data Analysis Specialists are tasked with extracting meaning and value from it. Their mastery of analytical tools and techniques enables them to explore datasets with precision, identifying patterns and trends that underpin strategic decisions.",
+  "growthTitle": "Growth Marketing",
+  "growthText": "Our Growth Marketing experts help drive our clients' growth through effective marketing strategies. They not only grasp metrics but also know how to translate them into innovative strategies and experiments that generate measurable and scalable impact.",
+  "developerTitle": "Developer",
+  "developerText": "Our Development Specialists are the creators of applications, systems, and programs that turn ideas into concrete solutions. Combining their creative ingenuity with strong technical skills, these experts operate at the intersection of creativity and functionality, ensuring that each line of code serves as a gateway to intuitive and seamless digital experiences."
 }
