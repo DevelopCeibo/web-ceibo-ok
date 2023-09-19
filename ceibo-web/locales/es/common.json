@@ -436,6 +436,9 @@
 
   "peopleWorthTitle": "¿Qué es lo que nuestra gente más valora?",
 
+  "carreraEnCeiboH1": "Carrera en Ceibo",
+  "carreraEnCeiboH2": "Construí tu propio camino profesional con oportunidades de crecimiento ilimitadas",
+  "carreraEnCeiboMetaDescription": "Descubre oportunidades de carrera en Ceibo: Únete a una empresa líder en transformación digital",
   "careerPathTitle": "Explorá nuestro career path",
   "careerPathParagraphs": [
     {
@@ -477,6 +480,19 @@
     {
       "subtitle": "Nivel 7: Partner",
       "description": "Como Partner, serás parte de la dirección de la empresa, influyendo en la toma de decisiones y forjando el futuro de nuestra consultora. Tu experiencia, habilidades comerciales y capacidad para generar relaciones sólidas con los clientes serán fundamentales para el éxito de nuestra empresa."
+    }
+  ],
+
+  "careerPathVideosContent": [
+    {
+      "videoURL": "https://www.youtube.com/embed/jfKfPfyJRdk?si=Hg3K9vd-ZTypSa6v",
+      "title": "Carrera en Ceibo Digital",
+      "text": "Explora tu futuro profesional con nosotros. ACA ALARGARIA LOS TEXTOS, ESTA CARD TIENE EL ALTO FIJO Y ADEMAS SE USA EN OTRA SECCION"
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/jfKfPfyJRdk?si=Hg3K9vd-ZTypSa6v",
+      "title": "Los 7 niveles del career path",
+      "text": "Conocé en detalle los diferentes niveles profesionales en Ceibo."
     }
   ],
 

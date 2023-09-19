@@ -437,19 +437,23 @@
 
   "peopleWorthTitle": "What do our people value most?",
 
+  "carreraEnCeiboH1": "Careers at Ceibo",
+  "carreraEnCeiboH2": "Build your own professional path with unlimited growth opportunities",
+  "carreraEnCeiboMetaDescription": "Discover career opportunities at Ceibo: Join a company leading in digital transformation.",
+
   "careerPathTitle": "Explore our career path",
   "careerPathParagraphs": [
     {
-      "text": "En Ceibo valoramos el crecimiento y desarrollo de nuestros <strong>colaboradores</strong>, y por eso diseñamos un sólido career path que guíe sus pasos dentro de Ceibo y, a la vez, su carrera profesional. En Ceibo nos enorgullece decir que el crecimiento está directamente ligado al desempeño y los logros de cada uno. Evaluamos el rendimiento de nuestros colaboradores en cada trimestre del año y ofrecemos oportunidades de promoción rápida a aquellos que demuestran excelencia y contribuciones significativas."
+      "text": "We value the growth and development of our employees, and that is why we design a solid career path that guides your steps within Ceibo and, at the same time, your professional career. At Ceibo we are proud to say that growth is directly linked to the performance and achievements of each one. We evaluate the performance of our employees in each quarter of the year and offer rapid promotion opportunities to those who demonstrate excellence and significant contributions."
     },
     {
-      "text": "En nuestra organización hay siete niveles que definen la progresión de los colaboradores."
+      "text": "In our organization there are seven levels that define the progression of employees."
     },
     {
-      "text": "Es importante destacar que en Ceibo tenemos dos perfiles distintos: Consultores y Especialistas, que trabajan en conjunto en diferentes proyectos para impulsar la transformación digital. Los primeros cinco niveles del career path son distintos para ambos perfiles. En el sexto nivel la carrera se unifica en la posición de Senior Manager."
+      "text": "It is important to note that in ceibo we have two different profiles: consultants and specialists, who work together on different projects to promote digital transformation. The first five levels of the career path are different for both profiles. In the sixth level the career is unified in the position of Senior Manager."
     }
   ],
-  "careerPathLevelsTitle": "Explore our career path",
+  "careerPathLevelsTitle": "The 7 Levels of the Career Path",
   "careerPathLevels": [
     {
       "subtitle": "Level 1: Associate",
@@ -478,6 +482,19 @@
     {
       "subtitle": "Level 7: Partner",
       "description": "As a Partner, you will be part of the company's leadership, influencing decision-making and shaping the future of our consultancy. Your experience, business acumen, and ability to cultivate strong client relationships will be critical to our company's success."
+    }
+  ],
+
+  "careerPathVideosContent": [
+    {
+      "videoURL": "https://www.youtube.com/embed/jfKfPfyJRdk?si=Hg3K9vd-ZTypSa6v",
+      "title": "Career at Ceibo Digital",
+      "text": "Explore your professional future with us."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/jfKfPfyJRdk?si=Hg3K9vd-ZTypSa6v",
+      "title": "The 7 Levels of the Career Path",
+      "text": "Embark on a journey through the different professional levels with Ceibo."
     }
   ],
   "espacializacionTitle": "Specialization tracks",
