@@ -8,18 +8,23 @@ import CarreraEnCeibo from "../../../components/sumatealequipo/desarrollo-profes
 import Especializaciones from "../../../components/sumatealequipo/desarrollo-profesional/Especializaciones";
 import ComoNosOrganizamos from "../../../components/Cultura/ComoNosOrganizamos";
 import NavigationCardSection from "../../../components/sumatealequipo/posiciones-abiertas/NavigationCardSection";
-
+import useTranslation from "next-translate/useTranslation";
 const index = () => {
+  const { t } = useTranslation("common");
+  const h1 = t("carreraEnCeiboH1");
+  const h2 = t("carreraEnCeiboH2");
+  const metaDescription = t("carreraEnCeiboMetaDescription");
+
   return (
     <>
       <Head>
-        <title>{"sumateTitleTag"}</title>
-        <meta name="description" content={"sumateMetaDesc"} />
+        <title>{h1}</title>
+        <meta name="description" content={metaDescription} />
       </Head>
       <NavbarFive />
       <PageBanner
-        pageTitle={"sumateh1"}
-        subtitle={"sumateh2"}
+        pageTitle={h1}
+        subtitle={h2}
         BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
       />
 
