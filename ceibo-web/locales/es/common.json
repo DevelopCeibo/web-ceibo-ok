@@ -25,6 +25,8 @@
   "rolesParaEspecialistas": "Roles para especialistas",
   "postularse": "Postularse",
 
+  "vidaEnCeiboh2": "La cultura es un elemento fundamental de nuestro ADN. Conocé qué implica formar parte de nuestro equipo y cómo es nuestro día a día",
+
   "vidaEnCeiboCard": {
     "title": "VIDA EN CEIBO",
     "description": "Conocé qué implica formar parte de nuestro equipo y cómo es nuestro día a día",
@@ -86,6 +88,7 @@
   "queHacemos": "Qué hacemos",
   "sumateAlEquipo": "Sumate al equipo",
   "busquedasAbiertas": "Búsquedas abiertas",
+  "vidaEnCeibo": "Vida en Ceibo",
   "casosExito": "Casos de éxito",
   "casosExitoSubt": "Descubrí cómo generamos valor para nuestros clientes",
   "contacto": "Contacto",
@@ -229,6 +232,69 @@
   ],
   "conocenos": "Conocenos",
 
+  "vidaEnCeiboQuotesTitle": "¿Qué es lo que convierte a Ceibo en un gran lugar para trabajar?",
+  "vidaEnCeiboQuotes": [
+    {
+      "text": "“Se desafía constantemente a los colaboradores y hay una cultura de equipo muy saludable. Se genera un alto sentido de pertenencia”"
+    },
+    {
+      "text": "“La empresa se caracteriza por delegar la capacidad de tomar decisiones e indagar sobre las soluciones, lo cual hace a las personas desafiar sus capacidades y superar sus límites”"
+    },
+    {
+      "text": "“Posibilidad de crecimiento, dinamismo y aprendizaje”"
+    },
+    {
+      "text": "“Búsqueda de la excelencia y cultura colaborativa”"
+    },
+    {
+      "text": "“La flexibilidad en la modalidad y tiempo de trabajo. La cercanía de los colaboradores hace que puedas ser amigo además de compañero“"
+    },
+    {
+      "text": "“La cultura. Tenemos clases de yoga, recreos de juego (llamados 'cafés'), días con actividades especiales y viajes para conocernos entre todos, divertirnos y descontracturar”"
+    },
+    {
+      "text": "“Considero que la empatía y la preocupación genuina que tenemos entre todos los colaboradores es un valor que resalta mucho en la cultura y contribuye muchísimo al team building”"
+    },
+    {
+      "text": "“Todos siempre dispuestos a dar una mano, a escuchar cuando hay problemas y a compartir los conocimientos adquiridos, más allá del trabajo, en todos los aspectos“"
+    },
+    {
+      "text": "“Excelente cartera de clientes, los mejores talentos y una excelente cultura organizacional”"
+    }
+  ],
+
+  "comoEsTrabajarEnCeiboTitle": "¿Cómo es trabajar en Ceibo Digital?",
+
+  "comoEsTrabajarEnCeiboVideoContent": [
+    {
+      "videoURL": "https://www.youtube.com/embed/kpcl2kQBcD0?si=8ZkM4TbYqQSxXgfc",
+      "title": "Retreat Mendoza 2023",
+      "text": "Cada año organizamos un Retreat en el cual planificamos los objetivos por delante, realizamos actividades de team building y nos divertimos mucho. Siempre fieles a nuestra filosofía “work hard, play hard”."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/ufuk9HQbHOM?si=sCIUo9DYaBJpQibT",
+      "title": "Transfer Miami",
+      "text": "Una vez por año, un grupo de Ceibers son elegidos para trabajar durante 3 meses en las oficinas de Miami junto a nuestro Managing Partner David Wilson."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/WWNw6StWrIU?si=BXo-OhL6yYLVWF0O",
+      "title": "Fútbol y after, ¿qué mejor plan?",
+      "text": "Buscamos promover el work-life balance y el bienestar general de nuestros colaboradores a través de actividades deportivas o recreativas que estén por fuera de lo laboral. Fútbol, paddle, bowling y más!"
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/KhgLuLww0DA?si=NA1O5wcUaC2Wyxxn",
+      "title": "¡Conocé nuestras oficinas!",
+      "text": "La oficina de Buenos Aires, está ubicada en Espacio Circular, Nordelta.  Las facilidades ofrecidas por el cowork, nos permiten compartir entre todos espacios de trabajo, almuerzos y actividades recreativas."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/48vG5N7UiFw?si=fJr2UrdL5zTt0Yku",
+      "title": "EL Hackaton desde adentro",
+      "text": "Durante dos días vivimos un encuentro híbrido de desarrollo colaborativo de software, en donde trabajamos diferentes iniciativas que fomentaron la integración, el crecimiento y las buenas prácticas entre Ceibers."
+    }
+  ],
+
+  "seguinosEnRedes": "Seguinos en las redes para conocer más sobre nuestra cultura",
+
   "queEsTransformacion": "¿Qué es para nosotros la transformación digital?",
   "queEsSubtitle": "La transformación digital es repensar el modelo de negocios de una compañía a la luz de tres elementos",
   "nuevoEscenarioSubt": "Nuevo escenario competitivo",
@@ -355,5 +421,18 @@
   "empresa": "Empresa",
   "cargo": "Cargo",
   "escrirbimsg": "Escribí tu mensaje..",
-  "ingresaCorreo": "Ingresá tu correo"
+  "ingresaCorreo": "Ingresá tu correo",
+
+  "adnTitle": "ADN Ceibo Digital",
+  "adnText": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea work hard sino también play hard.",
+  "pertenenciaTitle": "Sentido de pertenencia",
+  "pertenenciaText": "A través de actividades recreativas, eventos y presencialidad, buscamos que cada colaborador se sienta una parte clave de Ceibo, fomentando así el trabajo en equipo, el compañerismo y el buen clima laboral.",
+  "empatiaTitle": "Empatía y confianza",
+  "empatiaText": "Creamos espacios distendidos y entretenidos donde nuestros colaboradores puedan relacionarse de manera personal, favoreciendo la empatía y la confianza para así fomentar el compañerismo y el team building.",
+  "wellbeingTitle": "Wellbeing",
+  "wellbeingText": "Promovemos el work-life balance y el bienestar general de nuestros colaboradores a través de actividades deportivas, yoga, tips de salud, charlas con especialistas y un buen balance.",
+  "reconocimientoTitle": "Reconocimiento",
+  "reconocimientoText": "Buscamos reconocer las acciones y actitudes que se alinean a los valores que nos identifican, celebrando a quienes los representen. Dos veces al año, se reconocen a los “embajadores” que encarnan los valores de las Competencias Core (inspirar, ganar, emprender, transformar).",
+
+  "peopleWorthTitle": "¿Qué es lo que nuestra gente más valora?"
 }
