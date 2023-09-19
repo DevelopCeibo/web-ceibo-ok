@@ -2,7 +2,7 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 import Image from "next/image";
-const CarreerPathImage = () => {
+const CareerPathImage = () => {
   const { t } = useTranslation("common");
   const { locale } = useRouter();
   return (
@@ -38,4 +38,4 @@ const CarreerPathImage = () => {
   );
 };
 
-export default CarreerPathImage;
+export default CareerPathImage;
