@@ -22,7 +22,7 @@ const ExploreOurCareerPathSwiper = () => {
           <p>{content[selectedPathLevel]?.description}</p>
         </article>
       </section>
-      <div className="d-flex row mt-4 align-items-center justify-content-center">
+      <div className="d-flex row mt-4 pb-5 align-items-center justify-content-center">
         <IconButton
           style={{ width: "fit-content", color: "#b72837" }}
           onClick={() =>
