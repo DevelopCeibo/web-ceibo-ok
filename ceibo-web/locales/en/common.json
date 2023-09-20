@@ -48,6 +48,13 @@
     "href": "/sumate-al-equipo/proceso-de-reclutamiento"
   },
 
+  "busquedasCeiboCard": {
+    "title": "JOB OPENINGS",
+    "description": "Explore all our job openings",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
+    "href": "/sumate-al-equipo/busquedas-vigentes"
+  },
+
   "casosh1": "Digital transformation success stories",
   "casosh2": "Learn how we generate value for our customers",
   "casosTitleTag": "Digital transformation success stories - Ceibo Digital",
