@@ -14,6 +14,11 @@ const index = () => {
   const h1 = t("carreraEnCeiboH1");
   const h2 = t("carreraEnCeiboH2");
   const metaDescription = t("carreraEnCeiboMetaDescription");
+  const navigationCardSectionContentKeys = [
+    "vidaEnCeiboCard",
+    "entrevistasCeiboCard",
+    "busquedasCeiboCard",
+  ];
 
   return (
     <>
@@ -31,7 +36,9 @@ const index = () => {
       <CarreraEnCeibo />
       <Especializaciones />
       <ComoNosOrganizamos />
-      <NavigationCardSection />
+      <NavigationCardSection
+        contentKeysArray={navigationCardSectionContentKeys}
+      />
       <Footer />
     </>
   );
