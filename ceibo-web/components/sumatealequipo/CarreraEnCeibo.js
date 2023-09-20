@@ -1,21 +1,21 @@
-import React from "react"
-import { useTheme } from "@mui/material/styles"
-import useMediaQuery from "@mui/material/useMediaQuery"
-import Image from "next/image"
-import { useRouter } from "next/router"
-import useTranslation from "next-translate/useTranslation"
+import React from "react";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Image from "next/image";
+import { useRouter } from "next/router";
+import useTranslation from "next-translate/useTranslation";
 
 const CarreraEnCeibo = () => {
-  const { t } = useTranslation("common")
-  const carrera = t("carrera")
-  const carreraTxt1 = t("carreraTxt1")
-  const carreraTxt2 = t("carreraTxt2")
-  const carreraTxt3 = t("carreraTxt3")
+  const { t } = useTranslation("common");
+  const carrera = t("carrera");
+  const carreraTxt1 = t("carreraTxt1");
+  const carreraTxt2 = t("carreraTxt2");
+  const carreraTxt3 = t("carreraTxt3");
 
-  const theme = useTheme()
-  const matchesSM = useMediaQuery(theme.breakpoints.up("sm"))
+  const theme = useTheme();
+  const matchesSM = useMediaQuery(theme.breakpoints.up("sm"));
 
-  const { locale } = useRouter()
+  const { locale } = useRouter();
   return (
     <div className="pt-70 pb-4 mt-4">
       <div className="container">
@@ -31,10 +31,11 @@ const CarreraEnCeibo = () => {
         {/* large screen image */}
         <div className="d-none d-md-block d-lg-block">
           <Image
-            src={`/images-ceibo/sumatealequipo/${locale == "es"
-              ? "carrera-en-ceibo-español.jpg"
-              : "Career-Path-inglés_1-11.png"
-              }`}
+            src={`/images-ceibo/sumatealequipo/${
+              locale == "es"
+                ? "carrera-en-ceibo-español.jpg"
+                : "Career-Path-inglés_1-11.png"
+            }`}
             alt="carrera en ceibo"
             width={5}
             height={3}
@@ -44,10 +45,11 @@ const CarreraEnCeibo = () => {
         {/*mobile screen image */}
         <div className="d-md-none d-lg-none">
           <Image
-            src={`/images-ceibo/sumatealequipo/${locale == "es"
-              ? "career-path-español-mobile.png"
-              : "Career-Path-inglés_1-11.png"
-              }`}
+            src={`/images-ceibo/sumatealequipo/${
+              locale == "es"
+                ? "career-path-español-mobile.png"
+                : "career-path-mobile-ENG.png"
+            }`}
             alt="carrera en ceibo"
             width={5}
             height={5}
@@ -56,7 +58,7 @@ const CarreraEnCeibo = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CarreraEnCeibo
+export default CarreraEnCeibo;

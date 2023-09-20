@@ -26,7 +26,7 @@ const CareerPathImage = () => {
           src={`/images-ceibo/sumatealequipo/${
             locale == "es"
               ? "career-path-español-mobile.png"
-              : "Career-Path-inglés_1-11.png"
+              : "career-path-mobile-ENG.png"
           }`}
           alt="carrera en ceibo"
           width={5}
