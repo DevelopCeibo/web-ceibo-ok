@@ -16,7 +16,7 @@ const CareerPathVideos = () => {
         return (
           <div
             key={uniqid()}
-            className="col-12 col-md-6 d-flex justify-content-center"
+            className="col-12 col-md-6 d-flex justify-content-center mb-3"
           >
             <CardWithVideo
               videoURL={content.videoURL}
