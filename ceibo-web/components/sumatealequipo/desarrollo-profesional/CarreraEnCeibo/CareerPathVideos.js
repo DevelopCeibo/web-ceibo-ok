@@ -11,7 +11,7 @@ const CareerPathVideos = () => {
   );
   console.log(videoContentArray);
   return (
-    <div className="row mt-5 pt-4">
+    <div className="row mt-5">
       {videoContentArray?.map((content) => {
         return (
           <div
