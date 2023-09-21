@@ -34,9 +34,9 @@ const index = () => {
         BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
       />
       <BusquedasVigentesCategorizado />
-      <NavigationCardSection
+      {/* <NavigationCardSection
         contentKeysArray={navigationCardSectionContentKeys}
-      />
+      /> */}
       <Footer />
     </>
   );
