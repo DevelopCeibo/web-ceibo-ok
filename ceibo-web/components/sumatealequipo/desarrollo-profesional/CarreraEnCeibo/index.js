@@ -10,7 +10,7 @@ const Index = () => {
       <Introduction />
       <CareerPathImage />
       <ExploreOurCareerPathSwiper />
-      <CareerPathVideos />
+      {/* <CareerPathVideos /> */}
     </div>
   );
 };
