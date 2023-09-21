@@ -13,7 +13,7 @@ const Especializaciones = () => {
   const developerTitle = t("developerTitle");
   const developerText = t("developerText");
   return (
-    <section className="pt-70 mb-5">
+    <section className="pt-50 mb-5">
       {/* TITLE */}
       <div className="section-title esp-title">
         <h2> {espacializacionTitle}</h2>
