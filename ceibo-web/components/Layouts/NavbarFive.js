@@ -135,13 +135,12 @@ const NavbarFive = () => {
                         <a className="nav-link">Overview</a>
                       </Link>
                     </li>
-
                     <li className="nav-item">
                       <Link
-                        href="/sumate-al-equipo/busquedas-vigentes"
+                        href="/sumate-al-equipo/desarrollo-profesional"
                         activeClassName="active"
                       >
-                        <a className="nav-link">{busquedasAbiertas}</a>
+                        <a className="nav-link">{carreraEnCeibo}</a>
                       </Link>
                     </li>
                     <li className="nav-item">
@@ -152,12 +151,13 @@ const NavbarFive = () => {
                         <a className="nav-link">{vidaEnCeibo}</a>
                       </Link>
                     </li>
+
                     <li className="nav-item">
                       <Link
-                        href="/sumate-al-equipo/desarrollo-profesional"
+                        href="/sumate-al-equipo/busquedas-vigentes"
                         activeClassName="active"
                       >
-                        <a className="nav-link">{carreraEnCeibo}</a>
+                        <a className="nav-link">{busquedasAbiertas}</a>
                       </Link>
                     </li>
                   </ul>
