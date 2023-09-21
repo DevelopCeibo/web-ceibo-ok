@@ -15,6 +15,11 @@ const index = () => {
   const h1 = t("busquedasVigentesh1");
   const h2 = t("busquedasVigentesh2");
   const busquedasAbiertas = t("busquedasAbiertas");
+  const navigationCardSectionContentKeys = [
+    "vidaEnCeiboCard",
+    "carreraEnCeiboCard",
+    "entrevistasCeiboCard",
+  ];
 
   return (
     <>
@@ -28,7 +33,10 @@ const index = () => {
         subtitle={h2}
         BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
       />
-      <BusquedasVigentesCategorizado />;{/* <NavigationCardSection /> */}
+      <BusquedasVigentesCategorizado />
+      <NavigationCardSection
+        contentKeysArray={navigationCardSectionContentKeys}
+      />
       <Footer />
     </>
   );

@@ -48,6 +48,13 @@
     "href": "/sumate-al-equipo/proceso-de-reclutamiento"
   },
 
+  "busquedasCeiboCard": {
+    "title": "JOB OPENINGS",
+    "description": "Explore all our job openings",
+    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
+    "href": "/sumate-al-equipo/busquedas-vigentes"
+  },
+
   "casosh1": "Digital transformation success stories",
   "casosh2": "Learn how we generate value for our customers",
   "casosTitleTag": "Digital transformation success stories - Ceibo Digital",
@@ -435,5 +442,74 @@
   "reconocimientoTitle": "Recognition",
   "reconocimientoText": "We seek to recognize the actions and attitudes that are aligned with the values that identify us, celebrating those who represent them. Twice a year, 'ambassadors' who embody the values of our Core Competencies are awarded.",
 
-  "peopleWorthTitle": "What do our people value most?"
+  "peopleWorthTitle": "What do our people value most?",
+
+  "carreraEnCeiboH1": "Careers at Ceibo",
+  "carreraEnCeiboH2": "Build your own professional path with unlimited growth opportunities",
+  "carreraEnCeiboMetaDescription": "Discover career opportunities at Ceibo: Join a company leading in digital transformation.",
+
+  "careerPathTitle": "Explore our career path",
+  "careerPathParagraphs": [
+    {
+      "text": "We value the growth and development of our employees, and that is why we design a solid career path that guides your steps within Ceibo and, at the same time, your professional career. At Ceibo we are proud to say that growth is directly linked to the performance and achievements of each one. We evaluate the performance of our employees in each quarter of the year and offer rapid promotion opportunities to those who demonstrate excellence and significant contributions."
+    },
+    {
+      "text": "In our organization there are seven levels that define the progression of employees."
+    },
+    {
+      "text": "It is important to note that in ceibo we have two different profiles: consultants and specialists, who work together on different projects to promote digital transformation. The first five levels of the career path are different for both profiles. In the sixth level the career is unified in the position of Senior Manager."
+    }
+  ],
+  "careerPathLevelsTitle": "The 7 Levels of the Career Path",
+  "careerPathLevels": [
+    {
+      "subtitle": "Level 1: Associate",
+      "description": "At the Associate level, you'll embark on your professional journey with us. Here, you will learn the fundamentals of consulting, acquiring essential skills and knowledge to foster your career growth. You'll collaborate with experienced teams on challenging projects, honing your analytical and problem-solving abilities."
+    },
+    {
+      "subtitle": "Level 2: Senior Associate",
+      "description": "As a Senior Associate, you'll assume more responsibilities within the team and continue to develop your consulting skills. Your ability to craft independent analyses, make informed decisions, and generate value for clients will be pivotal to your success at this stage."
+    },
+    {
+      "subtitle": "Level 3: Consultant",
+      "description": "Upon reaching the Consultant level, you'll shoulder greater responsibility and wield more influence over your team's outcomes. By now, you will have built a robust toolkit as a consultant. Your client communication skills and your capacity to deliver impactful and valuable results will be paramount at this level."
+    },
+    {
+      "subtitle": "Level 4: Project Leader",
+      "description": "As a Project Leader, you will be responsible for overseeing and managing entire projects. You'll serve as the bridge between our clients and our consulting team. In addition to your technical skills, you'll need strong management abilities to ensure successful project delivery within deadlines."
+    },
+    {
+      "subtitle": "Level 5: Manager",
+      "description": "Upon attaining the Manager level, you will oversee different teams of consultants and have the opportunity to make high-level, strategic decisions that drive the growth of our clients and our company. Your leadership and team motivation skills will be essential in achieving outstanding results."
+    },
+    {
+      "subtitle": "Level 6: Senior Manager",
+      "description": "Here, the consulting and specialist careers converge. You'll have the opportunity to apply your knowledge and experience to various projects. You will lead multidisciplinary teams and ensure that the solutions we provide are innovative and at the forefront of digital transformation."
+    },
+    {
+      "subtitle": "Level 7: Partner",
+      "description": "As a Partner, you will be part of the company's leadership, influencing decision-making and shaping the future of our consultancy. Your experience, business acumen, and ability to cultivate strong client relationships will be critical to our company's success."
+    }
+  ],
+
+  "careerPathVideosContent": [
+    {
+      "videoURL": "https://www.youtube.com/embed/jfKfPfyJRdk?si=Hg3K9vd-ZTypSa6v",
+      "title": "Career at Ceibo Digital",
+      "text": "In Ceibo Digital, we have consulting and specialist profiles. Learn how each career path differs in the early stages before converging into the role of a Senior Manager."
+    },
+    {
+      "videoURL": "https://www.youtube.com/embed/J2i1pxTe0CE?si=J-VI6bDWcs9CK66s",
+      "title": "The 7 Levels of the Career Path",
+      "text": "Discover in detail what the career path of Ceibo members is like and what the key responsibilities are at each level."
+    }
+  ],
+  "espacializacionTitle": "Specialization tracks",
+  "especializacionText": "At Ceibo, we're committed to fostering a dynamic career environment where your potential knows no bounds, and your career path is uniquely yours to design and follow. And that's why consultants have the opportunity to specialize in three distinct verticals:  data, growth marketing, and development. These specialized tracks can be pursued through comprehensive training programs, hands-on project experience, and collaborative training initiatives with academic institutions. By specializing, you'll sharpen your technical skills, gain practical expertise, and emerge as a leader in your chosen field.",
+  "dataTitle": "Data",
+  "dataText": "In a world driven by information, our Data Analysis Specialists are tasked with extracting meaning and value from it. Their mastery of analytical tools and techniques enables them to explore datasets with precision, identifying patterns and trends that underpin strategic decisions.",
+  "growthTitle": "Growth Marketing",
+  "growthText": "Our Growth Marketing experts help drive our clients' growth through effective marketing strategies. They not only grasp metrics but also know how to translate them into innovative strategies and experiments that generate measurable and scalable impact.",
+  "developerTitle": "Development",
+  "developerText": "Our Development Specialists are the creators of applications, systems, and programs that turn ideas into concrete solutions. Combining their creative ingenuity with strong technical skills, these experts operate at the intersection of creativity and functionality, ensuring that each line of code serves as a gateway to intuitive and seamless digital experiences."
 }

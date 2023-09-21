@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import baseUrl from "../../utils/baseUrl";
+import uniqid from "uniqid";
 const InstagramFeed = () => {
   const [feed, setFeed] = useState([]);
   const getFeed = async () => {
@@ -19,7 +20,10 @@ const InstagramFeed = () => {
       {feed.length > 0 ? (
         feed?.map((media) => {
           return (
-            <div className="d-flex justify-content-center col-6 col-sm-4 col-lg-2 px-0">
+            <div
+              key={uniqid()}
+              className="d-flex justify-content-center col-6 col-sm-4 col-lg-2 px-0"
+            >
               <a target="_blank" href={media.permalink}>
                 <img
                   src={media.media_url}
