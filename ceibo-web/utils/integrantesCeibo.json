@@ -75,21 +75,6 @@
     }
   },
   {
-    "nombre": "JONATHAN IVANI",
-    "linkedinurl": "https://www.linkedin.com/in/jonathan-ivani-68844741/",
-    "src": "/images-ceibo/integrantes/Jonathan Ivani.png",
-    "posicion": "MANAGER",
-    "email": "jonathan.ivani@ceibo.digital",
-    "ceiber": {
-      "nickname": "",
-      "quote": "",
-      "quoteEN": "",
-      "tags": [],
-      "tagsEN": [],
-      "img": ""
-    }
-  },
-  {
     "nombre": "MARCOS LARGUÍA",
     "linkedinurl": "https://www.linkedin.com/in/marcos-larguia-5921877/",
     "src": "/images-ceibo/integrantes/Marcos Larguia.png",
@@ -672,21 +657,6 @@
     "src": "/images-ceibo/integrantes/Nahuel Gonzalez.png",
     "posicion": "STAFF",
     "email": "nahuel.gonzalez@ceibo.digital",
-    "ceiber": {
-      "nickname": "",
-      "quote": "",
-      "quoteEN": "",
-      "tags": [],
-      "tagsEN": [],
-      "img": ""
-    }
-  },
-  {
-    "nombre": "MARÍA VICTORIA BERLIN",
-    "linkedinurl": "https://www.linkedin.com/in/maria-victoria-berlin/",
-    "src": "/images-ceibo/integrantes/Victoria Berlin.png",
-    "posicion": "STAFF",
-    "email": "victoria.berlin@ceibo.digital",
     "ceiber": {
       "nickname": "",
       "quote": "",
