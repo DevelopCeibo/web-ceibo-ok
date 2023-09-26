@@ -2436,6 +2436,9 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .como-prepararse-column-responsive {
+    padding-right: 5%;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1649px) {
@@ -2453,6 +2456,9 @@
   }
   .gptw-image-banner {
     width: 300px;
+  }
+  .como-prepararse-column-responsive {
+    padding-right: 5%;
   }
 }
 
@@ -2477,6 +2483,9 @@
   }
   .gptw-image-banner {
     width: 350px;
+  }
+  .como-prepararse-column-responsive {
+    padding-right: 5%;
   }
 }
 

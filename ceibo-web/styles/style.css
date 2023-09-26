@@ -198,6 +198,20 @@ p {
   transition: all 0.5s ease;
 }
 
+.btn-red {
+  border: none;
+  background: linear-gradient(125deg, #b72837, #86444a);
+  color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  padding: 13px 30px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .btn-lightblue:hover {
   color: #fff;
   transform: translateY(-4px);
@@ -8733,4 +8747,18 @@ abbr:hover {
 }
 .esp-ra {
   text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.como-prepararse-list-index {
+  background-color: #b72837;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
