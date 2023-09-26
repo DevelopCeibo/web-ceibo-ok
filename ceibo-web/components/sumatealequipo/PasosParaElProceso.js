@@ -1,27 +1,27 @@
-import React from "react"
-import useTranslation from "next-translate/useTranslation"
-import { useRouter } from "next/router"
-import { Button } from "@mui/material"
-import { IconButton } from "@mui/material"
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos"
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos"
+import React from "react";
+import useTranslation from "next-translate/useTranslation";
+import { useRouter } from "next/router";
+import { Button } from "@mui/material";
+import { IconButton } from "@mui/material";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 const PasosParaElProceso = () => {
-  const { locale } = useRouter()
+  const { locale } = useRouter();
 
-  const { t } = useTranslation("common")
-  const pasosproceso = t("pasosproceso")
-  const paso1Subt = t("paso1Subt")
-  const paso1Txt = t("paso1Txt")
-  const paso2Subt = t("paso2Subt")
-  const paso2Txt = t("paso2Txt")
-  const paso3Subt = t("paso3Subt")
-  const paso3Txt = t("paso3Txt")
-  const paso4Subt = t("paso4Subt")
-  const paso4Txt = t("paso4Txt")
-  const paso5Subt = t("paso5Subt")
-  const paso5Txt = t("paso5Txt")
-  const paso6Subt = t("paso6Subt")
-  const paso6Txt = t("paso6Txt")
+  const { t } = useTranslation("common");
+  const pasosproceso = t("pasosproceso");
+  const paso1Subt = t("paso1Subt");
+  const paso1Txt = t("paso1Txt");
+  const paso2Subt = t("paso2Subt");
+  const paso2Txt = t("paso2Txt");
+  const paso3Subt = t("paso3Subt");
+  const paso3Txt = t("paso3Txt");
+  const paso4Subt = t("paso4Subt");
+  const paso4Txt = t("paso4Txt");
+  const paso5Subt = t("paso5Subt");
+  const paso5Txt = t("paso5Txt");
+  const paso6Subt = t("paso6Subt");
+  const paso6Txt = t("paso6Txt");
 
   const pasosData = [
     {
@@ -60,25 +60,25 @@ const PasosParaElProceso = () => {
       subtitle: `${locale == "es" ? "Paso" : "Step"} 6`,
       detail: paso6Txt,
     },
-  ]
+  ];
 
   const [pasosContent, setpasosContent] = React.useState({
     id: 1,
     title: paso1Subt,
     subtitle: `${locale == "es" ? "Paso" : "Step"} 1`,
     detail: paso1Txt,
-  })
+  });
 
   const handleChangePasos = (id) => {
-    const pasoSel = pasosData.find((obj) => obj.id === id)
-    setpasosContent(pasoSel)
-  }
+    const pasoSel = pasosData.find((obj) => obj.id === id);
+    setpasosContent(pasoSel);
+  };
 
   return (
     <div className="pt-70 pb-100 mb-1 mt-4">
       <div className="container ">
         <div className="section-title sumatealequipo">
-          <h3>{pasosproceso}</h3>
+          <h2>{pasosproceso}</h2>
         </div>
         <div className="row justify-content-center mt-5">
           <div className="col-6 col-md-4 col-sm-3 col-lg-2">
@@ -199,7 +199,7 @@ const PasosParaElProceso = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PasosParaElProceso
+export default PasosParaElProceso;
