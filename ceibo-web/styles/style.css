@@ -8762,3 +8762,15 @@ abbr:hover {
   justify-content: center;
   align-items: center;
 }
+
+/* RECRUITING */
+.recruiting-title-text {
+  text-align: justify;
+}
+.section-title .recruiting-eva-text {
+  margin: 0px;
+  max-width: none;
+}
+.recruiting-eva-text-final {
+  text-align: start;
+}
