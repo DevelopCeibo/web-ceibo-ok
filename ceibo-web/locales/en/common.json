@@ -565,5 +565,11 @@
       "text": "Casebooks will help you become familiar with different types of cases and provide an opportunity to practice and refine your skills before facing interviews.",
       "casebooks": true
     }
-  ]
+  ],
+
+  "procesoReclutamientoTitle": "Our Process",
+  "procesoReclutamientoText": "At CEIBO, our recruitment process has been meticulously crafted to ensure that candidates meet our expectations and align with our culture and values. During this process, candidates have the chance to immerse themselves in the essence of CEIBO, interacting with a diverse group of team members from various backgrounds and experiences.",
+  "procesoReclutamientoEvaluacionTitle": "What do we evaluate?",
+  "procesoReclutamientoEvaluacionText": "Throughout the entire process, we assess four key dimensions, which are the same criteria used to evaluate all team members throughout their careers at Ceibo:",
+  "procesoReclutamientoTextFinal": "By assessing these four key dimensions during the recruitment process, we can identify candidates who demonstrate the ability to tackle complex problems, possess effective communication skills, exhibit a willingness to collaborate in teams, and maintain a constant desire for professional development. These qualities are fundamental to cultivating highly competent and well-prepared consultants capable of addressing the ever-evolving challenges in the business landscape and delivering innovative solutions to our clients."
 }
