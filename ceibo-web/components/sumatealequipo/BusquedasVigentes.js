@@ -1,20 +1,21 @@
-import React from "react"
-import Link from "next/link"
-import useTranslation from "next-translate/useTranslation"
-import vacantes from "../../utils/vacantes.json"
+import React from "react";
+import Link from "next/link";
+import useTranslation from "next-translate/useTranslation";
+import vacantes from "../../utils/vacantes.json";
+import uniqid from "uniqid";
 
 const BusquedasVigentes = () => {
-  const { t } = useTranslation("common")
-  const busquedasvigentes = t("busquedasvigentes")
-  const dataScientist = t("dataScientist")
-  const manager = t("manager")
-  const consultant = t("consultant")
-  const associate = t("associate")
-  const developer = t("developer")
-  const marketingAutomation = t("marketing-automation")
-  const seniorPaidMedia = t("senior-paid-media")
-  const vermas = t("vermas")
-  const contactanos = t("contactanos")
+  const { t } = useTranslation("common");
+  const busquedasvigentes = t("busquedasvigentes");
+  const dataScientist = t("dataScientist");
+  const manager = t("manager");
+  const consultant = t("consultant");
+  const associate = t("associate");
+  const developer = t("developer");
+  const marketingAutomation = t("marketing-automation");
+  const seniorPaidMedia = t("senior-paid-media");
+  const vermas = t("vermas");
+  const contactanos = t("contactanos");
 
   return (
     <div className="pt-70 pb-100 mb-3 mt-4">
@@ -26,7 +27,7 @@ const BusquedasVigentes = () => {
         <div className="row justify-content-start">
           {vacantes.map((vac) => {
             return (
-              <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <div key={uniqid()} className="col-lg-3 col-md-6 mb-4 mb-md-0">
                 <div className="bc-post-item card-vacantes">
                   <div
                     className="post-image"
@@ -64,7 +65,7 @@ const BusquedasVigentes = () => {
                   </div>
                 </div>
               </div>
-            )
+            );
           })}
         </div>
         <div className="container btn-two-container">
@@ -76,7 +77,7 @@ const BusquedasVigentes = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BusquedasVigentes
+export default BusquedasVigentes;

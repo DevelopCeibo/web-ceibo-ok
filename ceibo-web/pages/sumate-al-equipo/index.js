@@ -1,27 +1,16 @@
 import React from "react";
-import NavbarTwo from "../../components/Layouts/NavbarTwo";
 import NavbarFive from "../../components/Layouts/NavbarFive";
 import PageBanner from "../../components/Common/PageBanner";
-import Sumate from "../../components/sumatealequipo/Sumate";
 import CarreraEnCeibo from "../../components/sumatealequipo/CarreraEnCeibo";
-import FeedbackSumate from "../../components/sumatealequipo/FeedbackSumate";
-import ProcesoDeReclutamiento from "../../components/sumatealequipo/ProcesoDeReclutamiento";
-import PasosParaElProceso from "../../components/sumatealequipo/PasosParaElProceso";
-import CaseInterviews from "../../components/sumatealequipo/CaseInterviews";
+import NuestraCultura from "../../components/sumatealequipo/NuestraCultura";
 import Footer from "../../components/Layouts/Footer";
-import BusquedasVigentes from "../../components/sumatealequipo/BusquedasVigentes";
-import ComoNosOrganizamos from "../../components/Cultura/ComoNosOrganizamos";
 import Head from "next/head";
-import Image from "next/image";
 import useTranslation from "next-translate/useTranslation";
-
+import PorQueCeibo from "../../components/sumatealequipo/PorQueCeibo";
+import Vacantes from "../../components/HomePages/BusinessConsulting/Vacantes";
+import ListoParaAplicar from "../../components/sumatealequipo/ListoParaAplicar";
 const sumatealequipo = () => {
   const { t } = useTranslation("common");
-  const quebuscamos = t("quebuscamos");
-  const sumateAlEquipo = t("sumateAlEquipo");
-  const quebuscamosTxt = t("quebuscamosTxt");
-  const queofrecemos = t("queofrecemos");
-  const queofrecemosTxt = t("queofrecemosTxt");
 
   const sumateh1 = t("sumateh1");
   const sumateh2 = t("sumateh2");
@@ -40,56 +29,13 @@ const sumatealequipo = () => {
         subtitle={sumateh2}
         BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
       />
-      <div className="sumatealequipo">
-        <Sumate />
-
-        <section className="container mt-5 pt-5">
-          <article className="d-flex row align-items-center justify-content-between">
-            <div className="col-12 col-md-8 col-sm-8">
-              <h2>{quebuscamos}</h2>
-              <p>{quebuscamosTxt}</p>
-            </div>
-            <div
-              className="col-12 col-md-4 col-sm-4 d-flex pt-3 sm-justify-content-between"
-              // style={{ padding: "20px 0 0 20px" }}
-            >
-              <Image
-                src="/images-ceibo/sumatealequipo/ofertas-de-empleo-en-tecnologia.jpg"
-                width={250}
-                height={250}
-                layout="intrinsic"
-                alt="imagen del equipo de ceibo"
-              />
-            </div>
-          </article>
-
-          <article className="d-flex flex-column-reverse flex-sm-row align-items-center justify-content-between ">
-            <div
-              className="col-12 col-md-4 col-sm-4 mr-4  d-flex pt-3 "
-              // style={{ padding: "20px 20px 0 0" }}
-            >
-              <Image
-                src="/images-ceibo/sumatealequipo/Trabaja-en-Ceibo-digital.jpg"
-                width={250}
-                height={250}
-                layout="intrinsic"
-                alt="imagen del equipo de ceibo"
-              />
-            </div>
-            <div className="col-12 col-md-8 col-sm-8">
-              <h2>{queofrecemos}</h2>
-              <p>{queofrecemosTxt}</p>
-            </div>
-          </article>
-        </section>
-      </div>
+      <PorQueCeibo />
 
       <CarreraEnCeibo />
-      <ComoNosOrganizamos />
-      <ProcesoDeReclutamiento />
-      <PasosParaElProceso />
-      <CaseInterviews />
-      <BusquedasVigentes />
+      <NuestraCultura />
+
+      <Vacantes />
+      <ListoParaAplicar />
       <Footer />
     </>
   );
