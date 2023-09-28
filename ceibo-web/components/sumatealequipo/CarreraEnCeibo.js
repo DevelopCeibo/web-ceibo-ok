@@ -4,20 +4,21 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import useTranslation from "next-translate/useTranslation";
-
+import Link from "next/link";
 const CarreraEnCeibo = () => {
   const { t } = useTranslation("common");
   const carrera = t("carrera");
   const carreraTxt1 = t("carreraTxt1");
   const carreraTxt2 = t("carreraTxt2");
   const carreraTxt3 = t("carreraTxt3");
+  const buttonText = t("knowMoreCareers");
 
   const theme = useTheme();
   const matchesSM = useMediaQuery(theme.breakpoints.up("sm"));
 
   const { locale } = useRouter();
   return (
-    <div className="pt-70 pb-4 mt-4">
+    <div className="pt-70 pb-5 mb-5 mt-4">
       <div className="container">
         <div className="section-title">
           <h2>{carrera}</h2>
@@ -55,6 +56,13 @@ const CarreraEnCeibo = () => {
             height={5}
             layout="responsive"
           />
+        </div>
+        <div className="d-flex justify-content-center">
+          <Link href="/sumate-al-equipo/desarrollo-profesional">
+            <a className="default-btn-two" title="Desarrollo profesional">
+              {buttonText}
+            </a>
+          </Link>
         </div>
       </div>
     </div>
