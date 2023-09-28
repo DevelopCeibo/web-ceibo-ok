@@ -36,9 +36,9 @@ const index = () => {
       <CarreraEnCeibo />
       <Especializaciones />
       <ComoNosOrganizamos />
-      {/* <NavigationCardSection
+      <NavigationCardSection
         contentKeysArray={navigationCardSectionContentKeys}
-      /> */}
+      />
       <Footer />
     </>
   );
