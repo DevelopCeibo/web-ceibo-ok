@@ -1,21 +1,21 @@
-import React from "react"
-import Link from "next/link"
-import useTranslation from "next-translate/useTranslation"
-import vacantes from "../../../utils/vacantes.json"
+import React from "react";
+import Link from "next/link";
+import useTranslation from "next-translate/useTranslation";
+import vacantes from "../../../utils/vacantes.json";
 
 const Vacantes = () => {
-  const { t } = useTranslation("common")
-  const sumateAlEquipo = t("sumateAlEquipo")
-  const dataScientist = t("dataScientist")
-  const manager = t("manager")
-  const consultant = t("consultant")
-  const marketingAutomation = t("marketing-automation")
-  const seniorPaidMedia = t("senior-paid-media")
-  const vermas = t("vermas")
-  const mirarbusquedas = t("mirarbusquedas")
-  const uniteaceibo = t("uniteaceibo")
+  const { t } = useTranslation("common");
+  const sumateAlEquipo = t("sumateAlEquipo");
+  const dataScientist = t("dataScientist");
+  const manager = t("manager");
+  const consultant = t("consultant");
+  const marketingAutomation = t("marketing-automation");
+  const seniorPaidMedia = t("senior-paid-media");
+  const vermas = t("vermas");
+  const mirarbusquedas = t("mirarbusquedas");
+  const uniteaceibo = t("uniteaceibo");
 
-  let vacantesHome = vacantes.slice(0, 3)
+  let vacantesHome = vacantes.slice(0, 3);
   return (
     <>
       <div className="pt-60 pb-70">
@@ -61,12 +61,12 @@ const Vacantes = () => {
                     </div>
                   </div>
                 </div>
-              )
+              );
             })}
 
             <div className="col-lg-3 col-md-6">
               <div className="bc-post-item card-vacantes card-vacantes-verbusquedas">
-                <Link href="/sumate-al-equipo/#busquedas-vigentes">
+                <Link href="/sumate-al-equipo/busquedas-vigentes">
                   <div className="post-content">
                     <h2>{mirarbusquedas}</h2>
                   </div>
@@ -74,7 +74,7 @@ const Vacantes = () => {
               </div>
             </div>
             <div className="container btn-two-container">
-              <Link href="/sumate-al-equipo">
+              <Link href="/sumate-al-equipo/busquedas-vigentes">
                 <a className="default-btn-two" title="Vacantes en Ceibo">
                   {uniteaceibo} <i className="fas fa-chevron-right"></i>
                 </a>
@@ -84,7 +84,7 @@ const Vacantes = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Vacantes
+export default Vacantes;
