@@ -8797,6 +8797,5 @@ abbr:hover {
   font-size: 18px;
 }
 .overview-cul-button {
-  margin-left: 1.3rem;
-  justify-content: start;
+  justify-content: center;
 }
