@@ -1253,6 +1253,15 @@
   .recruiting-responsive-text {
     text-align: justify;
   }
+  
+  /* OVERVIEW */
+  .overview-responsive {
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .overview-responsive-text {
+    padding: 0.5rem;
+  }
 }
 
 /* Min width 576px to Max width 767px */

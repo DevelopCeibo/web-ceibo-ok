@@ -8775,13 +8775,28 @@ abbr:hover {
   text-align: start;
 }
 
+
 .listo-para-aplicar h6 {
   background-color: rgba(199, 207, 212, 0.3);
   border-radius: 10px;
   color: white;
 }
-
 .listo-para-aplicar h6:hover {
   color: black;
   background-color: white;
+}
+
+/* OVERVIEW */
+.overview-text-wrapper {
+  margin-top: 2rem;
+}
+.overview-cul-text {
+  padding-left: 2rem;
+  padding-right: 3rem;
+  text-align: justify;
+  font-size: 18px;
+}
+.overview-cul-button {
+  margin-left: 1.3rem;
+  justify-content: start;
 }
