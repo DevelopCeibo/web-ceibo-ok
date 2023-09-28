@@ -1086,7 +1086,6 @@ Navbar CSS
   width: 20px;
   z-index: 99;
   opacity: 0;
-  border-radius: 5px;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
