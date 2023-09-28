@@ -23,7 +23,7 @@ const CarreraEnCeibo = () => {
         <div className="section-title">
           <h2>{carrera}</h2>
         </div>
-        <p className="mt-5 text-center">
+        <p className="mt-5 text-center mb-5">
           <strong>{carreraTxt1}</strong> {carreraTxt2}
           <br />
           <br />
@@ -57,7 +57,7 @@ const CarreraEnCeibo = () => {
             layout="responsive"
           />
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mt-4">
           <Link href="/sumate-al-equipo/desarrollo-profesional">
             <a className="default-btn-two" title="Desarrollo profesional">
               {buttonText}
