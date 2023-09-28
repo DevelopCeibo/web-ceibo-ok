@@ -511,5 +511,65 @@
   "growthTitle": "Growth Marketing",
   "growthText": "Our Growth Marketing experts help drive our clients' growth through effective marketing strategies. They not only grasp metrics but also know how to translate them into innovative strategies and experiments that generate measurable and scalable impact.",
   "developerTitle": "Development",
-  "developerText": "Our Development Specialists are the creators of applications, systems, and programs that turn ideas into concrete solutions. Combining their creative ingenuity with strong technical skills, these experts operate at the intersection of creativity and functionality, ensuring that each line of code serves as a gateway to intuitive and seamless digital experiences."
+  "developerText": "Our Development Specialists are the creators of applications, systems, and programs that turn ideas into concrete solutions. Combining their creative ingenuity with strong technical skills, these experts operate at the intersection of creativity and functionality, ensuring that each line of code serves as a gateway to intuitive and seamless digital experiences.",
+
+  "comoPrepararse": "How to prepare?",
+  "comoPrepararseParagraphs": [
+    {
+      "text": "In CEIBO DIGITAL, our case interviews challenge candidates to solve complex problems and real-time business cases. Throughout this process, we provide limited information and ask candidates to analyze the problem, identify key factors, generate hypotheses, develop an approach to solve it, and recommend specific actions. Our approach to interviews is tailored specifically to the position you are seeking, designed to highlight your strengths and provide us with a clear understanding of your strategic thinking."
+    },
+    {
+      "text": "During these interviews, CEIBO DIGITAL interviewers closely observe how candidates:"
+    }
+  ],
+  "comoPrepararseItems": [
+    {
+      "text": "Address the problem"
+    },
+    {
+      "text": "Structure their thinking"
+    },
+    {
+      "text": "Formulate and test hypotheses"
+    },
+    {
+      "text": "Use data"
+    },
+    {
+      "text": "Communicate their ideas"
+    },
+    {
+      "text": "Work under pressure"
+    }
+  ],
+  "comoPrepararseFinalParagraph": "We believe that these interviews present a valuable opportunity for you to showcase your skills and potential. They allow us to assess how you apply your knowledge in challenging and real-world situations.",
+  "comoPrepararseVideoContent": {
+    "title": "How to stand out in our recruiting process?",
+    "description": "We want you to do well! We give you some tips so you can distinguish yourself during the interview process.",
+    "videoURL": "https://www.youtube.com/embed/1Fx5O0xQJR8"
+  },
+
+  "comoPrepararseColumnsIntro": "At Ceibo, we are committed to your success and aim to offer you an exciting and rewarding professional opportunity. To ensure you are adequately prepared for our recruitment process, we provide the following preparatory instances and resources:",
+
+  "comoPrepararseColumnsContent": [
+    {
+      "title": "Case Prep",
+      "text": "At Ceibo, we offer a valuable group Case Prep session where our team members share their knowledge and strategies for solving cases. In this interactive session, you'll receive detailed advice on approaching cases, learn effective analysis and structuring techniques, and have the opportunity to solve real-time cases alongside our team members."
+    },
+    {
+      "title": "Mentoring",
+      "text": "If you participate in the mentoring program, our team members will provide you with practice cases and offer personalized feedback. Through one-on-one sessions, you'll receive guidance and coaching to enhance your case-solving skills and reach your full potential."
+    },
+    {
+      "title": "Casebooks",
+      "text": "Casebooks will help you become familiar with different types of cases and provide an opportunity to practice and refine your skills before facing interviews.",
+      "casebooks": true
+    }
+  ],
+
+  "procesoReclutamientoTitle": "Our Process",
+  "procesoReclutamientoText": "At CEIBO, our recruitment process has been meticulously crafted to ensure that candidates meet our expectations and align with our culture and values. During this process, candidates have the chance to immerse themselves in the essence of CEIBO, interacting with a diverse group of team members from various backgrounds and experiences.",
+  "procesoReclutamientoEvaluacionTitle": "What do we evaluate?",
+  "procesoReclutamientoEvaluacionText": "Throughout the entire process, we assess four key dimensions, which are the same criteria used to evaluate all team members throughout their careers at Ceibo:",
+  "procesoReclutamientoTextFinal": "By assessing these four key dimensions during the recruitment process, we can identify candidates who demonstrate the ability to tackle complex problems, possess effective communication skills, exhibit a willingness to collaborate in teams, and maintain a constant desire for professional development. These qualities are fundamental to cultivating highly competent and well-prepared consultants capable of addressing the ever-evolving challenges in the business landscape and delivering innovative solutions to our clients."
 }

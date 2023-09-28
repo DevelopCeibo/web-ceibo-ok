@@ -22,6 +22,7 @@ const NavbarFive = () => {
   const insightsTitle = t("insightsTitle");
   const eventos = t("eventos");
   const carreraEnCeibo = t("carreraEnCeiboH1");
+  const procesoDeReclutamiento = t("proceso");
 
   const handleLocale = (e) => {
     let locale = "es";
@@ -141,6 +142,14 @@ const NavbarFive = () => {
                         activeClassName="active"
                       >
                         <a className="nav-link">{carreraEnCeibo}</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="/sumate-al-equipo/proceso-de-reclutamiento"
+                        activeClassName="active"
+                      >
+                        <a className="nav-link">{procesoDeReclutamiento}</a>
                       </Link>
                     </li>
                     <li className="nav-item">

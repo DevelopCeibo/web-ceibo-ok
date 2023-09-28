@@ -1236,6 +1236,23 @@
   .esp-reverse {
     flex-direction: column-reverse;
   }
+
+  /* RECRUITING */
+  .recruiting-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  /* .recruiting-responsive-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  .recruiting-responsive-text {
+    text-align: justify;
+  }
 }
 
 /* Min width 576px to Max width 767px */
@@ -2436,6 +2453,9 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .como-prepararse-column-responsive {
+    padding-right: 5%;
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1649px) {
@@ -2453,6 +2473,9 @@
   }
   .gptw-image-banner {
     width: 300px;
+  }
+  .como-prepararse-column-responsive {
+    padding-right: 5%;
   }
 }
 
@@ -2477,6 +2500,9 @@
   }
   .gptw-image-banner {
     width: 350px;
+  }
+  .como-prepararse-column-responsive {
+    padding-right: 5%;
   }
 }
 

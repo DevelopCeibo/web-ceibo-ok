@@ -384,7 +384,7 @@
   "trabajoequipo": "Capacidad de trabajo en equipo",
   "desarrollo": "Desarrollo profesional",
 
-  "pasosproceso": "Pasos para el proceso",
+  "pasosproceso": "¿Cómo es el proceso?",
   "paso1Subt": "Análisis de perfiles",
   "paso1Txt": "Una vez que recibimos los CVs a través de nuestra web, redes sociales, mails y cualquier otro canal, los analizamos en profundidad asegurando que los candidatos cumplan con los requisitos mínimos para cada búsqueda, tanto en formación como en experiencia específica, y que el candidato tenga las 4 dimensiones que evaluamos durante el proceso.",
   "paso2Subt": "Charla informativa",
@@ -510,5 +510,64 @@
   "growthTitle": "Growth Marketing",
   "growthText": "Nuestros expertos en Growth Marketing ayudan a impulsar el crecimiento de nuestros clientes  mediante estrategias de marketing efectivas. No solo entienden las métricas, sino que también saben cómo traducirlas en estrategias innovadoras y experimentos que generan un impacto medible y escalable.",
   "developerTitle": "Desarrollo",
-  "developerText": "Nuestros especialistas en desarrollo son los creadores de las aplicaciones, sistemas y programas que transforman ideas en soluciones concretas. Combinando su ingenio creativo con habilidades técnicas sólidas, estos expertos trabajan en la intersección entre la creatividad y la funcionalidad, asegurando que cada línea de código sea una puerta abierta hacia experiencias digitales intuitivas y fluidas."
+  "developerText": "Nuestros especialistas en desarrollo son los creadores de las aplicaciones, sistemas y programas que transforman ideas en soluciones concretas. Combinando su ingenio creativo con habilidades técnicas sólidas, estos expertos trabajan en la intersección entre la creatividad y la funcionalidad, asegurando que cada línea de código sea una puerta abierta hacia experiencias digitales intuitivas y fluidas.",
+
+  "comoPrepararse": "¿Cómo prepararse?",
+  "comoPrepararseParagraphs": [
+    {
+      "text": "Nuestras entrevistas de caso en Ceibo Digital desafían a los candidatos a resolver problemas complejos y casos de negocios en tiempo real. Durante este proceso, proporcionamos información limitada y les pedimos que analicen el problema, identifiquen los factores clave, generen hipótesis, desarrollen un enfoque para resolverlo y recomienden acciones concretas. Nuestro enfoque en las entrevistas es adaptarlas específicamente al puesto que estás buscando, diseñándolas para resaltar tus fortalezas y brindarnos una visión clara de tu pensamiento estratégico."
+    },
+    {
+      "text": "Los entrevistadores en CEIBO DIGITAL observan atentamente cómo los candidatos:"
+    }
+  ],
+  "comoPrepararseItems": [
+    {
+      "text": "Abordan el problema"
+    },
+    {
+      "text": "Estructuran su pensamiento"
+    },
+    {
+      "text": "Formulan y prueban hipótesis"
+    },
+    {
+      "text": "Utilizan datos"
+    },
+    {
+      "text": "Comunican sus ideas"
+    },
+    {
+      "text": "Trabajan bajo presión"
+    }
+  ],
+  "comoPrepararseFinalParagraph": "Creemos que estas entrevistas son una oportunidad valiosa para que demuestres tus habilidades y potencial, y nos permiten evaluar cómo aplicas tus conocimientos en situaciones desafiantes y reales.",
+  "comoPrepararseVideoContent": {
+    "title": "¿Cómo destacar en nuestro proceso de selección?",
+    "description": "¡Queremos que te vaya bien! Te damos algunos tips para que puedas distinguirte en el proceso de entevistas.",
+    "videoURL": "https://www.youtube.com/embed/1Fx5O0xQJR8"
+  },
+  "comoPrepararseColumnsIntro": "Queremos que tengas éxito y que encuentres en Ceibo una oportunidad profesional, emocionante y enriquecedora. Para asegurarnos que estés bien preparado para nuestro proceso de reclutamiento, y te brindamos las siguientes instancias y recursos de preparación:",
+
+  "comoPrepararseColumnsContent": [
+    {
+      "title": "Case Prep",
+      "text": "En Ceibo ofrecemos una valiosa charla de Case Prep grupal, donde nuestros colaboradores comparten sus conocimientos y estrategias para resolver casos. En esta sesión interactiva, recibirás consejos detallados sobre cómo abordar los casos, aprenderás técnicas efectivas de análisis y estructuración, y tendrás la oportunidad de resolver casos en tiempo real junto con nuestros colaboradores."
+    },
+    {
+      "title": "Mentoring",
+      "text": "Si participás en el programa de mentoring, nuestros colaboradores te tomarán casos de práctica y brindarán feedback personalizado. A través de sesiones uno a uno, recibirás orientación y asesoramiento para mejorar tus habilidades de resolución de casos  y alcanzar tu máximo potencial."
+    },
+    {
+      "title": "Casebooks",
+      "text": "Los casebooks te ayudarán a familiarizarte con los diferentes tipos de casos y te proporcionarán la oportunidad de practicar y perfeccionar tus habilidades antes de enfrentar las entrevistas.",
+      "casebooks": true
+    }
+  ],
+
+  "procesoReclutamientoTitle": "Nuestro Proceso",
+  "procesoReclutamientoText": "En CEIBO, nuestro proceso de reclutamiento ha sido diseñado cuidadosamente para garantizar que los candidatos cumplan con todas las expectativas requeridas para nuestras búsquedas y estén alineados con nuestra cultura y valores. Durante este proceso, brindamos a los candidatos la oportunidad de sumergirse en la esencia de CEIBO, interactuando con diversos colaboradores que provienen de distintos perfiles y experiencias.",
+  "procesoReclutamientoEvaluacionTitle": "¿Qué evaluamos?",
+  "procesoReclutamientoEvaluacionText": "Durante todo el proceso nosotros evaluamos 4 dimensiones claves, que son las mismas con las que evaluamos a todos los colaboradores durante su carrera en Ceibo:",
+  "procesoReclutamientoTextFinal": "Al evaluar estas cuatro dimensiones clave durante el proceso de reclutamiento, podemos identificar a candidatos que poseen la capacidad de resolver problemas complejos, habilidades de comunicación efectivas, la disposición para colaborar en equipos y un deseo constante de desarrollo profesional. Estas cualidades son fundamentales para tener consultores altamente competentes y preparados, capaces de enfrentar los desafíos cambiantes del entorno empresarial y brindar soluciones innovadoras a los clientes."
 }
