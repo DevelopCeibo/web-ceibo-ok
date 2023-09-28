@@ -1092,13 +1092,14 @@ Navbar CSS
   transition: all 0.3s ease-in-out;
   margin: 0;
   padding: 0;
-  background-color: #00000000;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
   padding: 7px 15px;
-  background-color: "transparent";
+  /* background-color: "transparent"; */
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a {
