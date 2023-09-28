@@ -4,23 +4,25 @@ import useTranslation from "next-translate/useTranslation";
 
 const NuestroProceso = () => {
   const { t } = useTranslation("common");
-  const resolver = t("resolver")
-  const comunicacion = t("comunicacion")
-  const trabajoequipo = t("trabajoequipo")
-  const desarrollo = t("desarrollo")
+  const resolver = t("resolver");
+  const comunicacion = t("comunicacion");
+  const trabajoequipo = t("trabajoequipo");
+  const desarrollo = t("desarrollo");
 
   const procesoReclutamientoTitle = t("procesoReclutamientoTitle");
   const procesoReclutamientoText = t("procesoReclutamientoText");
-  const procesoReclutamientoEvaluacionTitle = t("procesoReclutamientoEvaluacionTitle");
-  const procesoReclutamientoEvaluacionText = t("procesoReclutamientoEvaluacionText");
+  const procesoReclutamientoEvaluacionTitle = t(
+    "procesoReclutamientoEvaluacionTitle"
+  );
+  const procesoReclutamientoEvaluacionText = t(
+    "procesoReclutamientoEvaluacionText"
+  );
   const procesoReclutamientoTextFinal = t("procesoReclutamientoTextFinal");
 
   return (
-    <section className="pt-70 mb-5">
+    <section className="pt-70 mb-5 mt-5">
       <section className="container">
-
         <section className="row">
-
           {/* TITLE */}
           <article className="col-lg-8 col-md-8 col-sm-12">
             <div className="section-title esp-title">
@@ -42,7 +44,7 @@ const NuestroProceso = () => {
           </article>
         </section>
 
-        <section className="row pt-3">
+        <section className="row pt-3 px-0 justify-content-center">
           <article className="col-lg-12 col-md-12 col-sm-12">
             <div className="section-title esp-title">
               <h3> {procesoReclutamientoEvaluacionTitle}</h3>
@@ -53,7 +55,7 @@ const NuestroProceso = () => {
           </article>
 
           {/* CARDS */}
-          <section className="row justify-content-center recruiting-responsive-cards">
+          <section className="row justify-content-center ">
             <article className="col-6 col-sm-4 col-lg-3">
               <div className="ccore-card">
                 <img
