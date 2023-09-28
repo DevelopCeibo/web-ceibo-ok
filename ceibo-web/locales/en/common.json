@@ -513,13 +513,40 @@
   "developerTitle": "Development",
   "developerText": "Our Development Specialists are the creators of applications, systems, and programs that turn ideas into concrete solutions. Combining their creative ingenuity with strong technical skills, these experts operate at the intersection of creativity and functionality, ensuring that each line of code serves as a gateway to intuitive and seamless digital experiences.",
 
+  "porQueCeiboDigitalTitle": "Why work at Ceibo Digital?",
+  "porQueCeiboDigitalParagraph": "At Ceibo Digital, we enhance your professional and personal development alongside a team of great professionals who share a passion for business and technology.",
+  "porQueCeiboCards": [
+    {
+      "title": "Growth",
+      "text": "We boost your professional growth through challenges and responsibilities that drive your career, supporting you at every step to help you achieve your goals.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-crecimiento.png"
+    },
+    {
+      "title": "Culture",
+      "text": "The DNA of our culture is composed of 4 pillars that complement each other, aiming to ensure that the Ceibers' experience is not only 'work hard' but also 'play hard'.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-cultura.png"
+    },
+    {
+      "title": "Learning",
+      "text": "Learning never ends. Each new project, client, and team is an opportunity to expand your knowledge and acquire new skills.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-aprendizaje.png"
+    },
+    {
+      "title": "Innovation",
+      "text": "We drive change and creativity, adopting strategic and technological solutions to address complex challenges and make disruptive changes.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-innovacion.png"
+    }
+  ],
+  "listoParaAplicarTitle": "Ready to apply?",
+  "listoParaAplicarDescription": "Learn about our recruiting process",
+
   "comoPrepararse": "How to prepare?",
   "comoPrepararseParagraphs": [
     {
-      "text": "In CEIBO DIGITAL, our case interviews challenge candidates to solve complex problems and real-time business cases. Throughout this process, we provide limited information and ask candidates to analyze the problem, identify key factors, generate hypotheses, develop an approach to solve it, and recommend specific actions. Our approach to interviews is tailored specifically to the position you are seeking, designed to highlight your strengths and provide us with a clear understanding of your strategic thinking."
+      "text": "At Ceibo, our case interviews challenge candidates to solve complex problems and real-time business cases. Throughout this process, we provide limited information and ask candidates to analyze the problem, identify key factors, generate hypotheses, develop an approach to solve it, and recommend specific actions. Our approach to interviews is tailored specifically to the position you are seeking, designed to highlight your strengths and provide us with a clear understanding of your strategic thinking."
     },
     {
-      "text": "During these interviews, CEIBO DIGITAL interviewers closely observe how candidates:"
+      "text": "During these interviews, Ceibo interviewers closely observe how candidates:"
     }
   ],
   "comoPrepararseItems": [
