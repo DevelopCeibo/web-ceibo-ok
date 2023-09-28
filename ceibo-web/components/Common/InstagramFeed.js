@@ -6,7 +6,7 @@ import uniqid from "uniqid";
 const InstagramFeed = () => {
   const [feed, setFeed] = useState([]);
   const getFeed = async () => {
-    const url = `${baseUrl}/api/instagram`;
+    const url = `${baseUrl}/api/instagram/`;
     const response = await axios.get(url);
     const fetchedFeed = response.data.feed;
     setFeed(fetchedFeed);
