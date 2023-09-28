@@ -510,5 +510,32 @@
   "growthTitle": "Growth Marketing",
   "growthText": "Nuestros expertos en Growth Marketing ayudan a impulsar el crecimiento de nuestros clientes  mediante estrategias de marketing efectivas. No solo entienden las métricas, sino que también saben cómo traducirlas en estrategias innovadoras y experimentos que generan un impacto medible y escalable.",
   "developerTitle": "Desarrollo",
-  "developerText": "Nuestros especialistas en desarrollo son los creadores de las aplicaciones, sistemas y programas que transforman ideas en soluciones concretas. Combinando su ingenio creativo con habilidades técnicas sólidas, estos expertos trabajan en la intersección entre la creatividad y la funcionalidad, asegurando que cada línea de código sea una puerta abierta hacia experiencias digitales intuitivas y fluidas."
+  "developerText": "Nuestros especialistas en desarrollo son los creadores de las aplicaciones, sistemas y programas que transforman ideas en soluciones concretas. Combinando su ingenio creativo con habilidades técnicas sólidas, estos expertos trabajan en la intersección entre la creatividad y la funcionalidad, asegurando que cada línea de código sea una puerta abierta hacia experiencias digitales intuitivas y fluidas.",
+
+  "porQueCeiboDigitalTitle": "¿Por qué Ceibo Digital?",
+  "porQueCeiboDigitalParagraph": "En Ceibo Digital potenciamos tu desarrollo tanto profesional como personal junto a un equipo de grandes profesionales que los une la pasión por los negocios y la tecnología.",
+  "porQueCeiboCards": [
+    {
+      "title": "Crecimiento",
+      "text": "Potenciamos tu crecimiento profesional a través de desafíos y responsabilidades que impulsan tu carrera, apoyándote en cada paso para que alcances tus objetivos.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-crecimiento.png"
+    },
+    {
+      "title": "Cultura",
+      "text": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers no sólo sea work hard sino también play hard.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-cultura.png"
+    },
+    {
+      "title": "Aprendizaje",
+      "text": "El aprendizaje nunca termina. Cada nuevo proyecto, cliente y equipo de trabajo es una oportunidad de ampliar tus conocimientos y adquirir nuevas habilidades.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-aprendizaje.png"
+    },
+    {
+      "title": "Innovación",
+      "text": "Impulsamos el cambio y la creatividad, adoptando soluciones estratégicas y tecnológicas para abordar desafíos complejos y realizar cambios disruptivos.",
+      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-innovacion.png"
+    }
+  ],
+  "listoParaAplicarTitle": "¿Listo para aplicar?",
+  "listoParaAplicarDescription": "Conocé cómo es nuestro proceso de selección"
 }
