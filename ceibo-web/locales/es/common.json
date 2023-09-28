@@ -373,7 +373,7 @@
   "carreraTxt1": "En Ceibo tenemos perfiles de consultoría y de especialistas para los cinco primeros niveles.",
   "carreraTxt2": "En el sexto nivel la carrera se unifica en la posición de Senior Manager. Estos niveles permiten definir la responsabilidad, la compensación y el seniority.",
   "carreraTxt3": "Siempre vas a estar fuera de tu “zona de confort”, buscamos personas a las que les guste desafiarse constantemente y sean apasionadas por aprender algo nuevo todos los días. Si te gusta ”estar cómodo”, Ceibo no es el lugar para vos.",
-
+  "knowMoreCareers": "Conocé más acerca de la carreras en Ceibo",
   "proceso": "Proceso de reclutamiento",
   "sumateaceibo": "Sumate a CEIBO",
   "sumateTxt": "En CEIBO potenciamos tu desarrollo tanto profesional como personal junto a un equipo de grandes profesionales que los une la pasión por los negocios y la tecnología.",
@@ -431,7 +431,7 @@
   "ingresaCorreo": "Ingresá tu correo",
 
   "adnTitle": "ADN Ceibo Digital",
-  "adnText": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea work hard sino también play hard.",
+  "adnText": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea 'work hard 'sino también 'play hard'.",
   "pertenenciaTitle": "Sentido de pertenencia",
   "pertenenciaText": "A través de actividades recreativas, eventos y presencialidad, buscamos que cada colaborador se sienta una parte clave de Ceibo, fomentando así el trabajo en equipo, el compañerismo y el buen clima laboral.",
   "empatiaTitle": "Empatía y confianza",
@@ -522,7 +522,7 @@
     },
     {
       "title": "Cultura",
-      "text": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers no sólo sea work hard sino también play hard.",
+      "text": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers no sólo sea 'work hard' sino también 'play hard'.",
       "imagePath": "/images-ceibo/sumatealequipo/overview/icon-cultura.png"
     },
     {
@@ -597,7 +597,7 @@
   "procesoReclutamientoEvaluacionText": "Durante todo el proceso nosotros evaluamos 4 dimensiones claves, que son las mismas con las que evaluamos a todos los colaboradores durante su carrera en Ceibo:",
   "procesoReclutamientoTextFinal": "Al evaluar estas cuatro dimensiones clave durante el proceso de reclutamiento, podemos identificar a candidatos que poseen la capacidad de resolver problemas complejos, habilidades de comunicación efectivas, la disposición para colaborar en equipos y un deseo constante de desarrollo profesional. Estas cualidades son fundamentales para tener consultores altamente competentes y preparados, capaces de enfrentar los desafíos cambiantes del entorno empresarial y brindar soluciones innovadoras a los clientes.",
 
-  "overviewCulturaTitle": "Nuestra Cultura",
-  "overviewCulturaText": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea work hard sino también play hard.",
-  "knowMore": "Conocé más de nuestra Cultura"
+  "overviewCulturaTitle": "Nuestra cultura",
+  "overviewCulturaText": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea 'work hard' sino también 'play hard'.",
+  "knowMore": "Conocé más de nuestra cultura"
 }
