@@ -23,7 +23,7 @@ const ColumnWithVideo = () => {
       <div className="section-title">
         <h2>{title}</h2>
       </div>
-      <div className="row mb-5">
+      <div className="row">
         <div className="col-12 col-xl-7 como-prepararse-column-responsive">
           {paragraphs?.map((p) => {
             return (

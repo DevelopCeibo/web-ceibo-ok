@@ -1345,6 +1345,12 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .section-title .recruiting-title-text {
+    margin-right: 4%;
+  }
+}
+
 /* Min width 768px to Max width 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pl-20 {

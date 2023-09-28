@@ -24,7 +24,7 @@ const NuestroProceso = () => {
       <section className="container">
         <section className="row">
           {/* TITLE */}
-          <article className="col-lg-8 col-md-8 col-sm-12">
+          <article className="col-lg-8 col-md-8 col-sm-12 d-flex flex-column justify-content-center">
             <div className="section-title esp-title">
               <h2> {procesoReclutamientoTitle}</h2>
               <p className="recruiting-title-text">

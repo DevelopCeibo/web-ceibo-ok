@@ -8764,8 +8764,9 @@ abbr:hover {
 }
 
 /* RECRUITING */
-.recruiting-title-text {
+.section-title .recruiting-title-text {
   text-align: justify;
+  max-width: none;
 }
 .section-title .recruiting-eva-text {
   margin: 0px;
@@ -8774,7 +8775,6 @@ abbr:hover {
 .recruiting-eva-text-final {
   text-align: start;
 }
-
 
 .listo-para-aplicar h6 {
   background-color: rgba(199, 207, 212, 0.3);

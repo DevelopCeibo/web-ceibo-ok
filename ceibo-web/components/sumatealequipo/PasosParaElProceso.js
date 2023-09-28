@@ -75,7 +75,7 @@ const PasosParaElProceso = () => {
   };
 
   return (
-    <div className="pt-70 pb-100 mb-1 mt-4">
+    <div className="pb-100 mb-1 mt-3">
       <div className="container ">
         <div className="section-title sumatealequipo">
           <h2>{pasosproceso}</h2>
