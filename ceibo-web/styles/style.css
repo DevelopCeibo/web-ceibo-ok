@@ -8734,3 +8734,14 @@ abbr:hover {
 .esp-ra {
   text-align: right;
 }
+
+.listo-para-aplicar h6 {
+  background-color: rgba(199, 207, 212, 0.3);
+  border-radius: 10px;
+  color: white;
+}
+
+.listo-para-aplicar h6:hover {
+  color: black;
+  background-color: white;
+}
