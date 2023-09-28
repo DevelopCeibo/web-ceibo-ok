@@ -2,6 +2,7 @@ import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import CardWithVideo from "../../../Common/CardWithVideo";
 import ThreeColumns from "./ThreeColumns";
+import uniqid from "uniqid";
 const ColumnWithVideo = () => {
   const { t } = useTranslation("common");
   const title = t("comoPrepararse");
@@ -25,14 +26,21 @@ const ColumnWithVideo = () => {
       <div className="row mb-5">
         <div className="col-12 col-xl-7 como-prepararse-column-responsive">
           {paragraphs?.map((p) => {
-            return <p className="text-justify">{p.text}</p>;
+            return (
+              <p className="text-justify" key={uniqid()}>
+                {p.text}
+              </p>
+            );
           })}
           <div className="row justify-content-center">
             <div className="col-6 col-sm-6 col-md-6">
               {paragraphListItems?.map((p, index) => {
                 {
                   return index <= 2 ? (
-                    <div className="row d-flex flex-nowrap ms-1 mb-3 align-items-center">
+                    <div
+                      key={uniqid()}
+                      className="row d-flex flex-nowrap ms-1 mb-3 align-items-center"
+                    >
                       <div className="col-1 d-flex como-prepararse-list-index">
                         {index + 1}
                       </div>
@@ -50,7 +58,10 @@ const ColumnWithVideo = () => {
               {paragraphListItems?.map((p, index) => {
                 {
                   return index >= 3 ? (
-                    <div className="row d-flex flex-nowrap ms-1 mb-3 align-items-center">
+                    <div
+                      key={uniqid()}
+                      className="row d-flex flex-nowrap ms-1 mb-3 align-items-center"
+                    >
                       <div className="col-1 d-flex como-prepararse-list-index">
                         {index + 1}
                       </div>
