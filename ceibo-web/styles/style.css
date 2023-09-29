@@ -127,6 +127,7 @@ p {
 .first-p p {
   font-weight: bold;
   font-size: 0.9rem !important;
+  text-align: justify;
 }
 /* --------------------BLOG PUBLUCACIONES END */
 
