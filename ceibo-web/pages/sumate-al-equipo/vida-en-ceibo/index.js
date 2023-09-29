@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Head from "next/head";
 import NavbarFive from "../../../components/Layouts/NavbarFive";
 import PageBanner from "../../../components/Common/PageBanner";
@@ -13,7 +13,6 @@ import useTranslation from "next-translate/useTranslation";
 import VidaEnCeiboInstagramFeed from "../../../components/sumatealequipo/vida-en-ceibo/VidaEnCeiboInstagramFeed";
 const index = () => {
   const { t } = useTranslation("common");
-  const sumateTitleTag = t("sumateTitleTag");
   const sumateMetaDesc = t("sumateMetaDesc");
   const h1 = t("vidaEnCeibo");
   const h2 = t("vidaEnCeiboh2");
@@ -21,7 +20,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>{sumateTitleTag}</title>
+        <title>{h1}</title>
         <meta name="description" content={sumateMetaDesc} />
       </Head>
       <NavbarFive />

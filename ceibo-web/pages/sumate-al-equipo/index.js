@@ -14,13 +14,12 @@ const sumatealequipo = () => {
 
   const sumateh1 = t("sumateh1");
   const sumateh2 = t("sumateh2");
-  const sumateTitleTag = t("sumateTitleTag");
   const sumateMetaDesc = t("sumateMetaDesc");
 
   return (
     <>
       <Head>
-        <title>{sumateTitleTag}</title>
+        <title>{sumateh1}</title>
         <meta name="description" content={sumateMetaDesc} />
       </Head>
       <NavbarFive />
