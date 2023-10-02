@@ -2507,6 +2507,10 @@ Featured Services CSS
   margin-top: auto;
 }
 
+.read-more-btn:hover {
+  cursor: pointer;
+}
+
 .desc-insight {
   align-self: start;
   /* height: 175px; */
