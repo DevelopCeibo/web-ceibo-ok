@@ -89,12 +89,12 @@ function PeopleWorth() {
                     {locale === "es"
                       ? ceiber?.ceiber?.tags?.map((tag, i) => (
                           <li key={i}>
-                            <a href="#">{tag}</a>
+                            <p className="text-white">{tag}</p>
                           </li>
                         ))
                       : ceiber?.ceiber?.tagsEN?.map((tag, i) => (
                           <li key={i}>
-                            <a href="#">{tag}</a>
+                             <p className="text-white">{tag}</p>
                           </li>
                         ))}
                   </ul>

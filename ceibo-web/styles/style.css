@@ -8677,7 +8677,7 @@ abbr:hover {
   display: inline-block;
   margin-right: 5px;
 }
-.people-worth-card-tag li a {
+.people-worth-card-tag li p {
   background-color: #b72837;
   border: 1px solid #b72837;
   border-radius: 10px;
