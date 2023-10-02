@@ -1,13 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import useTranslation from "next-translate/useTranslation";
+import uniqid from "uniqid"
 
 const NuestroProceso = () => {
   const { t } = useTranslation("common");
-  const resolver = t("resolver");
-  const comunicacion = t("comunicacion");
-  const trabajoequipo = t("trabajoequipo");
-  const desarrollo = t("desarrollo");
+  const evaluatedSkills = t("procesoReclutamientoEvaluatedSkills",{},{returnObjects:true})
 
   const procesoReclutamientoTitle = t("procesoReclutamientoTitle");
   const procesoReclutamientoText = t("procesoReclutamientoText");
@@ -45,9 +43,9 @@ const NuestroProceso = () => {
         </section>
 
         <section className="row pt-3 px-0 justify-content-center">
-          <article className="col-lg-12 col-md-12 col-sm-12">
+          <article className="col-lg-12 col-md-12 col-sm-12 mt-5">
             <div className="section-title esp-title">
-              <h3> {procesoReclutamientoEvaluacionTitle}</h3>
+              <h2> {procesoReclutamientoEvaluacionTitle}</h2>
               <p className="recruiting-eva-text">
                 {procesoReclutamientoEvaluacionText}
               </p>
@@ -55,17 +53,48 @@ const NuestroProceso = () => {
           </article>
 
           {/* CARDS */}
-          <section className="row justify-content-center ">
-            <article className="col-6 col-sm-4 col-lg-3">
-              <div className="ccore-card">
-                <img
-                  src="/images-ceibo/sumatealequipo/problemas.png"
-                  alt="image"
-                  width={150}
-                />
+          <section className="row justify-content-center">
+            {evaluatedSkills?.map((skill) =>{
+              return (
+                <article key={uniqid()} className="col-12 col-sm-6 col-lg-3 flip-container">
+                <div className="ccore-card flipper">
+                  <div className="front">
+                    <img
+                      src={skill.imagePath}
+                      alt="image"
+                      width={200}
+                    />
+                    <div className="content">
+                      <h6>{skill.title}</h6>
+                    </div>
+                  </div>
+                  <div className="back">
+                  <div className="content">
+                    <p className="text-white text-justify fs-6">{skill.description}</p>
+                  </div>
+               </div>
+                </div>
+              </article>
+              )
+            })}
+
+            {/* <article className="col-6 col-sm-4 col-lg-3 flip-container">
+              <div className="ccore-card flipper">
+                <div className="front">
+                  <img
+                    src="/images-ceibo/sumatealequipo/problemas.png"
+                    alt="image"
+                    width={150}
+                  />
+                  <div className="content">
+                    <h6>{resolver}</h6>
+                  </div>
+                </div>
+                <div className="back">
                 <div className="content">
                   <h6>{resolver}</h6>
                 </div>
+             </div>
               </div>
             </article>
 
@@ -106,7 +135,7 @@ const NuestroProceso = () => {
                   <h6>{desarrollo}</h6>
                 </div>
               </div>
-            </article>
+            </article> */}
           </section>
 
           <article className="row pt-5">
