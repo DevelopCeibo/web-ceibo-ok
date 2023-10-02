@@ -377,7 +377,7 @@
   "carreraTxt3": "You will always be out of your “comfort zone”. We want people constantly looking for new challenges and passionate about learning something new every day. If you wish to remain in a comfort zone, Ceibo isn’t your place.",
   "knowMoreCareers": "Learn more about careers at Ceibo",
 
-  "proceso": "Recruiting process",
+  "proceso": "Interview process",
   "sumateaceibo": "Join us",
   "sumateTxt": "At Ceibo, we promote professional and personal development with a qualified team who shares a passion for business and technology",
   "procesoTxt1": "Our recruiting process follows a series of steps where we ensure that candidates meet all the expectations required for the position and are aligned with our culture and values. At the same time, the process allows the candidate to get to know Ceibo in-depth by interacting with collaborators with different profiles and experiences. We strongly recommend that candidates contact our collaborators to talk and get mentored throughout the process. At the end of the Culture section, the contacts of all our collaborators are available.",
@@ -386,6 +386,12 @@
   "comunicacion": "Communication and interpersonal skills",
   "trabajoequipo": "Teamwork abilities",
   "desarrollo": "Professional development",
+  "procesoReclutamientoEvaluatedSkills":[
+    {"title":"Problem-solving skills", "description":"This dimension refers to a candidate's ability to identify and analyze complex problems, as well as propose effective solutions. The ability to solve problems demonstrates a candidate's analytical skills, critical thinking and creativity.","imagePath":"/images-ceibo/sumatealequipo/problemas.png"},
+    {"title":"Communication and interpersonal skills", "description":"This dimension involves a candidate's ability to express ideas clearly and effectively both verbally and in writing. Interpersonal skills, such as empathy and the ability to build strong relationships, are crucial for interacting with diverse stakeholders and facilitating collaboration.","imagePath":"/images-ceibo/sumatealequipo/comunicacion.png"},
+    {"title":"Teamwork abilities", "description":"Consulting often involves team projects that require effective collaboration and synergy among team members. Assessing a candidate's teamwork ability involves their willingness to actively contribute and collaborate in a group setting, as well as their ability to adapt to different roles and work styles.","imagePath":"/images-ceibo/sumatealequipo/trabajo-equipo.png"},
+    {"title":"Professional development", "description":"This dimension refers to a candidate's desire and ability to learn, grow and continuously improve in his or her field. In consulting, where challenges and solutions evolve rapidly, it is essential to have professionals who are willing to acquire new knowledge, skills and competencies.","imagePath":"/images-ceibo/sumatealequipo/desarrollo.png"}
+  ],
   "pasosproceso": "The process in steps",
   "paso1Subt": "Candidates’ analysis",
   "paso1Txt": "Once we receive the resumes from our web page, social networks, emails, and any other channels, we analyze them thoroughly, making sure the candidates meet the minimum requirements for the position in terms of education and experience and that the candidate meets the four dimensions that we evaluate throughout the process.",

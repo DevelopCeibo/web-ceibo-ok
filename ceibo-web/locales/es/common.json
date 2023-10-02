@@ -383,7 +383,12 @@
   "comunicacion": "Habilidades de comunicación e interpersonales",
   "trabajoequipo": "Capacidad de trabajo en equipo",
   "desarrollo": "Desarrollo profesional",
-
+  "procesoReclutamientoEvaluatedSkills":[
+    {"title":"Capacidad de resolver problemas", "description":"Esta dimensión se refiere a la habilidad de un candidato para identificar y analizar problemas complejos, así como proponer soluciones efectivas. Dicha capacidad demuestra la agudeza analítica, el pensamiento crítico y la creatividad de un candidato.","imagePath":"/images-ceibo/sumatealequipo/problemas.png"},
+    {"title":"Habilidades de comunicación e interpersonales", "description":"Esta dimensión implica la capacidad de un candidato para expresar ideas de manera clara y efectiva tanto verbalmente como por escrito. Además, las habilidades interpersonales, como la empatía y la capacidad de establecer relaciones sólidas, son cruciales para interactuar con diversas partes interesadas y facilitar la colaboración.","imagePath":"/images-ceibo/sumatealequipo/comunicacion.png"},
+    {"title":"Capacidad de trabajo en equipo", "description":"La consultoría a menudo implica proyectos de equipo que requieren una colaboración efectiva y una sinergia entre los miembros del equipo. Evaluar la capacidad de trabajo en equipo de un candidato implica su disposición para contribuir y colaborar activamente en un entorno de grupo, así como su capacidad para adaptarse a diferentes roles y estilos de trabajo.","imagePath":"/images-ceibo/sumatealequipo/trabajo-equipo.png"},
+    {"title":"Desarrollo profesional", "description":"Esta dimensión se refiere al deseo y la capacidad de un candidato para aprender, crecer y mejorar continuamente en su campo. En la consultoría, donde los desafíos y las soluciones evolucionan rápidamente, es esencial contar con profesionales dispuestos a adquirir nuevos conocimientos, habilidades y competencias.","imagePath":"/images-ceibo/sumatealequipo/desarrollo.png"}
+  ],
   "pasosproceso": "¿Cómo es el proceso?",
   "paso1Subt": "Análisis de perfiles",
   "paso1Txt": "Una vez que recibimos los CVs a través de nuestra web, redes sociales, mails y cualquier otro canal, los analizamos en profundidad asegurando que los candidatos cumplan con los requisitos mínimos para cada búsqueda, tanto en formación como en experiencia específica, y que el candidato tenga las 4 dimensiones que evaluamos durante el proceso.",
@@ -591,7 +596,7 @@
     }
   ],
 
-  "procesoReclutamientoTitle": "Nuestro Proceso",
+  "procesoReclutamientoTitle": "Nuestro proceso",
   "procesoReclutamientoText": "En CEIBO, nuestro proceso de reclutamiento ha sido diseñado cuidadosamente para garantizar que los candidatos cumplan con todas las expectativas requeridas para nuestras búsquedas y estén alineados con nuestra cultura y valores. Durante este proceso, brindamos a los candidatos la oportunidad de sumergirse en la esencia de CEIBO, interactuando con diversos colaboradores que provienen de distintos perfiles y experiencias.",
   "procesoReclutamientoEvaluacionTitle": "¿Qué evaluamos?",
   "procesoReclutamientoEvaluacionText": "Durante todo el proceso nosotros evaluamos 4 dimensiones claves, que son las mismas con las que evaluamos a todos los colaboradores durante su carrera en Ceibo:",
