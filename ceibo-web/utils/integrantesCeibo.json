@@ -331,6 +331,21 @@
       "img": ""
     }
   },
+  {
+    "nombre": "NERINA ALCOBER",
+    "linkedinurl": "https://www.linkedin.com/in/nerinaalcober",
+    "src": "/images-ceibo/integrantes/Nerina Alcober.png",
+    "posicion": "SENIOR SPECIALIST",
+    "email": "",
+    "ceiber": {
+      "nickname": "",
+      "quote": "",
+      "quoteEN": "",
+      "tags": [],
+      "tagsEN": [],
+      "img": ""
+    }
+  },
 
   {
     "nombre": "ALINA IBAÑEZ",
@@ -610,6 +625,21 @@
     "nombre": "DELFINA GUARINO",
     "linkedinurl": "https://www.linkedin.com/in/delfina-guarino/",
     "src": "/images-ceibo/integrantes/Delfina Guarino.png",
+    "posicion": "ANALYST",
+    "email": "",
+    "ceiber": {
+      "nickname": "",
+      "quote": "",
+      "quoteEN": "",
+      "tags": [],
+      "tagsEN": [],
+      "img": ""
+    }
+  },
+  {
+    "nombre": "SERGIO GENES",
+    "linkedinurl": "https://www.linkedin.com/in/sergio-genes/",
+    "src": "/images-ceibo/integrantes/Sergio Genes.png",
     "posicion": "ANALYST",
     "email": "",
     "ceiber": {
