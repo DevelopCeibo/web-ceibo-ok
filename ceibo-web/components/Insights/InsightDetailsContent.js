@@ -17,7 +17,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
         case "img":
           return (
             <img
-              className="insight-body-image"
+              className="insight-body-image py-4"
               src={el.src}
               style={{ maxWidth: el.maxWidth }}
             />
@@ -34,7 +34,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           return (
             <Typography
               component="p"
-              sx={{ py: 5 }}
+              sx={{ py: 5, textAlign: "justify" }}
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             >
               {/* {marked(el.text)} */}
@@ -44,7 +44,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
           return (
             <Typography
               component="p"
-              sx={{ pb: 2, fontSize: 18 }}
+              sx={{ pb: 2, fontSize: 18, textAlign: "justify" }}
               dangerouslySetInnerHTML={{ __html: marked(el.text) }}
             >
               {/* {marked(el.text)} */}
@@ -99,7 +99,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               {el.items.map((text, i) => (
                 <li
                   key={i}
-                  style={{ margin: "10px 0" }}
+                  style={{ margin: "10px 0", textAlign: "justify" }}
                   dangerouslySetInnerHTML={{ __html: marked(text) }}
                 >
                   {/* {text} */}
@@ -116,7 +116,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               {el.items.map((text, i) => (
                 <li
                   key={i}
-                  style={{ margin: "10px 0" }}
+                  style={{ margin: "10px 0", textAlign: "justify" }}
                   dangerouslySetInnerHTML={{ __html: marked(text) }}
                 >
                   {/*  {text} */}
@@ -135,7 +135,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
                   return (
                     <li
                       key={i}
-                      style={{ margin: "10px 0" }}
+                      style={{ margin: "10px 0", textAlign: "justify" }}
                       dangerouslySetInnerHTML={{ __html: marked(text) }}
                     >
                       {/*  {text} */}
@@ -199,6 +199,7 @@ const InsightDetailsContent = ({ publicacion, date }) => {
                 className="blog-quote"
                 style={{
                   color: "black",
+                  textAlign: "justify",
                 }}
                 dangerouslySetInnerHTML={{ __html: marked(el.text) }}
               ></div>

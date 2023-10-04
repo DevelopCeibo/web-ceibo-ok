@@ -127,6 +127,7 @@ p {
 .first-p p {
   font-weight: bold;
   font-size: 0.9rem !important;
+  text-align: justify;
 }
 /* --------------------BLOG PUBLUCACIONES END */
 
@@ -2504,6 +2505,10 @@ Featured Services CSS
   font-weight: 600;
   align-self: start;
   margin-top: auto;
+}
+
+.read-more-btn:hover {
+  cursor: pointer;
 }
 
 .desc-insight {
@@ -5873,6 +5878,9 @@ Blog Details CSS
 
 .blog-details .article-content {
   padding: 30px 30px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* border: 1px solid #eeeeee; */
 }
 
@@ -8672,7 +8680,7 @@ abbr:hover {
   display: inline-block;
   margin-right: 5px;
 }
-.people-worth-card-tag li a {
+.people-worth-card-tag li p {
   background-color: #b72837;
   border: 1px solid #b72837;
   border-radius: 10px;
@@ -8798,4 +8806,39 @@ abbr:hover {
 }
 .overview-cul-button {
   justify-content: center;
+}
+.flip-container {
+  perspective: 1000px; 
+}
+
+.flipper {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+  transition: transform 0.5s; 
+}
+
+.front {
+  width: 100%;
+  height: 100%;
+  transform: rotateY(0deg); 
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  background-color:  #6fc7b5; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  transform: rotateY(180deg); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  padding: 1% 4%;
+}
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg); 
 }
