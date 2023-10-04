@@ -1,5 +1,231 @@
 [
   {
+    "id": "16",
+    "title": "Más allá de la tecnología: el poder de las personas en la transformación digital",
+    "article": "| Research Ceibo Digital",
+    "articleEN": "| Research Ceibo Digital",
+    "theme": "Transformación Digital",
+    "themeEN": "Digital Transformation",
+    "path-url": "personas-en-transformacion-digital",
+    "titleEN": "Beyond technology: the power of people in digital transformation",
+    "img": "/images-ceibo/insights/personas-transformacion-digital/banner.jpeg",
+    "desc": "¿Cómo influyen las personas en los procesos de transformación digital? ¿Qué obstáculos pueden surgir en el camino y cómo sobrepasarlos?",
+    "descEN": "How can people determine the success or failure of digital transformation initiatives?",
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "Abstract"
+      },
+      {
+        "type": "p",
+        "text": "Actualmente, la frecuencia de cambios y la variedad de tendencias tecnológicas aumentan a ritmos cada vez más acelerados. En este contexto, para las organizaciones, la transformación digital no es solo una opción para obtener ventaja competitiva sino una necesidad para sobrevivir. Sin embargo, embarcarse en este tipo de procesos de cambio es difícil. Según encuestas de McKinsey & Company, las empresas que han lanzado algún tipo de iniciativa de transformación digital lograron únicamente el 31% del aumento previsto de los ingresos y obtuvieron solo el 25% del ahorro de los costos previstos (Lamarre et al., 2023, 1), lo que conduce a la pregunta: ¿cuáles son los factores que determinan el éxito o fracaso de las iniciativas de transformación digital?"
+      },
+      {
+        "type": "p",
+        "text": "Dichos factores incluyen: contar con los líderes adecuados y expertos en el ámbito digital, crear capacidades y desarrollar talento y habilidades que se adecúen a las nuevas necesidades, capacitar a las personas para nuevas formas de trabajo (Ways of Working), actualizar digitalmente las herramientas y los procesos cotidianos de trabajo y comunicar en forma frecuente la estrategia digital por medios tradicionales y digitales (Martin, 2018, 4). No obstante, hay un factor que atraviesa a los otros: la existencia de una cultura organizacional que promueva el cambio, la colaboración, el aprendizaje continuo y la experimentación. De hecho, según investigaciones de MIT Sloan Management Review, “Las empresas más avanzadas se centran intencionadamente en la cultura como parte fundamental de sus esfuerzos digitales. Y lo que quizá sea más importante, nuestros datos sugieren que las empresas en fase de maduración también se esfuerzan por seguir desarrollando las características culturales que impulsan la transformación” (Kane et al., 2019, 206-207). Dado que son las personas el componente fundamental de la cultura organizacional, ¿de qué manera influyen en los procesos de transformación digital? y, sobre todo, ¿cuáles son los principales desafíos que pueden aparecer en el camino y cómo sobrepasarlos?"
+      },
+      {
+        "type": "subtitle",
+        "text": "Introducción"
+      },
+      {
+        "type": "p",
+        "text": "El avance tecnológico se adopta a diferentes velocidades en la sociedad y las organizaciones, lo que crea oportunidades y desafíos. Las tecnologías digitales, como parte de la cuarta revolución industrial, son esenciales y se relacionan con la interconectividad, la automatización y la obtención de datos en tiempo real. Aprovechar estas tecnologías para resolver problemas de negocios puede determinar el éxito o el fracaso de una organización. Para lograrlo, la organización debe aprender y adaptarse constantemente a nuevos paradigmas."
+      },
+      {
+        "type": "p",
+        "text": "La transformación digital se define como un proceso de cambio centrado en el negocio y la mejora de la experiencia del cliente y se basa en cuatro factores interrelacionados: tecnología, personas, procesos y datos. "
+      },
+
+      {
+        "type": "img",
+        "src": "/images-ceibo/insights/personas-transformacion-digital/figura-1.png"
+      },
+      {
+        "type": "p",
+        "text": "Todos estos factores tienen una relación bilateral, siendo los datos el factor que los nuclea con un enfoque de negocios “data-driven”, característico de organizaciones que transitan los procesos de transformación digital.Si bien los cuatro factores poseen la misma relevancia al momento de llevar adelante un proceso de transformación digital, se debe prestar especial atención a las personas ya que, en definitiva, son quienes tienen poder de acción sobre los otros. También son ellas las que, a través de sus comportamientos individuales y la forma en que interactúan entre sí, definen la cultura organizacional. Para determinar si nos encontramos ante una cultura capaz de enfrentar el desafío de la transformación digital, debemos centrarnos en comprender si la organización posee las características propias de una cultura digital."
+      },
+      {
+        "type": "subtitle",
+        "text": "De la cultura tradicional a la cultura digital"
+      },
+      {
+        "type": "p",
+        "text": "La transformación digital en una empresa implica un cambio fundamental en su cultura, operaciones y entorno, aprovechando la tecnología para crear valor. Esto contrasta con el enfoque tradicional de estructuras jerárquicas rígidas y procesos lentos."
+      },
+      {
+        "type": "p",
+        "text": "El contexto actual se caracteriza por la rápida evolución, la introducción de tecnologías disruptivas y la digitalización acelerada, lo que lleva a las organizaciones a adoptar un enfoque más ágil y adaptativo. Peter Senge en su famoso libro 'La quinta disciplina' destacó la importancia de tener y aprovechar la capacidad de aprender en todos los niveles de una organización para enfrentar estos desafíos. Las organizaciones exitosas en este nuevo paradigma operan como redes de equipos en una cultura centrada en las personas, con un propósito compartido para crear valor. La estructura organizativa y la cultura son fundamentales para impulsar la transformación digital."
+      },
+      {
+        "type": "img",
+        "src": "/images-ceibo/insights/personas-transformacion-digital/figura-2.png"
+      },
+      {
+        "type": "p",
+        "text": "Las empresas que se encuentran en estadios de madurez digital temprana  suelen impulsar la transformación a través de directivas de gestión o provisión de tecnología, mientras que aquellas que se encuentran en etapas avanzadas, se centran en cultivar las condiciones propicias para que la transformación ocurra. Dichas  condiciones  caracterizan la  cultura digital que se diferencia  fundamentalmente por cinco aspectos que promueven nuevas formas de trabajo: toma de decisiones descentralizadas, toma de riesgos, colaboración, agilidad y aprendizaje constante."
+      },
+      {
+        "type": "p",
+        "text": "En resumen, el objetivo es generar una cultura digital que busque el alto rendimiento, en la que los equipos se centren en obtener resultados, estén comprometidos tanto con su trabajo como con la misión y objetivos de la organización, estén dispuestos a asumir riesgos, fomenten la colaboración y mantengan un enfoque absoluto en las necesidades del cliente. El desafío principal es cuestionar las formas de trabajo arraigadas y asegurarse de que las personas estén involucradas desde el principio, con un estilo de liderazgo que promueva estas características culturales."
+      },
+      {
+        "type": "subtitle",
+        "text": "El liderazgo en una cultura digital"
+      },
+      {
+        "type": "p",
+        "text": "El concepto de liderazgo es más abarcativo que lo que involucra un ámbito digital y no se puede restringir únicamente al sector empresarial o de negocios ya que sus fundamentos como, por ejemplo, la capacidad de influir en otros, de potenciar sus capacidades, de generar confianza y de transmitir un rumbo claro son inmutables al ámbito en que se aplique. Sin embargo, en el contexto de la transformación digital, el estilo de liderazgo debe ser moldeado de acuerdo a tres características:"
+      },
+      {
+        "type": "img",
+        "src": "/images-ceibo/insights/personas-transformacion-digital/figura-3.png"
+      },
+
+      {
+        "type": "ol-ul",
+        "items": [
+          "**Mantener el enfoque en la creación de valor:** Los líderes deben centrarse en la creación de valor a través de la tecnología, no solo en las soluciones tecnológicas en sí.",
+          "**Brindar recursos para el desarrollo de personas:** La inversión no debe detenerse en la adquisición de herramientas tecnológicas o nuevos sistemas. Los líderes deben facilitar la adaptación y el aprendizaje continuo de los miembros de la organización, promoviendo la experimentación y el desarrollo de nuevas habilidades.",
+          "**Eliminar barreras y fomentar la colaboración:** Las iniciativas digitales a menudo requieren colaboración intersectorial y superar las barreras jerárquicas. Los líderes deben crear un entorno propicio para la comunicación y la colaboración, tanto dentro como fuera de la organización."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "En resumen, el liderazgo en la transformación digital implica adaptar los principios fundamentales del liderazgo a las demandas específicas de un entorno digital en constante cambio. Los líderes deben mantener un enfoque en la creación de valor, apoyar el desarrollo de las personas y fomentar la colaboración, todo ello en un entorno donde la tecnología y el conocimiento se distribuyen de manera rápida y amplia."
+      },
+
+      {
+        "type": "subtitle",
+        "text": "Roles de las personas en la transformación digital"
+      },
+      {
+        "type": "p",
+        "text": "En la transformación digital, se deben considerar nuevos roles y responsabilidades dentro de la organización. Estos roles pueden agruparse en tres categorías:"
+      },
+
+      {
+        "type": "order-list",
+        "items": [
+          "Roles de Liderazgo: En el nivel más alto, el Chief Transformation Officer (CTO) es responsable de liderar la transformación digital y puede estar respaldado por un Sponsor de alto nivel. En caso de que una organización no cuente con estructura de C-suite, el rol de liderazgo estratégico puede ser ejercido por posiciones de la alta gerencia.",
+          "Roles de Gestión: Estos roles se centran en la gestión de iniciativas digitales para que cumplan con los objetivos prefijados, en los tiempos definidos. Incluyen Gerentes de Proyecto, Solution Architects y, en organizaciones maduras digitalmente, roles típicos de las metodologías ágiles como Product Owners y Scrum Masters.",
+          "Roles Operativos: Estos roles están relacionados con la implementación y desarrollo de las soluciones tecnológicas. Incluyen desarrolladores Backend, Frontend y Full Stack, diseñadores de experiencia de usuario (UX) y de interfaz de usuario (UI), así como roles centrados en el procesamiento de datos, como Ingenieros de Datos, Analistas de Datos y Científicos de Datos."
+        ]
+      },
+
+      {
+        "type": "p",
+        "text": "Es importante destacar que las habilidades de liderazgo, gestión y operación no son exclusivas de sus respectivas categorías, por ejemplo, es deseable que las personas que gestionen los procesos  también posean habilidades de liderazgo o que una persona que ocupe un rol operativo tenga la capacidad de autogestionarse. "
+      },
+      {
+        "type": "p",
+        "text": "La transformación digital requiere una colaboración efectiva entre todos estos roles para tener éxito. Dicho esto, se puede representar de manera esquemática el porcentaje de tiempo en que una persona que posee un rol en cada una de las categorías, ejerce las capacidades de liderazgo, de gestión y operativas de la siguiente manera:"
+      },
+      {
+        "type": "img",
+        "src": "/images-ceibo/insights/personas-transformacion-digital/figura-4.png"
+      },
+      {
+        "type": "subtitle",
+        "text": "¿Qué desafíos emergen y cómo se pueden superar?"
+      },
+      {
+        "type": "p",
+        "text": "La transformación digital requiere una estrategia sólida que se adapte a un entorno en constante cambio. Esta estrategia debe considerar tanto las tendencias digitales internas como externas de la organización y alinearlas con su nivel actual de madurez digital. Una estrategia efectiva también implica una reevaluación profunda de la organización, incluyendo la tecnología, la cultura y el talento."
+      },
+      {
+        "type": "p",
+        "text": "El liderazgo desempeña un papel fundamental en la transformación digital. Los líderes deben proporcionar una visión clara, gestionar expectativas, promover la comunicación y apoyar el desarrollo del talento. También deben ser capaces de gestionar la resistencia al cambio y fomentar la innovación y el aprendizaje autodirigido."
+      },
+      {
+        "type": "p",
+        "text": "Identificar y desarrollar el talento es esencial para el éxito de la transformación digital. Esto implica comprender las capacidades necesarias y proporcionar oportunidades y recursos para que las personas adquieran esas capacidades. En algunos casos, puede ser necesario incorporar nuevo talento."
+      },
+      {
+        "type": "p",
+        "text": "La adopción de tecnología es un aspecto crucial de la transformación digital. Las organizaciones deben mantenerse actualizadas sobre las últimas tecnologías y determinar cómo pueden aplicarlas de manera efectiva. La ciberseguridad también es una prioridad, ya que las organizaciones se vuelven más vulnerables a los ataques cibernéticos a medida que adoptan tecnologías digitales."
+      },
+      {
+        "type": "p",
+        "text": "La gestión de datos es fundamental, y los datos deben guiar las operaciones de la organización. Esto implica estrategias eficaces para almacenar, procesar y analizar datos de manera segura y significativa. También es importante cumplir con las regulaciones de protección de datos y garantizar la ética y la privacidad en la gestión de datos."
+      },
+      {
+        "type": "p",
+        "text": "En resumen, la transformación digital es un proceso complejo que requiere una estrategia sólida, liderazgo efectivo, desarrollo de talento, adopción de tecnología y gestión de datos adecuada para tener éxito en un entorno digital en constante evolución."
+      },
+      {
+        "type": "subtitle",
+        "text": "¿Cómo se inicia? Evaluando la madurez digital"
+      },
+      {
+        "type": "p",
+        "text": "La transformación digital es un proceso continuo y la dirección de una organización que elige embarcarse en este viaje depende de sus objetivos y su nivel de madurez digital. Un Modelo de Madurez Digital (DMM) es una herramienta valiosa para evaluar y comprender el nivel actual de madurez digital de una organización."
+      },
+      {
+        "type": "p",
+        "text": "Las organizaciones tradicionales enfrentan el desafío de transformarse, más allá de la implementación de nuevas soluciones tecnológicas. Sin embargo, llevar esta visión a la acción puede ser un reto significativo. Por esta razón, es esencial combinar los DMM con frameworks que proporcionen un enfoque estructurado para reflexionar sobre el impacto de este cambio en su estrategia y objetivos empresariales, lo que facilita la identificación y desarrollo de las iniciativas de transformación adecuadas."
+      },
+      {
+        "type": "p",
+        "text": "En términos generales, se pueden identificar cuatro etapas claves en el proceso de transformación:"
+      },
+      {
+        "type": "img",
+        "src": "/images-ceibo/insights/personas-transformacion-digital/figura-5.png"
+      },
+      {
+        "type": "p",
+        "text": "Para lograr una transformación digital efectiva, es crucial comenzar con un diagnóstico inicial que revele la situación actual de la organización. A partir de ese punto, se puede trazar una hoja de ruta estratégica que sirva como guía para alcanzar los objetivos de madurez digital. Esto facilitará la planificación del crecimiento y permitirá medir el progreso a lo largo del tiempo."
+      },
+      {
+        "type": "p",
+        "text": "Existen varios modelos de madurez digital ampliamente reconocidos, cada uno con sus propias dimensiones de evaluación y enfoques:"
+      },
+      {
+        "type": "img",
+        "src": "/images-ceibo/insights/personas-transformacion-digital/tabla-1.png"
+      },
+      {
+        "type": "p",
+        "text": "En el caso de CEIBO DIGITAL, se utiliza la Matriz de Madurez Digital, que abarca cinco dimensiones clave de las organizaciones digitales: foco en el cliente, operar de manera simple, automatización de procesos clave, estilo rápido y ágil de trabajo, datos para crear valor."
+      },
+      {
+        "type": "p",
+        "text": "Cada dimensión se desglosa en subdimensiones, y se emplea una encuesta con preguntas específicas y una escala de respuestas para evaluar cada subdimensión. Los resultados se procesan y calibran, y se comparan con valores de referencia obtenidos mediante benchmarking. Este enfoque personalizado permite a CEIBO DIGITAL comprender y mejorar la madurez digital de las organizaciones con las que trabaja."
+      },
+      {
+        "type": "img",
+        "src": "/images-ceibo/insights/personas-transformacion-digital/figura-6.png"
+      },
+      {
+        "type": "p",
+        "text": "Como puede notarse, los modelos de madurez digital suelen evaluar la cultura y otros factores organizacionales relacionados con las personas, como la estructura, las capacidades y el liderazgo. Estos elementos son esenciales para el éxito en la transformación digital, ya que influyen en cómo los colaboradores adoptan las tecnologías digitales y se adaptan a los cambios en el entorno empresarial. Aunque los modelos pueden variar en su enfoque, todos destacan la importancia de estos factores en la madurez digital de una organización."
+      },
+      {
+        "type": "subtitle",
+        "text": "Conclusiones"
+      },
+      {
+        "type": "p",
+        "text": "La transformación digital de una organización es un proceso complejo y continuo que involucra múltiples factores, incluyendo tecnología, procesos, personas y datos. No se limita a la implementación de tecnología o canales digitales, sino que requiere una estrategia integral que abarque las necesidades del negocio y se alinee con las tendencias tecnológicas del mercado. Las personas desempeñan un papel fundamental en este proceso, ya que motivan y toman decisiones que afectan a los demás factores. Para lograr una transformación digital exitosa, es necesario adoptar  una cultura organizacional digital, caracterizada por la toma de decisiones descentralizada, la experimentación, la colaboración, la agilidad y el aprendizaje constante. Los líderes desempeñan un papel crucial en este cambio, manteniendo el enfoque en la creación de valor, brindando los recursos para que las personas puedan desarrollarse y eliminando las barreras intersectoriales, respaldados por una estrategia digital clara y definida. En resumen, la transformación digital requiere no solo tecnología, sino también un cambio cultural y un liderazgo efectivo."
+      }
+    ],
+    "metadata": {
+      "author": ["Ayelén Richard", "Martín Romanelli"],
+      "date": "29 de Septiembre, 2023",
+      "dateEN": "September 29, 2023",
+      "bannerImg": "/images-ceibo/insights/personas-transformacion-digital/banner.jpeg",
+      "tags": ["Transformación Digital", "Personas", "Liderazgo", "Tecnología"],
+      "downloadFile": "https://drive.google.com/file/d/1y6rwER7dzwf9oYAMx7THKda-5tvj-9RE/view?usp=sharing",
+      "aboutAuthors": [
+        {
+          "type": "p",
+          "text": "**Ayelén Richard** es Manager en Ceibo; **Martín Romanelli** es Consultant en Ceibo. Además, ambos forman parte del equipo de Research, cuyo objetivo principal es difundir información sobre temas relacionados con el área de experiencia de Ceibo, como así también ampliar el horizonte de conocimiento de Ceibo y sus colaboradores."
+        }
+      ]
+    }
+  },
+  {
     "id": "15",
     "title": "El impulso tecnológico hacia un mercado financiero más verde",
     "article": "| Research Ceibo Digital",

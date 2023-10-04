@@ -1122,6 +1122,7 @@
     color: #000000;
     padding: 1rem 1rem;
     margin-bottom: 0;
+    font-size: 1.5rem;
   }
   .widget-area .widget .share-title {
     margin-top: 1rem;
@@ -1855,6 +1856,10 @@
   .modal-video-body {
     padding: 0 30px;
   }
+
+  .hero-banner {
+    height: 100%;
+  }
   .hero-banner .main-banner-content.text-center {
     max-width: 620px;
   }
@@ -1867,6 +1872,7 @@
   }
   .main-banner-content {
     padding-right: 0;
+    margin-top: 25%;
   }
   .navbar-area.navbar-style-2 nav .navbar-nav .nav-item {
     padding-left: 8px;
