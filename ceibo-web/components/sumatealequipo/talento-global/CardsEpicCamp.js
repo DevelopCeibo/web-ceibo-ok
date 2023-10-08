@@ -65,14 +65,14 @@ function CardsEpicCamp() {
 
 							<div className="people-worth-card-footer">
 								<div className="row people-worth-responsive">
-									<div className="col-12 text-center">
-										<p className="people-worth-ceiber text-center">{`${titleCase(
+									<div className="col-12 ms-3">
+										<p className="people-worth-ceiber">{`${titleCase(
 											ceiber?.nombre
 										)}, ${titleCase(ceiber?.posicion)}`}</p>
 									</div>
 
 									<div className="col-12">
-										<p className="text-center">
+										<p className="ms-3">
 											Epic Camp,{" "}
 											{locale === "es"
 												? ceiber.globalTalent.edition
