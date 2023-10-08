@@ -1,613 +1,650 @@
 {
-  "homeh1": "Digital transformation consulting",
-  "homeh2": "We brought together the technology and business world to drive the digital transformation of companies",
-  "homeTitle": "Digital transformation consulting - Ceibo Digital",
-  "homeMetaDesc": "Somos una consultora de negocios experta en transformación digital. Contamos con capacidades estratégicas y tecnológicas para diseñar e implementar la transformación de nuestros clientes.",
+	"homeh1": "Digital transformation consulting",
+	"homeh2": "We brought together the technology and business world to drive the digital transformation of companies",
+	"homeTitle": "Digital transformation consulting - Ceibo Digital",
+	"homeMetaDesc": "Somos una consultora de negocios experta en transformación digital. Contamos con capacidades estratégicas y tecnológicas para diseñar e implementar la transformación de nuestros clientes.",
 
-  "culturah1": "Digital culture",
-  "culturah2": "We brought together the technology and business world to drive the digital transformation of companies",
-  "culturaTitleTag": "Digital culture",
-  "culturaMetaDesc": "We are an innovative company, with a unique culture and the greatest talents",
+	"culturah1": "Digital culture",
+	"culturah2": "We brought together the technology and business world to drive the digital transformation of companies",
+	"culturaTitleTag": "Digital culture",
+	"culturaMetaDesc": "We are an innovative company, with a unique culture and the greatest talents",
 
-  "quehacemosh1": "Digital transformation",
-  "quehacemosh2": "We are a business consulting firm that helps our clients design and implement their digital transformation",
-  "quehacemosTitleTag": "Digital transformation - Ceibo Digital",
-  "quehacemosMetaDesc": "Ayudamos a nuestros clientes a diseñar e implementar su transformación digital. Áreas de servicio: estrategia, innovación y tecnología, organización, excelencia operacional y customer engagement.",
+	"quehacemosh1": "Digital transformation",
+	"quehacemosh2": "We are a business consulting firm that helps our clients design and implement their digital transformation",
+	"quehacemosTitleTag": "Digital transformation - Ceibo Digital",
+	"quehacemosMetaDesc": "Ayudamos a nuestros clientes a diseñar e implementar su transformación digital. Áreas de servicio: estrategia, innovación y tecnología, organización, excelencia operacional y customer engagement.",
 
-  "sumateh1": "Join Ceibo",
-  "sumateh2": "Be surrounded by teams and people who challenge you, support you, and inspire you",
-  "sumateTitleTag": "Work at Ceibo Digital",
-  "sumateMetaDesc": "#2 GPTW Argentina 2022. Somos un equipo de consultores y especialistas unidos por la pasión en los negocios y la tecnología. Mirá las búsquedas abiertas",
+	"sumateh1": "Join Ceibo",
+	"sumateh2": "Be surrounded by teams and people who challenge you, support you, and inspire you",
+	"sumateTitleTag": "Work at Ceibo Digital",
+	"sumateMetaDesc": "#2 GPTW Argentina 2022. Somos un equipo de consultores y especialistas unidos por la pasión en los negocios y la tecnología. Mirá las búsquedas abiertas",
 
-  "busquedasVigentesh1": "Job openings",
-  "busquedasVigentesh2": "Be part of one of the best companies to work for in the consulting industry",
-  "rolesParaConsultores": "Roles for consultants",
-  "rolesParaEspecialistas": "Roles for specialists",
-  "postularse": "Apply now",
+	"busquedasVigentesh1": "Job openings",
+	"busquedasVigentesh2": "Be part of one of the best companies to work for in the consulting industry",
+	"rolesParaConsultores": "Roles for consultants",
+	"rolesParaEspecialistas": "Roles for specialists",
+	"postularse": "Apply now",
 
-  "vidaEnCeiboh2": "Our culture is a fundamental element of our DNA. Get to know what it means to be a member of our team and experience our daily life",
+	"vidaEnCeiboh2": "Our culture is a fundamental element of our DNA. Get to know what it means to be a member of our team and experience our daily life",
 
-  "vidaEnCeiboCard": {
-    "title": "LIFE AT CEIBO",
-    "description": "Discover what it means to be part of our team and what our day-to-day looks like",
-    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/team-retreat.png",
-    "href": "/sumate-al-equipo/vida-en-ceibo"
-  },
+	"vidaEnCeiboCard": {
+		"title": "LIFE AT CEIBO",
+		"description": "Discover what it means to be part of our team and what our day-to-day looks like",
+		"imagePath": "/images-ceibo/sumatealequipo/navigation-images/team-retreat.png",
+		"href": "/sumate-al-equipo/vida-en-ceibo"
+	},
 
-  "carreraEnCeiboCard": {
-    "title": "CAREER AT CEIBO",
-    "description": "Learn how ceibo supports your career growth",
-    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
-    "href": "/sumate-al-equipo/desarrollo-profesional"
-  },
+	"carreraEnCeiboCard": {
+		"title": "CAREER AT CEIBO",
+		"description": "Learn how ceibo supports your career growth",
+		"imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
+		"href": "/sumate-al-equipo/desarrollo-profesional"
+	},
 
-  "entrevistasCeiboCard": {
-    "title": "INTERVIEW PROCESS",
-    "description": "Learn about our recruitment process",
-    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/proceso-de-entrevistas.png",
-    "href": "/sumate-al-equipo/proceso-de-reclutamiento"
-  },
+	"entrevistasCeiboCard": {
+		"title": "INTERVIEW PROCESS",
+		"description": "Learn about our recruitment process",
+		"imagePath": "/images-ceibo/sumatealequipo/navigation-images/proceso-de-entrevistas.png",
+		"href": "/sumate-al-equipo/proceso-de-reclutamiento"
+	},
 
-  "busquedasCeiboCard": {
-    "title": "JOB OPENINGS",
-    "description": "Explore all our job openings",
-    "imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
-    "href": "/sumate-al-equipo/busquedas-vigentes"
-  },
+	"busquedasCeiboCard": {
+		"title": "JOB OPENINGS",
+		"description": "Explore all our job openings",
+		"imagePath": "/images-ceibo/sumatealequipo/navigation-images/carrera-en-ceibo.png",
+		"href": "/sumate-al-equipo/busquedas-vigentes"
+	},
 
-  "casosh1": "Digital transformation success stories",
-  "casosh2": "Learn how we generate value for our customers",
-  "casosTitleTag": "Digital transformation success stories - Ceibo Digital",
-  "casosMetaDesc": "Conocé cómo ayudamos a las empresas a diseñar e implementar su transformación digital. Trabajamos con clientes en múltiples industrias y países.",
+	"casosh1": "Digital transformation success stories",
+	"casosh2": "Learn how we generate value for our customers",
+	"casosTitleTag": "Digital transformation success stories - Ceibo Digital",
+	"casosMetaDesc": "Conocé cómo ayudamos a las empresas a diseñar e implementar su transformación digital. Trabajamos con clientes en múltiples industrias y países.",
 
-  "publicacionesh1": "News",
-  "publicacionesh2": "All you need to know about Ceibo, digital transformation, consulting and technology",
-  "publicacionesTitleTag": "News",
-  "publicacionesMetaDesc": "Noticias y tendencias sobre transformación digital, negocios, consultoría y tecnología. Novedades de Ceibo Digital",
+	"publicacionesh1": "News",
+	"publicacionesh2": "All you need to know about Ceibo, digital transformation, consulting and technology",
+	"publicacionesTitleTag": "News",
+	"publicacionesMetaDesc": "Noticias y tendencias sobre transformación digital, negocios, consultoría y tecnología. Novedades de Ceibo Digital",
 
-  "insightsh1": "Insights",
-  "insightsh2": "Explore the latest trends shaping the future of business and technology",
-  "insightsTitleTag": "Insights",
-  "insightsMetaDesc": "Insights sobre transformación digital, negocios, consultoría y tecnología.",
-  "insightHightLight": "FEATURED INSIGHTS",
-  "lastInsights": "LATEST INSIGHTS",
+	"insightsh1": "Insights",
+	"insightsh2": "Explore the latest trends shaping the future of business and technology",
+	"insightsTitleTag": "Insights",
+	"insightsMetaDesc": "Insights sobre transformación digital, negocios, consultoría y tecnología.",
+	"insightHightLight": "FEATURED INSIGHTS",
+	"lastInsights": "LATEST INSIGHTS",
 
-  "compartir": "Share",
-  "autores": "Authors",
-  "aboutAuthors": "About authors",
-  "download": "Download",
-  "fullDownload": "Download full article",
-  "uncheckedBoxNotification": "*Please, check the box proceed",
+	"compartir": "Share",
+	"autores": "Authors",
+	"aboutAuthors": "About authors",
+	"download": "Download",
+	"fullDownload": "Download full article",
+	"uncheckedBoxNotification": "*Please, check the box proceed",
 
-  "fullArticle": "Full article",
+	"fullArticle": "Full article",
 
-  "eventosh1": "Events and webinars",
-  "eventosh2": "Listen to our experts talk about digital transformation, consulting, technology and more",
-  "eventosTitleTag": "Events and webinars",
-  "eventosMetaDesc": "Eventos y webinars. Inscribite gratis o miralos on-demand. Escuchá a nuestros expertos hablar de transformación digital, consultoría, tecnología y más.",
+	"eventosh1": "Events and webinars",
+	"eventosh2": "Listen to our experts talk about digital transformation, consulting, technology and more",
+	"eventosTitleTag": "Events and webinars",
+	"eventosMetaDesc": "Eventos y webinars. Inscribite gratis o miralos on-demand. Escuchá a nuestros expertos hablar de transformación digital, consultoría, tecnología y más.",
 
-  "contactoh1": "Contact us",
-  "contactoh2": "We have offices in Miami, Buenos Aires and Asuncion, and projects in more than 40 countries around the world",
-  "contactoTitleTag": "Contact - Ceibo Digital",
-  "contactoMetaDesc": "Contactanos y hablá con nuestros expertos en transformación digital. Tenemos oficinas en Argentina, Paraguay y Estados Unidos, y proyectos en más de 40 países",
+	"contactoh1": "Contact us",
+	"contactoh2": "We have offices in Miami, Buenos Aires and Asuncion, and projects in more than 40 countries around the world",
+	"contactoTitleTag": "Contact - Ceibo Digital",
+	"contactoMetaDesc": "Contactanos y hablá con nuestros expertos en transformación digital. Tenemos oficinas en Argentina, Paraguay y Estados Unidos, y proyectos en más de 40 países",
 
-  "navInicio": "Home",
-  "queHacemos": "What we do",
-  "sumateAlEquipo": "Join us",
-  "busquedasAbiertas": "Job openings",
-  "vidaEnCeibo": "Life at Ceibo",
-  "casosExito": "Success stories",
-  "casosExitoSubt": "Learn how we generate value for our customers",
-  "contacto": "Contact",
-  "contactanosPmas": "Contact us for more",
-  "informacion": "information",
-  "publicacionesTitle": "Newsroom",
-  "insightsTitle": "Insights",
-  "masInfo": "Learn more",
-  "vermas": "Learn more",
-  "leerArt": "Read insight",
-  "suscribiteNews": "Suscribe to our newsletter",
-  "suscribirme": "Subscribe me",
-  "enviar": "Send",
-  "enviarMsg": "Send message",
-  "verpublis": "See all posts",
-  "verInsighs": "See all insights",
-  "leeInsights": "More insights",
-  "vercasos": "see all success stories",
+	"navInicio": "Home",
+	"queHacemos": "What we do",
+	"sumateAlEquipo": "Join us",
+	"busquedasAbiertas": "Job openings",
+	"vidaEnCeibo": "Life at Ceibo",
+	"casosExito": "Success stories",
+	"casosExitoSubt": "Learn how we generate value for our customers",
+	"contacto": "Contact",
+	"contactanosPmas": "Contact us for more",
+	"informacion": "information",
+	"publicacionesTitle": "Newsroom",
+	"insightsTitle": "Insights",
+	"masInfo": "Learn more",
+	"vermas": "Learn more",
+	"leerArt": "Read insight",
+	"suscribiteNews": "Suscribe to our newsletter",
+	"suscribirme": "Subscribe me",
+	"enviar": "Send",
+	"enviarMsg": "Send message",
+	"verpublis": "See all posts",
+	"verInsighs": "See all insights",
+	"leeInsights": "More insights",
+	"vercasos": "see all success stories",
 
-  "title": "­We are a business consulting firm that helps our clients design and implements their digital transformation.",
-  "donde-estamos": "Where we are",
-  "cultura": "Culture",
-  "contactanos": "Contact us",
-  "transformdig": "Digital Transformation",
-  "gptwPop1": "Ceibo Digital was ranked #5 in Argentina's Best Workplaces for Wellbeing 2022, which recognizes companies that consistently place employee wellbeing at the heart of their workplace culture.",
-  "gptwPop2": "Ceibo Digital was recognized as one of the Best Workplaces in Latin America, being ranked #21 in the ranking of small and medium-sized companies.",
-  "gptwPop3": "Ceibo Digital was ranked #4 in Argentina's Best Workplaces for Millennials 2022.",
-  "gptwPop4": "Ceibo Digital was ranked #2 in Argentina's Best Workplaces 2022 (up to 250 employees).",
-  "quienesSomos": "About us",
-  "quienesSomosTxt": "CEIBO is a team of exceptional people with diverse experience and credentials.",
-  "equipo": "Team",
-  "equipoTxt": "At Ceibo, we promote professional and personal development with a qualified team who shares a passion for business and technology",
-  "quehacemos": "What we do",
-  "estrategia": "Strategy",
-  "estrategiaTxt": "Together with our clients, we study the sustainable evolution into the digital business, design the path towards it and coordinate the implementation.",
-  "excelencia": "Operational excellence",
-  "excelenciaTxt": "We develop and implement a different way of working to achieve the desired results of a digital business in the expected time, costs and quality.",
-  "org": "Organization",
-  "orgTxt": "We work on the adequate capabilities of an organization to adopt the change towards digital.",
-  "innovacion": "Innovation and technology",
-  "innovacionTxt": "We study and develop ideas to achieve disruptive changes, plan the capabilities that need to be developed and the expected benefits, and implement them.",
-  "customereng": "Customer Engagement",
-  "customerengTxt": "We improve the interaction between customers and brands, working on digital initiatives to enhance marketing, sales and post-sales.",
-  "conocermas": "More information",
-  "dataScientist": "We continue growing and are looking to add a Data Engineer to our team to work on projects across the world.",
-  "manager": "We are looking for professionals with strong analytical and interpersonal skills to lead challenging Digital Transformation Consulting projects across the world.",
-  "consultant": "We are looking for professionals with a strong track record, robust analytical skills, and excellent interpersonal abilities to assume key roles in challenging Digital Transformation Consulting projects across the world.",
-  "associate": "We are looking for a person with a lot of potential to develop their career in Digital Transformation Consulting within our team to work on projects throughout America.",
-  "developer": "We are looking for a Senior Full-stack Developer looking for new challenges to add to our team.",
-  "marketing-automation": "We are looking for a highly skilled and motivated Marketing automation analyst and specialist to join our team.",
-  "senior-paid-media": "We are looking for a highly analytical and results-driven performance specialist to join our team.",
-  "mirarbusquedas": "Check out all our job opportunities",
-  "uniteaceibo": "Join us",
-  "clientes": "Our clients",
+	"title": "­We are a business consulting firm that helps our clients design and implements their digital transformation.",
+	"donde-estamos": "Where we are",
+	"cultura": "Culture",
+	"contactanos": "Contact us",
+	"transformdig": "Digital Transformation",
+	"gptwPop1": "Ceibo Digital was ranked #5 in Argentina's Best Workplaces for Wellbeing 2022, which recognizes companies that consistently place employee wellbeing at the heart of their workplace culture.",
+	"gptwPop2": "Ceibo Digital was recognized as one of the Best Workplaces in Latin America, being ranked #21 in the ranking of small and medium-sized companies.",
+	"gptwPop3": "Ceibo Digital was ranked #4 in Argentina's Best Workplaces for Millennials 2022.",
+	"gptwPop4": "Ceibo Digital was ranked #2 in Argentina's Best Workplaces 2022 (up to 250 employees).",
+	"quienesSomos": "About us",
+	"quienesSomosTxt": "CEIBO is a team of exceptional people with diverse experience and credentials.",
+	"equipo": "Team",
+	"equipoTxt": "At Ceibo, we promote professional and personal development with a qualified team who shares a passion for business and technology",
+	"quehacemos": "What we do",
+	"estrategia": "Strategy",
+	"estrategiaTxt": "Together with our clients, we study the sustainable evolution into the digital business, design the path towards it and coordinate the implementation.",
+	"excelencia": "Operational excellence",
+	"excelenciaTxt": "We develop and implement a different way of working to achieve the desired results of a digital business in the expected time, costs and quality.",
+	"org": "Organization",
+	"orgTxt": "We work on the adequate capabilities of an organization to adopt the change towards digital.",
+	"innovacion": "Innovation and technology",
+	"innovacionTxt": "We study and develop ideas to achieve disruptive changes, plan the capabilities that need to be developed and the expected benefits, and implement them.",
+	"customereng": "Customer Engagement",
+	"customerengTxt": "We improve the interaction between customers and brands, working on digital initiatives to enhance marketing, sales and post-sales.",
+	"conocermas": "More information",
+	"dataScientist": "We continue growing and are looking to add a Data Engineer to our team to work on projects across the world.",
+	"manager": "We are looking for professionals with strong analytical and interpersonal skills to lead challenging Digital Transformation Consulting projects across the world.",
+	"consultant": "We are looking for professionals with a strong track record, robust analytical skills, and excellent interpersonal abilities to assume key roles in challenging Digital Transformation Consulting projects across the world.",
+	"associate": "We are looking for a person with a lot of potential to develop their career in Digital Transformation Consulting within our team to work on projects throughout America.",
+	"developer": "We are looking for a Senior Full-stack Developer looking for new challenges to add to our team.",
+	"marketing-automation": "We are looking for a highly skilled and motivated Marketing automation analyst and specialist to join our team.",
+	"senior-paid-media": "We are looking for a highly analytical and results-driven performance specialist to join our team.",
+	"mirarbusquedas": "Check out all our job opportunities",
+	"uniteaceibo": "Join us",
+	"clientes": "Our clients",
 
-  "culturaTitle": "CEIBO is a team of exceptional people with diverse experience and credentials.",
-  "expertos": "Experts in Digital Culture",
-  "expertosFirstP": "We are passionate about researching the best management practices, disruptive technologies and new business models.",
-  "expertosSecondP": " We help companies in the process of rethinking and designing their transformation strategy, operations, and structure, considering the impact on culture and customer experience and constantly leveraging new technologies.",
-  "expertosThirdP": " Convinced that recommendations only leave us halfway,",
-  "expertosForthP": " In Ceibo, we are committed to the ultimate success of our client’s transformation.",
-  "expertosFiveP": "We work side by side in implementing their projects, creating genuine capabilities that allow them to create sustainable advantages.",
+	"culturaTitle": "CEIBO is a team of exceptional people with diverse experience and credentials.",
+	"expertos": "Experts in Digital Culture",
+	"expertosFirstP": "We are passionate about researching the best management practices, disruptive technologies and new business models.",
+	"expertosSecondP": " We help companies in the process of rethinking and designing their transformation strategy, operations, and structure, considering the impact on culture and customer experience and constantly leveraging new technologies.",
+	"expertosThirdP": " Convinced that recommendations only leave us halfway,",
+	"expertosForthP": " In Ceibo, we are committed to the ultimate success of our client’s transformation.",
+	"expertosFiveP": "We work side by side in implementing their projects, creating genuine capabilities that allow them to create sustainable advantages.",
 
-  "gptwTitle": "Great Place to Work",
-  "gptw1": "Great place to work ® (GPTW) is a global people analytics and consulting firm. In 2023 Ceibo was awarded its international certification as one of the best places to work in the category 'up to 250 employees' in Argentina",
-  "gptw2": "'Great Place to Work certification is a recognition programme for the quality of the organizational culture. We are very proud to be a great place to work!'",
-  "masGptw": "More about Ceibo in GPTW",
+	"gptwTitle": "Great Place to Work",
+	"gptw1": "Great place to work ® (GPTW) is a global people analytics and consulting firm. In 2023 Ceibo was awarded its international certification as one of the best places to work in the category 'up to 250 employees' in Argentina",
+	"gptw2": "'Great Place to Work certification is a recognition programme for the quality of the organizational culture. We are very proud to be a great place to work!'",
+	"masGptw": "More about Ceibo in GPTW",
 
-  "competenciasCore": "Core Competencies",
-  "competenciasCoreSubt": "Our core competencies represent the values we seek to embody on a daily basis to carry out our work and the philosophy upon which we are governed to fulfill our purpose",
+	"competenciasCore": "Core Competencies",
+	"competenciasCoreSubt": "Our core competencies represent the values we seek to embody on a daily basis to carry out our work and the philosophy upon which we are governed to fulfill our purpose",
 
-  "inspirar": "Inspire",
-  "inspirarTxt": "Lead with vision",
-  "inspirarTitleBack": "Go the extra mile",
-  "inspirarTxtImage": "We work in our teams with a clear direction and the same purpose. At Ceibo we encourage everyone to think of new ways to address problems, break with structures and develop innovative solutions that contribute to the success of our projects.",
-  "emprender": "Entrepreneurship",
-  "emprenderTxt": "Lead with the example",
-  "emprenderTitleBack": "Walk the talk",
-  "emprenderTxtImage": "We do what we say, we push each other to give a better version of ourselves. We constantly strive for excellence in everything we undertake and pride ourselves on our commitment to improve every day to meet the needs of our clients.",
-  "ganar": "Win",
-  "ganarTxt": "Lead with results",
-  "ganarTitleBack": "Small daily improvements over time lead to stunning results",
-  "ganarTxtImage": "Obtaining good results is a process, a series of actions that begin in planning and go on to execution. We are proud to accompany our clients every step of the way to achieve the success of their transformation.",
-  "transformar": "Transform",
-  "transformarTxt": "Lead with change",
-  "transformarTitleBack": "Growth and confort do not coexist",
-  "transformarTxtImage": "We effectively manage changes in organizations, adapting to new contexts and always focusing on the positive. We enthusiastically embrace the different challenges and we are passionate about unlocking the potential of our clients and making change happen.",
-  "organizacion": "Our way of organizing Ceibo",
-  "organizacionSubt": "At Ceibo, we are organized into three layers. This form of collaboration reflects the flexibility and dynamism of a digital company prepared to solve our clients' most demanding challenges. This decision is based on proximity, flexibility, and networking, aligned with the latest trends in digital companies.",
-  "teamCeiboTxt1": "Team is our value proposition for those collaborators who aim to grow professionally in their careers alongside Ceibo’s growth.",
-  "teamCeiboTxt2": " With full-time dedication at Ceibo, they have a planned career path in which growth is not a choice but the only option. All Team members, in addition to their projects, have an Office Contribution (OC). The OCs are key assignments each Team member can lead, contributing to Ceibo’s growth and allowing them to get deeply involved in the company's success. Some of our OCs are Recruiting, Events, Marketing and Knowledge Management.",
-  "comunidad": "Community",
-  "ecosistema": "Ecosystem",
-  "comunidadTxt1": "This is our value proposition for collaborators who, whether working full-time or part-time, value having greater flexibility, managing their time and enjoying constant specialization.",
-  "ecosistemaTxt1": "Our ecosystem comprises people and companies with specific expertise in an area, whom we rely on to ask for their collaboration in particular projects with our clients. The level of specialisation required nowadays is so high that no company can be the best in everything. At Ceibo, we are committed to networking and calling upon the best talents for our client's challenges that exceed our area of expertise.",
-  "ecosistemaTxt2": "",
-  "teamModalTxt": "The ones who build Ceibo",
-  "ecosModalTxt": "People and companies that we recruit for specific projects",
-  "commuModalTxt": "Those who permanently work and collaborate with Ceibo",
+	"inspirar": "Inspire",
+	"inspirarTxt": "Lead with vision",
+	"inspirarTitleBack": "Go the extra mile",
+	"inspirarTxtImage": "We work in our teams with a clear direction and the same purpose. At Ceibo we encourage everyone to think of new ways to address problems, break with structures and develop innovative solutions that contribute to the success of our projects.",
+	"emprender": "Entrepreneurship",
+	"emprenderTxt": "Lead with the example",
+	"emprenderTitleBack": "Walk the talk",
+	"emprenderTxtImage": "We do what we say, we push each other to give a better version of ourselves. We constantly strive for excellence in everything we undertake and pride ourselves on our commitment to improve every day to meet the needs of our clients.",
+	"ganar": "Win",
+	"ganarTxt": "Lead with results",
+	"ganarTitleBack": "Small daily improvements over time lead to stunning results",
+	"ganarTxtImage": "Obtaining good results is a process, a series of actions that begin in planning and go on to execution. We are proud to accompany our clients every step of the way to achieve the success of their transformation.",
+	"transformar": "Transform",
+	"transformarTxt": "Lead with change",
+	"transformarTitleBack": "Growth and confort do not coexist",
+	"transformarTxtImage": "We effectively manage changes in organizations, adapting to new contexts and always focusing on the positive. We enthusiastically embrace the different challenges and we are passionate about unlocking the potential of our clients and making change happen.",
+	"organizacion": "Our way of organizing Ceibo",
+	"organizacionSubt": "At Ceibo, we are organized into three layers. This form of collaboration reflects the flexibility and dynamism of a digital company prepared to solve our clients' most demanding challenges. This decision is based on proximity, flexibility, and networking, aligned with the latest trends in digital companies.",
+	"teamCeiboTxt1": "Team is our value proposition for those collaborators who aim to grow professionally in their careers alongside Ceibo’s growth.",
+	"teamCeiboTxt2": " With full-time dedication at Ceibo, they have a planned career path in which growth is not a choice but the only option. All Team members, in addition to their projects, have an Office Contribution (OC). The OCs are key assignments each Team member can lead, contributing to Ceibo’s growth and allowing them to get deeply involved in the company's success. Some of our OCs are Recruiting, Events, Marketing and Knowledge Management.",
+	"comunidad": "Community",
+	"ecosistema": "Ecosystem",
+	"comunidadTxt1": "This is our value proposition for collaborators who, whether working full-time or part-time, value having greater flexibility, managing their time and enjoying constant specialization.",
+	"ecosistemaTxt1": "Our ecosystem comprises people and companies with specific expertise in an area, whom we rely on to ask for their collaboration in particular projects with our clients. The level of specialisation required nowadays is so high that no company can be the best in everything. At Ceibo, we are committed to networking and calling upon the best talents for our client's challenges that exceed our area of expertise.",
+	"ecosistemaTxt2": "",
+	"teamModalTxt": "The ones who build Ceibo",
+	"ecosModalTxt": "People and companies that we recruit for specific projects",
+	"commuModalTxt": "Those who permanently work and collaborate with Ceibo",
 
-  "quote1": "Ceibo combines many of the key aspects I was looking for in a company: excellent work environment, challenging projects, international teams and the possibility of learning new abilities.",
-  "quote2": "Since I joined the company I realized the impact Ceibo had in my development, not only as a professional but also as a human being.",
-  "quote3": "The culture at Ceibo is clearly exemplified by two concepts: commitment and cooperation. The commitment of all members to carry out the projects and the cooperation within the team to always be willing to lend a helping hand.",
-  "quote4": "",
-  "quote5": "",
-  "quote6": "",
+	"quote1": "Ceibo combines many of the key aspects I was looking for in a company: excellent work environment, challenging projects, international teams and the possibility of learning new abilities.",
+	"quote2": "Since I joined the company I realized the impact Ceibo had in my development, not only as a professional but also as a human being.",
+	"quote3": "The culture at Ceibo is clearly exemplified by two concepts: commitment and cooperation. The commitment of all members to carry out the projects and the cooperation within the team to always be willing to lend a helping hand.",
+	"quote4": "",
+	"quote5": "",
+	"quote6": "",
 
-  "porQueNaceCeiboTitle": "Our story and purpose",
-  "porQueNaceCeiboParagraphs": [
-    {
-      "text": "Ceibo Digital was born to bring together the world of business and technology to accompany the transformation of companies, building and enhancing their digital capabilities."
-    },
-    {
-      "text": "Historically, the world of organizational transformation was addressed by two types of service companies:  consulting firms and technology companies. These companies operated in silos, leaving organizations with fragmented solutions. The companies, after receiving the consultants recommendations, had to look for solutions in the technology companies."
-    },
-    {
-      "text": "Convinced that recommendations only leave us halfway, Ceibo structured itself to offer an integrated service. Combining strong strategic capabilities and expertise in the digital world, we accompany our clients in the implementation and adoption of initiatives devised together, always measuring the key indicators that allow us to continuously improve."
-    }
-  ],
+	"porQueNaceCeiboTitle": "Our story and purpose",
+	"porQueNaceCeiboParagraphs": [
+		{
+			"text": "Ceibo Digital was born to bring together the world of business and technology to accompany the transformation of companies, building and enhancing their digital capabilities."
+		},
+		{
+			"text": "Historically, the world of organizational transformation was addressed by two types of service companies:  consulting firms and technology companies. These companies operated in silos, leaving organizations with fragmented solutions. The companies, after receiving the consultants recommendations, had to look for solutions in the technology companies."
+		},
+		{
+			"text": "Convinced that recommendations only leave us halfway, Ceibo structured itself to offer an integrated service. Combining strong strategic capabilities and expertise in the digital world, we accompany our clients in the implementation and adoption of initiatives devised together, always measuring the key indicators that allow us to continuously improve."
+		}
+	],
 
-  "queNosHaceDiferentesTitle": "What sets us apart",
-  "buildingBlocks": "Building Blocks",
-  "ideacion": "Design and implementation",
-  "nuestroEquipo": "Our team",
-  "buildingBlocksParagraph": "We don't believe in the big digital transformation project. We believe in walking the transformation through building blocks, short initiatives with tangible results that in an aggregate way transform the company.",
-  "ideacionParagraph": "Convinced that recommendations only leave us halfway, we accompany our clients in the implementation and adoption of the initiatives devised together.",
-  "nuestroEquipoParagraph": "We are a firm with extraordinary young talent. We are leaders with experience in multiple industries and practices. We are Great Place to Work. We are consultants and specialists. We are passionate about digital transformation.",
-  "queNosHaceDiferentesCards": [
-    {
-      "title": "Building Blocks",
-      "text": "We don't believe in the mega digital transformation project, we believe in building blocks, short initiatives with tangible results that in an aggregate way are transforming the company."
-    },
-    {
-      "title": "Design and implementation",
-      "text": "Convinced that recommendations only leave us halfway, we accompany our clients in the implementation and adoption of the initiatives devised together."
-    },
-    {
-      "title": "Our team",
-      "text": "We are a young talent company. We are experienced leaders in multiple industries and practices. We are great place to work. We are consultants and specialists. We're passionate about digital transformation."
-    }
-  ],
+	"queNosHaceDiferentesTitle": "What sets us apart",
+	"buildingBlocks": "Building Blocks",
+	"ideacion": "Design and implementation",
+	"nuestroEquipo": "Our team",
+	"buildingBlocksParagraph": "We don't believe in the big digital transformation project. We believe in walking the transformation through building blocks, short initiatives with tangible results that in an aggregate way transform the company.",
+	"ideacionParagraph": "Convinced that recommendations only leave us halfway, we accompany our clients in the implementation and adoption of the initiatives devised together.",
+	"nuestroEquipoParagraph": "We are a firm with extraordinary young talent. We are leaders with experience in multiple industries and practices. We are Great Place to Work. We are consultants and specialists. We are passionate about digital transformation.",
+	"queNosHaceDiferentesCards": [
+		{
+			"title": "Building Blocks",
+			"text": "We don't believe in the mega digital transformation project, we believe in building blocks, short initiatives with tangible results that in an aggregate way are transforming the company."
+		},
+		{
+			"title": "Design and implementation",
+			"text": "Convinced that recommendations only leave us halfway, we accompany our clients in the implementation and adoption of the initiatives devised together."
+		},
+		{
+			"title": "Our team",
+			"text": "We are a young talent company. We are experienced leaders in multiple industries and practices. We are great place to work. We are consultants and specialists. We're passionate about digital transformation."
+		}
+	],
 
-  "vidaEnCeiboQuotesTitle": "What makes Ceibo a Great Place to Work?",
-  "vidaEnCeiboQuotes": [
-    {
-      "text": "“Ceibers are constantly challenged and there is a very healthy team culture. A high sense of belonging is generated“"
-    },
-    {
-      "text": "“The company is characterized for delegating the ability to make decisions and inquire about solutions, which makes people challenge their capabilities and push their limits”"
-    },
-    {
-      "text": "“Growth, dynamism and learning opportunities”"
-    },
-    {
-      "text": "“Pursuit of excellence and collaborative culture”"
-    },
-    {
-      "text": "“The work environment generated at Ceibo makes professional relations naturally grow into personal bonds“"
-    },
-    {
-      "text": "“The culture. We have yoga classes, game breaks (called 'cafés'), days with special activities and trips to get to know each other, have fun and relax”"
-    },
-    {
-      "text": "“I believe that the empathy and genuine concern we have among all employees is a value that stands out in the team culture and contributes a lot to team building”"
-    },
-    {
-      "text": "“Everyone is always willing to lend a hand, to listen to each others problems and to share the knowledge acquired“"
-    },
-    {
-      "text": "“Excellent client portfolio, the best talents and an excellent organizational culture”"
-    }
-  ],
+	"vidaEnCeiboQuotesTitle": "What makes Ceibo a Great Place to Work?",
+	"vidaEnCeiboQuotes": [
+		{
+			"text": "“Ceibers are constantly challenged and there is a very healthy team culture. A high sense of belonging is generated“"
+		},
+		{
+			"text": "“The company is characterized for delegating the ability to make decisions and inquire about solutions, which makes people challenge their capabilities and push their limits”"
+		},
+		{
+			"text": "“Growth, dynamism and learning opportunities”"
+		},
+		{
+			"text": "“Pursuit of excellence and collaborative culture”"
+		},
+		{
+			"text": "“The work environment generated at Ceibo makes professional relations naturally grow into personal bonds“"
+		},
+		{
+			"text": "“The culture. We have yoga classes, game breaks (called 'cafés'), days with special activities and trips to get to know each other, have fun and relax”"
+		},
+		{
+			"text": "“I believe that the empathy and genuine concern we have among all employees is a value that stands out in the team culture and contributes a lot to team building”"
+		},
+		{
+			"text": "“Everyone is always willing to lend a hand, to listen to each others problems and to share the knowledge acquired“"
+		},
+		{
+			"text": "“Excellent client portfolio, the best talents and an excellent organizational culture”"
+		}
+	],
 
-  "comoEsTrabajarEnCeiboTitle": "What is it like to work at Ceibo Digital?",
+	"comoEsTrabajarEnCeiboTitle": "What is it like to work at Ceibo Digital?",
 
-  "comoEsTrabajarEnCeiboVideoContent": [
-    {
-      "videoURL": "https://www.youtube.com/embed/kpcl2kQBcD0?si=8ZkM4TbYqQSxXgfc",
-      "title": "Mendoza retreat 2023",
-      "text": "Every year we organize a retreat where we plan goals ahead, do team building activities and have a lot of fun. Always faithful to our philosophy “work hard, play hard“."
-    },
-    {
-      "videoURL": "https://www.youtube.com/embed/ufuk9HQbHOM?si=sCIUo9DYaBJpQibT",
-      "title": "Miami transfer",
-      "text": "Once a year, a group of ceibers are chosen to work for 3 months at the Miami offices with our managing partner David Wilson."
-    },
-    {
-      "videoURL": "https://www.youtube.com/embed/WWNw6StWrIU?si=BXo-OhL6yYLVWF0O",
-      "title": "After office and football, what a better plan?",
-      "text": "We seek to promote work-life balance and the general well-being of our employees through sports and recreational activities outside the workplace. Football, paddle, bowling and more!"
-    },
-    {
-      "videoURL": "https://www.youtube.com/embed/KhgLuLww0DA?si=NA1O5wcUaC2Wyxxn",
-      "title": "Check out our workplace!",
-      "text": "The Buenos Aires office is located at Circular Innova in Nordelta. The facilities offered by this cowork allow us to share workspaces, lunches and recreational activities."
-    },
-    {
-      "videoURL": "https://www.youtube.com/embed/48vG5N7UiFw?si=fJr2UrdL5zTt0Yku",
-      "title": "The Hackathon from the inside",
-      "text": "During two days, we went through a collaborative software development experience, where we worked on different initiatives that promoted integration, growth and good practices among ceibers."
-    }
-  ],
+	"comoEsTrabajarEnCeiboVideoContent": [
+		{
+			"videoURL": "https://www.youtube.com/embed/kpcl2kQBcD0?si=8ZkM4TbYqQSxXgfc",
+			"title": "Mendoza retreat 2023",
+			"text": "Every year we organize a retreat where we plan goals ahead, do team building activities and have a lot of fun. Always faithful to our philosophy “work hard, play hard“."
+		},
+		{
+			"videoURL": "https://www.youtube.com/embed/ufuk9HQbHOM?si=sCIUo9DYaBJpQibT",
+			"title": "Miami transfer",
+			"text": "Once a year, a group of ceibers are chosen to work for 3 months at the Miami offices with our managing partner David Wilson."
+		},
+		{
+			"videoURL": "https://www.youtube.com/embed/WWNw6StWrIU?si=BXo-OhL6yYLVWF0O",
+			"title": "After office and football, what a better plan?",
+			"text": "We seek to promote work-life balance and the general well-being of our employees through sports and recreational activities outside the workplace. Football, paddle, bowling and more!"
+		},
+		{
+			"videoURL": "https://www.youtube.com/embed/KhgLuLww0DA?si=NA1O5wcUaC2Wyxxn",
+			"title": "Check out our workplace!",
+			"text": "The Buenos Aires office is located at Circular Innova in Nordelta. The facilities offered by this cowork allow us to share workspaces, lunches and recreational activities."
+		},
+		{
+			"videoURL": "https://www.youtube.com/embed/48vG5N7UiFw?si=fJr2UrdL5zTt0Yku",
+			"title": "The Hackathon from the inside",
+			"text": "During two days, we went through a collaborative software development experience, where we worked on different initiatives that promoted integration, growth and good practices among ceibers."
+		}
+	],
 
-  "seguinosEnRedes": "Follow us on social media to learn more about our culture",
+	"seguinosEnRedes": "Follow us on social media to learn more about our culture",
 
-  "conocenos": "Our team",
+	"conocenos": "Our team",
 
-  "queEsTransformacion": "What is digital transformation for us?",
-  "queEsSubtitle": "Digital transformation is rethinking a company’s business model considering three elements",
-  "nuevoEscenarioSubt": "New competitive scenario",
-  "nuevoEscenarioText": "We don’t need to focus only on the things that have worked in the past. We need to be very attentive to the future. New players are entering some of the company’s businesses but even more into their clients’ businesses. They bring along new business models, regulation asymmetries and more digital capabilities. It is essential to think, not only at industry levels but at global levels as well, about the different tools being used and the new strategies being applied to business. ",
-  "nuevasDemandasSubt": "New consumers’ demands",
-  "nuevasDemandasText": "Users are looking for efficient and competitive products and services and demand experiences. It is not about the user experience in an app or a website anymore but about the user’s relationship with the company and the brand. This experience is dynamic and also the user’s expectation. What three years ago was satisfying may not be so today.",
-  "nuevasTecsSubt": "New technologies",
-  "nuevasTecsText": "New technologies allow for more efficiency, cost savings, new business models, and new communication channels. They allow us to improve users’ experience and reduce the number of players intervening in a value chain. This third element is related to the previous ones. However, it deserves a particular highlight since technology is an essential tool for digital transformation. ",
+	"queEsTransformacion": "What is digital transformation for us?",
+	"queEsSubtitle": "Digital transformation is rethinking a company’s business model considering three elements",
+	"nuevoEscenarioSubt": "New competitive scenario",
+	"nuevoEscenarioText": "We don’t need to focus only on the things that have worked in the past. We need to be very attentive to the future. New players are entering some of the company’s businesses but even more into their clients’ businesses. They bring along new business models, regulation asymmetries and more digital capabilities. It is essential to think, not only at industry levels but at global levels as well, about the different tools being used and the new strategies being applied to business. ",
+	"nuevasDemandasSubt": "New consumers’ demands",
+	"nuevasDemandasText": "Users are looking for efficient and competitive products and services and demand experiences. It is not about the user experience in an app or a website anymore but about the user’s relationship with the company and the brand. This experience is dynamic and also the user’s expectation. What three years ago was satisfying may not be so today.",
+	"nuevasTecsSubt": "New technologies",
+	"nuevasTecsText": "New technologies allow for more efficiency, cost savings, new business models, and new communication channels. They allow us to improve users’ experience and reduce the number of players intervening in a value chain. This third element is related to the previous ones. However, it deserves a particular highlight since technology is an essential tool for digital transformation. ",
 
-  "areasDeServicio": "Our consulting services",
-  "estrategiaModalTxt1": "Together with our clients, we study the sustainable evolution into the digital business, design the path towards it and coordinate the implementation.",
-  "nuestrosProyectos": "Some of our projects are related to the following:",
-  "estrategiaModalItem1": "New businesses and business model",
-  "estrategiaModalItem2": "Value proposition",
-  "estrategiaModalItem3": "Technology",
-  "estrategiaModalItem4": "Strategic plan",
-  "estrategiaModalItem5": "Strategy Management Office",
+	"areasDeServicio": "Our consulting services",
+	"estrategiaModalTxt1": "Together with our clients, we study the sustainable evolution into the digital business, design the path towards it and coordinate the implementation.",
+	"nuestrosProyectos": "Some of our projects are related to the following:",
+	"estrategiaModalItem1": "New businesses and business model",
+	"estrategiaModalItem2": "Value proposition",
+	"estrategiaModalItem3": "Technology",
+	"estrategiaModalItem4": "Strategic plan",
+	"estrategiaModalItem5": "Strategy Management Office",
 
-  "excelenciaModalText1": "We develop and implement a different way of working to achieve the desired results of a digital business in the expected time, costs and quality.",
-  "excelenciaModalItem1": "Task simplification",
+	"excelenciaModalText1": "We develop and implement a different way of working to achieve the desired results of a digital business in the expected time, costs and quality.",
+	"excelenciaModalItem1": "Task simplification",
 
-  "organizacionModalText1": "We work on the adequate capabilities of an organization to adopt the change towards digital.",
-  "organizacionModalItem1": "Work culture",
-  "organizacionModalItem2": "Change management",
-  "organizacionModalItem3": "Coaching",
-  "organizacionModalItem4": "Performance management",
-  "organizacionModalItem5": "Spans & Layers",
-  "organizacionModalItem6": "Employee experience",
-  "organizacionModalItem7": "Training & development",
+	"organizacionModalText1": "We work on the adequate capabilities of an organization to adopt the change towards digital.",
+	"organizacionModalItem1": "Work culture",
+	"organizacionModalItem2": "Change management",
+	"organizacionModalItem3": "Coaching",
+	"organizacionModalItem4": "Performance management",
+	"organizacionModalItem5": "Spans & Layers",
+	"organizacionModalItem6": "Employee experience",
+	"organizacionModalItem7": "Training & development",
 
-  "innovacionModalText1": "We study and develop ideas to achieve disruptive changes, plan the capabilities that need to be developed and the expected benefits, and implement them. ",
-  "innovacionModalItem1": "New services & products",
-  "innovacionModalItem2": "Innovation Lab",
-  "innovacionModalItem3": "Open innovation",
-  "innovacionModalItem4": "Platform development",
-  "innovacionModalItem5": "Technology implementation",
+	"innovacionModalText1": "We study and develop ideas to achieve disruptive changes, plan the capabilities that need to be developed and the expected benefits, and implement them. ",
+	"innovacionModalItem1": "New services & products",
+	"innovacionModalItem2": "Innovation Lab",
+	"innovacionModalItem3": "Open innovation",
+	"innovacionModalItem4": "Platform development",
+	"innovacionModalItem5": "Technology implementation",
 
-  "customerengModalText1": "we improve the interaction between customers and brands, working on digital initiatives to enhance marketing, sales and post-sales.",
-  "customerengModalItem1": "Contacting policy",
-  "customerengModalItem2": "Salesforce Automation",
-  "customerengModalItem3": "CRM",
-  "customerengModalItem4": "Loyalty",
-  "customerengModalItem5": "Customer Care",
-  "customerengModalItem6": "Analytics / Big data",
-  "customerengModalItem7": "Omnichannel",
-  "customerengModalItem8": "Audience management",
-  "customerengModalItem9": "E-commerce",
+	"customerengModalText1": "we improve the interaction between customers and brands, working on digital initiatives to enhance marketing, sales and post-sales.",
+	"customerengModalItem1": "Contacting policy",
+	"customerengModalItem2": "Salesforce Automation",
+	"customerengModalItem3": "CRM",
+	"customerengModalItem4": "Loyalty",
+	"customerengModalItem5": "Customer Care",
+	"customerengModalItem6": "Analytics / Big data",
+	"customerengModalItem7": "Omnichannel",
+	"customerengModalItem8": "Audience management",
+	"customerengModalItem9": "E-commerce",
 
-  "sectoresIndustriales": "Industrial sectors",
-  "tecnologiasUsamos": "Technologies we use ",
-  "experienciasRelevantes": "Relevant experiences",
-  "sectoresFinancieros": "Financial services",
-  "agro": "Agro",
-  "industria": "Industry",
-  "logistica": "Logistics",
-  "consumoMasivo": "Mass consumption",
-  "salud": "Health",
-  "mineria": "Mining",
-  "retail": "Retail",
-  "tech": "Tecnhology",
-  "media": "Media",
+	"sectoresIndustriales": "Industrial sectors",
+	"tecnologiasUsamos": "Technologies we use ",
+	"experienciasRelevantes": "Relevant experiences",
+	"sectoresFinancieros": "Financial services",
+	"agro": "Agro",
+	"industria": "Industry",
+	"logistica": "Logistics",
+	"consumoMasivo": "Mass consumption",
+	"salud": "Health",
+	"mineria": "Mining",
+	"retail": "Retail",
+	"tech": "Tecnhology",
+	"media": "Media",
 
-  "quebuscamos": "What are we looking for?",
-  "quebuscamosTxt": "We seek to recruit the most talented professionals with outstanding leaders eager to learn and committed to generating an impact.",
-  "queofrecemos": "What do we offer?",
-  "queofrecemosTxt": "You will be part of a Great Place to Work company, surrounded by extraordinary people who will challenge you, help you and inspire you to grow professionally.",
+	"quebuscamos": "What are we looking for?",
+	"quebuscamosTxt": "We seek to recruit the most talented professionals with outstanding leaders eager to learn and committed to generating an impact.",
+	"queofrecemos": "What do we offer?",
+	"queofrecemosTxt": "You will be part of a Great Place to Work company, surrounded by extraordinary people who will challenge you, help you and inspire you to grow professionally.",
 
-  "carrera": "Ceibo’s career path",
-  "carreraTxt1": "There are consulting and specialist profiles on the first five levels of Ceibo’s career path",
+	"carrera": "Ceibo’s career path",
+	"carreraTxt1": "There are consulting and specialist profiles on the first five levels of Ceibo’s career path",
 
-  "carreraTxt2": "On the sixth level, the careers merge with the Senior Manager position. These levels determine the responsibility, compensation, and seniority of the collaborator.",
-  "carreraTxt3": "You will always be out of your “comfort zone”. We want people constantly looking for new challenges and passionate about learning something new every day. If you wish to remain in a comfort zone, Ceibo isn’t your place.",
-  "knowMoreCareers": "Learn more about careers at Ceibo",
+	"carreraTxt2": "On the sixth level, the careers merge with the Senior Manager position. These levels determine the responsibility, compensation, and seniority of the collaborator.",
+	"carreraTxt3": "You will always be out of your “comfort zone”. We want people constantly looking for new challenges and passionate about learning something new every day. If you wish to remain in a comfort zone, Ceibo isn’t your place.",
+	"knowMoreCareers": "Learn more about careers at Ceibo",
 
-  "proceso": "Interview process",
-  "sumateaceibo": "Join us",
-  "sumateTxt": "At Ceibo, we promote professional and personal development with a qualified team who shares a passion for business and technology",
-  "procesoTxt1": "Our recruiting process follows a series of steps where we ensure that candidates meet all the expectations required for the position and are aligned with our culture and values. At the same time, the process allows the candidate to get to know Ceibo in-depth by interacting with collaborators with different profiles and experiences. We strongly recommend that candidates contact our collaborators to talk and get mentored throughout the process. At the end of the Culture section, the contacts of all our collaborators are available.",
-  "procesoTxt2": "It is an excellent opportunity to ask everything! During the whole process, we evaluate four key dimensions, which are the same as we use to consider all of our collaborators during their careers at Ceibo:",
-  "resolver": "Problem-solving skills",
-  "comunicacion": "Communication and interpersonal skills",
-  "trabajoequipo": "Teamwork abilities",
-  "desarrollo": "Professional development",
-  "procesoReclutamientoEvaluatedSkills":[
-    {"title":"Problem-solving skills", "description":"This dimension refers to a candidate's ability to identify and analyze complex problems, as well as propose effective solutions. The ability to solve problems demonstrates a candidate's analytical skills, critical thinking and creativity.","imagePath":"/images-ceibo/sumatealequipo/problemas.png"},
-    {"title":"Communication and interpersonal skills", "description":"This dimension involves a candidate's ability to express ideas clearly and effectively both verbally and in writing. Interpersonal skills, such as empathy and the ability to build strong relationships, are crucial for interacting with diverse stakeholders and facilitating collaboration.","imagePath":"/images-ceibo/sumatealequipo/comunicacion.png"},
-    {"title":"Teamwork abilities", "description":"Consulting often involves team projects that require effective collaboration and synergy among team members. Assessing a candidate's teamwork ability involves their willingness to actively contribute and collaborate in a group setting, as well as their ability to adapt to different roles and work styles.","imagePath":"/images-ceibo/sumatealequipo/trabajo-equipo.png"},
-    {"title":"Professional development", "description":"This dimension refers to a candidate's desire and ability to learn, grow and continuously improve in his or her field. In consulting, where challenges and solutions evolve rapidly, it is essential to have professionals who are willing to acquire new knowledge, skills and competencies.","imagePath":"/images-ceibo/sumatealequipo/desarrollo.png"}
-  ],
-  "pasosproceso": "The process in steps",
-  "paso1Subt": "Candidates’ analysis",
-  "paso1Txt": "Once we receive the resumes from our web page, social networks, emails, and any other channels, we analyze them thoroughly, making sure the candidates meet the minimum requirements for the position in terms of education and experience and that the candidate meets the four dimensions that we evaluate throughout the process.",
-  "paso2Subt": "Informative talk",
-  "paso2Txt": "We have an informal chat with the candidates where we tell them: who Ceibo is, what we do and what we are looking for, and the candidates tell us what they are looking for and what they are passionate about. If we see that there is a match between what the candidates are looking for and what Ceibo needs, we invite them to the interview rounds and give them some tips to prepare for the case interviews. For this talk it is recommended that potential candidates have browsed the website and follow us on LinkedIn and Instagram.",
-  "paso3Subt": "First-round interviews",
-  "paso3Txt": "In this round, two 75-minute interviews are carried out with Ceibo Managers and Project Leaders. In them, the candidate is provided with a business situation and is asked to give a strategic recommendation based on his analysis. Those candidates who meet the expectations are invited to pass the round.",
-  "paso4Subt": "Second-round interviews",
-  "paso4Txt": "In this round, two interviews are conducted with different Ceibo Managers. During these interviews we discuss their experience and assess some of the capabilities. Throughout the process, the candidate is encouraged to ask all questions and find out as much as possible about Ceibo. In this instance you can also take a case interview.",
-  "paso5Subt": "Third-round interviews",
-  "paso5Txt": "If the candidate did well in the second round, they are invited to participate in the third and final round. This round consists of two 75 minute case interviews with Socios de Ceibo. Each partner continues to evaluate different aspects of the candidate, as well as performance in previous interviews.",
-  "paso6Subt": "Job offer",
-  "paso6Txt": "Typically, if the candidate reached this stage, a job offer is extended to join Ceibo in one of the modalities: Team or Community.",
-  "prepCases": "Case Interviews Preparation",
-  "busquedasvigentes": "Job openings",
+	"proceso": "Interview process",
+	"sumateaceibo": "Join us",
+	"sumateTxt": "At Ceibo, we promote professional and personal development with a qualified team who shares a passion for business and technology",
+	"procesoTxt1": "Our recruiting process follows a series of steps where we ensure that candidates meet all the expectations required for the position and are aligned with our culture and values. At the same time, the process allows the candidate to get to know Ceibo in-depth by interacting with collaborators with different profiles and experiences. We strongly recommend that candidates contact our collaborators to talk and get mentored throughout the process. At the end of the Culture section, the contacts of all our collaborators are available.",
+	"procesoTxt2": "It is an excellent opportunity to ask everything! During the whole process, we evaluate four key dimensions, which are the same as we use to consider all of our collaborators during their careers at Ceibo:",
+	"resolver": "Problem-solving skills",
+	"comunicacion": "Communication and interpersonal skills",
+	"trabajoequipo": "Teamwork abilities",
+	"desarrollo": "Professional development",
+	"procesoReclutamientoEvaluatedSkills": [
+		{
+			"title": "Problem-solving skills",
+			"description": "This dimension refers to a candidate's ability to identify and analyze complex problems, as well as propose effective solutions. The ability to solve problems demonstrates a candidate's analytical skills, critical thinking and creativity.",
+			"imagePath": "/images-ceibo/sumatealequipo/problemas.png"
+		},
+		{
+			"title": "Communication and interpersonal skills",
+			"description": "This dimension involves a candidate's ability to express ideas clearly and effectively both verbally and in writing. Interpersonal skills, such as empathy and the ability to build strong relationships, are crucial for interacting with diverse stakeholders and facilitating collaboration.",
+			"imagePath": "/images-ceibo/sumatealequipo/comunicacion.png"
+		},
+		{
+			"title": "Teamwork abilities",
+			"description": "Consulting often involves team projects that require effective collaboration and synergy among team members. Assessing a candidate's teamwork ability involves their willingness to actively contribute and collaborate in a group setting, as well as their ability to adapt to different roles and work styles.",
+			"imagePath": "/images-ceibo/sumatealequipo/trabajo-equipo.png"
+		},
+		{
+			"title": "Professional development",
+			"description": "This dimension refers to a candidate's desire and ability to learn, grow and continuously improve in his or her field. In consulting, where challenges and solutions evolve rapidly, it is essential to have professionals who are willing to acquire new knowledge, skills and competencies.",
+			"imagePath": "/images-ceibo/sumatealequipo/desarrollo.png"
+		}
+	],
+	"pasosproceso": "The process in steps",
+	"paso1Subt": "Candidates’ analysis",
+	"paso1Txt": "Once we receive the resumes from our web page, social networks, emails, and any other channels, we analyze them thoroughly, making sure the candidates meet the minimum requirements for the position in terms of education and experience and that the candidate meets the four dimensions that we evaluate throughout the process.",
+	"paso2Subt": "Informative talk",
+	"paso2Txt": "We have an informal chat with the candidates where we tell them: who Ceibo is, what we do and what we are looking for, and the candidates tell us what they are looking for and what they are passionate about. If we see that there is a match between what the candidates are looking for and what Ceibo needs, we invite them to the interview rounds and give them some tips to prepare for the case interviews. For this talk it is recommended that potential candidates have browsed the website and follow us on LinkedIn and Instagram.",
+	"paso3Subt": "First-round interviews",
+	"paso3Txt": "In this round, two 75-minute interviews are carried out with Ceibo Managers and Project Leaders. In them, the candidate is provided with a business situation and is asked to give a strategic recommendation based on his analysis. Those candidates who meet the expectations are invited to pass the round.",
+	"paso4Subt": "Second-round interviews",
+	"paso4Txt": "In this round, two interviews are conducted with different Ceibo Managers. During these interviews we discuss their experience and assess some of the capabilities. Throughout the process, the candidate is encouraged to ask all questions and find out as much as possible about Ceibo. In this instance you can also take a case interview.",
+	"paso5Subt": "Third-round interviews",
+	"paso5Txt": "If the candidate did well in the second round, they are invited to participate in the third and final round. This round consists of two 75 minute case interviews with Socios de Ceibo. Each partner continues to evaluate different aspects of the candidate, as well as performance in previous interviews.",
+	"paso6Subt": "Job offer",
+	"paso6Txt": "Typically, if the candidate reached this stage, a job offer is extended to join Ceibo in one of the modalities: Team or Community.",
+	"prepCases": "Case Interviews Preparation",
+	"busquedasvigentes": "Job openings",
 
-  "completaform": "Fill this form to apply for the position",
-  "nombreyape": "Name and lastname",
-  "telefono": "Phone number",
-  "comoteEnteraste": "How did you hear about this search?",
-  "bolsatrabajo": "Educational institution job board",
-  "feriauni": "University Fairs",
-  "ceiboweb": "Ceibo website",
-  "recomendacion": "Recommendation from a Ceibo collaborator",
-  "instaAd": "Advertising on Instagram",
-  "instaPost": "Instagram",
-  "otros": "Other",
-  "adjCv": "Attach CV (Only PDF format)*",
-  "linkedin": "LinkedIn",
-  "mail": "Mail",
+	"completaform": "Fill this form to apply for the position",
+	"nombreyape": "Name and lastname",
+	"telefono": "Phone number",
+	"comoteEnteraste": "How did you hear about this search?",
+	"bolsatrabajo": "Educational institution job board",
+	"feriauni": "University Fairs",
+	"ceiboweb": "Ceibo website",
+	"recomendacion": "Recommendation from a Ceibo collaborator",
+	"instaAd": "Advertising on Instagram",
+	"instaPost": "Instagram",
+	"otros": "Other",
+	"adjCv": "Attach CV (Only PDF format)*",
+	"linkedin": "LinkedIn",
+	"mail": "Mail",
 
-  "eventos": "Events",
-  "registernow": "Register now",
-  "eventosSubt": "Ceibo stands out for offering knowledge to its customers, collaborators and stakeholders in the area of digital transformation",
-  "prox": "Upcoming event",
-  "suscribiteEvento": "Event registration form",
-  "dondeEnteraste": "Where did you hear about the event?",
-  "miraPasados": "Watch our past webinars",
-  "regsiter": "Register now",
-  "nombre": "Name",
-  "apellido": "Lastname",
-  "empresa": "Company",
-  "cargo": "Position",
-  "escrirbimsg": "Write your message..",
-  "ingresaCorreo": "Enter your email",
+	"eventos": "Events",
+	"registernow": "Register now",
+	"eventosSubt": "Ceibo stands out for offering knowledge to its customers, collaborators and stakeholders in the area of digital transformation",
+	"prox": "Upcoming event",
+	"suscribiteEvento": "Event registration form",
+	"dondeEnteraste": "Where did you hear about the event?",
+	"miraPasados": "Watch our past webinars",
+	"regsiter": "Register now",
+	"nombre": "Name",
+	"apellido": "Lastname",
+	"empresa": "Company",
+	"cargo": "Position",
+	"escrirbimsg": "Write your message..",
+	"ingresaCorreo": "Enter your email",
 
-  "adnTitle": "Ceibo Digital’s DNA",
-  "adnText": "Our culture's DNA is composed of 4 pillars that complement each other in order to ensure that the Ceibers' experience within the company is not only 'work hard' but also 'play hard'.",
-  "pertenenciaTitle": "Sense of belonging",
-  "pertenenciaText": "Through recreational activities, events and office days, we seek to make each employee feel a key part of Ceibo, thus fostering teamwork, companionship and a great work environment.",
-  "empatiaTitle": "Empathy and trust",
-  "empatiaText": "We create relaxed and entertaining spaces where our employees can interact in a personal way, fostering empathy and trust in order to promote companionship and team building.",
-  "wellbeingTitle": "Wellbeing",
-  "wellbeingText": "We promote work-life balance and the general wellbeing of our employees through sports activities, yoga, health tips, talks with specialists and a good work-life balance.",
-  "reconocimientoTitle": "Recognition",
-  "reconocimientoText": "We seek to recognize the actions and attitudes that are aligned with the values that identify us, celebrating those who represent them. Twice a year, 'ambassadors' who embody the values of our Core Competencies are awarded.",
+	"adnTitle": "Ceibo Digital’s DNA",
+	"adnText": "Our culture's DNA is composed of 4 pillars that complement each other in order to ensure that the Ceibers' experience within the company is not only 'work hard' but also 'play hard'.",
+	"pertenenciaTitle": "Sense of belonging",
+	"pertenenciaText": "Through recreational activities, events and office days, we seek to make each employee feel a key part of Ceibo, thus fostering teamwork, companionship and a great work environment.",
+	"empatiaTitle": "Empathy and trust",
+	"empatiaText": "We create relaxed and entertaining spaces where our employees can interact in a personal way, fostering empathy and trust in order to promote companionship and team building.",
+	"wellbeingTitle": "Wellbeing",
+	"wellbeingText": "We promote work-life balance and the general wellbeing of our employees through sports activities, yoga, health tips, talks with specialists and a good work-life balance.",
+	"reconocimientoTitle": "Recognition",
+	"reconocimientoText": "We seek to recognize the actions and attitudes that are aligned with the values that identify us, celebrating those who represent them. Twice a year, 'ambassadors' who embody the values of our Core Competencies are awarded.",
 
-  "peopleWorthTitle": "What do our people value most?",
+	"peopleWorthTitle": "What do our people value most?",
 
-  "carreraEnCeiboH1": "Careers at Ceibo",
-  "carreraEnCeiboH2": "Build your own professional path with unlimited growth opportunities",
-  "carreraEnCeiboMetaDescription": "Discover career opportunities at Ceibo: Join a company leading in digital transformation.",
+	"carreraEnCeiboH1": "Careers at Ceibo",
+	"carreraEnCeiboH2": "Build your own professional path with unlimited growth opportunities",
+	"carreraEnCeiboMetaDescription": "Discover career opportunities at Ceibo: Join a company leading in digital transformation.",
 
-  "careerPathTitle": "Explore our career path",
-  "careerPathParagraphs": [
-    {
-      "text": "We value the growth and development of our employees, and that is why we design a solid career path that guides your steps within Ceibo and, at the same time, your professional career. At Ceibo we are proud to say that growth is directly linked to the performance and achievements of each one. We evaluate the performance of our employees in each quarter of the year and offer rapid promotion opportunities to those who demonstrate excellence and significant contributions."
-    },
-    {
-      "text": "In our organization there are seven levels that define the progression of employees."
-    },
-    {
-      "text": "It is important to note that in ceibo we have two different profiles: consultants and specialists, who work together on different projects to promote digital transformation. The first five levels of the career path are different for both profiles. In the sixth level the career is unified in the position of Senior Manager."
-    }
-  ],
-  "careerPathLevelsTitle": "The 7 Levels of the Career Path",
-  "careerPathLevels": [
-    {
-      "subtitle": "Level 1: Associate",
-      "description": "At the Associate level, you'll embark on your professional journey with us. Here, you will learn the fundamentals of consulting, acquiring essential skills and knowledge to foster your career growth. You'll collaborate with experienced teams on challenging projects, honing your analytical and problem-solving abilities."
-    },
-    {
-      "subtitle": "Level 2: Senior Associate",
-      "description": "As a Senior Associate, you'll assume more responsibilities within the team and continue to develop your consulting skills. Your ability to craft independent analyses, make informed decisions, and generate value for clients will be pivotal to your success at this stage."
-    },
-    {
-      "subtitle": "Level 3: Consultant",
-      "description": "Upon reaching the Consultant level, you'll shoulder greater responsibility and wield more influence over your team's outcomes. By now, you will have built a robust toolkit as a consultant. Your client communication skills and your capacity to deliver impactful and valuable results will be paramount at this level."
-    },
-    {
-      "subtitle": "Level 4: Project Leader",
-      "description": "As a Project Leader, you will be responsible for overseeing and managing entire projects. You'll serve as the bridge between our clients and our consulting team. In addition to your technical skills, you'll need strong management abilities to ensure successful project delivery within deadlines."
-    },
-    {
-      "subtitle": "Level 5: Manager",
-      "description": "Upon attaining the Manager level, you will oversee different teams of consultants and have the opportunity to make high-level, strategic decisions that drive the growth of our clients and our company. Your leadership and team motivation skills will be essential in achieving outstanding results."
-    },
-    {
-      "subtitle": "Level 6: Senior Manager",
-      "description": "Here, the consulting and specialist careers converge. You'll have the opportunity to apply your knowledge and experience to various projects. You will lead multidisciplinary teams and ensure that the solutions we provide are innovative and at the forefront of digital transformation."
-    },
-    {
-      "subtitle": "Level 7: Partner",
-      "description": "As a Partner, you will be part of the company's leadership, influencing decision-making and shaping the future of our consultancy. Your experience, business acumen, and ability to cultivate strong client relationships will be critical to our company's success."
-    }
-  ],
+	"careerPathTitle": "Explore our career path",
+	"careerPathParagraphs": [
+		{
+			"text": "We value the growth and development of our employees, and that is why we design a solid career path that guides your steps within Ceibo and, at the same time, your professional career. At Ceibo we are proud to say that growth is directly linked to the performance and achievements of each one. We evaluate the performance of our employees in each quarter of the year and offer rapid promotion opportunities to those who demonstrate excellence and significant contributions."
+		},
+		{
+			"text": "In our organization there are seven levels that define the progression of employees."
+		},
+		{
+			"text": "It is important to note that in ceibo we have two different profiles: consultants and specialists, who work together on different projects to promote digital transformation. The first five levels of the career path are different for both profiles. In the sixth level the career is unified in the position of Senior Manager."
+		}
+	],
+	"careerPathLevelsTitle": "The 7 Levels of the Career Path",
+	"careerPathLevels": [
+		{
+			"subtitle": "Level 1: Associate",
+			"description": "At the Associate level, you'll embark on your professional journey with us. Here, you will learn the fundamentals of consulting, acquiring essential skills and knowledge to foster your career growth. You'll collaborate with experienced teams on challenging projects, honing your analytical and problem-solving abilities."
+		},
+		{
+			"subtitle": "Level 2: Senior Associate",
+			"description": "As a Senior Associate, you'll assume more responsibilities within the team and continue to develop your consulting skills. Your ability to craft independent analyses, make informed decisions, and generate value for clients will be pivotal to your success at this stage."
+		},
+		{
+			"subtitle": "Level 3: Consultant",
+			"description": "Upon reaching the Consultant level, you'll shoulder greater responsibility and wield more influence over your team's outcomes. By now, you will have built a robust toolkit as a consultant. Your client communication skills and your capacity to deliver impactful and valuable results will be paramount at this level."
+		},
+		{
+			"subtitle": "Level 4: Project Leader",
+			"description": "As a Project Leader, you will be responsible for overseeing and managing entire projects. You'll serve as the bridge between our clients and our consulting team. In addition to your technical skills, you'll need strong management abilities to ensure successful project delivery within deadlines."
+		},
+		{
+			"subtitle": "Level 5: Manager",
+			"description": "Upon attaining the Manager level, you will oversee different teams of consultants and have the opportunity to make high-level, strategic decisions that drive the growth of our clients and our company. Your leadership and team motivation skills will be essential in achieving outstanding results."
+		},
+		{
+			"subtitle": "Level 6: Senior Manager",
+			"description": "Here, the consulting and specialist careers converge. You'll have the opportunity to apply your knowledge and experience to various projects. You will lead multidisciplinary teams and ensure that the solutions we provide are innovative and at the forefront of digital transformation."
+		},
+		{
+			"subtitle": "Level 7: Partner",
+			"description": "As a Partner, you will be part of the company's leadership, influencing decision-making and shaping the future of our consultancy. Your experience, business acumen, and ability to cultivate strong client relationships will be critical to our company's success."
+		}
+	],
 
-  "careerPathVideosContent": [
-    {
-      "videoURL": "https://www.youtube.com/embed/jfKfPfyJRdk?si=Hg3K9vd-ZTypSa6v",
-      "title": "Career at Ceibo Digital",
-      "text": "In Ceibo Digital, we have consulting and specialist profiles. Learn how each career path differs in the early stages before converging into the role of a Senior Manager."
-    },
-    {
-      "videoURL": "https://www.youtube.com/embed/J2i1pxTe0CE?si=J-VI6bDWcs9CK66s",
-      "title": "The 7 Levels of the Career Path",
-      "text": "Discover in detail what the career path of Ceibo members is like and what the key responsibilities are at each level."
-    }
-  ],
-  "espacializacionTitle": "Specialization tracks",
-  "especializacionText": "At Ceibo, we're committed to fostering a dynamic career environment where your potential knows no bounds, and your career path is uniquely yours to design and follow. And that's why consultants have the opportunity to specialize in three distinct verticals:  data, growth marketing, and development. These specialized tracks can be pursued through comprehensive training programs, hands-on project experience, and collaborative training initiatives with academic institutions. By specializing, you'll sharpen your technical skills, gain practical expertise, and emerge as a leader in your chosen field.",
-  "dataTitle": "Data",
-  "dataText": "In a world driven by information, our Data Analysis Specialists are tasked with extracting meaning and value from it. Their mastery of analytical tools and techniques enables them to explore datasets with precision, identifying patterns and trends that underpin strategic decisions.",
-  "growthTitle": "Growth Marketing",
-  "growthText": "Our Growth Marketing experts help drive our clients' growth through effective marketing strategies. They not only grasp metrics but also know how to translate them into innovative strategies and experiments that generate measurable and scalable impact.",
-  "developerTitle": "Development",
-  "developerText": "Our Development Specialists are the creators of applications, systems, and programs that turn ideas into concrete solutions. Combining their creative ingenuity with strong technical skills, these experts operate at the intersection of creativity and functionality, ensuring that each line of code serves as a gateway to intuitive and seamless digital experiences.",
+	"careerPathVideosContent": [
+		{
+			"videoURL": "https://www.youtube.com/embed/jfKfPfyJRdk?si=Hg3K9vd-ZTypSa6v",
+			"title": "Career at Ceibo Digital",
+			"text": "In Ceibo Digital, we have consulting and specialist profiles. Learn how each career path differs in the early stages before converging into the role of a Senior Manager."
+		},
+		{
+			"videoURL": "https://www.youtube.com/embed/J2i1pxTe0CE?si=J-VI6bDWcs9CK66s",
+			"title": "The 7 Levels of the Career Path",
+			"text": "Discover in detail what the career path of Ceibo members is like and what the key responsibilities are at each level."
+		}
+	],
+	"espacializacionTitle": "Specialization tracks",
+	"especializacionText": "At Ceibo, we're committed to fostering a dynamic career environment where your potential knows no bounds, and your career path is uniquely yours to design and follow. And that's why consultants have the opportunity to specialize in three distinct verticals:  data, growth marketing, and development. These specialized tracks can be pursued through comprehensive training programs, hands-on project experience, and collaborative training initiatives with academic institutions. By specializing, you'll sharpen your technical skills, gain practical expertise, and emerge as a leader in your chosen field.",
+	"dataTitle": "Data",
+	"dataText": "In a world driven by information, our Data Analysis Specialists are tasked with extracting meaning and value from it. Their mastery of analytical tools and techniques enables them to explore datasets with precision, identifying patterns and trends that underpin strategic decisions.",
+	"growthTitle": "Growth Marketing",
+	"growthText": "Our Growth Marketing experts help drive our clients' growth through effective marketing strategies. They not only grasp metrics but also know how to translate them into innovative strategies and experiments that generate measurable and scalable impact.",
+	"developerTitle": "Development",
+	"developerText": "Our Development Specialists are the creators of applications, systems, and programs that turn ideas into concrete solutions. Combining their creative ingenuity with strong technical skills, these experts operate at the intersection of creativity and functionality, ensuring that each line of code serves as a gateway to intuitive and seamless digital experiences.",
 
-  "porQueCeiboDigitalTitle": "Why work at Ceibo Digital?",
-  "porQueCeiboDigitalParagraph": "At Ceibo Digital, we enhance your professional and personal development alongside a team of great professionals who share a passion for business and technology.",
-  "porQueCeiboCards": [
-    {
-      "title": "Growth",
-      "text": "We boost your professional growth through challenges and responsibilities that drive your career, supporting you at every step to help you achieve your goals.",
-      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-crecimiento.png"
-    },
-    {
-      "title": "Culture",
-      "text": "The DNA of our culture is composed of 4 pillars that complement each other, aiming to ensure that the Ceibers' experience is not only 'work hard' but also 'play hard'.",
-      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-cultura.png"
-    },
-    {
-      "title": "Learning",
-      "text": "Learning never ends. Each new project, client, and team is an opportunity to expand your knowledge and acquire new skills.",
-      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-aprendizaje.png"
-    },
-    {
-      "title": "Innovation",
-      "text": "We drive change and creativity, adopting strategic and technological solutions to address complex challenges and make disruptive changes.",
-      "imagePath": "/images-ceibo/sumatealequipo/overview/icon-innovacion.png"
-    }
-  ],
-  "listoParaAplicarTitle": "Ready to apply?",
-  "listoParaAplicarDescription": "Learn about our recruiting process",
+	"porQueCeiboDigitalTitle": "Why work at Ceibo Digital?",
+	"porQueCeiboDigitalParagraph": "At Ceibo Digital, we enhance your professional and personal development alongside a team of great professionals who share a passion for business and technology.",
+	"porQueCeiboCards": [
+		{
+			"title": "Growth",
+			"text": "We boost your professional growth through challenges and responsibilities that drive your career, supporting you at every step to help you achieve your goals.",
+			"imagePath": "/images-ceibo/sumatealequipo/overview/icon-crecimiento.png"
+		},
+		{
+			"title": "Culture",
+			"text": "The DNA of our culture is composed of 4 pillars that complement each other, aiming to ensure that the Ceibers' experience is not only 'work hard' but also 'play hard'.",
+			"imagePath": "/images-ceibo/sumatealequipo/overview/icon-cultura.png"
+		},
+		{
+			"title": "Learning",
+			"text": "Learning never ends. Each new project, client, and team is an opportunity to expand your knowledge and acquire new skills.",
+			"imagePath": "/images-ceibo/sumatealequipo/overview/icon-aprendizaje.png"
+		},
+		{
+			"title": "Innovation",
+			"text": "We drive change and creativity, adopting strategic and technological solutions to address complex challenges and make disruptive changes.",
+			"imagePath": "/images-ceibo/sumatealequipo/overview/icon-innovacion.png"
+		}
+	],
+	"listoParaAplicarTitle": "Ready to apply?",
+	"listoParaAplicarDescription": "Learn about our recruiting process",
 
-  "comoPrepararse": "How to prepare?",
-  "comoPrepararseParagraphs": [
-    {
-      "text": "At Ceibo, our case interviews challenge candidates to solve complex problems and real-time business cases. Throughout this process, we provide limited information and ask candidates to analyze the problem, identify key factors, generate hypotheses, develop an approach to solve it, and recommend specific actions. Our approach to interviews is tailored specifically to the position you are seeking, designed to highlight your strengths and provide us with a clear understanding of your strategic thinking."
-    },
-    {
-      "text": "During these interviews, Ceibo interviewers closely observe how candidates:"
-    }
-  ],
-  "comoPrepararseItems": [
-    {
-      "text": "Address the problem"
-    },
-    {
-      "text": "Structure their thinking"
-    },
-    {
-      "text": "Formulate and test hypotheses"
-    },
-    {
-      "text": "Use data"
-    },
-    {
-      "text": "Communicate their ideas"
-    },
-    {
-      "text": "Work under pressure"
-    }
-  ],
-  "comoPrepararseFinalParagraph": "We believe that these interviews present a valuable opportunity for you to showcase your skills and potential. They allow us to assess how you apply your knowledge in challenging and real-world situations.",
-  "comoPrepararseVideoContent": {
-    "title": "How to stand out in our recruiting process?",
-    "description": "We want you to do well! We give you some tips so you can distinguish yourself during the interview process.",
-    "videoURL": "https://www.youtube.com/embed/1Fx5O0xQJR8"
-  },
+	"comoPrepararse": "How to prepare?",
+	"comoPrepararseParagraphs": [
+		{
+			"text": "At Ceibo, our case interviews challenge candidates to solve complex problems and real-time business cases. Throughout this process, we provide limited information and ask candidates to analyze the problem, identify key factors, generate hypotheses, develop an approach to solve it, and recommend specific actions. Our approach to interviews is tailored specifically to the position you are seeking, designed to highlight your strengths and provide us with a clear understanding of your strategic thinking."
+		},
+		{
+			"text": "During these interviews, Ceibo interviewers closely observe how candidates:"
+		}
+	],
+	"comoPrepararseItems": [
+		{
+			"text": "Address the problem"
+		},
+		{
+			"text": "Structure their thinking"
+		},
+		{
+			"text": "Formulate and test hypotheses"
+		},
+		{
+			"text": "Use data"
+		},
+		{
+			"text": "Communicate their ideas"
+		},
+		{
+			"text": "Work under pressure"
+		}
+	],
+	"comoPrepararseFinalParagraph": "We believe that these interviews present a valuable opportunity for you to showcase your skills and potential. They allow us to assess how you apply your knowledge in challenging and real-world situations.",
+	"comoPrepararseVideoContent": {
+		"title": "How to stand out in our recruiting process?",
+		"description": "We want you to do well! We give you some tips so you can distinguish yourself during the interview process.",
+		"videoURL": "https://www.youtube.com/embed/1Fx5O0xQJR8"
+	},
 
-  "comoPrepararseColumnsIntro": "At Ceibo, we are committed to your success and aim to offer you an exciting and rewarding professional opportunity. To ensure you are adequately prepared for our recruitment process, we provide the following preparatory instances and resources:",
+	"comoPrepararseColumnsIntro": "At Ceibo, we are committed to your success and aim to offer you an exciting and rewarding professional opportunity. To ensure you are adequately prepared for our recruitment process, we provide the following preparatory instances and resources:",
 
-  "comoPrepararseColumnsContent": [
-    {
-      "title": "Case Prep",
-      "text": "At Ceibo, we offer a valuable group Case Prep session where our team members share their knowledge and strategies for solving cases. In this interactive session, you'll receive detailed advice on approaching cases, learn effective analysis and structuring techniques, and have the opportunity to solve real-time cases alongside our team members."
-    },
-    {
-      "title": "Mentoring",
-      "text": "If you participate in the mentoring program, our team members will provide you with practice cases and offer personalized feedback. Through one-on-one sessions, you'll receive guidance and coaching to enhance your case-solving skills and reach your full potential."
-    },
-    {
-      "title": "Casebooks",
-      "text": "Casebooks will help you become familiar with different types of cases and provide an opportunity to practice and refine your skills before facing interviews.",
-      "casebooks": true
-    }
-  ],
+	"comoPrepararseColumnsContent": [
+		{
+			"title": "Case Prep",
+			"text": "At Ceibo, we offer a valuable group Case Prep session where our team members share their knowledge and strategies for solving cases. In this interactive session, you'll receive detailed advice on approaching cases, learn effective analysis and structuring techniques, and have the opportunity to solve real-time cases alongside our team members."
+		},
+		{
+			"title": "Mentoring",
+			"text": "If you participate in the mentoring program, our team members will provide you with practice cases and offer personalized feedback. Through one-on-one sessions, you'll receive guidance and coaching to enhance your case-solving skills and reach your full potential."
+		},
+		{
+			"title": "Casebooks",
+			"text": "Casebooks will help you become familiar with different types of cases and provide an opportunity to practice and refine your skills before facing interviews.",
+			"casebooks": true
+		}
+	],
 
-  "procesoReclutamientoTitle": "Our Process",
-  "procesoReclutamientoText": "At CEIBO, our recruitment process has been meticulously crafted to ensure that candidates meet our expectations and align with our culture and values. During this process, candidates have the chance to immerse themselves in the essence of CEIBO, interacting with a diverse group of team members from various backgrounds and experiences.",
-  "procesoReclutamientoEvaluacionTitle": "What do we evaluate?",
-  "procesoReclutamientoEvaluacionText": "Throughout the entire process, we assess four key dimensions, which are the same criteria used to evaluate all team members throughout their careers at Ceibo:",
-  "procesoReclutamientoTextFinal": "By assessing these four key dimensions during the recruitment process, we can identify candidates who demonstrate the ability to tackle complex problems, possess effective communication skills, exhibit a willingness to collaborate in teams, and maintain a constant desire for professional development. These qualities are fundamental to cultivating highly competent and well-prepared consultants capable of addressing the ever-evolving challenges in the business landscape and delivering innovative solutions to our clients.",
+	"procesoReclutamientoTitle": "Our Process",
+	"procesoReclutamientoText": "At CEIBO, our recruitment process has been meticulously crafted to ensure that candidates meet our expectations and align with our culture and values. During this process, candidates have the chance to immerse themselves in the essence of CEIBO, interacting with a diverse group of team members from various backgrounds and experiences.",
+	"procesoReclutamientoEvaluacionTitle": "What do we evaluate?",
+	"procesoReclutamientoEvaluacionText": "Throughout the entire process, we assess four key dimensions, which are the same criteria used to evaluate all team members throughout their careers at Ceibo:",
+	"procesoReclutamientoTextFinal": "By assessing these four key dimensions during the recruitment process, we can identify candidates who demonstrate the ability to tackle complex problems, possess effective communication skills, exhibit a willingness to collaborate in teams, and maintain a constant desire for professional development. These qualities are fundamental to cultivating highly competent and well-prepared consultants capable of addressing the ever-evolving challenges in the business landscape and delivering innovative solutions to our clients.",
 
-  "overviewCulturaTitle": "Our Culture",
-  "overviewCulturaText": "The DNA of our culture is made up of 4 pillars that complement each other, seeking to ensure that the Ceibers' experience within the company is not only 'work hard' but also 'play hard'.",
-  "knowMore": "Learn more about our Culture"
+	"overviewCulturaTitle": "Our Culture",
+	"overviewCulturaText": "The DNA of our culture is made up of 4 pillars that complement each other, seeking to ensure that the Ceibers' experience within the company is not only 'work hard' but also 'play hard'.",
+	"knowMore": "Learn more about our Culture",
+
+	"talentoGlobal": "Global Talent",
+	"talentoGlobalH2": "Discover a world of opportunities with Global Talent",
+	"talentoGlobalMetaDescription": "Explore a world of global opportunities and connections with Talento Global. Empower your potential and be part of this initiative that broadens your career horizons.",
+	"epicCamp": "Epic Camp",
+	"epicCampParagraphs": [
+		{
+			"text": "¿Viajar o trabajar? ¿ Potenciar mi carrera o conocer el mundo? ¿Seguir aprendiendo sobre negocios o mejorar el inglés? ¿Invertir en el futuro o divertirme? Sabemos qué preguntas te estás haciendo."
+		},
+		{ "text": "¿Y si pudieras tenerlo todo?" },
+		{
+			"text": "Te invitamos a conocer Epic Camp, nuestra iniciativa de desarrollo profesional que impulsa a nuestros talentos a vivir su primera experiencia de trabajo internacional."
+		}
+	],
+	"quieroSerParte": "I want to be part of Ceibo",
+	"potenciaTuCarrera": "Boost your career",
+	"potenciaTuCarreraTxt": "Through Epic Camp, Ceibo offers the opportunity each year to four of its most outstanding talents to work for three months from its Miami offices. During their stay, Ceibers continue to work on their projects in a global setting, expanding their horizons to address and solve business challenges, cultivating relevant skills, and acquiring knowledge about the markets where Ceibo operates.",
+	"desarrollaInteligenciaCultural": "Develop your cultural intelligence",
+	"desarrollaInteligenciaCulturalTxt": "This experience will enhance your adaptability to change and help you acquire new skills. If the idea of exploring and learning as a team excites you, Epic Camp is just right for you.",
+	"apostamosPorNuestroTalento": "We invest in the growth of our talent",
+	"apostamosPorNuestroTalentoTxt": "At Ceibo, we strive to create a challenging, fun, and diverse environment, offering experiences like Epic Camp that take careers to another level. We believe that in multicultural exchange, we find the learning and innovation that allow us to grow both professionally and personally."
 }
