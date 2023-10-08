@@ -633,19 +633,28 @@
 	"epicCamp": "Epic Camp",
 	"epicCampParagraphs": [
 		{
-			"text": "¿Viajar o trabajar? ¿ Potenciar mi carrera o conocer el mundo? ¿Seguir aprendiendo sobre negocios o mejorar el inglés? ¿Invertir en el futuro o divertirme? Sabemos qué preguntas te estás haciendo."
+			"text": "Travel or work? Enhance my career or explore the world? Keep learning about business or improve my language skills? Invest in the future or have fun? We know the questions you are asking yourself."
 		},
-		{ "text": "¿Y si pudieras tenerlo todo?" },
+		{ "text": "What if you could have it all?" },
 		{
-			"text": "Te invitamos a conocer Epic Camp, nuestra iniciativa de desarrollo profesional que impulsa a nuestros talentos a vivir su primera experiencia de trabajo internacional."
+			"text": "We invite you to discover Epic Camp, our professional development initiative that encourages our talents to have their first international work experience."
 		}
 	],
 	"queEsEpicCamp": "Epic Camp is an initiative of Global Talent, our professional learning and development program at Ceibo.",
+	"porQueEpicCamp": "Why is Epic Camp going to change your life?",
+	"beneficiosEpicCamp": [
+		{ "text": "Your career is going to take off" },
+		{ "text": "Your CV is going to stand out" },
+		{ "text": "Acquire a global mindset that will take you far" },
+		{ "text": "You will consolidate your language skills forever" },
+		{ "text": "You will live epic and unforgettable experiences" }
+	],
 	"quieroSerParte": "I want to be part of Ceibo",
 	"potenciaTuCarrera": "Boost your career",
 	"potenciaTuCarreraTxt": "Through Epic Camp, Ceibo offers the opportunity each year to four of its most outstanding talents to work for three months from its Miami offices. During their stay, Ceibers continue to work on their projects in a global setting, expanding their horizons to address and solve business challenges, cultivating relevant skills, and acquiring knowledge about the markets where Ceibo operates.",
 	"desarrollaInteligenciaCultural": "Develop your cultural intelligence",
 	"desarrollaInteligenciaCulturalTxt": "This experience will enhance your adaptability to change and help you acquire new skills. If the idea of exploring and learning as a team excites you, Epic Camp is just right for you.",
 	"apostamosPorNuestroTalento": "We invest in the growth of our talent",
-	"apostamosPorNuestroTalentoTxt": "At Ceibo, we strive to create a challenging, fun, and diverse environment, offering experiences like Epic Camp that take careers to another level. We believe that in multicultural exchange, we find the learning and innovation that allow us to grow both professionally and personally."
+	"apostamosPorNuestroTalentoTxt": "At Ceibo, we strive to create a challenging, fun, and diverse environment, offering experiences like Epic Camp that take careers to another level. We believe that in multicultural exchange, we find the learning and innovation that allow us to grow both professionally and personally.",
+	"epicCampOutro": "Explore all the opportunities we have for you and take the first step toward an extraordinary future at Ceibo."
 }

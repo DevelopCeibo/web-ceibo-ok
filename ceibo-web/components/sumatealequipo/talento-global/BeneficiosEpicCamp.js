@@ -1,10 +1,18 @@
 import React from "react";
 import EpicCampButton from "./EpicCampButton";
+import useTranslation from "next-translate/useTranslation";
 const BeneficiosEpicCamp = () => {
+	const { t } = useTranslation("common");
+	const title = t("porQueEpicCamp");
+	const epicCampBenefits = t(
+		"beneficiosEpicCamp",
+		{},
+		{ returnObjects: true }
+	);
 	return (
 		<div className="my-5 py-4">
 			<div className="section-title">
-				<h2>¿Por qué Epic Camp va a cambiar tu vida ? </h2>
+				<h2>{title}</h2>
 			</div>
 			<div className="row justify-content-center">
 				<div
@@ -16,9 +24,9 @@ const BeneficiosEpicCamp = () => {
 					<div className="service-card-one">
 						<img
 							src="/images-ceibo/sumatealequipo/talento-global/take-off.png"
-							alt="estrategia"
+							alt="Icono de un avion despegando"
 						/>
-						<h5>{"Tu carrera va a despegar"}</h5>
+						<h5>{epicCampBenefits[0].text}</h5>
 					</div>
 				</div>
 
@@ -33,7 +41,7 @@ const BeneficiosEpicCamp = () => {
 							src="/images-ceibo/sumatealequipo/talento-global/curriculum.png"
 							alt="Excelencia Operacional"
 						/>
-						<h5>{"Tu CV se va a diferenciar del resto"}</h5>
+						<h5>{epicCampBenefits[1].text}</h5>
 					</div>
 				</div>
 
@@ -48,11 +56,7 @@ const BeneficiosEpicCamp = () => {
 							src="/images-ceibo/sumatealequipo/talento-global/global-mindset.png"
 							alt="Organización"
 						/>
-						<h5>
-							{
-								"Adquirirás un Mindset Global que te llevará muy lejos"
-							}
-						</h5>
+						<h5>{epicCampBenefits[2].text}</h5>
 					</div>
 				</div>
 
@@ -63,12 +67,11 @@ const BeneficiosEpicCamp = () => {
 					data-aos-delay="400"
 				>
 					<div className="service-card-one">
-						{/* <i className="pe-7s-phone bg-fc3549"></i> */}
 						<img
 							src="/images-ceibo/sumatealequipo/talento-global/eng.png"
 							alt="Innovación"
 						/>
-						<h5>{"Consolidarás tu inglés para siempre"}</h5>
+						<h5>{epicCampBenefits[3].text}</h5>
 					</div>
 				</div>
 
@@ -84,7 +87,7 @@ const BeneficiosEpicCamp = () => {
 							src="/images-ceibo/sumatealequipo/talento-global/experience.png"
 							alt="Customer Engagement"
 						/>
-						<h5>{"Vivirás experiencias épicas e inolvidables "}</h5>
+						<h5>{epicCampBenefits[4].text}</h5>
 					</div>
 				</div>
 

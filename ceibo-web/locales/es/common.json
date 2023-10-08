@@ -635,11 +635,20 @@
 		}
 	],
 	"queEsEpicCamp": "Epic Camp es una iniciativa de Talento Global, nuestro programa de aprendizaje y desarrollo profesional de Ceibo.",
+	"porQueEpicCamp": "¿Por qué Epic Camp va a cambiar tu vida?",
+	"beneficiosEpicCamp": [
+		{ "text": "Tu carrera va a despegar" },
+		{ "text": "Tu CV se va a diferenciar del resto" },
+		{ "text": "Adquirirás un Mindset Global que te llevará muy lejos" },
+		{ "text": "Consolidarás tu inglés para siempre" },
+		{ "text": "Vivirás experiencias épicas e inolvidables" }
+	],
 	"quieroSerParte": "Quiero ser parte de Ceibo",
 	"potenciaTuCarrera": "Potencia tu carrera",
 	"potenciaTuCarreraTxt": "A través de Epic Camp Cada año Ceibo ofrece a cuatro de sus talentos más destacados la oportunidad de trabajar tres meses desde sus oficinas de Miami. Durante la estadía, los Ceibers continúan trabajando en sus proyectos en un ámbito global, expandiendo sus horizontes para abordar y resolver desafíos de negocio, cultivando competencias relevantes y adquiriendo conocimientos sobre los mercados donde opera Ceibo.",
 	"desarrollaInteligenciaCultural": "Desarrollá tu inteligencia cultural",
 	"desarrollaInteligenciaCulturalTxt": "Esta experiencia mejorará su capacidad de adaptación al cambio y les ayudará a adquirir nuevas habilidades para la vida. Si la idea de explorar y aprender en equipo te entusiasma, Epic Camp es justo para vos.",
 	"apostamosPorNuestroTalento": "Apostamos por el crecimiento de nuestro talento",
-	"apostamosPorNuestroTalentoTxt": "En Ceibo nos esforzamos por crear un ambiente desafiante, divertido y diverso, ofreciendo experiencias como Epic Camp, que llevan la carrera a otro nivel. Creemos que en el intercambio multicultural encontramos el aprendizaje y la innovación que nos permiten crecer tanto a nivel profesional como personal."
+	"apostamosPorNuestroTalentoTxt": "En Ceibo nos esforzamos por crear un ambiente desafiante, divertido y diverso, ofreciendo experiencias como Epic Camp, que llevan la carrera a otro nivel. Creemos que en el intercambio multicultural encontramos el aprendizaje y la innovación que nos permiten crecer tanto a nivel profesional como personal.",
+	"epicCampOutro": "Explora todas las oportunidades que tenemos para vos y da el primer paso hacia un futuro extraordinario en Ceibo"
 }
