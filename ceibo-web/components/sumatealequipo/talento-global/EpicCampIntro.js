@@ -11,8 +11,11 @@ const EpicCampIntro = () => {
 			<div className="section-title">
 				<h2>{title}</h2>
 			</div>
-			{paragraphs?.map((p) => (
-				<p className="text-center" key={uniqid()}>
+			{paragraphs?.map((p, index) => (
+				<p
+					className={index == 1 ? "text-center bold" : "text-center"}
+					key={uniqid()}
+				>
 					{p.text}
 				</p>
 			))}
