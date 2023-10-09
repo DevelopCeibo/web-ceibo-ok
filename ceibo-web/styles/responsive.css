@@ -1198,18 +1198,23 @@
 
 	/* PEOPLE WORTH */
 	.people-worth-bc {
-		height: auto;
+		height: 600px;
+	}
+
+	.people-worth-bc.talento-global {
+		height: 415px;
 	}
 	.people-worth-quote {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
 	.people-worth-card-footer {
-		margin-top: 1rem;
+		margin-top: auto;
+		padding-bottom: 2rem;
 	}
 	.people-worth-card-tag {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 	}
@@ -2076,6 +2081,9 @@
 	.people-worth-bc {
 		height: 650px;
 	}
+	.people-worth-bc.talento-global {
+		height: 500px;
+	}
 }
 
 /* Min width 992px to Max width 1199px */
@@ -2454,6 +2462,9 @@
 	}
 	.people-worth-bc {
 		height: 700px;
+	}
+	.people-worth-bc.talento-global {
+		height: 600px;
 	}
 }
 

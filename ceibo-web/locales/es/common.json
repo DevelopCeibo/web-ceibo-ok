@@ -644,11 +644,14 @@
 		{ "text": "Vivirás experiencias épicas e inolvidables" }
 	],
 	"quieroSerParte": "Quiero ser parte de Ceibo",
-	"potenciaTuCarrera": "Potencia tu carrera",
-	"potenciaTuCarreraTxt": "A través de Epic Camp Cada año Ceibo ofrece a cuatro de sus talentos más destacados la oportunidad de trabajar tres meses desde sus oficinas de Miami. Durante la estadía, los Ceibers continúan trabajando en sus proyectos en un ámbito global, expandiendo sus horizontes para abordar y resolver desafíos de negocio, cultivando competencias relevantes y adquiriendo conocimientos sobre los mercados donde opera Ceibo.",
+	"potenciaTuCarrera": "Potenciá tu carrera",
+	"potenciaTuCarreraTxt": "A través de Epic Camp cada año Ceibo ofrece a cuatro de sus talentos más destacados la oportunidad de trabajar tres meses desde sus oficinas de Miami. Durante la estadía, los Ceibers continúan trabajando en sus proyectos en un ámbito global, expandiendo sus horizontes para abordar y resolver desafíos de negocio, cultivando competencias relevantes y adquiriendo conocimientos sobre los mercados donde opera Ceibo.",
 	"desarrollaInteligenciaCultural": "Desarrollá tu inteligencia cultural",
-	"desarrollaInteligenciaCulturalTxt": "Esta experiencia mejorará su capacidad de adaptación al cambio y les ayudará a adquirir nuevas habilidades para la vida. Si la idea de explorar y aprender en equipo te entusiasma, Epic Camp es justo para vos.",
+	"desarrollaInteligenciaCulturalTxt": "Esta experiencia mejora la capacidad de adaptación al cambio y ayuda a los Ceibers a adquirir nuevas habilidades para la vida. Si la idea de explorar y aprender en equipo te entusiasma, Epic Camp es justo para vos.",
 	"apostamosPorNuestroTalento": "Apostamos por el crecimiento de nuestro talento",
 	"apostamosPorNuestroTalentoTxt": "En Ceibo nos esforzamos por crear un ambiente desafiante, divertido y diverso, ofreciendo experiencias como Epic Camp, que llevan la carrera a otro nivel. Creemos que en el intercambio multicultural encontramos el aprendizaje y la innovación que nos permiten crecer tanto a nivel profesional como personal.",
-	"epicCampOutro": "Explora todas las oportunidades que tenemos para vos y da el primer paso hacia un futuro extraordinario en Ceibo."
+	"epicCampOutro": "Explora todas las oportunidades que tenemos para vos y da el primer paso hacia un futuro extraordinario en Ceibo.",
+
+	"talentoGlobalOverviewText": "Trabajamos en un ámbito global, y buscamos que nuestros colaboradores se desarrollen en contextos multiculturales y expandan sus horizontes. Impulsamos su crecimiento tanto profesional como personal.",
+	"conoceMas": "Conocé más"
 }

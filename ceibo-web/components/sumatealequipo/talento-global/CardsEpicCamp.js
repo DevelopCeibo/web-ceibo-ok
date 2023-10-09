@@ -23,7 +23,7 @@ function CardsEpicCamp() {
 			ceiber.nombre === "FACUNDO YVORRA"
 	);
 	return (
-		<section className="my-5 py-4 people-worth">
+		<section className="mt-5 mb-4 py-4 people-worth">
 			<Swiper
 				pagination={{
 					clickable: true,
@@ -45,7 +45,7 @@ function CardsEpicCamp() {
 			>
 				{ceibers.map((ceiber, i) => (
 					<SwiperSlide key={i}>
-						<div className="people-worth-bc">
+						<div className="people-worth-bc talento-global">
 							<div className="people-worth-img">
 								<Image
 									src={ceiber?.globalTalent.img}

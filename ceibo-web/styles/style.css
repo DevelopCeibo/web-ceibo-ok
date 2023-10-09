@@ -8639,7 +8639,6 @@ abbr:hover {
 	margin-bottom: 1rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 .people-worth-img {
 	display: grid;
@@ -8647,6 +8646,7 @@ abbr:hover {
 	justify-content: center;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	margin-bottom: 1dvi;
 }
 .people-worth-quote {
 	padding-left: 2rem;
@@ -8654,7 +8654,8 @@ abbr:hover {
 	text-align: justify;
 }
 .people-worth-card-footer {
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
+	margin-top: auto;
 }
 .people-worth-card-question-wrapper {
 	text-align: center;

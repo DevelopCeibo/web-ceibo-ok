@@ -9,35 +9,36 @@ import useTranslation from "next-translate/useTranslation";
 import PorQueCeibo from "../../components/sumatealequipo/PorQueCeibo";
 import Vacantes from "../../components/HomePages/BusinessConsulting/Vacantes";
 import ListoParaAplicar from "../../components/sumatealequipo/ListoParaAplicar";
+import TalentoGlobal from "../../components/sumatealequipo/TalentoGlobal";
 const sumatealequipo = () => {
-  const { t } = useTranslation("common");
+	const { t } = useTranslation("common");
 
-  const sumateh1 = t("sumateh1");
-  const sumateh2 = t("sumateh2");
-  const sumateMetaDesc = t("sumateMetaDesc");
+	const sumateh1 = t("sumateh1");
+	const sumateh2 = t("sumateh2");
+	const sumateMetaDesc = t("sumateMetaDesc");
 
-  return (
-    <>
-      <Head>
-        <title>{sumateh1}</title>
-        <meta name="description" content={sumateMetaDesc} />
-      </Head>
-      <NavbarFive />
-      <PageBanner
-        pageTitle={sumateh1}
-        subtitle={sumateh2}
-        BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
-      />
-      <PorQueCeibo />
+	return (
+		<>
+			<Head>
+				<title>{sumateh1}</title>
+				<meta name="description" content={sumateMetaDesc} />
+			</Head>
+			<NavbarFive />
+			<PageBanner
+				pageTitle={sumateh1}
+				subtitle={sumateh2}
+				BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
+			/>
+			<PorQueCeibo />
 
-      <CarreraEnCeibo />
-      <NuestraCultura />
-
-      <Vacantes />
-      <ListoParaAplicar />
-      <Footer />
-    </>
-  );
+			<CarreraEnCeibo />
+			<NuestraCultura />
+			<TalentoGlobal />
+			<Vacantes />
+			<ListoParaAplicar />
+			<Footer />
+		</>
+	);
 };
 
 export default sumatealequipo;
