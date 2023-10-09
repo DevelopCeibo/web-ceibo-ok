@@ -7,7 +7,7 @@ const App = () => {
 
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
-			if (window.pageYOffset > 150) {
+			if (window.scrollY > 150) {
 				setShowButton(true);
 			} else {
 				setShowButton(false);
