@@ -190,14 +190,17 @@ export default async (req, res) => {
 				const fileStream = new Readable();
 				fileStream.push(req.file?.buffer);
 				fileStream.push(null);
-				utm_medium == "landing-talento-global"
-					? (receiver = [
-							"recruiting@ceibo.digital",
-							"marketing@ceibo.digital",
-					  ])
-					: (receiver = "recruiting@ceibo.digital");
+				// utm_medium == "landing-talento-global"
+				// 	? (receiver = [
+				// 			"recruiting@ceibo.digital",
+				// 			"marketing@ceibo.digital",
+				// 	  ])
+				// 	: (receiver = "recruiting@ceibo.digital");
 
-				// receiver = "tomas.apochian@ceibo.digital"
+				receiver = [
+					"tomas.apochian@ceibo.digital",
+					"malena.burs@ceibo.digital",
+				];
 
 				cv = req.file;
 				data = {
