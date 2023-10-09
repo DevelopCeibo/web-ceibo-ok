@@ -389,6 +389,52 @@
 		}
 	},
 	{
+		"nombre": "ALINA IBAÑEZ",
+		"linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
+		"src": "/images-ceibo/integrantes/Alina Ibañez.png",
+		"posicion": "CONSULTANT",
+		"email": "alina.ibanez@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "A nivel laboral, la experiencia del Epic Camp me resultó realmente enriquecedora, ya que tuve la oportunidad de compartir el dia a dia de trabajo con otros 4 ceibers, compartiendo cada uno sus conocimientos y habilidades, generando sinergias, a pesar de estar cada uno en un proyecto distinto. A nivel personal, la experiencia me dejó cuatro nuevos amigos",
+			"edition": "edición Miami 2021",
+			"editionEN": "Miami 2021 edition",
+			"quoteEN": "On a professional level, the Epic Camp experience was truly enriching for me, as I had the opportunity to share the day-to-day work with four other Ceibers, each sharing their knowledge and skills, creating synergies, despite each of us being on a different project. On a personal level, the experience left me with four new friends.",
+			"img": "/images-ceibo/sumatealequipo/talento-global/alina-ibañez.png"
+		}
+	},
+
+	{
+		"nombre": "BELTRÁN GANDOLFO",
+		"linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
+		"src": "/images-ceibo/integrantes/Beltran Gandolfo.png",
+		"posicion": "CONSULTANT",
+		"email": "beltran.gandolfo@ceibo.digital",
+		"ceiber": {
+			"nickname": "Corcho",
+			"quote": "Ceibo me da la oportunidad de trabajar con gente que busca encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, como pueden ser tecnología y desarrollo.",
+			"quoteEN": "Ceibo gives me the opportunity to work with people who are constantly seeking to discover their best selves and to learn from individuals with expertise in various areas of knowledge that interest me, such as technology and development.",
+			"tags": ["Trabajo en equipo", "Autonomía", "Aprendizaje"],
+			"tagsEN": ["Teamwork", "Autonomy", "Learning"],
+			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Beltran Gandolfo.png"
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "SERGIO MILLA",
 		"linkedinurl": "https://www.linkedin.com/in/sergio-milla-ab12919a/",
 		"src": "/images-ceibo/integrantes/Sergio Milla.png",
@@ -529,52 +575,6 @@
 	},
 
 	{
-		"nombre": "ALINA IBAÑEZ",
-		"linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
-		"src": "/images-ceibo/integrantes/Alina Ibañez.png",
-		"posicion": "CONSULTANT",
-		"email": "alina.ibanez@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-
-		"globalTalent": {
-			"quote": "A nivel laboral, la experiencia del Epic Camp me resultó realmente enriquecedora, ya que tuve la oportunidad de compartir el dia a dia de trabajo con otros 4 ceibers, compartiendo cada uno sus conocimientos y habilidades, generando sinergias, a pesar de estar cada uno en un proyecto distinto. A nivel personal, la experiencia me dejó cuatro nuevos amigos",
-			"edition": "edición Miami 2021",
-			"editionEN": "Miami 2021 edition",
-			"quoteEN": "On a professional level, the Epic Camp experience was truly enriching for me, as I had the opportunity to share the day-to-day work with four other Ceibers, each sharing their knowledge and skills, creating synergies, despite each of us being on a different project. On a personal level, the experience left me with four new friends.",
-			"img": "/images-ceibo/sumatealequipo/talento-global/alina-ibañez.png"
-		}
-	},
-
-	{
-		"nombre": "BELTRÁN GANDOLFO",
-		"linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
-		"src": "/images-ceibo/integrantes/Beltran Gandolfo.png",
-		"posicion": "CONSULTANT",
-		"email": "beltran.gandolfo@ceibo.digital",
-		"ceiber": {
-			"nickname": "Corcho",
-			"quote": "Ceibo me da la oportunidad de trabajar con gente que busca encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, como pueden ser tecnología y desarrollo.",
-			"quoteEN": "Ceibo gives me the opportunity to work with people who are constantly seeking to discover their best selves and to learn from individuals with expertise in various areas of knowledge that interest me, such as technology and development.",
-			"tags": ["Trabajo en equipo", "Autonomía", "Aprendizaje"],
-			"tagsEN": ["Teamwork", "Autonomy", "Learning"],
-			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Beltran Gandolfo.png"
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
 		"nombre": "IVÁN LENGUAS",
 		"linkedinurl": "https://www.linkedin.com/in/ivan-lenguas/",
 		"src": "/images-ceibo/integrantes/Ivan Lenguas.png",
@@ -645,30 +645,6 @@
 		}
 	},
 	{
-		"nombre": "ANDRÉS DENHAM",
-		"linkedinurl": "https://www.linkedin.com/in/andres-denham-b39a291a4/",
-		"src": "/images-ceibo/integrantes/Andres Denham.png",
-		"posicion": "ASSOCIATE",
-		"email": "andres.denham@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-
-	{
 		"nombre": "FACUNDO YVORRA",
 		"linkedinurl": "https://www.linkedin.com/in/facundo-yvorra-b47221177/",
 		"src": "/images-ceibo/integrantes/Facundo Yvorra.png",
@@ -689,6 +665,29 @@
 			"editionEN": "Miami 2023 Edition",
 			"quoteEN": "I'm excited about the idea of traveling and sharing with other Ceibers and getting to know a different culture from ours. Also, being able to visit the Miami offices and work personally with David Wilson, our Managing Partner.",
 			"img": "/images-ceibo/sumatealequipo/talento-global/facundo-yvorra.png"
+		}
+	},
+	{
+		"nombre": "ANDRÉS DENHAM",
+		"linkedinurl": "https://www.linkedin.com/in/andres-denham-b39a291a4/",
+		"src": "/images-ceibo/integrantes/Andres Denham.png",
+		"posicion": "ASSOCIATE",
+		"email": "andres.denham@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
 		}
 	},
 
