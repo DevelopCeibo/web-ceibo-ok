@@ -256,6 +256,37 @@
 		}
 	},
 	{
+		"nombre": "ALINA IBAÑEZ",
+		"linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
+		"src": "/images-ceibo/integrantes/Alina Ibañez.png",
+		"posicion": "CONSULTANT",
+		"email": "alina.ibanez@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		}
+	},
+
+	{
+		"nombre": "BELTRÁN GANDOLFO",
+		"linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
+		"src": "/images-ceibo/integrantes/Beltran Gandolfo.png",
+		"posicion": "CONSULTANT",
+		"email": "beltran.gandolfo@ceibo.digital",
+		"ceiber": {
+			"nickname": "Corcho",
+			"quote": "Ceibo me da la oportunidad de trabajar con gente que busca encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, como pueden ser tecnología y desarrollo.",
+			"quoteEN": "Ceibo gives me the opportunity to work with people who are constantly seeking to discover their best selves and to learn from individuals with expertise in various areas of knowledge that interest me, such as technology and development.",
+			"tags": ["Trabajo en equipo", "Autonomía", "Aprendizaje"],
+			"tagsEN": ["Teamwork", "Autonomy", "Learning"],
+			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Beltran Gandolfo.png"
+		}
+	},
+	{
 		"nombre": "SERGIO MILLA",
 		"linkedinurl": "https://www.linkedin.com/in/sergio-milla-ab12919a/",
 		"src": "/images-ceibo/integrantes/Sergio Milla.png",
@@ -348,37 +379,6 @@
 	},
 
 	{
-		"nombre": "ALINA IBAÑEZ",
-		"linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
-		"src": "/images-ceibo/integrantes/Alina Ibañez.png",
-		"posicion": "CONSULTANT",
-		"email": "alina.ibanez@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		}
-	},
-
-	{
-		"nombre": "BELTRÁN GANDOLFO",
-		"linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
-		"src": "/images-ceibo/integrantes/Beltran Gandolfo.png",
-		"posicion": "CONSULTANT",
-		"email": "beltran.gandolfo@ceibo.digital",
-		"ceiber": {
-			"nickname": "Corcho",
-			"quote": "Ceibo me da la oportunidad de trabajar con gente que busca encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, como pueden ser tecnología y desarrollo.",
-			"quoteEN": "Ceibo gives me the opportunity to work with people who are constantly seeking to discover their best selves and to learn from individuals with expertise in various areas of knowledge that interest me, such as technology and development.",
-			"tags": ["Trabajo en equipo", "Autonomía", "Aprendizaje"],
-			"tagsEN": ["Teamwork", "Autonomy", "Learning"],
-			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Beltran Gandolfo.png"
-		}
-	},
-	{
 		"nombre": "IVÁN LENGUAS",
 		"linkedinurl": "https://www.linkedin.com/in/ivan-lenguas/",
 		"src": "/images-ceibo/integrantes/Ivan Lenguas.png",
@@ -425,11 +425,11 @@
 		}
 	},
 	{
-		"nombre": "ANDRÉS DENHAM",
-		"linkedinurl": "https://www.linkedin.com/in/andres-denham-b39a291a4/",
-		"src": "/images-ceibo/integrantes/Andres Denham.png",
-		"posicion": "ASSOCIATE",
-		"email": "andres.denham@ceibo.digital",
+		"nombre": "FACUNDO YVORRA",
+		"linkedinurl": "https://www.linkedin.com/in/facundo-yvorra-b47221177/",
+		"src": "/images-ceibo/integrantes/Facundo Yvorra.png",
+		"posicion": "SENIOR ASSOCIATE",
+		"email": "facundo.yvorra@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
@@ -439,13 +439,12 @@
 			"img": ""
 		}
 	},
-
 	{
-		"nombre": "FACUNDO YVORRA",
-		"linkedinurl": "https://www.linkedin.com/in/facundo-yvorra-b47221177/",
-		"src": "/images-ceibo/integrantes/Facundo Yvorra.png",
-		"posicion": "SENIOR ASSOCIATE",
-		"email": "facundo.yvorra@ceibo.digital",
+		"nombre": "ANDRÉS DENHAM",
+		"linkedinurl": "https://www.linkedin.com/in/andres-denham-b39a291a4/",
+		"src": "/images-ceibo/integrantes/Andres Denham.png",
+		"posicion": "ASSOCIATE",
+		"email": "andres.denham@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
