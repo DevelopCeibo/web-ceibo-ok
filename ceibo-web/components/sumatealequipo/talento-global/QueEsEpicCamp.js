@@ -11,7 +11,7 @@ const QueEsEpicCamp = () => {
 	const apostamosTalentoTxt = t("apostamosPorNuestroTalentoTxt");
 
 	return (
-		<div className="my-5 py-4">
+		<div className="mt-5 py-4">
 			<article className="postcard aqua">
 				<a className="postcard__img_link">
 					<Image
