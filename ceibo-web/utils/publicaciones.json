@@ -90,6 +90,7 @@
 			"tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
 		}
 	},
+
 	{
 		"id": "20",
 		"path-url": "anti-money-laundering",
@@ -132,7 +133,58 @@
 			]
 		}
 	},
-
+	{
+		"id": "28",
+		"path-url": "exponegocios-paraguay",
+		"title": "Exponegocios Paraguay",
+		"titleEN": "Paraguay Exponegocios",
+		"img": "/images-ceibo/publicaciones/exponegocios-paraguay/",
+		"desc": "",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Exponegocios Paraguay"
+			},
+			{
+				"type": "p",
+				"text": "Nuestro project leader Luis Sanchez fue a Paraguay a participar de ExpoNegocios. Un congreso de tres dias que reúne a expertos empresariales destacados, ofreciendo acceso a conocimientos y perspectivas innovadoras en áreas clave."
+			}
+		],
+		"metadata": {
+			"date": "15, 16 y 17 de septiembre, 2023",
+			"dateEN": "September 15, 16 & 17, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/exponegocios-paraguay/",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
+		}
+	},
+	{
+		"id": "23",
+		"path-url": "retiro-alta-direccion-asuncion",
+		"title": "Retiro de Alta Dirección - Asunción",
+		"titleEN": "Executive Management Retreat - Asuncion",
+		"img": "/images-ceibo/publicaciones/retiro-alta-direccion/",
+		"desc": "",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Retiro de Alta Dirección - Asunción"
+			},
+			{
+				"type": "p",
+				"text": "El 17 y 18 de agosto se llevó adelante el Retiro de Alta Dirección organizado por el IAE Business School. Dos días donde los ejecutivos del más alto nivel de Paraguay se juntaron para intercambiar experiencias y debatir sobre las tendencias y nuevas necesidades del mundo de los negocios. Estamos orgullosos de nuestro Partner, Hernán Gutsztat, por haber sido parte de este evento."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/retiro-alta-direccion/"
+			}
+		],
+		"metadata": {
+			"date": "17 Y 18 de agosto, 2023",
+			"dateEN": "August 17 & 18, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/retiro-alta-direccion/",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
+		}
+	},
 	{
 		"id": "18",
 		"path-url": "digital-finance-forum-2023",
@@ -174,6 +226,75 @@
 			"tags": ["Ceibo Digital", "Finanzas"]
 		}
 	},
+
+	{
+		"id": "27",
+		"path-url": "iae-summit-2023",
+		"title": "IAE Summit 2023",
+		"titleEN": "IAE Summit 2023",
+		"img": "/images-ceibo/publicaciones/iae-summit-2023/banner.jpeg",
+		"desc": "En Ceibo Digital estamos comprometidos con la excelencia y la innovación, por eso no podíamos dejar pasar la oportunidad de asistir a uno de los eventos más relevantes del año en el ámbito empresarial: `IAE Summit 2023: Argentina, elijo creer`",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "IAE Summit 2023"
+			},
+			{
+				"type": "p",
+				"text": "Asistimos a uno de los eventos más relevantes del año en el ámbito empresarial: **IAE Summit 2023: Argentina, elijo creer**"
+			},
+			{
+				"type": "p",
+				"text": "El 30 de junio, en el IAE Summit 2023 organizado por IAE ALUMNI, nos sumergimos en un mundo de conocimiento y experiencia, rodeados de expertos en distintas áreas de negocios. Desde charlas inspiradoras hasta talleres prácticos, el evento nos brindó la oportunidad de aprender, conectarnos y crecer juntos."
+			},
+			{
+				"type": "p",
+				"text": "Fue un evento excepcional que nos brindó nuevas perspectivas y conocimientos valiosos."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/iae-summit-2023/banner.jpeg"
+			}
+		],
+		"metadata": {
+			"date": "30 de junio, 2023",
+			"dateEN": "June 30, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/iae-summit-2023/banner.jpeg",
+			"tags": ["Ceibo Digital", "Transformación Digital", "IAE"]
+		}
+	},
+	{
+		"id": "24",
+		"path-url": "congreso-america-digital-2023",
+		"title": "Congreso de Tecnología y Negocios América Digital - Mexico",
+		"titleEN": "America Digital Technology and Business Congress - Mexico",
+		"img": "/images-ceibo/publicaciones/congreso-america-digital/banner.png",
+		"desc": "Ceibo Digital en el Congreso de Tecnología y Negocios de América Digital 2023.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Congreso de Tecnología y Negocios América Digital"
+			},
+			{
+				"type": "p",
+				"text": "Este evento reunió a los más influyentes referentes en los campos de negocios, tecnología e innovación de la región, brindando un espacio de diálogo y exploración de las últimas tendencias que están dando forma al futuro empresarial."
+			},
+			{
+				"type": "p",
+				"text": "América Digital, conocido por ser un punto de encuentro donde se debaten y comparten conocimientos sobre los avances tecnológicos y estrategias de negocio más vanguardistas, resultó ser la plataforma ideal para que David Wilson, nuestro Managing Partner, se sumergiera en un intercambio enriquecedor de ideas y oportunidades para seguir creciendo."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/congreso-america-digital/img-1.png"
+			}
+		],
+		"metadata": {
+			"date": "21 y 22 de junio, 2023",
+			"dateEN": "June 21 & 22, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/congreso-america-digital/banner.png",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Tecnología"]
+		}
+	},
 	{
 		"id": "19",
 		"path-url": "evento-transformacion-digital-microsoft-paraguay",
@@ -205,6 +326,106 @@
 			"dateEN": "June 8, 2023",
 			"bannerImg": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/banner.png",
 			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
+		}
+	},
+	{
+		"id": "25",
+		"path-url": "entrevista-IAE-hernan-gutsztat",
+		"title": "Entrevista del IAE a Hernán Gutsztat",
+		"titleEN": "IAE interviews Hernán Gutsztat",
+		"img": "/images-ceibo/publicaciones/entrevista-iae/",
+		"desc": "Nuestro partner Hernan Gutsztat charlo sobre lo que significa para Ceibo ser sponsor del IAE.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Entrevista del IAE"
+			},
+			{
+				"type": "p",
+				"text": "Nuestro partner Hernan Gutsztat charlo sobre lo que significa para Ceibo ser sponsor de la IAE."
+			},
+			{
+				"type": "quote",
+				"text": "”Tenemos unos ciclos que se hacen mensualmente donde tenemos la posibilidad de atraer clientes, también los propios ceibers vienen acá. Nos sirve para generar visibilidad de nuestra empresa siempre está bueno asociarse a una marca tán fuerte como la del IAE Business School. Cuando pegamos el logo de Ceibo al logo del IAE sabemos que atrás hay una credencial muy importante”"
+			},
+			{
+				"type": "p",
+				"text": "Entrevista original: [Linkedin IAE](https://www.linkedin.com/feed/update/urn:li:activity:7059498223555461120/)"
+			}
+		],
+		"metadata": {
+			"date": "8 de mayo, 2023",
+			"dateEN": "May 8, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/entrevista-iae/",
+			"tags": ["Ceibo Digital", "Talento", "IAE"]
+		}
+	},
+	{
+		"id": "26",
+		"path-url": "inteligencia-artificial-la-nueva-era-de-los-negocios",
+		"title": "Ciclo mensual: Inteligencia Artificial - La nueva era de los negocios",
+		"titleEN": "Monthly cycle: Artificial Intelligence - The new era of business",
+		"img": "/images-ceibo/publicaciones/iae-inteligencia-artificial/miniatura.jpg",
+		"desc": "El equipo Ceibo participó en el evento 'Inteligencia artificial, la nueva era de los negocios' organizado por IAE ALUMNI.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Inteligencia Artificial: la nueva era de los negocios"
+			},
+			{
+				"type": "p",
+				"text": "El equipo Ceibo participó en el evento **'Inteligencia artificial, la nueva era de los negocios'** organizado por IAE ALUMNI."
+			},
+			{
+				"type": "p",
+				"text": "En esta ocasión, referentes del sector empresarial e informático brindaron un panorama sobre el origen, actualidad y capacidades de la inteligencia artificial en el ámbito de los negocios. Escuchamos el primer panel con especialistas en el área, entre ellos: Joan Cwaik, especialista en tecnología y economías emergentes; Fernando Ribas, ingeniero especialista en integración de datos y manager; y Soledad Alvarez del Sel, manager del equipo de arquitectos de soluciones de Amazon Web Services."
+			},
+			{
+				"type": "p",
+				"text": "En el segundo panel, escuchamos disertar a tres referentes del ámbito de los negocios: Camila Manera, cofundadora de la startup “LIBRODEPASES”; Sergio Fernández, CEO de Industrias John Deere Argentina; y Maria Elisa Frias, General Manager de Uber para Argentina, Paraguay y Uruguay."
+			},
+			{
+				"type": "p",
+				"text": "¡Agradecemos a IAE ALUMNI por esta invitación!"
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/iae-inteligencia-artificial/banner.jpg"
+			}
+		],
+		"metadata": {
+			"date": "7 de mayo, 2023",
+			"dateEN": "May 7, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/iae-inteligencia-artificial/banner.jpg",
+			"tags": ["Ceibo Digital", "Inteligencia Artificial", "IAE"]
+		}
+	},
+	{
+		"id": "22",
+		"path-url": "fintech-americas",
+		"title": "Fintech Americas",
+		"titleEN": "Fintech Americas",
+		"img": "/images-ceibo/publicaciones/",
+		"desc": "Bajo el lema '¿El Fin de la Transformación? El Comienzo de la Adaptación Infinita', Fintech Americas reunió a más de 150 exponentes de renombre a nivel mundial.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Fintech Americas"
+			},
+			{
+				"type": "p",
+				"text": "Bajo el lema '¿El Fin de la Transformación? El Comienzo de la Adaptación Infinita', Fintech Americas reunió a más de 150 exponentes de renombre a nivel mundial, y nuestro Partner, Hernán Gutsztat, estuvo presente para explorar y discutir las últimas tendencias que están moldeando el presente y el futuro de los servicios financieros en América Latina."
+			},
+			{
+				"type": "p",
+				"text": "El evento, que tuvo lugar durante los días 4 y 5 de mayo, sirvió como un foro excepcional para que expertos y líderes de la industria financiera se reunieran y compartieran sus conocimientos sobre la transformación digital en el sector. En un mundo donde la innovación tecnológica avanza a pasos agigantados, Fintech Americas brindó la oportunidad de analizar cómo las empresas pueden adaptarse de manera constante a las cambiantes dinámicas del entorno financiero."
+			}
+		],
+		"metadata": {
+			"date": "4 y 5 de mayo, 2023",
+			"dateEN": "May 4 & 5, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/fintech-americas/",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Fintech"]
 		}
 	},
 	{
