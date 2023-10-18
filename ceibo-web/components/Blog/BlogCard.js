@@ -18,7 +18,12 @@ function BlogCard({ section, publi }) {
 						<div className="blog-image">
 							<Link href={`/${urlFragment}/${publi["path-url"]}`}>
 								<a>
-									<img src={publi.img} alt="image" />
+									<Image
+										src={publi.img}
+										alt="insight card image"
+										layout="fill"
+										objectFit="cover"
+									/>
 								</a>
 							</Link>
 						</div>
