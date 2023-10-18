@@ -361,6 +361,31 @@
 		}
 	},
 	{
+		"id": "29",
+		"path-url": "sponsoreo-iae-alumni",
+		"title": "Sponsoreo IAE Alumni",
+		"titleEN": "IAE Alumni sponsorships",
+		"img": "/images-ceibo/publicaciones/sponsoreo-iae/",
+		"desc": "Estamos emocionados por nuestra colaboración como sponsors de Alumni IAE.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Sponsoreo IAE Alumni"
+			},
+			{
+				"type": "p",
+				"text": "Estamos emocionados por nuestra colaboración como sponsors de Alumni IAE. El IAE es una institución de renombre en toda Sudamérica. Para nosotros, esta asociación trasciende la mera colaboración empresarial sino tambien refleja nuestro compromiso con la educación de calidad y el desarrollo profesional. Esperamos contribuir al crecimiento y éxito de sus estudiantes y Alumni, mientras construimos un futuro prometedor juntos."
+			}
+		],
+		"metadata": {
+			"date": "Junio 2023",
+			"dateEN": "June 2023",
+			"bannerImg": "/images-ceibo/publicaciones/sponsoreo-iae/",
+			"tags": ["Ceibo Digital", "Sponsor", "IAE"]
+		}
+	},
+
+	{
 		"id": "26",
 		"path-url": "inteligencia-artificial-la-nueva-era-de-los-negocios",
 		"title": "Ciclo mensual: Inteligencia Artificial - La nueva era de los negocios",
