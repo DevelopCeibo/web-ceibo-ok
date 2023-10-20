@@ -13,10 +13,7 @@ const EventPageGenerator = ({ event }) => {
 	return (
 		<div className="container my-5">
 			<div className="row">
-				<div className="col-lg-2 col-md-12">
-					<Share event={event} />
-				</div>
-				<div className="col-lg-8 col-md-12">
+				<div className="col-lg-10 col-md-12">
 					<div className="blog-details">
 						<div className="article-content">
 							<ResponsiveIFrame videoSrc={event.embedLink} />
@@ -52,6 +49,8 @@ const EventPageGenerator = ({ event }) => {
 				</div>
 				<div className="col-lg-2 col-md-12 mt-4">
 					<AuthorSidebar event={event} />
+					<Share event={event} />
+
 					<div className="d-md-none">
 						<Subscribe />
 					</div>
