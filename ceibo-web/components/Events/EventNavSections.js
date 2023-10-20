@@ -21,7 +21,7 @@ const EventNavSection = ({ events }) => {
 					</div>
 					<div className="col-6 d-flex justify-content-end align-items-center">
 						<Link href={"/eventos"}>
-							<a className="all-webinars-button text-red-ceibo">
+							<a className="all-webinars-button text-red-ceibo bold">
 								{allWebinars}
 								<i className="fa-solid fa-angles-right ms-2"></i>
 							</a>
