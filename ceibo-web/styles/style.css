@@ -8848,3 +8848,29 @@ abbr:hover {
 	width: 560px;
 	height: 315px;
 }
+
+.event-speaker-subtitle {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.event-speaker {
+	color: #b82837;
+	font-weight: bold;
+}
+
+.bg-grey {
+	background-color: #e6e6e6;
+}
+
+.text-red-ceibo {
+	color: #b82837;
+}
+
+.all-webinars-button {
+	color: black;
+}
+/* .all-webinars-button:hover {
+	border-bottom: 1px solid black;
+} */
