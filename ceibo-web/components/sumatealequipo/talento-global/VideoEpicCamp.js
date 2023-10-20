@@ -9,7 +9,7 @@ const VideoEpicCamp = () => {
 			<p className="text-center mb-5">{paragraph}</p>
 			<div className="d-flex flex-row justify-content-center">
 				<ResponsiveIFrame
-					videoSrc={"https://www.youtube.com/embed/kTYWwMOIWiI"}
+					videoSrc={"https://www.youtube.com/embed/zIoJmfLsy6o"}
 				/>
 			</div>
 		</div>
