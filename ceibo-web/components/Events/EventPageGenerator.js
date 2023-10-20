@@ -23,7 +23,7 @@ const EventPageGenerator = ({ event }) => {
 
 							<p className="text-justify mt-3">{event.desc}</p>
 							{event.highlightedQuote ? (
-								<div className="mb-5 px-2 py-2 bg-grey rounded-2">
+								<div className="mb-5 px-3 py-3 bg-grey rounded-2">
 									<h5 className="text-red-ceibo bold fa-1x">
 										{locale === "es"
 											? "Quote destacada"
