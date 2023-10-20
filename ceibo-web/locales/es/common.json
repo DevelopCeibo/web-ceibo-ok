@@ -186,7 +186,7 @@
 	"organizacion": "Cómo nos organizamos en Ceibo",
 	"organizacionSubt": "En Ceibo estamos organizados en 3 capas. Esta modalidad responde a una forma flexible y dinámica de una compañía digital preparada para solucionar los desafíos más exigentes de nuestros clientes. Esta decisión se apoya en los conceptos de cercanía, flexibilidad y trabajo en red, alineados con las últimas tendencias de las empresas digitales.",
 	"teamCeiboTxt1": "Es una propuesta de valor para aquellos colaboradores que quieren crecer profesionalmente en su carrera acompañando el crecimiento de Ceibo. ",
-	"teamCeiboTxt2": "Con dedicación full-time en Ceibo, tienen la carrera profesional planificada donde crecer no es una opción, es la única opción dentro de Ceibo. Todos los miembros de Team, además de su trabajo tienen su ”Ceiber Contribution” (CC). Los CCs son asignaciones clave donde cada miembro de Team los lidera colaborando con el crecimiento de Ceibo y les permite involucrarse más con éxito de la compañía. Algunos de nuestros CC son Recruiting, Eventos, Marketing, Knowledge Management.",
+	"teamCeiboTxt2": "Con dedicación full-time en Ceibo, tienen la carrera profesional planificada donde crecer no es una opción, es la única opción dentro de Ceibo. Todos los miembros de Team, además de su trabajo tienen su ”Ceiber Contribution” (CC). Los CC son asignaciones clave donde cada miembro de Team los lidera colaborando con el crecimiento de Ceibo y les permite involucrarse más con éxito de la compañía. Algunos de nuestros CC son Recruiting, Eventos, Marketing, Knowledge Management.",
 	"comunidad": "Comunidad",
 	"ecosistema": "Ecosistema",
 	"comunidadTxt1": "Es una propuesta de valor para aquellos colaboradores que en una modalidad full-time o part-time, valoran tener una mayor flexibilidad, manejar sus tiempos y disfrutan de seguir especializándose en un área de expertise.",
@@ -280,7 +280,7 @@
 		},
 		{
 			"videoURL": "https://www.youtube.com/embed/ufuk9HQbHOM?si=sCIUo9DYaBJpQibT",
-			"title": "Transfer Miami",
+			"title": "Epic Camp Miami",
 			"text": "Una vez por año, un grupo de Ceibers son elegidos para trabajar durante 3 meses en las oficinas de Miami junto a nuestro Managing Partner David Wilson."
 		},
 		{
@@ -466,7 +466,7 @@
 
 	"carreraEnCeiboH1": "Carrera en Ceibo",
 	"carreraEnCeiboH2": "Construí tu propio camino profesional con oportunidades de crecimiento ilimitadas",
-	"carreraEnCeiboMetaDescription": "Descubre oportunidades de carrera en Ceibo: Únete a una empresa líder en transformación digital",
+	"carreraEnCeiboMetaDescription": "Descubrí oportunidades de carrera en Ceibo: Únete a una empresa líder en transformación digital",
 	"careerPathTitle": "Explorá nuestro career path",
 	"careerPathParagraphs": [
 		{
@@ -620,5 +620,38 @@
 
 	"overviewCulturaTitle": "Nuestra cultura",
 	"overviewCulturaText": "El ADN de nuestra cultura está compuesto por 4 pilares que se complementan buscando que la experiencia de los Ceibers dentro de la compañia no sólo sea 'work hard' sino también 'play hard'.",
-	"knowMore": "Conocé más de nuestra cultura"
+	"knowMore": "Conocé más de nuestra cultura",
+	"talentoGlobal": "Talento Global",
+	"talentoGlobalH2": "Descubre un mundo de oportunidades con Talento Global",
+	"talentoGlobalMetaDescription": "Explora un mundo de oportunidades y conexiones globales con Talento Global. Empodera tu potencial y sé parte de esta iniciativa que amplía tus horizontes profesionales.",
+	"epicCamp": "Epic Camp",
+	"epicCampParagraphs": [
+		{
+			"text": "¿Viajar o trabajar? ¿ Potenciar mi carrera o conocer el mundo? ¿Seguir aprendiendo sobre negocios o mejorar el inglés? ¿Invertir en el futuro o divertirme? Sabemos qué preguntas te estás haciendo."
+		},
+		{ "text": "¿Y si pudieras tenerlo todo?" },
+		{
+			"text": "Te invitamos a conocer Epic Camp, nuestra iniciativa de desarrollo profesional que impulsa a nuestros talentos a vivir su primera experiencia de trabajo internacional."
+		}
+	],
+	"queEsEpicCamp": "Epic Camp es una iniciativa de Talento Global, nuestro programa de aprendizaje y desarrollo profesional de Ceibo.",
+	"porQueEpicCamp": "¿Por qué Epic Camp va a cambiar tu vida?",
+	"beneficiosEpicCamp": [
+		{ "text": "Tu carrera va a despegar" },
+		{ "text": "Tu CV se va a diferenciar del resto" },
+		{ "text": "Adquirirás un Mindset Global que te llevará muy lejos" },
+		{ "text": "Consolidarás tu inglés para siempre" },
+		{ "text": "Vivirás experiencias épicas e inolvidables" }
+	],
+	"quieroSerParte": "Quiero ser parte de Ceibo",
+	"potenciaTuCarrera": "Potenciá tu carrera",
+	"potenciaTuCarreraTxt": "A través de Epic Camp cada año Ceibo ofrece a cuatro de sus talentos más destacados la oportunidad de trabajar tres meses desde sus oficinas de Miami. Durante la estadía, los Ceibers continúan trabajando en sus proyectos en un ámbito global, expandiendo sus horizontes para abordar y resolver desafíos de negocio, cultivando competencias relevantes y adquiriendo conocimientos sobre los mercados donde opera Ceibo.",
+	"desarrollaInteligenciaCultural": "Desarrollá tu inteligencia cultural",
+	"desarrollaInteligenciaCulturalTxt": "Esta experiencia mejora la capacidad de adaptación al cambio y ayuda a los Ceibers a adquirir nuevas habilidades para la vida. Si la idea de explorar y aprender en equipo te entusiasma, Epic Camp es justo para vos.",
+	"apostamosPorNuestroTalento": "Apostamos por el crecimiento de nuestro talento",
+	"apostamosPorNuestroTalentoTxt": "En Ceibo nos esforzamos por crear un ambiente desafiante, divertido y diverso, ofreciendo experiencias como Epic Camp, que llevan la carrera a otro nivel. Creemos que en el intercambio multicultural encontramos el aprendizaje y la innovación que nos permiten crecer tanto a nivel profesional como personal.",
+	"epicCampOutro": "Explora todas las oportunidades que tenemos para vos y da el primer paso hacia un futuro extraordinario en Ceibo.",
+
+	"talentoGlobalOverviewText": "Trabajamos en un ámbito global, y buscamos que nuestros colaboradores se desarrollen en contextos multiculturales y expandan sus horizontes. Impulsamos su crecimiento tanto profesional como personal.",
+	"conoceMas": "Conocé más"
 }

@@ -186,7 +186,7 @@
 	"organizacion": "Our way of organizing Ceibo",
 	"organizacionSubt": "At Ceibo, we are organized into three layers. This form of collaboration reflects the flexibility and dynamism of a digital company prepared to solve our clients' most demanding challenges. This decision is based on proximity, flexibility, and networking, aligned with the latest trends in digital companies.",
 	"teamCeiboTxt1": "Team is our value proposition for those collaborators who aim to grow professionally in their careers alongside Ceibo’s growth.",
-	"teamCeiboTxt2": " With full-time dedication at Ceibo, they have a planned career path in which growth is not a choice but the only option. All Team members, in addition to their projects, have a 'Ceiber Contribution' (CC). The CCs are key assignments each Team member can lead, contributing to Ceibo’s growth and allowing them to get deeply involved in the company's success. Some of our CCs are Recruiting, Events, Marketing and Knowledge Management.",
+	"teamCeiboTxt2": "With full-time dedication at Ceibo, they have a planned career path in which growth is not a choice but the only option. All Team members, in addition to their projects, have a Ceiber Contribution (CC). The CCs are key assignments each Team member can lead, contributing to Ceibo’s growth and allowing them to get deeply involved in the company's success. Some of our CCs are Recruiting, Events, Marketing and Knowledge Management.",
 	"comunidad": "Community",
 	"ecosistema": "Ecosystem",
 	"comunidadTxt1": "This is our value proposition for collaborators who, whether working full-time or part-time, value having greater flexibility, managing their time and enjoying constant specialization.",
@@ -279,7 +279,7 @@
 		},
 		{
 			"videoURL": "https://www.youtube.com/embed/ufuk9HQbHOM?si=sCIUo9DYaBJpQibT",
-			"title": "Miami transfer",
+			"title": "Miami Epic Camp",
 			"text": "Once a year, a group of ceibers are chosen to work for 3 months at the Miami offices with our managing partner David Wilson."
 		},
 		{
@@ -625,5 +625,39 @@
 
 	"overviewCulturaTitle": "Our Culture",
 	"overviewCulturaText": "The DNA of our culture is made up of 4 pillars that complement each other, seeking to ensure that the Ceibers' experience within the company is not only 'work hard' but also 'play hard'.",
-	"knowMore": "Learn more about our Culture"
+	"knowMore": "Learn more about our Culture",
+
+	"talentoGlobal": "Global Talent",
+	"talentoGlobalH2": "Discover a world of opportunities with Global Talent",
+	"talentoGlobalMetaDescription": "Explore a world of global opportunities and connections with Talento Global. Empower your potential and be part of this initiative that broadens your career horizons.",
+	"epicCamp": "Epic Camp",
+	"epicCampParagraphs": [
+		{
+			"text": "Travel or work? Enhance my career or explore the world? Keep learning about business or improve my language skills? Invest in the future or have fun? We know the questions you are asking yourself."
+		},
+		{ "text": "What if you could have it all?" },
+		{
+			"text": "We invite you to discover Epic Camp, our professional development initiative that encourages our talents to have their first international work experience."
+		}
+	],
+	"queEsEpicCamp": "Epic Camp is an initiative of Global Talent, our professional learning and development program at Ceibo.",
+	"porQueEpicCamp": "Why is Epic Camp going to change your life?",
+	"beneficiosEpicCamp": [
+		{ "text": "Your career is going to take off" },
+		{ "text": "Your CV is going to stand out" },
+		{ "text": "Acquire a global mindset that will take you far" },
+		{ "text": "You will consolidate your language skills forever" },
+		{ "text": "You will live epic and unforgettable experiences" }
+	],
+	"quieroSerParte": "I want to be part of Ceibo",
+	"potenciaTuCarrera": "Boost your career",
+	"potenciaTuCarreraTxt": "Through Epic Camp, Ceibo offers the opportunity each year to four of its most outstanding talents to work for three months from its Miami offices. During their stay, Ceibers continue to work on their projects in a global setting, expanding their horizons to address and solve business challenges, cultivating relevant skills, and acquiring knowledge about the markets where Ceibo operates.",
+	"desarrollaInteligenciaCultural": "Develop your cultural intelligence",
+	"desarrollaInteligenciaCulturalTxt": "This experience will enhance your adaptability to change and help you acquire new skills. If the idea of exploring and learning as a team excites you, Epic Camp is just right for you.",
+	"apostamosPorNuestroTalento": "We invest in the growth of our talent",
+	"apostamosPorNuestroTalentoTxt": "At Ceibo, we strive to create a challenging, fun, and diverse environment, offering experiences like Epic Camp that take careers to another level. We believe that in multicultural exchange, we find the learning and innovation that allow us to grow both professionally and personally.",
+	"epicCampOutro": "Explore all the opportunities we have for you and take the first step toward an extraordinary future at Ceibo.",
+
+	"talentoGlobalOverviewText": "We work in a global environment. We aim for our collaborators to develop in multicultural contexts and broaden their horizons. We encourage their growth both professionally and personally.",
+	"conoceMas": "Learn more"
 }
