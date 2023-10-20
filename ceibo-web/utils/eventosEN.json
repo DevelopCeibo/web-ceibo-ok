@@ -84,7 +84,12 @@
 					"position": "Chief Transformation & Digital Officer of Microsoft at Walmart LATAM & former Chief Data Officer at Up Sí Vale, El Puerto de Liverpool and Gentera"
 				}
 			],
-			"moderators": [],
+			"moderators": [
+				{
+					"name": "David Wilson",
+					"position": "Managing Partner at Ceibo Digital"
+				}
+			],
 			"tags": ["Customer experience", "Marketing", "Data"]
 		}
 	},
