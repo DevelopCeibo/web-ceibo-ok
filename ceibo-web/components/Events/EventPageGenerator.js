@@ -44,12 +44,17 @@ const EventPageGenerator = ({ event }) => {
 							) : (
 								<></>
 							)}
-							<Subscribe />
+							<div className="d-none d-md-block">
+								<Subscribe />
+							</div>
 						</div>
 					</div>
 				</div>
-				<div className="col-lg-2 col-md-12">
+				<div className="col-lg-2 col-md-12 mt-4">
 					<AuthorSidebar event={event} />
+					<div className="d-md-none">
+						<Subscribe />
+					</div>
 				</div>
 			</div>
 		</div>
