@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 
 const EventPageGenerator = ({ event }) => {
 	const { locale } = useRouter();
+
 	return (
 		<div className="container my-5">
 			<div className="row">
@@ -18,7 +19,16 @@ const EventPageGenerator = ({ event }) => {
 				<div className="col-lg-8 col-md-12">
 					<div className="blog-details">
 						<div className="article-content">
-							<ResponsiveIFrame videoSrc={event.embedLink} />
+							{event.iframeCode ? (
+								<div
+									dangerouslySetInnerHTML={{
+										__html: event.iframeCode,
+									}}
+								></div>
+							) : (
+								<ResponsiveIFrame videoSrc={event.embedLink} />
+							)}
+
 							<p className="text-justify mt-3">{event.desc}</p>
 							{event.highlightedQuote ? (
 								<div className="mb-5 px-2 py-2 bg-grey rounded-2">
