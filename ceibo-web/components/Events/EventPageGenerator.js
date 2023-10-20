@@ -19,15 +19,7 @@ const EventPageGenerator = ({ event }) => {
 				<div className="col-lg-8 col-md-12">
 					<div className="blog-details">
 						<div className="article-content">
-							{event.iframeCode ? (
-								<div
-									dangerouslySetInnerHTML={{
-										__html: event.iframeCode,
-									}}
-								></div>
-							) : (
-								<ResponsiveIFrame videoSrc={event.embedLink} />
-							)}
+							<ResponsiveIFrame videoSrc={event.embedLink} />
 
 							<p className="text-justify mt-3">{event.desc}</p>
 							{event.highlightedQuote ? (
