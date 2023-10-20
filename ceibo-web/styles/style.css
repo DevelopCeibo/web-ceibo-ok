@@ -8867,3 +8867,10 @@ abbr:hover {
 .text-red-ceibo {
 	color: #b82837;
 }
+
+.all-webinars-button {
+	color: black;
+}
+/* .all-webinars-button:hover {
+	border-bottom: 1px solid black;
+} */
