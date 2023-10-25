@@ -20,7 +20,7 @@ const EventNavCard = ({ title, description, date, imagePath, href }) => {
 					</Link>
 				</div>
 
-				<div className="blog-post-content blog">
+				<div className="blog-post-content blog nav-card">
 					<span className="date">{date.toUpperCase()}</span>
 					<Link href={href}>
 						<a>

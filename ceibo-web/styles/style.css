@@ -5765,6 +5765,10 @@ Blog CSS
   justify-content: space-around; */
 }
 
+.single-blog-item .blog-post-content.blog.nav-card {
+	min-height: 375px;
+}
+
 .single-blog-item .blog-post-content.blog.featured {
 	padding: 30px;
 	min-height: 350px;
@@ -5915,22 +5919,22 @@ Blog Details CSS
 	color: #b72837;
 }
 
-.blog-details .article-content .category {
+.category {
 	padding: 0;
 	margin: 30px 0 0;
 	list-style-type: none;
 }
 
-.blog-details .article-content .category li {
+.category li {
 	display: inline-block;
 	margin-right: 10px;
 }
 
-.blog-details .article-content .category li span {
+.category li span {
 	font-weight: 600;
 }
 
-.blog-details .article-content .category li a {
+.category li a {
 	border: 1px solid #b72837;
 	border-radius: 5px;
 	padding: 4px 15px;
@@ -5941,7 +5945,7 @@ Blog Details CSS
 	margin: 5px 0;
 }
 
-.blog-details .article-content .category li a::before {
+.category li a::before {
 	position: absolute;
 	content: "";
 	position: absolute;
@@ -5950,24 +5954,6 @@ Blog Details CSS
 	width: 100%;
 	height: 100%;
 	background-color: #b72837;
-	/* background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
-  );
-  background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
-  ); */
 	z-index: -1;
 	border-radius: 5px;
 	opacity: 0;
@@ -5976,13 +5962,12 @@ Blog Details CSS
 	transition: all 0.5s ease;
 }
 
-.blog-details .article-content .category li a:hover,
-.blog-details .article-content .category li a:focus {
+.category li a:hover,
+.category li a:focus {
 	color: #ffffff;
 }
-
-.blog-details .article-content .category li a:hover::before,
-.blog-details .article-content .category li a:focus::before {
+.category li a:hover::before,
+.category li a:focus::before {
 	opacity: 1;
 	visibility: visible;
 }
@@ -8845,8 +8830,9 @@ abbr:hover {
 }
 
 .responsive-iframe {
-	width: 560px;
-	height: 315px;
+	width: 100%;
+	/* height: 315px; */
+	aspect-ratio: 16 / 9;
 }
 
 .event-speaker-subtitle {

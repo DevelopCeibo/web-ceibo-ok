@@ -20,7 +20,7 @@ const EventPageGenerator = ({ event }) => {
 
 							<p className="text-justify mt-3">{event.desc}</p>
 							{event.highlightedQuote ? (
-								<div className="mb-5 px-3 py-3 bg-grey rounded-2">
+								<div className="mb-5 px-4 py-4 bg-grey rounded-2">
 									<h5 className="text-red-ceibo bold fa-1x">
 										{locale === "es"
 											? "Quote destacada"
@@ -36,12 +36,13 @@ const EventPageGenerator = ({ event }) => {
 							)}
 
 							<HorizontalLine />
-							{event?.metadata?.tags?.length ? (
-								<Tags tags={event?.metadata?.tags} />
-							) : (
-								<></>
-							)}
+
 							<div className="d-none d-md-block">
+								{event?.metadata?.tags?.length ? (
+									<Tags tags={event?.metadata?.tags} />
+								) : (
+									<></>
+								)}
 								<Subscribe />
 							</div>
 						</div>
@@ -49,6 +50,13 @@ const EventPageGenerator = ({ event }) => {
 				</div>
 				<div className="col-lg-2 col-md-12 mt-4">
 					<AuthorSidebar event={event} />
+					<div className="d-md-none">
+						{event?.metadata?.tags?.length ? (
+							<Tags tags={event?.metadata?.tags} />
+						) : (
+							<></>
+						)}
+					</div>
 					<Share event={event} />
 
 					<div className="d-md-none">

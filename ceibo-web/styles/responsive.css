@@ -1270,8 +1270,7 @@
 		padding: 0.5rem;
 	}
 	.responsive-iframe {
-		width: 355px;
-		height: 200px;
+		width: 100%;
 	}
 }
 
