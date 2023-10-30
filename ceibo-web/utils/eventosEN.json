@@ -1,103 +1,247 @@
 [
-  {
-    "id": "10",
-    "title": "Digital Finance Forum: Stories of digital transformation, achievements and challenges",
-    "img": "/images-ceibo/eventos/DigitalFinanceForum.jpeg",
-    "desc": "In the 5th edition of the Digital Finance Forum, our Partner Hernán Gutsztat was invited to participate in the panel 'Stories of digital transformation, achievements and challenges'.",
-    "link": "https://www.youtube.com/watch?v=zre-6MXJFK4",
-    "metadata": {
-      "date": "August 9th, 2023"
-    }
-  },
+	{
+		"id": "10",
+		"path-url": "digital-finance-forum",
+		"title": "Digital Finance Forum: Stories of digital transformation, achievements and challenges",
+		"img": "/images-ceibo/eventos/DigitalFinanceForum.jpeg",
+		"desc": "In the 5th edition of the Digital Finance Forum, our Partner Hernán Gutsztat was invited to participate in the panel 'Stories of digital transformation, achievements and challenges'.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.youtube.com/watch?v=zre-6MXJFK4",
+		"embedLink": "https://www.youtube.com/embed/zre-6MXJFK4",
+		"metadata": {
+			"date": "August 9th, 2023",
+			"speakers": [
+				{
+					"name": "Hernán Gutsztat",
+					"position": "Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [],
+			"tags": []
+		}
+	},
 
-  {
-    "id": "9",
-    "title": "UPL panel at Expo Agro 2023: Sustainability from all fields",
-    "img": "/images-ceibo/eventos/CeiboPaneUPLExpoAgro.png",
-    "desc": "Our Partner Hernán Gutsztat was invited by UPL to participate in this panel alongside leading experts in innovation in the Agro industry.",
-    "link": "https://youtube.com/watch?v=OA_WvTBKHh8&feature=share",
-    "metadata": {
-      "date": "March 9th, 2023"
-    }
-  },
-  {
-    "id": "8",
-    "title": "Interview with Hernán Gutsztat on '5días Televisión'",
-    "img": "/images-ceibo/eventos/EntrevistaHernanGutsztatTelevision.png",
-    "desc": "Our Partner Hernán Gutsztat was interviewed by Nadia Servián in '5días Televisión', one of the most important TV networks in Paraguay, where he discussed the importance of investing in digital transformation.",
-    "link": "https://www.youtube.com/watch?v=ygiZot5nyq8",
-    "metadata": {
-      "date": "April 12th, 2023"
-    }
-  },
-  {
-    "id": "1",
-    "title": "Ceibo Talks: Hyper-personalization, a data-driven approach",
-    "img": "/images-ceibo/eventos/898c1e4a-afea-4a13-8447-201a3055b4ea.jpg",
-    "desc": "We invited Mauricio Valdez Mendía, current Chief Transformation & Digital Officer of Microsoft for Walmart LATAM, to talk about the importance of having a Hyper-personalization strategy and how organizations can implement it.",
-    "link": "https://www.linkedin.com/video/live/urn:li:ugcPost:7039716609933893632/",
-    "metadata": {
-      "date": "March 9th, 2023"
-    }
-  },
-  {
-    "id": "2",
-    "title": "All you need to know about NFTs",
-    "img": "/images-ceibo/eventos/Foto2023-03-0518.59.25.png",
-    "desc": "Connie Ansaldi and Nicolas Balestrini, experts in NFTs and Blockchain, joined us in this webinar to answer all the important questions about Non-Fungible Tokens (NFTs).",
-    "link": "https://www.youtube.com/watch?v=9peR6lQN-QY",
-    "metadata": {
-      "date": "October 11th, 2022"
-    }
-  },
-  {
-    "id": "3",
-    "title": "Great Talk: Leadership in agile teams ",
-    "img": "/images-ceibo/eventos/IMG_4239.JPG",
-    "desc": "We participated in the Great Talk 'Leadership in agile teams' of Great Place to Work® Argentina, where we talked about the importance of building a strong workspace culture in agile and dynamic teams.",
-    "link": "https://youtu.be/w5kohdJihyI",
-    "metadata": {
-      "date": "September 29th, 2022"
-    }
-  },
-  {
-    "id": "4",
-    "title": "New rules for banking in Latin America ",
-    "img": "/images-ceibo/eventos/abril22webinar-07.jpeg",
-    "desc": "Join this webinar where our Managing Partner analyzes how banks are responding to Fintech and BigTech’s disruption in the financial market. Are they competition or allies?",
-    "link": "https://www.youtube.com/watch?v=4IdGco_udoM",
-    "metadata": {
-      "date": "May 12th, 2022"
-    }
-  },
-  {
-    "id": "5",
-    "title": "How did Ceibo Digital succeed in getting its employees to build the company’s brand?",
-    "img": "/images-ceibo/eventos/Ceibomarcaempleadora.jpeg",
-    "desc": "Hernán Gutsztat, Ceibo’s Managing Partner, talks to Khris Olivero, GPTW consultant, about the foundations that build our team and our company.",
-    "link": "https://www.youtube.com/watch?v=Jfgs0O0dayI",
-    "metadata": {
-      "date": "June 17th, 2021"
-    }
-  },
-  {
-    "id": "6",
-    "title": "Aapresid Congress: myths and truths about agricultural transformation",
-    "img": "/images-ceibo/eventos/EventoAgro-01.png",
-    "desc": "Our Partner, David Wilson, was invited to participate in Aapresid's 2021 Congress. In this webinar, he discusses myths and truths about agricultural transformation.",
-    "link": "https://www.youtube.com/watch?v=dk97XKWZw8o",
-    "metadata": {
-      "date": "August 19th, 2021"
-    }
-  },
-  {
-    "id": "7",
-    "title": "The importance of 'contactability",
-    "img": "/images-ceibo/eventos/Políticadecontactabilidad.jpg",
-    "desc": "David Wilson, Partner at Ceibo Digital, explains how a correct Contactability helps to define a clear governance and automate the management of campaigns between the different departments.",
-    "link": "https://www.youtube.com/watch?v=ZOqIXbvhFPE",
-    "metadata": {
-      "date": "September 22th, 2020"
-    }
-  }
+	{
+		"id": "9",
+		"path-url": "upl-expo-agro-2023",
+		"title": "UPL panel at Expo Agro 2023: Sustainability from all fields",
+		"img": "/images-ceibo/eventos/CeiboPaneUPLExpoAgro.png",
+		"desc": "Our Partner Hernán Gutsztat was invited by UPL to participate in this panel alongside leading experts in innovation in the Agro industry.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://youtube.com/watch?v=OA_WvTBKHh8&feature=share",
+		"embedLink": "https://www.youtube.com/embed/OA_WvTBKHh8",
+		"metadata": {
+			"date": "March 9th, 2023",
+			"speakers": [
+				{
+					"name": "Hernán Gutsztat",
+					"position": "Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [],
+			"tags": []
+		}
+	},
+	{
+		"id": "8",
+		"path-url": "entrevista-hernan-gutsztat-5-dias-television",
+		"title": "Interview with Hernán Gutsztat on '5días Televisión'",
+		"img": "/images-ceibo/eventos/EntrevistaHernanGutsztatTelevision.png",
+		"desc": "Our Partner Hernán Gutsztat was interviewed by Nadia Servián in '5días Televisión', one of the most important TV networks in Paraguay, where he discussed the importance of investing in digital transformation.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.youtube.com/watch?v=ygiZot5nyq8",
+		"embedLink": "https://www.youtube.com/embed/ygiZot5nyq8",
+		"metadata": {
+			"date": "April 12th, 2023",
+			"speakers": [
+				{
+					"name": "Hernán Gutsztat",
+					"position": "Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [],
+			"tags": []
+		}
+	},
+	{
+		"id": "1",
+		"path-url": "ceibo-talks-hyper-personalization",
+		"title": "Ceibo Talks: Hyper-personalization, a data-driven approach",
+		"img": "/images-ceibo/eventos/898c1e4a-afea-4a13-8447-201a3055b4ea.jpg",
+		"desc": "We invited Mauricio Valdez Mendía, current Chief Transformation & Digital Officer of Microsoft for Walmart LATAM, to talk about the importance of having a Hyper-personalization strategy and how organizations can implement it.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.linkedin.com/video/live/urn:li:ugcPost:7039716609933893632/",
+		"embedLink": "https://www.youtube.com/embed/NXFcpVSb0gc",
+		"metadata": {
+			"date": "March 9th, 2023",
+			"speakers": [
+				{
+					"name": "Mauricio Valdez Mendía",
+					"position": "Chief Transformation & Digital Officer of Microsoft at Walmart LATAM & former Chief Data Officer at Up Sí Vale, El Puerto de Liverpool and Gentera"
+				}
+			],
+			"moderators": [
+				{
+					"name": "David Wilson",
+					"position": "Managing Partner at Ceibo Digital"
+				}
+			],
+			"tags": ["Customer experience", "Marketing", "Data"]
+		}
+	},
+	{
+		"id": "2",
+		"path-url": "todo-lo-que-tenes-que-saber-sobre-nfts",
+		"title": "All you need to know about NFTs",
+		"img": "/images-ceibo/eventos/Foto2023-03-0518.59.25.png",
+		"desc": "Connie Ansaldi and Nicolas Balestrini, experts in NFTs and Blockchain, joined us in this webinar to answer all the important questions about Non-Fungible Tokens (NFTs).",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.youtube.com/watch?v=9peR6lQN-QY",
+		"embedLink": "https://www.youtube.com/embed/9peR6lQN-QY",
+		"metadata": {
+			"date": "October 11th, 2022",
+			"speakers": [
+				{
+					"name": "Connie Ansaldi",
+					"position": "Founder & CEO at Carnaval Art"
+				},
+				{
+					"name": "Nicolas Balestrini",
+					"position": "Co-Founder & COO at Origino"
+				}
+			],
+			"moderators": [
+				{
+					"name": "David Wilson",
+					"position": "Managing Partner at Ceibo Digital"
+				}
+			],
+			"tags": []
+		}
+	},
+	{
+		"id": "3",
+		"path-url": "liderazgo-en-equipos-agiles",
+		"title": "Great Talk: Leadership in agile teams ",
+		"img": "/images-ceibo/eventos/IMG_4239.JPG",
+		"desc": "We participated in the Great Talk 'Leadership in agile teams' of Great Place to Work® Argentina, where we talked about the importance of building a strong workspace culture in agile and dynamic teams.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://youtu.be/w5kohdJihyI",
+		"embedLink": "https://youtube.com/embed/w5kohdJihyI",
+		"metadata": {
+			"date": "September 29th, 2022",
+			"speakers": [
+				{
+					"name": "Hernán Gutsztat",
+					"position": "Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [
+				{
+					"name": "Gonzalo Polanco",
+					"position": "Sales Director at GPTW Argentina"
+				}
+			],
+			"tags": []
+		}
+	},
+	{
+		"id": "4",
+		"path-url": "nuevas-reglas-juego-banca-latinoamerica",
+		"title": "New rules for banking in Latin America ",
+		"img": "/images-ceibo/eventos/abril22webinar-07.jpeg",
+		"desc": "Join this webinar where our Managing Partner analyzes how banks are responding to Fintech and BigTech’s disruption in the financial market. Are they competition or allies?",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.youtube.com/watch?v=4IdGco_udoM",
+		"embedLink": "https://www.youtube.com/embed/4IdGco_udoM",
+		"metadata": {
+			"date": "May 12th, 2022",
+			"speakers": [
+				{
+					"name": "Hernán Gutsztat",
+					"position": "Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [],
+			"tags": []
+		}
+	},
+	{
+		"id": "5",
+		"path-url": "marca-empleadora-ceibo-digital",
+		"title": "How did Ceibo Digital succeed in getting its employees to build the company’s brand?",
+		"img": "/images-ceibo/eventos/Ceibomarcaempleadora.jpeg",
+		"desc": "Hernán Gutsztat, Ceibo’s Managing Partner, talks to Khris Olivero, GPTW consultant, about the foundations that build our team and our company.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.youtube.com/watch?v=Jfgs0O0dayI",
+		"embedLink": "https://www.youtube.com/embed/Jfgs0O0dayI",
+		"metadata": {
+			"date": "June 17th, 2021",
+			"speakers": [
+				{
+					"name": "Hernán Gutsztat",
+					"position": "Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [
+				{
+					"name": "Khris Olivero",
+					"position": "GPTW Consultant"
+				}
+			],
+			"tags": []
+		}
+	},
+	{
+		"id": "6",
+		"path-url": "congreso-aapresid-2021",
+		"title": "Aapresid Congress: myths and truths about agricultural transformation",
+		"img": "/images-ceibo/eventos/EventoAgro-01.png",
+		"desc": "Our Partner, David Wilson, was invited to participate in Aapresid's 2021 Congress. In this webinar, he discusses myths and truths about agricultural transformation.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.youtube.com/watch?v=dk97XKWZw8o",
+		"embedLink": "https://www.youtube.com/embed/dk97XKWZw8o",
+		"metadata": {
+			"date": "August 19th, 2021",
+			"speakers": [
+				{
+					"name": "David Wilson",
+					"position": "Managing Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [],
+			"tags": []
+		}
+	},
+	{
+		"id": "7",
+		"path-url": "importancia-politica-contactabilidad",
+		"title": "The importance of the 'Contactability Policy'",
+		"img": "/images-ceibo/eventos/Políticadecontactabilidad.jpg",
+		"desc": "David Wilson, Partner at Ceibo Digital, explains how a proper Contactability Policy helps to define a clear governance and automate the management of campaigns between the different departments.",
+		"highlightedQuote": "",
+		"highlightedQuoteAuthor": "",
+		"link": "https://www.youtube.com/watch?v=ZOqIXbvhFPE",
+		"embedLink": "https://www.youtube.com/embed/ZOqIXbvhFPE",
+		"metadata": {
+			"date": "September 22th, 2020",
+			"speakers": [
+				{
+					"name": "David Wilson",
+					"position": "Managing Partner at Ceibo Digital"
+				}
+			],
+			"moderators": [],
+			"tags": []
+		}
+	}
 ]
