@@ -138,7 +138,7 @@
 		"path-url": "exponegocios-paraguay",
 		"title": "Exponegocios Paraguay",
 		"titleEN": "Paraguay Exponegocios",
-		"img": "/images-ceibo/publicaciones/exponegocios-paraguay/",
+		"img": "/images-ceibo/publicaciones/exponegocios-paraguay/banner.jpeg",
 		"desc": "Nuestro project leader Luis Sanchez fue a Paraguay a participar de ExpoNegocios.",
 		"content": [
 			{
@@ -153,7 +153,7 @@
 		"metadata": {
 			"date": "15, 16 y 17 de septiembre, 2023",
 			"dateEN": "September 15, 16 & 17, 2023",
-			"bannerImg": "/images-ceibo/publicaciones/exponegocios-paraguay/",
+			"bannerImg": "/images-ceibo/publicaciones/exponegocios-paraguay/banner.jpeg",
 			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
 		}
 	},
@@ -162,7 +162,7 @@
 		"path-url": "retiro-alta-direccion-asuncion",
 		"title": "Retiro de Alta Dirección - Asunción",
 		"titleEN": "Executive Management Retreat - Asuncion",
-		"img": "/images-ceibo/publicaciones/retiro-alta-direccion/",
+		"img": "/images-ceibo/publicaciones/retiro-alta-direccion/banner.jpeg",
 		"desc": "El 17 y 18 de agosto se llevó adelante el Retiro de Alta Dirección organizado por el IAE Business School.",
 		"content": [
 			{
@@ -181,7 +181,7 @@
 		"metadata": {
 			"date": "17 Y 18 de agosto, 2023",
 			"dateEN": "August 17 & 18, 2023",
-			"bannerImg": "/images-ceibo/publicaciones/retiro-alta-direccion/",
+			"bannerImg": "/images-ceibo/publicaciones/retiro-alta-direccion/banner.jpeg",
 			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
 		}
 	},
@@ -333,7 +333,7 @@
 		"path-url": "entrevista-IAE-hernan-gutsztat",
 		"title": "Entrevista del IAE a Hernán Gutsztat",
 		"titleEN": "IAE interviews Hernán Gutsztat",
-		"img": "/images-ceibo/publicaciones/entrevista-iae/",
+		"img": "/images-ceibo/publicaciones/entrevista-iae/banner.png",
 		"desc": "Nuestro partner Hernan Gutsztat charlo sobre lo que significa para Ceibo ser sponsor del IAE.",
 		"content": [
 			{
@@ -356,7 +356,7 @@
 		"metadata": {
 			"date": "8 de mayo, 2023",
 			"dateEN": "May 8, 2023",
-			"bannerImg": "/images-ceibo/publicaciones/entrevista-iae/",
+			"bannerImg": "/images-ceibo/publicaciones/entrevista-iae/banner.png",
 			"tags": ["Ceibo Digital", "Talento", "IAE"]
 		}
 	},
@@ -365,7 +365,7 @@
 		"path-url": "sponsoreo-iae-alumni",
 		"title": "Sponsoreo IAE Alumni",
 		"titleEN": "IAE Alumni sponsorships",
-		"img": "/images-ceibo/publicaciones/sponsoreo-iae/",
+		"img": "/images-ceibo/publicaciones/sponsoreo-iae/banner.png",
 		"desc": "Estamos emocionados por nuestra colaboración como sponsors de Alumni IAE.",
 		"content": [
 			{
@@ -380,7 +380,7 @@
 		"metadata": {
 			"date": "Junio 2023",
 			"dateEN": "June 2023",
-			"bannerImg": "/images-ceibo/publicaciones/sponsoreo-iae/",
+			"bannerImg": "/images-ceibo/publicaciones/sponsoreo-iae/banner.png",
 			"tags": ["Ceibo Digital", "Sponsor", "IAE"]
 		}
 	},
@@ -430,7 +430,7 @@
 		"path-url": "fintech-americas",
 		"title": "Fintech Americas",
 		"titleEN": "Fintech Americas",
-		"img": "/images-ceibo/publicaciones/",
+		"img": "/images-ceibo/publicaciones/fintech-americas/banner.jpeg",
 		"desc": "Bajo el lema '¿El Fin de la Transformación? El Comienzo de la Adaptación Infinita', Fintech Americas reunió a más de 150 exponentes de renombre a nivel mundial.",
 		"content": [
 			{
@@ -449,7 +449,7 @@
 		"metadata": {
 			"date": "4 y 5 de mayo, 2023",
 			"dateEN": "May 4 & 5, 2023",
-			"bannerImg": "/images-ceibo/publicaciones/fintech-americas/",
+			"bannerImg": "/images-ceibo/publicaciones/fintech-americas/banner.jpeg",
 			"tags": ["Ceibo Digital", "Transformación Digital", "Fintech"]
 		}
 	},
