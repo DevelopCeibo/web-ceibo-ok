@@ -1,895 +1,1300 @@
 [
-  {
-    "id": "16",
-    "path-url": "quien-es-quien-cronista",
-    "title": "Ceibo en el Quién es Quién 2023 de El Cronista",
-    "titleEN": "Ceibo featured in El Cronista's 2023 “Quién es Quién”",
-    "img": "/images-ceibo/publicaciones/Quien_es_quien_cronista.png",
-    "desc": "Junto a nuestro Partner Hernán Gustztat Ceibo forma parte del “Quién es Quién” de El Cronista, la guía que reconoce a los más de 600 ejecutivos que toman decisiones en las empresas y organizaciones más importantes de Argentina.",
-    "content": [
-      {
-        "type": "subtitle",
-        "text": "Ceibo en el Quién es Quién 2023 de El Cronista"
-      },
-      {
-        "type": "p",
-        "text": "Junto a nuestro Partner Hernán Gustztat Ceibo forma parte del “Quién es Quién” de El Cronista, la guía que reconoce a los más de 600 ejecutivos que toman decisiones en las empresas y organizaciones más importantes de Argentina."
-      },
-      {
-        "type": "img",
-        "src": "/images-ceibo/publicaciones/el_cronista_nota.png"
-      },
-      {
-        "type": "p",
-        "text": "Lee la nota completa en [El Cronista](https://elcronista.pressreader.com/oneshots)"
-      }
-    ],
-    "metadata": {
-      "date": "28 de abril, 2023",
-      "dateEN": "april 28, 2023",
-      "bannerImg": "/images-ceibo/publicaciones/Quien_es_quien_cronista.png",
-      "tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
-    }
-  },
-  {
-    "id": "1",
-    "path-url": "vision-de-lideres-2023",
-    "title": "Visión de Líderes 2023",
-    "titleEN": "Leaders’ Vision 2023",
-    "img": "/images-ceibo/publicaciones/lideres2023.png",
-    "desc": "El Cronista lanzó su edición anual de Visión de los Líderes, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Managing Partner, Hernán ..",
-    "content": [
-      {
-        "type": "first-p",
-        "text": "**[El Cronista](http://electronica.cronista.com/vision/Vision2023.pdf) lanzó su edición anual de **Visión de los Líderes**, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Managing Partner, Hernán Gutsztat, compartió el balance del año que esta por terminar y las expectativas y proyectos para el año que viene**."
-      },
-      {
-        "type": "subtitle",
-        "text": "La Visión para el 2023"
-      },
-      {
-        "type": "p",
-        "text": "Nuestro Managing Partner, Hernán Gutsztat, compartió el balance del año 2022 y las expectativas y proyectos para el año 2023:"
-      },
-      {
-        "type": "question",
-        "text": "• ¿Cuáles son las expectativas y proyectos de su empresa para 2023?"
-      },
-      {
-        "type": "quote",
-        "text": "La expectativa para Ceibo es continuar creciendo internacionalmente y consolidarnos como la consultora de transformación digital en Argentina."
-      },
-      {
-        "type": "question",
-        "text": "• ¿Cuáles fueron los principales obstáculos que enfrentó en 2022? ¿Qué balance hace del año que está por terminar?"
-      },
-      {
-        "type": "quote",
-        "text": "El contexto macroeconómico de la Argentina y la falta de previsibilidad generan una situación de volatilidad en nuestros clientes de la Argentina, que les impide encarar proyectos de largo plazo. En cuanto a los desafíos internos, la adquisición de talento siempre es un desafío para acompañar nuestro crecimiento agresivo."
-      },
-      {
-        "type": "question",
-        "text": "• ¿Qué políticas públicas podrían contribuir a darle impulso a su sector?"
-      },
-      {
-        "type": "quote",
-        "text": "Un tipo de cambio competitivo permitiría la exportación de servicios del conocimiento, que podría convertirse en una fuente de divisas relevante para Argentina. Incentivos fiscales para la contratación de talento (por ejemplo con el presupuesto de Ingresos Brutos o cargas sociales), traería mayor dinamismo al sector, pudiendo ser un sector de alta creación de empleo de calidad."
-      },
-      {
-        "type": "p",
-        "text": "Lee la nota completa en [El Cronista](http://electronica.cronista.com/vision/Vision2023.pdf)"
-      }
-    ],
-    "metadata": {
-      "author": "Hernán Gutsztat - Managing Partner",
-      "authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
-      "date": "30 de noviembre, 2022",
-      "dateEN": "november 30, 2022",
-      "bannerImg": "/images-ceibo/publicaciones/lideres2023.png",
-      "tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
-    }
-  },
-  {
-    "id": "17",
-    "path-url": "transformacion-digital-como-propuesta-de-negocio",
-    "title": "Transformación digital como propuesta de negocio",
-    "titleEN": "Digital transformation as a business concept",
-    "img": "/images-ceibo/publicaciones/Nota_Ceibo_El_nacional_py.png",
-    "desc": "Nuestro Partner, Hernán Gutsztat, conversó sobre transformación digital y la actualidad del país con El Nacional de Paraguay.",
-    "content": [
-      {
-        "type": "first-p",
-        "text": "**Ceibo Digital, la consultora de negocios enfocada en transformación digital, cuenta con clientes en diez países de América y eligió nuestro país para ampliar su red de oficinas.**"
-      },
-      {
-        "type": "p",
-        "text": "Ceibo Digital nació 2018 y comenzó con oficinas en Buenos Aires y en Miami, pero atiende clientes, especialmente compañías globales y multinacionales, en diez países de América con operaciones en más de 40 países alrededor del mundo."
-      },
-      {
-        "type": "p",
-        "text": "Conversamos con Hernán Gutsztat, managing partner de Ceibo, para conocer un poco más sobre la compañía. Desde sus comienzos, Ceibo se concibió como una consultora con perfil global. Siempre tuvo una fuerte inclinación hacia nuestro país, donde trabaja con algunas de las compañías y grupos más importantes. En 2021, inspirada en el fuerte potencial de Paraguay en Latinoamérica, la consultora decidió constituir una sociedad y abrió oficinas en el World Trade Center de Asunción."
-      },
-      {
-        "type": "p",
-        "text": "Ceibo hoy se autodefine como una consultora de negocios enfocada en transformación digital. Su propuesta es acompañar a las empresas en el camino de identificar sus dolores y oportunidades, generar recomendaciones, diseñar alternativas e implementarlas, para llegar a resultados concretos."
-      },
-      {
-        "type": "p",
-        "text": "Desde Ceibo definen la transformación digital como un repensar el modelo de negocios de una empresa a la luz de tres elementos: el nuevo escenario competitivo que incluye no solo una mirada hacia los competidores tradicionales, sino también, con particular atención a los nuevos jugadores que emergen en ese escenario."
-      },
-      {
-        "type": "p",
-        "text": "Estos jugadores cuentan con nuevos modelos de negocios, diferentes capacidades, estructuras de costos más eficientes e incluso, en algunos casos, asimetría en la regulación, como por ejemplo en el caso de las Fintech vs. los bancos."
-      },
-      {
-        "type": "subtitle",
-        "text": "Consumidores"
-      },
-      {
-        "type": "p",
-        "text": "Las nuevas demandas de los consumidores, los cuales no solamente buscan productos y servicios de mayor calidad y menor precio, sino que además demandan experiencias. Lo que hace unos años era satisfactorio para un cliente puede no serlo hoy."
-      },
-      {
-        "type": "p",
-        "text": "Las nuevas tecnologías que permiten mayor eficiencia, ahorro de costos, nuevos modelos de negocios, nuevos canales de atención, la posibilidad de mejorar la experiencia del cliente, y la oportunidad de quitar actores medios dentro de una cadena de valor."
-      },
-      {
-        "type": "p",
-        "text": "En definitiva, la transformación digital es el conjunto de iniciativas que surgen de analizar estos tres elementos, y planificar el camino entre la situación actual de la compañía y la situación deseada."
-      },
-      {
-        "type": "p",
-        "text": "Para Ceibo, trabajar en Paraguay no es algo nuevo. Desde un principio, sus socios mantienen relación con algunos de los empresarios y managers más importantes de diversas industrias."
-      },
-      {
-        "type": "p",
-        "text": "Ceibo colabora, hace tiempo, con grandes empresas de nuestro país. Sus proyectos están enfocados en estrategia, excelencia operacional y procesos, y Customer engagement, entre otros. Entre sus clientes más importantes se destacan CIE, Farmacenter, Negofin y CrediAgil, Banco Atlas, Grupo de Medios ABC, Nueva Americana, Shopping Mariscal, Shopping del Sol, Ferrex, Avanza, entre otros."
-      },
-      {
-        "type": "p",
-        "text": "Ceibo nace como una compañía nativa digital y sus colaboradores están acostumbrados a trabajar de manera remota con gente de todo el mundo. A pesar de esto, destacan la importancia de mantener una relación cercana con sus clientes. Hoy en día nuestro país tiene un papel fundamental en el crecimiento de la empresa y es uno de sus grandes focos."
-      },
-      {
-        "type": "p",
-        "text": "Ceibo nace como una compañía nativa digital y sus colaboradores están acostumbrados a trabajar de manera remota con gente de todo el mundo. A pesar de esto, destacan la importancia de mantener una relación cercana con sus clientes. Hoy en día nuestro país tiene un papel fundamental en el crecimiento de la empresa y es uno de sus grandes focos."
-      },
-      {
-        "type": "subtitle",
-        "text": "¿Por qué estas grandes empresas confían en Ceibo para sus proyectos?"
-      },
-      {
-        "type": "quote",
-        "text": "Ceibo viene a unir el mundo de la estrategia y los negocios con el de las soluciones implementadas. Somos una consultora de negocios, pero con capacidad de arremangarnos y acompañar a nuestros clientes en hacer que las soluciones funcionen. Nos gusta tener conversaciones de negocios, entender los desafíos de negocios, armar el Power Point con las recomendaciones, pero no nos quedamos con eso, sino que vamos a la solución, vamos a dejar algo andando."
-      },
-      {
-        "type": "p",
-        "text": "Esta demanda de las empresas no es algo que vimos nosotros solos. Las grandes consultoras de negocios se están moviendo al mundo de la implementación."
-      },
-      {
-        "type": "p",
-        "text": "Las empresas de tecnología también están reforzando sus capacidades de negocio, empiezan a incorporar perfiles de expertos de industria: antropólogos, psicólogos, sociólogos, para empezar a meterse más a fondo en los procesos y entender mejor los desafíos de hoy. Claramente no les está siendo fácil y eso genera oportunidades a compañías como la nuestra que somos nativas de este nuevo mundo."
-      },
-      {
-        "type": "p",
-        "text": "Las empresas ya no quieren pagar dos millones de dólares por un Power Point, quieren hablar de negocios y quieren la solución. Ceibo entra en ese contexto con una mirada más pragmática de la transformación digital."
-      },
-      {
-        "type": "p",
-        "text": "No creemos que exista el mega proyecto de transformación digital, creemos en caminar la transformación a partir de building blocks que son como piezas de Lego: iniciativas cortas que de forma agregada van transformando la empresa. En lugar de pensar en un proyecto de acá a tres años, pensemos cuáles son los escaloncitos que vamos a ir recorriendo, generando resultados concretos, y dentro de tres años vamos a darnos vuelta y a mirar todo lo que nos transformamos. Ese es el enfoque que nosotros tenemos”, refiere Hernán Gutsztat, managing partner de Ceibo."
-      },
-      {
-        "type": "p",
-        "text": "Lee la nota completa en [El Nacional](https://www.elnacional.com.py/economia/2022/07/16/transformacion-digital-como-propuesta-de-negocio/)"
-      }
-    ],
-    "metadata": {
-      "date": "16 de julio, 2022",
-      "dateEN": "july 16, 2022",
-      "bannerImg": "/images-ceibo/publicaciones/Nota_Ceibo_El_nacional_py.png",
-      "tags": ["Ceibo Digital", "Consultoría", "Transformación Digital"]
-    }
-  },
-  {
-    "id": "2",
-    "path-url": "la-transformacion-digital-no-es-solo-tecnologia",
-    "title": "La transformación digital no es solo un concepto bonito",
-    "titleEN": "Digital transformation is not only about technology",
-    "img": "/images-ceibo/publicaciones/IAE-600x403.png",
-    "desc": "Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas.",
-    "content": [
-      {
-        "type": "first-p",
-        "text": "**Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas**."
-      },
-      {
-        "type": "p",
-        "text": "Por **IAE ALUMNI**"
-      },
-      {
-        "type": "question",
-        "text": "• ¿Qué hacen desde CEIBO y qué los diferencia?"
-      },
-      {
-        "type": "quote",
-        "text": "CEIBO es una consultora de negocios especializada en transformación digital. Posee oficinas en Miami, Asunción y Buenos Aires, y proyectos en más de 40 países. Nuestro principal diferenciador es el talento de las personas que nos hacen ser parte del ranking Great Place to Work. Son personas apasionadas en investigar las mejores prácticas de management, tecnologías disruptivas y nuevos modelos de negocios, que nos permiten ayudar a los líderes de empresas a diseñar su estrategia de transformación, procesos y estructura, contemplando el impacto en la cultura, la experiencia de sus clientes y apalancándose en las nuevas tecnologías."
-      },
-      {
-        "type": "quote",
-        "text": "Otra característica que nuestros clientes resaltan es que no los dejamos a mitad de camino: los acompañamos en la implementación, y hasta los resultados y adopción de las iniciativas ideadas en conjunto, siempre midiendo los indicadores claves que nos permitan mejorar continuamente."
-      },
-      {
-        "type": "question",
-        "text": "• Qué conlleva el proceso de transformación digital?"
-      },
-      {
-        "type": "quote",
-        "text": "La transformación digital, frase que hoy está de moda, no alude solo a un concepto bonito para decir que vale la pena invertir en tecnologías, sino que se refiere a  un proceso mucho más grande. Desde CEIBO, la definimos como repensar el modelo de negocio, considerando cada uno de los elementos, desde la propuesta de valor, hasta los generadores de ingresos, costos, proveedores, clientes, el relacionamiento con ellos y demás. En nuestra visión no hay una receta única, sino que es como un mapa que vamos descubriendo y trazando a la vez con cada organización, con cada modelo de negocio que analizamos en profundidad. Esta transformación, en muchos casos, obliga a repensar o a crear un nuevo modelo de negocio y, en otros, a desarrollar nuevas unidades de negocio o productos y servicios complementarios para satisfacer las nuevas necesidades del mercado."
-      },
-      {
-        "type": "quote",
-        "text": "Hoy, la transformación digital no se piensa igual que hace años atrás. Se desarrolla a través de «building blocks», o pequeños bloques que, como característica fundamental, no son iniciativas aisladas, sino que son parte de una idea que impacta directamente en la estrategia o modelo de negocios de la empresa. Con estas iniciativas creamos el plan a futuro, priorizado, con un portafolio balanceado, que en su agregado va construyendo esa transformación digital deseada en la compañía."
-      },
-      {
-        "type": "question",
-        "text": "• ¿Por qué necesitamos pensar en transformación digital?"
-      },
-      {
-        "type": "p",
-        "text": "Hay al menos 3 elementos que obligan a priorizar la transformación, y estos son:"
-      },
-      {
-        "type": "quote",
-        "text": "• El nuevo escenario competitivo: nuevos jugadores están incursionando en algunos de nuestros negocios, pero más aún en el negocio de los clientes. Es importante no tomar en cuenta solo el nivel de la industria en forma específica, sino ver qué sucede a nivel global, las herramientas que se están utilizando y las nuevas estrategias de negocios."
-      },
-      {
-        "type": "quote",
-        "text": "• Las nuevas demandas de los consumidores: aparte de productos y servicios eficientes y competitivos, también demandan experiencias. Y ya no se trata de la experiencia de usuario en el sitio web o en la app, sino de la totalidad de su relación con la empresa y la marca, entendiendo que esa experiencia es dinámica, como así también la propia expectativa."
-      },
-      {
-        "type": "quote",
-        "text": "• Las nuevas tecnologías: IOT, deep learning, blockchain, marketplace, cloud computing y demás, permiten mayor eficiencia, ahorro de costos, nuevos modelos de negocios, nuevos canales de atención, la posibilidad de mejorar la experiencia del cliente y de “desintermediar” actores dentro de una cadena de valor."
-      },
+	{
+		"id": "16",
+		"path-url": "quien-es-quien-cronista",
+		"title": "Ceibo en el Quién es Quién 2023 de El Cronista",
+		"titleEN": "Ceibo featured in El Cronista's 2023 “Quién es Quién”",
+		"img": "/images-ceibo/publicaciones/Quien_es_quien_cronista.png",
+		"desc": "Junto a nuestro Partner Hernán Gustztat Ceibo forma parte del “Quién es Quién” de El Cronista, la guía que reconoce a los más de 600 ejecutivos que toman decisiones en las empresas y organizaciones más importantes de Argentina.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Ceibo en el Quién es Quién 2023 de El Cronista"
+			},
+			{
+				"type": "p",
+				"text": "Junto a nuestro Partner Hernán Gustztat Ceibo forma parte del “Quién es Quién” de El Cronista, la guía que reconoce a los más de 600 ejecutivos que toman decisiones en las empresas y organizaciones más importantes de Argentina."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/el_cronista_nota.png"
+			},
+			{
+				"type": "p",
+				"text": "Lee la nota completa en [El Cronista](https://elcronista.pressreader.com/oneshots)"
+			}
+		],
+		"metadata": {
+			"date": "28 de abril, 2023",
+			"dateEN": "april 28, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/Quien_es_quien_cronista.png",
+			"tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
+		}
+	},
 
-      {
-        "type": "question",
-        "text": "• ¿Cuáles son los principales retos y barreras para una transformación digital exitosa?"
-      },
-      {
-        "type": "quote",
-        "text": "Lo más importante es cambiar la forma de pensar, entender que todavía estamos en la mitad de la película y no perder el tiempo. Lo perfecto es enemigo de lo bueno. Algunas veces se dan muchas vueltas antes de probar un nuevo proceso o innovación, y la realidad es que hay que experimentar aunque surjan errores. Es necesario ser ágiles y creativos, aprender de los experimentos o pilotos, que deben ser rápidos, baratos y fáciles de realizar. No hay una única respuesta para transformar un negocio exitosamente pero, si no se empieza, no habrá oportunidad de transformarlo."
-      },
-      {
-        "type": "quote",
-        "text": "Otro de los grandes retos que vemos es que muchas veces uno cree que lo importante es la herramienta, la tecnología, y no es tan así. Los desafíos del negocio no son tan distintos a los de antes; lo que cambió, o está cambiando, es el cómo. La simple implementación de tecnología por sí sola no produce la transformación digital y no soluciona los nuevos dolores del negocio. Cambiar una organización o su modelo de negocio para aprovechar el potencial de estas nuevas tecnologías, sí lo hace."
-      },
-      {
-        "type": "quote",
-        "text": "Y un reto adicional, que tienen las empresas multinacionales o grandes, es que puede ser más complejo implementar la transformación por su estructura, burocracia interna y lentitud para actuar. Muchas veces se recomienda que cierta innovación o nuevo modelo de negocios se desarrolle por fuera de la compañía, con alianzas, innovación abierta y, una vez probado, realizar la migración a la empresa madre."
-      },
-      {
-        "type": "quote",
-        "text": "El mundo está afrontando grandes desafíos que nos obligan a poner atención y demandar negocios más sustentables. Esta transformación de la que hablamos, digital, cultural, transformación en sí, nos obliga a repensar los modelos de negocio, y eso nos da la oportunidad de que esta vez los pensemos más sustentables, teniendo en cuenta el impacto ambiental y social en la misma medida en que consideramos el impacto económico.",
-        "author": "David Wilson - Partner"
-      },
-      {
-        "type": "p-margin",
-        "text": "Nota original: [Revista IAE Alumni](https://www.iae.edu.ar/revista-alumni/la-transformacion-digital-no-es-solo-un-concepto-bonito/)"
-      }
-    ],
-    "metadata": {
-      "author": "",
-      "date": "29 de marzo, 2022",
-      "dateEN": "march 29, 2022",
-      "bannerImg": "/images-ceibo/publicaciones/IAE.png",
-      "tags": ["Ceibo Digital", "Transformación Digital"],
-      "fuenteOriginal": "IAE ALUMNI – PANORAMAS"
-    }
-  },
-  {
-    "id": "3",
-    "title": "Ciclo Encuentros en Circular Cowork: Encuentro con Ceibo Digital",
-    "path-url": "ciclo-encuentros-en-circular-cowork-con-ceibo",
-    "titleEN": "Circular Cowork Talks: Getting to know Ceibo Digital",
-    "img": "/images-ceibo/publicaciones/Publicaciones-nota-circular.JPG",
-    "desc": "Ceibo Digital es una consultora de transformación digital con sedes en Miami, Asunción del Paraguay y Buenos Aires, presente en 10 países de América y con proyectos en 40 países alrededor del mundo, que fue recientemente reconocida con el segundo lugar ..",
-    "content": [
-      {
-        "type": "p",
-        "text": "Por **[María Soledad Córdoba](https://www.linkedin.com/in/mariasoledadcordoba/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3Bm9SzGxzYS5iJK%2FEa%2BUtHzQ%3D%3D)**"
-      },
-      {
-        "type": "p",
-        "text": "Ceibo Digital es una consultora de transformación digital con sedes en Miami, Asunción del Paraguay y Buenos Aires, presente en 10 países de América y con proyectos en 40 países alrededor del mundo, que fue recientemente reconocida con el segundo lugar en el ranking Great Place to Work 2022 en la categoría de empresas con menos de 250 empleados. "
-      },
-      {
-        "type": "p",
-        "text": "Nos encontramos con [Hernán Gutsztat](https://www.linkedin.com/in/hernan-gutsztat/)  en uno de los livings de Circular Cowork, cerca de las oficinas de Ceibo Digital. Hernán es licenciado en Administración de Empresas por la Universidad del Salvador, ha realizado varios posgrados y maestrías, y actualmente se encuentra cursando un doctorado en Business Administration en la IE Business School de Madrid. Tiene tres hijos con los que comparte el amor por la música y sus instrumentos: guitarra, piano y batería entre sus preferidos. Hablar con él es realmente muy fácil, tanto por la fluidez de sus argumentos, como por su capacidad de escucha. Enseguida empatizamos por el tipo de trabajo “conocimiento-intensivo”, me dice algo muy interesante: “los consultores somos un híbrido entre los practitioners (los que hacen concretamente) y los scholars (los teóricos, más abstractos)”; ambos acordamos en la importancia de bajar la rigurosidad de la formación académica a las prácticas de consultoría. Te invitamos a bucear en el mundo de la “transformación digital” desde la experiencia de quien está liderando la empresa que alcanzó 40 países del mundo con su modelo de negocios y su interesante estructura organizacional."
-      },
-      {
-        "type": "question",
-        "text": "¿Cómo surge Ceibo?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Ceibo nace en el encuentro entre dos mundos: yo vengo más del mundo de los negocios, del mundo de la estrategia, y el otro fundador, David Wilson, viene más del mundo de la tecnología. Fuimos conversando e imaginándonos si existía esta comunión entre el mundo de la estrategia y el mundo de la tecnología. Así, hace poco menos de cuatro años, nace Ceibo con esa visión de poder ser un socio del mundo de los negocios, con capacidades muy fuertes de implementación y de tecnología, con la convicción de acompañar de punta a punta el proceso de transformación de una empresa. Identificar los dolores, que son los problemas pero también son las oportunidades, o los desafíos que presenta el mercado. Diseñar y llevar adelante las iniciativas desde el momento cero. Acompañar a las empresas a que recorran nuevas formas de hacer las cosas, nuevos modelos de negocio."
-      },
-      {
-        "type": "question",
-        "text": "¿Cómo describirías el modelo de negocios de Ceibo?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Creo que nuestro modelo de negocio tiene que ver con el momento en el que se fundó, porque probablemente, hace 15 o 20 años atrás, Ceibo no hubiese podido ni siquiera despegar. Las grandes empresas no contrataban este tipo de consultoras, consultoras tal vez más chicas, pero con una mentalidad nueva, digitales, 2.0. Hoy, las empresas están mucho más abiertas y, de hecho, nuestra historia nos dice que generalmente entramos con un pequeño proyecto para luego atender cada vez más cuestiones que nos demanda el mismo cliente."
-      },
-      {
-        "type": "quote",
-        "text": "Al punto que este año tenemos pensado crecer un montón, pero no tanto con nuevos clientes, sino más bien atendiendo las necesidades de los clientes actuales. Actualmente tenemos clientes en 10 países, generalmente de América, pero como nuestros clientes son globales y muchos de nuestros proyectos son globales, actualmente estamos trabajando en casi 40 países. "
-      },
-      {
-        "type": "question",
-        "text": "¿En qué consiste la transformación digital?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Para mí la transformación digital tiene una definición de negocios. Hay varias definiciones dando vueltas, la mayoría están muy orientadas a la tecnología y a los sistemas. Yo creo que la tecnología y los sistemas son herramientas, pero al final del día es una definición de negocios. Yo creo que ahí hay una disociación entre el pensar hacia dónde quiero ir, pensar la estrategia y en llevarla adelante. ¿Cómo se manifiesta esto típicamente en las organizaciones y empresas? Alguien cercano al negocio piensa qué es lo que necesita, después se lo intenta comunicar a los que tienen que encontrar la solución, pero los que salen a buscar la solución no entienden bien del negocio… y los que venden la solución mucho menos. De hecho, lo que venden son productos. Entonces yo tengo el desafío de generar un nuevo canal de comunicación en forma distinta con mis clientes y apuntar a los nuevos segmentos. Nuestra definición de Transformación Digital es repensar el modelo de negocios de una organización a la luz de tres elementos: nuevo escenario competitivo, las nuevas demandas de los consumidores y las nuevas tecnologías."
-      },
-      {
-        "type": "question",
-        "text": "¿Qué desafíos plantea un proceso de transformación digital para las organizaciones?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Creo que es fundamental plantearse la transformación y es fundamental el acompañamiento. Yo creo que acá el desafío principal es que la industria, o sea, las empresas no tienen un ecosistema que esté preparado para empatizar con los propios problemas y ayudarlos a recorrer esa transformación. ¿A qué me refiero? No creo que las empresas, ya sea con capacidades internas o externas, pueden resolver de forma teórica cuáles son los desafíos que tienen, básicamente entender dónde están y entender a dónde quieren ir. De hecho, hay algunas consultoras muy reconocidas en el mundo, consultoras de negocios, que son muy buenas haciendo este trabajo. Pero una vez que tienen claro ese road map que, en general, se ve en un papel o en un PowerPoint, el desafío más importante es cómo y por dónde empezar a recorrer ese camino. Un profesor mío de estrategia decía que podíamos llenar el aula de libros de estrategia, pero libros de implementación no existen. Yo creo que ese es el desafío."
-      },
-      {
-        "type": "question",
-        "text": "¿Cómo se posiciona Ceibo en este ecosistema de mercado y cuál es su diferencial?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Ceibo viene a unir el mundo de los negocios y el de las soluciones y su implementación. **Somos una consultora de negocios, pero con capacidad de arremangarnos y acompañar**. Nos gusta tener conversaciones de negocios, nos gusta entender los desafíos de negocios, armar ese Power Point, pero no nos quedamos con eso, sino que vamos a la solución, vamos a dejar algo “andando”. Esto no es algo que vimos nosotros solos. Las grandes consultoras de negocios o los grandes jugadores mundiales están yendo para el lado de la implementación. Las empresas de tecnología también se están moviendo para el lado de negocios, **empiezan a incorporar perfiles de expertos de industria, antropólogos, psicólogos, sociólogos, para empezar a meterse más a fondo en los procesos** y entender mejor los desafíos de hoy. Claramente no es fácil y eso nos genera oportunidades a compañías como la nuestra. Porque las empresas ya no quieren pagar dos millones de dólares por un Power Point, quieren hablar de negocios y quieren la solución. Ceibo entra en ese contexto con una mirada más pragmática de la transformación digital. No creemos que exista el mega proyecto de transformación digital, creemos en **hacer a partir de building blocks** que son como si fueran piezas de Lego; son iniciativas cortas que de forma agregada van transformando la empresa. En lugar de pensar en un proyecto de acá a tres años, pensemos cuáles son los escaloncitos que vamos a ir recorriendo, generando resultados concretos, y dentro de tres años vamos a darnos vuelta y a mirar todo lo que nos transformamos. Ese es el enfoque que nosotros tenemos."
-      },
-      {
-        "type": "question",
-        "text": "¿Qué espacio hay en la realidad de nuestro país para impulsar la transformación digital?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: El contexto local es complejo en varios aspectos. Creo que hay que dividir entre lo que es el mundo PYME y el mundo corporativo. El mundo corporativo está muy pendiente de lo que pasa en el mundo, no se quiere quedar atrás. Viajan, ven lo que está pasando, y vienen tratando de bajarlo a la realidad local. A veces no saben por dónde arrancar y creo que la mayor ayuda que nosotros podemos aportar es ordenar eso, priorizar, pensando cuáles son estos building blocks, por dónde vamos a arrancar. El mundo PYME en Argentina creo que tiene una realidad un poco distinta, tiene como prioridad la subsistencia. De las diferentes iniciativas de transformación digital quizás están priorizando las que tienen más resultados en el corto plazo. Y esto se vio muy exacerbado en la pandemia, donde se vieron con la necesidad de tener que empezar a ganar capacidades que le permitieran seguir manteniendo ingresos. Por ejemplo, pequeñas pymes que se rehusaban a todo lo que era digital y que tuvieron que subirse al ecommerce de la noche a la mañana; incluso los pequeños comercios, que en el mejor de los casos te aceptaban la tarjeta de débito, ahora tienen Mercadopago, QR, etc. Pero no creo que esté dentro de sus prioridades una agenda de largo plazo de una transformación profunda para ganar nuevas capacidades o diseñar un nuevo modelo de negocio."
-      },
-      {
-        "type": "question",
-        "text": "¿Con qué tipo de clientes trabajan en Ceibo?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: En el caso de Ceibo, estamos mucho más en el mundo corporativo, no tenemos clientes pymes. Somos una compañía chica pero global. El 20% de nuestros clientes están en Argentina, el 80% están en el exterior. Sacando alguna excepción de alguna startup con potencial de unicornio, que nos divierte verla nacer y estar en esa instancia, no trabajamos mucho con PYMEs. Estamos más en la cancha de las grandes empresas, ya sean locales, globales o internacionales."
-      },
-      {
-        "type": "question",
-        "text": "¿Cómo se organizan en Ceibo?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Estamos organizados en “capas de cebollas”. Tenemos una primera capa que la llamamos Team, es gente que trabaja full-time y tiene el desafío de llevar la compañía hacia adelante, hacerla crecer de dos maneras. En primer lugar, a partir de lo que llamamos competencias core, una suerte de valores puestos en acción. Valores que son evidenciables con comportamientos concretos y son medibles. **Lideramos con cambios, visión, resultados y con el ejemplo**. Eso hace que la gente que está acá esté metida y esté comprometida con lograr esas cosas. En segundo lugar, definimos diez actividades que entendemos que son críticas para Ceibo, que en lugar de delegarlas en áreas staff, las lideramos quienes estamos en el corazón del negocio."
-      },
-      {
-        "type": "quote",
-        "text": "Una segunda capa de cebolla la llamamos Comunidad, es gente que trabaja permanentemente con Ceibo, la gran mayoría full time, pero tiene una propuesta de valor distinta. Somos una empresa multidisciplinaria diversa y realmente creemos que si uno quiere reclutar perfiles diversos tiene que tener diferentes propuestas de valor. No podes ser una empresa que te jactas de ser muy diversa y decir 'bueno vení a trabajar, tenés que estar de nueve a seis en la oficina y tenés dos home office por mes'. En Comunidad las propuestas son mucho más flexibles en cuanto al manejo de los tiempos y con más actividades optativas. Creemos que con esas dos propuestas de valor tenemos más ancho de banda para poder reclutar perfiles distintos. Hay gente que por ahí tiene familia y tiene una agenda más complicada. Además, fomentamos que la gente tenga otras actividades. Hemos tenido gente que ha pasado de Comunidad a Team, y de Team a Comunidad. Es una elección de la persona, no es una elección nuestra."
-      },
-      {
-        "type": "quote",
-        "text": "Una segunda capa de cebolla la llamamos Comunidad, es gente que trabaja permanentemente con Ceibo, la gran mayoría full time, pero tiene una propuesta de valor distinta. Somos una empresa multidisciplinaria diversa y realmente creemos que si uno quiere reclutar perfiles diversos tiene que tener diferentes propuestas de valor. No podes ser una empresa que te jactas de ser muy diversa y decir 'bueno vení a trabajar, tenés que estar de nueve a seis en la oficina y tenés dos home office por mes'. En Comunidad las propuestas son mucho más flexibles en cuanto al manejo de los tiempos y con más actividades optativas. Creemos que con esas dos propuestas de valor tenemos más ancho de banda para poder reclutar perfiles distintos. Hay gente que por ahí tiene familia y tiene una agenda más complicada. Además, fomentamos que la gente tenga otras actividades. Hemos tenido gente que ha pasado de Comunidad a Team, y de Team a Comunidad. Es una elección de la persona, no es una elección nuestra."
-      },
-      {
-        "type": "quote",
-        "text": "Después tenemos una tercera capa que llamamos Ecosistema. Como cualquier compañía, no sabemos, ni pretendemos saber de todo y no contamos con toda la capacidad que existe. Así que tenemos una red, donde hay empresas y personas para determinados proyectos puntuales. Por ejemplo, nosotros internamente no hacemos desarrollo de Blockchain, pero tenemos dos socios que están todo el tiempo viendo cosas de Blockchain. No tenemos problemas para trabajar con otras compañías o con proyectos con doble logo. Realmente creemos que lo que necesitan nuestros clientes es la mejor solución."
-      },
-      {
-        "type": "question",
-        "text": "Contame del premio que ganaron, ¿qué los motivó a presentarse?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Creo que en el poco tiempo que tenemos hemos tenido bastantes reconocimientos. Ya desde 2020 y 2021 estamos dentro de las empresas más influyentes en Argentina, según la revista Apertura. En 2021, hicimos una certificación de Great Place to Work. Sabíamos que no podíamos entrar en los ranking, porque no nos daba la cantidad de gente, pero lo hicimos como una prueba para tener un diagnóstico de afuera, objetivo, para ver cómo estábamos. La verdad que nos fue muy bien. Nos fue tan bien que dijimos bueno el año que viene seguramente vamos a poder competir en los rankings, pero sabiendo que íbamos a crecer y que sería imposible mantener estos niveles: habíamos sacado 95/100. Este año lo volvimos a hacer y para nuestra sorpresa sacamos 96/100, lo que **nos dejó como la segunda mejor empresa para trabajar en la Argentina hasta 250 colaboradores**. Creo que de todos los reconocimientos, éste es probablemente mi preferido, porque era uno de mis objetivos personales como co-fundador. Yo vengo de trabajar en muchas empresas muy buenas, y en mi cabeza tenía ese Frankestein de cómo hago para juntar lo mejor de todas estas compañías. Esto claramente nos muestra que se puede hacer algo muy bueno. **Ceibo es una empresa donde la gente se divierte, está desafiada y aprende**. Nuestros niveles de rotación son ridículamente bajos, y eso nos muestra que a la gente le gusta trabajar acá."
-      },
-      {
-        "type": "question",
-        "text": "¿Qué tipo de profesionales o de especialistas buscan incorporar a los equipos de trabajo?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Desde los inicios tuvimos muy claro que esta es una compañía que vende talento, tiempo y conocimiento de las personas. En ese momento, dijimos: “si nos queremos posicionar, necesitamos a los mejores”. Hoy por hoy, tenemos convenio con muchas universidades, otra decisión acertada. Por ejemplo, acá en Argentina, con la Universidad Torcuato Di Tella, la Universidad de San Andrés, con el Instituto Tecnológico de Buenos Aires (ITBA), la Universidad Austral y la Universidad Católica Argentina. En Ceibo tenemos dos carreras: una que es la de consultor y otra la de especialista. Para consultor reclutamos múltiples carreras: ingenieros, economistas, gente de ciencias sociales, abogados. Buscamos gente que esté muy orientada a la excelencia, reclutamos a los mejores promedios. Esto representa otro cambio de paradigma, porque hace 10 o 15 años estos perfiles se hubieran ido a Techint, a un banco, o a una gran consultora, y hoy ven en Ceibo esta posibilidad de tener una carrera dinámica, de mucho aprendizaje y crecimiento. En cuanto a los especialistas, buscamos ingenieros de soluciones, científicos de datos, especialistas en UX, en marketing automation o las carreras orientadas a la tecnología."
-      },
-      {
-        "type": "question",
-        "text": "Muchas veces se lee o se escucha hablar de la relación entre transformación digital y cambio cultural ¿cuál es tu visión sobre esto?"
-      },
-      {
-        "type": "quote",
-        "text": "Hernán Gutsztat: Creo que hay una falsa tensión entre la transformación cultural y la digital. La forma en que nosotros lo vemos, y lo que estamos probando empíricamente, es que **el cambio cultural es parte de la transformación digital**. Uno necesita la visión hacia dónde quiere ir, y el cambio cultural es parte de ese recorrido, pero no es un elemento más. Hay muchos elementos como lo tecnológico, la espalda financiera y la disponibilidad de conectividad, pero el cambio cultural no es un elemento más, sino que es el que marca el ritmo de la transformación. Al final del día, **la velocidad de transformación de la organización la va a dar el cambio cultural**. Las organizaciones al final son la combinación de procesos, sistemas y personas. Si yo voy a cambiar las cosas tengo que pensar cómo me voy a organizar. Si yo voy a cambiar un sistema, tengo que pensar cómo la gente va a adoptar ese sistema y qué procesos necesita. Yo creo que las organizaciones que quizás quieren un cambio cultural “porque sí”, al final terminan un poco huérfanas. ¿Qué es lo que estamos cambiando? Me parece que el cambio cultural, la gestión del cambio, tiene que venir de la mano de una transformación genuina, de querer hacer las cosas de otro modo o con una propuesta diferente."
-      },
-      {
-        "type": "p-margin",
-        "text": "Nota original: [Circular](https://www.linkedin.com/pulse/ciclo-encuentros-en-circular-cowork-encuentro-con-ceibo-/?trackingId=kDOCZDI0tnBMUW0hbK54xg%3D%3D)"
-      }
-    ],
-    "metadata": {
-      "author": "",
-      "date": "20 de mayo, 2022",
-      "dateEN": "may 3, 2022",
-      "bannerImg": "/images-ceibo/publicaciones/Publicaciones-nota-circular.JPG",
-      "tags": ["Ceibo Digital", "Transformación Digital", "Consultoría"]
-    }
-  },
-  {
-    "id": "6",
-    "title": "Darwinismo Tecnológico",
-    "path-url": "darwinismo-tecnologico",
-    "titleEN": "Circular Cowork Talks: Getting to know Ceibo Digital",
-    "img": "/images-ceibo/publicaciones/darwinismo-tecnologico-600x403.jpg",
-    "desc": "Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas.",
-    "content": [
-      {
-        "type": "quote",
-        "text": "Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas."
-      },
-      {
-        "type": "p",
-        "text": "Por **Manuel Gómez**"
-      },
-      {
-        "type": "p",
-        "text": "La llegada de la pandemia de Covid-19 aceleró en muchas industrias, hacia los dos lados del negocio, la adopción de tecnologías que permitieran la continuidad de las operaciones y que, en aquellos segmentos donde la ganancia pasa por la venta de productos y servicios, los clientes continuaran acercándose a pesar de no poder hacerlo de manera física."
-      },
-      {
-        "type": "p",
-        "text": "En ese contexto comenzó a ganar terreno una terminología de la que se venía debatiendo de un tiempo a esta parte: la transformación digital El concepto se refiere a la integración de tecnología digital en todas las áreas de una empresa, cambiando fundamentalmente la forma en que opera y brinda valor a sus clientes. También supone un cambio cultural que requiere que las organizaciones desafíen constantemente el status quo, y puede implicar la reelaboración de los productos, procesos y estrategias dentro de la organización mediante el aprovechamiento de nuevas tecnologías."
-      },
-      {
-        "type": "p",
-        "text": "Esta evolución tecnológica, en teoría, permite que las organizaciones compitan mejor en un entorno económico que cambia constantemente a medida que los negocios van cambiando. Con ese fin, la transformación digital es necesaria para cualquier empresa, organización sin fines de lucro o institución que busque sobrevivir en el futuro."
-      },
-      {
-        "type": "p",
-        "text": "Como tal, la transformación digital requiere un examen y reinvención de la mayoría, si no de todas las áreas dentro de una organización, de su cadena de suministro y flujo de trabajo, las habilidades de sus empleados, interacciones con clientes y su valor para las partes interesadas."
-      },
-      {
-        "type": "p",
-        "text": "Tecnologías clave como computación en la nube, virtualización, big data, machine learning e internet de las cosas, entre otras, están empujando hacia todos los cardinales a la transformación digital, un paradigma en el que muchas empresas proveedoras de soluciones asociadas están llegando para quedarse."
-      },
-      {
-        "type": "subtitle",
-        "text": "Flor de cambios"
-      },
-      {
-        "type": "p",
-        "text": "Las organizaciones que ven a la transformación digital principalmente como una diferencia de tecnología sobre la transformación tradicional con ingeniería de procesos de negocio terminarán perdiendo el poder de la transformación digital."
-      },
-      {
-        "type": "p",
-        "text": "Un viaje de transformación digital mueve a una organización de un mundo definido por el proceso a un mundo basado en datos. Esos cambios son complejos y en ese lugar es en el que nació Ceibo, una compañía fundada en Buenos Aires y Miami que se enfocó desde su origen en la problemática de empresas grandes y globales."
-      },
-      {
-        "type": "quote",
-        "text": "“Ceibo nace con sus oficinas de Buenos Aires y Miami. La oficina de Asunción en Paraguay se sumó un poco después, consolidando la presencia en América. El primer equipo, como toda startup fue chico, pero desde el comienzo el crecimiento fue agresivo, por lo cual todos los meses se sumaba gente nueva”, comenta Hernán Gutsztat, managing partner de Ceibo."
-      },
-      {
-        "type": "quote",
-        "text": "“Al no ser una empresa de productos, la única inversión fue en capital de trabajo y en el compromiso de los fundadores durante los primeros años que nos permitieron potenciar el crecimiento apostando fuerte a la contratación de talento”, completa."
-      },
-      {
-        "type": "p",
-        "text": "Ceibo hoy se autodefine como una consultora de negocios enfocada en transformación digital. Su propuesta es ayudar a las empresas a identificar sus “dolores” y oportunidades y brindan asesoramiento en la implementación de las iniciativas de transformación. Desde Ceibo entienden que los usuarios no solamente buscan productos y servicios eficientes y competitivos, sino que además demandan experiencias. Afirman que ya no se trata de la experiencia de usuario en un website o en una aplicación sino de la totalidad de la relación de ese usuario con la empresa y la marca, entendiendo que esa experiencia es dinámica, como así también la propia expectativa del usuario."
-      },
-      {
-        "type": "quote",
-        "text": "“En todos los casos la tecnología es la herramienta que nos permite ayudar a nuestros clientes a cumplir con sus objetivos de negocios. Nuestros proyectos por lo general tienen un mix de especialistas de tecnología y consultores de negocios, que en conjunto trabajan codo a codo con el cliente para lograr la transformación”, aclara Gutsztat."
-      },
-      {
-        "type": "p",
-        "text": "Los proyectos que llevan adelante desde la compañía se pueden organizar por segmentos como estrategia, excelencia operacional, organización, innovación y tecnología, y customer engagement, “aunque tenemos bien definidas nuestras verticales de servicios, existe un único equipo de consultores y especialistas que participan en diferentes proyectos de acuerdo a las capacidades requeridas de cada uno”."
-      },
-      {
-        "type": "p",
-        "text": "Ceibo cuenta con un portfolio de clientes muy diverso, tanto en sector industrial como en geografía."
-      },
-      {
-        "type": "p",
-        "text": "Actualmente, tienen una cartera de entre 15 a 20 proyectos simultáneos en Servicios Financieros, Fintech, Agro, Retail, Minería, Tecnología, Salud, Metal-mecánica y Seguros, entre otros."
-      },
-      {
-        "type": "p",
-        "text": "**Nota original**: InfoTechnology Revista Nº 274 2022 – Pag. 25, 26"
-      }
-    ],
-    "metadata": {
-      "author": "",
-      "date": "3 de marzo, 2022",
-      "dateEN": "march 3, 2022",
-      "bannerImg": "/images-ceibo/publicaciones/darwinismo-tecnologico-scaled.jpg",
-      "tags": [
-        "Ceibo Digital",
-        "Transformación Digital",
-        "Tecnología",
-        "Covid-19"
-      ]
-    }
-  },
-  {
-    "id": "7",
-    "title": "Se adelantaron a la pandemia con la transformación digital y cerraron 2021 con $300 millones de facturación",
-    "path-url": "se-adelantaron-la-pandemia-y-cerraron-2021-con-300-millones-de-facturacion",
-    "titleEN": "Ceibo got ahead of the pandemic with digital transformation and quadrupled revenue in 2021",
-    "img": "/images-ceibo/publicaciones/Publicaciones-Nota-A24.JPG",
-    "desc": "Conocé la historia de Ceibo, una consultora de tecnología que en 2018 anticipó los servicios que requeriría la llegada del COVID-19. De qué se trata y cuál es su modelo de negocios para no dejar de crecer.",
-    "content": [
-      {
-        "type": "p",
-        "text": "Conocé la historia de Ceibo, una consultora de tecnología que en 2018 anticipó los servicios que requeriría la llegada del COVID-19. De qué se trata y cuál es su modelo de negocios para no dejar de crecer."
-      },
-      {
-        "type": "img",
-        "src": "/images-ceibo/publicaciones/hernandavid-ceibojpg.webp"
-      },
-      {
-        "type": "p-margin",
-        "text": "Hernán Gutztat y David Wilson, los fundadores de Ceibo y su propuesta de transformación digital."
-      },
-      {
-        "type": "p",
-        "text": "Por **Carlos Toppazzini**"
-      },
-      {
-        "type": "p",
-        "text": "**Transformarse o desaparecer**, así podría titularse esta nota porque esa es la consigna que define a este proyecto digital."
-      },
-      {
-        "type": "p",
-        "text": "Un tiempo antes de la llegada de la pandemia, **algunos referentes del mundo de los negocios ya habían comprendido que la transformación digital (TD) era una pieza clave para la sostenibilidad de sus compañías**. [Otros, en cambio, ni siquiera se enteraron](https://www.a24.com/pymes/mas-la-mitad-las-empresas-no-ven-necesario-aumentar-su-nivel-digitalizacion-n876995). Pero, con la llegada del COVID-19 esa concepción innovadora no sólo se hizo inevitable sino, además, imprescindible."
-      },
-      {
-        "type": "p",
-        "text": "Para entenderlo mejor, <u>un ejemplo claro de transformación digital es lo que pasó en los últimos meses con el crecimiento del eCommerce</u>. Según un informe auspiciado por CEPAL, en Argentina, Colombia y México la digitalización de las empresas aumentó 800% entre marzo, abril y mayo de 2020, en comparación con el año anterior."
-      },
-      {
-        "type": "p",
-        "text": "Definitivamente, **la denominada transformación digital no comenzó con la pandemia**, pero el contexto de restricciones sanitarias y de circulación colocó en el centro del escenario y priorizó muchas iniciativas relacionadas con ciertos aspectos de la TD."
-      },
-      {
-        "type": "p",
-        "text": "Apenas un tiempo antes, en 2018, **Hernán Gutsztat** y **David Wilson** fundaron **Ceibo Digital**, una firma global con foco en América que ayuda a las empresas a diseñar e implementar su estrategia y transformación digital."
-      },
+	{
+		"id": "1",
+		"path-url": "vision-de-lideres-2023",
+		"title": "Visión de Líderes 2023",
+		"titleEN": "Leaders’ Vision 2023",
+		"img": "/images-ceibo/publicaciones/lideres2023.png",
+		"desc": "El Cronista lanzó su edición anual de Visión de los Líderes, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Partner, Hernán ..",
+		"content": [
+			{
+				"type": "first-p",
+				"text": "**[El Cronista](http://electronica.cronista.com/vision/Vision2023.pdf) lanzó su edición anual de **Visión de los Líderes**, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Partner, Hernán Gutsztat, compartió el balance del año que esta por terminar y las expectativas y proyectos para el año que viene**."
+			},
+			{
+				"type": "subtitle",
+				"text": "La Visión para el 2023"
+			},
+			{
+				"type": "p",
+				"text": "Nuestro Partner, Hernán Gutsztat, compartió el balance del año 2022 y las expectativas y proyectos para el año 2023:"
+			},
+			{
+				"type": "question",
+				"text": "• ¿Cuáles son las expectativas y proyectos de su empresa para 2023?"
+			},
+			{
+				"type": "quote",
+				"text": "La expectativa para Ceibo es continuar creciendo internacionalmente y consolidarnos como la consultora de transformación digital en Argentina."
+			},
+			{
+				"type": "question",
+				"text": "• ¿Cuáles fueron los principales obstáculos que enfrentó en 2022? ¿Qué balance hace del año que está por terminar?"
+			},
+			{
+				"type": "quote",
+				"text": "El contexto macroeconómico de la Argentina y la falta de previsibilidad generan una situación de volatilidad en nuestros clientes de la Argentina, que les impide encarar proyectos de largo plazo. En cuanto a los desafíos internos, la adquisición de talento siempre es un desafío para acompañar nuestro crecimiento agresivo."
+			},
+			{
+				"type": "question",
+				"text": "• ¿Qué políticas públicas podrían contribuir a darle impulso a su sector?"
+			},
+			{
+				"type": "quote",
+				"text": "Un tipo de cambio competitivo permitiría la exportación de servicios del conocimiento, que podría convertirse en una fuente de divisas relevante para Argentina. Incentivos fiscales para la contratación de talento (por ejemplo con el presupuesto de Ingresos Brutos o cargas sociales), traería mayor dinamismo al sector, pudiendo ser un sector de alta creación de empleo de calidad."
+			},
+			{
+				"type": "p",
+				"text": "Lee la nota completa en [El Cronista](http://electronica.cronista.com/vision/Vision2023.pdf)"
+			}
+		],
+		"metadata": {
+			"author": "Hernán Gutsztat - Partner",
+			"authorImg": "/images-ceibo/integrantes/Hernan Gutsztat.png",
+			"date": "30 de noviembre, 2022",
+			"dateEN": "november 30, 2022",
+			"bannerImg": "/images-ceibo/publicaciones/lideres2023.png",
+			"tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
+		}
+	},
 
-      {
-        "type": "p",
-        "text": "Aunque su crecimiento fue constante desde el principio, la pandemia aceleró su desarrollo, que se reflejó en **2020 con una facturación de $75 millones**. Al año siguiente, la tendencia se multiplicó y **cerraron 2021 con ingresos por $300 millones**. Ahora, aseguran, el desafío para 2022 será **crecer 35% en términos reales**."
-      },
-      {
-        "type": "subtitle",
-        "text": "Transformación digital y cambio de modelo"
-      },
-      {
-        "type": "quote",
-        "text": "La forma de hacer negocios está cambiando. “Desde el punto de vista del ritmo de implementación observamos que, **aunque por un tiempo se continuará con la forma tradicional de hacer negocios, como mínimo se va a convivir con la multicanalidad** y las [diferentes formas de mirar el fenómeno que ahora tienen las empresas](https://www.a24.com/pymes/cuales-son-las-3-prioridades-tecnologicas-los-empresarios-2022-n868951)”, cuenta **Gutsztat**."
-      },
-      {
-        "type": "p",
-        "text": "La compañía **inició con oficinas en Buenos Aires, Miami y Asunción** para atender clientes esencialmente globales y multinacionales en 10 países de América, **con operaciones en 40**."
-      },
-      {
-        "type": "p",
-        "text": "Con sus proyectos logran un alcance de impacto global que suele arrancar en una o dos filiales locales de una empresa y luego escala hasta abarcar las restantes. “**El 80% de nuestras operaciones provienen de clientes que están afuera de Argentina**”, señalan."
-      },
-      {
-        "type": "img",
-        "src": "/images-ceibo/publicaciones/comercio-electronico-2jpg.webp"
-      },
-      {
-        "type": "p-margin",
-        "text": "Un ejemplo claro de transformación digital es lo que pasó en los últimos meses con el crecimiento del eCommerce."
-      },
-      {
-        "type": "p",
-        "text": "De acuerdo con datos de CBInsights, en enero de 2020 (es decir, poco antes de que se disparara todo), el 11% del comercio agregado mundial ya pasaba por canales digitales. Ahora, ese indicador se encuentra en torno al 22%."
-      },
-      {
-        "type": "quote",
-        "text": "“Eso quiere decir que, **en un año, se duplicó lo que se transaccionaba digitalmente**”, aclara Gutsztat, al mismo tiempo que asegura que llegó el momento de precisar de qué hablamos cuando hablamos de TD."
-      },
-      {
-        "type": "subtitle",
-        "text": "Qué es exactamente la transformación digital"
-      },
-      {
-        "type": "p",
-        "text": "Según la visión de los fundadores de Ceibo, encarar la transformación digital significa que <u>cualquier empresa, de cualquier tamaño o industria debe hacer introspección y pensar si su modelo de negocios es sustentable</u>, si resistirá los próximos 3 o 5 años."
-      },
-      {
-        "type": "quote",
-        "text": "“La TD es ese ´algo´ que tienen que hacer las empresas para ajustar o transformar su modelo de negocios con una perspectiva a cinco años, y **nuestra misión es ayudar a esa empresa a identificar qué es ese ´algo´ y cómo recorrer la brecha que la separa entre su presente y la compañía que necesita ser en el futuro**; además de acompañarla en la implementación y seguimiento del proceso de transformación”, explica Gutsztat."
-      },
-      {
-        "type": "p",
-        "text": "La alusión a la implementación no es una simple palabra, sino que se conecta con el ADN de la compañía y con el sentido que originó su creación."
-      },
-      {
-        "type": "p",
-        "text": "Históricamente, cuenta, **la transformación de las organizaciones estaba abordado por 2 tipos de empresas de servicios**. Por un lado, **las consultoras de negocios**, que cuentan con mucha experiencia y capacidades en management, y son buenas para entender lo que está pasando y para hacer recomendaciones."
-      },
-      {
-        "type": "p",
-        "text": "Pero **eso implica que las compañías, después de recibir las recomendaciones, tienen que salir a buscar soluciones en otras empresas**, generalmente de tecnología, que ofrecen un producto para cada problema, al departamento de sistemas. En muchos casos, sostienen desde Ceibo, este producto no resuelve el desafío de negocios que originalmente tenía la organización."
-      },
-      {
-        "type": "p",
-        "text": "Sin embargo, eso empezó a cambiar de la mano de las empresas nativas digitales, en las que ya no existe esa grieta entre el área de sistemas y el área de negocios. **Estas empresas se organizan por objetivos, los presupuestos para la contratación de productos y servicios ya no recaen en el área de sistemas**, sino en el negocio."
-      },
-      {
-        "type": "img",
-        "src": "/images-ceibo/publicaciones/equipo-ceibojpg.webp"
-      },
-      {
-        "type": "p-margin",
-        "text": "El equipo de Ceibo. Hoy la organización está diseñada como una compañía de partners de consultoría, sin áreas funcionales."
-      },
-      {
-        "type": "quote",
-        "text": "“ <u>Los clientes empezaron a demandar un servicio</u> integrado en el que, por un lado, puedan hablar de sus problemas del negocio, incluyendo también los desafíos y oportunidades, pero hacerlo con una empresa que **a su vez tenga la capacidad de implementarle una solución concreta**, además de darle una recomendación y ayudarlo con su estrategia”, remarca Gutsztat."
-      },
-      {
-        "type": "subtitle",
-        "text": "Cómo es la consultora por dentro"
-      },
-      {
-        "type": "p",
-        "text": "Ceibo nació con la visión de que la intersección entre las nuevas necesidades corporativas y su propuesta de valor operarían, además, en un nicho del negocio con perspectiva de constante crecimiento porque <u>cada vez más las empresas van a necesitar esta integración entre entender el negocio y tener la solución</u>. “Vimos que iba a haber espacio para muchos jugadores y también para jugadores nuevos que tengan alguna propuesta de valor un poco más fresca”, reconoce Gutsztat."
-      },
-      {
-        "type": "p",
-        "text": "Ahora es una organización diseñada como una compañía de partners de consultoría, sin áreas funcionales, cuya característica principal a nivel interno es que **las mismas personas interactúan con los clientes durante todo el ciclo de vida del proyecto**: en la etapa de desarrollo comercial, durante el delivery de proyectos y después de los mismos."
-      },
-      {
-        "type": "p",
-        "text": "El “Team”, como denominan a la capa del centro, se compone de **unas 25 personas que conforman su estructura core**: son los responsables de hacer crecer a la compañía."
-      },
-      {
-        "type": "p",
-        "text": "La segunda capa es la “Comunidad”. Sus integrantes trabajan en su mayoría full-time, con casos de part-time. Esta es una **propuesta más flexible** que busca **atraer a talentos** que desean equilibrio entre el trabajo y el resto de sus actividades. Y, por último, está el “Ecosistema”, que **son personas o empresas con un expertise particular convocados para proyectos puntuales**."
-      },
-      {
-        "type": "quote",
-        "text": "“Parte de nuestro crecimiento se debe a que logramos crecer con nuestros propios clientes”, señala Wilson. Y los números reflejan un crecimiento agresivo: en 2018 eran 6 de colaboradores y terminaron el 2021 con cerca de 60."
-      },
-      {
-        "type": "quote",
-        "text": "Actualmente, la firma tiene entre 15 a 20 proyectos que involucran 15 empresas de diferentes industrias y geografías. “Hemos definido al 2021 como un año para administrar el crecimiento y, aun así, terminamos triplicándonos con respecto al año anterior”, concluye Wilson."
-      },
-      {
-        "type": "p-margin",
-        "text": "Nota original [a24](https://www.a24.com/economia/se-adelantaron-la-pandemia-la-transformacion-digital-y-cerraron-2021-300-millones-facturacion-n992111)"
-      }
-    ],
-    "metadata": {
-      "date": "23 de Enero, 2022",
-      "dateEN": "Januray 23, 2022",
-      "bannerImg": "/images-ceibo/publicaciones/Publicaciones-Nota-A24.JPG",
-      "tags": ["Ceibo Digital", "Transformación Digital", "Covid-19"]
-    }
-  },
-  {
-    "id": "6",
-    "title": "La empresa argentina que conquistó 40 países y estima facturar casi $300M",
-    "path-url": "ceibo-la-consultora-en-transformacion-digital-que-conquisto-40-paises",
-    "titleEN": "The Argentine company that reached 40 countries and expects to quadruple its revenue in 2021",
-    "img": "/images-ceibo/publicaciones/ceibo-digital-consultoria-transformacion-digital-600x403.png",
-    "desc": "Ya antes de la pandemia los líderes empresariales habían entendido que la transformación digital era muy importante para la sustentabilidad de sus compañías, pero en el ..",
-    "content": [
-      {
-        "type": "p",
-        "text": "Ya antes de la pandemia **los líderes empresariales habían entendido que la transformación digital era muy importante para la sustentabilidad de sus compañías**, pero en el contexto del coronavirus asumieron que, además de imprescindible, era inevitable. "
-      },
-      {
-        "type": "p",
-        "text": "**“Transformarse o desaparecer”** podría ser la consigna. Así lo dicen las estadísticas mas citadas habitualmente cuando se habla de estos asuntos."
-      },
-      {
-        "type": "p",
-        "text": "Un ejemplo nítido de la transformación digital que se registró en el último tiempo fue el crecimiento del comercio electrónico."
-      },
-      {
-        "type": "p",
-        "text": "Según un informe auspiciado por la CEPAL, solo en Colombia y México la digitalización de las empresas **aumentó 800% entre marzo, abril y mayo** de 2020 en comparación con el año 2019. **El mismo informe destaca que estos porcentajes se replicaron en la Argentina**."
-      },
-      {
-        "type": "p",
-        "text": "“La transformación digital definitivamente no arrancó con la pandemia, pero el contexto de restricciones sanitarias y de circulación puso sobre la mesa y priorizó muchas iniciativas de este tipo”, señala Hernán Gutsztat, Managing Partner y cofundador de **Ceibo Digital, una firma global con foco en América y que se dedica a acompañar a las empresas a realizar esta transformación digital de la que tanto se habla**."
-      },
-      {
-        "type": "quote",
-        "text": "“Desde el punto de vista de su ritmo de implementación observamos que, aunque por un tiempo se va a continuar con la forma tradicional de hacer negocios, como mínimo se va a **convivir con la multicanalidad y las diferentes formas de mirar el fenómeno que ahora tienen las empresas“**. ",
-        "author": "Hernán Gutsztat - Managing Partner"
-      },
+	{
+		"id": "20",
+		"path-url": "anti-money-laundering",
+		"title": "Seminario Anti-Money Laundering",
+		"titleEN": "Anti-Money Laundering seminar",
+		"img": "/images-ceibo/publicaciones/anti-money-laundering-seminar-2023/miniatura.jpg",
+		"desc": "Ceibo Digital estuvo presente en el seminario Anti-Money Laundering organizado por Testa Consultores en Montevideo, Uruguay.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Seminario Anti-Money Laundering"
+			},
+			{
+				"type": "p",
+				"text": "Ceibo Digital estuvo presente en el seminario Anti-Money Laundering organizado por Testa Consultores en Montevideo, Uruguay."
+			},
+			{
+				"type": "p",
+				"text": "Nuestro Senior Manager, Ignacio Navarro Moreno, fue invitado como orador en el seminario para conversar sobre las aplicaciones de la Inteligencia Artificial para el cumplimiento de las normativas y regulaciones vigentes."
+			},
+			{
+				"type": "p",
+				"text": "Conversamos sobre la manera en que la Inteligencia Artificial puede aplicarse para mitigar identificar y mitigar los riesgos de lavado de dinero, de manera eficiente y precisa y exploramos los casos de éxito más importantes en Latinoamérica."
+			},
 
-      {
-        "type": "subtitle",
-        "text": "Crecimiento acelerado"
-      },
-      {
-        "type": "p",
-        "text": "Ceibo nació en 2018 y, aunque su crecimiento fue constante desde el momento de su fundación, la pandemia aceleró su desarrollo; un reflejo de lo cual fue que **finalizó 2020 con $ 75 millones de facturación, mientras que, en lo que va de 2021, ya superó los $ 240 millones**."
-      },
-      {
-        "type": "p",
-        "text": "La compañía se fundó con un perfil global. **Comenzó con oficinas en Buenos Aires, en Miami y en Asunción**, pero atiende clientes -y especialmente compañías globales y multinacionales de gran envergadura- **en 10 países de América con operaciones en 40**, a partir de que sus proyectos tienen un alcance con impacto global, que suele arrancar en una o dos filiales locales de una empresa y luego se escala hasta abarcar las restantes. ."
-      },
-      {
-        "type": "p",
-        "text": "**“El 80% de nuestras operaciones provienen de clientes de fuera de la Argentina”**, señalan."
-      },
-      {
-        "type": "p",
-        "text": "De acuerdo con datos de CBInsights, <u>en enero de 2020, “o sea minutos antes de que se disparara todo”, el 11% del comercio agregado mundial ya pasaba por canales digitales y hoy este índice se encuentra por encima del 20%, en torno al 22%</u>."
-      },
-      {
-        "type": "p",
-        "text": "“Eso quiere decir que **en un año se duplicó lo que se transaccionaba digitalmente**“, concluye Gutsztat, al mismo tiempo que subraya que ha llegado el momento de precisar exactamente de qué hablamos cuando hablamos de transformación digital."
-      },
-      {
-        "type": "p",
-        "text": "“Encarar la transformación digital significa que cualquier empresa, de cualquier tamaño, de cualquier industria, debe hacer introspección y pensar si su modelo de negocios es sustentable, -si resistirá-, los próximos tres a cinco años”, amplía."
-      },
-      {
-        "type": "p",
-        "text": "“Históricamente, el mundo de la transformación de las organizaciones estaba abordado por dos tipos de empresas de servicios. Por un lado, las consultoras de negocios, que cuentan mucha experiencia y capacidades en management, que son muy buenas para entender lo que está pasando y para hacer recomendaciones. **Esto implica que las compañías, después de recibir dichas recomendaciones, tienen que dar vuelta y salir a buscar soluciones en otras empresas**, típicamente de tecnología, llámese de IBM, Oracle, SAP, etc., que tienen a mano siempre un producto para cada problema, que en general ofrecen al Departamento de Sistemas. En muchos casos este producto no resuelve el dolor o desafío de negocios que originalmente la compañía tenía”, relata."
-      },
-      {
-        "type": "p",
-        "text": "“**Esto empezó a cambiar de la mano de las empresas nativas digitales**, en las que ya no existe esa grieta entre el área de sistemas y el área de negocios. Estas empresas se organizan por objetivos de negocios los presupuestos para la contratación de productos y servicios ya no recaen en el área de sistemas, sino en el negocio”, sigue."
-      },
-      {
-        "type": "p",
-        "text": "“Los clientes empezaron a **demandar un servicio integrado** en el que, por un lado, puedan hablar de sus ´dolores de negocio´, incluyendo también los desafíos y oportunidades, pero hacerlo con una empresa que a su vez tenga la capacidad de implementarle una solución concreta, además de **darle una recomendación de negocio y ayudarlo con su estrategia**“, define Gutsztat."
-      },
-      {
-        "type": "p",
-        "text": "Sobre el futuro de la compañía, el cofundador dice: “**Hemos definido el 2021 como un año para administrar el crecimiento. Finalmente somos una empresa de personas, y hemos puesto la vara muy alta para seleccionar a nuestros colaboradores**. Nos cuesta mucho conseguir esta calidad de personas, entonces este año estamos con un pie en el acelerador y otro en el freno. Aún así, administrando el crecimiento, vamos a estar más que triplicándonos con respecto al año pasado”."
-      },
-      {
-        "type": "subtitle",
-        "text": "¿Qué es la transformación digital?"
-      },
-      {
-        "type": "p",
-        "text": "Desde Ceibo definen la transformación digital como un repensar el modelo de negocios de una empresa a la luz de tres elementos, a saber:"
-      },
-      {
-        "type": "p",
-        "text": "1- El primero es comprender **el nuevo escenario competitivo**, no solo analizar el contexto de quiénes son sus competidores tradicionales sino también ver quiénes son los nuevos jugadores que están emergiendo, qué modelo de negocio tienen, cuál es su modelo operativo, sus capacidades, y con qué reglas de juego tienen que jugar (marco regulatorio)."
-      },
-      {
-        "type": "p",
-        "text": "2- El segundo elemento de la transformación digital son las **nuevas demandas de los consumidores**, que constantemente demandan productos y servicios de mayor calidad y cada vez más digitales, sino que también demandan experiencias – **Customer Experience**-."
-      },
-      {
-        "type": "p",
-        "text": "3- Y el tercer elemento, en gran medida el habilitador de los otros dos, son las **nuevas tecnologías, que hasta hace unos cinco años no existían o eran muy caras, o exigían una gran escala de producción para que fuera razonable la inversión en ellas y que hoy son más accesibles para casi cualquier empresa**.."
-      },
-      {
-        "type": "p",
-        "text": "Nota original: [InfoTechnology](https://www.cronista.com/infotechnology/negocios/se-anticiparon-a-la-pandemia-estan-con-proyectos-en-40-paises-y-en-2021-facturaran-casi-300-m/)"
-      }
-    ],
-    "metadata": {
-      "date": "30 de diciembre, 2021",
-      "dateEN": "december 30, 2021",
-      "bannerImg": "/images-ceibo/publicaciones/ceibo-digital-consultoria-transformacion-digital.png",
-      "tags": ["Ceibo Digital", "Transformación Digital", "Covid-19"]
-    }
-  },
-  {
-    "id": "7",
-    "path-url": "vision-de-lideres-2022",
-    "title": "Visión de Líderes 2022",
-    "titleEN": "Leaders’ Vision 2022",
-    "img": "/images-ceibo/publicaciones/vision-de-los-lideres-2022-600x403.png",
-    "desc": "El Cronista lanzó su edición anual de Visión de los Líderes, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Managing Partner, Hernán ..",
-    "content": [
-      {
-        "type": "p",
-        "text": "[El Cronista](https://www.cronista.com) lanzó su edición anual de Visión de los Líderes, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Managing Partner, Hernán Gutsztat, compartió el balance del año que esta por terminar y las expectativas y proyectos para el año que viene."
-      },
-      {
-        "type": "p",
-        "text": "Para el 2022 se espera un fuerte crecimiento, consolidación de alguno de nuestros mercados internacionales y fuerte inversión en el desarrollo de otros."
-      },
-      {
-        "type": "p",
-        "text": "La transformación digital está en agenda de todas las compañías y nuestro esfuerzo está en posicionarnos como una consultora líder en transformación digital."
-      },
-      {
-        "type": "subtitle",
-        "text": "La Visión para el 2022"
-      },
-      {
-        "type": "p",
-        "text": "Nuestro managing partner Hernán Gutsztat compartió la visión de Ceibo Digital para el 2022:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Para 2022 esperamos otro año de fuerte crecimiento, consolidación de alguno de nuestros mercados internacionales y fuerte inversión en el desarrollo de otros. La transformación digital está en agenda de todas las compañías y nuestro esfuerzo está en posicionarnos como una consultora líder en transformación digital.",
-          "Fue un año difícil para la gran mayoría de las empresas. A la vez, fue un año de mucho crecimiento para Ceibo por ser una empresa que no solamente tiene capacidades digitales, sino que a su vez se dedica a desarrollar y potenciar estas capacidades en otras empresas",
-          "Se ha avanzado en la dirección correcta en cuanto a las políticas relacionadas con la industria del conocimiento. Más allá de esto, la falta de previsibilidad en las condiciones macroeconómicas, la fuerte presión tributaria y la volatilidad con respecto al tipo de cambio son aspectos que la Argentina tendrá que resolver en el corto y mediano plazo si pretende un desarrollo sustentable de esta industria"
-        ]
-      },
-      {
-        "type": "p",
-        "text": "Leé la nota completa en [El Cronista](http://electronica.cronista.com/vision/Vision2022.pdf)"
-      }
-    ],
-    "metadata": {
-      "author": "Nicolás Calvo - Senior Specialist",
-      "authorImg": "/images-ceibo/integrantes/Nicolas Calvo.png",
-      "date": "20 de diciembre, 2021",
-      "dateEN": "december 20, 2021",
-      "bannerImg": "/images-ceibo/publicaciones/vision-de-los-lideres-2022banner.png",
-      "tags": ["Negocios", "Actualidad", "Argentina", "Ceibo Digital"]
-    }
-  },
-  {
-    "id": "14",
-    "path-url": "vision-de-lideres-2021",
-    "title": "Ceibo Digital entre las empresas más influyentes de Argentina",
-    "titleEN": "Leaders’ Vision 2021",
-    "img": "/images-ceibo/publicaciones/WhatsApp-Image-2021-05-11-at-12.34.22.jpeg",
-    "desc": "Fuimos nombrados por El Cronista como una de las 550 empresas más influyentes de Argentina. Un gran logro y reconocimiento para todos los que formamos Ceibo.",
-    "content": [
-      {
-        "type": "first-p",
-        "text": "Fuimos nombrados por El Cronista como una de las **550 empresas más influyentes de Argentina**. Un gran logro y reconocimiento para todos los que formamos Ceibo."
-      },
-      {
-        "type": "p-margin",
-        "text": "Hernan Gutsztat, nuestro Managing Partner, compartió con El Cronista Comercial la visión de Ceibo sobre el próximo año y cuál va a ser su foco para contrarrestar lo que se vivió en 2020."
-      },
-      {
-        "type": "img",
-        "src": "/images-ceibo/publicaciones/Ceibo_PW_2-350x350.png",
-        "maxWidth": "600px"
-      }
-    ],
-    "metadata": {
-      "author": "",
-      "date": "10 de enero, 2021",
-      "dateEN": "january 10, 2021",
-      "bannerImg": "/images-ceibo/publicaciones/WhatsApp-Image-2021-05-11-at-12.34.22.jpeg",
-      "tags": ["Negocios", "Actualidad", "Ceibo Digital", "Argentina"]
-    }
-  },
-  {
-    "id": "15",
-    "path-url": "ceibo-somos-una-empresa-great-place-to-work",
-    "title": "¡Somos una empresa Great Place to Work!",
-    "titleEN": "We are a Great Place to Work® Certified Company",
-    "img": "/images-ceibo/publicaciones/Ceibo_PW_4.png",
-    "desc": "Éste es un reconocimiento al clima laboral nuestra organización, dado por todos los miembros del equipo. Este logro refuerza nuestro compromiso con la visión de Ceibo: aportar un valor diferencial para cada parte de nuestra comunidad.",
-    "content": [
-      {
-        "type": "first-p",
-        "text": "Éste es un reconocimiento al clima laboral nuestra organización, dado por todos los miembros del equipo. Este logro refuerza nuestro compromiso con la visión de Ceibo: aportar un valor diferencial para cada parte de nuestra comunidad."
-      },
-      {
-        "type": "p-margin",
-        "text": "Podes leer todo sobre nuestra certificación en la web de Great Place to Work: https://www.greatplacetowork.com.ar/certificado/ceibo-digital"
-      }
-    ],
-    "metadata": {
-      "author": "",
-      "date": "15 de diciembre, 2020",
-      "dateEN": "december 15, 2020",
-      "bannerImg": "/images-ceibo/publicaciones/Ceibo_PW_4.png",
-      "tags": ["Ceibo Digital", "GPTW"]
-    }
-  }
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/anti-money-laundering-seminar-2023/img-1.jpg"
+			}
+		],
+		"metadata": {
+			"date": "16 de agosto, 2023",
+			"dateEN": "August 16, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/anti-money-laundering-seminar-2023/banner.jpg",
+			"tags": [
+				"Ceibo Digital",
+				"Inteligencia Artificial",
+				"Anti-Money Laundering",
+				"Uruguay"
+			]
+		}
+	},
+	{
+		"id": "28",
+		"path-url": "exponegocios-paraguay",
+		"title": "Exponegocios Paraguay",
+		"titleEN": "Paraguay Exponegocios",
+		"img": "/images-ceibo/publicaciones/exponegocios-paraguay/banner.jpeg",
+		"desc": "Nuestro project leader Luis Sanchez fue a Paraguay a participar de ExpoNegocios.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Exponegocios Paraguay"
+			},
+			{
+				"type": "p",
+				"text": "Nuestro project leader Luis Sanchez fue a Paraguay a participar de ExpoNegocios. Un congreso de tres dias que reúne a expertos empresariales destacados, ofreciendo acceso a conocimientos y perspectivas innovadoras en áreas clave."
+			}
+		],
+		"metadata": {
+			"date": "15, 16 y 17 de septiembre, 2023",
+			"dateEN": "September 15, 16 & 17, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/exponegocios-paraguay/banner.jpeg",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
+		}
+	},
+	{
+		"id": "23",
+		"path-url": "retiro-alta-direccion-asuncion",
+		"title": "Retiro de Alta Dirección - Asunción",
+		"titleEN": "Executive Management Retreat - Asuncion",
+		"img": "/images-ceibo/publicaciones/retiro-alta-direccion/banner.jpeg",
+		"desc": "El 17 y 18 de agosto se llevó adelante el Retiro de Alta Dirección organizado por el IAE Business School.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Retiro de Alta Dirección - Asunción"
+			},
+			{
+				"type": "p",
+				"text": "El 17 y 18 de agosto se llevó adelante el Retiro de Alta Dirección organizado por el IAE Business School. Dos días donde los ejecutivos del más alto nivel de Paraguay se juntaron para intercambiar experiencias y debatir sobre las tendencias y nuevas necesidades del mundo de los negocios. Estamos orgullosos de nuestro Partner, Hernán Gutsztat, por haber sido parte de este evento."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/retiro-alta-direccion/banner.jpeg"
+			}
+		],
+		"metadata": {
+			"date": "17 Y 18 de agosto, 2023",
+			"dateEN": "August 17 & 18, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/retiro-alta-direccion/banner.jpeg",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
+		}
+	},
+	{
+		"id": "18",
+		"path-url": "digital-finance-forum-2023",
+		"title": "Digital Finance Forum",
+		"titleEN": "Digital Finance Forum",
+		"img": "/images-ceibo/publicaciones/digital-finance-forum/digital127.jpg",
+		"desc": "Fuimos invitados por el IAEF a participar de su encuentro anual Digital Finance Forum.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Digital Finance Forum"
+			},
+			{
+				"type": "p",
+				"text": "Fuimos invitados por el [IAEF](https://iaef.org.ar/) a participar de su encuentro anual Digital Finance Forum."
+			},
+			{
+				"type": "p",
+				"text": "Nuestro Partner, Hernán Gutsztat, fue parte de un prestigioso panel, integrado por Cecilia Palabesino, Directora de Administración y Finanzas de Gador y Adrián Titarelli, Gerente de Finanzas de Crucianelli, moderado por Desirée Jaimovich, Periodista especializada en Tecnología e Innovación."
+			},
+			{
+				"type": "p",
+				"text": "Conversamos sobre los desafíos que enfrentan las empresas a la hora de impulsar su Transformación Digital, el impacto y la aplicación de nuevas tecnologías como aliadas para lograr una implementación exitosa."
+			},
+			{
+				"type": "p",
+				"text": " Estamos orgullosos de haber sido convocados a este evento, junto con algunas de las empresas más importantes de la Región, tales como Mercado Pago, Accenture, Telecom, Globant y JP Morgan."
+			},
+
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/digital-finance-forum/banner.jpg"
+			}
+		],
+		"metadata": {
+			"date": "9 de agosto, 2023 ",
+			"dateEN": "august 9, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/digital-finance-forum/banner.jpg",
+			"tags": ["Ceibo Digital", "Finanzas"]
+		}
+	},
+
+	{
+		"id": "27",
+		"path-url": "iae-summit-2023",
+		"title": "IAE Summit 2023",
+		"titleEN": "IAE Summit 2023",
+		"img": "/images-ceibo/publicaciones/iae-summit-2023/banner.jpeg",
+		"desc": "En Ceibo Digital estamos comprometidos con la excelencia y la innovación, por eso no podíamos dejar pasar la oportunidad de asistir a uno de los eventos más relevantes del año en el ámbito empresarial: `IAE Summit 2023: Argentina, elijo creer`",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "IAE Summit 2023"
+			},
+			{
+				"type": "p",
+				"text": "Asistimos a uno de los eventos más relevantes del año en el ámbito empresarial: **IAE Summit 2023: Argentina, elijo creer**"
+			},
+			{
+				"type": "p",
+				"text": "El 30 de junio, en el IAE Summit 2023 organizado por IAE ALUMNI, nos sumergimos en un mundo de conocimiento y experiencia, rodeados de expertos en distintas áreas de negocios. Desde charlas inspiradoras hasta talleres prácticos, el evento nos brindó la oportunidad de aprender, conectarnos y crecer juntos."
+			},
+			{
+				"type": "p",
+				"text": "Fue un evento excepcional que nos brindó nuevas perspectivas y conocimientos valiosos."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/iae-summit-2023/banner.jpeg"
+			}
+		],
+		"metadata": {
+			"date": "30 de junio, 2023",
+			"dateEN": "June 30, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/iae-summit-2023/banner.jpeg",
+			"tags": ["Ceibo Digital", "Transformación Digital", "IAE"]
+		}
+	},
+	{
+		"id": "24",
+		"path-url": "congreso-america-digital-2023",
+		"title": "Congreso de Tecnología y Negocios América Digital - Mexico",
+		"titleEN": "America Digital Technology and Business Congress - Mexico",
+		"img": "/images-ceibo/publicaciones/congreso-america-digital/banner.png",
+		"desc": "Ceibo Digital en el Congreso de Tecnología y Negocios de América Digital 2023.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Congreso de Tecnología y Negocios América Digital"
+			},
+			{
+				"type": "p",
+				"text": "Este evento reunió a los más influyentes referentes en los campos de negocios, tecnología e innovación de la región, brindando un espacio de diálogo y exploración de las últimas tendencias que están dando forma al futuro empresarial."
+			},
+			{
+				"type": "p",
+				"text": "América Digital, conocido por ser un punto de encuentro donde se debaten y comparten conocimientos sobre los avances tecnológicos y estrategias de negocio más vanguardistas, resultó ser la plataforma ideal para que David Wilson, nuestro Managing Partner, se sumergiera en un intercambio enriquecedor de ideas y oportunidades para seguir creciendo."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/congreso-america-digital/img-1.png"
+			}
+		],
+		"metadata": {
+			"date": "21 y 22 de junio, 2023",
+			"dateEN": "June 21 & 22, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/congreso-america-digital/banner.png",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Tecnología"]
+		}
+	},
+	{
+		"id": "19",
+		"path-url": "evento-transformacion-digital-microsoft-paraguay",
+		"title": "Evento Transformación Digital Microsoft en Paraguay",
+		"titleEN": "Digital Transformation Microsoft Event in Paraguay",
+		"img": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/banner.png",
+		"desc": "Nuestro Partner, Hernán Gutsztat, estuvo en Asunción conversando junto con Excelsis, Nexsys y Microsoft sobre el desafío al que se enfrentan las empresas de Paraguay a la hora de encarar su Transformación Digital.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Evento Transformación Digital Microsoft en Paraguay"
+			},
+			{
+				"type": "p",
+				"text": "Nuestro Partner, Hernán Gutsztat, estuvo en Asunción conversando junto con Excelsis, Nexsys y Microsoft sobre el desafío al que se enfrentan las empresas de Paraguay a la hora de encarar su Transformación Digital."
+			},
+			{
+				"type": "p",
+				"text": "Junto a un selecto grupo de 20 ejecutivos del país, participamos de una valiosa charla sobre el futuro y los temas que deberían estar en agenda de las empresas nacionales."
+			},
+
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/img-1.png"
+			}
+		],
+		"metadata": {
+			"date": "8 de junio, 2023 ",
+			"dateEN": "June 8, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/banner.png",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
+		}
+	},
+	{
+		"id": "25",
+		"path-url": "entrevista-IAE-hernan-gutsztat",
+		"title": "Entrevista del IAE a Hernán Gutsztat",
+		"titleEN": "IAE interviews Hernán Gutsztat",
+		"img": "/images-ceibo/publicaciones/entrevista-iae/banner.png",
+		"desc": "Nuestro partner Hernan Gutsztat charlo sobre lo que significa para Ceibo ser sponsor del IAE.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Entrevista del IAE"
+			},
+			{
+				"type": "p",
+				"text": "Nuestro partner Hernan Gutsztat charlo sobre lo que significa para Ceibo ser sponsor de la IAE."
+			},
+			{
+				"type": "quote",
+				"text": "”Tenemos unos ciclos que se hacen mensualmente donde tenemos la posibilidad de atraer clientes, también los propios ceibers vienen acá. Nos sirve para generar visibilidad de nuestra empresa siempre está bueno asociarse a una marca tán fuerte como la del IAE Business School. Cuando pegamos el logo de Ceibo al logo del IAE sabemos que atrás hay una credencial muy importante”"
+			},
+			{
+				"type": "p",
+				"text": "Entrevista original: [Linkedin IAE](https://www.linkedin.com/feed/update/urn:li:activity:7059498223555461120/)"
+			}
+		],
+		"metadata": {
+			"date": "8 de mayo, 2023",
+			"dateEN": "May 8, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/entrevista-iae/banner.png",
+			"tags": ["Ceibo Digital", "Talento", "IAE"]
+		}
+	},
+	{
+		"id": "29",
+		"path-url": "sponsoreo-iae-alumni",
+		"title": "Sponsoreo IAE Alumni",
+		"titleEN": "IAE Alumni sponsorships",
+		"img": "/images-ceibo/publicaciones/sponsoreo-iae/banner.png",
+		"desc": "Estamos emocionados por nuestra colaboración como sponsors de Alumni IAE.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Sponsoreo IAE Alumni"
+			},
+			{
+				"type": "p",
+				"text": "Estamos emocionados por nuestra colaboración como sponsors de Alumni IAE. El IAE es una institución de renombre en toda Sudamérica. Para nosotros, esta asociación trasciende la mera colaboración empresarial sino tambien refleja nuestro compromiso con la educación de calidad y el desarrollo profesional. Esperamos contribuir al crecimiento y éxito de sus estudiantes y Alumni, mientras construimos un futuro prometedor juntos."
+			}
+		],
+		"metadata": {
+			"date": "Junio 2023",
+			"dateEN": "June 2023",
+			"bannerImg": "/images-ceibo/publicaciones/sponsoreo-iae/banner.png",
+			"tags": ["Ceibo Digital", "Sponsor", "IAE"]
+		}
+	},
+
+	{
+		"id": "26",
+		"path-url": "inteligencia-artificial-la-nueva-era-de-los-negocios",
+		"title": "Ciclo mensual: Inteligencia Artificial - La nueva era de los negocios",
+		"titleEN": "Monthly cycle: Artificial Intelligence - The new era of business",
+		"img": "/images-ceibo/publicaciones/iae-inteligencia-artificial/miniatura.jpg",
+		"desc": "El equipo Ceibo participó en el evento 'Inteligencia artificial, la nueva era de los negocios' organizado por IAE ALUMNI.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Inteligencia Artificial: la nueva era de los negocios"
+			},
+			{
+				"type": "p",
+				"text": "El equipo Ceibo participó en el evento **'Inteligencia artificial, la nueva era de los negocios'** organizado por IAE ALUMNI."
+			},
+			{
+				"type": "p",
+				"text": "En esta ocasión, referentes del sector empresarial e informático brindaron un panorama sobre el origen, actualidad y capacidades de la inteligencia artificial en el ámbito de los negocios. Escuchamos el primer panel con especialistas en el área, entre ellos: Joan Cwaik, especialista en tecnología y economías emergentes; Fernando Ribas, ingeniero especialista en integración de datos y manager; y Soledad Alvarez del Sel, manager del equipo de arquitectos de soluciones de Amazon Web Services."
+			},
+			{
+				"type": "p",
+				"text": "En el segundo panel, escuchamos disertar a tres referentes del ámbito de los negocios: Camila Manera, cofundadora de la startup “LIBRODEPASES”; Sergio Fernández, CEO de Industrias John Deere Argentina; y Maria Elisa Frias, General Manager de Uber para Argentina, Paraguay y Uruguay."
+			},
+			{
+				"type": "p",
+				"text": "¡Agradecemos a IAE ALUMNI por esta invitación!"
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/iae-inteligencia-artificial/banner.jpg"
+			}
+		],
+		"metadata": {
+			"date": "7 de mayo, 2023",
+			"dateEN": "May 7, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/iae-inteligencia-artificial/banner.jpg",
+			"tags": ["Ceibo Digital", "Inteligencia Artificial", "IAE"]
+		}
+	},
+	{
+		"id": "22",
+		"path-url": "fintech-americas",
+		"title": "Fintech Americas",
+		"titleEN": "Fintech Americas",
+		"img": "/images-ceibo/publicaciones/fintech-americas/banner.jpeg",
+		"desc": "Bajo el lema '¿El Fin de la Transformación? El Comienzo de la Adaptación Infinita', Fintech Americas reunió a más de 150 exponentes de renombre a nivel mundial.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Fintech Americas"
+			},
+			{
+				"type": "p",
+				"text": "Bajo el lema '¿El Fin de la Transformación? El Comienzo de la Adaptación Infinita', Fintech Americas reunió a más de 150 exponentes de renombre a nivel mundial, y nuestro Partner, Hernán Gutsztat, estuvo presente para explorar y discutir las últimas tendencias que están moldeando el presente y el futuro de los servicios financieros en América Latina."
+			},
+			{
+				"type": "p",
+				"text": "El evento, que tuvo lugar durante los días 4 y 5 de mayo, sirvió como un foro excepcional para que expertos y líderes de la industria financiera se reunieran y compartieran sus conocimientos sobre la transformación digital en el sector. En un mundo donde la innovación tecnológica avanza a pasos agigantados, Fintech Americas brindó la oportunidad de analizar cómo las empresas pueden adaptarse de manera constante a las cambiantes dinámicas del entorno financiero."
+			}
+		],
+		"metadata": {
+			"date": "4 y 5 de mayo, 2023",
+			"dateEN": "May 4 & 5, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/fintech-americas/banner.jpeg",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Fintech"]
+		}
+	},
+	{
+		"id": "21",
+		"path-url": "desayuno-excelsis",
+		"title": "Desayuno ejecutivo junto a Excelsis",
+		"titleEN": "Executive breakfast with Excelsis",
+		"img": "/images-ceibo/publicaciones/desayuno-excelsis-2023/banner.jpg",
+		"desc": "Ceibo Digital estuvo presente en el evento organizado en conjunto con Excelsis. Contamos con la presencia de los líderes empresariales más destacados de Paraguay.",
+		"content": [
+			{
+				"type": "subtitle",
+				"text": "Desayuno ejecutivo junto a Excelsis"
+			},
+			{
+				"type": "p",
+				"text": "Ceibo Digital estuvo presente en el evento organizado en conjunto con Excelsis, donde los líderes empresariales más destacados de Paraguay se dieron cita para abordar temas cruciales en torno a la transformación digital."
+			},
+			{
+				"type": "p",
+				"text": "El desayuno ejecutivo, congregó a un selecto grupo de ejecutivos y tomadores de decisiones de diversas industrias para compartir conocimientos y experiencias en este campo en constante evolución."
+			},
+			{
+				"type": "p",
+				"text": "Durante el evento, nuestro Partner, Hernán Gutsztat, participó en discusiones enriquecedoras y dinámicas sobre cómo las empresas paraguayas pueden adaptarse y prosperar en el contexto actual."
+			},
+			{
+				"type": "p",
+				"text": "Las conversaciones se centraron en los desafíos a los que se enfrentan las empresas a la hora de encarar su Transformación Digital."
+			},
+
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/desayuno-excelsis-2023/img-1.jpg"
+			}
+		],
+		"metadata": {
+			"date": "29 de marzo, 2023",
+			"dateEN": "March 29, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/desayuno-excelsis-2023/banner.jpg",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
+		}
+	},
+	{
+		"id": "17",
+		"path-url": "transformacion-digital-como-propuesta-de-negocio",
+		"title": "Transformación digital como propuesta de negocio",
+		"titleEN": "Digital transformation as a business concept",
+		"img": "/images-ceibo/publicaciones/Nota_Ceibo_El_nacional_py.png",
+		"desc": "Nuestro Partner, Hernán Gutsztat, conversó sobre transformación digital y la actualidad del país con El Nacional de Paraguay.",
+		"content": [
+			{
+				"type": "first-p",
+				"text": "**Ceibo Digital, la consultora de negocios enfocada en transformación digital, cuenta con clientes en diez países de América y eligió nuestro país para ampliar su red de oficinas.**"
+			},
+			{
+				"type": "p",
+				"text": "Ceibo Digital nació 2018 y comenzó con oficinas en Buenos Aires y en Miami, pero atiende clientes, especialmente compañías globales y multinacionales, en diez países de América con operaciones en más de 40 países alrededor del mundo."
+			},
+			{
+				"type": "p",
+				"text": "Conversamos con Hernán Gutsztat, Partner de Ceibo, para conocer un poco más sobre la compañía. Desde sus comienzos, Ceibo se concibió como una consultora con perfil global. Siempre tuvo una fuerte inclinación hacia nuestro país, donde trabaja con algunas de las compañías y grupos más importantes. En 2021, inspirada en el fuerte potencial de Paraguay en Latinoamérica, la consultora decidió constituir una sociedad y abrió oficinas en el World Trade Center de Asunción."
+			},
+			{
+				"type": "p",
+				"text": "Ceibo hoy se autodefine como una consultora de negocios enfocada en transformación digital. Su propuesta es acompañar a las empresas en el camino de identificar sus dolores y oportunidades, generar recomendaciones, diseñar alternativas e implementarlas, para llegar a resultados concretos."
+			},
+			{
+				"type": "p",
+				"text": "Desde Ceibo definen la transformación digital como un repensar el modelo de negocios de una empresa a la luz de tres elementos: el nuevo escenario competitivo que incluye no solo una mirada hacia los competidores tradicionales, sino también, con particular atención a los nuevos jugadores que emergen en ese escenario."
+			},
+			{
+				"type": "p",
+				"text": "Estos jugadores cuentan con nuevos modelos de negocios, diferentes capacidades, estructuras de costos más eficientes e incluso, en algunos casos, asimetría en la regulación, como por ejemplo en el caso de las Fintech vs. los bancos."
+			},
+			{
+				"type": "subtitle",
+				"text": "Consumidores"
+			},
+			{
+				"type": "p",
+				"text": "Las nuevas demandas de los consumidores, los cuales no solamente buscan productos y servicios de mayor calidad y menor precio, sino que además demandan experiencias. Lo que hace unos años era satisfactorio para un cliente puede no serlo hoy."
+			},
+			{
+				"type": "p",
+				"text": "Las nuevas tecnologías que permiten mayor eficiencia, ahorro de costos, nuevos modelos de negocios, nuevos canales de atención, la posibilidad de mejorar la experiencia del cliente, y la oportunidad de quitar actores medios dentro de una cadena de valor."
+			},
+			{
+				"type": "p",
+				"text": "En definitiva, la transformación digital es el conjunto de iniciativas que surgen de analizar estos tres elementos, y planificar el camino entre la situación actual de la compañía y la situación deseada."
+			},
+			{
+				"type": "p",
+				"text": "Para Ceibo, trabajar en Paraguay no es algo nuevo. Desde un principio, sus socios mantienen relación con algunos de los empresarios y managers más importantes de diversas industrias."
+			},
+			{
+				"type": "p",
+				"text": "Ceibo colabora, hace tiempo, con grandes empresas de nuestro país. Sus proyectos están enfocados en estrategia, excelencia operacional y procesos, y Customer engagement, entre otros. Entre sus clientes más importantes se destacan CIE, Farmacenter, Negofin y CrediAgil, Banco Atlas, Grupo de Medios ABC, Nueva Americana, Shopping Mariscal, Shopping del Sol, Ferrex, Avanza, entre otros."
+			},
+			{
+				"type": "p",
+				"text": "Ceibo nace como una compañía nativa digital y sus colaboradores están acostumbrados a trabajar de manera remota con gente de todo el mundo. A pesar de esto, destacan la importancia de mantener una relación cercana con sus clientes. Hoy en día nuestro país tiene un papel fundamental en el crecimiento de la empresa y es uno de sus grandes focos."
+			},
+			{
+				"type": "p",
+				"text": "Ceibo nace como una compañía nativa digital y sus colaboradores están acostumbrados a trabajar de manera remota con gente de todo el mundo. A pesar de esto, destacan la importancia de mantener una relación cercana con sus clientes. Hoy en día nuestro país tiene un papel fundamental en el crecimiento de la empresa y es uno de sus grandes focos."
+			},
+			{
+				"type": "subtitle",
+				"text": "¿Por qué estas grandes empresas confían en Ceibo para sus proyectos?"
+			},
+			{
+				"type": "quote",
+				"text": "Ceibo viene a unir el mundo de la estrategia y los negocios con el de las soluciones implementadas. Somos una consultora de negocios, pero con capacidad de arremangarnos y acompañar a nuestros clientes en hacer que las soluciones funcionen. Nos gusta tener conversaciones de negocios, entender los desafíos de negocios, armar el Power Point con las recomendaciones, pero no nos quedamos con eso, sino que vamos a la solución, vamos a dejar algo andando."
+			},
+			{
+				"type": "p",
+				"text": "Esta demanda de las empresas no es algo que vimos nosotros solos. Las grandes consultoras de negocios se están moviendo al mundo de la implementación."
+			},
+			{
+				"type": "p",
+				"text": "Las empresas de tecnología también están reforzando sus capacidades de negocio, empiezan a incorporar perfiles de expertos de industria: antropólogos, psicólogos, sociólogos, para empezar a meterse más a fondo en los procesos y entender mejor los desafíos de hoy. Claramente no les está siendo fácil y eso genera oportunidades a compañías como la nuestra que somos nativas de este nuevo mundo."
+			},
+			{
+				"type": "p",
+				"text": "Las empresas ya no quieren pagar dos millones de dólares por un Power Point, quieren hablar de negocios y quieren la solución. Ceibo entra en ese contexto con una mirada más pragmática de la transformación digital."
+			},
+			{
+				"type": "p",
+				"text": "No creemos que exista el mega proyecto de transformación digital, creemos en caminar la transformación a partir de building blocks que son como piezas de Lego: iniciativas cortas que de forma agregada van transformando la empresa. En lugar de pensar en un proyecto de acá a tres años, pensemos cuáles son los escaloncitos que vamos a ir recorriendo, generando resultados concretos, y dentro de tres años vamos a darnos vuelta y a mirar todo lo que nos transformamos. Ese es el enfoque que nosotros tenemos”, refiere Hernán Gutsztat, Partner de Ceibo."
+			},
+			{
+				"type": "p",
+				"text": "Lee la nota completa en [El Nacional](https://www.elnacional.com.py/economia/2022/07/16/transformacion-digital-como-propuesta-de-negocio/)"
+			}
+		],
+		"metadata": {
+			"date": "16 de julio, 2022",
+			"dateEN": "july 16, 2022",
+			"bannerImg": "/images-ceibo/publicaciones/Nota_Ceibo_El_nacional_py.png",
+			"tags": ["Ceibo Digital", "Consultoría", "Transformación Digital"]
+		}
+	},
+	{
+		"id": "2",
+		"path-url": "la-transformacion-digital-no-es-solo-tecnologia",
+		"title": "La transformación digital no es solo un concepto bonito",
+		"titleEN": "Digital transformation is not only about technology",
+		"img": "/images-ceibo/publicaciones/IAE-600x403.png",
+		"desc": "Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas.",
+		"content": [
+			{
+				"type": "first-p",
+				"text": "**Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas**."
+			},
+			{
+				"type": "p",
+				"text": "Por **IAE ALUMNI**"
+			},
+			{
+				"type": "question",
+				"text": "• ¿Qué hacen desde CEIBO y qué los diferencia?"
+			},
+			{
+				"type": "quote",
+				"text": "CEIBO es una consultora de negocios especializada en transformación digital. Posee oficinas en Miami, Asunción y Buenos Aires, y proyectos en más de 40 países. Nuestro principal diferenciador es el talento de las personas que nos hacen ser parte del ranking Great Place to Work. Son personas apasionadas en investigar las mejores prácticas de management, tecnologías disruptivas y nuevos modelos de negocios, que nos permiten ayudar a los líderes de empresas a diseñar su estrategia de transformación, procesos y estructura, contemplando el impacto en la cultura, la experiencia de sus clientes y apalancándose en las nuevas tecnologías."
+			},
+			{
+				"type": "quote",
+				"text": "Otra característica que nuestros clientes resaltan es que no los dejamos a mitad de camino: los acompañamos en la implementación, y hasta los resultados y adopción de las iniciativas ideadas en conjunto, siempre midiendo los indicadores claves que nos permitan mejorar continuamente."
+			},
+			{
+				"type": "question",
+				"text": "• Qué conlleva el proceso de transformación digital?"
+			},
+			{
+				"type": "quote",
+				"text": "La transformación digital, frase que hoy está de moda, no alude solo a un concepto bonito para decir que vale la pena invertir en tecnologías, sino que se refiere a  un proceso mucho más grande. Desde CEIBO, la definimos como repensar el modelo de negocio, considerando cada uno de los elementos, desde la propuesta de valor, hasta los generadores de ingresos, costos, proveedores, clientes, el relacionamiento con ellos y demás. En nuestra visión no hay una receta única, sino que es como un mapa que vamos descubriendo y trazando a la vez con cada organización, con cada modelo de negocio que analizamos en profundidad. Esta transformación, en muchos casos, obliga a repensar o a crear un nuevo modelo de negocio y, en otros, a desarrollar nuevas unidades de negocio o productos y servicios complementarios para satisfacer las nuevas necesidades del mercado."
+			},
+			{
+				"type": "quote",
+				"text": "Hoy, la transformación digital no se piensa igual que hace años atrás. Se desarrolla a través de «building blocks», o pequeños bloques que, como característica fundamental, no son iniciativas aisladas, sino que son parte de una idea que impacta directamente en la estrategia o modelo de negocios de la empresa. Con estas iniciativas creamos el plan a futuro, priorizado, con un portafolio balanceado, que en su agregado va construyendo esa transformación digital deseada en la compañía."
+			},
+			{
+				"type": "question",
+				"text": "• ¿Por qué necesitamos pensar en transformación digital?"
+			},
+			{
+				"type": "p",
+				"text": "Hay al menos 3 elementos que obligan a priorizar la transformación, y estos son:"
+			},
+			{
+				"type": "quote",
+				"text": "• El nuevo escenario competitivo: nuevos jugadores están incursionando en algunos de nuestros negocios, pero más aún en el negocio de los clientes. Es importante no tomar en cuenta solo el nivel de la industria en forma específica, sino ver qué sucede a nivel global, las herramientas que se están utilizando y las nuevas estrategias de negocios."
+			},
+			{
+				"type": "quote",
+				"text": "• Las nuevas demandas de los consumidores: aparte de productos y servicios eficientes y competitivos, también demandan experiencias. Y ya no se trata de la experiencia de usuario en el sitio web o en la app, sino de la totalidad de su relación con la empresa y la marca, entendiendo que esa experiencia es dinámica, como así también la propia expectativa."
+			},
+			{
+				"type": "quote",
+				"text": "• Las nuevas tecnologías: IOT, deep learning, blockchain, marketplace, cloud computing y demás, permiten mayor eficiencia, ahorro de costos, nuevos modelos de negocios, nuevos canales de atención, la posibilidad de mejorar la experiencia del cliente y de “desintermediar” actores dentro de una cadena de valor."
+			},
+
+			{
+				"type": "question",
+				"text": "• ¿Cuáles son los principales retos y barreras para una transformación digital exitosa?"
+			},
+			{
+				"type": "quote",
+				"text": "Lo más importante es cambiar la forma de pensar, entender que todavía estamos en la mitad de la película y no perder el tiempo. Lo perfecto es enemigo de lo bueno. Algunas veces se dan muchas vueltas antes de probar un nuevo proceso o innovación, y la realidad es que hay que experimentar aunque surjan errores. Es necesario ser ágiles y creativos, aprender de los experimentos o pilotos, que deben ser rápidos, baratos y fáciles de realizar. No hay una única respuesta para transformar un negocio exitosamente pero, si no se empieza, no habrá oportunidad de transformarlo."
+			},
+			{
+				"type": "quote",
+				"text": "Otro de los grandes retos que vemos es que muchas veces uno cree que lo importante es la herramienta, la tecnología, y no es tan así. Los desafíos del negocio no son tan distintos a los de antes; lo que cambió, o está cambiando, es el cómo. La simple implementación de tecnología por sí sola no produce la transformación digital y no soluciona los nuevos dolores del negocio. Cambiar una organización o su modelo de negocio para aprovechar el potencial de estas nuevas tecnologías, sí lo hace."
+			},
+			{
+				"type": "quote",
+				"text": "Y un reto adicional, que tienen las empresas multinacionales o grandes, es que puede ser más complejo implementar la transformación por su estructura, burocracia interna y lentitud para actuar. Muchas veces se recomienda que cierta innovación o nuevo modelo de negocios se desarrolle por fuera de la compañía, con alianzas, innovación abierta y, una vez probado, realizar la migración a la empresa madre."
+			},
+			{
+				"type": "quote",
+				"text": "El mundo está afrontando grandes desafíos que nos obligan a poner atención y demandar negocios más sustentables. Esta transformación de la que hablamos, digital, cultural, transformación en sí, nos obliga a repensar los modelos de negocio, y eso nos da la oportunidad de que esta vez los pensemos más sustentables, teniendo en cuenta el impacto ambiental y social en la misma medida en que consideramos el impacto económico.",
+				"author": "David Wilson - Partner"
+			},
+			{
+				"type": "p-margin",
+				"text": "Nota original: [Revista IAE Alumni](https://www.iae.edu.ar/revista-alumni/la-transformacion-digital-no-es-solo-un-concepto-bonito/)"
+			}
+		],
+		"metadata": {
+			"author": "",
+			"date": "29 de marzo, 2022",
+			"dateEN": "march 29, 2022",
+			"bannerImg": "/images-ceibo/publicaciones/IAE.png",
+			"tags": ["Ceibo Digital", "Transformación Digital"],
+			"fuenteOriginal": "IAE ALUMNI – PANORAMAS"
+		}
+	},
+	{
+		"id": "3",
+		"title": "Ciclo Encuentros en Circular Cowork: Encuentro con Ceibo Digital",
+		"path-url": "ciclo-encuentros-en-circular-cowork-con-ceibo",
+		"titleEN": "Circular Cowork Talks: Getting to know Ceibo Digital",
+		"img": "/images-ceibo/publicaciones/Publicaciones-nota-circular.JPG",
+		"desc": "Ceibo Digital es una consultora de transformación digital con sedes en Miami, Asunción del Paraguay y Buenos Aires, presente en 10 países de América y con proyectos en 40 países alrededor del mundo, que fue recientemente reconocida con el segundo lugar ..",
+		"content": [
+			{
+				"type": "p",
+				"text": "Por **[María Soledad Córdoba](https://www.linkedin.com/in/mariasoledadcordoba/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3Bm9SzGxzYS5iJK%2FEa%2BUtHzQ%3D%3D)**"
+			},
+			{
+				"type": "p",
+				"text": "Ceibo Digital es una consultora de transformación digital con sedes en Miami, Asunción del Paraguay y Buenos Aires, presente en 10 países de América y con proyectos en 40 países alrededor del mundo, que fue recientemente reconocida con el segundo lugar en el ranking Great Place to Work 2022 en la categoría de empresas con menos de 250 empleados. "
+			},
+			{
+				"type": "p",
+				"text": "Nos encontramos con [Hernán Gutsztat](https://www.linkedin.com/in/hernan-gutsztat/)  en uno de los livings de Circular Cowork, cerca de las oficinas de Ceibo Digital. Hernán es licenciado en Administración de Empresas por la Universidad del Salvador, ha realizado varios posgrados y maestrías, y actualmente se encuentra cursando un doctorado en Business Administration en la IE Business School de Madrid. Tiene tres hijos con los que comparte el amor por la música y sus instrumentos: guitarra, piano y batería entre sus preferidos. Hablar con él es realmente muy fácil, tanto por la fluidez de sus argumentos, como por su capacidad de escucha. Enseguida empatizamos por el tipo de trabajo “conocimiento-intensivo”, me dice algo muy interesante: “los consultores somos un híbrido entre los practitioners (los que hacen concretamente) y los scholars (los teóricos, más abstractos)”; ambos acordamos en la importancia de bajar la rigurosidad de la formación académica a las prácticas de consultoría. Te invitamos a bucear en el mundo de la “transformación digital” desde la experiencia de quien está liderando la empresa que alcanzó 40 países del mundo con su modelo de negocios y su interesante estructura organizacional."
+			},
+			{
+				"type": "question",
+				"text": "¿Cómo surge Ceibo?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Ceibo nace en el encuentro entre dos mundos: yo vengo más del mundo de los negocios, del mundo de la estrategia, y el otro fundador, David Wilson, viene más del mundo de la tecnología. Fuimos conversando e imaginándonos si existía esta comunión entre el mundo de la estrategia y el mundo de la tecnología. Así, hace poco menos de cuatro años, nace Ceibo con esa visión de poder ser un socio del mundo de los negocios, con capacidades muy fuertes de implementación y de tecnología, con la convicción de acompañar de punta a punta el proceso de transformación de una empresa. Identificar los dolores, que son los problemas pero también son las oportunidades, o los desafíos que presenta el mercado. Diseñar y llevar adelante las iniciativas desde el momento cero. Acompañar a las empresas a que recorran nuevas formas de hacer las cosas, nuevos modelos de negocio."
+			},
+			{
+				"type": "question",
+				"text": "¿Cómo describirías el modelo de negocios de Ceibo?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Creo que nuestro modelo de negocio tiene que ver con el momento en el que se fundó, porque probablemente, hace 15 o 20 años atrás, Ceibo no hubiese podido ni siquiera despegar. Las grandes empresas no contrataban este tipo de consultoras, consultoras tal vez más chicas, pero con una mentalidad nueva, digitales, 2.0. Hoy, las empresas están mucho más abiertas y, de hecho, nuestra historia nos dice que generalmente entramos con un pequeño proyecto para luego atender cada vez más cuestiones que nos demanda el mismo cliente."
+			},
+			{
+				"type": "quote",
+				"text": "Al punto que este año tenemos pensado crecer un montón, pero no tanto con nuevos clientes, sino más bien atendiendo las necesidades de los clientes actuales. Actualmente tenemos clientes en 10 países, generalmente de América, pero como nuestros clientes son globales y muchos de nuestros proyectos son globales, actualmente estamos trabajando en casi 40 países. "
+			},
+			{
+				"type": "question",
+				"text": "¿En qué consiste la transformación digital?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Para mí la transformación digital tiene una definición de negocios. Hay varias definiciones dando vueltas, la mayoría están muy orientadas a la tecnología y a los sistemas. Yo creo que la tecnología y los sistemas son herramientas, pero al final del día es una definición de negocios. Yo creo que ahí hay una disociación entre el pensar hacia dónde quiero ir, pensar la estrategia y en llevarla adelante. ¿Cómo se manifiesta esto típicamente en las organizaciones y empresas? Alguien cercano al negocio piensa qué es lo que necesita, después se lo intenta comunicar a los que tienen que encontrar la solución, pero los que salen a buscar la solución no entienden bien del negocio… y los que venden la solución mucho menos. De hecho, lo que venden son productos. Entonces yo tengo el desafío de generar un nuevo canal de comunicación en forma distinta con mis clientes y apuntar a los nuevos segmentos. Nuestra definición de Transformación Digital es repensar el modelo de negocios de una organización a la luz de tres elementos: nuevo escenario competitivo, las nuevas demandas de los consumidores y las nuevas tecnologías."
+			},
+			{
+				"type": "question",
+				"text": "¿Qué desafíos plantea un proceso de transformación digital para las organizaciones?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Creo que es fundamental plantearse la transformación y es fundamental el acompañamiento. Yo creo que acá el desafío principal es que la industria, o sea, las empresas no tienen un ecosistema que esté preparado para empatizar con los propios problemas y ayudarlos a recorrer esa transformación. ¿A qué me refiero? No creo que las empresas, ya sea con capacidades internas o externas, pueden resolver de forma teórica cuáles son los desafíos que tienen, básicamente entender dónde están y entender a dónde quieren ir. De hecho, hay algunas consultoras muy reconocidas en el mundo, consultoras de negocios, que son muy buenas haciendo este trabajo. Pero una vez que tienen claro ese road map que, en general, se ve en un papel o en un PowerPoint, el desafío más importante es cómo y por dónde empezar a recorrer ese camino. Un profesor mío de estrategia decía que podíamos llenar el aula de libros de estrategia, pero libros de implementación no existen. Yo creo que ese es el desafío."
+			},
+			{
+				"type": "question",
+				"text": "¿Cómo se posiciona Ceibo en este ecosistema de mercado y cuál es su diferencial?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Ceibo viene a unir el mundo de los negocios y el de las soluciones y su implementación. **Somos una consultora de negocios, pero con capacidad de arremangarnos y acompañar**. Nos gusta tener conversaciones de negocios, nos gusta entender los desafíos de negocios, armar ese Power Point, pero no nos quedamos con eso, sino que vamos a la solución, vamos a dejar algo “andando”. Esto no es algo que vimos nosotros solos. Las grandes consultoras de negocios o los grandes jugadores mundiales están yendo para el lado de la implementación. Las empresas de tecnología también se están moviendo para el lado de negocios, **empiezan a incorporar perfiles de expertos de industria, antropólogos, psicólogos, sociólogos, para empezar a meterse más a fondo en los procesos** y entender mejor los desafíos de hoy. Claramente no es fácil y eso nos genera oportunidades a compañías como la nuestra. Porque las empresas ya no quieren pagar dos millones de dólares por un Power Point, quieren hablar de negocios y quieren la solución. Ceibo entra en ese contexto con una mirada más pragmática de la transformación digital. No creemos que exista el mega proyecto de transformación digital, creemos en **hacer a partir de building blocks** que son como si fueran piezas de Lego; son iniciativas cortas que de forma agregada van transformando la empresa. En lugar de pensar en un proyecto de acá a tres años, pensemos cuáles son los escaloncitos que vamos a ir recorriendo, generando resultados concretos, y dentro de tres años vamos a darnos vuelta y a mirar todo lo que nos transformamos. Ese es el enfoque que nosotros tenemos."
+			},
+			{
+				"type": "question",
+				"text": "¿Qué espacio hay en la realidad de nuestro país para impulsar la transformación digital?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: El contexto local es complejo en varios aspectos. Creo que hay que dividir entre lo que es el mundo PYME y el mundo corporativo. El mundo corporativo está muy pendiente de lo que pasa en el mundo, no se quiere quedar atrás. Viajan, ven lo que está pasando, y vienen tratando de bajarlo a la realidad local. A veces no saben por dónde arrancar y creo que la mayor ayuda que nosotros podemos aportar es ordenar eso, priorizar, pensando cuáles son estos building blocks, por dónde vamos a arrancar. El mundo PYME en Argentina creo que tiene una realidad un poco distinta, tiene como prioridad la subsistencia. De las diferentes iniciativas de transformación digital quizás están priorizando las que tienen más resultados en el corto plazo. Y esto se vio muy exacerbado en la pandemia, donde se vieron con la necesidad de tener que empezar a ganar capacidades que le permitieran seguir manteniendo ingresos. Por ejemplo, pequeñas pymes que se rehusaban a todo lo que era digital y que tuvieron que subirse al ecommerce de la noche a la mañana; incluso los pequeños comercios, que en el mejor de los casos te aceptaban la tarjeta de débito, ahora tienen Mercadopago, QR, etc. Pero no creo que esté dentro de sus prioridades una agenda de largo plazo de una transformación profunda para ganar nuevas capacidades o diseñar un nuevo modelo de negocio."
+			},
+			{
+				"type": "question",
+				"text": "¿Con qué tipo de clientes trabajan en Ceibo?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: En el caso de Ceibo, estamos mucho más en el mundo corporativo, no tenemos clientes pymes. Somos una compañía chica pero global. El 20% de nuestros clientes están en Argentina, el 80% están en el exterior. Sacando alguna excepción de alguna startup con potencial de unicornio, que nos divierte verla nacer y estar en esa instancia, no trabajamos mucho con PYMEs. Estamos más en la cancha de las grandes empresas, ya sean locales, globales o internacionales."
+			},
+			{
+				"type": "question",
+				"text": "¿Cómo se organizan en Ceibo?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Estamos organizados en “capas de cebollas”. Tenemos una primera capa que la llamamos Team, es gente que trabaja full-time y tiene el desafío de llevar la compañía hacia adelante, hacerla crecer de dos maneras. En primer lugar, a partir de lo que llamamos competencias core, una suerte de valores puestos en acción. Valores que son evidenciables con comportamientos concretos y son medibles. **Lideramos con cambios, visión, resultados y con el ejemplo**. Eso hace que la gente que está acá esté metida y esté comprometida con lograr esas cosas. En segundo lugar, definimos diez actividades que entendemos que son críticas para Ceibo, que en lugar de delegarlas en áreas staff, las lideramos quienes estamos en el corazón del negocio."
+			},
+			{
+				"type": "quote",
+				"text": "Una segunda capa de cebolla la llamamos Comunidad, es gente que trabaja permanentemente con Ceibo, la gran mayoría full time, pero tiene una propuesta de valor distinta. Somos una empresa multidisciplinaria diversa y realmente creemos que si uno quiere reclutar perfiles diversos tiene que tener diferentes propuestas de valor. No podes ser una empresa que te jactas de ser muy diversa y decir 'bueno vení a trabajar, tenés que estar de nueve a seis en la oficina y tenés dos home office por mes'. En Comunidad las propuestas son mucho más flexibles en cuanto al manejo de los tiempos y con más actividades optativas. Creemos que con esas dos propuestas de valor tenemos más ancho de banda para poder reclutar perfiles distintos. Hay gente que por ahí tiene familia y tiene una agenda más complicada. Además, fomentamos que la gente tenga otras actividades. Hemos tenido gente que ha pasado de Comunidad a Team, y de Team a Comunidad. Es una elección de la persona, no es una elección nuestra."
+			},
+			{
+				"type": "quote",
+				"text": "Una segunda capa de cebolla la llamamos Comunidad, es gente que trabaja permanentemente con Ceibo, la gran mayoría full time, pero tiene una propuesta de valor distinta. Somos una empresa multidisciplinaria diversa y realmente creemos que si uno quiere reclutar perfiles diversos tiene que tener diferentes propuestas de valor. No podes ser una empresa que te jactas de ser muy diversa y decir 'bueno vení a trabajar, tenés que estar de nueve a seis en la oficina y tenés dos home office por mes'. En Comunidad las propuestas son mucho más flexibles en cuanto al manejo de los tiempos y con más actividades optativas. Creemos que con esas dos propuestas de valor tenemos más ancho de banda para poder reclutar perfiles distintos. Hay gente que por ahí tiene familia y tiene una agenda más complicada. Además, fomentamos que la gente tenga otras actividades. Hemos tenido gente que ha pasado de Comunidad a Team, y de Team a Comunidad. Es una elección de la persona, no es una elección nuestra."
+			},
+			{
+				"type": "quote",
+				"text": "Después tenemos una tercera capa que llamamos Ecosistema. Como cualquier compañía, no sabemos, ni pretendemos saber de todo y no contamos con toda la capacidad que existe. Así que tenemos una red, donde hay empresas y personas para determinados proyectos puntuales. Por ejemplo, nosotros internamente no hacemos desarrollo de Blockchain, pero tenemos dos socios que están todo el tiempo viendo cosas de Blockchain. No tenemos problemas para trabajar con otras compañías o con proyectos con doble logo. Realmente creemos que lo que necesitan nuestros clientes es la mejor solución."
+			},
+			{
+				"type": "question",
+				"text": "Contame del premio que ganaron, ¿qué los motivó a presentarse?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Creo que en el poco tiempo que tenemos hemos tenido bastantes reconocimientos. Ya desde 2020 y 2021 estamos dentro de las empresas más influyentes en Argentina, según la revista Apertura. En 2021, hicimos una certificación de Great Place to Work. Sabíamos que no podíamos entrar en los ranking, porque no nos daba la cantidad de gente, pero lo hicimos como una prueba para tener un diagnóstico de afuera, objetivo, para ver cómo estábamos. La verdad que nos fue muy bien. Nos fue tan bien que dijimos bueno el año que viene seguramente vamos a poder competir en los rankings, pero sabiendo que íbamos a crecer y que sería imposible mantener estos niveles: habíamos sacado 95/100. Este año lo volvimos a hacer y para nuestra sorpresa sacamos 96/100, lo que **nos dejó como la segunda mejor empresa para trabajar en la Argentina hasta 250 colaboradores**. Creo que de todos los reconocimientos, éste es probablemente mi preferido, porque era uno de mis objetivos personales como co-fundador. Yo vengo de trabajar en muchas empresas muy buenas, y en mi cabeza tenía ese Frankestein de cómo hago para juntar lo mejor de todas estas compañías. Esto claramente nos muestra que se puede hacer algo muy bueno. **Ceibo es una empresa donde la gente se divierte, está desafiada y aprende**. Nuestros niveles de rotación son ridículamente bajos, y eso nos muestra que a la gente le gusta trabajar acá."
+			},
+			{
+				"type": "question",
+				"text": "¿Qué tipo de profesionales o de especialistas buscan incorporar a los equipos de trabajo?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Desde los inicios tuvimos muy claro que esta es una compañía que vende talento, tiempo y conocimiento de las personas. En ese momento, dijimos: “si nos queremos posicionar, necesitamos a los mejores”. Hoy por hoy, tenemos convenio con muchas universidades, otra decisión acertada. Por ejemplo, acá en Argentina, con la Universidad Torcuato Di Tella, la Universidad de San Andrés, con el Instituto Tecnológico de Buenos Aires (ITBA), la Universidad Austral y la Universidad Católica Argentina. En Ceibo tenemos dos carreras: una que es la de consultor y otra la de especialista. Para consultor reclutamos múltiples carreras: ingenieros, economistas, gente de ciencias sociales, abogados. Buscamos gente que esté muy orientada a la excelencia, reclutamos a los mejores promedios. Esto representa otro cambio de paradigma, porque hace 10 o 15 años estos perfiles se hubieran ido a Techint, a un banco, o a una gran consultora, y hoy ven en Ceibo esta posibilidad de tener una carrera dinámica, de mucho aprendizaje y crecimiento. En cuanto a los especialistas, buscamos ingenieros de soluciones, científicos de datos, especialistas en UX, en marketing automation o las carreras orientadas a la tecnología."
+			},
+			{
+				"type": "question",
+				"text": "Muchas veces se lee o se escucha hablar de la relación entre transformación digital y cambio cultural ¿cuál es tu visión sobre esto?"
+			},
+			{
+				"type": "quote",
+				"text": "Hernán Gutsztat: Creo que hay una falsa tensión entre la transformación cultural y la digital. La forma en que nosotros lo vemos, y lo que estamos probando empíricamente, es que **el cambio cultural es parte de la transformación digital**. Uno necesita la visión hacia dónde quiere ir, y el cambio cultural es parte de ese recorrido, pero no es un elemento más. Hay muchos elementos como lo tecnológico, la espalda financiera y la disponibilidad de conectividad, pero el cambio cultural no es un elemento más, sino que es el que marca el ritmo de la transformación. Al final del día, **la velocidad de transformación de la organización la va a dar el cambio cultural**. Las organizaciones al final son la combinación de procesos, sistemas y personas. Si yo voy a cambiar las cosas tengo que pensar cómo me voy a organizar. Si yo voy a cambiar un sistema, tengo que pensar cómo la gente va a adoptar ese sistema y qué procesos necesita. Yo creo que las organizaciones que quizás quieren un cambio cultural “porque sí”, al final terminan un poco huérfanas. ¿Qué es lo que estamos cambiando? Me parece que el cambio cultural, la gestión del cambio, tiene que venir de la mano de una transformación genuina, de querer hacer las cosas de otro modo o con una propuesta diferente."
+			},
+			{
+				"type": "p-margin",
+				"text": "Nota original: [Circular](https://www.linkedin.com/pulse/ciclo-encuentros-en-circular-cowork-encuentro-con-ceibo-/?trackingId=kDOCZDI0tnBMUW0hbK54xg%3D%3D)"
+			}
+		],
+		"metadata": {
+			"author": "",
+			"date": "20 de mayo, 2022",
+			"dateEN": "may 3, 2022",
+			"bannerImg": "/images-ceibo/publicaciones/Publicaciones-nota-circular.JPG",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Consultoría"]
+		}
+	},
+	{
+		"id": "6",
+		"title": "Darwinismo Tecnológico",
+		"path-url": "darwinismo-tecnologico",
+		"titleEN": "Circular Cowork Talks: Getting to know Ceibo Digital",
+		"img": "/images-ceibo/publicaciones/darwinismo-tecnologico-600x403.jpg",
+		"desc": "Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas.",
+		"content": [
+			{
+				"type": "quote",
+				"text": "Las necesidades que la pandemia puso de manifiesto tienen a la transformación digital en el centro de los cambios que las empresas tienen que transitar. Y las startups dedicadas al asunto crecieron con ellas."
+			},
+			{
+				"type": "p",
+				"text": "Por **Manuel Gómez**"
+			},
+			{
+				"type": "p",
+				"text": "La llegada de la pandemia de Covid-19 aceleró en muchas industrias, hacia los dos lados del negocio, la adopción de tecnologías que permitieran la continuidad de las operaciones y que, en aquellos segmentos donde la ganancia pasa por la venta de productos y servicios, los clientes continuaran acercándose a pesar de no poder hacerlo de manera física."
+			},
+			{
+				"type": "p",
+				"text": "En ese contexto comenzó a ganar terreno una terminología de la que se venía debatiendo de un tiempo a esta parte: la transformación digital El concepto se refiere a la integración de tecnología digital en todas las áreas de una empresa, cambiando fundamentalmente la forma en que opera y brinda valor a sus clientes. También supone un cambio cultural que requiere que las organizaciones desafíen constantemente el status quo, y puede implicar la reelaboración de los productos, procesos y estrategias dentro de la organización mediante el aprovechamiento de nuevas tecnologías."
+			},
+			{
+				"type": "p",
+				"text": "Esta evolución tecnológica, en teoría, permite que las organizaciones compitan mejor en un entorno económico que cambia constantemente a medida que los negocios van cambiando. Con ese fin, la transformación digital es necesaria para cualquier empresa, organización sin fines de lucro o institución que busque sobrevivir en el futuro."
+			},
+			{
+				"type": "p",
+				"text": "Como tal, la transformación digital requiere un examen y reinvención de la mayoría, si no de todas las áreas dentro de una organización, de su cadena de suministro y flujo de trabajo, las habilidades de sus empleados, interacciones con clientes y su valor para las partes interesadas."
+			},
+			{
+				"type": "p",
+				"text": "Tecnologías clave como computación en la nube, virtualización, big data, machine learning e internet de las cosas, entre otras, están empujando hacia todos los cardinales a la transformación digital, un paradigma en el que muchas empresas proveedoras de soluciones asociadas están llegando para quedarse."
+			},
+			{
+				"type": "subtitle",
+				"text": "Flor de cambios"
+			},
+			{
+				"type": "p",
+				"text": "Las organizaciones que ven a la transformación digital principalmente como una diferencia de tecnología sobre la transformación tradicional con ingeniería de procesos de negocio terminarán perdiendo el poder de la transformación digital."
+			},
+			{
+				"type": "p",
+				"text": "Un viaje de transformación digital mueve a una organización de un mundo definido por el proceso a un mundo basado en datos. Esos cambios son complejos y en ese lugar es en el que nació Ceibo, una compañía fundada en Buenos Aires y Miami que se enfocó desde su origen en la problemática de empresas grandes y globales."
+			},
+			{
+				"type": "quote",
+				"text": "“Ceibo nace con sus oficinas de Buenos Aires y Miami. La oficina de Asunción en Paraguay se sumó un poco después, consolidando la presencia en América. El primer equipo, como toda startup fue chico, pero desde el comienzo el crecimiento fue agresivo, por lo cual todos los meses se sumaba gente nueva”, comenta Hernán Gutsztat, Partner de Ceibo."
+			},
+			{
+				"type": "quote",
+				"text": "“Al no ser una empresa de productos, la única inversión fue en capital de trabajo y en el compromiso de los fundadores durante los primeros años que nos permitieron potenciar el crecimiento apostando fuerte a la contratación de talento”, completa."
+			},
+			{
+				"type": "p",
+				"text": "Ceibo hoy se autodefine como una consultora de negocios enfocada en transformación digital. Su propuesta es ayudar a las empresas a identificar sus “dolores” y oportunidades y brindan asesoramiento en la implementación de las iniciativas de transformación. Desde Ceibo entienden que los usuarios no solamente buscan productos y servicios eficientes y competitivos, sino que además demandan experiencias. Afirman que ya no se trata de la experiencia de usuario en un website o en una aplicación sino de la totalidad de la relación de ese usuario con la empresa y la marca, entendiendo que esa experiencia es dinámica, como así también la propia expectativa del usuario."
+			},
+			{
+				"type": "quote",
+				"text": "“En todos los casos la tecnología es la herramienta que nos permite ayudar a nuestros clientes a cumplir con sus objetivos de negocios. Nuestros proyectos por lo general tienen un mix de especialistas de tecnología y consultores de negocios, que en conjunto trabajan codo a codo con el cliente para lograr la transformación”, aclara Gutsztat."
+			},
+			{
+				"type": "p",
+				"text": "Los proyectos que llevan adelante desde la compañía se pueden organizar por segmentos como estrategia, excelencia operacional, organización, innovación y tecnología, y customer engagement, “aunque tenemos bien definidas nuestras verticales de servicios, existe un único equipo de consultores y especialistas que participan en diferentes proyectos de acuerdo a las capacidades requeridas de cada uno”."
+			},
+			{
+				"type": "p",
+				"text": "Ceibo cuenta con un portfolio de clientes muy diverso, tanto en sector industrial como en geografía."
+			},
+			{
+				"type": "p",
+				"text": "Actualmente, tienen una cartera de entre 15 a 20 proyectos simultáneos en Servicios Financieros, Fintech, Agro, Retail, Minería, Tecnología, Salud, Metal-mecánica y Seguros, entre otros."
+			},
+			{
+				"type": "p",
+				"text": "**Nota original**: InfoTechnology Revista Nº 274 2022 – Pag. 25, 26"
+			}
+		],
+		"metadata": {
+			"author": "",
+			"date": "3 de marzo, 2022",
+			"dateEN": "march 3, 2022",
+			"bannerImg": "/images-ceibo/publicaciones/darwinismo-tecnologico-scaled.jpg",
+			"tags": [
+				"Ceibo Digital",
+				"Transformación Digital",
+				"Tecnología",
+				"Covid-19"
+			]
+		}
+	},
+	{
+		"id": "7",
+		"title": "Se adelantaron a la pandemia con la transformación digital y cerraron 2021 con $300 millones de facturación",
+		"path-url": "se-adelantaron-la-pandemia-y-cerraron-2021-con-300-millones-de-facturacion",
+		"titleEN": "Ceibo got ahead of the pandemic with digital transformation and quadrupled revenue in 2021",
+		"img": "/images-ceibo/publicaciones/Publicaciones-Nota-A24.JPG",
+		"desc": "Conocé la historia de Ceibo, una consultora de tecnología que en 2018 anticipó los servicios que requeriría la llegada del COVID-19. De qué se trata y cuál es su modelo de negocios para no dejar de crecer.",
+		"content": [
+			{
+				"type": "p",
+				"text": "Conocé la historia de Ceibo, una consultora de tecnología que en 2018 anticipó los servicios que requeriría la llegada del COVID-19. De qué se trata y cuál es su modelo de negocios para no dejar de crecer."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/hernandavid-ceibojpg.webp"
+			},
+			{
+				"type": "p-margin",
+				"text": "Hernán Gutztat y David Wilson, los fundadores de Ceibo y su propuesta de transformación digital."
+			},
+			{
+				"type": "p",
+				"text": "Por **Carlos Toppazzini**"
+			},
+			{
+				"type": "p",
+				"text": "**Transformarse o desaparecer**, así podría titularse esta nota porque esa es la consigna que define a este proyecto digital."
+			},
+			{
+				"type": "p",
+				"text": "Un tiempo antes de la llegada de la pandemia, **algunos referentes del mundo de los negocios ya habían comprendido que la transformación digital (TD) era una pieza clave para la sostenibilidad de sus compañías**. [Otros, en cambio, ni siquiera se enteraron](https://www.a24.com/pymes/mas-la-mitad-las-empresas-no-ven-necesario-aumentar-su-nivel-digitalizacion-n876995). Pero, con la llegada del COVID-19 esa concepción innovadora no sólo se hizo inevitable sino, además, imprescindible."
+			},
+			{
+				"type": "p",
+				"text": "Para entenderlo mejor, <u>un ejemplo claro de transformación digital es lo que pasó en los últimos meses con el crecimiento del eCommerce</u>. Según un informe auspiciado por CEPAL, en Argentina, Colombia y México la digitalización de las empresas aumentó 800% entre marzo, abril y mayo de 2020, en comparación con el año anterior."
+			},
+			{
+				"type": "p",
+				"text": "Definitivamente, **la denominada transformación digital no comenzó con la pandemia**, pero el contexto de restricciones sanitarias y de circulación colocó en el centro del escenario y priorizó muchas iniciativas relacionadas con ciertos aspectos de la TD."
+			},
+			{
+				"type": "p",
+				"text": "Apenas un tiempo antes, en 2018, **Hernán Gutsztat** y **David Wilson** fundaron **Ceibo Digital**, una firma global con foco en América que ayuda a las empresas a diseñar e implementar su estrategia y transformación digital."
+			},
+
+			{
+				"type": "p",
+				"text": "Aunque su crecimiento fue constante desde el principio, la pandemia aceleró su desarrollo, que se reflejó en **2020 con una facturación de $75 millones**. Al año siguiente, la tendencia se multiplicó y **cerraron 2021 con ingresos por $300 millones**. Ahora, aseguran, el desafío para 2022 será **crecer 35% en términos reales**."
+			},
+			{
+				"type": "subtitle",
+				"text": "Transformación digital y cambio de modelo"
+			},
+			{
+				"type": "quote",
+				"text": "La forma de hacer negocios está cambiando. “Desde el punto de vista del ritmo de implementación observamos que, **aunque por un tiempo se continuará con la forma tradicional de hacer negocios, como mínimo se va a convivir con la multicanalidad** y las [diferentes formas de mirar el fenómeno que ahora tienen las empresas](https://www.a24.com/pymes/cuales-son-las-3-prioridades-tecnologicas-los-empresarios-2022-n868951)”, cuenta **Gutsztat**."
+			},
+			{
+				"type": "p",
+				"text": "La compañía **inició con oficinas en Buenos Aires, Miami y Asunción** para atender clientes esencialmente globales y multinacionales en 10 países de América, **con operaciones en 40**."
+			},
+			{
+				"type": "p",
+				"text": "Con sus proyectos logran un alcance de impacto global que suele arrancar en una o dos filiales locales de una empresa y luego escala hasta abarcar las restantes. “**El 80% de nuestras operaciones provienen de clientes que están afuera de Argentina**”, señalan."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/comercio-electronico-2jpg.webp"
+			},
+			{
+				"type": "p-margin",
+				"text": "Un ejemplo claro de transformación digital es lo que pasó en los últimos meses con el crecimiento del eCommerce."
+			},
+			{
+				"type": "p",
+				"text": "De acuerdo con datos de CBInsights, en enero de 2020 (es decir, poco antes de que se disparara todo), el 11% del comercio agregado mundial ya pasaba por canales digitales. Ahora, ese indicador se encuentra en torno al 22%."
+			},
+			{
+				"type": "quote",
+				"text": "“Eso quiere decir que, **en un año, se duplicó lo que se transaccionaba digitalmente**”, aclara Gutsztat, al mismo tiempo que asegura que llegó el momento de precisar de qué hablamos cuando hablamos de TD."
+			},
+			{
+				"type": "subtitle",
+				"text": "Qué es exactamente la transformación digital"
+			},
+			{
+				"type": "p",
+				"text": "Según la visión de los fundadores de Ceibo, encarar la transformación digital significa que <u>cualquier empresa, de cualquier tamaño o industria debe hacer introspección y pensar si su modelo de negocios es sustentable</u>, si resistirá los próximos 3 o 5 años."
+			},
+			{
+				"type": "quote",
+				"text": "“La TD es ese ´algo´ que tienen que hacer las empresas para ajustar o transformar su modelo de negocios con una perspectiva a cinco años, y **nuestra misión es ayudar a esa empresa a identificar qué es ese ´algo´ y cómo recorrer la brecha que la separa entre su presente y la compañía que necesita ser en el futuro**; además de acompañarla en la implementación y seguimiento del proceso de transformación”, explica Gutsztat."
+			},
+			{
+				"type": "p",
+				"text": "La alusión a la implementación no es una simple palabra, sino que se conecta con el ADN de la compañía y con el sentido que originó su creación."
+			},
+			{
+				"type": "p",
+				"text": "Históricamente, cuenta, **la transformación de las organizaciones estaba abordado por 2 tipos de empresas de servicios**. Por un lado, **las consultoras de negocios**, que cuentan con mucha experiencia y capacidades en management, y son buenas para entender lo que está pasando y para hacer recomendaciones."
+			},
+			{
+				"type": "p",
+				"text": "Pero **eso implica que las compañías, después de recibir las recomendaciones, tienen que salir a buscar soluciones en otras empresas**, generalmente de tecnología, que ofrecen un producto para cada problema, al departamento de sistemas. En muchos casos, sostienen desde Ceibo, este producto no resuelve el desafío de negocios que originalmente tenía la organización."
+			},
+			{
+				"type": "p",
+				"text": "Sin embargo, eso empezó a cambiar de la mano de las empresas nativas digitales, en las que ya no existe esa grieta entre el área de sistemas y el área de negocios. **Estas empresas se organizan por objetivos, los presupuestos para la contratación de productos y servicios ya no recaen en el área de sistemas**, sino en el negocio."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/equipo-ceibojpg.webp"
+			},
+			{
+				"type": "p-margin",
+				"text": "El equipo de Ceibo. Hoy la organización está diseñada como una compañía de partners de consultoría, sin áreas funcionales."
+			},
+			{
+				"type": "quote",
+				"text": "“ <u>Los clientes empezaron a demandar un servicio</u> integrado en el que, por un lado, puedan hablar de sus problemas del negocio, incluyendo también los desafíos y oportunidades, pero hacerlo con una empresa que **a su vez tenga la capacidad de implementarle una solución concreta**, además de darle una recomendación y ayudarlo con su estrategia”, remarca Gutsztat."
+			},
+			{
+				"type": "subtitle",
+				"text": "Cómo es la consultora por dentro"
+			},
+			{
+				"type": "p",
+				"text": "Ceibo nació con la visión de que la intersección entre las nuevas necesidades corporativas y su propuesta de valor operarían, además, en un nicho del negocio con perspectiva de constante crecimiento porque <u>cada vez más las empresas van a necesitar esta integración entre entender el negocio y tener la solución</u>. “Vimos que iba a haber espacio para muchos jugadores y también para jugadores nuevos que tengan alguna propuesta de valor un poco más fresca”, reconoce Gutsztat."
+			},
+			{
+				"type": "p",
+				"text": "Ahora es una organización diseñada como una compañía de partners de consultoría, sin áreas funcionales, cuya característica principal a nivel interno es que **las mismas personas interactúan con los clientes durante todo el ciclo de vida del proyecto**: en la etapa de desarrollo comercial, durante el delivery de proyectos y después de los mismos."
+			},
+			{
+				"type": "p",
+				"text": "El “Team”, como denominan a la capa del centro, se compone de **unas 25 personas que conforman su estructura core**: son los responsables de hacer crecer a la compañía."
+			},
+			{
+				"type": "p",
+				"text": "La segunda capa es la “Comunidad”. Sus integrantes trabajan en su mayoría full-time, con casos de part-time. Esta es una **propuesta más flexible** que busca **atraer a talentos** que desean equilibrio entre el trabajo y el resto de sus actividades. Y, por último, está el “Ecosistema”, que **son personas o empresas con un expertise particular convocados para proyectos puntuales**."
+			},
+			{
+				"type": "quote",
+				"text": "“Parte de nuestro crecimiento se debe a que logramos crecer con nuestros propios clientes”, señala Wilson. Y los números reflejan un crecimiento agresivo: en 2018 eran 6 de colaboradores y terminaron el 2021 con cerca de 60."
+			},
+			{
+				"type": "quote",
+				"text": "Actualmente, la firma tiene entre 15 a 20 proyectos que involucran 15 empresas de diferentes industrias y geografías. “Hemos definido al 2021 como un año para administrar el crecimiento y, aun así, terminamos triplicándonos con respecto al año anterior”, concluye Wilson."
+			},
+			{
+				"type": "p-margin",
+				"text": "Nota original [a24](https://www.a24.com/economia/se-adelantaron-la-pandemia-la-transformacion-digital-y-cerraron-2021-300-millones-facturacion-n992111)"
+			}
+		],
+		"metadata": {
+			"date": "23 de Enero, 2022",
+			"dateEN": "Januray 23, 2022",
+			"bannerImg": "/images-ceibo/publicaciones/Publicaciones-Nota-A24.JPG",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Covid-19"]
+		}
+	},
+	{
+		"id": "6",
+		"title": "La empresa argentina que conquistó 40 países y estima facturar casi $300M",
+		"path-url": "ceibo-la-consultora-en-transformacion-digital-que-conquisto-40-paises",
+		"titleEN": "The Argentine company that reached 40 countries and expects to quadruple its revenue in 2021",
+		"img": "/images-ceibo/publicaciones/ceibo-digital-consultoria-transformacion-digital-600x403.png",
+		"desc": "Ya antes de la pandemia los líderes empresariales habían entendido que la transformación digital era muy importante para la sustentabilidad de sus compañías, pero en el ..",
+		"content": [
+			{
+				"type": "p",
+				"text": "Ya antes de la pandemia **los líderes empresariales habían entendido que la transformación digital era muy importante para la sustentabilidad de sus compañías**, pero en el contexto del coronavirus asumieron que, además de imprescindible, era inevitable. "
+			},
+			{
+				"type": "p",
+				"text": "**“Transformarse o desaparecer”** podría ser la consigna. Así lo dicen las estadísticas mas citadas habitualmente cuando se habla de estos asuntos."
+			},
+			{
+				"type": "p",
+				"text": "Un ejemplo nítido de la transformación digital que se registró en el último tiempo fue el crecimiento del comercio electrónico."
+			},
+			{
+				"type": "p",
+				"text": "Según un informe auspiciado por la CEPAL, solo en Colombia y México la digitalización de las empresas **aumentó 800% entre marzo, abril y mayo** de 2020 en comparación con el año 2019. **El mismo informe destaca que estos porcentajes se replicaron en la Argentina**."
+			},
+			{
+				"type": "p",
+				"text": "“La transformación digital definitivamente no arrancó con la pandemia, pero el contexto de restricciones sanitarias y de circulación puso sobre la mesa y priorizó muchas iniciativas de este tipo”, señala Hernán Gutsztat, Partner y cofundador de **Ceibo Digital, una firma global con foco en América y que se dedica a acompañar a las empresas a realizar esta transformación digital de la que tanto se habla**."
+			},
+			{
+				"type": "quote",
+				"text": "“Desde el punto de vista de su ritmo de implementación observamos que, aunque por un tiempo se va a continuar con la forma tradicional de hacer negocios, como mínimo se va a **convivir con la multicanalidad y las diferentes formas de mirar el fenómeno que ahora tienen las empresas“**. ",
+				"author": "Hernán Gutsztat - Partner"
+			},
+
+			{
+				"type": "subtitle",
+				"text": "Crecimiento acelerado"
+			},
+			{
+				"type": "p",
+				"text": "Ceibo nació en 2018 y, aunque su crecimiento fue constante desde el momento de su fundación, la pandemia aceleró su desarrollo; un reflejo de lo cual fue que **finalizó 2020 con $ 75 millones de facturación, mientras que, en lo que va de 2021, ya superó los $ 240 millones**."
+			},
+			{
+				"type": "p",
+				"text": "La compañía se fundó con un perfil global. **Comenzó con oficinas en Buenos Aires, en Miami y en Asunción**, pero atiende clientes -y especialmente compañías globales y multinacionales de gran envergadura- **en 10 países de América con operaciones en 40**, a partir de que sus proyectos tienen un alcance con impacto global, que suele arrancar en una o dos filiales locales de una empresa y luego se escala hasta abarcar las restantes. ."
+			},
+			{
+				"type": "p",
+				"text": "**“El 80% de nuestras operaciones provienen de clientes de fuera de la Argentina”**, señalan."
+			},
+			{
+				"type": "p",
+				"text": "De acuerdo con datos de CBInsights, <u>en enero de 2020, “o sea minutos antes de que se disparara todo”, el 11% del comercio agregado mundial ya pasaba por canales digitales y hoy este índice se encuentra por encima del 20%, en torno al 22%</u>."
+			},
+			{
+				"type": "p",
+				"text": "“Eso quiere decir que **en un año se duplicó lo que se transaccionaba digitalmente**“, concluye Gutsztat, al mismo tiempo que subraya que ha llegado el momento de precisar exactamente de qué hablamos cuando hablamos de transformación digital."
+			},
+			{
+				"type": "p",
+				"text": "“Encarar la transformación digital significa que cualquier empresa, de cualquier tamaño, de cualquier industria, debe hacer introspección y pensar si su modelo de negocios es sustentable, -si resistirá-, los próximos tres a cinco años”, amplía."
+			},
+			{
+				"type": "p",
+				"text": "“Históricamente, el mundo de la transformación de las organizaciones estaba abordado por dos tipos de empresas de servicios. Por un lado, las consultoras de negocios, que cuentan mucha experiencia y capacidades en management, que son muy buenas para entender lo que está pasando y para hacer recomendaciones. **Esto implica que las compañías, después de recibir dichas recomendaciones, tienen que dar vuelta y salir a buscar soluciones en otras empresas**, típicamente de tecnología, llámese de IBM, Oracle, SAP, etc., que tienen a mano siempre un producto para cada problema, que en general ofrecen al Departamento de Sistemas. En muchos casos este producto no resuelve el dolor o desafío de negocios que originalmente la compañía tenía”, relata."
+			},
+			{
+				"type": "p",
+				"text": "“**Esto empezó a cambiar de la mano de las empresas nativas digitales**, en las que ya no existe esa grieta entre el área de sistemas y el área de negocios. Estas empresas se organizan por objetivos de negocios los presupuestos para la contratación de productos y servicios ya no recaen en el área de sistemas, sino en el negocio”, sigue."
+			},
+			{
+				"type": "p",
+				"text": "“Los clientes empezaron a **demandar un servicio integrado** en el que, por un lado, puedan hablar de sus ´dolores de negocio´, incluyendo también los desafíos y oportunidades, pero hacerlo con una empresa que a su vez tenga la capacidad de implementarle una solución concreta, además de **darle una recomendación de negocio y ayudarlo con su estrategia**“, define Gutsztat."
+			},
+			{
+				"type": "p",
+				"text": "Sobre el futuro de la compañía, el cofundador dice: “**Hemos definido el 2021 como un año para administrar el crecimiento. Finalmente somos una empresa de personas, y hemos puesto la vara muy alta para seleccionar a nuestros colaboradores**. Nos cuesta mucho conseguir esta calidad de personas, entonces este año estamos con un pie en el acelerador y otro en el freno. Aún así, administrando el crecimiento, vamos a estar más que triplicándonos con respecto al año pasado”."
+			},
+			{
+				"type": "subtitle",
+				"text": "¿Qué es la transformación digital?"
+			},
+			{
+				"type": "p",
+				"text": "Desde Ceibo definen la transformación digital como un repensar el modelo de negocios de una empresa a la luz de tres elementos, a saber:"
+			},
+			{
+				"type": "p",
+				"text": "1- El primero es comprender **el nuevo escenario competitivo**, no solo analizar el contexto de quiénes son sus competidores tradicionales sino también ver quiénes son los nuevos jugadores que están emergiendo, qué modelo de negocio tienen, cuál es su modelo operativo, sus capacidades, y con qué reglas de juego tienen que jugar (marco regulatorio)."
+			},
+			{
+				"type": "p",
+				"text": "2- El segundo elemento de la transformación digital son las **nuevas demandas de los consumidores**, que constantemente demandan productos y servicios de mayor calidad y cada vez más digitales, sino que también demandan experiencias – **Customer Experience**-."
+			},
+			{
+				"type": "p",
+				"text": "3- Y el tercer elemento, en gran medida el habilitador de los otros dos, son las **nuevas tecnologías, que hasta hace unos cinco años no existían o eran muy caras, o exigían una gran escala de producción para que fuera razonable la inversión en ellas y que hoy son más accesibles para casi cualquier empresa**.."
+			},
+			{
+				"type": "p",
+				"text": "Nota original: [InfoTechnology](https://www.cronista.com/infotechnology/negocios/se-anticiparon-a-la-pandemia-estan-con-proyectos-en-40-paises-y-en-2021-facturaran-casi-300-m/)"
+			}
+		],
+		"metadata": {
+			"date": "30 de diciembre, 2021",
+			"dateEN": "december 30, 2021",
+			"bannerImg": "/images-ceibo/publicaciones/ceibo-digital-consultoria-transformacion-digital.png",
+			"tags": ["Ceibo Digital", "Transformación Digital", "Covid-19"]
+		}
+	},
+	{
+		"id": "7",
+		"path-url": "vision-de-lideres-2022",
+		"title": "Visión de Líderes 2022",
+		"titleEN": "Leaders’ Vision 2022",
+		"img": "/images-ceibo/publicaciones/vision-de-los-lideres-2022-600x403.png",
+		"desc": "El Cronista lanzó su edición anual de Visión de los Líderes, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Partner, Hernán ..",
+		"content": [
+			{
+				"type": "p",
+				"text": "[El Cronista](https://www.cronista.com) lanzó su edición anual de Visión de los Líderes, donde participan los referentes de las 530 empresas más influyentes de Argentina. Ceibo por segundo año consecutivo fue convocado como una de las empresas más influyentes de Argentina, donde nuestro Partner, Hernán Gutsztat, compartió el balance del año que esta por terminar y las expectativas y proyectos para el año que viene."
+			},
+			{
+				"type": "p",
+				"text": "Para el 2022 se espera un fuerte crecimiento, consolidación de alguno de nuestros mercados internacionales y fuerte inversión en el desarrollo de otros."
+			},
+			{
+				"type": "p",
+				"text": "La transformación digital está en agenda de todas las compañías y nuestro esfuerzo está en posicionarnos como una consultora líder en transformación digital."
+			},
+			{
+				"type": "subtitle",
+				"text": "La Visión para el 2022"
+			},
+			{
+				"type": "p",
+				"text": "Nuestro Partner Hernán Gutsztat compartió la visión de Ceibo Digital para el 2022:"
+			},
+			{
+				"type": "list",
+				"items": [
+					"Para 2022 esperamos otro año de fuerte crecimiento, consolidación de alguno de nuestros mercados internacionales y fuerte inversión en el desarrollo de otros. La transformación digital está en agenda de todas las compañías y nuestro esfuerzo está en posicionarnos como una consultora líder en transformación digital.",
+					"Fue un año difícil para la gran mayoría de las empresas. A la vez, fue un año de mucho crecimiento para Ceibo por ser una empresa que no solamente tiene capacidades digitales, sino que a su vez se dedica a desarrollar y potenciar estas capacidades en otras empresas",
+					"Se ha avanzado en la dirección correcta en cuanto a las políticas relacionadas con la industria del conocimiento. Más allá de esto, la falta de previsibilidad en las condiciones macroeconómicas, la fuerte presión tributaria y la volatilidad con respecto al tipo de cambio son aspectos que la Argentina tendrá que resolver en el corto y mediano plazo si pretende un desarrollo sustentable de esta industria"
+				]
+			},
+			{
+				"type": "p",
+				"text": "Leé la nota completa en [El Cronista](http://electronica.cronista.com/vision/Vision2022.pdf)"
+			}
+		],
+		"metadata": {
+			"author": "Nicolás Calvo - Senior Specialist",
+			"authorImg": "/images-ceibo/integrantes/Nicolas Calvo.png",
+			"date": "20 de diciembre, 2021",
+			"dateEN": "december 20, 2021",
+			"bannerImg": "/images-ceibo/publicaciones/vision-de-los-lideres-2022banner.png",
+			"tags": ["Negocios", "Actualidad", "Argentina", "Ceibo Digital"]
+		}
+	},
+	{
+		"id": "14",
+		"path-url": "vision-de-lideres-2021",
+		"title": "Ceibo Digital entre las empresas más influyentes de Argentina",
+		"titleEN": "Leaders’ Vision 2021",
+		"img": "/images-ceibo/publicaciones/WhatsApp-Image-2021-05-11-at-12.34.22.jpeg",
+		"desc": "Fuimos nombrados por El Cronista como una de las 550 empresas más influyentes de Argentina. Un gran logro y reconocimiento para todos los que formamos Ceibo.",
+		"content": [
+			{
+				"type": "first-p",
+				"text": "Fuimos nombrados por El Cronista como una de las **550 empresas más influyentes de Argentina**. Un gran logro y reconocimiento para todos los que formamos Ceibo."
+			},
+			{
+				"type": "p-margin",
+				"text": "Hernan Gutsztat, nuestro Partner, compartió con El Cronista Comercial la visión de Ceibo sobre el próximo año y cuál va a ser su foco para contrarrestar lo que se vivió en 2020."
+			},
+			{
+				"type": "img",
+				"src": "/images-ceibo/publicaciones/Ceibo_PW_2-350x350.png",
+				"maxWidth": "600px"
+			}
+		],
+		"metadata": {
+			"author": "",
+			"date": "10 de enero, 2021",
+			"dateEN": "january 10, 2021",
+			"bannerImg": "/images-ceibo/publicaciones/WhatsApp-Image-2021-05-11-at-12.34.22.jpeg",
+			"tags": ["Negocios", "Actualidad", "Ceibo Digital", "Argentina"]
+		}
+	},
+	{
+		"id": "15",
+		"path-url": "ceibo-somos-una-empresa-great-place-to-work",
+		"title": "¡Somos una empresa Great Place to Work!",
+		"titleEN": "We are a Great Place to Work® Certified Company",
+		"img": "/images-ceibo/publicaciones/Ceibo_PW_4.png",
+		"desc": "Éste es un reconocimiento al clima laboral nuestra organización, dado por todos los miembros del equipo. Este logro refuerza nuestro compromiso con la visión de Ceibo: aportar un valor diferencial para cada parte de nuestra comunidad.",
+		"content": [
+			{
+				"type": "first-p",
+				"text": "Éste es un reconocimiento al clima laboral nuestra organización, dado por todos los miembros del equipo. Este logro refuerza nuestro compromiso con la visión de Ceibo: aportar un valor diferencial para cada parte de nuestra comunidad."
+			},
+			{
+				"type": "p-margin",
+				"text": "Podes leer todo sobre nuestra certificación en la web de Great Place to Work: https://www.greatplacetowork.com.ar/certificado/ceibo-digital"
+			}
+		],
+		"metadata": {
+			"author": "",
+			"date": "15 de diciembre, 2020",
+			"dateEN": "december 15, 2020",
+			"bannerImg": "/images-ceibo/publicaciones/Ceibo_PW_4.png",
+			"tags": ["Ceibo Digital", "GPTW"]
+		}
+	}
 ]
