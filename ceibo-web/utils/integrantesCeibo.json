@@ -943,6 +943,75 @@
 		}
 	},
 	{
+		"nombre": "FLORENCIA CARASALES",
+		"linkedinurl": "https://www.linkedin.com/in/florencia-carasales-",
+		"src": "/images-ceibo/integrantes/Florencia Carasales.png",
+		"posicion": "MARKETING ANALYST",
+		"email": "",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "SOL RONCHI RIVARA",
+		"linkedinurl": "https://www.linkedin.com/in/sol-isabella-ronchi-rivara-5848771b4",
+		"src": "/images-ceibo/integrantes/Sol Ronchi.png",
+		"posicion": "MARKETING TRAINEE",
+		"email": "",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "JUANA SCHULMEIER",
+		"linkedinurl": "https://www.linkedin.com",
+		"src": "/images-ceibo/integrantes/Juana Schulmeier.png",
+		"posicion": "MARKETING TRAINEE",
+		"email": "",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "JULIETA HABERKORN",
 		"linkedinurl": "https://www.linkedin.com/in/julieta-haberkorn-038094157/",
 		"src": "/images-ceibo/integrantes/Julieta Haberkorn.png",
