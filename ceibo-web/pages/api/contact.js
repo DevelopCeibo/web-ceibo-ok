@@ -158,9 +158,8 @@ export default async (req, res) => {
 				break;
 			case "newsletter":
 				({ email, subject } = rest);
-				// receiver = "marketing@ceibo.digital"
-				receiver = "victoria.selva@ceibo.digital";
-				// receiver = "tomas.apochian@ceibo.digital"
+				receiver = "marketing@ceibo.digital";
+				// receiver = "tomas.apochian@ceibo.digital";
 				data = {
 					to: receiver,
 					from: email,
