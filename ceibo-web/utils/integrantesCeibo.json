@@ -897,34 +897,11 @@
 		}
 	},
 	{
-		"nombre": "DELFINA GUARINO",
-		"linkedinurl": "https://www.linkedin.com/in/delfina-guarino/",
-		"src": "/images-ceibo/integrantes/Delfina Guarino.png",
-		"posicion": "ANALYST",
-		"email": "",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
 		"nombre": "SERGIO GENES",
 		"linkedinurl": "https://www.linkedin.com/in/sergio-genes/",
 		"src": "/images-ceibo/integrantes/Sergio Genes.png",
 		"posicion": "ANALYST",
-		"email": "",
+		"email": "sergio.genes@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
@@ -948,6 +925,98 @@
 		"src": "/images-ceibo/integrantes/Florencia Carasales.png",
 		"posicion": "MARKETING ANALYST",
 		"email": "",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "BERENICE BUS",
+		"linkedinurl": "https://www.linkedin.com/in/berenice-bus-a4084b222",
+		"src": "/images-ceibo/integrantes/Berenice Bus.png",
+		"posicion": "MARKETING ANALYST",
+		"email": "berenice.bus@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "TOMÁS CESARINI",
+		"linkedinurl": "https://www.linkedin.com/in/tom%C3%A1s-cesarini-a53ba3174",
+		"src": "/images-ceibo/integrantes/Tomás Cesarini.png",
+		"posicion": "MARKETING ANALYST",
+		"email": "tomas.cesarini@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "IÑAKI CARTASSO",
+		"linkedinurl": "https://www.linkedin.com/in/inaki-cartasso",
+		"src": "/images-ceibo/integrantes/Iñaki Cartasso.png",
+		"posicion": "MARKETING ANALYST",
+		"email": "iñaki.cartasso@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "MARIANO SCHICHT",
+		"linkedinurl": "https://www.linkedin.com/in/mariano-schicht-50365b178",
+		"src": "/images-ceibo/integrantes/Mariano Schicht.png",
+		"posicion": "CONTENT ANALYST",
+		"email": "mariano.schicht@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
@@ -994,6 +1063,29 @@
 		"src": "/images-ceibo/integrantes/Juana Schulmeier.png",
 		"posicion": "MARKETING TRAINEE",
 		"email": "",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "MACARENA ESTEVEZ",
+		"linkedinurl": "https://www.linkedin.com/in/macarena-estevez-3120a59a",
+		"src": "/images-ceibo/integrantes/Macarena Estevez.png",
+		"posicion": "COMMUNITY MANAGER",
+		"email": "macarena.estevez@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
