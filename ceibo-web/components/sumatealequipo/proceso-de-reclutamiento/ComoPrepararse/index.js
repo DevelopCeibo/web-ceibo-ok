@@ -2,11 +2,21 @@ import React from "react";
 
 import ThreeColumns from "./ThreeColumns";
 import ColumnWithVideo from "./ColumnWithVideo";
+import { useRoleTypeContext } from "../../../../pages/context/roleType";
+
+
 const ComoPrepararse = () => {
+
+  const [roleType] = useRoleTypeContext()
+
   return (
     <div className="container">
-      <ColumnWithVideo />
-      <ThreeColumns />
+      {roleType === 'consultant' ? <>
+        <ColumnWithVideo />
+        <ThreeColumns />
+      </>
+        : <></>}
+
     </div>
   );
 };
