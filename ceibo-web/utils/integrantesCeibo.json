@@ -481,29 +481,6 @@
 		}
 	},
 	{
-		"nombre": "NAHUEL OJEDA",
-		"linkedinurl": "https://www.linkedin.com/in/gonzalo-nahuel-ojeda/",
-		"src": "/images-ceibo/integrantes/Nahuel Ojeda.png",
-		"posicion": "SENIOR SPECIALIST",
-		"email": "nahuel.ojeda@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
 		"nombre": "NATALIA ADAMO",
 		"linkedinurl": "https://www.linkedin.com/in/natalia-adamo/",
 		"src": "/images-ceibo/integrantes/Natalia Adamo.png",
@@ -1034,29 +1011,7 @@
 			"img": ""
 		}
 	},
-	{
-		"nombre": "SOL RONCHI RIVARA",
-		"linkedinurl": "https://www.linkedin.com/in/sol-isabella-ronchi-rivara-5848771b4",
-		"src": "/images-ceibo/integrantes/Sol Ronchi.png",
-		"posicion": "MARKETING TRAINEE",
-		"email": "sol.ronchi@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
 
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
 	{
 		"nombre": "JUANA SCHULMEIER",
 		"linkedinurl": "https://www.linkedin.com/in/juana-schulmeier-0ba59224a",
