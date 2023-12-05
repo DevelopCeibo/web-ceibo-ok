@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { IconButton } from "@mui/material";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { useRoleTypeContext } from "../../pages/context/roleType";
+import { useRoleTypeContext } from "../../context/roleType";
 
 const PasosParaElProceso = () => {
   const { locale } = useRouter();
