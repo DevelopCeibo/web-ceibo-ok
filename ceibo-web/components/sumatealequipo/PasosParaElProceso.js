@@ -5,6 +5,7 @@ import { IconButton } from "@mui/material";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useRoleTypeContext } from "../../context/roleType";
+import uniqid from 'uniqid'
 
 const PasosParaElProceso = () => {
   const { locale } = useRouter();
@@ -76,9 +77,9 @@ const PasosParaElProceso = () => {
   };
 
   return (
-    <div className="pb-100 mb-1 mt-3">\
+    <div className="pb-100 mb-2">
 
-      <div className="container ">
+      <div className="container">
         <div className="bottom-line mb-5">
           <button className={roleType === 'consultant' ? 'selected-item me-4' : 'unselected-item me-4'} onClick={() => setRoleType('consultant')}>{consultants}</button>
           <button className={roleType === 'specialist' ? 'selected-item' : 'unselected-item'} onClick={() => setRoleType('specialist')} >{specialists}</button>
@@ -89,7 +90,7 @@ const PasosParaElProceso = () => {
         <div className="row justify-content-center mt-5">
 
           {pasosData.map((paso) => {
-            return (<div className="col-6 col-md-4 col-sm-3 col-lg-2">
+            return (<div className="col-6 col-md-4 col-sm-3 col-lg-2" key={uniqid()}>
               <div className="ccore-card" onClick={() => handleChangePasos(paso.id)}>
                 <img
                   src={`/images-ceibo/sumatealequipo/paso-0${paso.id}.png`}
