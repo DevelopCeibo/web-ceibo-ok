@@ -1,7 +1,57 @@
 [
+
+	{
+		"id": "30",
+		"path-url": "vision-de-lideres-2024",
+		"title": "Visión de Líderes 2024",
+		"titleEN": "Leaders’ Vision 2024",
+		"img": "/images-ceibo/publicaciones/vision-lideres-2024/banner.png",
+		"desc": "Ceibo fue convocada por cuarto año consecutivo y nuestro managing partner, David Wilson, compartió el balance del 2023 y las expectativas y proyectos de la empresa para 2024.",
+		"content": [
+
+			{
+				"type": "first-p",
+				"text": "[El Cronista](http://electronica.cronista.com/vision/Vision2023.pdf) lanzó su edición anual de Visión de los Líderes junto a 400 referentes de las empresas más influyentes de Argentina. Ceibo fue convocada por cuarto año consecutivo y nuestro managing partner, David Wilson, compartió el balance del 2023 y las expectativas y proyectos de la empresa para 2024."
+			},
+			{
+				"type": "subtitle",
+				"text": "¿Cuáles son las expectativas y proyectos de su empresa para 2024?"
+			},
+			{
+				"type": "p",
+				"text": "Ser referentes de transformación digital en Argentina, y continuar consolidándonos como la consultora de estrategia que ayuda a los líderes de la región a repensar el modelo de negocio incorporando capacidades digitales."
+			},
+			{
+				"type": "subtitle",
+				"text": "¿Cuáles fueron los principales obstáculos que enfrentó en 2023? ¿Qué balance hace del año que está por terminar?"
+			},
+			{
+				"type": "p",
+				"text": " El contexto macroeconómico en un año electoral y la falta de previsibilidad generaron una situación de volatilidad en nuestros clientes locales que los obligó a hacer eficiencias y pensar menos en proyectos de largo plazo. Si bien el reclutamiento de talento siempre es un desafío, hemos logrado atraer consistentemente a los mejores y aumentamos la inversión en el desarrollo de nuestros consultores gracias a acuerdos con las escuelas de negocio más prestigiosas de la región."
+			},
+			{
+				"type": "subtitle",
+				"text": "¿Qué políticas públicas podrían contribuir a darle impulso a su sector?"
+			},
+			{
+				"type": "p",
+				"text": "Reglas de juego claras y un tipo de cambio competitivo y estable permitiría darles previsibilidad a las empresas para que inviertan en la Argentina, junto con incentivos para la contratación y capacitación del talento que nos permita seguir siendo atractivos para continuar desarrollando su carrera profesional en el país."
+			},
+			{
+				"type": "p",
+				"text": "Para ver la edición completa de La Visión de los Líderes 2024 👉 [El Cronista](https://elcronista.pressreader.com/oneshots/20231123)"
+			}
+		],
+		"metadata": {
+			"date": "5 de diciembre, 2023",
+			"dateEN": "December 5, 2023",
+			"bannerImg": "/images-ceibo/publicaciones/vision-lideres-2024/background_banner.png",
+			"tags": ["Ceibo Digital", "Negocios", "Actualidad", "Argentina"]
+		}
+	},
 	{
 		"id": "16",
-		"path-url": "quien-es-quien-cronista",
+		"path-url": "quien-es-quien-cronista-2023",
 		"title": "Ceibo en el Quién es Quién 2023 de El Cronista",
 		"titleEN": "Ceibo featured in El Cronista's 2023 “Quién es Quién”",
 		"img": "/images-ceibo/publicaciones/Quien_es_quien_cronista.png",
