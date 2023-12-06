@@ -8,6 +8,7 @@ import PasosParaElProceso from "../../../components/sumatealequipo/PasosParaElPr
 import NuestroProceso from "../../../components/sumatealequipo/proceso-de-reclutamiento/NuestroProceso";
 import ComoPrepararse from "../../../components/sumatealequipo/proceso-de-reclutamiento/ComoPrepararse/index";
 import useTranslation from "next-translate/useTranslation";
+import { RoleTypeProvider } from "../../../context/roleType";
 const index = () => {
   const { t } = useTranslation("common");
   const h1 = t("proceso");
@@ -26,11 +27,13 @@ const index = () => {
         subtitle={h2}
         BGImage="/images-ceibo/Banner-sumate-al-equipo.jpg"
       />
+      <RoleTypeProvider>
 
-      <NuestroProceso />
-      <PasosParaElProceso />
-      <ComoPrepararse />
+        <NuestroProceso />
+        <PasosParaElProceso />
+        <ComoPrepararse />
 
+      </RoleTypeProvider>
       <Footer />
     </>
   );
