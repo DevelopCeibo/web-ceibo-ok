@@ -1272,6 +1272,9 @@
 	.responsive-iframe {
 		width: 100%;
 	}
+	.section-title.sumatealequipo { 
+		margin-top: 15px;
+	 }
 }
 
 /* Min width 576px to Max width 767px */
