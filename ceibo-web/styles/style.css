@@ -8857,24 +8857,3 @@ abbr:hover {
 .all-webinars-button:hover {
 	border-bottom: 1px solid #b82837;
 }
-
-.selected-item{
-	font-weight: bold;
-	color:#b82837;
-	background: none;
-	border: none;
-	border-bottom: 3px solid #b82837;
-	font-size: 20px;
-
-}
-
-.unselected-item{
-
-	background: none;
-	border: none;
-	font-size: 20px;
-}
-
-.bottom-line{
-	border-bottom: 1px solid #e2e3e5
-}

@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
+import { Button } from "@mui/material";
 import { IconButton } from "@mui/material";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { useRoleTypeContext } from "../../context/roleType";
-import uniqid from 'uniqid'
-
 const PasosParaElProceso = () => {
   const { locale } = useRouter();
-  const [roleType, setRoleType] = useRoleTypeContext()
 
   const { t } = useTranslation("common");
-  const consultants = t("consultants")
-  const specialists = t("specialists")
   const pasosproceso = t("pasosproceso");
   const paso1Subt = t("paso1Subt");
   const paso1Txt = t("paso1Txt");
@@ -28,9 +23,7 @@ const PasosParaElProceso = () => {
   const paso6Subt = t("paso6Subt");
   const paso6Txt = t("paso6Txt");
 
-
   const pasosData = [
-
     {
       id: 1,
       title: paso1Subt,
@@ -69,7 +62,12 @@ const PasosParaElProceso = () => {
     },
   ];
 
-  const [pasosContent, setpasosContent] = React.useState(pasosData[0]);
+  const [pasosContent, setpasosContent] = React.useState({
+    id: 1,
+    title: paso1Subt,
+    subtitle: `${locale == "es" ? "Paso" : "Step"} 1`,
+    detail: paso1Txt,
+  });
 
   const handleChangePasos = (id) => {
     const pasoSel = pasosData.find((obj) => obj.id === id);
@@ -77,34 +75,95 @@ const PasosParaElProceso = () => {
   };
 
   return (
-    <div className="pb-100 mb-2">
-
-      <div className="container">
-        <div className="bottom-line mb-5">
-          <button className={roleType === 'consultant' ? 'selected-item me-4' : 'unselected-item me-4'} onClick={() => setRoleType('consultant')}>{consultants}</button>
-          <button className={roleType === 'specialist' ? 'selected-item' : 'unselected-item'} onClick={() => setRoleType('specialist')} >{specialists}</button>
-        </div>
+    <div className="pb-100 mb-1 mt-3">
+      <div className="container ">
         <div className="section-title sumatealequipo">
           <h2>{pasosproceso}</h2>
         </div>
         <div className="row justify-content-center mt-5">
+          <div className="col-6 col-md-4 col-sm-3 col-lg-2">
+            <div className="ccore-card" onClick={() => handleChangePasos(1)}>
+              <img
+                src="/images-ceibo/sumatealequipo/paso-01.png"
+                alt="image"
+                width={140}
+              />
 
-          {pasosData.map((paso) => {
-            return (<div className="col-6 col-md-4 col-sm-3 col-lg-2" key={uniqid()}>
-              <div className="ccore-card" onClick={() => handleChangePasos(paso.id)}>
-                <img
-                  src={`/images-ceibo/sumatealequipo/paso-0${paso.id}.png`}
-                  alt="image"
-                  width={140}
-                />
-
-                <div className="content">
-                  <h6>{locale == "es" ? "Paso" : "Step"} {paso.id}</h6>
-                </div>
+              <div className="content">
+                <h6>{locale == "es" ? "Paso" : "Step"} 1</h6>
               </div>
-            </div>)
+            </div>
+          </div>
 
-          })}
+          <div className="col-6 col-md-4 col-sm-3 col-lg-2 ">
+            <div className="ccore-card" onClick={() => handleChangePasos(2)}>
+              <img
+                src="/images-ceibo/sumatealequipo/paso-02.png"
+                alt="image"
+                width={140}
+              />
+
+              <div className="content">
+                <h6>{locale == "es" ? "Paso" : "Step"} 2</h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-sm-3 col-lg-2">
+            <div className="ccore-card" onClick={() => handleChangePasos(3)}>
+              <img
+                src="/images-ceibo/sumatealequipo/paso-03.png"
+                alt="image"
+                width={140}
+              />
+
+              <div className="content">
+                <h6>{locale == "es" ? "Paso" : "Step"} 3</h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-sm-3 col-lg-2">
+            <div className="ccore-card" onClick={() => handleChangePasos(4)}>
+              <img
+                src="/images-ceibo/sumatealequipo/paso-04.png"
+                alt="image"
+                width={140}
+              />
+
+              <div className="content">
+                <h6>{locale == "es" ? "Paso" : "Step"} 4</h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-sm-3 col-lg-2">
+            <div className="ccore-card" onClick={() => handleChangePasos(5)}>
+              <img
+                src="/images-ceibo/sumatealequipo/paso-05.png"
+                alt="image"
+                width={140}
+              />
+
+              <div className="content">
+                <h6> {locale == "es" ? "Paso" : "Step"} 5</h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-sm-3 col-lg-2">
+            <div className="ccore-card" onClick={() => handleChangePasos(6)}>
+              <img
+                src="/images-ceibo/sumatealequipo/paso-06.png"
+                alt="image"
+                width={140}
+              />
+
+              <div className="content">
+                <h6>{locale == "es" ? "Paso" : "Step"} 6</h6>
+              </div>
+            </div>
+          </div>
 
           <section className="d-flex row mt-5">
             <article className="col-12 col-sm-12 col-md-4 pasos">

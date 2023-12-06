@@ -5,7 +5,7 @@ import uniqid from "uniqid"
 
 const NuestroProceso = () => {
   const { t } = useTranslation("common");
-  const evaluatedSkills = t("procesoReclutamientoEvaluatedSkills", {}, { returnObjects: true })
+  const evaluatedSkills = t("procesoReclutamientoEvaluatedSkills",{},{returnObjects:true})
 
   const procesoReclutamientoTitle = t("procesoReclutamientoTitle");
   const procesoReclutamientoText = t("procesoReclutamientoText");
@@ -18,7 +18,7 @@ const NuestroProceso = () => {
   const procesoReclutamientoTextFinal = t("procesoReclutamientoTextFinal");
 
   return (
-    <section className="pt-70 mb-3 mt-5">
+    <section className="pt-70 mb-5 mt-5">
       <section className="container">
         <section className="row">
           {/* TITLE */}
@@ -54,27 +54,27 @@ const NuestroProceso = () => {
 
           {/* CARDS */}
           <section className="row justify-content-center">
-            {evaluatedSkills?.map((skill) => {
+            {evaluatedSkills?.map((skill) =>{
               return (
                 <article key={uniqid()} className="col-12 col-sm-6 col-lg-3 flip-container">
-                  <div className="ccore-card flipper">
-                    <div className="front">
-                      <img
-                        src={skill.imagePath}
-                        alt="image"
-                        width={200}
-                      />
-                      <div className="content">
-                        <h6>{skill.title}</h6>
-                      </div>
-                    </div>
-                    <div className="back">
-                      <div className="content">
-                        <p className="text-white text-justify fs-6">{skill.description}</p>
-                      </div>
+                <div className="ccore-card flipper">
+                  <div className="front">
+                    <img
+                      src={skill.imagePath}
+                      alt="image"
+                      width={200}
+                    />
+                    <div className="content">
+                      <h6>{skill.title}</h6>
                     </div>
                   </div>
-                </article>
+                  <div className="back">
+                  <div className="content">
+                    <p className="text-white text-justify fs-6">{skill.description}</p>
+                  </div>
+               </div>
+                </div>
+              </article>
               )
             })}
 
