@@ -574,30 +574,6 @@
 		}
 	},
 	{
-		"nombre": "SOFÍA VIGILANTE",
-		"linkedinurl": "https://www.linkedin.com/in/sofiapazvigilante",
-		"src": "/images-ceibo/integrantes/Sofia Vigilante.png",
-		"posicion": "PAID MEDIA SENIOR SPECIALIST",
-		"email": "sofia.vigilante@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-
-	{
 		"nombre": "IVÁN LENGUAS",
 		"linkedinurl": "https://www.linkedin.com/in/ivan-lenguas/",
 		"src": "/images-ceibo/integrantes/Ivan Lenguas.png",
@@ -925,6 +901,29 @@
 		"src": "/images-ceibo/integrantes/Sergio Genes.png",
 		"posicion": "ANALYST",
 		"email": "sergio.genes@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "SOFÍA VIGILANTE",
+		"linkedinurl": "https://www.linkedin.com/in/sofiapazvigilante",
+		"src": "/images-ceibo/integrantes/Sofia Vigilante.png",
+		"posicion": "PAID MEDIA SPECIALIST",
+		"email": "sofia.vigilante@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
