@@ -6,7 +6,6 @@ import PageBanner from "../../../components/Common/PageBanner";
 import Footer from "../../../components/Layouts/Footer";
 import CarreraEnCeibo from "../../../components/sumatealequipo/desarrollo-profesional/CarreraEnCeibo";
 import Especializaciones from "../../../components/sumatealequipo/desarrollo-profesional/Especializaciones";
-import ComoNosOrganizamos from "../../../components/Cultura/ComoNosOrganizamos";
 import NavigationCardSection from "../../../components/sumatealequipo/posiciones-abiertas/NavigationCardSection";
 import useTranslation from "next-translate/useTranslation";
 const index = () => {
@@ -35,7 +34,6 @@ const index = () => {
 
       <CarreraEnCeibo />
       <Especializaciones />
-      <ComoNosOrganizamos />
       <NavigationCardSection
         contentKeysArray={navigationCardSectionContentKeys}
       />
