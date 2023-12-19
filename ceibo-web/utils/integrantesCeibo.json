@@ -720,8 +720,8 @@
 		"email": "santiago.sin@ceibo.digital",
 		"ceiber": {
 			"nickname": "Santi",
-			"quote": "En estos primeros meses como Ceiber conocí a un grupo de gente increíble y mejoré mis capacidades de ser efectivo con el uso del tiempo y más específico a la hora de comunicarme, tanto para sustentar mis decisiones como para expresar mi opinión frente al resto del equipo o a clientes.",
-			"quoteEN": "In my first few months as a Ceiber, I met an amazing group of people. I improved my ability to be effective in managing time and enhancing my communication skills, whether to support my decisions or to express my opinions to my team or clients.",
+			"quote": "Lo que más valoro de trabajar en Ceibo es el grupo humano y las oportunidades de aprendizaje. El grupo está compuesto por personas sumamente cálidas, compañeras, trabajadoras y ambiciosas. Desde el día uno tenés responsabilidad y bastante autonomía de tu frente de trabajo, y muchas ocasiones de feedback que te ayudan a ir construyéndote a vos mismo en pos de una mejor versión.",
+			"quoteEN": "What I value most about working at Ceibo is the human team and the learning opportunities. The group is composed of extremely warm, collaborative, hardworking, and ambitious individuals. From day one, you have responsibility and a lot of autonomy in your work area, as well as many opportunities for feedback that help you build yourself towards a better version.",
 			"tags": ["Dinámico", "Variedad", "Pensamiento crítico"],
 			"tagsEN": ["Dynamic", "Innovative", "Critical thinking"],
 			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Santiago Sin.png"
@@ -809,6 +809,29 @@
 		"src": "/images-ceibo/integrantes/Malena Burs.png",
 		"posicion": "ASSOCIATE",
 		"email": "malena.burs@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "NICOLÁS PERNICE",
+		"linkedinurl": "https://www.linkedin.com/in/nicolaspernice",
+		"src": "/images-ceibo/integrantes/.png",
+		"posicion": "ASSOCIATE",
+		"email": "nicolas.pernice@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
