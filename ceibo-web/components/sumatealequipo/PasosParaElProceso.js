@@ -39,32 +39,51 @@ const PasosParaElProceso = () => {
     <div className="pb-100 mb-2">
 
       <div className="container">
-        {/* <div className="bottom-line mb-5">
-          <button className={roleType === 'consultant' ? 'selected-item me-4' : 'unselected-item me-4'} onClick={() => setRoleType('consultant')}>{consultants}</button>
-          <button className={roleType === 'specialist' ? 'selected-item' : 'unselected-item'} onClick={() => setRoleType('specialist')} >{specialists}</button>
-        </div> */}
         <div className="section-title sumatealequipo">
           <h2>{pasosproceso}</h2>
         </div>
 
         <div className="row justify-content-center mt-5">
 
-          {selectedSteps.map((paso) => {
-            return (<div className="col-6 col-md-4 col-sm-3 col-lg-2" key={uniqid()}>
-              <div className="ccore-card" onClick={() => handleChangeStep(paso.id)}>
+          <div className="row justify-content-center d-none d-md-flex">
+            {selectedSteps.map((paso) => {
+              return (<div className="col-6 col-md-4 col-sm-3 col-lg-2" key={uniqid()}>
+                <div className="ccore-card" onClick={() => handleChangeStep(paso.id)}>
+                  <img
+                    src={`/images-ceibo/sumatealequipo/paso-0${paso.id}.png`}
+                    alt="image"
+                    width={140}
+                  />
+
+                  <div className="content">
+                    <h6>{step} {paso.id}</h6>
+                  </div>
+                </div>
+              </div>)
+
+            })}
+
+          </div>
+          <div className="row justify-content-center d-md-none">
+
+            <div className="col-6 col-md-4 col-sm-3 col-lg-2" key={uniqid()}>
+              <div className="ccore-card" onClick={() => handleChangeStep(stepContent.id)}>
                 <img
-                  src={`/images-ceibo/sumatealequipo/paso-0${paso.id}.png`}
+                  src={`/images-ceibo/sumatealequipo/paso-0${stepContent.id}.png`}
                   alt="image"
                   width={140}
                 />
 
                 <div className="content">
-                  <h6>{step} {paso.id}</h6>
+                  <h6>{step} {stepContent.id}</h6>
                 </div>
               </div>
-            </div>)
+            </div>
 
-          })}
+          </div>
+
+
+
 
           <section className="d-flex row mt-5 step-content">
             <div className="bottom-line mb-5">
