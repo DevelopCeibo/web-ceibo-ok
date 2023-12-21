@@ -28,9 +28,8 @@ const PasosParaElProceso = () => {
   };
 
   useEffect(() => {
-    // Update selectedSteps when roleType changes
     setSelectedSteps(steps[roleType]);
-    setStepContent(steps[roleType][0]); // Set the content to the first step
+    setStepContent(steps[roleType][0]);
   }, [roleType, locale]);
 
 
