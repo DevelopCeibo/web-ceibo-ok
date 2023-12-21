@@ -46,29 +46,6 @@
 		}
 	},
 	{
-		"nombre": "IGNACIO NAVARRO MORENO",
-		"linkedinurl": "https://www.linkedin.com/in/ignacio-navarro-moreno-49b782/",
-		"src": "/images-ceibo/integrantes/Ignacio Navarro Moreno.png",
-		"posicion": "SENIOR MANAGER",
-		"email": "ignacio.navarromoreno@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
 		"nombre": "SOLEDAD LOBATO",
 		"linkedinurl": "https://www.linkedin.com/in/soledadlobato/",
 		"src": "/images-ceibo/integrantes/Soledad Lobato.png",
@@ -188,6 +165,29 @@
 		"src": "/images-ceibo/integrantes/Lucio Flores.png",
 		"posicion": "EXPERT",
 		"email": "lucio.flores@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "IGNACIO NAVARRO MORENO",
+		"linkedinurl": "https://www.linkedin.com/in/ignacio-navarro-moreno-49b782/",
+		"src": "/images-ceibo/integrantes/Ignacio Navarro Moreno.png",
+		"posicion": "EXPERT",
+		"email": "ignacio.navarromoreno@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
