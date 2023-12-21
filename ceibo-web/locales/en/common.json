@@ -409,21 +409,28 @@
 		}
 	],
 	"pasosproceso": "The process in steps",
-	"paso1Subt": "Candidates’ analysis",
-	"paso1Txt": "Once we receive the resumes from our web page, social networks, emails, and any other channels, we analyze them thoroughly, making sure the candidates meet the minimum requirements for the position in terms of education and experience and that the candidate meets the four dimensions that we evaluate throughout the process.",
-	"paso2Subt": "Informative talk",
-	"paso2Txt": "We have an informal chat with the candidates where we tell them: who Ceibo is, what we do and what we are looking for, and the candidates tell us what they are looking for and what they are passionate about. If we see that there is a match between what the candidates are looking for and what Ceibo needs, we invite them to the interview rounds and give them some tips to prepare for the case interviews. For this talk it is recommended that potential candidates have browsed the website and follow us on LinkedIn and Instagram.",
-	"paso3Subt": "First-round interviews",
-	"paso3Txt": "In this round, two 75-minute interviews are carried out with Ceibo Managers and Project Leaders. In them, the candidate is provided with a business situation and is asked to give a strategic recommendation based on his analysis. Those candidates who meet the expectations are invited to pass the round.",
-	"paso4Subt": "Second-round interviews",
-	"paso4Txt": "In this round, two interviews are conducted with different Ceibo Managers. During these interviews we discuss their experience and assess some of the capabilities. Throughout the process, the candidate is encouraged to ask all questions and find out as much as possible about Ceibo. In this instance you can also take a case interview.",
-	"paso5Subt": "Third-round interviews",
-	"paso5Txt": "If the candidate did well in the second round, they are invited to participate in the third and final round. This round consists of two 75 minute case interviews with Ceibo's partners. Each partner continues to evaluate different aspects of the candidate, as well as performance in previous interviews.",
-	"paso6Subt": "Job offer",
-	"paso6Txt": "Typically, if the candidate reached this stage, a job offer is extended to join Ceibo in one of the modalities: Team or Community.",
+	"consultantSteps": [
+		{"id": 1, "title": "Candidates’ analysis", "content": "Once we receive the resumes from our web page, social networks, emails, and any other channels, we analyze them thoroughly, making sure the candidates meet the minimum requirements for the position in terms of education and experience and that the candidate meets the four dimensions that we evaluate throughout the process."},
+		{"id": 2, "title": "Informative talk", "content": "We have an informal chat with the candidates where we tell them: who Ceibo is, what we do and what we are looking for, and the candidates tell us what they are looking for and what they are passionate about. If we see that there is a match between what the candidates are looking for and what Ceibo needs, we invite them to the interview rounds and give them some tips to prepare for the case interviews. For this talk, it is recommended that potential candidates have browsed the website and follow us on LinkedIn and Instagram."},
+		{"id": 3, "title": "First-round interviews", "content": "In this round, two 75-minute interviews are carried out with Ceibo Managers and Project Leaders. In them, the candidate is provided with a business situation and is asked to give a strategic recommendation based on his analysis. Those candidates who meet the expectations are invited to pass the round."},
+		{"id": 4, "title": "Second-round interviews", "content": "In this round, two interviews are conducted with different Ceibo Managers. During these interviews, we discuss their experience and assess some of the capabilities. Throughout the process, the candidate is encouraged to ask all questions and find out as much as possible about Ceibo. In this instance, you can also take a case interview."},
+		{"id": 5, "title": "Third-round interviews", "content": "If the candidate did well in the second round, they are invited to participate in the third and final round. This round consists of two 75-minute case interviews with Ceibo's partners. Each partner continues to evaluate different aspects of the candidate, as well as performance in previous interviews."},
+		{"id": 6, "title": "Job offer", "content": "Typically, if the candidate reached this stage, a job offer is extended to join Ceibo's Consulting Team."}
+	  ]
+	  ,
+	  "specialistSteps": [
+		{"id":1, "title":"Candidates’ analysis", "content":"Once we receive CVs through our website, social networks, emails, and other channels, we conduct a thorough analysis. We ensure that candidates meet the minimum requirements in terms of education, specific experience, and cultural fit. Additionally, we evaluate the four key dimensions throughout the entire process."},
+		{"id":2, "title":"Informative talk", "content":"While there is no formal informative talk for data and development specialists, for Growth Marketing specialists, an informal talk is conducted. During this talk, we share information about Ceibo, our operations, and what we are looking for. Candidates share their goals and passions. If there is a match, we invite them to interview rounds and provide tips for preparation."},
+		{"id":3, "title":"First-round interviews", "content":"A 60-75 minute interview is conducted with Managers or Specialists from Ceibo. They assess, based on the level of experience and seniority, the technical skills of the candidates."},
+		{"id":4, "title":"Second-round interviews", "content":"If the candidate performs well in the first round, we invite them to the second round. Another 60-75 minute interview with Ceibo Managers, where technical skills and cultural fit with Ceibo are evaluated. Throughout the process, we encourage candidates to ask questions and inquire about Ceibo."},
+		{"id":5, "title":"Third-round interviews", "content":"If the candidate performs well in the second round, we invite them to the third and final round. Here, one or two 60-75 minute interviews are conducted with Ceibo Partners. Technical skills, cultural fit, and performance in previous interviews are evaluated, depending on the level of experience and seniority."},
+		{"id":6, "title":"Job offer", "content":"If the candidate reaches this stage, we extend a job offer to join Ceibo's Specialist Crew."}
+	  ],
+	"step":"Step",
+	"consultants": "Consultants",
+	"specialists": "Specialists",
 	"prepCases": "Case Interviews Preparation",
 	"busquedasvigentes": "Job openings",
-
 	"completaform": "Fill this form to apply for the position",
 	"nombreyape": "Name and lastname",
 	"telefono": "Phone number",
