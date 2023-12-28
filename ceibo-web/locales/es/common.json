@@ -685,5 +685,39 @@
 	"viewAllInsights": "Ver todos nuestros insights",
 	"reachYourPotential": "Alcanza tu máximo potencial con nosotros y comenzá tu camino de transformación digital",
 	"exploreOpportunities": "Explora tu futuro profesional y conocé nuestro abanico de oportunidades",
-	"test": ""
+	"newArticle": "Nueva publicación",
+	"viewFullArticle": "Ver noticia completa",
+	"checkOurNewsroom": "Conocé nuestro newsroom",
+	"whoMakeThisPossible": "Quiénes hacen esto posible",
+	"dayToDayTitle": "¿Cómo las personas detrás de Ceibo describen sú día a día?",
+	"dayToDayText": "Nuestros Ceibers resumen su día a día en diferentes palabras",
+	"dayToDayItems": [
+		{
+			"text": "Desafío"
+		},
+		{
+			"text": "Pensamiento crítico"
+		},
+		{
+			"text": "Autonomía"
+		},
+		{
+			"text": "Diversión"
+		},
+		{
+			"text": "Aprendizaje"
+		},
+		{
+			"text": "Dinámico"
+		},
+		{
+			"text": "Trabajo en equipo"
+		}
+	],
+	"newWebinar": "Nuevo webinar",
+	"viewFullWebinar": "Ver webinar completo",
+	"checkOurWebinars": "Ver todos nuestros webinars",
+	"howWeHelpClients": "Cómo ayudamos a nuestros clientes",
+	"digitalTransformationSuccess": "Transformación digital: el camino al éxito",
+	"digitalTransformationSuccessText": "Ayudamos a nuestros clientes a repensar su modelo de negocios para adaptarse a nuevos escenarios"
 }

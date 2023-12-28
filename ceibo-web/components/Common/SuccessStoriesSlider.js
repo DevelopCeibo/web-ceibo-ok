@@ -2,10 +2,11 @@ import React from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Pagination } from "swiper"
+import { Pagination, Mousewheel } from "swiper"
 import publicaciones from "../../utils/casos-de-exito.json"
 import useTranslation from "next-translate/useTranslation"
 import { useRouter } from "next/router"
+import 'swiper/css/mousewheel';
 
 const SuccessStoriesSlider = () => {
     const { t } = useTranslation("common")
@@ -40,7 +41,8 @@ const SuccessStoriesSlider = () => {
                                 slidesPerView: 3,
                             },
                         }}
-                        modules={[Pagination]}
+                        mousewheel={true}
+                        modules={[Pagination, Mousewheel]}
                         className="blog-slides"
                     >
                         {publicaciones.map((caso, i) => (

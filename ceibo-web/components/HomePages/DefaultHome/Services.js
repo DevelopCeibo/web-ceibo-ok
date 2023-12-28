@@ -19,8 +19,8 @@ const Services = () => {
 
   return (
     <>
-      <div className="bg-fcfbfb pt-100 pb-70">
-        <div className="container">
+      <div className="pt-100 pb-70">
+        <div className="container bg-fcfbfb py-5">
           <div className="section-title">
             <h2>{quehacemos}</h2>
           </div>

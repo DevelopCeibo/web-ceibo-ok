@@ -10,7 +10,7 @@ const DondeEstamos = () => {
     const donde = t('donde-estamos')
     const contactanos = t('contactanos')
     return (
-        <div className="pb-70 mt-5">
+        <div className="pb-70 my-5">
             <div className="container">
                 <div className="section-title">
                     <h2>{donde}</h2>

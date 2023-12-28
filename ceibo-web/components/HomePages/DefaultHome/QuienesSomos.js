@@ -37,24 +37,24 @@ const QuienesSomos = () => {
 
     })
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <div className='section-title'>
                 <h2>{title}</h2>
             </div>
             <p className='text-center'>{description}</p>
 
             <div className='row mb-5'>
-                <div className='col-4 d-flex flex-column align-items-center'>
+                <div className='col-12 col-md-4 d-flex flex-column align-items-center'>
                     <div className='counter counter-years bold'>+</div>
                     <p className='counter-content'>{years}</p>
                     <p className='text-center'>{yearsText}</p>
                 </div>
-                <div className='col-4 d-flex flex-column align-items-center'>
+                <div className='col-12 col-md-4 d-flex flex-column align-items-center'>
                     <div className='counter counter-projects bold'>+</div>
                     <p className='counter-content'>{projects}</p>
                     <p className='text-center'>{projectsText}</p>
                 </div>
-                <div className='col-4 d-flex flex-column align-items-center'>
+                <div className='col-12 col-md-4 d-flex flex-column align-items-center'>
                     <div className='counter counter-countries bold'>+</div>
                     <p className='counter-content'>{countries}</p>
                     <p className='text-center'>{countriesText}</p>

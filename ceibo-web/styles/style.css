@@ -2530,6 +2530,16 @@ Featured Services CSS
 	align-self: start;
 	margin-top: auto;
 }
+.read-more-btn-grey {
+	color: grey;
+	display: inline-block;
+	/* position: relative; */
+	z-index: 1;
+	font-size: 15px;
+	font-weight: 600;
+	align-self: start;
+	margin-top: auto;
+}
 
 .read-more-btn:hover {
 	cursor: pointer;
@@ -8923,7 +8933,7 @@ abbr:hover {
 	animation-name: counter-animation-years;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-out;
-	animation-duration: 3s;
+	animation-duration: 2.5s;
 	animation-direction: normal;
 	counter-reset: num var(--num);
   }
@@ -8958,7 +8968,7 @@ abbr:hover {
 	  --num: 0;
 	}
 	to {
-	  --num: 50;
+	  --num: 37;
 	}
   }
   .counter-animation-countries {
@@ -8978,11 +8988,41 @@ abbr:hover {
 	  --num: 0;
 	}
 	to {
-	  --num: 100;
+	  --num: 55;
 	}
   }
 
   .counter-content {
 	font-size: x-large;
+	margin-bottom: 0 !important;
   }
   
+  .who-makes-this-possible-item{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 1rem;
+  }
+  .who-makes-this-possible-item p{
+	border: 1px solid #b82837;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-radius: 50px;
+	font-weight: bold;
+	color: #b82837 !important;
+	text-align: center;
+
+  }
+  .who-makes-this-possible-item p:hover{
+	background-color: #b82837;
+	color: white !important;
+  }
+
+.swiper-scrollbar-horizontal{
+	height: 15px !important;
+	bottom: -20px !important;
+}
+
+.font-xl-p{
+	font-size: large !important;
+}

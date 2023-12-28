@@ -7,7 +7,9 @@ const BusquedasAbiertas = () => {
     const text = t("exploreOpportunities")
     const buttonText = t("busquedasVigentesh1")
     return (
-        <RedCeiboBanner text={text} pathUrl={'/sumate-al-equipo/busquedas-vigentes/'} buttonText={buttonText} />
+        <div className='py-5'>
+            <RedCeiboBanner text={text} pathUrl={'/sumate-al-equipo/busquedas-vigentes/'} buttonText={buttonText} />
+        </div>
     )
 }
 

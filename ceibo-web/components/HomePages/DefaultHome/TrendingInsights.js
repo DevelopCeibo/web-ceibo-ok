@@ -13,7 +13,7 @@ const Hightlight = ({ includeTitle }) => {
     const publicaciones = [insights[0], insights[1]]; // TODO: show hightlight insights
     const { locale } = useRouter();
     return (
-        <div className="blog-area pt-100">
+        <div className="blog-area pt-100 mb-5">
             <div className="container">
                 <div className="section-title">
                     <h2>{title}</h2>
