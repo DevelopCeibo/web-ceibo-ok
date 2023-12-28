@@ -16,8 +16,7 @@ const QuienesSomos = () => {
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                console.log('name', entry.target.className)
-                console.log('lsit', entry.target.className)
+
                 if (entry.isIntersecting && entry.target.className.includes('counter-years')) {
                     entry.target.classList.add('counter-animation-years');
                 }

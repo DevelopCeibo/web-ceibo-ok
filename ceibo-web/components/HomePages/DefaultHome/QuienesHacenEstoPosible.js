@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
+import uniqid from 'uniqid'
 
 const Publicacion = () => {
 
@@ -29,8 +30,8 @@ const Publicacion = () => {
                         <div className='row'>
                             {items?.map((item, i) => {
                                 return (
-                                    i !== 2 && i !== 3 && i !== 4 ? <div className='col-6 who-makes-this-possible-item'><p>{item.text}</p></div>
-                                        : <div className='col-4 who-makes-this-possible-item'><p>{item.text}</p></div>
+                                    i !== 2 && i !== 3 && i !== 4 ? <div className='col-6 who-makes-this-possible-item' key={uniqid()}><p>{item.text}</p></div>
+                                        : <div className='col-4 who-makes-this-possible-item' key={uniqid()}><p>{item.text}</p></div>
                                 )
 
                             })}
@@ -51,8 +52,8 @@ const Publicacion = () => {
                 <div className='row mt-4'>
                     {items?.map((item, i) => {
                         return (
-                            i !== 2 && i !== 3 && i !== 4 ? <div className='col-6 who-makes-this-possible-item'><p>{item.text}</p></div>
-                                : <div className='col-4 who-makes-this-possible-item'><p>{item.text}</p></div>
+                            i !== 2 && i !== 3 && i !== 4 ? <div className='col-6 who-makes-this-possible-item' key={uniqid()} ><p>{item.text}</p></div>
+                                : <div className='col-4 who-makes-this-possible-item' key={uniqid()}><p>{item.text}</p></div>
                         )
                     })}
                 </div>

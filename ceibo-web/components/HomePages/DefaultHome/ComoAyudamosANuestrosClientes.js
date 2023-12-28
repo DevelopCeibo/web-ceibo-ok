@@ -14,6 +14,7 @@ import 'swiper/css/effect-cube';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 import useTranslation from 'next-translate/useTranslation';
+import uniqid from 'uniqid'
 
 const ComoAyudamosANuestrosClientes = () => {
     const { t } = useTranslation('common')
@@ -53,7 +54,7 @@ const ComoAyudamosANuestrosClientes = () => {
 
                 {activeStories?.map((story, i) => {
                     return (
-                        <SwiperSlide>
+                        <SwiperSlide key={uniqid()}>
                             <div className='row'>
                                 <div className='col-5 d-flex justify-content-end'>
                                     <Image src={story.metadata.image} height={200} width={200}></Image>

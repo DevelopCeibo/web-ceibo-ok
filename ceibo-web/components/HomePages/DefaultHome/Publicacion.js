@@ -3,14 +3,18 @@ import news from '../../../utils/publicaciones.json'
 import Image from 'next/image'
 import Link from 'next/link'
 import useTranslation from 'next-translate/useTranslation'
+import { useRouter } from 'next/router'
 
 const Publicacion = () => {
-
+    const { locale } = useRouter()
     const { t } = useTranslation('common')
     const newArticle = t('newArticle').toLocaleUpperCase()
     const fullArticle = t('viewFullArticle')
     const checkOurNewsroom = t('checkOurNewsroom')
     const lastNews = news[0]
+    const title = locale === 'es' ? lastNews.title : lastNews.titleEN
+    const description = locale === 'es' ? description : "*This article is written in Spanish"
+
 
     return (
         <>
@@ -24,10 +28,10 @@ const Publicacion = () => {
                         <p className='mb-4'>{newArticle}</p >
                         <Link href={`/publicaciones/${lastNews['path-url']}`}>
                             <a>
-                                <h3 className='mb-4'>{lastNews.title}</h3>
+                                <h3 className='mb-4'>{title}</h3>
                             </a>
                         </Link>
-                        <p>{lastNews.desc}</p >
+                        <p>{description}</p >
                         <div className='mt-auto mb-3'>
                             <Link href={`/publicaciones/${lastNews['path-url']}`}>
                                 <a className='read-more-btn-grey'>
@@ -54,13 +58,13 @@ const Publicacion = () => {
                     </div>
                     <div className='col-9 d-flex flex-column'>
                         <p className='mb-3 mt-2'>{newArticle}</p >
-                        <h3 className='mb-4'>{lastNews.title}</h3>
+                        <h3 className='mb-4'>{title}</h3>
                     </div>
                 </div>
 
                 <div className='row'>
                     <div className='col-12'>
-                        <p className='text-justify'>{lastNews.desc}</p >
+                        <p className='text-justify'>{description}</p >
                     </div>
                     <div className='col-12 my-3'>
                         <Link href={`/publicaciones/${lastNews['path-url']}`}>
