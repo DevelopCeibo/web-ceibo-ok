@@ -905,6 +905,30 @@ a:focus {
 	transform: scale(1.1);
 }
 
+.default-btn-three {
+	border: 2px solid white;
+	background: #b72837;
+	color: #fff;
+	border-radius: 6px;
+	text-align: center;
+	padding: 13px 30px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 15px;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	cursor: pointer;
+}
+
+.default-btn-three:hover,
+.default-btn-three:focus {
+	border: 2px solid black;
+	background: white;
+	color: black;
+	transform: scale(1.1);
+}
+
 /* section-title */
 .section-title {
 	text-align: center;
@@ -1296,7 +1320,7 @@ Navbar CSS
 	-webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
 	box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
 	background-color: #ffffff !important;
-	-webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+	-webkit: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 	animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
@@ -1607,7 +1631,7 @@ Main Banner CSS
 	margin-top: 50px;
 }
 
-.banner-animation-image2 {
+.banner-image2 {
 	text-align: center;
 }
 
@@ -1747,7 +1771,7 @@ Main Banner CSS
 
 .animate-banner-image img {
 	display: block !important;
-	-webkit-animation: border-transform 10s linear infinite alternate forwards;
+	-webkit: border-transform 10s linear infinite alternate forwards;
 	animation: border-transform 10s linear infinite alternate forwards;
 	margin: auto;
 }
@@ -2071,31 +2095,31 @@ Main Banner CSS
 	margin-top: 25px;
 }
 
-.banner-animation-image {
+.banner-image {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	margin-top: 30px;
 }
 
-.banner-animation-image img {
+.banner-image img {
 	position: absolute;
 	text-align: center;
 }
 
-.banner-animation-image img:nth-child(1) {
+.banner-image img:nth-child(1) {
 	left: 120px;
 	top: -72px;
 	z-index: 2;
 }
 
-.banner-animation-image img:nth-child(2) {
+.banner-image img:nth-child(2) {
 	left: 170px;
 	bottom: -130px;
 	z-index: 2;
 }
 
-.banner-animation-image img:nth-child(3) {
+.banner-image img:nth-child(3) {
 	left: 0;
 	bottom: 110px;
 	right: -250px;
@@ -2103,7 +2127,7 @@ Main Banner CSS
 	z-index: 2;
 }
 
-.banner-animation-image img:nth-child(4) {
+.banner-image img:nth-child(4) {
 	left: 38px;
 	right: 0;
 	margin: 0 auto;
@@ -2111,7 +2135,7 @@ Main Banner CSS
 	top: -67px;
 }
 
-.banner-animation-image img:nth-child(5) {
+.banner-image img:nth-child(5) {
 	left: 0;
 	bottom: -15px;
 	right: -250px;
@@ -2119,48 +2143,48 @@ Main Banner CSS
 	z-index: 2;
 }
 
-.banner-animation-image img:nth-child(6) {
+.banner-image img:nth-child(6) {
 	left: 170px;
 	bottom: 0;
 	z-index: 1;
 }
 
-.banner-animation-image img:nth-child(7) {
+.banner-image img:nth-child(7) {
 	left: 73px;
 	bottom: -15px;
 }
 
-.banner-animation-image img:nth-child(8) {
+.banner-image img:nth-child(8) {
 	left: -15px;
 	top: -40px;
 }
 
-.banner-animation-image img:nth-child(9) {
+.banner-image img:nth-child(9) {
 	left: 0;
 	right: -160px;
 	margin: 0 auto;
 	top: -115px;
 }
 
-.banner-animation-image img:nth-child(10) {
+.banner-image img:nth-child(10) {
 	right: 4px;
 	bottom: 0;
 	z-index: -1;
 }
 
-.banner-animation-image img:nth-child(11) {
+.banner-image img:nth-child(11) {
 	right: -70px;
 	top: -44px;
 	z-index: -2;
 }
 
-.banner-animation-image img:nth-child(12) {
+.banner-image img:nth-child(12) {
 	right: -75px;
 	bottom: -100px;
 	z-index: -1;
 }
 
-.banner-animation-image img.main-pic {
+.banner-image img.main-pic {
 	display: none;
 	position: relative;
 }
@@ -2506,6 +2530,16 @@ Featured Services CSS
 	align-self: start;
 	margin-top: auto;
 }
+.read-more-btn-grey {
+	color: grey;
+	display: inline-block;
+	/* position: relative; */
+	z-index: 1;
+	font-size: 15px;
+	font-weight: 600;
+	align-self: start;
+	margin-top: auto;
+}
 
 .read-more-btn:hover {
 	cursor: pointer;
@@ -2727,12 +2761,12 @@ About CSS
 }
 
 .red-circle::before {
-	-webkit-animation: ripple 2s linear infinite;
+	-webkit: ripple 2s linear infinite;
 	animation: ripple 2s linear infinite;
 }
 
 .red-circle::after {
-	-webkit-animation: ripple 2s linear 1s infinite;
+	-webkit: ripple 2s linear 1s infinite;
 	animation: ripple 2s linear 1s infinite;
 }
 
@@ -4921,13 +4955,13 @@ Our Work Process CSS
 }
 
 .rotateme {
-	-webkit-animation-name: rotateme;
+	-webkit-name: rotateme;
 	animation-name: rotateme;
-	-webkit-animation-duration: 20s;
+	-webkit-duration: 20s;
 	animation-duration: 20s;
-	-webkit-animation-iteration-count: infinite;
+	-webkit-iteration-count: infinite;
 	animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
+	-webkit-timing-function: linear;
 	animation-timing-function: linear;
 }
 
@@ -6540,7 +6574,7 @@ Page Title CSS
 	top: 20%;
 	z-index: -1;
 	left: 30px;
-	-webkit-animation: rotate3d 4s linear infinite;
+	-webkit: rotate3d 4s linear infinite;
 	animation: rotate3d 4s linear infinite;
 	opacity: 0.4;
 }
@@ -6557,7 +6591,7 @@ Page Title CSS
 	left: 25%;
 	bottom: 15%;
 	z-index: -1;
-	-webkit-animation: animationFramesOne 15s infinite linear;
+	-webkit: animationFramesOne 15s infinite linear;
 	animation: animationFramesOne 15s infinite linear;
 }
 
@@ -6566,7 +6600,7 @@ Page Title CSS
 	right: 25%;
 	bottom: 15%;
 	z-index: -1;
-	-webkit-animation: animationFramesOne 20s infinite linear;
+	-webkit: animationFramesOne 20s infinite linear;
 	animation: animationFramesOne 20s infinite linear;
 }
 
@@ -6575,7 +6609,7 @@ Page Title CSS
 	right: 5%;
 	top: 10%;
 	z-index: -1;
-	-webkit-animation: movebounce 5s linear infinite;
+	-webkit: movebounce 5s linear infinite;
 	animation: movebounce 5s linear infinite;
 	opacity: 0.2;
 }
@@ -6592,7 +6626,7 @@ Page Title CSS
 	left: 25%;
 	top: 15%;
 	z-index: -1;
-	-webkit-animation: animationFramesOne 20s infinite linear;
+	-webkit: animationFramesOne 20s infinite linear;
 	animation: animationFramesOne 20s infinite linear;
 }
 
@@ -8850,6 +8884,10 @@ abbr:hover {
 	background-color: #e6e6e6;
 }
 
+.bg-red-ceibo{
+	background-color: #b82837;
+}
+
 .text-red-ceibo {
 	color: #b82837;
 }
@@ -8878,4 +8916,113 @@ abbr:hover {
 
 .bottom-line{
 	border-bottom: 1px solid #e2e3e5
+}
+
+.counter {
+	color: #b82837;
+	font-size: 70px
+}
+
+  @property --num {
+	syntax: "<integer>";
+	initial-value: 0;
+	inherits: false;
+  }
+  
+  .counter-animation-years {
+	animation-name: counter-animation-years;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+	animation-duration: 2.5s;
+	animation-direction: normal;
+	counter-reset: num var(--num);
+  }
+  .counter-animation-years::after {
+	content: counter(num);
+  }
+  
+  @keyframes counter-animation-years {
+	from {
+	  --num: 0;
+	}
+	to {
+	  --num: 5;
+	}
+  }
+
+
+  .counter-animation-projects {
+	animation-name: counter-animation-projects;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+	animation-duration: 3s;
+	animation-direction: normal;
+	counter-reset: num var(--num);
+  }
+  .counter-animation-projects::after {
+	content: counter(num);
+  }
+  
+  @keyframes counter-animation-projects {
+	from {
+	  --num: 0;
+	}
+	to {
+	  --num: 37;
+	}
+  }
+  .counter-animation-countries {
+	animation-name: counter-animation-countries;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+	animation-duration: 3s;
+	animation-direction: normal;
+	counter-reset: num var(--num);
+  }
+  .counter-animation-countries::after {
+	content: counter(num);
+  }
+  
+  @keyframes counter-animation-countries {
+	from {
+	  --num: 0;
+	}
+	to {
+	  --num: 55;
+	}
+  }
+
+  .counter-content {
+	font-size: x-large;
+	margin-bottom: 0 !important;
+  }
+  
+  .who-makes-this-possible-item{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 1rem;
+  }
+  .who-makes-this-possible-item p{
+	border: 1px solid #b82837;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-radius: 50px;
+	font-weight: bold;
+	color: #b82837 !important;
+	text-align: center;
+
+  }
+  .who-makes-this-possible-item p:hover{
+	background-color: #b82837;
+	color: white !important;
+  }
+
+.swiper-scrollbar-horizontal{
+	height: 15px !important;
+	bottom: -20px !important;
+}
+
+.font-xl-p{
+	font-size: large !important;
 }

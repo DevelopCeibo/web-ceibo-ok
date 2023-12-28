@@ -1,9 +1,10 @@
 import React from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Pagination, Autoplay } from "swiper"
+import { Pagination, Autoplay, Mousewheel } from "swiper"
 import "swiper/css"
 import "swiper/css/autoplay"
 import "swiper/css/pagination"
+import "swiper/css/mousewheel"
 import useTranslation from "next-translate/useTranslation"
 import Image from "next/image"
 
@@ -25,7 +26,8 @@ const Partner = () => {
             }}
             spaceBetween={0}
             slidesPerView={1}
-            modules={[Pagination, Autoplay]}
+            mousewheel={true}
+            modules={[Pagination, Autoplay, Mousewheel]}
             autoplay={{ delay: 4000 }}
             className="feedback-slides"
           >
