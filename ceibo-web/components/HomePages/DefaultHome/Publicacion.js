@@ -13,7 +13,7 @@ const Publicacion = () => {
     const checkOurNewsroom = t('checkOurNewsroom')
     const lastNews = news[0]
     const title = locale === 'es' ? lastNews.title : lastNews.titleEN
-    const description = locale === 'es' ? description : "*This article is written in Spanish"
+    const description = locale === 'es' ? lastNews.desc : "*This article is written in Spanish"
 
 
     return (
