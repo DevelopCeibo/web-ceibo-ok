@@ -18,9 +18,9 @@ const Services = () => {
   const conocermas = t("conocermas")
 
   return (
-    <>
-      <div className="pt-100 pb-70">
-        <div className="container bg-fcfbfb py-5">
+    <div className="pt-100 pb-70">
+      <div className="bg-fcfbfb">
+        <div className="container py-5">
           <div className="section-title">
             <h2>{quehacemos}</h2>
           </div>
@@ -102,8 +102,7 @@ const Services = () => {
                 {/* <i className="pe-7s-cart bg-00d280"></i> */}
                 <img
                   src="/images-ceibo/areasdeservicio/customer-engagement@2x.png"
-                  alt="Customer Engagement
-"
+                  alt="Customer Engagement"
                 />
                 <h3>{customereng}</h3>
                 <p>{customerengTxt}</p>
@@ -123,7 +122,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
