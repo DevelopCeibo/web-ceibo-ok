@@ -13,7 +13,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -36,7 +35,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -59,7 +57,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -82,7 +79,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -105,7 +101,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -128,7 +123,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -173,7 +167,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -196,7 +189,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -205,7 +197,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "TOMÁS BELL",
 		"linkedinurl": "https://www.linkedin.com/in/tomas-bell-7646281/",
@@ -220,7 +211,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -243,7 +233,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -266,7 +255,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -289,7 +277,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -312,7 +299,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -331,8 +317,16 @@
 			"nickname": "Vicky",
 			"quote": "Tener una experiencia previa en una de las Big Four de consultoría me permite valorar más lo que es Ceibo. Tenés responsabilidades que en consultoras más grandes no tendrías, la curva de aprendizaje es altísima, y hay un excelente clima de trabajo y buena onda desde el más junior hasta el más senior.",
 			"quoteEN": "Having previous experience at one of the 'Big Four' firms allows me to appreciate Ceibo even more. You have responsibilities that you might not encounter in larger consulting firms, the learning curve is very steep, and there is an excellent working environment.",
-			"tags": ["Aprendizaje", "Desafiante", "Diversión"],
-			"tagsEN": ["Learning", "Challenging", "Fun"],
+			"tags": [
+				"Aprendizaje",
+				"Desafiante",
+				"Diversión"
+			],
+			"tagsEN": [
+				"Learning",
+				"Challenging",
+				"Fun"
+			],
 			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Victoria Selva.png"
 		},
 		"globalTalent": {
@@ -357,7 +351,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -376,8 +369,16 @@
 			"nickname": "Sofi",
 			"quote": "Ceibo combina muchos aspectos clave que aspiraba a encontrar en una empresa: un excelente clima de trabajo y buena onda entre todos, la posibilidad de trabajar y conocer variedad de industrias, y la necesidad de capacitarme en nuevos temas para desarrollar mis actividades.",
 			"quoteEN": "Ceibo combines many key aspects that I aspired to find in a company: an excellent working environment, the opportunity to work in and learn about a variety of industries, and the possibility to receive training in new subjects to further develop my capabilities.",
-			"tags": ["Dinámico", "Desafiante", "Aprendizaje"],
-			"tagsEN": ["Dynamic", "Challenging", "Learning"],
+			"tags": [
+				"Dinámico",
+				"Desafiante",
+				"Aprendizaje"
+			],
+			"tagsEN": [
+				"Dynamic",
+				"Challenging",
+				"Learning"
+			],
 			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Sofia Ronchi Rivara.png"
 		},
 		"globalTalent": {
@@ -402,7 +403,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "A nivel laboral, la experiencia del Epic Camp me resultó realmente enriquecedora, ya que tuve la oportunidad de compartir el dia a dia de trabajo con otros 4 ceibers, compartiendo cada uno sus conocimientos y habilidades, generando sinergias, a pesar de estar cada uno en un proyecto distinto. A nivel personal, la experiencia me dejó cuatro nuevos amigos",
 			"edition": "edición Miami 2021",
@@ -411,7 +411,6 @@
 			"img": "/images-ceibo/sumatealequipo/talento-global/alina-ibañez.png"
 		}
 	},
-
 	{
 		"nombre": "BELTRÁN GANDOLFO",
 		"linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
@@ -422,8 +421,16 @@
 			"nickname": "Corcho",
 			"quote": "Ceibo me da la oportunidad de trabajar con gente que busca encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, como pueden ser tecnología y desarrollo.",
 			"quoteEN": "Ceibo gives me the opportunity to work with people who are constantly seeking to discover their best selves and to learn from individuals with expertise in various areas of knowledge that interest me, such as technology and development.",
-			"tags": ["Trabajo en equipo", "Autonomía", "Aprendizaje"],
-			"tagsEN": ["Teamwork", "Autonomy", "Learning"],
+			"tags": [
+				"Trabajo en equipo",
+				"Autonomía",
+				"Aprendizaje"
+			],
+			"tagsEN": [
+				"Teamwork",
+				"Autonomy",
+				"Learning"
+			],
 			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Beltran Gandolfo.png"
 		},
 		"globalTalent": {
@@ -448,7 +455,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -471,7 +477,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -494,7 +499,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -503,7 +507,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "ANTONELLA SCHIAVELLO",
 		"linkedinurl": "https://www.linkedin.com/in/antonellaschiavello",
@@ -518,7 +521,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -541,7 +543,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -564,7 +565,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -587,7 +587,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -596,7 +595,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "FELICITAS VIVO",
 		"linkedinurl": "https://www.linkedin.com/in/felicitasvivo/?originalSubdomain=ar",
@@ -611,7 +609,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -634,7 +631,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -657,7 +653,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "Me entusiasma la idea de viajar y compartir junto a otros Ceibers y conocer otra cultura diferente a la nuestra. También poder visitar las oficinas de Miami y trabajar personalmente con David Wilson, nuestro Managing Partner.",
 			"edition": "edición Miami 2023",
@@ -680,7 +675,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -689,7 +683,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "MARTÍN IUVARO",
 		"linkedinurl": "https://www.linkedin.com/in/mart%C3%ADn-iuvaro-a77a28206/",
@@ -700,8 +693,16 @@
 			"nickname": "Tincho",
 			"quote": "Ceibo me permite explorar distintas áreas e industrias que siempre me interesaron y otras que no hubiese explorado por mi cuenta. Lo considero un ambiente dinámico, de mucho aprendizaje, con gran flexibilidad y, sobre todo, con personas increíbles.",
 			"quoteEN": "Ceibo has enabled me to explore various areas and industries that have always interested me, ones I might not have explored on my own. I consider it a dynamic environment with ample learning opportunities, great flexibility, and, above all, incredible people.",
-			"tags": ["Dinámico", "Desafiante", "Nutritivo"],
-			"tagsEN": ["Dynamic", "Nourishing", "Challenging"],
+			"tags": [
+				"Dinámico",
+				"Desafiante",
+				"Nutritivo"
+			],
+			"tagsEN": [
+				"Dynamic",
+				"Nourishing",
+				"Challenging"
+			],
 			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Martin Iuvaro.png"
 		},
 		"globalTalent": {
@@ -722,8 +723,16 @@
 			"nickname": "Santi",
 			"quote": "Lo que más valoro de trabajar en Ceibo es el equipo humano y las oportunidades de aprendizaje. Desde el primer día, tienes responsabilidad y autonomía en tu trabajo, así como frecuentes oportunidades de feedback que te ayudan a mejorar constantemente.",
 			"quoteEN": "What I value most about working at Ceibo is the human team and the learning opportunities. The group is composed of extremely warm, collaborative, hardworking, and ambitious individuals. From day one, you have responsibility and a lot of autonomy in your work area, as well as many opportunities for feedback that help you build yourself towards a better version.",
-			"tags": ["Dinámico", "Variedad", "Pensamiento crítico"],
-			"tagsEN": ["Dynamic", "Innovative", "Critical thinking"],
+			"tags": [
+				"Dinámico",
+				"Variedad",
+				"Pensamiento crítico"
+			],
+			"tagsEN": [
+				"Dynamic",
+				"Innovative",
+				"Critical thinking"
+			],
 			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Santiago Sin.png"
 		},
 		"globalTalent": {
@@ -748,7 +757,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -771,7 +779,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -794,7 +801,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -817,7 +823,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -829,7 +834,7 @@
 	{
 		"nombre": "NICOLÁS PERNICE",
 		"linkedinurl": "https://www.linkedin.com/in/nicolaspernice",
-		"src": "/images-ceibo/integrantes/.png",
+		"src": "/images-ceibo/integrantes/Nicolas Pernice.png",
 		"posicion": "ASSOCIATE",
 		"email": "nicolas.pernice@ceibo.digital",
 		"ceiber": {
@@ -840,7 +845,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -863,7 +867,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -886,7 +889,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -909,7 +911,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -932,7 +933,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -955,7 +955,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -978,7 +977,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1001,7 +999,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1024,7 +1021,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1047,7 +1043,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1070,7 +1065,28 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "CAMILA BENGOLEA",
+		"linkedinurl": "https://www.linkedin.com/in/camilabengolea",
+		"src": "/images-ceibo/integrantes/Camila Bengolea.png",
+		"posicion": "MARKETING ANALYST",
+		"email": "camila.bengolea@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1093,7 +1109,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1102,7 +1117,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "JUANA SCHULMEIER",
 		"linkedinurl": "https://www.linkedin.com/in/juana-schulmeier-0ba59224a",
@@ -1117,7 +1131,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1140,7 +1153,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1163,7 +1175,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1172,7 +1183,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "FLORENCIA URRUTIA",
 		"linkedinurl": "https://www.linkedin.com/in/florencia-urrutia-330199b7/",
@@ -1187,7 +1197,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
@@ -1210,7 +1219,6 @@
 			"tagsEN": [],
 			"img": ""
 		},
-
 		"globalTalent": {
 			"quote": "",
 			"edition": "",
