@@ -16,7 +16,6 @@ const Publicacion = () => {
 
     return (
         <>
-
             <div className='container d-none d-md-block my-5'>
                 <div className='row background-grey'>
                     <div className='col-md-6 py-4 px-3 d-none d-md-flex justify-content-end'>
@@ -51,18 +50,15 @@ const Publicacion = () => {
                     </div>
                 </div>
             </div >
-            <div className='container d-md-none background-grey py-2 my-5'>
+            <div className='container d-md-none background-grey py-4 my-5'>
                 <div className='row'>
-                    <div className='col-3 my-auto'>
-                        <Image src={lastWebinar.img} height={400} width={400}></Image>
+                    <div className='col-12 my-auto'>
+                        <Image src={lastWebinar.img} width={600} height={400} ></Image>
                     </div>
-                    <div className='col-9 d-flex flex-column'>
-                        <p className='mb-3 mt-2'>{newWebinar}</p >
+                    <div className='col-12 d-flex flex-column'>
+                        <p className='mb-2 mt-3'>{newWebinar}</p >
                         <h3 className='mb-4'>{lastWebinar.title}</h3>
                     </div>
-                </div>
-
-                <div className='row'>
                     <div className='col-12'>
                         <p className='text-justify'>{lastWebinar.desc}</p >
                     </div>

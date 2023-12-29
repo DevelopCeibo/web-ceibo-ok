@@ -531,13 +531,17 @@
 		font-size: 13px;
 	}
 	.single-blog-item .blog-post-content {
-		padding: 25px;
+		padding: 10px;
 	}
 	.single-blog-item .blog-post-content .date {
 		font-size: 13px;
 	}
 	.single-blog-item .blog-post-content h3 {
 		font-size: 20px;
+	}
+	.single-blog-item .blog-post-content.blog.featured{
+		padding: 10px;
+		min-height: auto;
 	}
 	.cta-area {
 		padding-top: 50px;

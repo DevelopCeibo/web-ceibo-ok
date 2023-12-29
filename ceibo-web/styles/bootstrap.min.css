@@ -7114,6 +7114,9 @@ fieldset:disabled .btn {
 .w-75 {
   width: 75% !important;
 }
+.w-90 {
+  width: 90% !important;
+}
 .w-100 {
   width: 100% !important;
 }
@@ -7587,6 +7590,9 @@ fieldset:disabled .btn {
 }
 .ps-5 {
   padding-left: 3rem !important;
+}
+.ps-6 {
+  padding-left: 8rem !important;
 }
 .gap-0 {
   gap: 0 !important;

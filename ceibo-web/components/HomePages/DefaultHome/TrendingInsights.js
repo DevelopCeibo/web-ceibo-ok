@@ -29,7 +29,7 @@ const Hightlight = ({ includeTitle }) => {
                                 </Link>
                             </div>
                             <div
-                                className={`blog-post-content ${locale == "es" ? "blog" : ""
+                                className={`blog-post-content ${locale == "es" ? "blog" : "insight-card-en"
                                     } insight-card featured`}
                             >
                                 <h3>

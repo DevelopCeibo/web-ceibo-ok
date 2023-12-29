@@ -5776,6 +5776,9 @@ Blog CSS
 	flex-direction: column;
 	/* justify-content: space-around; */
 }
+.single-blog-item .insight-card.insight-card-en {
+	min-height: auto;
+}
 /* .single-blog-item .blog-post-content-short {
   padding: 30px;
   min-height: 185px;
