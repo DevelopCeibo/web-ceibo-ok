@@ -54,7 +54,7 @@ const Publicacion = () => {
             <div className='container d-md-none background-grey py-4 my-5'>
                 <div className='row'>
                     <div className='col-12 my-auto'>
-                        <Image src={lastWebinar.img} layout='fill' ></Image>
+                        <Image src={lastWebinar.img} width={400} height={266} ></Image>
                     </div>
                     <div className='col-12 d-flex flex-column'>
                         <p className='mb-2 mt-3'>{newWebinar}</p >
