@@ -19,10 +19,10 @@ const Publicacion = () => {
             <div className='container d-none d-md-block my-5'>
                 <div className='row'>
                     <div className='col-1'></div>
-                    <div className='col-5 py-4 px-3 d-none d-md-flex justify-content-end background-grey'>
+                    <div className='col-4 py-4 ps-4 pe-0 d-none d-md-flex justify-content-end background-grey'>
                         <Image src={lastWebinar.img} width={400} height={266}></Image>
                     </div>
-                    <div className='col-6 py-4 d-flex flex-column background-grey'>
+                    <div className='col-6 py-4 ps-4 d-flex flex-column background-grey'>
                         <p className='mb-4'>{newWebinar}</p >
                         <Link href={`/eventos/${lastWebinar['path-url']}`}>
                             <a>
@@ -49,6 +49,7 @@ const Publicacion = () => {
                             </Link>
                         </div>
                     </div>
+                    <div className='col-1'></div>
                 </div>
             </div >
             <div className='container d-md-none background-grey py-4 my-5'>

@@ -21,11 +21,11 @@ const Publicacion = () => {
 
             <div className='container d-none d-md-block my-5'>
                 <div className='row'>
-                    <div className='col-md-1'></div>
-                    <div className='col-md-5 py-4 px-5 d-none d-md-flex justify-content-end background-grey'>
+                    <div className='col-1'></div>
+                    <div className='col-4 py-3 pe-2 d-none d-md-flex justify-content-end background-grey'>
                         <Image src={lastNews.img} height={350} width={350}></Image>
                     </div>
-                    <div className='col-md-6 py-4 d-flex flex-column background-grey'>
+                    <div className='col-md-6 py-3 d-flex flex-column background-grey'>
                         <p className='mb-4'>{newArticle}</p >
                         <Link href={`/publicaciones/${lastNews['path-url']}`}>
                             <a>
@@ -50,6 +50,7 @@ const Publicacion = () => {
                             </Link>
                         </div>
                     </div>
+                    <div className='col-1'></div>
                 </div>
             </div >
             <div className='container d-md-none background-grey py-4 my-5'>
