@@ -21,20 +21,18 @@ const ComoAyudamosANuestrosClientes = () => {
     const { t } = useTranslation('common')
     const { locale } = useRouter()
     const title = t("howWeHelpClients")
-    const subtitle = t("digitalTransformationSuccess")
     const text = t("digitalTransformationSuccessText")
 
     const activeStories = locale === 'es' ? successStories : successStoriesEN
 
     return (
         <div className='container my-5'>
-            <div className='section-title'>
+            <div className='section-title mb-4'>
                 <h2>
                     {title}
                 </h2>
             </div>
             <div className='d-flex flex-column align-items-center'>
-                <h3>{subtitle}</h3>
                 <p>{text}</p>
             </div>
             <Swiper
