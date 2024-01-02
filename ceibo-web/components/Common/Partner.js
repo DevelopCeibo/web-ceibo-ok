@@ -7,6 +7,7 @@ import "swiper/css/pagination"
 import "swiper/css/mousewheel"
 import useTranslation from "next-translate/useTranslation"
 import Image from "next/image"
+import uniqid from 'uniqid'
 
 const Partner = () => {
   const { t } = useTranslation("common")
@@ -81,19 +82,13 @@ const Partner = () => {
 
             {partnerImages.map((image,i)=>{
               return (
-              <SwiperSlide>
-                {/* <div className="row align-items-center justify-content-center" key={i}> */}
-                  {/* <div className="col-lg-2 col-6 col-sm-4"> */}
-                    {/* <div className="single-partner"> */}
+              <SwiperSlide key={uniqid()}>
                       <img
                         src={image.src}
                         alt={image.alt}
                         className="img-grey"
                         width={image.width}
                       />
-                    {/* </div> */}
-                  {/* </div> */}
-                {/* </div> */}
               </SwiperSlide>)
             })}
             </Swiper>

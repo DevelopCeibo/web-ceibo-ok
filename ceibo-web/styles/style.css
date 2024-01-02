@@ -3964,6 +3964,9 @@ Feedback CSS
 	position: initial;
 	margin-top: 20px;
 }
+.feedback-slides .swiper-wrapper {
+	align-items: center;
+}
 
 .feedback-slides .swiper-pagination .swiper-pagination-bullet {
 	width: 12px;
