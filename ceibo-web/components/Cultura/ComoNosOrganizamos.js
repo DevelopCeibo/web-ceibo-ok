@@ -36,7 +36,7 @@ const ComoNosOrganizamos = () => {
                 <p className="text-justify">
                   {consultingTeamDesc}
                 </p>
-                <div className={`mt-auto  ${window.innerWidth < 992 ? 'd-flex justify-content-center' : ''}`}>
+                <div className="mt-auto d-flex justify-content-center justify-content-lg-start">
                   <button className="btn btn-primary text-transform-none">{joinConsultant}</button>
                 </div>
 
@@ -51,7 +51,7 @@ const ComoNosOrganizamos = () => {
                 <p className="text-justify">
                   {specialistsDesc}
                 </p>
-                <div className={`mt-auto  ${window.innerWidth < 992 ? 'd-flex justify-content-center' : ''}`}>
+                <div className="mt-auto d-flex justify-content-center justify-content-lg-start">
                   <button className="btn btn-primary text-transform-none">{joinSpecialist}</button>
                 </div>
               </div>
