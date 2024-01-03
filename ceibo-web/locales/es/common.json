@@ -161,8 +161,8 @@
 	"transformarTxt": "Liderar con cambios",
 	"transformarTxtImage": "Gestionamos eficazmente los cambios en las organizaciones, adaptándonos a nuevos contextos y enfocandonos siempre en lo positivo. En Ceibo Digital buscamos abrazar con entusiasmo los diferentes desafíos y estamos convencidos de que para crecer debemos movernos y desafiarnos a salir de nuestra zona de confort.",
 	"transformarTitleBack": "Growth and confort do not coexist",
-	"organizacion": "Cómo nos organizamos en Ceibo",
-	"organizacionSubt": "En Ceibo estamos organizados en 3 capas. Esta modalidad responde a una forma flexible y dinámica de una compañía digital preparada para solucionar los desafíos más exigentes de nuestros clientes. Esta decisión se apoya en los conceptos de cercanía, flexibilidad y trabajo en red, alineados con las últimas tendencias de las empresas digitales.",
+	"organizacion": "Cómo nos organizamos",
+	"organizacionSubt": "En Ceibo creemos que la mejor manera de trabajar es de forma dinámica, motivada y colaborativa. Por eso, ofrecemos dos modalidades de trabajo diferentes: Consulting Team y Specialist Crew. Estas modalidades buscan alinearse con los objetivos profesionales de cada colaborador.",
 	"teamCeiboTxt1": "Es una propuesta de valor para aquellos colaboradores que quieren crecer profesionalmente en su carrera acompañando el crecimiento de Ceibo. ",
 	"teamCeiboTxt2": "Con dedicación full-time en Ceibo, tienen la carrera profesional planificada donde crecer no es una opción, es la única opción dentro de Ceibo. Todos los miembros de Team, además de su trabajo tienen su ”Ceiber Contribution” (CC). Los CC son asignaciones clave donde cada miembro de Team los lidera colaborando con el crecimiento de Ceibo y les permite involucrarse más con éxito de la compañía. Algunos de nuestros CC son Recruiting, Eventos, Marketing, Knowledge Management.",
 	"comunidad": "Comunidad",
@@ -718,5 +718,10 @@
 	"viewFullWebinar": "Ver webinar completo",
 	"checkOurWebinars": "Ver todos nuestros webinars",
 	"howWeHelpClients": "Cómo ayudamos a nuestros clientes",
-	"digitalTransformationSuccessText": "La transformación digital constituye el pilar fundamental hacia el éxito. Ayudamos a nuestros clientes en la repensar su modelo de negocios, a la luz de nuevos escenarios competitivos, nuevas demandas y nuevas tecnologías"
+	"digitalTransformationSuccessText": "La transformación digital constituye el pilar fundamental hacia el éxito. Ayudamos a nuestros clientes en la repensar su modelo de negocios, a la luz de nuevos escenarios competitivos, nuevas demandas y nuevas tecnologías",
+	"specialistCrew":"Specialist Crew es una propuesta de valor para aquellos colaboradores que buscar  comenzar o seguir construyendo una carrera en datos, growth marketing o desarrollo. Permite una modalidad full-time o part-time, mayor flexibilidad, trabajar por objetivos y disfrutar de seguir especializándose en un área de expertise.",
+	"joinSpecialistCrew": "Unite al Specialist Crew",
+	"consultingTeam":"Consulting Team es una propuesta de valor para aquellos colaboradores que quieren comenzar o continuar creciendo profesionalmente en su carrera en consultoría. Con dedicación full-time en Ceibo, tienen una carrera profesional planificada donde crecer es una prioridad. Además, de tener la oportunidad de participar en proyectos desafiantes y de alto impacto, con clientes de todo el mundo, cada Ceiber tienen asignado un ”Ceiber Contribution” (CC). Los CC son asignaciones clave donde cada miembro colabora con el crecimiento de Ceibo y conoce nuevas áreas de interés. Algunos de nuestros CC son Recruiting, Eventos, Marketing, Knowledge Management.",
+	"joinConsultingTeam": "Unite al Consulting Team"
+
 }

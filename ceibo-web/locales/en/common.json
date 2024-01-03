@@ -162,7 +162,7 @@
 	"transformarTitleBack": "Growth and confort do not coexist",
 	"transformarTxtImage": "We effectively manage changes in organizations, adapting to new contexts and always focusing on the positive. We enthusiastically embrace the different challenges and we are passionate about unlocking the potential of our clients and making change happen.",
 	"organizacion": "Our way of organizing Ceibo",
-	"organizacionSubt": "At Ceibo, we are organized into three layers. This form of collaboration reflects the flexibility and dynamism of a digital company prepared to solve our clients' most demanding challenges. This decision is based on proximity, flexibility, and networking, aligned with the latest trends in digital companies.",
+	"organizacionSubt": "At Ceibo, we embrace a dynamic, motivated, and collaborative approach to work. That's why we provide two distinct working modalities: Consulting Team and Specialist Crew. These options are designed to align with the individual professional goals of each collaborator.",
 	"teamCeiboTxt1": "Team is our value proposition for those collaborators who aim to grow professionally in their careers alongside Ceibo’s growth.",
 	"teamCeiboTxt2": "With full-time dedication at Ceibo, they have a planned career path in which growth is not a choice but the only option. All Team members, in addition to their projects, have a Ceiber Contribution (CC). The CCs are key assignments each Team member can lead, contributing to Ceibo’s growth and allowing them to get deeply involved in the company's success. Some of our CCs are Recruiting, Events, Marketing and Knowledge Management.",
 	"comunidad": "Community",
@@ -719,5 +719,10 @@
 	"viewFullWebinar": "Watch full webinar",
 	"checkOurWebinars": "Check out all our webinars",
 	"howWeHelpClients": "How we help our clients",
-	"digitalTransformationSuccessText": "Digital transformation constitutes the fundamental pillar towards success. We help our clients rethink their business models in light of new competitive scenarios, emerging demands, and new technologies"
+	"digitalTransformationSuccessText": "Digital transformation constitutes the fundamental pillar towards success. We help our clients rethink their business models in light of new competitive scenarios, emerging demands, and new technologies",
+	"specialistCrew": "Specialist Crew is a value proposition for those collaborators who seek to start or continue building a career in data, growth marketing, or development. It allows for both full-time or part-time modalities, greater flexibility, working towards objectives, and the enjoyment of specializing in an area of expertise.",
+	"joinSpecialistCrew": "Join the Specialist Crew",
+	"consultingTeam": "Consulting Team is a value proposition for those collaborators who want to start or continue growing professionally in their consulting career. With full-time dedication at Ceibo, they have a planned professional career where growth is a priority. In addition to having the opportunity to participate in challenging and high-impact projects with clients from around the world, each Ceiber is assigned a 'Ceiber Contribution' (CC). CCs are key assignments where each member contributes to Ceibo's growth and explores new areas of interest. Some of our CCs include Recruiting, Events, Marketing, and Knowledge Management.",
+	"joinConsultingTeam": "Join the Consulting Team"
+
 }

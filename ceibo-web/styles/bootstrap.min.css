@@ -7699,6 +7699,9 @@ fieldset:disabled .btn {
 .text-wrap {
   white-space: normal !important;
 }
+.text-transform-none {
+  text-transform: none !important;
+}
 .text-nowrap {
   white-space: nowrap !important;
 }
