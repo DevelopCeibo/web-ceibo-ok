@@ -23,8 +23,8 @@ const ComoNosOrganizamos = () => {
       <div className="container">
         <div className="section-title">
           <h2>{organizacion}</h2>
-          <p>{organizacionSubt}</p>
         </div>
+          <p className="text-center">{organizacionSubt}</p>
         <ResponsiveIFrame videoSrc={"https://www.youtube.com/embed/HSOW3apOffc"} />
         <div className="bottom-line my-4">
           <button className={roleType === 'consultant' ? 'selected-item me-4' : 'unselected-item me-4'} onClick={() => setRoleType('consultant')}>{consultants}</button>
