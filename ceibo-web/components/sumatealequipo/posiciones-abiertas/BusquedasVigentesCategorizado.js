@@ -19,14 +19,14 @@ const BusquedasVigentes = () => {
     <div className="pt-70 pb-60 mb-3 mt-4">
       <div className="container">
         <div className="section-title " id="busquedas-vigentes">
-          <h2>{rolesParaConsultores}</h2>
+          <h2 id="roles-consultores">{rolesParaConsultores}</h2>
         </div>
 
         <BusquedasVigentesIndividual arregloDeVacantes={vacantesConsultores} />
 
         <div className="container mt-6">
           <div className="section-title " id="busquedas-vigentes">
-            <h2>{rolesParaEspecialistas}</h2>
+            <h2 id="roles-especialistas">{rolesParaEspecialistas}</h2>
           </div>
 
           <BusquedasVigentesIndividual

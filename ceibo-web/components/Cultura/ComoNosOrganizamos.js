@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ResponsiveIFrame from "../Common/ResponsiveIFrame"
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
+import Link from "next/link"
 
 const ComoNosOrganizamos = () => {
   const { t } = useTranslation("common");
@@ -37,12 +38,16 @@ const ComoNosOrganizamos = () => {
                   {consultingTeamDesc}
                 </p>
                 <div className="mt-auto d-flex justify-content-center justify-content-lg-start">
+                  <Link href={"/sumate-al-equipo/busquedas-vigentes/#roles-consultores"}>
                   <button className="btn btn-primary text-transform-none">{joinConsultant}</button>
+                  </Link>
                 </div>
 
               </div>
               <div className="col-12 col-lg-4 d-none d-lg-block">
+                <Link href={"/sumate-al-equipo/busquedas-vigentes/#roles-especialistas"}>
                 <Image src={"/images-ceibo/sumatealequipo/desarrollo/image-consultants.png"} height={250} width={325} ></Image>
+                </Link>
               </div>
             </>
             :
