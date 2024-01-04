@@ -39,15 +39,13 @@ const ComoNosOrganizamos = () => {
                 </p>
                 <div className="mt-auto d-flex justify-content-center justify-content-lg-start">
                   <Link href={"/sumate-al-equipo/busquedas-vigentes/#roles-consultores"}>
-                  <button className="btn btn-primary text-transform-none">{joinConsultant}</button>
+                    <button className="btn btn-primary text-transform-none">{joinConsultant}</button>
                   </Link>
                 </div>
 
               </div>
               <div className="col-12 col-lg-4 d-none d-lg-block">
-                <Link href={"/sumate-al-equipo/busquedas-vigentes/#roles-especialistas"}>
                 <Image src={"/images-ceibo/sumatealequipo/desarrollo/image-consultants.png"} height={250} width={325} ></Image>
-                </Link>
               </div>
             </>
             :
@@ -57,7 +55,9 @@ const ComoNosOrganizamos = () => {
                   {specialistsDesc}
                 </p>
                 <div className="mt-auto d-flex justify-content-center justify-content-lg-start">
-                  <button className="btn btn-primary text-transform-none">{joinSpecialist}</button>
+                  <Link href={"/sumate-al-equipo/busquedas-vigentes/#roles-especialistas"}>
+                    <button className="btn btn-primary text-transform-none">{joinSpecialist}</button>
+                  </Link>
                 </div>
               </div>
               <div className="col-12 col-lg-4 d-none d-lg-block">
