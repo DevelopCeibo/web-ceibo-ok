@@ -1,6 +1,181 @@
 [
 
 	{
+		"id": "32",
+		"path-url": "ceibo-revista-ceo-paraguay",
+		"title": "Ceibo Digital en Revista CEO py",
+		"titleEN": "Ceibo Digital at 'CEO py' magazine",
+		"img": "/images-ceibo/publicaciones/ceo-py/banner.png",
+		"desc": "Hernan Gutsztat, partner de Ceibo Digital, conversa con la revista CEO py para analizar los aspectos claves de la transformación digital.",
+		"content": [
+
+			{
+				"type": "first-p",
+				"text": "En un mundo empresarial cada vez más digitalizado, la implementación de estrategias de transformación digital se ha convertido en una necesidad imperante para las organizaciones que buscan mantener su relevancia y competitividad."
+			},
+			{
+				"type": "first-p",
+				"text": "No obstante, este proceso de cambio no está exento de desafíos y consideraciones cruciales que deben ser abordados de manera efectiva. "
+			},
+			{
+				"type": "first-p",
+				"text": "En este contexto, es esencial comprender tanto los obstáculos comunes que enfrentan las empresas en su viaje hacia la transformación digital como las mejores prácticas para involucrar a los empleados y fomentar una cultura de innovación."
+			},
+			{
+				"type": "first-p",
+				"text": "A lo largo de este análisis, con Hernan Gutsztat, partner de Ceibo Digital, exploraremos estos aspectos clave y examinaremos la evolución de la relación entre la innovación y la transformación digital en el panorama empresarial actual. También discutiremos las tecnologías emer- gentes con un impacto prometedor en diversas industrias y la creciente importancia de la seguridad informática en este contexto de cambio constante."
+			},
+			{
+				"type": "subtitle",
+				"text": "CEO py: ¿Cuáles son los desafíos más comunes que enfrentan las organizaciones al implementar estrategias de transformación digital?"
+			},
+			{
+				"type": "p",
+				"text": "**HG:** Al implementar un plan de transformación digital, las organizaciones se enfrentan a diversos desafíos fundamentales. En primer lugar, es crucial contar con un sólido conocimiento del mercado y su ecosistema, incluyendo nuevos competidores emergentes, sus capacidades, estructuras de costos, propuestas de valor, tecnologías y regulaciones. En segundo lugar, es esencial centrarse en las nuevas necesidades de los consumidores y clientes, con especial foco en la experiencia, más allá de los productos o servicios. Tercero, comprender el entorno tecnológico que rodea al negocio para generar innovación y ventajas competitivas. Sin embargo, uno de los desafíos más críticos es la transformación cultural."
+			},
+			{
+				"type": "subtitle",
+				"text": "CEO py: En esta línea, ¿Cuáles son las mejores prácticas para involucrar a los empleados en la transformación digital y fomentar una cultura de innovación en las organizaciones?"
+			},
+			{
+				"type": "p",
+				"text": "**HG:** Es esencial asegurar que toda la organización se involucre en este proceso, apoyar a los agentes de cambio y, en algunos casos, abordar a los detractores de dicho cambio, son pasos necesarios para la innovación de una empresa. La transformación cultural puede determinar la velocidad de la transformación digital y su importancia radica en garantizar una transición efectiva hacia un modelo digital en toda la organización."
+			},
+			{
+				"type": "subtitle",
+				"text": "CEO py: ¿Cómo ha evolucionado la relación entre la innovación y la transformación digital en las empresas en los últimos años?"
+			},
+			{
+				"type": "p",
+				"text": "**HG:** En los últimos años, la relación entre la innovación y la transformación digital en las empresas ha evolucionado significativamente. Anteriormente, la innovación era más 'anárquica' y aislada en las organizaciones, con iniciativas dispersas en diferentes áreas. Sin embargo, la transformación digital ha introducido una metodología más estructurada y sistemática en el proceso de innovación. Actualmente se enfatiza este proceso con la utilización de herramientas y enfoques ágiles que permiten pasar de una idea a un producto mínimo viable en un marco de tiempo definido, a través de células multi-disciplinarias. En resumen, la transformación digital ha proporcionado una estructura y una metodología que permite a las empresas adquirir las capacidades necesarias para innovar de manera más efectiva."
+			},
+			{
+				"type": "subtitle",
+				"text": "CEO py: Cuáles son las tecnologías emergentes que cree que tendrán mayor impacto en las industrias en los próximos años?"
+			},
+			{
+				"type": "p",
+				"text": "**HG:** En cuanto a las tecnogías emergentes con mayor impacto en las industrias en los próximos años, la inteligencia artificial es clave. Aunque ya ha madurado significativamente, aún tiene un gran potencial por explorar en términos de conversación, interpretación de imágenes, textos y traducción. Su relevancia crecerá aún más cuando más empresas la adopten en diversas áreas, como lo han hecho las empresas de servicios financieros y comunicaciones, entre otras. También se van a seguir profundizando tecnologías como la de blockchain. Habrá más implementaciones relacionadas con los contratos inteligentes y la trazabilidad. Esto ya se está viendo especialmente en el mundo del agro, producción de materias primas y logística."
+			},
+			{
+				"type": "subtitle",
+				"text": "CEO py: ¿Qué papel desempeñan los datos y la analítica en la transformación digital de las instituciones?"
+			},
+			{
+				"type": "p",
+				"text": "**HG:** La analítica es otra tecnología emergente que está ganando impulso, especialmente en sectores industriales y manufactureros, donde agrega valor en la toma de decisiones y planificación de la demanda y producción. También se observa un crecimiento en su aplicación en el mundo financiero y en el marketing, lo que demuestra su creciente relevancia en la mejora de estrategias y la toma de decisiones empresariales."
+			},
+			{
+				"type": "subtitle",
+				"text": "CEO py: ¿Cuál es su opinión sobre la seguridad informática en el contexto de la transformación digital en las empresas y cuáles son las principales amenazas?"
+			},
+			{
+				"type": "p",
+				"text": "**HG:** Hace pocos años, eran escasas las conversaciones que se desarrollaban alrededor de este tema. Hoy, es difícil pensar en un negocio sin considerar cuáles son las implicancias desde el punto de vista de ciberseguridad y definir cuáles son las amenazas a las cuales está expuesta la compañía. La amenaza más habitual, sobre todo para empresas que trabajan con consumidores finales, es el robo o hackeo de las bases de clientes y fraude. Estas son conversaciones que hay que incorporar dentro del área de los negocios y en las agendas de las compañías."
+			},
+			
+			{
+				"type": "p",
+				"text": "Para leer la nota completa 👉 [CEO py](https://www.revistaceopy.com/3d-flip-book/ceopy51/#ceopy51/74/)"
+			}
+		],
+		"metadata": {
+			"date": "Noviembre 2023",
+			"dateEN": "November 2023",
+			"bannerImg": "/images-ceibo/publicaciones/ceo-py/banner.png",
+			"tags": ["Ceibo Digital", "Paraguay", "Transformación Digital"]
+		}
+	},
+	{
+		"id": "31",
+		"path-url": "ceibo-soy-coahulia-paraguay-noviembre-2023",
+		"title": "Ceibo Digital en Revista Soy Coahuila",
+		"titleEN": "Ceibo Digital at 'Soy Coahuila' magazine",
+		"img": "/images-ceibo/publicaciones/soy-coahuila/banner.png",
+		"desc": "David Wilson conversa con la red de revistas “Soy” en México y Honduras y dibuja el apasionante camino a la transformación digital.",
+		"content": [
+
+			{
+				"type": "first-p",
+				"text": "David Wilson conversa con la red de revistas “Soy” en México y Honduras y dibuja el apasionante camino a la transformación digital. Desde una de las tres sedes de CEIBO, en Miami - las otras sedes son Buenos Aires y Asunción- David, ingeniero, consultor, emprendedor y padre de una niña de cuatro años, explica los cambios profundos en la cultura de las empresas que deciden dar ese paso."
+			},
+			{
+				"type": "subtitle",
+				"text": "SOY: ¿Qué es la transformación digital?"
+			},
+			{
+				"type": "p",
+				"text": "**DW:** Hay varias definiciones, pero la propia definición de CEIBO Digital que detallo a continuación me parece que engloba el concepto: La transformación digital es repensar el modelo de negocios de una compañía a la luz de tres elementos: Un nuevo escenario competitivo, las nuevas demandas de los consumidores y las nuevas tecnologías."
+			},
+			{
+				"type": "subtitle",
+				"text": "SOY: ¿Cómo es la visión de CEIBO al enfrentar un nuevo reto de transformación digital?"
+			},
+			{
+				"type": "p",
+				"text": "**DW**: En nuestra visión no hay una receta única, sino más bien es como un mapa que vamos definiendo con cada organización, con cada modelo de negocio que analizamos en profundidad.Cada empresa tiene que entender las capacidades actuales y las brechas de capacidades que necesitan desarrollar entre lo que tienen y el modelo de negocios deseado, y así empezar a construirlo. Un buen diagnóstico inicial de cuáles son las fortalezas, las capacidades en las que se va a apoyar la empresa para ir hacia ese modelo de negocios, o cuáles son las falencias, aquello que no tienen, son clave para definir bien las iniciativas y dimensionar con mayor precisión la inversión necesaria."
+			},
+			{
+				"type": "subtitle",
+				"text": "SOY: ¿Cuáles son las dimensiones fundamentales para trabajar con un cliente?"
+			},
+			{
+				"type": "p",
+				"text": "**DW:** Hemos diseñado un marco de trabajo sobre capacidades digitales, que agrupamos en 5 dimensiones: Foco en el cliente, Operar simple, Automatización de procesos clave, Estilo ágil y rapido de trabajo y Datos para crear valor. Todas las capacidades, dentro de cada dimensión, permiten a las empresas implementar modelos de negocio disruptivos y lograr curvas de crecimiento exponenciales."
+			},
+			{
+				"type": "subtitle",
+				"text": "SOY: ¿Cuáles son los principales desafios y barreras que vemos en las organizaciones para una transformación digital exitosa y sus causas?"
+			},
+			{
+				"type": "p",
+				"text": "**DW:** Las empresas que están llevando a cabo una transformación digital encontramos una tasa de fracaso del 70%. Las causas fundamentales, según todos los que estamos en este mercado se pueden resumir en cinco: Falta de una visión compartida, falta de prioridades para el crecimiento, no centrarse en la experimentación, falta de flexibilidad en el gobiemo de la empresa y tratar de cambiar con tecnologia, talento y cultura actuales, sin transformación."
+			},
+			{
+				"type": "subtitle",
+				"text": "SOY: ¿Cuál es el foco principal de cualquier transformación que dirige CEIBO?"
+			},
+			{
+				"type": "p",
+				"text": "**DW:** El foco sigue siendo generar ingresos, al menor costo posible, tener buenos clientes, tratarlos bien, brindar un buen producto y servicio, y una excelente experiencia. A lo largo de los años fueron surgiendo diversas tecnologías y seguirán surgiendo nuevas. La simple implementación de tecnología por sí sola no produce la transformación digital y no soluciona los nuevos dolores del negocio. Cambiar una organización o su modelo de negocio para aprovechar el potencial de estas nuevas tecnologías sí lo hace."
+			},
+			{
+				"type": "p",
+				"text": "En resumen, lo más importante es cambiar la forma de pensar, el mindset, y entender que todavía estamos en la mitad de la pelicula. Compartamos la visión en la organización, definamos prioridades. Lo perfecto es enemigo de lo bueno, y la realidad es que hay que experimentar, hay que hacerlo aunque surjan errores."
+			},
+			{
+				"type": "subtitle",
+				"text": "SOY: ¿Por qué se están repensando los negocios hoy en día?"
+			},
+			{
+				"type": "p",
+				"text": "**DW:** El mundo está enfrentando grandes desafíos, con un crecimiento poblacional acelerado, con cambios climáticos fuertes, recursos naturales limitados, entre otros, que nos obliga a todos a poner atención y demandar negocios más sostenibles. Esta transformación de la que hablamos, digital, cultural, transformación en sí, nos obliga a repensar los modelos de negocio como decíamos, y con eso nos está dando la oportunidad como humanidad para que esta vez los pensemos más sostenibles, teniendo en cuenta el impacto económico en la misma medida que debemos tener en cuenta elimpacto ambiental y social."
+			},
+			{
+				"type": "subtitle",
+				"text": "SOY: ¿Cuál es el mercado al que apunta CEIBO y cómo ve el potencial de mercado en México, Honduras y Centroamérica?"
+			},
+			{
+				"type": "p",
+				"text": "**DW:** CEIBO es una consultora de negocios global, con oficinas en Miami, Asunción y Buenos Aires, y proyectos en más de 30 paises. Tenemos foco en América como mercado principal, y seguimos una estrategia de expansión desde el sur hacia el norte y del norte hacia el sur. Desde Argentina hemos avanzado conquistando territorios como el de Paraguay, Uruguay y Bolivia, y seguiremos instalándonos en lugares estratégicos que nos permitan hacer base de operaciones, apalancándonos del talento local. Lo mismo ocurre desde nuestra oficina de Miami, que nos permitió conquistar México, donde estaremos instalando una de nuestras próximas oficinas en el corto plazo. Desde allí también tenemos el objetivo de seguir avanzando hacia Centroamérica."
+			},
+			{
+				"type": "p",
+				"text": "Honduras y centro américa en general nos apetecen como mercado. Hemos trabajado en estos años en proyectos en países como Costa Rica, El Salvador y Panamá, y nos han resultado territorios muy interesantes, con espacio para generar valor en materia de transformación digital, desde la definición de la estrategia hasta la implementación de iniciativas claves para construir capacidades digitales."
+			},
+			{
+				"type": "p",
+				"text": "Para leer la nota completa 👉 [Soy Coahuila](https://agenciaalcance.com/soy-coahuila-noviembre-2023/#dearflip-df_6989/29/)"
+			}
+		],
+		"metadata": {
+			"date": "Noviembre 2023",
+			"dateEN": "November 2023",
+			"bannerImg": "/images-ceibo/publicaciones/soy-coahuila/soy-coahuila.png",
+			"tags": ["Ceibo Digital", "Centroamérica", "Transformación Digital"]
+		}
+	},
+	{
 		"id": "30",
 		"path-url": "vision-de-lideres-2024",
 		"title": "Visión de Líderes 2024",
