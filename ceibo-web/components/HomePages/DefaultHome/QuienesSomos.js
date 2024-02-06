@@ -8,10 +8,10 @@ const QuienesSomos = () => {
     const title = t("quienesSomos")
     const description = t("quienesSomosText")
     const years = t('years')
-    const countries = t('countries')
+    const clients = t('clients')
     const projects = t('projects')
     const yearsText = t('yearsText')
-    const countriesText = t('countriesText')
+    const clientsText = t('clientsText')
     const projectsText = t('projectsText')
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
@@ -23,8 +23,8 @@ const QuienesSomos = () => {
                 else if (entry.isIntersecting && entry.target.className.includes('counter-projects')) {
                     entry.target.classList.add('counter-animation-projects');
                 }
-                else if (entry.isIntersecting && entry.target.className.includes('counter-countries')) {
-                    entry.target.classList.add('counter-animation-countries');
+                else if (entry.isIntersecting && entry.target.className.includes('counter-clients')) {
+                    entry.target.classList.add('counter-animation-clients');
                 }
             });
         });
@@ -54,9 +54,9 @@ const QuienesSomos = () => {
                     <p className='text-center'>{projectsText}</p>
                 </div>
                 <div className='col-12 col-md-4 d-flex flex-column align-items-center'>
-                    <div className='counter counter-countries bold'>+</div>
-                    <p className='counter-content'>{countries}</p>
-                    <p className='text-center'>{countriesText}</p>
+                    <div className='counter counter-clients bold'>+</div>
+                    <p className='counter-content'>{clients}</p>
+                    <p className='text-center'>{clientsText}</p>
                 </div>
             </div>
             <ResponsiveIFrame videoSrc={"https://www.youtube.com/embed/HSOW3apOffc"} />

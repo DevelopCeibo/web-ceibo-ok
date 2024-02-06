@@ -8974,27 +8974,27 @@ abbr:hover {
 	  --num: 0;
 	}
 	to {
-	  --num: 37;
+	  --num: 180;
 	}
   }
-  .counter-animation-countries {
-	animation-name: counter-animation-countries;
+  .counter-animation-clients {
+	animation-name: counter-animation-clients;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-out;
 	animation-duration: 3s;
 	animation-direction: normal;
 	counter-reset: num var(--num);
   }
-  .counter-animation-countries::after {
+  .counter-animation-clients::after {
 	content: counter(num);
   }
   
-  @keyframes counter-animation-countries {
+  @keyframes counter-animation-clients {
 	from {
 	  --num: 0;
 	}
 	to {
-	  --num: 55;
+	  --num: 20;
 	}
   }
 

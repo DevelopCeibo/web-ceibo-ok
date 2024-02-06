@@ -33,13 +33,13 @@ const Index = () => {
       <QuienesSomos />
       <Services />
       <ComoAyudamosANuestrosClientes />
-      <Partner />
+      {/* <Partner /> */}
       <Contacto />
       <TrendingInsights />
-      <Publicacion />
+      {/* <Publicacion /> */}
       <QuienesHacenEstoPosible />
       <BusquedasAbiertas />
-      <Webinar />
+      {/* <Webinar /> */}
       <DondeEstamos />
       <Footer />
     </>
