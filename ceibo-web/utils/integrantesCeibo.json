@@ -309,6 +309,29 @@
 		}
 	},
 	{
+		"nombre": "FEDERICO PIEGAS",
+		"linkedinurl": "https://www.linkedin.com/in/federicopiegas",
+		"src": "/images-ceibo/integrantes/Federico Piegas.png",
+		"posicion": "PAID MEDIA HEAD",
+		"email": "federico.piegas@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	
+	{
 		"nombre": "VICTORIA SELVA",
 		"linkedinurl": "https://www.linkedin.com/in/victoria-selva/",
 		"src": "/images-ceibo/integrantes/Victoria Selva.png",
@@ -965,6 +988,28 @@
 		}
 	},
 
+	{
+		"nombre": "ALEJANDRA CÁCERES",
+		"linkedinurl": "https://www.linkedin.com/in/alejandrac%C3%A1ceresgrau",
+		"src": "/images-ceibo/integrantes/Alejandra Caceres.png",
+		"posicion": "PAID MEDIA ANALYST",
+		"email": "alejandra.caceres@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
 	{
 		"nombre": "FLORENCIA CARASALES",
 		"linkedinurl": "https://www.linkedin.com/in/florencia-carasales-",
