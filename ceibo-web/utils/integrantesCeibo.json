@@ -708,6 +708,28 @@
 		}
 	},
 	{
+		"nombre": "TOMÁS APOCHIAN",
+		"linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
+		"src": "/images-ceibo/integrantes/Tomas Apochian.png",
+		"posicion": "SPECIALIST",
+		"email": "tomas.apochian@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "MARCOS MAZZA",
 		"linkedinurl": "https://www.linkedin.com/in/marcos-mazza-b68972206/",
 		"src": "/images-ceibo/integrantes/Marcos Mazza.png",
@@ -927,28 +949,6 @@
 		"src": "/images-ceibo/integrantes/Nicolas Pernice.png",
 		"posicion": "ASSOCIATE",
 		"email": "nicolas.pernice@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "TOMÁS APOCHIAN",
-		"linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
-		"src": "/images-ceibo/integrantes/Tomas Apochian.png",
-		"posicion": "ANALYST",
-		"email": "tomas.apochian@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
