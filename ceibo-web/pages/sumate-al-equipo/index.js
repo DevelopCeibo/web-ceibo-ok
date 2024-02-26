@@ -12,6 +12,7 @@ import ListoParaAplicar from "../../components/sumatealequipo/ListoParaAplicar";
 import TalentoGlobal from "../../components/sumatealequipo/TalentoGlobal";
 import ConsultingTeam from "../../components/sumatealequipo/ConsultingTeam";
 import SpecialistCrew from "../../components/sumatealequipo/SpecialistCrew";
+import GrowthMarketing from "../../components/sumatealequipo/GrowthMarketing";
 
 const sumatealequipo = () => {
 	const { t } = useTranslation("common");
@@ -39,7 +40,7 @@ const sumatealequipo = () => {
 			<TalentoGlobal />
 			<ConsultingTeam/>
 			<SpecialistCrew/>
-			{/* <Vacantes /> */}
+			<GrowthMarketing/>
 			<ListoParaAplicar />
 			<Footer />
 		</>
