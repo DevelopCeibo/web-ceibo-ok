@@ -10,6 +10,9 @@ import PorQueCeibo from "../../components/sumatealequipo/PorQueCeibo";
 import Vacantes from "../../components/HomePages/BusinessConsulting/Vacantes";
 import ListoParaAplicar from "../../components/sumatealequipo/ListoParaAplicar";
 import TalentoGlobal from "../../components/sumatealequipo/TalentoGlobal";
+import ConsultingTeam from "../../components/sumatealequipo/ConsultingTeam";
+import SpecialistCrew from "../../components/sumatealequipo/SpecialistCrew";
+
 const sumatealequipo = () => {
 	const { t } = useTranslation("common");
 
@@ -34,7 +37,9 @@ const sumatealequipo = () => {
 			<CarreraEnCeibo />
 			<NuestraCultura />
 			<TalentoGlobal />
-			<Vacantes />
+			<ConsultingTeam/>
+			<SpecialistCrew/>
+			{/* <Vacantes /> */}
 			<ListoParaAplicar />
 			<Footer />
 		</>

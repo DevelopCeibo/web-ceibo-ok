@@ -667,5 +667,11 @@
 	"moderador": "Moderador",
 
 	"exploreWebinars": "Explora nuestros webinars",
-	"allWebinars": "Todos los webinars"
+	"allWebinars": "Todos los webinars",
+	"sumateAlConsulting" : "Sumate al Consulting Team",
+	"sumateAlConsultingTxt" : "Se parte del Consulting Team, una propuesta de valor para aquellos colaboradores que quieren comenzar o continuar creciendo profesionalmente en su carrera en consultoría. Con dedicación full-time en Ceibo, tienen una carrera profesional planificada donde crecer es una prioridad.",
+	"uniteAlConsulting" : "Unite al Consulting Team",
+	"sumateAlSpecialist" : "Carrera en Specialist Crew",
+	"sumateAlSpecialistTxt" : "Se parte del Specialist Crew, una propuesta de valor para aquellos colaboradores que buscar  comenzar o seguir construyendo una carrera en datos, desarrollo, gorwth marketing o en estrategia operacional. Especializate en un área de expertise.",
+	"uniteAlSpecialist" : "Unite al Specialist Crew"
 }

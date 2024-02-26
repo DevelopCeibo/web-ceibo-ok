@@ -1,5 +1,4 @@
 import React from "react"
-import NavbarTwo from "../components/Layouts/NavbarTwo"
 import NavbarFive from "../components/Layouts/NavbarFive"
 import MainBanner from "../components/HomePages/StudioAgency/MainBanner"
 import Services from "../components/HomePages/DefaultHome/Services"
@@ -10,7 +9,6 @@ import Partner from "../components/Common/Partner"
 import Footer from "../components/Layouts/Footer"
 import OurWorks from "../components/HomePages/DefaultHomeTwo/OurWorks"
 import Link from "next/link"
-
 import useTranslation from "next-translate/useTranslation"
 import { useRouter } from "next/router"
 import Head from "next/head"

@@ -671,5 +671,11 @@
 	"moderador": "Moderator",
 
 	"exploreWebinars": "Explore our webinars",
-	"allWebinars": "All webinars"
+	"allWebinars": "All webinars",
+	"sumateAlConsulting" : "Join the Consulting Team",
+	"sumateAlConsultingTxt" : "Join the Consulting Team, a value proposition for those collaborators who want to start or continue growing professionally in their consulting career. With full-time dedication at Ceibo, they have a planned career where growth is a priority.",
+	"uniteAlConsulting" : "Join here",
+	"sumateAlSpecialist" : "Carreer in Specialist Crew",
+	"sumateAlSpecialistTxt" : "Join the Specialist Crew, a value proposition for those collaborators who aim to begin or continue building a career in data, development, growth marketing, or operational strategy. Specialize in an area of expertise",
+	"uniteAlSpecialist" : "Join here"
 }
