@@ -678,6 +678,21 @@
 	"carreraEnGrowthTxt": "En Ceibo Growth, ofrecemos soluciones integrales de marketing para el crecimiento escalable de grandes y medianas empresas. Únete a nosotros y sé parte de un equipo apasionado que impulsa el cambio. ¿Estás listo para impulsar tu carrera y transformar el futuro del marketing con nosotros?",
 	"conoceOportunidadesGrowth":"Conoce las oportunidades laborales de Ceibo Growth",
 	"ceiboGrowthPhrase": "Ofrecemos soluciones integrales de marketing para impulsar el crecimiento escalable de grandes y medianas empresas.",
-	"ceiboDigitalPhrase": "Unimos  el mundo de los negocios y la tecnología para acompañar la transformación de las empresas, construyendo y potenciando sus capacidades digitales."
-
+	"ceiboDigitalPhrase": "Unimos  el mundo de los negocios y la tecnología para acompañar la transformación de las empresas, construyendo y potenciando sus capacidades digitales.",
+	"customizeSearch": "Personaliza tu búsqueda",
+	"modality":"Modalidad",
+	"workArea":"Área de trabajo",
+	 "location": "Ubicación",
+	 "search":"Buscar",
+	 "consultingTeam":"Consulting Team",
+	 "specialistCrew": "Specialist Crew",
+	 "data":"Datos",
+	 "programming":"Desarrollo",
+	 "consultancy": "Consultoría",
+	 "growthMarketing":"Growth Marketing",
+	 "operationalExcellence":"Excelencia Operacional",
+	 "argentina":"Argentina",
+	 "paraguay":"Paraguay",
+	 "remote":"Remote",
+	 "noResultFound": "No se encontraron resultados"
 }

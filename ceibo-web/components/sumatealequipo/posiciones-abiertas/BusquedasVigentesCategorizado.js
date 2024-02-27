@@ -1,6 +1,7 @@
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
-import vacantes from "../../../utils/vacantes.json";
+// import vacantes from "../../../utils/vacantes.json";
+import vacantes from "../../../utils/vacantes.utils";
 import BusquedasVigentesIndividual from "./BusquedasVigentesIndividual";
 
 const BusquedasVigentes = () => {
@@ -16,24 +17,8 @@ const BusquedasVigentes = () => {
   );
 
   return (
-    <div className="pt-70 pb-60 mb-3 mt-4">
-      <div className="container">
-        <div className="section-title " id="busquedas-vigentes">
-          <h2>{rolesParaConsultores}</h2>
-        </div>
-
-        <BusquedasVigentesIndividual arregloDeVacantes={vacantesConsultores} />
-
-        <div className="container mt-6">
-          <div className="section-title " id="busquedas-vigentes">
-            <h2>{rolesParaEspecialistas}</h2>
-          </div>
-
-          <BusquedasVigentesIndividual
-            arregloDeVacantes={vacantesEspecialistas}
-          />
-        </div>
-      </div>
+    <div className="pt-70 pb-60 mb-3 mt-4">    
+        <BusquedasVigentesIndividual arregloDeVacantes={vacantes} />
     </div>
   );
 };

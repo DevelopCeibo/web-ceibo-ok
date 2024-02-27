@@ -6,7 +6,7 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import useTranslation from "next-translate/useTranslation";
 
 const NavbarFive = () => {
-	const { route, locale, locales, push, asPath } = useRouter();
+	const { route, locale, locales, push, asPath,replace } = useRouter();
 	const [actualLocale, setactualLocale] = React.useState(locale);
 
 	const { t } = useTranslation("common");
@@ -25,13 +25,14 @@ const NavbarFive = () => {
 	const procesoDeReclutamiento = t("proceso");
 	const talentoGlobal = t("talentoGlobal");
 
-	const handleLocale = (e) => {
+	const handleLocale = async (e) => {
+		e.preventDefault()
 		let locale = "es";
 		e.target.innerText.toLowerCase() === "español"
 			? (locale = "es")
 			: (locale = "en");
 		setactualLocale(locale);
-		push(asPath, undefined, { locale: locale });
+		await replace(asPath, undefined, { locale: locale });
 	};
 
 	const [menu, setMenu] = React.useState(true);

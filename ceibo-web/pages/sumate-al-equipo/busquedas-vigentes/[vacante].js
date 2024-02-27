@@ -1,12 +1,12 @@
 import { useRouter } from "next/router"
 import React, { useState } from "react"
-import Footer from "../../components/Layouts/Footer"
-import NavbarTwo from "../../components/Layouts/NavbarTwo"
-import NavbarFive from "../../components/Layouts/NavbarFive"
-import Formulario from "../../components/sumatealequipo/vacantes/Formulario"
-import PageBanner from "../../components/Common/PageBanner"
-import vacantesES from "../../utils/vacantes.json"
-import vacantesEN from "../../utils/vacantesEN.json"
+import Footer from "../../../components/Layouts/Footer"
+import NavbarTwo from "../../../components/Layouts/NavbarTwo"
+import NavbarFive from "../../../components/Layouts/NavbarFive"
+import Formulario from "../../../components/sumatealequipo/vacantes/Formulario"
+import PageBanner from "../../../components/Common/PageBanner"
+import vacantesES from "../../../utils/vacantes.json"
+import vacantesEN from "../../../utils/vacantesEN.json"
 
 import { marked } from "marked"
 import Head from "next/head"
@@ -16,7 +16,7 @@ const Vacante = () => {
   const router = useRouter()
   const { locale } = useRouter()
 
-  const pathVacante = router.asPath.split("/")[2]
+  const pathVacante = router.query.vacante
 
   const [vacantes, setvacantes] = useState(
     locale == "es" ? vacantesES : vacantesEN
@@ -31,7 +31,10 @@ const Vacante = () => {
       setvacantes(vacantesES)
     }
     vacantes.forEach((vac) => {
+      console.log(vac["path-url"])
+
       if (vac["path-url"] == pathVacante) {
+
         setVacante(vac)
       }
     })

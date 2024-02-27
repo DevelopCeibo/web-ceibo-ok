@@ -3,9 +3,7 @@ import NavbarFive from "../../../components/Layouts/NavbarFive";
 import BusquedasVigentesCategorizado from "../../../components/sumatealequipo/posiciones-abiertas/BusquedasVigentesCategorizado";
 import Head from "next/head";
 import PageBanner from "../../../components/Common/PageBanner";
-import NavigationCard from "../../../components/Common/NavigationCard";
 import Footer from "../../../components/Layouts/Footer";
-
 import useTranslation from "next-translate/useTranslation";
 import NavigationCardSection from "../../../components/sumatealequipo/posiciones-abiertas/NavigationCardSection";
 
