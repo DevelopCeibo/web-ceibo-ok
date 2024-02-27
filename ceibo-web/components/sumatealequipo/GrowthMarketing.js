@@ -31,7 +31,7 @@ const GrowthMarketing = () => {
                 
                 <p className='text-break'>{text}</p>
                 
-                <Link href={"/busquedas-vigentes"}>
+                <Link href={"/sumate-al-equipo/busquedas-vigentes?workArea=growth-marketing"}>
                     <a className="read-more-btn bold pb-3">
                         {buttonText}
                         <i className="fa-solid fa-angles-right"></i>

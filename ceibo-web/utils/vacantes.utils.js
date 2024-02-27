@@ -637,7 +637,7 @@ const vacantes = [
     let filteredVacantes = vacantes.filter(vac => {
 
       for (const key in searchParams ){
-        if(vac[key].includes(searchParams[key])) {
+        if(vac[key] && vac[key].includes(searchParams[key])) {
           continue
         } else {
           return false

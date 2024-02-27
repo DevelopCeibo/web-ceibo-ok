@@ -1,4 +1,4 @@
-import {  useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import useTranslation from 'next-translate/useTranslation';
 import { LOCATION,WORK_MODALITY, WORK_AREA } from '../../../utils/busquedasVigentes.utils';
@@ -28,7 +28,15 @@ const SearchBar = () => {
     const [workArea, setWorkArea] = useState('');
     const [location, setLocation] = useState('');
 
+   
+
     const router = useRouter()
+
+    useEffect(()=>{
+        if(router.query["modality"]) setModality(router.query.modality)
+        if(router.query["workArea"]) setWorkArea(router.query.workArea)
+        if(router.query["location"]) setLocation(router.query.location)
+    },[router.query])
 
     const handleSearch = () => {
         const searchParams = { modality, workArea, location };
