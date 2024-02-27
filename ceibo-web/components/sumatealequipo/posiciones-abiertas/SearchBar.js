@@ -28,8 +28,6 @@ const SearchBar = () => {
     const [workArea, setWorkArea] = useState('');
     const [location, setLocation] = useState('');
 
-   
-
     const router = useRouter()
 
     useEffect(()=>{

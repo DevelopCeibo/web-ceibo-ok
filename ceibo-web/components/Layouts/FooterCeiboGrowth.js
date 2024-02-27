@@ -99,7 +99,7 @@ const FooterCeiboGrowth = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5 col-lg-8 col-sm-12 col-md-7">
+                        <div className="col-xl-9 col-lg-8 col-sm-12 col-md-7">
                             <p> {ceiboDigitalPhrase}</p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const FooterCeiboGrowth = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5 col-lg-8 col-sm-12 col-md-7">
+                        <div className="col-xl-9 col-lg-8 col-sm-12 col-md-7">
                             <p>{ceiboGrowthPhrase}</p>
                         </div>
                     </div>
