@@ -20,11 +20,11 @@ const ConsultingTeam = () => {
       {/*  CONTENT */}
       <section className="container">
         <article className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 ">
+          <div className="col-lg-6 col-md-6 col-sm-12 d-md-flex justify-content-center ">
             <Image
               src="/images-ceibo/sumatealequipo/overview/consulting-team.png"
-              width={600}
-              height={400}
+              width={500}
+              height={333}
               layout="intrinsic"
               alt="nuestra cultura"
             />

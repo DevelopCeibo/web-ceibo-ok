@@ -418,7 +418,7 @@
 	],
 	"specialistSteps": [
 		{"id":1, "title":"Evaluacion de perfiles", "content":"Una vez recibimos los CVs a través de nuestra web, redes sociales, correos electrónicos y otros canales, realizamos un análisis profundo. Nos aseguramos de que los candidatos cumplan con los requisitos mínimos en formación, experiencia específica y encajen culturalmente. Además, evaluamos las cuatro dimensiones clave durante todo el proceso."},
-		{"id":2, "title":"Charla Informativa", "content":"Aunque no hay una sesión formal de charla informativa para los especialistas en datos y desarrollo, sí se lleva a cabo una conversación informal para los especialistas en Growth Marketing. Durante esta charla, compartimos información sobre Ceibo, nuestras operaciones, y qué estamos buscando. Los candidatos comparten sus objetivos y pasiones. Si hay una coincidencia, los invitamos a las rondas de entrevistas y proporcionamos consejos para prepararse."},
+		{"id":2, "title":"Charla Informativa", "content":"Aunque no hay una sesión formal de charla informativa para los especialistas en datos, desarrollo y excelencia operacional, sí se lleva a cabo una conversación informal para los especialistas en Growth Marketing. Durante esta charla, compartimos información sobre Ceibo, nuestras operaciones, y qué estamos buscando. Los candidatos comparten sus objetivos y pasiones. Si hay una coincidencia, los invitamos a las rondas de entrevistas y proporcionamos consejos para prepararse."},
 		{"id":3, "title":"Primera Ronda de Entrevistas", "content":"Se lleva a cabo una entrevista de 60-75 minutos con Managers o Especialistas de Ceibo. Evalúan, según el nivel de experiencia y seniority, las capacidades técnicas de los candidatos."},
 		{"id":4, "title":"Segunda Ronda de Entrevistas", "content":"En caso de que el candidato supere la primera ronda, lo invitamos a participar en la segunda etapa. Se llevará a cabo otra entrevista de 60-75 minutos con Managers, donde se evalúan las capacidades técnicas y el ajuste cultural. Durante todo el proceso, alentamos a los candidatos a hacer preguntas e indagar sobre Ceibo."},
 		{"id":5, "title":"Tercera Ronda de Entrevistas", "content":"Si el candidato tiene un buen desempeño en la segunda ronda, lo invitamos a la tercera y última ronda. Aquí, se realizan una o dos entrevistas de 60-75 minutos con los Partners de Ceibo. Se evalúan las capacidades técnicas, el ajuste cultural y el desempeño en entrevistas anteriores, según el nivel de experiencia y seniority."},
@@ -533,7 +533,7 @@
 	],
 
 	"espacializacionTitle": "Especializaciones",
-	"especializacionText": "En Ceibo, creemos en forjar un camino profesional único y lleno de posibilidades para cada colaborador. Es por eso que los consultores tienen la oportunidad de especializarse en tres verticales distintas: datos, growth marketing y desarrollo. Estas especializaciones se pueden dar a través de capacitaciones específicas, experiencia práctica en proyectos relacionados, y trainings tanto dentro de la empresa como en colaboración con instituciones académicas. La oportunidad de especializarse permite a los Ceibers fortalecer sus habilidades técnicas, adquirir experiencia práctica y convertirse en líderes en el campo de especialización elegido.",
+	"especializacionText": "En Ceibo, creemos en forjar un camino profesional único y lleno de posibilidades para cada colaborador. Es por eso que los consultores tienen la oportunidad de especializarse en cuatro verticales distintas: datos, growth marketing, desarrollo y excelencia operacional. Estas especializaciones se pueden dar a través de capacitaciones específicas, experiencia práctica en proyectos relacionados, y trainings tanto dentro de la empresa como en colaboración con instituciones académicas. La oportunidad de especializarse permite a los Ceibers fortalecer sus habilidades técnicas, adquirir experiencia práctica y convertirse en líderes en el campo de especialización elegido.",
 	"dataTitle": "Datos",
 	"dataText": "En un mundo impulsando por la información, nuestros Especialistas en Datos son los encargados de extraer de ella significado y valor. Su dominio de herramientas y técnicas analíticas les permite explorar conjuntos de datos con precisión, identificando patrones y tendencias que sustentan decisiones estratégicas.",
 	"growthTitle": "Growth Marketing",
@@ -672,7 +672,7 @@
 	"sumateAlConsultingTxt" : "Se parte del Consulting Team, una propuesta de valor para aquellos colaboradores que quieren comenzar o continuar creciendo profesionalmente en su carrera en consultoría. Con dedicación full-time en Ceibo, tienen una carrera profesional planificada donde crecer es una prioridad.",
 	"uniteAlConsulting" : "Unite al Consulting Team",
 	"sumateAlSpecialist" : "Carrera en Specialist Crew",
-	"sumateAlSpecialistTxt" : "Se parte del Specialist Crew, una propuesta de valor para aquellos colaboradores que buscar  comenzar o seguir construyendo una carrera en datos, desarrollo, gorwth marketing o en estrategia operacional. Especializate en un área de expertise.",
+	"sumateAlSpecialistTxt" : "Se parte del Specialist Crew, una propuesta de valor para aquellos colaboradores que buscar  comenzar o seguir construyendo una carrera en datos, desarrollo, growth marketing o excelencia operacional. Especializate en un área de expertise.",
 	"uniteAlSpecialist" : "Unite al Specialist Crew",
 	"carreraEnGrowth": "Construí una carrera en Growth Marketing",
 	"carreraEnGrowthTxt": "En Ceibo Growth, ofrecemos soluciones integrales de marketing para el crecimiento escalable de grandes y medianas empresas. Únete a nosotros y sé parte de un equipo apasionado que impulsa el cambio. ¿Estás listo para impulsar tu carrera y transformar el futuro del marketing con nosotros?",
@@ -694,5 +694,6 @@
 	 "argentina":"Argentina",
 	 "paraguay":"Paraguay",
 	 "remote":"Remote",
-	 "noResultFound": "No se encontraron resultados"
+	 "noResultFound": "No se encontraron resultados",
+	 "operationalExcellenceText":"Los profesionales especializados en Excelencia Operacional son los arquitectos de una manera diferencial de trabajar en las operaciones de un negocio. Su enfoque se centra en tres verticales: investigar los dolores de un modelo de gestión para alcanzar los resultados empresariales de manera eficiente y efectiva, idear y desarrollar oportunidades para ordenar, acelerar, prevenir riesgos y monitorear procesos, e implementar los habilitadores, tecnológicos, metodológicos y organizacionales, que sirvan para lograrlas."
 }

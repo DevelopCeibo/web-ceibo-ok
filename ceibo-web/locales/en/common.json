@@ -420,7 +420,7 @@
 	  ,
 	  "specialistSteps": [
 		{"id":1, "title":"Candidates’ analysis", "content":"Once we receive CVs through our website, social networks, emails, and other channels, we conduct a thorough analysis. We ensure that candidates meet the minimum requirements in terms of education, specific experience, and cultural fit. Additionally, we evaluate the four key dimensions throughout the entire process."},
-		{"id":2, "title":"Informative talk", "content":"While there is no formal informative talk for data and development specialists, for Growth Marketing specialists, an informal talk is conducted. During this talk, we share information about Ceibo, our operations, and what we are looking for. Candidates share their goals and passions. If there is a match, we invite them to interview rounds and provide tips for preparation."},
+		{"id":2, "title":"Informative talk", "content":"While there is no formal informative talk for data, development and operational excellence specialists, for Growth Marketing specialists, an informal talk is conducted. During this talk, we share information about Ceibo, our operations, and what we are looking for. Candidates share their goals and passions. If there is a match, we invite them to interview rounds and provide tips for preparation."},
 		{"id":3, "title":"First-round interviews", "content":"A 60-75 minute interview is conducted with Managers or Specialists from Ceibo. They assess, based on the level of experience and seniority, the technical skills of the candidates."},
 		{"id":4, "title":"Second-round interviews", "content":"If the candidate performs well in the first round, we invite them to the second round. Another 60-75 minute interview with Ceibo Managers, where technical skills and cultural fit with Ceibo are evaluated. Throughout the process, we encourage candidates to ask questions and inquire about Ceibo."},
 		{"id":5, "title":"Third-round interviews", "content":"If the candidate performs well in the second round, we invite them to the third and final round. Here, one or two 60-75 minute interviews are conducted with Ceibo Partners. Technical skills, cultural fit, and performance in previous interviews are evaluated, depending on the level of experience and seniority."},
@@ -535,7 +535,7 @@
 		}
 	],
 	"espacializacionTitle": "Specialization tracks",
-	"especializacionText": "At Ceibo, we're committed to fostering a dynamic career environment where your potential knows no bounds, and your career path is uniquely yours to design and follow. And that's why consultants have the opportunity to specialize in three distinct verticals:  data, growth marketing, and development. These specialized tracks can be pursued through comprehensive training programs, hands-on project experience, and collaborative training initiatives with academic institutions. By specializing, you'll sharpen your technical skills, gain practical expertise, and emerge as a leader in your chosen field.",
+	"especializacionText": "At Ceibo, we're committed to fostering a dynamic career environment where your potential knows no bounds, and your career path is uniquely yours to design and follow. And that's why consultants have the opportunity to specialize in four distinct verticals:  data, growth marketing, development and operational excellence. These specialized tracks can be pursued through comprehensive training programs, hands-on project experience, and collaborative training initiatives with academic institutions. By specializing, you'll sharpen your technical skills, gain practical expertise, and emerge as a leader in your chosen field.",
 	"dataTitle": "Data",
 	"dataText": "In a world driven by information, our Data Analysis Specialists are tasked with extracting meaning and value from it. Their mastery of analytical tools and techniques enables them to explore datasets with precision, identifying patterns and trends that underpin strategic decisions.",
 	"growthTitle": "Growth Marketing",
@@ -676,11 +676,11 @@
 	"sumateAlConsultingTxt" : "Join the Consulting Team, a value proposition for those collaborators who want to start or continue growing professionally in their consulting career. With full-time dedication at Ceibo, they have a planned career where growth is a priority.",
 	"uniteAlConsulting" : "Join here",
 	"sumateAlSpecialist" : "Carreer in Specialist Crew",
-	"sumateAlSpecialistTxt" : "Join the Specialist Crew, a value proposition for those collaborators who aim to begin or continue building a career in data, development, growth marketing, or operational strategy. Specialize in an area of expertise",
+	"sumateAlSpecialistTxt" : "Join the Specialist Crew, a value proposition for those collaborators who aim to begin or continue building a career in data, development, growth marketing, or operational excellence. Specialize in an area of expertise",
 	"uniteAlSpecialist" : "Join here",
-	"carreraEnGrowth": "I built a career in Growth Marketing.",
+	"carreraEnGrowth": "Build a career in Growth Marketing",
 	"carreraEnGrowthTxt": "At Ceibo Growth, we offer comprehensive marketing solutions for the scalable growth of large and medium-sized companies. Join us and be part of a passionate team driving change. Are you ready to propel your career and transform the future of marketing with us?",
-	"conoceOportunidadesGrowth": "Discover the job opportunities at Ceibo Growth.",
+	"conoceOportunidadesGrowth": "Discover the job opportunities at Ceibo Growth",
 	"ceiboGrowthPhrase": "We offer comprehensive marketing solutions to drive the scalable growth of large and medium-sized companies.",
 	"ceiboDigitalPhrase": "We bring together the worlds of business and technology to accompany the transformation of companies, building and enhancing their digital capabilities.",
 	"customizeSearch": "Customize your search",
@@ -698,5 +698,7 @@
 	"argentina": "Argentina",
 	"paraguay": "Paraguay",
 	"remote": "Remote",
-	"noResultFound": "No resuls match your search"
+	"noResultFound": "No resuls match your search",
+	"operationalExcellenceText":"Professionals specialized in Operational Excellence are the architects of a distinctive approach to business operations. Their focus spans three verticals: investigating management model pains to achieve business results efficiently and effectively; devising and developing opportunities to organize, accelerate, and prevent risks in processes and implementing the technology, methodology and organizational structure to achieve these goals."
+
 }

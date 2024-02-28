@@ -83,12 +83,12 @@ const FooterCeiboGrowth = () => {
         <>
             <footer className="footer-area" id="footer">
                 <div className="container">
-                    <div className="row mb-4">
+                    <div className="row mb-5 mb-md-4">
                         <div className="col-xl-3 col-lg-4 col-sm-12 col-md-5">
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <Link href="/">
-                                        <a>
+                                        <a className="d-flex justify-content-center justify-content-md-start">
                                             <img
                                                 src="/images-ceibo/ceibo-logo-white.png"
                                                 alt="ceibo logo"
@@ -99,8 +99,8 @@ const FooterCeiboGrowth = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-9 col-lg-8 col-sm-12 col-md-7">
-                            <p> {ceiboDigitalPhrase}</p>
+                        <div className="col-xl-9 col-lg-8 col-sm-12 col-md-7 d-md-flex align-items-center mb-md-4">
+                            <p className="text-center text-md-start"> {ceiboDigitalPhrase}</p>
                         </div>
                     </div>
                     <div className="row mb-4">
@@ -108,7 +108,7 @@ const FooterCeiboGrowth = () => {
                             <div className="single-footer-widget"> 
                                 <div className="logo">
                                     <Link href="/"> 
-                                        <a target="_blank">
+                                        <a target="_blank" className="d-flex justify-content-center justify-content-md-start">
                                             <img
                                                 src="/images-ceibo/logo-ceibo-growth-white.png"
                                                 alt="ceibo logo"
@@ -119,8 +119,8 @@ const FooterCeiboGrowth = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-9 col-lg-8 col-sm-12 col-md-7">
-                            <p>{ceiboGrowthPhrase}</p>
+                        <div className="col-xl-9 col-lg-8 col-sm-12 col-md-7 d-md-flex align-items-center mb-md-4">
+                            <p className="text-center text-md-start ">{ceiboGrowthPhrase}</p>
                         </div>
                     </div>
                     <div className="row">

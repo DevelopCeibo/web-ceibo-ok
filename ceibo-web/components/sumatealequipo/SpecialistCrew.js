@@ -29,11 +29,11 @@ const SpecialistCrew = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-6 col-sm-12 d-none d-md-block">
+          <div className="col-md-6 col-sm-12 d-none d-md-flex justify-content-center">
             <Image
               src="/images-ceibo/sumatealequipo/overview/specialist-crew.png"
-              width={600}
-              height={400}
+              width={500}
+              height={333}
               layout="intrinsic"
               alt="nuestra cultura"
             />

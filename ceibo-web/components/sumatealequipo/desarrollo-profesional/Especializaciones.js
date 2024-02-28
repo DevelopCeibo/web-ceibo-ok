@@ -12,6 +12,10 @@ const Especializaciones = () => {
   const growthText = t("growthText");
   const developerTitle = t("developerTitle");
   const developerText = t("developerText");
+  const operationalExcellenceTitle = t("operationalExcellence")
+  const operationalExcellenceText = t("operationalExcellenceText")
+
+
   return (
     <section className="pt-50 mb-5">
       {/* TITLE */}
@@ -67,6 +71,21 @@ const Especializaciones = () => {
           >
             <h4 className='esp-card-title'>{developerTitle}</h4>
             <p>{developerText}</p>
+          </div>
+        </article>
+        <article className="row pt-3 esp-reverse">
+          <div className="col-lg-10 col-md-10 col-sm-12 esp-card-text-wrapper esp-responsive esp-ra">
+            <h4 className='esp-card-title'>{operationalExcellenceTitle}</h4>
+            <p>{operationalExcellenceText}</p>
+          </div>
+          <div className="col-lg-2 col-md-2 col-sm-12 esp-responsive">
+            <Image
+              src="/images-ceibo/sumatealequipo/desarrollo/excelencia-operacional.png"
+              width={200}
+              height={200}
+              layout="intrinsic"
+              alt="growth marketing"
+            />
           </div>
         </article>
       </section>

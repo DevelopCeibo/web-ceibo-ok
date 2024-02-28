@@ -58,30 +58,30 @@ const SearchBar = () => {
                     <h6>{customizeSearch}</h6>
                 </div>
                 <div className='col-6 col-md-3 mb-2 mb-md-0'>
-                    <select className="form-select" value={modality} onChange={(e) => setModality(e.target.value)}>
-                        <option value="">{modalityTxt}</option>
-                        <option value={WORK_MODALITY.TEAM}>{consultingTeam}</option>
-                        <option value={WORK_MODALITY.CREW}>{specialistCrew}</option>
+                    <select className={`form-select ${modality==""?'bg-grey':""}`} value={modality} onChange={(e) => setModality(e.target.value)}>
+                        <option value="" className='bg-white'>{modalityTxt}</option>
+                        <option value={WORK_MODALITY.TEAM} className='bg-white'>{consultingTeam}</option>
+                        <option value={WORK_MODALITY.CREW} className='bg-white'>{specialistCrew}</option>
                     </select>
 
                 </div>
                 <div className='col-6 col-md-3 mb-2 mb-md-0'>
-                    <select className="form-select" value={workArea} onChange={(e) => setWorkArea(e.target.value)}>
+                    <select className={`form-select ${workArea==""?'bg-grey':""}`} value={workArea} onChange={(e) => setWorkArea(e.target.value)}>
                         <option value="">{workAreaTxt}</option>
-                        <option value={WORK_AREA.DATA}>{data}</option>
-                        <option value={WORK_AREA.PROGRAMMING}>{programming}</option>
-                        <option value={WORK_AREA.CONSULTANCY}>{consultancy}</option>
-                        <option value={WORK_AREA.GROWTH}>{growthMarketing}</option>
-                        <option value={WORK_AREA.EX_OP}>{operationalExcellence}</option>
+                        <option value={WORK_AREA.DATA} className='bg-white'>{data}</option>
+                        <option value={WORK_AREA.PROGRAMMING} className='bg-white'>{programming}</option>
+                        <option value={WORK_AREA.CONSULTANCY} className='bg-white'>{consultancy}</option>
+                        <option value={WORK_AREA.GROWTH} className='bg-white'>{growthMarketing}</option>
+                        <option value={WORK_AREA.EX_OP} className='bg-white'>{operationalExcellence}</option>
                     </select>
 
                 </div>
                 <div className='col-6 col-md-3'>
-                    <select className="form-select" value={location} onChange={(e) => setLocation(e.target.value)}>
-                        <option value="">{locationTxt}</option>
-                        <option value={LOCATION.ARG}>{argentina}</option>
-                        <option value={LOCATION.PY}>{paraguay}</option>
-                        <option value={LOCATION.REMOTE}>{remote}</option>
+                    <select className={`form-select ${location==""?'bg-grey':""}`} value={location} onChange={(e) => setLocation(e.target.value)}>
+                        <option value="" className='bg-white'>{locationTxt}</option>
+                        <option value={LOCATION.ARG} className='bg-white'>{argentina}</option>
+                        <option value={LOCATION.PY} className='bg-white'>{paraguay}</option>
+                        <option value={LOCATION.REMOTE} className='bg-white'>{remote}</option>
                     </select>
 
                 </div>

@@ -13,19 +13,19 @@ const GrowthMarketing = () => {
 
   return (
     <div>
-        <div className='px-5 py-5 bg-grey'>
+        <div className='px-3 px-md-5 py-3 py-md-5 bg-grey'>
             <div className='row'>
 
-            <div className='col-12 col-md-6 d-flex justify-content-end mb-3 me-md-4'>
+            <div className='col-12 col-md-6 d-flex justify-content-center justify-content-md-end mb-3'>
                 <Image
                 src="/images-ceibo/sumatealequipo/overview/logo-ceibo-growth.png"
-                width={540}
-                height={360}
+                width={500}
+                height={333}
                 layout="intrinsic"
-                alt="nuestra cultura"
+                alt="Logo Ceibo Growth"
             />            
             </div>
-            <div className='col-12 col-md-4 d-flex flex-column'>
+            <div className='col-12 col-md-6 d-flex flex-column pe-md-5'>
 
                 <h2 className='text-red-ceibo mb-4'>{title}</h2>
                 
