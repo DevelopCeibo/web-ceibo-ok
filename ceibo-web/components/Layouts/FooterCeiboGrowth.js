@@ -103,7 +103,7 @@ const FooterCeiboGrowth = () => {
                             <p className="text-center text-md-start"> {ceiboDigitalPhrase}</p>
                         </div>
                     </div>
-                    <div className="row mb-4">
+                    <div className="row mb-5 mb-md-4">
                         <div className="col-xl-3 col-lg-4 col-sm-12 col-md-5">
                             <div className="single-footer-widget"> 
                                 <div className="logo">

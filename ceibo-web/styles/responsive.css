@@ -1275,6 +1275,13 @@
 	.section-title.sumatealequipo { 
 		margin-top: 15px;
 	 }
+
+	 .footer-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 12px;
+		padding-right: 12px;
+	 }
 }
 
 /* Min width 576px to Max width 767px */
