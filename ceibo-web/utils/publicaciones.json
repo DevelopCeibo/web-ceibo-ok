@@ -1,5 +1,113 @@
 [
+	{
+		"id": "33",
+		"path-url": "andres-borgognon-5dias-talento-joven-py",
+		"title": "La consultoría combina la experiencia estratégica y comprensión de los mercados digitales",
+		"titleEN": "Consultancy combines strategic expertise and understanding of digital markets.",
+		"img": "/images-ceibo/publicaciones/5dias-talento-joven/portada-andres-borgognon.png",
+		"desc": "Andrés Borgognon, Associate en Ceibo Digital, conversa con la revista 5dias para analizar el rol de la transformación digital en las empresas",
+		"content": [
 
+			{
+				"type": "first-p",
+				"text": "Ceibo Digital es una consultora de negocios especializada en transformación digital con oficinas en Miami, Asunción y Buenos Aires, con proyectos en más de 30 países. Partiendo de los dolores del cliente, ofrecen una consultoría estratégica e implementación de iniciativas que facilitan la transformación de los modelos de negocio de las organizaciones, trabajando sobre la construcción de las capacidades digitales necesarias para competir en un mercado cada vez más exigente. Andres Borgognon se encuentra actualmente trabajando en un proyecto de optimización de customer journey para la mayor cadena de supermercados en el mundo."
+			},
+			{
+				"type": "subtitle",
+				"text": "5dias: ¿Qué acciones abarcan tu rol dentro de Ceibo Digital?"
+ 			},
+			{
+				"type": "p",
+				"text": "**AB:** Mi actual posición en Ceibo Digital es la de Associate, calificada dentro del primer nivel de la estructura organizacional de la empresa, que es el punto de partida hacia roles de mayor responsabilidad como los Managers (niveles cuatro, cinco y seis) y Partners (nivel siete), quienes lideran la dirección y ejecución estratégica de nuestros proyectos. Mi función se basa en asegurar la implementación efectiva de las estrategias con tareas como el armado de presentaciones, la optimización de flujos de comunicación, el diseño de estrategias de medios, la elaboración de customer journeys, el desarrollo de dashboards, análisis de métricas, evaluación de resultados la gestión de las relaciones con los clientes, entre otras, todas depen diendo de las necesidades específicas de cada proyecto. Actualmente me encuentro en un proyecto de optimización de customer journeys para la mayor cadena de supermercados en el mundo. Enfocándonos en su aplicación de pagos en México."
+			},
+			{
+				"type": "p",
+				"text": "Considero que Ceibo Digital se distingue por su enfoque de negocios sobre la transformación digital, abordando proyectos en áreas como estrategia, excelencia operacional, organización, innovación y tecnología y customer engagement en todo el mundo. Esta amplitud y diversidad en los proyectos proporciona un terreno ideal para el aprendizaje y el desarrollo profesional."
+			},
+			{
+				"type": "p",
+				"text" :"Trabajar en Ceibo Digital representa una oportunidad excepcional para estar a la vanguardia de la innovación digital, colaborando un equipo de profesionales altamente calificados y comprometidos. Esta experiencia me ha permitido no solo contribuir a los objetivos empresariales sino también crecer y evolucionar en mi carrera y en lo personal en un ambiente óptimo."
+			},
+			{
+				"type": "subtitle",
+				"text": "5dias: ¿Cuáles son los principales desafíos que enfrentan las empresas en su proceso de transformación digital en la actualidad?"
+			},
+			{
+				"type": "p",
+				"text": "**AB:** Al implementar un plan de transformación digital, las organizaciones se enfrentan a diversos desafíos fundamentales:"
+			},
+			{
+				"type": "p",
+				"text":"Falta de una visión compartida: Varias empresas dicen que están en proceso de transformación digital y cuando les preguntamos qué están tratando de lograr, obtenemos tantas respuestas distintas como áreas participan del proceso y por lo tanto, debido a que no existe una visión. clara y específica de lo que es la transformación digital para esa organización en particular, los líderes no saben si están teniendo éxito o no."
+			},
+			{
+				"type": "p",
+				"text":"Falta de prioridades para el crecimiento: En algunos casos hay empresas que están invirtiendo en transformación digital, pero únicamente en términos de eficiencia de costos, ¿cómo podemos hacer lo que venimos haciendo en digital? Con las nuevas tecnologías y en general, más barato y eficiente, es una oportunidad en la que cualquier empresa tiene que pensar. Sin embargo esto es todo en lo que está pensando, está dejando afuera gran parte del valor potencial para su negocio."
+			},
+			{
+				"type": "p",
+				"text":"Todo lo que está haciendo esta empresa es tomar su modelo de negocio existente y preguntarse ¿cómo introducimos tecnologías?, ¿cómo ejecutamos esto de manera más eficiente? Otros casos se dan en empresas que miran de manera más amplia, pero sin un enfoque estratégico, sin prioridades. Pilotos, proyectos y esfuerzos digitales silos, dispersos, que van en muchas direcciones diferentes y nadie sabe realmente cuáles iniciativas son más importantes."
+			},
+			{
+				"type": "p",
+				"text":"No centrarse en la experimentación: Hay empresas que dicen que quieren transformar su modelo de negocio y todo lo que proponen como nuevo debe estar definido y respaldado por un caso de negocio basado en evaluaciones comparativas con lo que otros ya tienen. No se permiten construir, probar y aprender de ellos mismos, no hay experimentación."
+			},
+			{
+				"type": "p",
+				"text":"Falta de flexibilidad en el gobierno: las organizaciones suelen utilizar métodos tradicionales para gestionar los indicadores de negocio y la asignación de recursos, y cuando intentan hacer algo muy innovador aplican esas mismas reglas, con la gran incertidumbre que genera, Se requiere más velocidad para relacionarse con diferentes ecosistemas y seguir diferentes tendencias, y esa es una tremenda fuente de inercia que bloquea a las personas que realmente intentan impulsar el cambio en la organización."
+			},
+			{
+				"type": "p",
+				"text":"Sin cambios en las capacidades: Hay empresas que dicen que quieren transformarse, quieren tener éxito y adaptarse a la era digital y, sin embargo, están tratando de hacerlo con la misma tecnología, con el mismo conjunto de habilidades dentro de su talento y con la misma cultura y procesos dentro de su organización. Sin cambios, no hay transformación."
+			},
+			{
+			"type": "subtitle",
+			"text": "5dias: ¿Qué estrategias y herramientas recomienda su consultora para llevar a cabo una transformación digital exitosa?"
+			},
+			{
+				"type": "p",
+				"text":"**AB:** No creemos que exista el mega proyecto de transformación digital, creemos en caminar la transformación a partir de building blocks que son como piezas de Lego: iniciativas cortas que de forma agregada van transformando la empresa. En lugar de pensar en un proyecto de acá a tres años, pensemos cuáles son los escaloncitos que vamos a ir recorriendo, generando resultados concretos, dentro de tres años vamos a darnos vuelta y a mirar todo lo que nos transformamos."
+			},
+			{
+				"type": "p",
+				"text" :"Sin embargo, lo más importante es cambiar la forma de pensar, el mindset, y entender que todavía estamos en la mitad de la película. Compartamos la visión en la organización, definamos prioridades. Lo perfecto es enemigo de lo bueno, y la realidad es que hay que experimentar, hay que hacerlo aunque surjan errores Es necesario ser ágiles y creativos, aprender de los experimentos o pilotos, que deben ser rápidos, baratos y fáciles de realizar. Se trata de aprender del error y empezar a generar estos procesos iterativos donde 'pruebo-me equivoco-aprendo-replanteo' para volver a probar. No hay una única respuesta para transformar un negocio exitosamente, pero si no se empieza, no habrá oportunidad de transformarlo."
+			},
+			{
+				"type": "p",
+				"text":"Por último, resaltar que es esencial asegurar que toda la organización se involucre en este proceso, apoyar a los agentes de cambio y, en algunos casos, abordar a los detractores de dicho cambio, son pasos necesarios para la innovación de una empresa, La transformación cultural puede determinar la velocidad de la transformación digital y su importancia radica en garantizar una transición efectiva hacia un modelo digital en toda la organización. Ceibo Digital es agnóstico cuando se trata de herramientas que recomienda a sus clientes para lograr una transformación digital exitosa. Trabajamos con diversas herramientas recomendando la que más aplica y soluciona las necesidades de los clientes, siendo siempre ellos el foco de nuestra atención."
+			},
+			{
+				"type": "subtitle",
+				"text": "5dias: ¿Cuál es el impacto de la transformación digital en la eficiencia operativa y la rentabilidad de las empresas?"
+			},
+			{
+				"type": "p",
+				"text": "**AB:** La transformación digital ha revolucionado la forma en que las empresas operan y generan beneficios. En primer lugar, la automatización de procesos es clave. Al digitalizar tareas manuales y repetitivas, las empresas pueden aumentar su eficiencia operativa al reducir errores y liberar recursos humanos para actividades más estratégicas. Facilita el acceso y análisis de grandes volúmenes de datos permitiendo a las organizaciones ganar agilidad en la toma de decisiones y en el momento de identificar y diagnosticar dolores. Todo esto implica no solo un ahorro de tiempo sino resulta en una operación mucho más ágil resultado indefectiblemente en un incremento de la rentabilidad que se puede cuantificar en muy poco tiempo desde el inicio del proceso de transformación."
+			},
+			{
+				"type": "subtitle",
+				"text":"¿Cuál es el rol de la consultoría especializada en transformación digital en el éxito de las empresas en este proceso?"
+			},
+			{
+				"type": "p",
+				"text":"**AB:** La consultoría especializada en transformación digital juega un papel crucial en el éxito de las empresas. en este proceso, actuando como un catalizador que no solo acompaña sino que también impulsa a las organizaciones hacia la innovación y la eficiencia operativa. En este contexto, la consultoría provee una combinación de experiencia estratégica, conocimiento tecnológico avanzado y una profunda comprensión de los mercados digitales."
+			},
+			{
+				"type": "p",
+				"text":"Nuestro enfoque se centra en entender a fondo los objetivos y desafíos específicos de cada cliente, permitiéndonos diseñar soluciones personalizadas que se alinean con sus metas estratégicas y operativas."
+			},			
+			{
+				"type": "p",
+				"text": "Para leer la nota completa 👉 <a href='https://www.5dias.com.py/empresas/andres-borgognon-la-consultoria-combina-la-experiencia-estrategica-y-comprension-de-los-mercados-digitales' target='_blank'>5dias</a>"
+			}
+		],
+		"metadata": {
+			"date": "Febrero 2024",
+			"dateEN": "February 2024",
+			"bannerImg": "/images-ceibo/publicaciones/5dias-talento-joven/portada-andres-borgognon.png",
+			"tags": ["Ceibo Digital", "Paraguay", "Transformación Digital","Talento Joven"]
+		}
+	},
 	{
 		"id": "32",
 		"path-url": "ceibo-revista-ceo-paraguay",
