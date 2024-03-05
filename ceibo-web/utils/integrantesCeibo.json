@@ -708,6 +708,28 @@
 		}
 	},
 	{
+		"nombre": "SERGIO GENES",
+		"linkedinurl": "https://www.linkedin.com/in/sergio-genes/",
+		"src": "/images-ceibo/integrantes/Sergio Genes.png",
+		"posicion": "SPECIALIST",
+		"email": "sergio.genes@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "TOMÁS APOCHIAN",
 		"linkedinurl": "https://www.linkedin.com/in/tomasapochian/",
 		"src": "/images-ceibo/integrantes/Tomas Apochian.png",
@@ -966,11 +988,11 @@
 		}
 	},
 	{
-		"nombre": "SERGIO GENES",
-		"linkedinurl": "https://www.linkedin.com/in/sergio-genes/",
-		"src": "/images-ceibo/integrantes/Sergio Genes.png",
-		"posicion": "ANALYST",
-		"email": "sergio.genes@ceibo.digital",
+		"nombre": "EZEQUIEL IBARRA",
+		"linkedinurl": "https://www.linkedin.com/in/ibarraezequiel/",
+		"src": "/images-ceibo/integrantes/Ezequiel Ibarra.png",
+		"posicion": "DEVELOPER FULL STACK - SEO",
+		"email": "ezequiel.ibarra@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
@@ -1126,6 +1148,28 @@
 		"src": "/images-ceibo/integrantes/Camila Bengolea.png",
 		"posicion": "MARKETING ANALYST",
 		"email": "camila.bengolea@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "JOSEFINA PINTO",
+		"linkedinurl": "https://www.linkedin.com/in/josefina-pinto-4651a31a6",
+		"src": "/images-ceibo/integrantes/Josefina Pinto.png",
+		"posicion": "MARKETING ANALYST",
+		"email": "josefina.pinto@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
