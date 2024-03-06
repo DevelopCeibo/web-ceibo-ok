@@ -692,27 +692,61 @@
 	"dayToDayTitle": "¿Cómo las personas detrás de Ceibo describen sú día a día?",
 	"dayToDayText": "Nuestros Ceibers resumen su día a día en diferentes palabras",
 	"dayToDayItems": [
-		{
-			"text": "Desafío"
-		},
-		{
-			"text": "Pensamiento crítico"
-		},
-		{
-			"text": "Autonomía"
-		},
-		{
-			"text": "Diversión"
-		},
-		{
-			"text": "Aprendizaje"
-		},
-		{
-			"text": "Dinámico"
-		},
-		{
-			"text": "Trabajo en equipo"
-		}
+		[
+			{
+				"text": "Desafío"
+			},
+			{
+				"text": "Pensamiento crítico"
+			},
+			{
+				"text": "Autonomía"
+			}
+		],
+		[
+			{
+				"text": "Diversión"
+			},
+			{
+				"text": "Aprendizaje"
+			},
+			{
+				"text": "Dinámico"
+			}
+		],
+		[
+			{
+				"text": "Trabajo en equipo"
+			},
+			{
+				"text": "Creatividad"
+			},
+			{
+				"text": "Innovación"
+			}
+		],
+		[
+			{
+				"text": "Resiliencia"
+			},
+			{
+				"text": "Colaboración"
+			},
+			{
+				"text": "Empatía"
+			}
+		],
+		[
+			{
+				"text": "Flexibilidad"
+			},
+			{
+				"text": "Superación"
+			},
+			{
+				"text": "Motivación"
+			}
+		]
 	],
 	"newWebinar": "Nuevo webinar",
 	"viewFullWebinar": "Ver webinar completo",

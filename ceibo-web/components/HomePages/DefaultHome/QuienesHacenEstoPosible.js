@@ -18,21 +18,22 @@ const Publicacion = () => {
         <div className='my-5 pt-100'>
             <div className='section-title'>
                 <h2>{title}</h2> </div>
-            <div className='container d-none d-md-block my-5'>
+            <div className='container d-none d-md-block my-5 shadow'>
                 <div className='row'>
                     <div className='col-md-5 py-4 d-none d-md-flex justify-content-end'>
-                        <Image src={imagePath} height={300} width={300}></Image>
+                        <Image src={imagePath} height={400} width={600}></Image>
                     </div>
 
-                    <div className='col-md-5 py-4 d-flex flex-column'>
+                    <div className='col-md-7 py-4 d-flex flex-column'>
                         <h3 className='mb-4'>{subtitle}</h3 >
                         <p className='bottom-line pb-3'>{text}</p>
                         <div className='row'>
                             {items?.map((item, i) => {
-                                return (
-                                    i !== 2 && i !== 3 && i !== 4 ? <div className='col-6 who-makes-this-possible-item' key={uniqid()}><p>{item.text}</p></div>
-                                        : <div className='col-4 who-makes-this-possible-item' key={uniqid()}><p>{item.text}</p></div>
-                                )
+                                return item.map(word => (
+                                    <div className={`col-md-4 who-makes-this-possible-item ${i % 2 == 0 ? "justify-content-around" : ""}`} key={uniqid()}>
+                                        <p>{word.text}</p>
+                                    </div>
+                                ))
 
                             })}
                         </div>
@@ -53,10 +54,15 @@ const Publicacion = () => {
                 </div>
                 <div className='row mt-4 px-4'>
                     {items?.map((item, i) => {
-                        return (
-                            i !== 2 && i !== 3 && i !== 4 ? <div className='col-6 who-makes-this-possible-item' key={uniqid()} ><p>{item.text}</p></div>
-                                : <div className='col-4 who-makes-this-possible-item' key={uniqid()}><p>{item.text}</p></div>
-                        )
+                        return item.map((word) => {
+                            if (i < 2) {
+                                return (
+                                    <div className={`col-6 who-makes-this-possible-item justify-content-center`} key={uniqid()}>
+                                        <p>{word.text}</p>
+                                    </div>
+                                )
+                            }
+                        })
                     })}
                 </div>
             </div>
