@@ -692,29 +692,64 @@
 	"whoMakeThisPossible": "Those who make Ceibo possible",
 	"dayToDayTitle": "How do the people behind Ceibo describe their day-to-day?",
 	"dayToDayText": "Our Ceibers summarize it in various words",
-	"dayToDayItems": [
-		{
+	"dayToDayItems":
+	[
+		[
+		  {
 			"text": "Challenge"
-		},
-		{
-			"text": "Critical thinking"
-		},
-		{
+		  },
+		  {
+			"text": "Critical Thinking"
+		  },
+		  {
 			"text": "Autonomy"
-		},
-		{
+		  }
+		],
+		[
+		  {
 			"text": "Fun"
-		},
-		{
+		  },
+		  {
 			"text": "Learning"
-		},
-		{
+		  },
+		  {
 			"text": "Dynamic"
-		},
-		{
+		  }
+		],
+		[
+		  {
 			"text": "Teamwork"
-		}
-	],
+		  },
+		  {
+			"text": "Creativity"
+		  },
+		  {
+			"text": "Innovation"
+		  }
+		],
+		[
+		  {
+			"text": "Resilience"
+		  },
+		  {
+			"text": "Collaboration"
+		  },
+		  {
+			"text": "Empathy"
+		  }
+		],
+		[
+		  {
+			"text": "Flexibility"
+		  },
+		  {
+			"text": "Self improvement"
+		  },
+		  {
+			"text": "Motivation"
+		  }
+		]
+	  ],
 	"newWebinar": "New webinar",
 	"viewFullWebinar": "Watch full webinar",
 	"checkOurWebinars": "Check out all our webinars",
