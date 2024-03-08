@@ -1,6 +1,7 @@
 import React from 'react'
 import ResponsiveIFrame from '../../Common/ResponsiveIFrame'
 import useTranslation from 'next-translate/useTranslation'
+import ComoNosOrganizamosSwiper from './ComoNosOrganizamosSwiper'
 
 const ComoNosOrganizamos = () => {
 
@@ -20,6 +21,8 @@ const ComoNosOrganizamos = () => {
             <p className='text-center mb-5'>{text}</p>
 
             <ResponsiveIFrame videoSrc={"https://www.youtube.com/embed/4Rhi2_C3Qvc"} />
+
+            <ComoNosOrganizamosSwiper/>
 
         </div>
     )
