@@ -18,7 +18,7 @@ const Publicacion = () => {
         <div className='my-5 pt-100'>
             <div className='section-title'>
                 <h2>{title}</h2> </div>
-            <div className='container d-none d-md-block my-5 shadow'>
+            <div className='container d-none d-md-block my-5'>
                 <div className='row'>
                     <div className='col-md-5 py-4 d-none d-md-flex justify-content-end'>
                         <Image src={imagePath} height={400} width={600}></Image>
