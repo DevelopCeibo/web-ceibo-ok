@@ -34,7 +34,7 @@ const ComoNosOrganizamosSwiper = () => {
                         <p>{role == roles.specialist ? specialistCrewTxt : consultingTeamTxt}</p>
                     </div>
                     <div className='mt-3 mt-md-0 d-flex justify-content-center justify-content-md-start'>
-                        <Link href="/sumate-al-equipo/vida-en-ceibo">
+                        <Link href={role == roles.specialist ? "/sumate-al-equipo/busquedas-vigentes?modality=specialist-crew" : "/sumate-al-equipo/busquedas-vigentes?modality=consulting-team"}>
                             <a className="default-btn-two" title={role == roles.specialist ? uniteAlSpecialist : uniteAlConsulting}>
                                 {role == roles.specialist ? uniteAlSpecialist : uniteAlConsulting}
                             </a>
