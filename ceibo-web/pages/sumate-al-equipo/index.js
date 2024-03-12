@@ -13,6 +13,7 @@ import TalentoGlobal from "../../components/sumatealequipo/TalentoGlobal";
 import ConsultingTeam from "../../components/sumatealequipo/ConsultingTeam";
 import SpecialistCrew from "../../components/sumatealequipo/SpecialistCrew";
 import GrowthMarketing from "../../components/sumatealequipo/GrowthMarketing";
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth";
 
 const sumatealequipo = () => {
 	const { t } = useTranslation("common");
@@ -42,7 +43,7 @@ const sumatealequipo = () => {
 			<SpecialistCrew/>
 			<GrowthMarketing/>
 			<ListoParaAplicar />
-			<Footer />
+			<FooterCeiboGrowth />
 		</>
 	);
 };

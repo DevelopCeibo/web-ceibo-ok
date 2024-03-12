@@ -7,6 +7,7 @@ import Link from "next/link"
 import BlogGridThree from "../../components/Blog/BlogGridThree"
 import Head from "next/head"
 import useTranslation from "next-translate/useTranslation"
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth"
 
 const Publicaciones = () => {
   const { t } = useTranslation("common")
@@ -32,7 +33,7 @@ const Publicaciones = () => {
         {/* <div className="container ">asd</div> */}
         <BlogGridThree section={'publicaciones'}/>
       </div>
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

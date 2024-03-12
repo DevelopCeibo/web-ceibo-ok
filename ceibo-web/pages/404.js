@@ -4,6 +4,7 @@ import NavbarFive from "../components/Layouts/NavbarFive"
 import PageBanner from "../components/Common/PageBanner";
 import ErrorContent from "../components/Error/ErrorContent";
 import Footer from "../components/Layouts/Footer";
+import FooterCeiboGrowth from "../components/Layouts/FooterCeiboGrowth";
 
 const Error = () => {
   return (
@@ -14,7 +15,7 @@ const Error = () => {
 
       <ErrorContent />
 
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   );
 };

@@ -7,6 +7,7 @@ import BlogGridThree from "../../components/Blog/BlogGridThree";
 import Head from "next/head";
 import useTranslation from "next-translate/useTranslation";
 import Hightlight from "../../components/Insights/Highlight";
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth";
 
 const Insights = () => {
   const { t } = useTranslation("common");
@@ -35,7 +36,7 @@ const Insights = () => {
       <div className="pb-70 casos-de-exito">
         <BlogGridThree section={"insights"} />
       </div>
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   );
 };

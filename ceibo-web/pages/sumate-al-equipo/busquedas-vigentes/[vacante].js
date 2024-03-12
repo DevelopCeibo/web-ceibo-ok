@@ -11,6 +11,7 @@ import vacantesEN from "../../../utils/vacantesEN.json"
 import { marked } from "marked"
 import Head from "next/head"
 import { Typography, Box, CircularProgress, Backdrop } from "@mui/material"
+import FooterCeiboGrowth from "../../../components/Layouts/FooterCeiboGrowth"
 
 const Vacante = () => {
   const router = useRouter()
@@ -170,7 +171,7 @@ const Vacante = () => {
         </div>
       </div>
       {vacante && <Formulario vacante={vacante?.title} />}
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

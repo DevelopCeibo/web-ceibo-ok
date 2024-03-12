@@ -6,6 +6,7 @@ import PageBanner from "../../../components/Common/PageBanner";
 import Footer from "../../../components/Layouts/Footer";
 import useTranslation from "next-translate/useTranslation";
 import NavigationCardSection from "../../../components/sumatealequipo/posiciones-abiertas/NavigationCardSection";
+import FooterCeiboGrowth from "../../../components/Layouts/FooterCeiboGrowth";
 
 const index = () => {
   const { t } = useTranslation("common");
@@ -35,7 +36,7 @@ const index = () => {
       <NavigationCardSection
         contentKeysArray={navigationCardSectionContentKeys}
       />
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   );
 };

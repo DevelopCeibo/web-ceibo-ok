@@ -5,6 +5,7 @@ import Footer from "../components/Layouts/Footer"
 import PageBanner from "../components/Common/PageBanner"
 import { Input, FormControl, InputLabel, Stack } from "@mui/material"
 import Head from "next/head"
+import FooterCeiboGrowth from "../components/Layouts/FooterCeiboGrowth"
 
 const alumni = () => {
   const handleSubmit = () => {
@@ -45,7 +46,7 @@ const alumni = () => {
           </Stack>
         </div>
       </div>
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

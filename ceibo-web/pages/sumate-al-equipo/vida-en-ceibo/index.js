@@ -11,6 +11,7 @@ import VidaEnCeiboCarruselVideos from "../../../components/sumatealequipo/vida-e
 import PeopleWorth from "../../../components/sumatealequipo/vida-en-ceibo/PeopleWorth";
 import useTranslation from "next-translate/useTranslation";
 import VidaEnCeiboInstagramFeed from "../../../components/sumatealequipo/vida-en-ceibo/VidaEnCeiboInstagramFeed";
+import FooterCeiboGrowth from "../../../components/Layouts/FooterCeiboGrowth";
 const index = () => {
   const { t } = useTranslation("common");
   const sumateMetaDesc = t("sumateMetaDesc");
@@ -36,7 +37,7 @@ const index = () => {
       <CompetenciasCore />
       <PeopleWorth />
       <VidaEnCeiboInstagramFeed />
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   );
 };

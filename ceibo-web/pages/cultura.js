@@ -12,6 +12,7 @@ import QueNosHaceDiferentes from "../components/Cultura/QueNosHaceDiferentes/ind
 import Head from "next/head";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
+import FooterCeiboGrowth from "../components/Layouts/FooterCeiboGrowth";
 
 const Aabout = () => {
   const { locale } = useRouter();
@@ -48,7 +49,7 @@ const Aabout = () => {
           <a className="default-btn-two">{contactanos}</a>
         </Link>
       </div>
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   );
 };

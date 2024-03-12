@@ -14,6 +14,7 @@ import { Pagination } from "swiper";
 import Head from "next/head";
 import generateUrl from "../../utils/generateUrl";
 import Image from "next/image";
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth";
 
 const Caso = () => {
 	const { locale } = useRouter();
@@ -310,7 +311,7 @@ const Caso = () => {
 					</Swiper>
 				</div>
 			</div>
-			<Footer />
+			<FooterCeiboGrowth />
 		</>
 	);
 };
