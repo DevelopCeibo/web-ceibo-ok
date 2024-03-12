@@ -56,7 +56,7 @@ const ComoAyudamosANuestrosClientes = () => {
                 {activeStories?.map((story, i) => {
                     return (
                         <SwiperSlide key={uniqid()}>
-                            <div className='row shadow'>
+                            <div className='row'>
                                 <div className='col-5 d-none d-md-flex justify-content-end mt-4'>
                                     <Image src={story.metadata.image} height={300} width={600}></Image>
                                 </div>
