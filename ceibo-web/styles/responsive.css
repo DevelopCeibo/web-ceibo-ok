@@ -1279,6 +1279,12 @@
 	.section-title.sumatealequipo { 
 		margin-top: 15px;
 	 }
+
+	 .success-case-title-home {
+		font-size: 20px;
+	 }
+
+
 }
 
 /* Min width 576px to Max width 767px */

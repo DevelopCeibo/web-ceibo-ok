@@ -75,7 +75,7 @@ const ComoAyudamosANuestrosClientes = () => {
                                     ))}
 
                                     </div>
-                                    <p className='bold'>{story.content[0].text}</p>
+                                    <h3 className='bold'>{story.content[0].text}</h3>
                                     <Link href={`/casos-de-exito/${story["path-url"]}`}>
                                         <a className="read-more-btn mt-auto mb-3">
                                             {locale == "en"
@@ -99,7 +99,7 @@ const ComoAyudamosANuestrosClientes = () => {
                                         </Link>
                                     ))}
                                     </div>
-                                    <p className='bold'>{story.content[0].text}</p>
+                                    <h3 className='bold success-case-title-home'>{story.content[0].text}</h3>
                                     <Link href={`/casos-de-exito/${story["path-url"]}`}>
                                         <a className="read-more-btn mt-auto mb-3">
                                             {locale == "en"
