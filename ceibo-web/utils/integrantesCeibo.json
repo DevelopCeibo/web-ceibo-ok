@@ -362,28 +362,6 @@
 		}
 	},
 	{
-		"nombre": "SEBASTIAN AIANI",
-		"linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
-		"src": "/images-ceibo/integrantes/Sebastian Aiani.png",
-		"posicion": "CONSULTANT",
-		"email": "sebastian.aiani@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
 		"nombre": "SOFÍA RONCHI RIVARA",
 		"linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
 		"src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
@@ -642,10 +620,32 @@
 		}
 	},
 	{
+		"nombre": "SEBASTIAN AIANI",
+		"linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
+		"src": "/images-ceibo/integrantes/Sebastian Aiani.png",
+		"posicion": "MARKETING SENIOR SPECIALIST",
+		"email": "sebastian.aiani@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "FELICITAS VIVO",
 		"linkedinurl": "https://www.linkedin.com/in/felicitasvivo/?originalSubdomain=ar",
 		"src": "/images-ceibo/integrantes/Felicitas Vivo.png",
-		"posicion": "SENIOR ASSOCIATE",
+		"posicion": "MARKETING SENIOR SPECIALIST",
 		"email": "felicitas.vivo@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -758,28 +758,6 @@
 		"src": "/images-ceibo/integrantes/Ornella Gaudiosi.png",
 		"posicion": "MARKETING SPECIALIST",
 		"email": "ornella.gaudiosi@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "ANDRÉS DENHAM",
-		"linkedinurl": "https://www.linkedin.com/in/andres-denham-b39a291a4/",
-		"src": "/images-ceibo/integrantes/Andres Denham.png",
-		"posicion": "ASSOCIATE",
-		"email": "andres.denham@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
