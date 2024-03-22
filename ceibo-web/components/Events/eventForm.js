@@ -25,6 +25,7 @@ const INITIAL_STATE = {
   email: "",
   empresa: "",
   cargo: "",
+  phone: ""
 };
 
 const alertContent = () => {
@@ -32,7 +33,6 @@ const alertContent = () => {
     title: "",
     text: "Te has registrado con éxito al evento. Pronto recibirás novedades por correo.",
     icon: "success",
-    timer: 4000,
     timerProgressBar: true,
     showConfirmButton: false,
   });
@@ -63,6 +63,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
   const cargo = t("cargo");
   const otros = t("otros");
   const suscribing = t("suscribing");
+  const phone = t("telefono");
 
   const [contact, setContact] = useState(INITIAL_STATE);
   const handleChange = (e) => {
@@ -82,7 +83,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
     setIsLoading(true)
     try {
       const url = `${baseUrl}/api/contact`;
-      const { name, lastname, email, empresa, cargo } = contact;
+      const { name, lastname, email, empresa, cargo, phone } = contact;
       const formData = new FormData();
       formData.append("name", name);
       formData.append("lastname", lastname);
@@ -90,6 +91,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
       formData.append("empresa", empresa);
       formData.append("cargo", cargo);
       formData.append("checked", selectSource);
+      formData.append("phone", phone);
       formData.append(
         "subject",
         "Nuevo inscripto al próximo evento / webinar de Ceibo."
@@ -104,8 +106,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
 
       const sendgridResponse = await addEmailToSendgridContactList(email, eventContactList)
 
-      console.log(sendgridResponse);
-
+      console.log(response)
       if (response.status == 200) {
         setContact(INITIAL_STATE);
         alertContent();
@@ -185,7 +186,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
               />
             </FormControl>
             <FormControl sx={{ my: 2 }}>
-              <InputLabel htmlFor="empresa">{empresa}</InputLabel>
+              <InputLabel htmlFor="empresa">{empresa}*</InputLabel>
               <Input
                 id="empresa"
                 type="text"
@@ -196,7 +197,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                 required
               />
             </FormControl>
-            <FormControl sx={{ my: 2 }}>
+            {/* <FormControl sx={{ my: 2 }}>
               <InputLabel htmlFor="cargo">{cargo}</InputLabel>
               <Input
                 id="cargo"
@@ -207,9 +208,21 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                 disabled={isLoading}
                 required
               />
+            </FormControl> */}
+            <FormControl sx={{ my: 2 }}>
+              <InputLabel htmlFor="phone">{phone}*</InputLabel>
+              <Input
+                id="phone"
+                type="text"
+                name="phone"
+                onChange={handleChange}
+                value={contact.phone}
+                disabled={isLoading}
+                required
+              />
             </FormControl>
 
-            <FormGroup sx={{ overflowX: "scroll" }}>
+            {/* <FormGroup sx={{ overflowX: "scroll" }}>
               <Typography component="h6" sx={{ my: 2 }}>
                 {dondeEnteraste}{" "}
               </Typography>
@@ -231,7 +244,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                   </Select>
                 </FormControl>
               </Box>
-            </FormGroup>
+            </FormGroup> */}
 
             <div className="container btn-two-container mb-1">
               {!isLoading ?

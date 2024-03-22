@@ -33,11 +33,7 @@ export default async (req, res) => {
 		const emailToAdd = req.body.email;
 		const contactList = req.body.contactList
 
-		console.log(contactList)
-
 		const listId = getSendgridContactListId({contactListName : contactList})
-
-		console.log(listId)
 
 		const data = {
 			list_ids: [listId],
@@ -47,7 +43,6 @@ export default async (req, res) => {
 		const sendgridJobId = response.data;
 		return res.status(200).json(sendgridJobId);
 	} catch (error) {
-		// console.log("ERROR",error)
 		return res.status(404).json({ error: "error adding contact" });
 	}
 };
