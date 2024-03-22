@@ -81,7 +81,7 @@ const Newsletter = () => {
 			if (response.status == 200) {
 				alertContent();
 			}
-			await addEmailToSendgridContactList(email);
+			await addEmailToSendgridContactList(email,'newsletter');
 			// setContact("")
 		} catch (error) {
 			alertError();

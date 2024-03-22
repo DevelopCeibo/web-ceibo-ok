@@ -68,7 +68,7 @@ const Footer = () => {
 				alertContent();
 			}
 			setContact("");
-			await addEmailToSendgridContactList(contact);
+			await addEmailToSendgridContactList(contact,"newsletter");
 			return;
 		} catch (error) {
 			console.log(error);
