@@ -104,6 +104,7 @@ export default async (req, res) => {
 			lastname,
 			email,
 			number,
+			phone,
 			subject,
 			text,
 			lkdurl,
@@ -121,7 +122,7 @@ export default async (req, res) => {
 
 		switch (type) {
 			case "evento":
-				({ name, lastname, email, empresa, cargo, subject, checked } =
+				({ name, lastname, email, empresa, cargo, subject, checked, phone } =
 					rest);
 				receiver = "prensa@ceibo.digital";
 				oc = "Prensa & Eventos";
@@ -137,6 +138,7 @@ export default async (req, res) => {
                 <b>Email:</b> ${email} <br />
                 <b>Empresa:</b> ${empresa} <br />
                 <b>Cargo:</b> ${cargo} <br />
+                <b>Teléfono:</b> ${phone} <br />
                 <b>Se entero por :</b> ${checked}`,
 				};
 				break;
@@ -232,13 +234,12 @@ export default async (req, res) => {
 		}
 		try {
 			const response = await sendMail(data);
-			console.log("Res->", response);
-			if (response.message == "success") {
-				if (oc) {
-					await notificationUser(oc, receiver, rest);
-				}
-				res.status(200).send("Email sent successfully");
-			}
+			// if (response.message == "success") {
+			// 	if (oc) {
+			// 		await notificationUser(oc, receiver, rest);
+			// 	}
+			// }
+			res.status(200).send("Email sent successfully");
 		} catch (error) {
 			console.log("Error->", error);
 			res.status(500).send(`Error sending email`);
