@@ -13,6 +13,10 @@ import {
   Select,
 } from "@mui/material";
 import useTranslation from "next-translate/useTranslation";
+import { addEmailToSendgridContactList } from "../../services/sendgrid.service";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+const MySwal = withReactContent(Swal);
 
 // Form initial state
 const INITIAL_STATE = {
@@ -22,12 +26,13 @@ const INITIAL_STATE = {
   empresa: "",
   cargo: "",
 };
+
 const alertContent = () => {
   MySwal.fire({
     title: "",
-    text: "Mensaje enviado",
+    text: "Te has registrado con éxito al evento. Pronto recibirás novedades por correo.",
     icon: "success",
-    timer: 2000,
+    timer: 4000,
     timerProgressBar: true,
     showConfirmButton: false,
   });
@@ -42,7 +47,7 @@ const alertError = () => {
   });
 };
 
-const eventForm = () => {
+const eventForm = ({eventImageSource, eventContactList}) => {
   const { t } = useTranslation("common");
   const prox = t("prox");
   const suscribiteEvento = t("suscribiteEvento");
@@ -57,6 +62,7 @@ const eventForm = () => {
   const empresa = t("empresa");
   const cargo = t("cargo");
   const otros = t("otros");
+  const suscribing = t("suscribing");
 
   const [contact, setContact] = useState(INITIAL_STATE);
   const handleChange = (e) => {
@@ -68,8 +74,12 @@ const eventForm = () => {
     setselectSource(event.target.value);
   };
 
+  const [isLoading, setIsLoading] = useState(false)
+
   const handleSubmit = async (e) => {
+
     e.preventDefault();
+    setIsLoading(true)
     try {
       const url = `${baseUrl}/api/contact`;
       const { name, lastname, email, empresa, cargo } = contact;
@@ -92,7 +102,10 @@ const eventForm = () => {
         },
       });
 
-      console.log(response.data);
+      const sendgridResponse = await addEmailToSendgridContactList(email, eventContactList)
+
+      console.log(sendgridResponse);
+
       if (response.status == 200) {
         setContact(INITIAL_STATE);
         alertContent();
@@ -100,6 +113,8 @@ const eventForm = () => {
     } catch (error) {
       console.log(error);
       alertError();
+    } finally {
+      setIsLoading(false)
     }
   };
 
@@ -117,7 +132,7 @@ const eventForm = () => {
               height: "100%",
             }}
           >
-            <img src={"/images-ceibo/eventos1.jpg"} className="img-evento" />
+            <img src={eventImageSource} className="img-evento" />
           </Stack>
         </div>
         <div className="col-12 col-lg-6" style={{ padding: 4 }}>
@@ -140,6 +155,7 @@ const eventForm = () => {
                   name="name"
                   value={contact.name}
                   onChange={handleChange}
+                  disabled={isLoading}
                   required
                 />
               </FormControl>
@@ -151,6 +167,7 @@ const eventForm = () => {
                   name="lastname"
                   onChange={handleChange}
                   value={contact.lastname}
+                  disabled={isLoading}
                   required
                 />
               </FormControl>
@@ -163,6 +180,7 @@ const eventForm = () => {
                 name="email"
                 onChange={handleChange}
                 value={contact.email}
+                disabled={isLoading}
                 required
               />
             </FormControl>
@@ -174,6 +192,7 @@ const eventForm = () => {
                 name="empresa"
                 onChange={handleChange}
                 value={contact.empresa}
+                disabled={isLoading}
                 required
               />
             </FormControl>
@@ -185,6 +204,7 @@ const eventForm = () => {
                 name="cargo"
                 onChange={handleChange}
                 value={contact.cargo}
+                disabled={isLoading}
                 required
               />
             </FormControl>
@@ -201,6 +221,7 @@ const eventForm = () => {
                     value={selectSource}
                     label=""
                     onChange={handleChangeSelect}
+                    disabled={isLoading}
                   >
                     <MenuItem value={linkedin}>{linkedin}</MenuItem>
                     <MenuItem value={instaPost}>{instaPost}</MenuItem>
@@ -213,9 +234,16 @@ const eventForm = () => {
             </FormGroup>
 
             <div className="container btn-two-container mb-1">
-              <a className="default-btn-two" onClick={handleSubmit}>
-                {registernow}
+              {!isLoading ?
+                <a className="default-btn-two" onClick={handleSubmit}>
+                  {registernow}
+                </a>
+                :  
+                <a className="default-btn-two" >
+                {suscribing}...
               </a>
+                 
+              }
             </div>
           </Stack>
         </div>

@@ -1,0 +1,15 @@
+[
+    {
+        "id": "11",
+        "path-url": "tematicas-importantes-directivo-paraguay",
+        "title": "Temáticas fundamentales para un directivo paraguayo",
+        "img": "/images-ceibo/eventos/banner-tematicas-directivo-py.jpg",
+        "imgBanner": "/images-ceibo/Banner-seccion-contacto.jpeg",
+        "desc": "Evento presencial en Asunción",
+        "metadata": {
+            "date": "10 de Abril"
+        },
+        "isActive": true,
+        "contactList": "eventoId11"
+    }
+]
