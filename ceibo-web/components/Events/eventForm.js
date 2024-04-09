@@ -11,6 +11,7 @@ import {
   Box,
   MenuItem,
   Select,
+  Button
 } from "@mui/material";
 import useTranslation from "next-translate/useTranslation";
 import { addEmailToSendgridContactList } from "../../services/sendgrid.service";
@@ -41,11 +42,17 @@ const alertError = () => {
   MySwal.fire({
     icon: "error",
     // title: "Oops...",
-    timer: 3000,
     text: "Algo salió mal!",
     footer: "Podes intentarlo más tarde, o comunicarte por otro medio",
   });
 };
+const alertMissingFields = () => {
+  MySwal.fire({
+    icon: "error",
+    text: "Campos sin completar",
+    footer: "Por favor, completa los campos faltantes",
+  });
+}
 
 const eventForm = ({eventImageSource, eventContactList}) => {
   const { t } = useTranslation("common");
@@ -84,6 +91,11 @@ const eventForm = ({eventImageSource, eventContactList}) => {
     try {
       const url = `${baseUrl}/api/contact`;
       const { name, lastname, email, empresa, cargo, phone } = contact;
+
+      if (name == "" || lastname == "" || email == "" || empresa == "" || phone == "") {
+        alertMissingFields()
+        return
+      }
       const formData = new FormData();
       formData.append("name", name);
       formData.append("lastname", lastname);
@@ -106,13 +118,11 @@ const eventForm = ({eventImageSource, eventContactList}) => {
 
       const sendgridResponse = await addEmailToSendgridContactList(email, eventContactList)
 
-      console.log(response)
       if (response.status == 200) {
         setContact(INITIAL_STATE);
         alertContent();
       }
     } catch (error) {
-      console.log(error);
       alertError();
     } finally {
       setIsLoading(false)
@@ -148,8 +158,8 @@ const eventForm = ({eventImageSource, eventContactList}) => {
           >
             <h4>{suscribiteEvento}</h4>
             <Stack direction="row" sx={{ justifyContent: "space-between" }}>
-              <FormControl sx={{ my: 2, width: "49%" }}>
-                <InputLabel htmlFor="fullname">{nombre} *</InputLabel>
+              <FormControl sx={{ my: 2, width: "49%" }} required={true}>
+                <InputLabel htmlFor="fullname" required={true}>{nombre}</InputLabel>
                 <Input
                   id="name"
                   type="text"
@@ -157,11 +167,11 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                   value={contact.name}
                   onChange={handleChange}
                   disabled={isLoading}
-                  required
+                  required={true}
                 />
               </FormControl>
               <FormControl sx={{ my: 2, width: "49%" }}>
-                <InputLabel htmlFor="fullname">{apellido} *</InputLabel>
+                <InputLabel htmlFor="fullname">{apellido}</InputLabel>
                 <Input
                   id="lastname"
                   type="text"
@@ -169,7 +179,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                   onChange={handleChange}
                   value={contact.lastname}
                   disabled={isLoading}
-                  required
+                  required={true}
                 />
               </FormControl>
             </Stack>
@@ -182,7 +192,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                 onChange={handleChange}
                 value={contact.email}
                 disabled={isLoading}
-                required
+                required={true}
               />
             </FormControl>
             <FormControl sx={{ my: 2 }}>
@@ -194,7 +204,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                 onChange={handleChange}
                 value={contact.empresa}
                 disabled={isLoading}
-                required
+                required={true}
               />
             </FormControl>
             {/* <FormControl sx={{ my: 2 }}>
@@ -218,7 +228,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                 onChange={handleChange}
                 value={contact.phone}
                 disabled={isLoading}
-                required
+                required={true}
               />
             </FormControl>
 
@@ -247,16 +257,9 @@ const eventForm = ({eventImageSource, eventContactList}) => {
             </FormGroup> */}
 
             <div className="container btn-two-container mb-1">
-              {!isLoading ?
-                <a className="default-btn-two" onClick={handleSubmit}>
+                <Button className="default-btn-two" disabled={isLoading} onClick={handleSubmit}>
                   {registernow}
-                </a>
-                :  
-                <a className="default-btn-two" >
-                {suscribing}...
-              </a>
-                 
-              }
+                </Button>
             </div>
           </Stack>
         </div>
