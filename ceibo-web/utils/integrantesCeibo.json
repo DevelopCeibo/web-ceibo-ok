@@ -686,6 +686,58 @@
 		}
 	},
 	{
+		"nombre": "MALENA BURS",
+		"linkedinurl": "https://www.linkedin.com/in/malenaburs/?originalSubdomain=ar",
+		"src": "/images-ceibo/integrantes/Malena Burs.png",
+		"posicion": "SENIOR ASSOCIATE",
+		"email": "malena.burs@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "MARTÍN IUVARO",
+		"linkedinurl": "https://www.linkedin.com/in/mart%C3%ADn-iuvaro-a77a28206/",
+		"src": "/images-ceibo/integrantes/Martin Iuvaro.png",
+		"posicion": "SENIOR ASSOCIATE",
+		"email": "martin.iuvaro@ceibo.digital",
+		"ceiber": {
+			"nickname": "Tincho",
+			"quote": "Ceibo me permite explorar distintas áreas e industrias que siempre me interesaron y otras que no hubiese explorado por mi cuenta. Lo considero un ambiente dinámico, de mucho aprendizaje, con gran flexibilidad y, sobre todo, con personas increíbles.",
+			"quoteEN": "Ceibo has enabled me to explore various areas and industries that have always interested me, ones I might not have explored on my own. I consider it a dynamic environment with ample learning opportunities, great flexibility, and, above all, incredible people.",
+			"tags": [
+				"Dinámico",
+				"Desafiante",
+				"Nutritivo"
+			],
+			"tagsEN": [
+				"Dynamic",
+				"Nourishing",
+				"Challenging"
+			],
+			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Martin Iuvaro.png"
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "SERGIO GENES",
 		"linkedinurl": "https://www.linkedin.com/in/sergio-genes/",
 		"src": "/images-ceibo/integrantes/Sergio Genes.png",
@@ -743,36 +795,6 @@
 			"tags": [],
 			"tagsEN": [],
 			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "MARTÍN IUVARO",
-		"linkedinurl": "https://www.linkedin.com/in/mart%C3%ADn-iuvaro-a77a28206/",
-		"src": "/images-ceibo/integrantes/Martin Iuvaro.png",
-		"posicion": "ASSOCIATE",
-		"email": "martin.iuvaro@ceibo.digital",
-		"ceiber": {
-			"nickname": "Tincho",
-			"quote": "Ceibo me permite explorar distintas áreas e industrias que siempre me interesaron y otras que no hubiese explorado por mi cuenta. Lo considero un ambiente dinámico, de mucho aprendizaje, con gran flexibilidad y, sobre todo, con personas increíbles.",
-			"quoteEN": "Ceibo has enabled me to explore various areas and industries that have always interested me, ones I might not have explored on my own. I consider it a dynamic environment with ample learning opportunities, great flexibility, and, above all, incredible people.",
-			"tags": [
-				"Dinámico",
-				"Desafiante",
-				"Nutritivo"
-			],
-			"tagsEN": [
-				"Dynamic",
-				"Nourishing",
-				"Challenging"
-			],
-			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Martin Iuvaro.png"
 		},
 		"globalTalent": {
 			"quote": "",
@@ -862,28 +884,6 @@
 		"src": "/images-ceibo/integrantes/Felipe Diniz.png",
 		"posicion": "ASSOCIATE",
 		"email": "felipe.diniz@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "MALENA BURS",
-		"linkedinurl": "https://www.linkedin.com/in/malenaburs/?originalSubdomain=ar",
-		"src": "/images-ceibo/integrantes/Malena Burs.png",
-		"posicion": "ASSOCIATE",
-		"email": "malena.burs@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
@@ -1187,28 +1187,7 @@
 			"img": ""
 		}
 	},
-	{
-		"nombre": "JUANA SCHULMEIER",
-		"linkedinurl": "https://www.linkedin.com/in/juana-schulmeier-0ba59224a",
-		"src": "/images-ceibo/integrantes/Juana Schulmeier.png",
-		"posicion": "MARKETING TRAINEE",
-		"email": "juana.schulmeier@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
+	
 	{
 		"nombre": "RAFAEL BORGOGNON",
 		"linkedinurl": "https://www.linkedin.com/in/rafael-borgognon-19462027a",
@@ -1281,6 +1260,28 @@
 		"src": "/images-ceibo/integrantes/Nahuel Gonzalez.png",
 		"posicion": "STAFF",
 		"email": "nahuel.gonzalez@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "FELIPE BARRAL",
+		"linkedinurl": "https://www.linkedin.com/in/felipe-mateo-barral-1aa33120b/",
+		"src": "/images-ceibo/integrantes/Felipe Barral.png",
+		"posicion": "RECRUITER",
+		"email": "felipe.barral@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
