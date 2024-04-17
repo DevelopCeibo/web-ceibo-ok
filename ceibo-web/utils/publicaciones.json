@@ -601,7 +601,7 @@
 		"path-url": "congreso-america-digital-2023",
 		"title": "Congreso de Tecnología y Negocios América Digital - Mexico",
 		"titleEN": "America Digital Technology and Business Congress - Mexico",
-		"img": "/images-ceibo/publicaciones/congreso-america-digital/banner.png",
+		"img": "/images-ceibo/publicaciones/congreso-america-digital/banner.webp",
 		"desc": "Ceibo Digital en el Congreso de Tecnología y Negocios de América Digital 2023.",
 		"content": [
 			{
@@ -624,7 +624,7 @@
 		"metadata": {
 			"date": "21 y 22 de junio, 2023",
 			"dateEN": "June 21 & 22, 2023",
-			"bannerImg": "/images-ceibo/publicaciones/congreso-america-digital/banner.png",
+			"bannerImg": "/images-ceibo/publicaciones/congreso-america-digital/banner.webp",
 			"tags": ["Ceibo Digital", "Transformación Digital", "Tecnología"]
 		}
 	},
