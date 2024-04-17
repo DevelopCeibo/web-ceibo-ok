@@ -633,7 +633,7 @@
 		"path-url": "evento-transformacion-digital-microsoft-paraguay",
 		"title": "Evento Transformación Digital Microsoft en Paraguay",
 		"titleEN": "Digital Transformation Microsoft Event in Paraguay",
-		"img": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/banner.png",
+		"img": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/banner.webp",
 		"desc": "Nuestro Partner, Hernán Gutsztat, estuvo en Asunción conversando junto con Excelsis, Nexsys y Microsoft sobre el desafío al que se enfrentan las empresas de Paraguay a la hora de encarar su Transformación Digital.",
 		"content": [
 			{
@@ -657,7 +657,7 @@
 		"metadata": {
 			"date": "8 de junio, 2023 ",
 			"dateEN": "June 8, 2023",
-			"bannerImg": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/banner.png",
+			"bannerImg": "/images-ceibo/publicaciones/evento-microsoft-paraguay-2023/banner.webp",
 			"tags": ["Ceibo Digital", "Transformación Digital", "Paraguay"]
 		}
 	},
