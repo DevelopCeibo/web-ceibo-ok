@@ -68,7 +68,7 @@ const MainBanner = (title, body) => {
 		<>
 			<div className="hero-banner video-studio overly-6">
 				<div className="video-background">
-					<video autoPlay loop src="/video/promo-video.mp4" />
+					<video autoPlay loop muted src="/video/promo-video.mp4" />
 				</div>
 
 				<div className="d-table">
