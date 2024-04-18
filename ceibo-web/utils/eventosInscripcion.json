@@ -1,5 +1,18 @@
 [
     {
+        "id": "12",
+        "path-url": "after-office-30-abril-paraguay",
+        "title": "Revolución Digital - El panorama Fintech en LATAM",
+        "img": "/images-ceibo/eventos/flyer-revolucion-digital-py-2da-edicion.webp",
+        "imgBanner": "/images-ceibo/Banner-seccion-contacto.jpeg",
+        "desc": "Evento presencial en Asunción | 2da Edición",
+        "metadata": {
+            "date": "30 de Abril"
+        },
+        "isActive": true,
+        "contactList": "eventoId12"
+    },
+    {
         "id": "11",
         "path-url": "after-office-10-abril-paraguay",
         "title": "Revolución Digital - El panorama Fintech en LATAM",
@@ -9,7 +22,7 @@
         "metadata": {
             "date": "10 de Abril"
         },
-        "isActive": true,
+        "isActive": false,
         "contactList": "eventoId11"
     }
 ]
