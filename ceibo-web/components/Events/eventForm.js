@@ -18,7 +18,7 @@ import { addEmailToSendgridContactList } from "../../services/sendgrid.service";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
-
+import Image from "next/image";
 // Form initial state
 const INITIAL_STATE = {
   name: "",
@@ -143,7 +143,10 @@ const eventForm = ({eventImageSource, eventContactList}) => {
               height: "100%",
             }}
           >
-            <img src={eventImageSource} className="img-evento" />
+            <Image src={eventImageSource}
+                  height={600}
+                  width={450}
+                  alt="Imagen del evento"></Image>
           </Stack>
         </div>
         <div className="col-12 col-lg-6" style={{ padding: 4 }}>
