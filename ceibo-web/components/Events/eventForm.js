@@ -261,7 +261,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
 
             <div className="container btn-two-container mb-1">
                 <Button className="default-btn-two" disabled={isLoading} onClick={handleSubmit}>
-                  {registernow}
+                  {!isLoading ? registernow : `${suscribing} ...`}
                 </Button>
             </div>
           </Stack>
