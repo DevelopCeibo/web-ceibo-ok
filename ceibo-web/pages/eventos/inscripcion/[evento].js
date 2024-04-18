@@ -15,7 +15,7 @@ const Inscripcion = () => {
     const router = useRouter()
     const eventParam= router.query.evento
 
-    const foundEvent = eventosInscripcion.find((e)=> e['path-url'] === eventParam)
+    const foundEvent = eventosInscripcion.find((e)=> e['path-url'] === eventParam && e.isActive)
     useEffect(()=>{
         if (foundEvent){
             setEvent(foundEvent)
