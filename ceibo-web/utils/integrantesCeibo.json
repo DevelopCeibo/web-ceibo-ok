@@ -945,6 +945,28 @@
 		}
 	},
 	{
+		"nombre": "MADELINE CARRIQUE",
+		"linkedinurl": "https://www.linkedin.com/in/madeline-carrique",
+		"src": "/images-ceibo/integrantes/Madeline Carrique.png",
+		"posicion": "ASSOCIATE",
+		"email": "madeline.carrique@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "EZEQUIEL IBARRA",
 		"linkedinurl": "https://www.linkedin.com/in/ibarraezequiel/",
 		"src": "/images-ceibo/integrantes/Ezequiel Ibarra.png",
