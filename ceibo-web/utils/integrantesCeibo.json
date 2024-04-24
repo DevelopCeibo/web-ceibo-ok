@@ -265,6 +265,66 @@
 		}
 	},
 	{
+		"nombre": "VICTORIA SELVA",
+		"linkedinurl": "https://www.linkedin.com/in/victoria-selva/",
+		"src": "/images-ceibo/integrantes/Victoria Selva.png",
+		"posicion": "PROJECT LEADER",
+		"email": "victoria.selva@ceibo.digital",
+		"ceiber": {
+			"nickname": "Vicky",
+			"quote": "Tener una experiencia previa en una de las Big Four de consultoría me permite valorar más lo que es Ceibo. Tenés responsabilidades que en consultoras más grandes no tendrías, la curva de aprendizaje es altísima, y hay un excelente clima de trabajo y buena onda desde el más junior hasta el más senior.",
+			"quoteEN": "Having previous experience at one of the 'Big Four' firms allows me to appreciate Ceibo even more. You have responsibilities that you might not encounter in larger consulting firms, the learning curve is very steep, and there is an excellent working environment.",
+			"tags": [
+				"Aprendizaje",
+				"Desafiante",
+				"Diversión"
+			],
+			"tagsEN": [
+				"Learning",
+				"Challenging",
+				"Fun"
+			],
+			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Victoria Selva.png"
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
+		"nombre": "SOFÍA RONCHI RIVARA",
+		"linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
+		"src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
+		"posicion": "PROJECT LEADER",
+		"email": "sofia.ronchi@ceibo.digital",
+		"ceiber": {
+			"nickname": "Sofi",
+			"quote": "Ceibo combina muchos aspectos clave que aspiraba a encontrar en una empresa: un excelente clima de trabajo y buena onda entre todos, la posibilidad de trabajar y conocer variedad de industrias, y la necesidad de capacitarme en nuevos temas para desarrollar mis actividades.",
+			"quoteEN": "Ceibo combines many key aspects that I aspired to find in a company: an excellent working environment, the opportunity to work in and learn about a variety of industries, and the possibility to receive training in new subjects to further develop my capabilities.",
+			"tags": [
+				"Dinámico",
+				"Desafiante",
+				"Aprendizaje"
+			],
+			"tagsEN": [
+				"Dynamic",
+				"Challenging",
+				"Learning"
+			],
+			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Sofia Ronchi Rivara.png"
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "DARÍO MELMAN",
 		"linkedinurl": "https://www.linkedin.com/in/dariomelman/",
 		"src": "/images-ceibo/integrantes/Dario Melman.png",
@@ -299,67 +359,6 @@
 			"tags": [],
 			"tagsEN": [],
 			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	
-	{
-		"nombre": "VICTORIA SELVA",
-		"linkedinurl": "https://www.linkedin.com/in/victoria-selva/",
-		"src": "/images-ceibo/integrantes/Victoria Selva.png",
-		"posicion": "CONSULTANT",
-		"email": "victoria.selva@ceibo.digital",
-		"ceiber": {
-			"nickname": "Vicky",
-			"quote": "Tener una experiencia previa en una de las Big Four de consultoría me permite valorar más lo que es Ceibo. Tenés responsabilidades que en consultoras más grandes no tendrías, la curva de aprendizaje es altísima, y hay un excelente clima de trabajo y buena onda desde el más junior hasta el más senior.",
-			"quoteEN": "Having previous experience at one of the 'Big Four' firms allows me to appreciate Ceibo even more. You have responsibilities that you might not encounter in larger consulting firms, the learning curve is very steep, and there is an excellent working environment.",
-			"tags": [
-				"Aprendizaje",
-				"Desafiante",
-				"Diversión"
-			],
-			"tagsEN": [
-				"Learning",
-				"Challenging",
-				"Fun"
-			],
-			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Victoria Selva.png"
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "SOFÍA RONCHI RIVARA",
-		"linkedinurl": "https://www.linkedin.com/in/sofiaronchirivara/",
-		"src": "/images-ceibo/integrantes/Sofia Ronchi Rivara.png",
-		"posicion": "CONSULTANT",
-		"email": "sofia.ronchi@ceibo.digital",
-		"ceiber": {
-			"nickname": "Sofi",
-			"quote": "Ceibo combina muchos aspectos clave que aspiraba a encontrar en una empresa: un excelente clima de trabajo y buena onda entre todos, la posibilidad de trabajar y conocer variedad de industrias, y la necesidad de capacitarme en nuevos temas para desarrollar mis actividades.",
-			"quoteEN": "Ceibo combines many key aspects that I aspired to find in a company: an excellent working environment, the opportunity to work in and learn about a variety of industries, and the possibility to receive training in new subjects to further develop my capabilities.",
-			"tags": [
-				"Dinámico",
-				"Desafiante",
-				"Aprendizaje"
-			],
-			"tagsEN": [
-				"Dynamic",
-				"Challenging",
-				"Learning"
-			],
-			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Sofia Ronchi Rivara.png"
 		},
 		"globalTalent": {
 			"quote": "",
