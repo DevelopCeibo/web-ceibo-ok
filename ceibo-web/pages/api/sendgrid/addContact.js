@@ -24,6 +24,9 @@ const getSendgridContactListId = ({ contactListName }) => {
 		case 'eventoId11':
 			return sendgridContactListIds.eventoId11
 		break
+		case 'eventoId12':
+			return sendgridContactListIds.eventoId12
+		break
 
 	}
 }
