@@ -193,10 +193,10 @@ export default async (req, res) => {
 				fileStream.push(null);
 				utm_medium == "landing-talento-global"
 					? (receiver = [
-							"recruiting@ceibo.digital",
+							"recruiting.consultingteam@ceibo.digital",
 							"marketing@ceibo.digital",
 					  ])
-					: (receiver = "recruiting@ceibo.digital");
+					: (receiver = "recruiting.consultingteam@ceibo.digital");
 
 				// receiver = [
 				// 	"tomas.apochian@ceibo.digital",
