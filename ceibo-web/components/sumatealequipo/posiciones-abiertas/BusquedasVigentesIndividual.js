@@ -61,8 +61,8 @@ const BusquedasVigentesIndividual = ({ arregloDeVacantes }) => {
                       <p>{vac.id == "6" && marketingAutomation}</p>
                       <p>{vac.id == "7" && seniorPaidMedia}</p>
                     </div>
-                    <Link href={`/sumate-al-equipo/busquedas-vigentes/${vac["path-url"]}`}>
-                      <a className="read-more-btn">
+                    <Link href={vac["path-url"].length ? `/sumate-al-equipo/busquedas-vigentes/${vac["path-url"]}` : vac.href}>
+                      <a className="read-more-btn" target={vac.href? "_blank" : '_self'}>
                         {postularse} <i className="fa-solid fa-angles-right"></i>
                       </a>
                     </Link>

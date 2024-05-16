@@ -31,8 +31,8 @@ const GrowthMarketing = () => {
                 
                 <p className='text-break'>{text}</p>
                 
-                <Link href={"/sumate-al-equipo/busquedas-vigentes?workArea=growth-marketing"}>
-                    <a className="read-more-btn bold pb-3">
+                      <Link href={"https://www.ceibogrowth.com/#comp-lu0759dj"}>
+                    <a className="read-more-btn bold pb-3" target='_blank'>
                         {buttonText}
                         <i className="fa-solid fa-angles-right"></i>
                     </a>

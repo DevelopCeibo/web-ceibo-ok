@@ -7,6 +7,8 @@ const MySwal = withReactContent(Swal);
 import withReactContent from "sweetalert2-react-content";
 import axios from "axios";
 import { addEmailToSendgridContactList } from "../../services/sendgrid.service";
+import { ceiboGrowthUrl } from "../../utils/ceiboGrowthLinks";
+import { useRouter } from "next/router";
 
 const alertContent = () => {
     MySwal.fire({
@@ -41,6 +43,8 @@ const FooterCeiboGrowth = () => {
     const suscribirme = t("suscribirme");
     const ceiboGrowthPhrase = t("ceiboGrowthPhrase")
     const ceiboDigitalPhrase = t("ceiboDigitalPhrase")
+    const { locale } = useRouter()
+
 
     const currentYear = new Date().getFullYear();
     const [contact, setContact] = useState(INITIAL_STATE);
@@ -107,7 +111,7 @@ const FooterCeiboGrowth = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-12 col-md-5">
                             <div className="single-footer-widget"> 
                                 <div className="logo">
-                                    <Link href="/"> 
+                                    <Link href={`${ceiboGrowthUrl}/${locale}`} className="d-flex justify-content-center justify-content-md-start"> 
                                         <a target="_blank" className="d-flex justify-content-center justify-content-md-start">
                                             <img
                                                 src="/images-ceibo/logo-ceibo-growth-white.png"

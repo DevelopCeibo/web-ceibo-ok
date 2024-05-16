@@ -1,5 +1,5 @@
 import { LOCATION, WORK_MODALITY, WORK_AREA } from './busquedasVigentes.utils';
-
+import { ceiboGrowthCareersUrl } from './ceiboGrowthLinks';
 const vacantes = [
     {
       "id": "1",
@@ -467,7 +467,8 @@ const vacantes = [
     },
     {
       "id": "6",
-      "path-url": "marketing-automation",
+      "path-url": "",
+      href : ceiboGrowthCareersUrl,
       "image": "/images-ceibo/Busqueda-marketing-automation-specialist.jpeg",
       "title": "Marketing Automation Specialist/Analyst",
       "bgcolor": "#891924",
@@ -546,7 +547,8 @@ const vacantes = [
     },
     {
       "id": "7",
-      "path-url": "senior-paid-media",
+      "path-url": "",
+      href : ceiboGrowthCareersUrl,
       "image": "/images-ceibo/Busqueda-paid-media-specialist.jpeg",
       "title": "Sr. Paid Media Specialist/Analyst",
       "bgcolor": "#891924",
