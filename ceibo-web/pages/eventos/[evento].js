@@ -8,6 +8,7 @@ import events from "../../utils/eventos.json";
 import eventsEN from "../../utils/eventosEN.json";
 import EventPageGenerator from "../../components/Events/EventPageGenerator";
 import EventNavSection from "../../components/Events/EventNavSections";
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth";
 
 const Event = () => {
 	const router = useRouter();
@@ -45,7 +46,7 @@ const Event = () => {
 			/>
 			<EventPageGenerator event={event} />
 			<EventNavSection events={eventsToUse} />
-			<Footer />
+			<FooterCeiboGrowth />
 		</>
 	);
 };

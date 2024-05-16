@@ -12,6 +12,7 @@ import AreasDeServicio from "../components/Quehacemos/AreasDeServicio"
 import Head from "next/head"
 import useTranslation from "next-translate/useTranslation"
 import { useRouter } from "next/router"
+import FooterCeiboGrowth from "../components/Layouts/FooterCeiboGrowth"
 
 const QueHacemos = () => {
   const { locale } = useRouter()
@@ -52,7 +53,7 @@ const QueHacemos = () => {
           {contactanos}
         </a>
       </div>
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

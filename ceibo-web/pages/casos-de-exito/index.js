@@ -13,6 +13,7 @@ import generateUrl from "../../utils/generateUrl"
 import Image from "next/image"
 import { useRouter } from "next/router"
 import useTranslation from "next-translate/useTranslation"
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth"
 
 const CasosDeExito = () => {
   const { t } = useTranslation("common")
@@ -127,7 +128,7 @@ const CasosDeExito = () => {
           </section>
         </div>
       </div>
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

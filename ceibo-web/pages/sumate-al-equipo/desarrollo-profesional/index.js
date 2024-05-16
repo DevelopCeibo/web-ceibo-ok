@@ -8,6 +8,8 @@ import CarreraEnCeibo from "../../../components/sumatealequipo/desarrollo-profes
 import Especializaciones from "../../../components/sumatealequipo/desarrollo-profesional/Especializaciones";
 import NavigationCardSection from "../../../components/sumatealequipo/posiciones-abiertas/NavigationCardSection";
 import useTranslation from "next-translate/useTranslation";
+import ComoNosOrganizamos from "../../../components/sumatealequipo/desarrollo-profesional/ComoNosOrganizamos";
+import FooterCeiboGrowth from "../../../components/Layouts/FooterCeiboGrowth";
 const index = () => {
   const { t } = useTranslation("common");
   const h1 = t("carreraEnCeiboH1");
@@ -34,10 +36,12 @@ const index = () => {
 
       <CarreraEnCeibo />
       <Especializaciones />
+      <ComoNosOrganizamos/>
       <NavigationCardSection
         contentKeysArray={navigationCardSectionContentKeys}
       />
-      <Footer />
+
+      <FooterCeiboGrowth />
     </>
   );
 };

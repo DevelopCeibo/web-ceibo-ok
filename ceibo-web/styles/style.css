@@ -8788,7 +8788,7 @@ abbr:hover {
 	padding-left: 2rem;
 	padding-right: 3rem;
 	text-align: justify;
-	font-size: 18px;
+	/* font-size: 18px; */
 }
 .overview-cul-button {
 	justify-content: center;

@@ -12,6 +12,7 @@ import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth";
 
 const Eventos = () => {
 	const { locale } = useRouter();
@@ -118,7 +119,7 @@ const Eventos = () => {
 					</section>
 				</div>
 			</div>
-			<Footer />
+			<FooterCeiboGrowth />
 		</>
 	);
 };

@@ -19,11 +19,11 @@ const NuestraCultura = () => {
       {/*  CONTENT */}
       <section className="container">
         <article className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-6 col-sm-12 d-md-flex justify-content-center">
             <Image
               src="/images-ceibo/sumatealequipo/overview/nuestra-cultura.png"
-              width={1101}
-              height={610}
+              width={500}
+              height={277}
               layout="intrinsic"
               alt="nuestra cultura"
             />

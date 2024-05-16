@@ -5,6 +5,7 @@ import PageBanner from "../../../components/Common/PageBanner";
 import Footer from "../../../components/Layouts/Footer";
 import useTranslation from "next-translate/useTranslation";
 import TalentoGlobal from "../../../components/sumatealequipo/talento-global/index";
+import FooterCeiboGrowth from "../../../components/Layouts/FooterCeiboGrowth";
 const index = () => {
 	const { t } = useTranslation("common");
 	const h1 = t("talentoGlobal");
@@ -24,7 +25,7 @@ const index = () => {
 				BGImage="/images-ceibo/sumatealequipo/talento-global/banner.jpg"
 			/>
 			<TalentoGlobal />
-			<Footer />
+			<FooterCeiboGrowth />
 		</>
 	);
 };

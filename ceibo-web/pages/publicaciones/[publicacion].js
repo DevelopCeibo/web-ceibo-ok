@@ -7,6 +7,7 @@ import publicaciones from "../../utils/publicaciones.json"
 import { useRouter } from "next/router"
 import PageBanner from "../../components/Common/PageBanner"
 import Head from "next/head"
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth"
 
 const Publicacion = () => {
   const router = useRouter()
@@ -45,7 +46,7 @@ const Publicacion = () => {
         textcenter={true}
       />
       <BlogDetailsContent publicacion={data} />
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

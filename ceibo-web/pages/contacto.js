@@ -8,6 +8,7 @@ import Newsletter from "../components/Common/Newsletter"
 import Footer from "../components/Layouts/Footer"
 import Head from "next/head"
 import useTranslation from "next-translate/useTranslation"
+import FooterCeiboGrowth from "../components/Layouts/FooterCeiboGrowth"
 
 const Contact = () => {
   const { t } = useTranslation("common")
@@ -40,7 +41,7 @@ const Contact = () => {
         <Newsletter />
       </div>
 
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

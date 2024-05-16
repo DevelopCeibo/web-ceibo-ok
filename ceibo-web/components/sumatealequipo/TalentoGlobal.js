@@ -19,11 +19,11 @@ const TalentoGlobal = () => {
 			{/*  CONTENT */}
 			<section className="container">
 				<article className="row">
-					<div className="col-lg-6 col-md-6 col-sm-12">
+					<div className="col-lg-6 col-md-6 col-sm-12 d-md-flex justify-content-center">
 						<Image
 							src="/images-ceibo/sumatealequipo/overview/talento-global.png"
-							width={1101}
-							height={700}
+							width={500}
+							height={277}
 							layout="intrinsic"
 							alt="Talento Global"
 						/>

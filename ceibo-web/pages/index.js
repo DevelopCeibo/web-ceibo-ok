@@ -1,5 +1,4 @@
 import React from "react"
-import NavbarTwo from "../components/Layouts/NavbarTwo"
 import NavbarFive from "../components/Layouts/NavbarFive"
 import MainBanner from "../components/HomePages/StudioAgency/MainBanner"
 import Services from "../components/HomePages/DefaultHome/Services"
@@ -7,14 +6,12 @@ import LatestNewsSlider from "../components/Common/LatestNewsSlider"
 import SuccessStoriesSlider from "../components/Common/SuccessStoriesSlider"
 import Vacantes from "../components/HomePages/BusinessConsulting/Vacantes"
 import Partner from "../components/Common/Partner"
-import Footer from "../components/Layouts/Footer"
 import OurWorks from "../components/HomePages/DefaultHomeTwo/OurWorks"
 import Link from "next/link"
-
 import useTranslation from "next-translate/useTranslation"
 import { useRouter } from "next/router"
 import Head from "next/head"
-
+import FooterCeiboGrowth from "../components/Layouts/FooterCeiboGrowth"
 
 const Index = () => {
   const { locale, locales, push } = useRouter()
@@ -65,7 +62,7 @@ const Index = () => {
         </div>
       </div>
 
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   )
 }

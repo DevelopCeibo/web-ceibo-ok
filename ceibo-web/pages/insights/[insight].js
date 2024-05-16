@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import InsightPageBanner from "../../components/Insights/InsightPageBanner";
 import Head from "next/head";
 import LatestNewsSlider from "../../components/Common/LatestNewsSlider";
+import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth";
 
 const Insight = () => {
   const router = useRouter();
@@ -49,7 +50,7 @@ const Insight = () => {
       />
       <InsightDetailsContent publicacion={data} />
       <LatestNewsSlider type={"insights"} />
-      <Footer />
+      <FooterCeiboGrowth />
     </>
   );
 };

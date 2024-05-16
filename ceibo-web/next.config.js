@@ -39,7 +39,7 @@ const nextConfig = {
   }, */
   reactStrictMode: true,
   swcMinify: true,
-  trailingSlash: true,
+  trailingSlash: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
