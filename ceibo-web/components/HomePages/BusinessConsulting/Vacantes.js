@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
-import vacantes from "../../../utils/vacantes.json";
+import vacantes from "../../../utils/vacantes.utils";
 
 const Vacantes = () => {
   const { t } = useTranslation("common");

@@ -1,6 +1,5 @@
 import React from "react";
 import useTranslation from "next-translate/useTranslation";
-// import vacantes from "../../../utils/vacantes.json";
 import vacantes from "../../../utils/vacantes.utils";
 import BusquedasVigentesIndividual from "./BusquedasVigentesIndividual";
 

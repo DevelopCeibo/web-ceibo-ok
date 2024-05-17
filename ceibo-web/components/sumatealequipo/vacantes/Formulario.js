@@ -55,7 +55,8 @@ const INITIAL_STATE = {
 	utmContent: "",
 };
 
-const Formulario = ({ vacante }) => {
+const Formulario = ({ vacante, roleType }) => {
+
 	const { t } = useTranslation("common");
 	const completaform = t("completaform");
 	const nombreyape = t("nombreyape");
@@ -152,6 +153,7 @@ const Formulario = ({ vacante }) => {
 			formData.append("utm_medium", utm_medium);
 			formData.append("utm_content", utm_content);
 			formData.append("utm_term", utm_term);
+			formData.append("roleType", roleType);
 			if (checked.length) {
 				const response = await axios.post(url, formData, {
 					headers: {

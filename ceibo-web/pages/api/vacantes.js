@@ -1,5 +1,6 @@
-import vacantesES from "../../utils/vacantes.json"
-import vacantesEN from "../../utils/vacantesEN.json"
+
+import vacantesES from "../../utils/vacantes.utils"
+import vacantesEN from "../../utils/vacantesEN.utils"
 
 export default function handler(req, res) {
   const { locale } = req.query

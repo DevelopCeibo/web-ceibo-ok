@@ -1,13 +1,10 @@
 import { useRouter } from "next/router"
 import React, { useState } from "react"
-import Footer from "../../../components/Layouts/Footer"
-import NavbarTwo from "../../../components/Layouts/NavbarTwo"
 import NavbarFive from "../../../components/Layouts/NavbarFive"
 import Formulario from "../../../components/sumatealequipo/vacantes/Formulario"
 import PageBanner from "../../../components/Common/PageBanner"
-import vacantesES from "../../../utils/vacantes.json"
-import vacantesEN from "../../../utils/vacantesEN.json"
-
+import vacantesES from "../../../utils/vacantes.utils"
+import vacantesEN from "../../../utils/vacantesEN.utils"
 import { marked } from "marked"
 import Head from "next/head"
 import { Typography, Box, CircularProgress, Backdrop } from "@mui/material"
@@ -32,8 +29,6 @@ const Vacante = () => {
       setvacantes(vacantesES)
     }
     vacantes.forEach((vac) => {
-      console.log(vac["path-url"])
-
       if (vac["path-url"] == pathVacante) {
 
         setVacante(vac)
@@ -120,7 +115,7 @@ const Vacante = () => {
           </Box>
         </div>
       </div>
-
+    
       <Formulario vacante={vacante?.title} /> */}
       {vacante ? (
         <>
@@ -170,41 +165,11 @@ const Vacante = () => {
           )}
         </div>
       </div>
-      {vacante && <Formulario vacante={vacante?.title} />}
+      {console.log(vacante.roleType)}
+      {vacante && <Formulario vacante={vacante?.title} roleType={vacante.roleType} />}
       <FooterCeiboGrowth />
     </>
   )
 }
-
-// export async function getServerSideProps(context) {
-//   const resEs = await axios.get(`${baseUrl}/api/vacantes?locale=es`)
-//   const resEn = await axios.get(`${baseUrl}/api/vacantes?locale=en`)
-
-//   const vacantesES = resEs.data
-//   const vacantesEN = resEn.data
-
-//   return {
-//     props: {
-//       vacantesES,
-//       vacantesEN,
-//     },
-//   }
-// }
-
-// export async function getStaticPaths(context) {
-//   // const locale = context.locale
-
-//   const res = await axios.get(`${baseUrl}/api/vacantes?locale=es`)
-
-//   const vacantes = res.data
-
-//   const paths = vacantes?.map((vacante) => ({
-//     params: { vacante: vacante["path-url"] },
-//   }))
-//   return {
-//     paths: paths,
-//     fallback: true, // Set to true if you want to fallback to SSR or client-side rendering for paths that aren't generated at build time
-//   }
-// }
 
 export default Vacante

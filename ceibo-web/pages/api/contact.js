@@ -117,7 +117,8 @@ export default async (req, res) => {
 			utm_medium,
 			utm_campaign,
 			utm_content,
-			utm_term;
+			utm_term,
+			roleType;
 		let data;
 
 		switch (type) {
@@ -186,23 +187,21 @@ export default async (req, res) => {
 					utm_medium,
 					utm_content,
 					utm_term,
+					roleType
 				} = rest);
+				
 				checked = checked.split(",");
 				const fileStream = new Readable();
 				fileStream.push(req.file?.buffer);
 				fileStream.push(null);
-				utm_medium == "landing-talento-global"
-					? (receiver = [
-							"recruiting.consultingteam@ceibo.digital",
-							"marketing@ceibo.digital",
-					  ])
-					: (receiver = "recruiting.consultingteam@ceibo.digital");
 
-				// receiver = [
-				// 	"tomas.apochian@ceibo.digital",
-				// 	"malena.burs@ceibo.digital",
-				// ];
+				receiver = []
 
+				if (roleType === 'specialist') receiver.push('recruiting@ceibo.digital')
+				else if (roleType === 'consultant') {receiver.push('recruiting.consultingteam@ceibo.digital')}
+	
+				if (utm_medium == 'landing-talento-global') receiver.push("marketing@ceibo.digital")
+				
 				cv = req.file;
 				data = {
 					to: receiver,
