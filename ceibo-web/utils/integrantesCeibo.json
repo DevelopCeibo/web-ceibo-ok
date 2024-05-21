@@ -1342,6 +1342,28 @@
 		}
 	},
 	{
+		"nombre": "SANTIAGO BORDIGONI",
+		"linkedinurl": "https://www.linkedin.com/in/nahuel-gonz%C3%A1lez-3a2500183/",
+		"src": "/images-ceibo/integrantes/Santiago Bordigoni.png",
+		"posicion": "STAFF ASSISTANT",
+		"email": "santiago.bordigoni@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "FELIPE BARRAL",
 		"linkedinurl": "https://www.linkedin.com/in/felipe-mateo-barral-1aa33120b/",
 		"src": "/images-ceibo/integrantes/Felipe Barral.png",
