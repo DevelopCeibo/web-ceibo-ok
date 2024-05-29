@@ -22,7 +22,7 @@ const alumni = () => {
       <PageBanner
         pageTitle="Alumni"
         BGImage={null}
-        bgcolor="#b72837"
+        bgcolor="#10113E"
         // subtitle={"Descubre cómo generamos valor para nuestros clientes"}
       />
       <div className="bg-fcfbfb pt-100 pb-70 casos-de-exito">

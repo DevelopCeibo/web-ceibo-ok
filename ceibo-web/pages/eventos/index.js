@@ -47,7 +47,7 @@ const Eventos = () => {
 			<PageBanner
 				pageTitle={eventosh1}
 				BGImage={"/images-ceibo/Banner-eventos.jpeg"}
-				bgcolor="#b72837"
+				bgcolor="#10113E"
 				subtitle={eventosh2}
 			/>
 			<div className="pt-100 pb-70">

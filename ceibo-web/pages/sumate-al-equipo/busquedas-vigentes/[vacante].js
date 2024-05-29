@@ -124,7 +124,7 @@ const Vacante = () => {
       ) : (
         <PageBanner
           pageTitle={"Ofertas laborales en Ceibo Digital"}
-          bgcolor={"#b72837"}
+          bgcolor={"#10113E"}
         />
       )}
       ;

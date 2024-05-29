@@ -5,8 +5,8 @@ function HorizontalLine() {
     <div
       style={{
         height: "2px",
-        backgroundColor: "#b72837",
-        borderColor: "#b72837",
+        backgroundColor: "#10113E",
+        borderColor: "#10113E",
       }}
     />
   );

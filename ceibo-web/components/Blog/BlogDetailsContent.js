@@ -85,7 +85,7 @@ const BlogRightSidebar = ({ publicacion }) => {
 						<>
 							<h2
 								style={{
-									color: "#b72837",
+									color: "#10113E",
 									marginBottom: "12px",
 									marginTop: "22px",
 								}}

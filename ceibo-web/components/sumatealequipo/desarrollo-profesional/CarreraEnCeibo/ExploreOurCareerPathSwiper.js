@@ -24,7 +24,7 @@ const ExploreOurCareerPathSwiper = () => {
       </section>
       <div className="d-flex row mt-4 pb-5 align-items-center justify-content-center">
         <IconButton
-          style={{ width: "fit-content", color: "#b72837" }}
+          style={{ width: "fit-content", color: "#10113E" }}
           onClick={() =>
             setSelectedPathLevel((previousPathLevel) =>
               previousPathLevel === 0 ? 6 : previousPathLevel - 1
@@ -34,7 +34,7 @@ const ExploreOurCareerPathSwiper = () => {
           <ArrowBackIosIcon />
         </IconButton>
         <IconButton
-          style={{ width: "fit-content", color: "#b72837" }}
+          style={{ width: "fit-content", color: "#10113E" }}
           onClick={() =>
             setSelectedPathLevel((previousPathLevel) =>
               previousPathLevel === content.length - 1

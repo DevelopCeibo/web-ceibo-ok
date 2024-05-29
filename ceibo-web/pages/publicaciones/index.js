@@ -27,7 +27,7 @@ const Publicaciones = () => {
         pageTitle={publicacionesh1}
         subtitle={publicacionesh2}
         BGImage={"/images-ceibo/Banner-publicaciones.jpg"}
-        // bgcolor="#b72837"
+        // bgcolor="#10113E"
       />
       <div className="bg-fcfbfb pt-100 pb-70 casos-de-exito">
         {/* <div className="container ">asd</div> */}

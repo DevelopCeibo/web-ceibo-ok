@@ -81,8 +81,8 @@ const InsightDetailsContent = ({ publicacion, date }) => {
               </h2>
               <div
                 style={{
-                  borderBottom: "2px solid #b72837",
-                  color: "#b72837",
+                  borderBottom: "2px solid #10113E",
+                  color: "#10113E",
                   padding: "0 20px",
                   height: "2px",
                   marginBottom: "10px",

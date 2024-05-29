@@ -46,7 +46,7 @@ const CasosDeExito = () => {
         pageTitle={casosh1}
         subtitle={casosh2}
         BGImage={"/images-ceibo/Banner-seccion-casos-de-exito.jpg"}
-        // bgcolor="#b72837"
+        // bgcolor="#10113E"
       />
       <div className="bg-fcfbfb pt-100 pb-70 casos-de-exito">
         <div className="container ">

@@ -74,7 +74,7 @@ const Caso = () => {
 						<>
 							<h2
 								style={{
-									color: "#b72837",
+									color: "#10113E",
 									marginBottom: "12px",
 									marginTop: "22px",
 									fontSize: "calc(1.2rem + .6vw)",
@@ -169,7 +169,7 @@ const Caso = () => {
 						? `About ${data?.cliente?.split("-")[0]}`
 						: `Sobre ${data?.cliente?.split("-")[0]}`
 				}
-				bgcolor="#b72837"
+				bgcolor="#10113E"
 				clientimg={data?.clientimg}
 				content={renderContent(data?.bannerContent)}
 				subcontent={renderContent(data?.subcontent)}

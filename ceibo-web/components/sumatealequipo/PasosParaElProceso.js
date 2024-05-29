@@ -99,7 +99,7 @@ const PasosParaElProceso = () => {
           </section>
           <div className="d-flex row mt-4 align-items-center justify-content-center">
             <IconButton
-              style={{ width: "fit-content", color: "#b72837" }}
+              style={{ width: "fit-content", color: "#10113E" }}
               onClick={() =>
                 handleChangeStep(
                   stepContent.id == 1 ? 6 : stepContent.id - 1
@@ -109,7 +109,7 @@ const PasosParaElProceso = () => {
               <ArrowBackIosIcon />
             </IconButton>
             <IconButton
-              style={{ width: "fit-content", color: "#b72837" }}
+              style={{ width: "fit-content", color: "#10113E" }}
               onClick={() =>
                 handleChangeStep(
                   stepContent.id == 6 ? 1 : stepContent.id + 1

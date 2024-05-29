@@ -4,6 +4,7 @@ import Link from "../../utils/ActiveLink"
 import ToggleButton from "@mui/material/ToggleButton"
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup"
 import useTranslation from "next-translate/useTranslation"
+import Image from "next/image"
 
 const NavbarTwo = () => {
   const { route, locale, locales, push } = useRouter()
@@ -53,12 +54,12 @@ const NavbarTwo = () => {
           <div className="container-fluid">
             <Link href="/">
               <a className="navbar-brand">
-                <img
+                <Image
                   src="/images-ceibo/ceibo-logo.png"
                   className="black-logo ceibo-logo"
                   alt="logo"
                 />
-                <img
+                <Image
                   src="/images-ceibo/ceibo-logo-white.png"
                   className="white-logo ceibo-logo"
                   alt="logo"

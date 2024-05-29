@@ -110,7 +110,7 @@ p {
 /* --------------------|   EVENTOS    |----------------*/
 
 .eventos {
-	background-color: #b72837;
+	background-color: #10113E;
 	width: 100%;
 	min-height: 300px;
 	padding: 20px;
@@ -182,7 +182,7 @@ p {
 	text-align: left;
 }
 .pasos h2 {
-	color: #b72837 !important;
+	color: #10113E !important;
 }
 
 .btn-lightblue {
@@ -201,7 +201,7 @@ p {
 
 .btn-red {
 	border: none;
-	background: linear-gradient(125deg, #b72837, #86444a);
+	background: linear-gradient(125deg, #10113E, #152058);
 	color: #fff;
 	border-radius: 100px;
 	text-align: center;
@@ -228,7 +228,7 @@ p {
 /* ----------------------------- QUE HACEMOS PAGE START */
 
 .que-hacemos-wrapper h4 {
-	color: #b72837;
+	color: #10113E;
 }
 
 .que-hacemos-wrapper h5 {
@@ -346,7 +346,7 @@ p {
 }
 
 .red-tittle {
-	color: #b72837;
+	color: #10113E;
 }
 .competencias-core .content p {
 	font-size: 18px !important;
@@ -366,7 +366,7 @@ p {
 	text-align: center;
 }
 .organizacion-ceibo h2 {
-	color: #b72837;
+	color: #10113E;
 }
 .organizacion-ceibo p {
 	margin: 20px 0 40px;
@@ -382,7 +382,7 @@ p {
 	border-left: 3px solid #6fc7ba;
 }
 .organizacion-ceibo .about-content .rojo {
-	border-left: 3px solid #b72837;
+	border-left: 3px solid #10113E;
 }
 
 /* .animacion-img */
@@ -401,7 +401,7 @@ p {
 	width: 30px;
 	height: 30px;
 	border-radius: 999%;
-	background-color: #b72837;
+	background-color: #10113E;
 	cursor: pointer;
 
 	display: flex;
@@ -537,7 +537,7 @@ p {
 }
 
 .card-vacantes-verbusquedas:hover {
-	background-color: #b72837;
+	background-color: #10113E;
 }
 
 .card-vacantes-verbusquedas:hover h2 {
@@ -545,7 +545,7 @@ p {
 }
 
 .link-btn-vacantes {
-	color: #b72837 !important;
+	color: #10113E !important;
 	padding: 2px;
 }
 
@@ -696,7 +696,7 @@ a {
 a:hover,
 a:focus {
 	outline: 0 !important;
-	color: #b72837;
+	color: #10113E;
 	text-decoration: none;
 }
 
@@ -736,8 +736,8 @@ a:focus {
 
 .btn-primary {
 	color: #ffffff;
-	background-color: #b72837;
-	border: 1px solid #b72837;
+	background-color: #10113E;
+	border: 1px solid #10113E;
 }
 
 .btn-primary::before {
@@ -754,19 +754,19 @@ a:focus {
     linear,
     right bottom,
     left top,
-    from(#b72837),
-    color-stop(#b72837),
-    color-stop(#b72837),
-    color-stop(#b72837),
-    to(#b72837)
+    from(#10113E),
+    color-stop(#10113E),
+    color-stop(#10113E),
+    color-stop(#10113E),
+    to(#10113E)
   );
   background: linear-gradient(
     to left top,
-    #b72837,
-    #b72837,
-    #b72837,
-    #b72837,
-    #b72837
+    #10113E,
+    #10113E,
+    #10113E,
+    #10113E,
+    #10113E
   ); */
 	z-index: -1;
 	-webkit-transition: all 0.5s ease;
@@ -776,27 +776,27 @@ a:focus {
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-	color: #b72837;
+	color: #10113E;
 	-webkit-box-shadow: unset;
 	box-shadow: unset;
 	background-color: transparent;
-	border-color: #b72837;
+	border-color: #10113E;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
 	color: #ffffff;
 	background-color: #ffffff;
-	border: 1px solid #b72837;
+	border: 1px solid #10113E;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-	color: #b72837;
+	color: #10113E;
 	-webkit-box-shadow: unset;
 	box-shadow: unset;
 	background-color: transparent;
-	border-color: #b72837;
+	border-color: #10113E;
 }
 
 .btn-primary:hover::before,
@@ -805,9 +805,9 @@ a:focus {
 }
 
 .btn-secondary {
-	color: #b72837;
+	color: #10113E;
 	background-color: transparent;
-	border: 1px solid #b72837;
+	border: 1px solid #10113E;
 }
 
 .btn-secondary::before {
@@ -855,9 +855,9 @@ a:focus {
 
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-	color: #b72837;
+	color: #10113E;
 	background-color: transparent;
-	border: 1px solid #b72837;
+	border: 1px solid #10113E;
 }
 
 .btn-secondary:hover,
@@ -882,8 +882,8 @@ a:focus {
 }
 
 .default-btn-two {
-	border: 2px solid #b72837;
-	background: #b72837;
+	border: 2px solid #10113E;
+	background: #10113E;
 	color: #fff;
 	border-radius: 6px;
 	text-align: center;
@@ -899,8 +899,8 @@ a:focus {
 
 .default-btn-two:hover,
 .default-btn-two:focus {
-	border: 2px solid #bd2b39ee;
-	background: #bd2b39ee;
+	border: 2px solid #314FCC;
+	background: #314FCC;
 	color: #fff;
 	transform: scale(1.1);
 }
@@ -915,7 +915,7 @@ a:focus {
 .section-title h2 {
 	margin-bottom: 15px;
 	font-size: 50px;
-	color: #b72837;
+	color: #10113E;
 }
 
 .section-title p {
@@ -939,7 +939,7 @@ a:focus {
 .section-title .sub-title {
 	display: block;
 	margin-bottom: 10px;
-	color: #b72837;
+	color: #10113E;
 	font-weight: 600;
 	font-size: 14px;
 }
@@ -973,7 +973,7 @@ label {
 	background: #ffffff;
 	-webkit-box-shadow: unset;
 	box-shadow: unset;
-	border-color: #b72837;
+	border-color: #10113E;
 }
 
 /*================================================
@@ -1029,7 +1029,7 @@ Navbar CSS
 .navbar-area nav .navbar-nav .nav-item a::before {
 	bottom: -5px;
 	width: 0;
-	background-color: #b72837;
+	background-color: #314FCC;
 	/* background: -webkit-gradient(
     linear,
     right bottom,
@@ -1116,7 +1116,7 @@ Navbar CSS
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:hover,
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:focus,
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a.active {
-	color: #b72837;
+	color: #3C86C4;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -1240,18 +1240,18 @@ Navbar CSS
 
 .navbar-area.navbar-style-two nav .others-options .btn:hover,
 .navbar-area.navbar-style-two nav .others-options .btn:focus {
-	border-color: #b72837;
+	border-color: #10113E;
 	background: transparent;
 }
 
 .navbar-area.navbar-style-two.is-sticky .others-options .btn {
-	color: #b72837;
-	border-color: #b72837;
+	color: #10113E;
+	border-color: #10113E;
 }
 
 .navbar-area.navbar-style-two.is-sticky .others-options .btn:hover,
 .navbar-area.navbar-style-two.is-sticky .others-options .btn:focus {
-	border-color: #b72837;
+	border-color: #10113E;
 	color: #ffffff;
 }
 
@@ -1306,7 +1306,7 @@ Navbar CSS
 
 .ceibo-logo {
 	width: 150px;
-	height: 45px;
+	height: 75px;
 }
 
 .navbar-area.navbar-style-2 nav .navbar-brand .black-logo {
@@ -1382,7 +1382,7 @@ Navbar CSS
 	> .dropdown-menu
 	li
 	a.active {
-	color: #b72837;
+	color: #10113E;
 }
 
 .navbar-area.navbar-style-3 .container {
@@ -1437,7 +1437,7 @@ Navbar CSS
 	width: 28px;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-	background: #b72837;
+	background: #10113E;
 	height: 2px;
 	display: block;
 }
@@ -1509,19 +1509,18 @@ Main Banner CSS
 		linear,
 		right bottom,
 		left top,
-		from(#b72837),
-		color-stop(#ff287b),
-		color-stop(#ff395a),
-		color-stop(#ff5137),
-		to(#ff6a00)
+		from(#10113E),
+		color-stop(#152058),
+		color-stop(#314FFC),
+		color-stop(#3C86C4),
+		to(#10113E)
 	);
 	background: linear-gradient(
 		to left top,
-		#b72837,
-		#ff287b,
-		#ff395a,
-		#ff5137,
-		#ff6a00
+		#10113E,
+		#152058,
+		#314FFC,
+		#3C86C4
 	);
 	z-index: -1;
 	opacity: 0.7;
@@ -1569,7 +1568,7 @@ Main Banner CSS
 
 .main-banner.gradient-banner .main-banner-content .btn-secondary:hover,
 .main-banner.gradient-banner .main-banner-content .btn-secondary:focus {
-	border-color: #b72837;
+	border-color: #10113E;
 	background: transparent;
 }
 
@@ -1659,7 +1658,7 @@ Main Banner CSS
 }
 
 .hero-banner .main-banner-content span {
-	color: #b72837;
+	color: #10113E;
 }
 
 .hero-banner .main-banner-content h1 {
@@ -1713,7 +1712,7 @@ Main Banner CSS
 
 .hero-banner .main-banner-content .btn-secondary:hover,
 .hero-banner .main-banner-content .btn-secondary:focus {
-	border-color: #b72837;
+	border-color: #10113E;
 	background: transparent;
 }
 
@@ -1870,7 +1869,7 @@ Main Banner CSS
 
 .hero-slider .swiper-button-prev:hover,
 .hero-slider .swiper-button-next:hover {
-	background-color: #b72837;
+	background-color: #10113E;
 }
 
 .hero-slider .swiper-button-prev:hover::after,
@@ -1897,7 +1896,7 @@ Main Banner CSS
 		linear,
 		right bottom,
 		left top,
-		from(#b72837),
+		from(#10113E),
 		color-stop(#ff287b),
 		color-stop(#ff395a),
 		color-stop(#ff5137),
@@ -1905,13 +1904,13 @@ Main Banner CSS
 	);
 	background: linear-gradient(
 		to left top,
-		#b72837,
+		#10113E,
 		#ff287b,
 		#ff395a,
 		#ff5137,
 		#ff6a00
 	);
-	border: 1px solid #b72837;
+	border: 1px solid #10113E;
 }
 
 .item-bg2 {
@@ -2027,7 +2026,7 @@ Main Banner CSS
 }
 
 .main-banner-content span {
-	color: #b72837;
+	color: #10113E;
 	display: block;
 	font-weight: 600;
 }
@@ -2200,7 +2199,7 @@ Main Banner CSS
 
 .slider-area ul li .tp-caption.NotGeneric-SubTitle-paragraph,
 .slider-area ul li .NotGeneric-SubTitle-paragraph {
-	color: #b72837 !important;
+	color: #10113E !important;
 	font-size: 18px !important;
 }
 
@@ -2233,7 +2232,7 @@ Main Banner CSS
 .slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary:focus,
 .slider-area ul li .NotGeneric-btn .btn-secondary:hover,
 .slider-area ul li .NotGeneric-btn .btn-secondary:focus {
-	border-color: #b72837;
+	border-color: #10113E;
 	background: transparent;
 }
 
@@ -2371,7 +2370,7 @@ Featured Services CSS
 
 .featured-services-box .icon {
 	font-size: 45px;
-	color: #b72837;
+	color: #10113E;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
@@ -2408,7 +2407,7 @@ Featured Services CSS
 		linear,
 		right bottom,
 		left top,
-		from(#b72837),
+		from(#10113E),
 		color-stop(#ff287b),
 		color-stop(#ff395a),
 		color-stop(#ff5137),
@@ -2416,7 +2415,7 @@ Featured Services CSS
 	);
 	background: linear-gradient(
 		to left top,
-		#b72837,
+		#10113E,
 		#ff287b,
 		#ff395a,
 		#ff5137,
@@ -2497,7 +2496,7 @@ Featured Services CSS
 
 .read-more-btn {
 	color: #18181b;
-	color: #b72837;
+	color: #10113E;
 	display: inline-block;
 	/* position: relative; */
 	z-index: 1;
@@ -2518,7 +2517,7 @@ Featured Services CSS
 
 .read-more-btn-high {
 	color: #fff;
-	background-color: #b72837;
+	background-color: #10113E;
 	font-size: 15px;
 	font-weight: 600;
 	align-self: start;
@@ -2708,7 +2707,7 @@ About CSS
 	bottom: 0;
 	left: 0;
 	border-radius: 50%;
-	border: 1px solid #cb002696;
+	border: 1px solid #314FCC;
 	-webkit-transition: 1s;
 	transition: 0.5s;
 }
@@ -2738,7 +2737,7 @@ About CSS
 
 .video-box .video-btn:hover,
 .video-box .video-btn:focus {
-	background-color: #cb0026;
+	background-color: #10113E;
 	color: #ffffff;
 }
 
@@ -2746,7 +2745,7 @@ About CSS
 .video-box .video-btn:hover::before,
 .video-box .video-btn:focus::after,
 .video-box .video-btn:focus::before {
-	border-color: #cb0026;
+	border-color: #10113E;
 }
 
 @-webkit-keyframes ripple {
@@ -2833,7 +2832,7 @@ Case Studies CSS
 }
 
 .case-studies-area .section-title h2 {
-	color: #b72837;
+	color: #10113E;
 }
 
 .single-case-studies .content span {
@@ -2963,7 +2962,7 @@ Case Studies CSS
 		linear,
 		right bottom,
 		left top,
-		from(#b72837),
+		from(#10113E),
 		color-stop(#ff287b),
 		color-stop(#ff395a),
 		color-stop(#ff5137),
@@ -2971,7 +2970,7 @@ Case Studies CSS
 	);
 	background: linear-gradient(
 		to left top,
-		#b72837,
+		#10113E,
 		#ff287b,
 		#ff395a,
 		#ff5137,
@@ -2982,7 +2981,7 @@ Case Studies CSS
 .case-studies-tabs .react-tabs .react-tabs__tab-list li:hover,
 .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus,
 .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus-visible {
-	color: #b72837;
+	color: #10113E;
 	outline: 0;
 }
 
@@ -2996,7 +2995,7 @@ Case Studies CSS
 	.react-tabs
 	.react-tabs__tab-list
 	li.react-tabs__tab--selected {
-	color: #b72837;
+	color: #10113E;
 }
 
 .case-studies-tabs
@@ -3103,11 +3102,11 @@ Case Studies CSS
 	display: inline-block;
 	padding: 10px 25px;
 	border-radius: 6px;
-	color: #b72837 !important;
+	color: #10113E !important;
 }
 
 .custom-btn:hover {
-	background-color: #b72837;
+	background-color: #10113E;
 	color: #ffffff !important;
 }
 
@@ -3145,7 +3144,7 @@ Case Studies CSS
 
 .work-slides .swiper-button-prev:hover,
 .work-slides .swiper-button-next:hover {
-	background-color: #b72837;
+	background-color: #10113E;
 }
 
 .work-slides .swiper-button-prev:hover::after,
@@ -3172,7 +3171,7 @@ Case Studies CSS
 		linear,
 		right bottom,
 		left top,
-		from(#b72837),
+		from(#10113E),
 		color-stop(#ff287b),
 		color-stop(#ff395a),
 		color-stop(#ff5137),
@@ -3180,13 +3179,13 @@ Case Studies CSS
 	);
 	background: linear-gradient(
 		to left top,
-		#b72837,
+		#10113E,
 		#ff287b,
 		#ff395a,
 		#ff5137,
 		#ff6a00
 	);
-	border: 1px solid #b72837;
+	border: 1px solid #10113E;
 }
 
 /*================================================
@@ -3232,7 +3231,7 @@ Quotes CSS
 	font-weight: 600;
 	margin-bottom: 5px;
 	margin-top: 25px;
-	color: #b72837;
+	color: #10113E;
 }
 
 .quotes-content span {
@@ -3258,7 +3257,7 @@ Services CSS
 		linear,
 		right bottom,
 		left top,
-		from(#b72837),
+		from(#10113E),
 		color-stop(#ff287b),
 		color-stop(#ff395a),
 		color-stop(#ff5137),
@@ -3266,7 +3265,7 @@ Services CSS
 	);
 	background: linear-gradient(
 		to left top,
-		#b72837,
+		#10113E,
 		#ff287b,
 		#ff395a,
 		#ff5137,
@@ -3315,7 +3314,7 @@ Services CSS
 
 .services-slides .swiper-button-next:after,
 .services-slides .swiper-button-prev:after {
-	color: #b72837;
+	color: #10113E;
 	font-size: 30px;
 }
 
@@ -3390,7 +3389,7 @@ Services CSS
 	font-size: 30px;
 	color: #ffffff;
 	display: inline-block;
-	border: 1px solid #b72837;
+	border: 1px solid #10113E;
 	line-height: 65px;
 	z-index: 1;
 	position: relative;
@@ -3414,7 +3413,7 @@ Services CSS
 		linear,
 		right bottom,
 		left top,
-		from(#b72837),
+		from(#10113E),
 		color-stop(#ff287b),
 		color-stop(#ff395a),
 		color-stop(#ff5137),
@@ -3422,7 +3421,7 @@ Services CSS
 	);
 	background: linear-gradient(
 		to left top,
-		#b72837,
+		#10113E,
 		#ff287b,
 		#ff395a,
 		#ff5137,
@@ -3459,7 +3458,7 @@ Services CSS
 
 .single-services .content .read-more-btn:hover,
 .single-services .content .read-more-btn:focus {
-	color: #b72837;
+	color: #10113E;
 }
 
 .single-services:hover .content,
@@ -3560,7 +3559,7 @@ Services CSS
 }
 
 .service-card-one h3 a:hover {
-	color: #b72837;
+	color: #10113E;
 }
 
 .service-card-one p {
@@ -4079,7 +4078,7 @@ Portfolio CSS
 .single-portfolio .portfolio-content .link-btn:focus,
 .single-portfolio .portfolio-content .popup-btn:hover,
 .single-portfolio .portfolio-content .popup-btn:focus {
-	color: #b72837;
+	color: #10113E;
 }
 
 .single-portfolio .portfolio-content .link-btn {
@@ -4606,7 +4605,7 @@ Pricing CSS
 
 .pricing-table.active-plan .btn-primary::after,
 .pricing-table.active-plan .btn-primary::before {
-	background: #b72837;
+	background: #10113E;
 }
 
 /*================================================
@@ -5317,7 +5316,7 @@ Subscribe CSS
 	height: 100%;
 	left: 0;
 	top: 0;
-	background-color: #b72837;
+	background-color: #10113E;
 	/* background: -webkit-gradient(
     linear,
     right bottom,
@@ -5371,7 +5370,7 @@ Subscribe CSS
 
 .newsletter-inner-area .newsletter-content .newsletter-form button {
 	position: absolute;
-	background-color: #b72837;
+	background-color: #10113E;
 	/* background: -webkit-gradient(
     linear,
     right bottom,
@@ -5717,13 +5716,13 @@ Blog CSS
 
 .single-blog-item .blog-image .post-tag a {
 	/* background: #ff2c9c; */
-	background: #b72837;
+	background: #10113E;
 	color: #ffffff;
 	padding: 9px 28px;
 }
 
 .single-blog-item .blog-image .post-tag a:hover {
-	background-color: #b72837 !important;
+	background-color: #10113E !important;
 }
 
 .single-blog-item .blog-post-content {
@@ -5808,7 +5807,7 @@ Blog CSS
 
 .single-blog-item .blog-post-content h3 a:hover,
 .single-blog-item .blog-post-content h3 a:focus {
-	color: #b72837;
+	color: #10113E;
 }
 
 .single-blog-item .blog-post-content a:hover,
@@ -5896,13 +5895,13 @@ Blog Details CSS
 
 .blog-details .article-content .entry-meta li {
 	display: inline-block;
-	color: #b72837;
+	color: #10113E;
 	margin-right: 15px;
 	font-size: 14px;
 }
 
 .blog-details .article-content .entry-meta li i {
-	color: #b72837;
+	color: #10113E;
 	margin-right: 6px;
 }
 
@@ -5916,7 +5915,7 @@ Blog Details CSS
 }
 
 .blog-details .article-content .entry-meta li a:hover {
-	color: #b72837;
+	color: #10113E;
 }
 
 .category {
@@ -5935,11 +5934,11 @@ Blog Details CSS
 }
 
 .category li a {
-	border: 1px solid #b72837;
+	border: 1px solid #10113E;
 	border-radius: 5px;
 	padding: 4px 15px;
 	font-size: 13px;
-	color: #b72837;
+	color: #10113E;
 	position: relative;
 	z-index: 1;
 	margin: 5px 0;
@@ -5953,7 +5952,7 @@ Blog Details CSS
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #b72837;
+	background-color: #10113E;
 	z-index: -1;
 	border-radius: 5px;
 	opacity: 0;
@@ -5988,7 +5987,7 @@ blockquote::before {
   position: absolute;
   left: 30px;
   top: 35px;
-  color: #b72837;
+  color: #10113E;
   font-size: 30px;
   font-weight: 900;
 } */
@@ -6069,7 +6068,7 @@ blockquote cite::before {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #b72837;
+	background-color: #10113E;
 	/* background: -webkit-gradient(
     linear,
     right bottom,
@@ -6098,7 +6097,7 @@ blockquote cite::before {
 
 .post-controls-buttons div a:hover,
 .post-controls-buttons div a:focus {
-	border-color: #b72837;
+	border-color: #10113E;
 	color: #ffffff;
 }
 
@@ -6874,7 +6873,7 @@ Contact CSS
 }
 
 .contact-form .contact-title .social-links-contact a {
-	color: #b72837;
+	color: #10113E;
 	font-size: 36px;
 }
 
@@ -7048,7 +7047,7 @@ Sidebar CSS
 .insights {
 	margin-top: 2%;
 	padding-left: 2%;
-	color: #b72837;
+	color: #10113E;
 	font-weight: 600;
 	font-size: 25px;
 }
@@ -7071,7 +7070,7 @@ Sidebar CSS
 }
 
 .banner-core .core-concept {
-	color: #b72837;
+	color: #10113E;
 	margin-right: 1px;
 }
 
@@ -7117,7 +7116,7 @@ Sidebar CSS
 }
 
 .insight-icon {
-	color: #b72837;
+	color: #10113E;
 }
 
 .insight-date {
@@ -7184,15 +7183,15 @@ Sidebar CSS
 }
 
 .hightlight-conteiner {
-	border-top: 2px solid #b72837;
-	border-bottom: 2px solid #b72837;
+	border-top: 2px solid #10113E;
+	border-bottom: 2px solid #10113E;
 	padding-top: 2%;
 }
 
 .hightlight-title {
 	margin-bottom: 2%;
 	padding-left: 2%;
-	color: #b72837;
+	color: #10113E;
 	font-weight: 600;
 	font-size: 25px;
 }
@@ -7237,7 +7236,7 @@ Sidebar CSS
 
 .checkbox-notification {
 	margin-left: 2rem;
-	color: #b72837;
+	color: #10113E;
 	padding-bottom: 0.5rem;
 	font-weight: bold;
 }
@@ -7294,7 +7293,7 @@ Sidebar CSS
 
 .widget-area .widget ul li a:hover,
 .widget-area .widget ul li a:focus {
-	color: #b72837;
+	color: #10113E;
 }
 
 .widget-area .widget_search form {
@@ -7326,7 +7325,7 @@ Sidebar CSS
 	cursor: pointer;
 	top: 0;
 	right: 0;
-	background: #b72837;
+	background: #10113E;
 	outline: 0;
 	border: none;
 	color: #ffffff;
@@ -7410,7 +7409,7 @@ Sidebar CSS
 }
 
 .widget-area .widget_posts_thumb .item .info .title a:hover {
-	color: #b72837;
+	color: #10113E;
 }
 
 .widget-area .widget_recent_entries ul li {
@@ -7424,7 +7423,7 @@ Sidebar CSS
 }
 
 .widget-area .widget_recent_entries ul li a:hover {
-	color: #b72837;
+	color: #10113E;
 }
 
 .widget-area .widget_recent_entries ul li .post-date {
@@ -7486,7 +7485,7 @@ Sidebar CSS
 .widget-area .tagcloud a:hover,
 .widget-area .tagcloud a:focus {
 	color: #ffffff;
-	background-color: #b72837;
+	background-color: #10113E;
 }
 
 /*================================================
@@ -7868,7 +7867,7 @@ Footer CSS
 =================================================*/
 .footer-area {
 	background-color: #f6f9fc;
-	background-color: #b72837;
+	background-color: #10113E;
 	color: white;
 	padding: 50px;
 	position: relative;
@@ -7876,7 +7875,7 @@ Footer CSS
 }
 .footer-area .btn-primary {
 	background-color: #fff !important;
-	color: #b72837;
+	color: #10113E;
 	border: 2px solid #fff;
 	padding: 5px 7px;
 }
@@ -8223,7 +8222,7 @@ Go Top CSS
 
 .scroll-to-top i:hover {
 	color: #ffffff;
-	background: #b72837;
+	background: #10113E;
 }
 
 .lang-didebar {
@@ -8456,8 +8455,8 @@ span.new {
 }
 
 .btn-disabled {
-	color: #b72837;
-	border: 1px solid #b72837;
+	color: #10113E;
+	border: 1px solid #10113E;
 }
 /*# sourceMappingURL=style.css.map */
 
@@ -8667,8 +8666,8 @@ abbr:hover {
 	margin-right: 5px;
 }
 .people-worth-card-tag li p {
-	background-color: #b72837;
-	border: 1px solid #b72837;
+	background-color: #10113E;
+	border: 1px solid #10113E;
 	border-radius: 10px;
 	padding: 4px 15px;
 	font-size: 13px;
@@ -8683,7 +8682,7 @@ abbr:hover {
 	justify-content: flex-end;
 }
 .people-worth-linkedin {
-	color: #b72837;
+	color: #10113E;
 }
 .people-worth-ceiber-wrapper {
 	display: flex;
@@ -8746,7 +8745,7 @@ abbr:hover {
 	text-align: justify;
 }
 .como-prepararse-list-index {
-	background-color: #b72837;
+	background-color: #10113E;
 	border-radius: 50%;
 	width: 25px;
 	height: 25px;

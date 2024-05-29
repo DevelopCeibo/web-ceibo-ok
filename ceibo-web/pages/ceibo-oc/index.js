@@ -34,7 +34,7 @@ const UserTable = () => {
             />
           </div>
           <div className="col-6 d-flex justify-content-center align-items-center">
-            <h2 style={ {marginBottom: '15px', fontSize: '50px', color: '#b72837'}}>Usuarios registrados</h2>
+            <h2 style={ {marginBottom: '15px', fontSize: '50px', color: '#10113E'}}>Usuarios registrados</h2>
           </div>
           <div className="col-2 d-flex justify-content-center align-items-center">
             <button className="btn btn-primary" onClick={handleDownload}>
