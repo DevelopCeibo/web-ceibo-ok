@@ -16,7 +16,7 @@ const SpecialistCrew = () => {
       <section className="container">
         <article className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 overview-text-wrapper">
-          <h2 className="text-red-ceibo text-center mb-4">{suamteAlSpecialist}</h2>
+          <h2 className="text-blue-ceibo text-center mb-4">{suamteAlSpecialist}</h2>
 
             <p className="overview-cul-text overview-responsive-text">
               {suamteAlSpecialistTxt}

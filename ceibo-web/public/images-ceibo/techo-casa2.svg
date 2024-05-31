@@ -3,31 +3,14 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2500 450" style="enable-background:new 0 0 2500 450;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#89CFBF;}
-	.st1{fill:#6FC7B5;}
-	.st2{fill:url(#SVGID_1_);}
-	.st3{fill:url(#SVGID_2_);}
-	.st4{fill:url(#SVGID_3_);}
+	.st0{fill:#10113E;}
+	.st1{fill:#10113E;}
 	.st5{fill:#FFFFFF;}
 </style>
 <polygon class="st0" points="1250,450 1,450 625.5,232.7 1250,15.4 1874.5,232.7 2499,450 "/>
 <rect x="2178.9" y="-342.5" class="st1" width="75.2" height="153.7"/>
 <rect x="2178.9" y="-188.8" class="st0" width="75.2" height="38.8"/>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1257.728" y1="232.3285" x2="2386" y2="232.3285">
-	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:5.000000e-02"/>
-	<stop  offset="0.9996" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
-</linearGradient>
-<path class="st2" d="M1413.7,431.9H2386l-567.7-200.8L1257.7,32.8C1347.7,148.2,1403.8,284.7,1413.7,431.9z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="1257.728" y1="232.3285" x2="2386" y2="232.3285">
-	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:5.000000e-02"/>
-	<stop  offset="0.9996" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
-</linearGradient>
-<path class="st3" d="M1413.7,431.9H2386l-567.7-200.8L1257.7,32.8C1347.7,148.2,1403.8,284.7,1413.7,431.9z"/>
-<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="1861.0994" y1="344.559" x2="2406.4128" y2="344.559" gradientTransform="matrix(-1.0288 0 0 1 2551.636 0)">
-	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:5.000000e-02"/>
-	<stop  offset="0.9996" style="stop-color:#FFFFFF;stop-opacity:0.4"/>
-</linearGradient>
-<path class="st4" d="M559.5,437H76l282.3-93L637,252.1C592.3,305.6,564.4,368.8,559.5,437z"/>
+
 <g>
 	<path class="st5" d="M1235,258.8l1-6.3c-5.9-2.2-11.8-5-14.4-11.9c-1-2.7-1.7-4.1-2.6-4.5c-1-0.4-2.8,0.1-6.1,1.5l6,15.1l-0.7,0.3
 		c-6,2.7-12.2,2.6-17.1-0.2c-5.1-2.9-8.2-8.3-8.9-15.2c-0.4-4.5-2.3-7.1-7.3-9.8c0.1,1.7,0.3,3.3,0.4,4.9c0.3,4.2,0.5,8.2,1.5,11.9

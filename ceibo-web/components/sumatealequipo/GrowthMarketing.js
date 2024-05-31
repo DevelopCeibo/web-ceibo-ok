@@ -27,7 +27,7 @@ const GrowthMarketing = () => {
             </div>
             <div className='col-12 col-md-6 d-flex flex-column pe-md-5'>
 
-                <h2 className='text-red-ceibo mb-4'>{title}</h2>
+                <h2 className='text-blue-ceibo mb-4'>{title}</h2>
                 
                 <p className='text-break'>{text}</p>
                 

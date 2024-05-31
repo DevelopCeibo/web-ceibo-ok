@@ -1162,7 +1162,7 @@
 	}
 	.card-front,
 	.card-back {
-		background-size: 360px;
+		background-size: cover;
 		height: 240px;
 		width: 360px;
 	}
@@ -2071,7 +2071,7 @@
 		display: flex;
 		justify-content: center;
 		margin-bottom: 7%;
-		background-size: 340px;
+		background-size: cover;
 		height: 226px;
 		width: 340px;
 	}
@@ -2461,7 +2461,7 @@
 		display: flex;
 		justify-content: center;
 		margin-bottom: 7%;
-		background-size: 440px;
+		background-size: cover;
 		height: 293px;
 		width: 440px;
 	}

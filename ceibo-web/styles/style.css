@@ -160,7 +160,7 @@ p {
 }
 
 .sumatealequipo h3 {
-	color: #6fc7b5 !important;
+	color: #10113e !important;
 }
 
 /* h2 */
@@ -175,7 +175,7 @@ p {
 }
 
 .sumatealequipo .ccore-card h6 {
-	color: #6fc7b5 !important;
+	color: #10113e !important;
 }
 
 .pasos {
@@ -187,7 +187,7 @@ p {
 
 .btn-lightblue {
 	border: none;
-	background: linear-gradient(125deg, #81e8e1, #6fc7b5);
+	background: linear-gradient(125deg, #81e8e1, #10113e);
 	color: #fff;
 	border-radius: 100px;
 	text-align: center;
@@ -246,7 +246,7 @@ p {
 }
 
 .areas-de-servicio {
-	background-color: #6fc7b5;
+	background-color: #10113e;
 	padding: 30px;
 	border-radius: 4px;
 
@@ -452,12 +452,12 @@ p {
 }
 
 .ccore-card .content h3 {
-	color: #6fc7b5 !important;
+	color: #10113e !important;
 	font-size: 1.4rem;
 	margin: 0;
 }
 .ccore-card .content h6 {
-	color: #6fc7b5 !important;
+	color: #10113e !important;
 	margin: 0;
 }
 .ccore-card .content p {
@@ -5977,7 +5977,7 @@ blockquote {
 	line-height: 25px;
 	font-weight: 900;
 	position: relative;
-	color: #6fc7b5;
+	color: #10113e;
 	/* margin: 10px 0; */
 }
 /* 
@@ -8490,6 +8490,8 @@ abbr:hover {
 	background-size: 480px;
 	height: 320px;
 	width: 480px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .card-front {
@@ -8584,14 +8586,14 @@ abbr:hover {
 }
 
 .background-maroon {
-	background-color: #891924;
+	background-color: #10113E;
 }
 
 .ceibo-green {
-	color: #6fc7b5;
+	color: #10113e;
 }
 .background-grey {
-	background-color: rgba(196, 196, 196, 0.13);
+	background-colsor: rgba(196, 196, 196, 0.13);
 }
 
 .vida-en-ceibo-quote {
@@ -8812,7 +8814,7 @@ abbr:hover {
 .back {
 	width: 100%;
 	height: 100%;
-	background-color: #6fc7b5;
+	background-color: #314FCC;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -8849,20 +8851,20 @@ abbr:hover {
 	background-color: #e6e6e6;
 }
 
-.text-red-ceibo {
-	color: #b82837;
+.text-blue-ceibo {
+	color: #314FCC;
 }
 
 .all-webinars-button:hover {
-	border-bottom: 1px solid #b82837;
+	border-bottom: 1px solid #314FCC;
 }
 
 .selected-item{
 	font-weight: bold;
-	color:#b82837;
+	color: #314FCC;
 	background: none;
 	border: none;
-	border-bottom: 3px solid #b82837;
+	border-bottom: 3px solid #314FCC;
 	font-size: 20px;
 
 }

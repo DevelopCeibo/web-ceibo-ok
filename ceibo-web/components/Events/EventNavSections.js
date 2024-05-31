@@ -15,13 +15,13 @@ const EventNavSection = ({ events }) => {
 			<div className="container">
 				<div className="row d-flex mb-3">
 					<div className="col-6">
-						<h4 className="text-red-ceibo bold">
+						<h4 className="text-blue-ceibo bold">
 							{exploreWebinars}{" "}
 						</h4>
 					</div>
 					<div className="col-6 d-flex justify-content-end align-items-center">
 						<Link href={"/eventos"}>
-							<a className="all-webinars-button text-red-ceibo bold">
+							<a className="all-webinars-button text-blue-ceibo bold">
 								{allWebinars}
 								<i className="fa-solid fa-angles-right ms-2"></i>
 							</a>
