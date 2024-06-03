@@ -11,7 +11,7 @@ const CareerPathImage = () => {
         <Image
           src={`/images-ceibo/sumatealequipo/${
             locale == "es"
-              ? "carrera-en-ceibo-español.jpg"
+              ? "carrera-en-ceibo-español.png"
               : "Career-Path-inglés_1-11.png"
           }`}
           alt="carrera en ceibo"
