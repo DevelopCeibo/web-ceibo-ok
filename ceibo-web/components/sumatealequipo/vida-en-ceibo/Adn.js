@@ -104,8 +104,8 @@ function Adn() {
           >
             <Image
               src={locale == "es" ? adnImageSpa : adnImageEng}
-              width={650}
-              height={1000}
+              width={1080}
+              height={1920}
               // layout="intrinsic"
               alt="adn ceibo"
             />
