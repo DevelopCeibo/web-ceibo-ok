@@ -29,8 +29,8 @@ const CareerPathImage = () => {
               : "career-path-mobile-ENG.png"
           }`}
           alt="carrera en ceibo"
-          width={5}
-          height={5}
+          width={1080}
+          height={800}
           layout="responsive"
         />
       </div>
