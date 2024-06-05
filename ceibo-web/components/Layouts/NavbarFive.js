@@ -60,7 +60,7 @@ const NavbarFive = () => {
 	return (
 		<>
 			<div id="navbar" className="navbar-area navbar-style-2">
-				<nav className="navbar navbar-expand-md navbar-light">
+				<nav className="navbar navbar-expand-xl navbar-light">
 					<div className="container-fluid">
 						<Link href="/">
 							<a className="navbar-brand">

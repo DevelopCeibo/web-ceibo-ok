@@ -1164,7 +1164,7 @@
 	.card-back {
 		background-size: cover;
 		height: 240px;
-		width: 360px;
+		width: 100%;
 	}
 
 	.card-back h5 {
