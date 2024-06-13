@@ -11,7 +11,8 @@ const headers = {
 const sendgridContactListIds = {
 	newsletter : SENDGRID_NEWSLETTER_CONTACT_LIST_ID,
 	eventoId11 : "be57a806-2ea0-47ef-97b1-08e21c19ba55" ,
-	eventoId12 : "fe6594df-451e-4d47-845b-b891b8aa2c09"
+	eventoId12 : "fe6594df-451e-4d47-845b-b891b8aa2c09",
+	eventoId13:  "a3b841de-e60b-4071-b3bc-fd362288d02d" 
 }
 
 
@@ -27,6 +28,9 @@ const getSendgridContactListId = ({ contactListName }) => {
 		case 'eventoId12':
 			return sendgridContactListIds.eventoId12
 		break
+		case 'eventoId13':
+			return sendgridContactListIds.eventoId13
+			break
 
 	}
 }
@@ -45,6 +49,8 @@ export default async (req, res) => {
 		};
 		const response = await axios.put(url, data, { headers });
 		const sendgridJobId = response.data;
+
+		console.log("register response",sendgridJobId)
 		return res.status(200).json(sendgridJobId);
 	} catch (error) {
 		return res.status(404).json({ error: "error adding contact" });
