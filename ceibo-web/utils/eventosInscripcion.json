@@ -1,5 +1,18 @@
 [
     {
+        "id": "13",
+        "path-url": "empresas-inteligencia-artificial",
+        "title": "Las empresas con IA prevalecerán por sobre el resto",
+        "img": "/images-ceibo/eventos/banner-evento-mexico-empresas-ia.jpg",  
+        "imgBanner": "/images-ceibo/Banner-seccion-contacto.jpeg",
+        "desc": "Evento presencial con desayuno en México",
+        "metadata": {
+            "date": "3 de julio"
+        },
+        "isActive": true,
+        "contactList": "eventoId13"
+    },
+    {
         "id": "12",
         "path-url": "after-office-30-abril-paraguay",
         "title": "Revolución Digital - El panorama Fintech en LATAM",
@@ -9,7 +22,7 @@
         "metadata": {
             "date": "30 de Abril"
         },
-        "isActive": true,
+        "isActive": false,
         "contactList": "eventoId12"
     },
     {

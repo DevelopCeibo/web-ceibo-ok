@@ -6,6 +6,7 @@ import eventosInscripcion from '../../../utils/eventosInscripcion.json'
 import Form from "../../../components/Events/eventForm";
 import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
+import Head from 'next/head'
 
 const Inscripcion = () => {
 
@@ -27,6 +28,10 @@ const Inscripcion = () => {
 
     return (
         <>
+            <Head>
+                <title>{event.title}</title>
+                <meta name="description" content={event.desc} />
+            </Head>
             <NavbarFive />
             <PageBanner
                 pageTitle={event.title}
