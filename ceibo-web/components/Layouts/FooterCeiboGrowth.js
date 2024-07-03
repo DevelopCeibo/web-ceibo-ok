@@ -174,6 +174,9 @@ const FooterCeiboGrowth = () => {
                                         <b>Asunción</b> <br /> World Trade
                                         Center
                                     </li>
+                                    <li>
+                                        <b>{t("mexico")}</b> <br /> {t("mexicoCity")} <br/> WeWork Polanco
+                                    </li>
                                 </ul>
                             </div>
                         </div>
