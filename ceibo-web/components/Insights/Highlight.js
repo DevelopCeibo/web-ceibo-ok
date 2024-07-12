@@ -9,7 +9,7 @@ const Hightlight = () => {
   const featureInsights = t("insightHightLight");
   const vermas = t("leerArt");
   const seccion = "insights";
-  const publicaciones = [insights[0], insights[1]]; // TODO: show hightlight insights
+  const publicaciones = [insights[0], insights[1]];
   const { locale } = useRouter();
   return (
     <div className="blog-area pt-100">
@@ -17,7 +17,7 @@ const Hightlight = () => {
         <h2 className="hightlight-title">{featureInsights}</h2>
         <div className="row hightlight">
           {publicaciones.map((publi, i) => (
-            <div className="single-blog-item col-lg-6 col-md-6" key={i}>
+            <div className="single-blog-item col-lg-5 col-md-5" key={i}>
               <div className="blog-image">
                 <Link href={`/${seccion}/${publi["path-url"]}`}>
                   <a>
