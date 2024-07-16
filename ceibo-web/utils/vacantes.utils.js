@@ -632,7 +632,57 @@ const vacantes = [
           ]
         }
       ]
-    }
+    },
+    {
+      "id": "8",
+      "path-url": "data-analyst",
+      href : "",
+      "image": "/images-ceibo/data-analyst.jpg",
+      "title": "Data Analyst",
+      "bgcolor": "#891924",
+      "roleType": "specialist",
+      modality: WORK_MODALITY.CREW,
+      workArea: WORK_AREA.DATA,
+      location: [LOCATION.ARG, LOCATION.PY, LOCATION.REMOTE],
+      "content": [
+        {
+          "type": "subtitle",
+          "text": "¿Sos Data Analyst y estás en búsqueda de nuevos desafíos? En Ceibo, estamos ampliando nuestro equipo y buscamos un Data Analyst para colaborar en proyectos globales.Si tenes habilidades en Excel, SQL y Business Intelligence, podrás ser la persona que estamos buscando!"
+        },
+        {
+          "type": "p",
+          "text": "Seguimos creciendo y te invitamos a postularte para trabajar en nuestro equipo para atender proyectos globales."
+        },
+        { "type": "subtitle", "text": "Responsabilidades:" },
+        {
+          "type": "list",
+          "items": [
+            "Desarrollo de Tableros e Informes: Utiliza Power BI para crear y mantener tableros e informes que proporcionen insights accionables a los equipos.",
+            "Análisis de datos: Explora conjuntos de datos, identifica patrones y tendencias, y extrae información relevante para respaldar la toma de decisiones",
+            "Calidad y Precisión: Asegura la precisión y calidad de los datos, garantizando que las métricas sean confiables y consistentes.",
+            "Colaboración Interfuncional: Trabaja codo a codo con otros equipos para comprender sus necesidades de datos y proporcionar soluciones efectivas.",
+            "Comunicación Visual: Presenta resultados de maneras clara y efectiva para todos los stakeholders"
+          ]
+        },
+        {
+          "type": "subtitle",
+          "text": "Requisitos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Excel Avanzado: Domina gráficos, tablas dinámicas y funciones avanzadas para el análisis de datos.",
+            "SQL: Experiencia sólida en consultas SQL para extraer y transformar datos.",
+            "Business Intelligence (Intermedio): Conocimiento de plataformas como Power BI, Tableau o similares.",
+            "Pensamiento Crítico: Capacidad para profundizar en los datos y cuestionar supuestos.",
+            "Estadística y Probabilidad: Comprende conceptos estadísticos para interpretar resultados.",
+            "Comunicación efectiva: Traduce hallazgos complejos en mensajes claros y concisos.",
+            "Enfoque en Resultados: Transforma las necesidades de información en métricas que reduzcan la incertidumbre.",
+            "Entendimiento del Proceso de Business Intelligence: Familiaridad con todo el ciclo de vida del análisis de datos."
+          ]
+        },
+      ]
+    },
   ]
 
   export const filterVacantes = (searchParams, vacantes)=>{

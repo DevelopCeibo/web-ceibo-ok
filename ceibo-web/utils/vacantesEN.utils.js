@@ -632,7 +632,57 @@ const vacantes = [
           ]
         }
       ]
-    }
+    },
+  {
+    "id": "8",
+    "path-url": "data-analyst",
+    "href": "",
+    "image": "/images-ceibo/data-analyst.jpg",
+    "title": "Data Analyst",
+    "bgcolor": "#891924",
+    "roleType": "specialist",
+    "modality": WORK_MODALITY.CREW,
+    "workArea": WORK_AREA.DATA,
+    "location": [LOCATION.ARG, LOCATION.PY, LOCATION.REMOTE],
+    "content": [
+      {
+        "type": "subtitle",
+        "text": "Are you a Data Analyst looking for new challenges? At Ceibo, we are expanding our team and looking for a Data Analyst to collaborate on global projects. If you have skills in Excel, SQL, and Business Intelligence, you could be the person we are looking for!"
+      },
+      {
+        "type": "p",
+        "text": "We continue to grow and invite you to apply to work on our team to address global projects."
+      },
+      { "type": "subtitle", "text": "Responsibilities:" },
+      {
+        "type": "list",
+        "items": [
+          "Dashboard and Report Development: Use Power BI to create and maintain dashboards and reports that provide actionable insights to the teams.",
+          "Data Analysis: Explore data sets, identify patterns and trends, and extract relevant information to support decision-making.",
+          "Quality and Accuracy: Ensure the accuracy and quality of data, guaranteeing that metrics are reliable and consistent.",
+          "Cross-functional Collaboration: Work closely with other teams to understand their data needs and provide effective solutions.",
+          "Visual Communication: Present results in a clear and effective manner for all stakeholders."
+        ]
+      },
+      {
+        "type": "subtitle",
+        "text": "Requirements:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Advanced Excel: Master graphs, pivot tables, and advanced functions for data analysis.",
+          "SQL: Solid experience in SQL queries to extract and transform data.",
+          "Business Intelligence (Intermediate): Knowledge of platforms such as Power BI, Tableau, or similar.",
+          "Critical Thinking: Ability to delve into data and question assumptions.",
+          "Statistics and Probability: Understand statistical concepts to interpret results.",
+          "Effective Communication: Translate complex findings into clear and concise messages.",
+          "Results-Oriented: Transform information needs into metrics that reduce uncertainty.",
+          "Understanding of the Business Intelligence Process: Familiarity with the entire data analysis lifecycle."
+        ]
+      }
+    ]
+  }
   ]
 
   export const filterVacantes = (searchParams, vacantes)=>{

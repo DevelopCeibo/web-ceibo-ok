@@ -14,6 +14,7 @@ const BusquedasVigentes = () => {
   const developer = t("developer");
   const marketingAutomation = t("marketing-automation");
   const seniorPaidMedia = t("senior-paid-media");
+  const dataAnalyst = t("data-analyst");
   const vermas = t("vermas");
   const contactanos = t("contactanos");
 
@@ -48,6 +49,7 @@ const BusquedasVigentes = () => {
                       <p>{vac.id == "5" && developer}</p>
                       <p>{vac.id == "6" && marketingAutomation}</p>
                       <p>{vac.id == "7" && seniorPaidMedia}</p>
+                      <p>{vac.id == "8" && dataAnalyst}</p>
                     </div>
                     {/* <Link
                       href={`/sumate-al-equipo/${vac["path-url"]}`}

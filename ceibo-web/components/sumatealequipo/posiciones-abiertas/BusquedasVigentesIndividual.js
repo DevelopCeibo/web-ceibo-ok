@@ -16,6 +16,7 @@ const BusquedasVigentesIndividual = ({ arregloDeVacantes }) => {
   const developer = t("developer");
   const marketingAutomation = t("marketing-automation");
   const seniorPaidMedia = t("senior-paid-media");
+  const dataAnalyst = t("data-analyst");
   const noResultFound = t("noResultFound");
 
   const router = useRouter()
@@ -60,6 +61,7 @@ const BusquedasVigentesIndividual = ({ arregloDeVacantes }) => {
                       <p>{vac.id == "5" && developer}</p>
                       <p>{vac.id == "6" && marketingAutomation}</p>
                       <p>{vac.id == "7" && seniorPaidMedia}</p>
+                      <p>{vac.id == "8" && dataAnalyst}</p>
                     </div>
                     <Link href={vac["path-url"].length ? `/sumate-al-equipo/busquedas-vigentes/${vac["path-url"]}` : vac.href}>
                       <a className="read-more-btn" target={vac.href? "_blank" : '_self'}>
