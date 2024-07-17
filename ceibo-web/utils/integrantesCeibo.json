@@ -390,36 +390,7 @@
 			"img": "/images-ceibo/sumatealequipo/talento-global/alina-ibañez.png"
 		}
 	},
-	{
-		"nombre": "BELTRÁN GANDOLFO",
-		"linkedinurl": "https://www.linkedin.com/in/beltrangandolfo/",
-		"src": "/images-ceibo/integrantes/Beltran Gandolfo.png",
-		"posicion": "CONSULTANT",
-		"email": "beltran.gandolfo@ceibo.digital",
-		"ceiber": {
-			"nickname": "Corcho",
-			"quote": "Ceibo me da la oportunidad de trabajar con gente que busca encontrar su mejor versión constantemente y aprender de personas que tienen su expertise en diferentes áreas de conocimiento que me interesan, como pueden ser tecnología y desarrollo.",
-			"quoteEN": "Ceibo gives me the opportunity to work with people who are constantly seeking to discover their best selves and to learn from individuals with expertise in various areas of knowledge that interest me, such as technology and development.",
-			"tags": [
-				"Trabajo en equipo",
-				"Autonomía",
-				"Aprendizaje"
-			],
-			"tagsEN": [
-				"Teamwork",
-				"Autonomy",
-				"Learning"
-			],
-			"img": "/images-ceibo/sumatealequipo/vidaEnCeibo/ceibers/Beltran Gandolfo.png"
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
+
 	{
 		"nombre": "GERMÁN BEHRENS",
 		"linkedinurl": "https://www.linkedin.com/in/germ%C3%A1n-alejandro-behrens-4198a51a9/",
@@ -492,28 +463,6 @@
 		"src": "/images-ceibo/integrantes/Natalia Adamo.png",
 		"posicion": "SENIOR SPECIALIST",
 		"email": "natalia.adamo@ceibio.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "ANTONELLA SCHIAVELLO",
-		"linkedinurl": "https://www.linkedin.com/in/antonellaschiavello",
-		"src": "/images-ceibo/integrantes/Antonella Schiavello.png",
-		"posicion": "SENIOR SPECIALIST",
-		"email": "antonella.schiavello@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
