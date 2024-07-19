@@ -92,7 +92,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
       const url = `${baseUrl}/api/contact`;
       const { name, lastname, email, empresa, cargo, phone } = contact;
 
-      if (name == "" || lastname == "" || email == "" || empresa == "" || phone == "") {
+      if (name == "" || lastname == "" || email == "" || phone == "") {
         alertMissingFields()
         return
       }
@@ -199,7 +199,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
               />
             </FormControl>
             <FormControl sx={{ my: 2 }}>
-              <InputLabel htmlFor="empresa">{empresa}*</InputLabel>
+              <InputLabel htmlFor="empresa">{empresa}</InputLabel>
               <Input
                 id="empresa"
                 type="text"
@@ -207,7 +207,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
                 onChange={handleChange}
                 value={contact.empresa}
                 disabled={isLoading}
-                required={true}
+                required={false}
               />
             </FormControl>
             {/* <FormControl sx={{ my: 2 }}>
@@ -260,7 +260,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
             </FormGroup> */}
 
             <div className="container btn-two-container mb-1">
-                <Button className="default-btn-two" disabled={isLoading} onClick={handleSubmit}>
+                <Button className="default-btn-two text-white" disabled={isLoading} onClick={handleSubmit}>
                   {!isLoading ? registernow : `${suscribing} ...`}
                 </Button>
             </div>
