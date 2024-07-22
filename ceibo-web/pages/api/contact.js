@@ -6,6 +6,7 @@ import { Readable } from "stream";
 import html from "../../utils/templateFormMail";
 import axios from "axios";
 import baseUrl from "../../utils/baseUrl";
+import { htmlEventTemplate } from "../../utils/email.utils";
 
 export const config = {
 	api: {
@@ -142,6 +143,15 @@ export default async (req, res) => {
                 <b>Teléfono:</b> ${phone} <br />
                 <b>Se entero por :</b> ${checked}`,
 				};
+				const confirmationEmailData = {
+					to: email,
+					from: receiver,
+					subject: 'Confirmación de registro - Ceibo Digital',
+					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA")
+				}
+
+				const confirmationEmailResponse = await sendMail(confirmationEmailData)
+
 				break;
 			case "contacto":
 				({ name, email, number, subject, text } = rest);
