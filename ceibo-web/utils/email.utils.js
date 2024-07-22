@@ -1,4 +1,4 @@
-export const htmlEventTemplate = (eventName) => (`<!DOCTYPE html>
+export const htmlEventTemplate = (eventName, eventTime) => (`<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -11,9 +11,8 @@ export const htmlEventTemplate = (eventName) => (`<!DOCTYPE html>
       <img src="https://i.ibb.co/s3Xm73D/Logo-ceibo-digital-horizontal-blanco.png" alt="Logo de Ceibo Digital" style="max-height: 100px; max-width: 200px;">
     </div>
     <div style="padding: 20px;">
-      <p>Hola!</p>
-      <p>Este es un mensaje de confirmación automático para el evento <b>${eventName || ""}</b>.</p>
-      <p>Te esperamos!</p>
+      <p>¡Hola, muchas gracias por tu interés en el evento <b>"${eventName}"</b>!</p>
+      <p>Te esperamos el <b>${eventTime}</b>. Para más consultas, no dudes en escribirnos a <a href="mailto:prensa@ceibo.digital">prensa@ceibo.digital</a></p>
       <p>El equipo de Ceibo Digital.</p>
     </div>
     <div style="background-color: #10113e; color: white; padding: 0px; border-radius: 0 0 10px 10px; text-align: center; height: 75px;">

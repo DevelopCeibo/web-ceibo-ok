@@ -126,9 +126,9 @@ export default async (req, res) => {
 			case "evento":
 				({ name, lastname, email, empresa, cargo, subject, checked, phone } =
 					rest);
-				receiver = "prensa@ceibo.digital";
+				// receiver = "prensa@ceibo.digital";
 				oc = "Prensa & Eventos";
-				// receiver = "tomas.apochian@ceibo.digital";
+				receiver = "tomas.apochian@ceibo.digital";
 				data = {
 					to: receiver,
 					from: email,
@@ -143,12 +143,14 @@ export default async (req, res) => {
                 <b>Teléfono:</b> ${phone} <br />
                 <b>Se entero por :</b> ${checked}`,
 				};
+				const confirmationEmailTime = "miércoles 14 de Agosto a las 8:30hs"
 				const confirmationEmailData = {
 					to: email,
 					from: receiver,
 					subject: 'Confirmación de registro - Ceibo Digital',
-					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA")
+					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA", confirmationEmailTime)
 				}
+
 
 				const confirmationEmailResponse = await sendMail(confirmationEmailData)
 
