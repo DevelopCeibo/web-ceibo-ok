@@ -126,9 +126,9 @@ export default async (req, res) => {
 			case "evento":
 				({ name, lastname, email, empresa, cargo, subject, checked, phone } =
 					rest);
-				// receiver = "prensa@ceibo.digital";
+				receiver = "prensa@ceibo.digital";
 				oc = "Prensa & Eventos";
-				receiver = "tomas.apochian@ceibo.digital";
+				// receiver = "tomas.apochian@ceibo.digital";
 				data = {
 					to: receiver,
 					from: email,
