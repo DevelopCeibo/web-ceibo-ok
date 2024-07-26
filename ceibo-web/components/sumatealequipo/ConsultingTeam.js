@@ -37,7 +37,7 @@ const ConsultingTeam = () => {
               {sumateConsultingTxt}
             </p>
             <div className="container btn-two-container overview-cul-button overview-responsive">
-              <Link href="/sumate-al-equipo/vida-en-ceibo">
+              <Link href="/sumate-al-equipo/busquedas-vigentes?modality=consulting-team">
                 <a className="default-btn-two" title="Cultura en Ceibo">
                   {uniteAlConsulting}
                 </a>
