@@ -144,11 +144,12 @@ export default async (req, res) => {
                 <b>Se entero por :</b> ${checked}`,
 				};
 				const confirmationEmailTime = "miércoles 14 de Agosto a las 8:30hs"
+				const confirmationEventLocation = "The Room polanco"
 				const confirmationEmailData = {
 					to: email,
 					from: receiver,
 					subject: 'Confirmación de registro - Ceibo Digital',
-					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA", confirmationEmailTime)
+					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA", confirmationEmailTime, confirmationEventLocation,name)
 				}
 
 
