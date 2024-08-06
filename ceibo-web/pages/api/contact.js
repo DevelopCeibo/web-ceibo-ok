@@ -145,11 +145,13 @@ export default async (req, res) => {
 				};
 				const confirmationEmailTime = "miércoles 14 de Agosto a las 8:30hs"
 				const confirmationEventLocation = "The Room polanco"
+				const addToCalendarHtml = `<div style="margin:0px 0px 25px 0px;text-align:center;font-size:17px;line-height:150%;color:#152058;font-weight:bold;">Agrega el evento a tu calendario</p><p style="margin:0px 0px 10px 0px;text-align:center;"><a href="https://www.addevent.com/event/MA22468786+apple" title="Apple" target="_blank" style="display:inline;"><img src="https://buttons.addevent.com/atc-apple-default-r48-ico-s36.png" alt="Apple" height="36" border="0" style="height:36px;display:inline;"></a> <a href="https://www.addevent.com/event/MA22468786+google" title="Google" target="_blank" style="display:inline;"><img src="https://buttons.addevent.com/atc-google-default-r48-ico-s36.png" alt="Google" height="36" border="0" style="height:36px;display:inline;"></a> <a href="https://www.addevent.com/event/MA22468786+outlook" title="Outlook" target="_blank" style="display:inline;"><img src="https://buttons.addevent.com/atc-outlook-default-r48-ico-s36.png" alt="Outlook" height="36" border="0" style="height:36px;display:inline;"></a> <a href="https://www.addevent.com/event/MA22468786+outlookcom" title="Outlook.com" target="_blank" style="display:inline;"><img src="https://buttons.addevent.com/atc-outlookcom-default-r48-ico-s36.png" alt="Outlook.com" height="36" border="0" style="height:36px;display:inline;"></a> <a href="https://www.addevent.com/event/MA22468786+office365" title="Office 365" target="_blank" style="display:inline;"><img src="https://buttons.addevent.com/atc-officecom-default-r48-ico-s36.png" alt="Office 365" height="36" border="0" style="height:36px;display:inline;"></a> <a href="https://www.addevent.com/event/MA22468786+yahoo" title="Yahoo" target="_blank" style="display:inline;"><img src="https://buttons.addevent.com/atc-yahoo-default-r48-ico-s36.png" alt="Yahoo" height="36" border="0" style="height:36px;display:inline;"></a></div>`
 				const confirmationEmailData = {
 					to: email,
 					from: receiver,
+					fromname : "Ceibo Digital - Prensa y Eventos",
 					subject: 'Confirmación de registro - Ceibo Digital',
-					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA", confirmationEmailTime, confirmationEventLocation,name)
+					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA", confirmationEmailTime, confirmationEventLocation,name, addToCalendarHtml)
 				}
 
 

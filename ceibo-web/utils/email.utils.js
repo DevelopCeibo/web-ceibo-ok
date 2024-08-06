@@ -1,4 +1,4 @@
-export const htmlEventTemplate = (eventName, eventTime, eventLocation, name) => (`<!DOCTYPE html>
+export const htmlEventTemplate = (eventName, eventTime, eventLocation, name, htmlAddToCalendar) => (`<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -15,9 +15,11 @@ export const htmlEventTemplate = (eventName, eventTime, eventLocation, name) => 
       <p>Te esperamos el <b>${eventTime} en ${eventLocation}</b>. Para más consultas, no dudes en escribirnos a <a href="mailto:prensa@ceibo.digital">prensa@ceibo.digital</a></p>
       <p>El equipo de Ceibo Digital.</p>
     </div>
+      ${htmlAddToCalendar}
     <div style="background-color: #10113e; color: white; padding: 0px; border-radius: 0 0 10px 10px; text-align: center; height: 75px;">
     </div>
   </div>
+  
 </body>
 </html>
 `)
