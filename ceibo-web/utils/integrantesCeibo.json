@@ -69,7 +69,7 @@
 		"nombre": "ANGIE DEANE",
 		"linkedinurl": "https://www.linkedin.com/in/angiedeane/",
 		"src": "/images-ceibo/integrantes/Angie Deane.png",
-		"posicion": "MANAGER",
+		"posicion": "GROWTH OPS HEAD",
 		"email": "angie.deane@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -91,7 +91,7 @@
 		"nombre": "MARCOS LARGUÍA",
 		"linkedinurl": "https://www.linkedin.com/in/marcos-larguia-5921877/",
 		"src": "/images-ceibo/integrantes/Marcos Larguia.png",
-		"posicion": "MANAGER",
+		"posicion": "STRATEGY HEAD",
 		"email": "marcos.larguia@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -219,7 +219,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "CANDELARIA RUETE GÜEMES",
 		"linkedinurl": "https://www.linkedin.com/in/candelaria-ruete-g%C3%BCemes//",
@@ -390,7 +389,6 @@
 			"img": "/images-ceibo/sumatealequipo/talento-global/alina-ibañez.png"
 		}
 	},
-
 	{
 		"nombre": "GERMÁN BEHRENS",
 		"linkedinurl": "https://www.linkedin.com/in/germ%C3%A1n-alejandro-behrens-4198a51a9/",
@@ -439,7 +437,7 @@
 		"nombre": "NICOLÁS CALVO",
 		"linkedinurl": "https://www.linkedin.com/in/nicolascalvo/",
 		"src": "/images-ceibo/integrantes/Nicolas Calvo.png",
-		"posicion": "SENIOR SPECIALIST",
+		"posicion": "CONTENT SENIOR SPECIALIST",
 		"email": "nicolas.calvo@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -483,7 +481,7 @@
 		"nombre": "NERINA ALCOBER",
 		"linkedinurl": "https://www.linkedin.com/in/nerinaalcober",
 		"src": "/images-ceibo/integrantes/Nerina Alcober.png",
-		"posicion": "SENIOR SPECIALIST",
+		"posicion": "CONTENT SPECIALIST",
 		"email": "nerina.alcober@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -549,7 +547,7 @@
 		"nombre": "SEBASTIAN AIANI",
 		"linkedinurl": "https://www.linkedin.com/in/sebastianaiani/",
 		"src": "/images-ceibo/integrantes/Sebastian Aiani.png",
-		"posicion": "MARKETING SENIOR SPECIALIST",
+		"posicion": "OWNED MEDIA SENIOR SPECIALIST",
 		"email": "sebastian.aiani@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -571,7 +569,7 @@
 		"nombre": "FELICITAS VIVO",
 		"linkedinurl": "https://www.linkedin.com/in/felicitasvivo/?originalSubdomain=ar",
 		"src": "/images-ceibo/integrantes/Felicitas Vivo.png",
-		"posicion": "MARKETING SENIOR SPECIALIST",
+		"posicion": "GROWTH OPS SENIOR SPECIALIST",
 		"email": "felicitas.vivo@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -686,6 +684,28 @@
 		}
 	},
 	{
+		"nombre": "GONZALO SUAREZ ABOY",
+		"linkedinurl": "https://www.linkedin.com/in/gonzalo-patricio-suarez-aboy-105371190",
+		"src": "/images-ceibo/integrantes/Gonzalo Suarez Aboy.png",
+		"posicion": "SENIOR ASSOCIATE",
+		"email": "gonzalo.suarezaboy@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "SERGIO GENES",
 		"linkedinurl": "https://www.linkedin.com/in/sergio-genes/",
 		"src": "/images-ceibo/integrantes/Sergio Genes.png",
@@ -729,12 +749,33 @@
 			"img": ""
 		}
 	},
-
+	{
+		"nombre": "ANDRES DENHAM",
+		"linkedinurl": "https://www.linkedin.com/in/andres-denham-b39a291a4",
+		"src": "/images-ceibo/integrantes/Andres Denham.png",
+		"posicion": "GROWTH OPS SPECIALIST",
+		"email": "andres.denham@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
 	{
 		"nombre": "ORNELLA GAUDIOSI",
 		"linkedinurl": "https://www.linkedin.com/in/ornella-gaudiosi-4341811b1/",
 		"src": "/images-ceibo/integrantes/Ornella Gaudiosi.png",
-		"posicion": "MARKETING SPECIALIST",
+		"posicion": "GROWTH OPS SPECIALIST",
 		"email": "ornella.gaudiosi@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -958,7 +999,6 @@
 			"img": ""
 		}
 	},
-
 	{
 		"nombre": "SANTIAGO REYBET",
 		"linkedinurl": "https://www.linkedin.com/in/santiagoreybet/",
@@ -985,7 +1025,7 @@
 		"nombre": "ALEJANDRA CÁCERES",
 		"linkedinurl": "https://www.linkedin.com/in/alejandrac%C3%A1ceresgrau",
 		"src": "/images-ceibo/integrantes/Alejandra Caceres.png",
-		"posicion": "MARKETING SPECIALIST",
+		"posicion": "GROWTH OPS SPECIALIST",
 		"email": "alejandra.caceres@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1007,7 +1047,7 @@
 		"nombre": "FLORENCIA CARASALES",
 		"linkedinurl": "https://www.linkedin.com/in/florencia-carasales-",
 		"src": "/images-ceibo/integrantes/Florencia Carasales.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "florencia.carasales@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1029,7 +1069,7 @@
 		"nombre": "BERENICE BUS",
 		"linkedinurl": "https://www.linkedin.com/in/berenice-bus-a4084b222",
 		"src": "/images-ceibo/integrantes/Berenice Bus.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "berenice.bus@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1051,7 +1091,7 @@
 		"nombre": "TOMÁS CESARINI",
 		"linkedinurl": "https://www.linkedin.com/in/tom%C3%A1s-cesarini-a53ba3174",
 		"src": "/images-ceibo/integrantes/Tomás Cesarini.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "tomas.cesarini@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1073,7 +1113,7 @@
 		"nombre": "IÑAKI CARTASSO",
 		"linkedinurl": "https://www.linkedin.com/in/inaki-cartasso",
 		"src": "/images-ceibo/integrantes/Iñaki Cartasso.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "iñaki.cartasso@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1095,7 +1135,7 @@
 		"nombre": "CAMILA FONTE",
 		"linkedinurl": "https://www.linkedin.com/in/camila-fonte-b271931b2",
 		"src": "/images-ceibo/integrantes/Camila Fonte.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "camila.fonte@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1117,7 +1157,7 @@
 		"nombre": "CAMILA BENGOLEA",
 		"linkedinurl": "https://www.linkedin.com/in/camilabengolea",
 		"src": "/images-ceibo/integrantes/Camila Bengolea.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "camila.bengolea@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1139,7 +1179,7 @@
 		"nombre": "JOSEFINA PINTO",
 		"linkedinurl": "https://www.linkedin.com/in/josefina-pinto-4651a31a6",
 		"src": "/images-ceibo/integrantes/Josefina Pinto.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "josefina.pinto@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1179,12 +1219,11 @@
 			"img": ""
 		}
 	},
-	
 	{
 		"nombre": "JUANA SCHULMEIER",
 		"linkedinurl": "https://www.linkedin.com/in/juana-schulmeier-0ba59224a",
 		"src": "/images-ceibo/integrantes/Juana Schulmeier.png",
-		"posicion": "MARKETING ANALYST",
+		"posicion": "GROWTH OPS ANALYST",
 		"email": "juana.schulmeier@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1206,7 +1245,7 @@
 		"nombre": "RAFAEL BORGOGNON",
 		"linkedinurl": "https://www.linkedin.com/in/rafael-borgognon-19462027a",
 		"src": "/images-ceibo/integrantes/Rafael Borgognon.png",
-		"posicion": "MARKETING TRAINEE",
+		"posicion": "GROWTH OPS TRAINEE",
 		"email": "rafael.borgognon@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
@@ -1250,7 +1289,7 @@
 		"nombre": "FLORENCIA URRUTIA",
 		"linkedinurl": "https://www.linkedin.com/in/florencia-urrutia-330199b7/",
 		"src": "/images-ceibo/integrantes/Florencia Urrutia.png",
-		"posicion": "STAFF",
+		"posicion": "MANAGING PARTNER ASSISTANT",
 		"email": "florencia.urrutia@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
