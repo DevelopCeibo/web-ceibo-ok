@@ -85,6 +85,7 @@ const CasosDeExito = () => {
                               : "90px",
                           zIndex: "100",
                           bottom: "10px",
+                          objectFit : 'contain'
                         }}
                       />
                     </div>

@@ -35,7 +35,6 @@
 				"text": "Customer Engagement"
 			}
 		],
-
 		"content": [
 			{
 				"type": "title",
@@ -101,7 +100,10 @@
 				"name": "Martin Kraitman",
 				"position": "Senior Specialist"
 			},
-			"tags": ["Tecnología", "Customer engagement"],
+			"tags": [
+				"Tecnología",
+				"Customer engagement"
+			],
 			"image": "/images-ceibo/casos-de-exito/Ingram.jpeg",
 			"clientimgType": "horizontal"
 		},
@@ -279,7 +281,10 @@
 				"name": "Martin Kraitman",
 				"position": "Senior Specialist"
 			},
-			"tags": ["Industria", "Excelencia operacional"],
+			"tags": [
+				"Industria",
+				"Excelencia operacional"
+			],
 			"image": "/images-ceibo/casos-de-exito/CIE 2.jpeg",
 			"clientimgType": "vertical"
 		},
@@ -395,7 +400,10 @@
 				"type": "title",
 				"text": "Trabajamos con Dominus para construir su estrategia digital"
 			},
-			{ "type": "subtitle", "text": "El dolor" },
+			{
+				"type": "subtitle",
+				"text": "El dolor"
+			},
 			{
 				"type": "p",
 				"text": "DOMINUS fue una de las empresas beneficiarias del fondo de Proyectos Colaborativos de Innovación (Innovate Perú), con el proyecto denominado “DESAFÍOS DE INNOVACIÓN ABIERTA EN DOMINUS, HACIA UNA AGROINDUSTRIA INTELIGENTE, ÁGIL Y COMPETITIVA”"
@@ -404,7 +412,10 @@
 				"type": "p",
 				"text": "El objetivo en esta etapa del proyecto es realizar un diagnóstico que permita identificar las principales brechas y retos a nivel tecnológico y de transformación de DOMINUS y sus socios agricultores."
 			},
-			{ "type": "subtitle", "text": "La solución" },
+			{
+				"type": "subtitle",
+				"text": "La solución"
+			},
 			{
 				"type": "p",
 				"text": "Durante la fase de diagnóstico se realizó una encuesta a 29 colaboradores Dominus y 18 socios agricultores. Luego se procedió a realizar entrevistas de profundización con algunos encuestados (13 colaboradores Dominus y 8 socios agricultores). También se realizó una visita a planta y a un Fundo modelo. Con toda la información relevada se realizó un diagnóstico sobre la madurez digital de DOMINUS utilizando el modelo de capacidades definido por CEIBO. Y por último, para completar la fase de diagnóstico, se realizó un estudio de benchmark de tendencias y una serie de entrevistas a referentes regionales y globales de la industria.  "
@@ -413,7 +424,10 @@
 				"type": "p",
 				"text": "Utilizando metodología de talleres, se trabajó en conjunto con el cliente para identificar las iniciativas para cubrir las brechas detectadas. "
 			},
-			{ "type": "subtitle", "text": "Los resultados" },
+			{
+				"type": "subtitle",
+				"text": "Los resultados"
+			},
 			{
 				"type": "p",
 				"text": "Se identificaron 35 iniciativas. Estas se priorizaron de acuerdo al impacto/ beneficios y costo/ riesgo/ dificultad de implementar y se elaboró una propuesta de roadmap de implementación."
@@ -434,7 +448,10 @@
 				"name": "Martin Kraitman",
 				"position": "Senior Specialist"
 			},
-			"tags": ["Agro", "Estrategia"],
+			"tags": [
+				"Agro",
+				"Estrategia"
+			],
 			"image": "/images-ceibo/casos-de-exito/Dominus.jpeg",
 			"clientimgType": "vertical"
 		},
@@ -475,7 +492,10 @@
 					"type": "title",
 					"text": " We work with Dominus to build their digital strategy"
 				},
-				{ "type": "subtitle", "text": "El dolor" },
+				{
+					"type": "subtitle",
+					"text": "El dolor"
+				},
 				{
 					"type": "p",
 					"text": "DOMINUS fue una de las empresas beneficiarias del fondo de Proyectos Colaborativos de Innovación (Innovate Perú), con el proyecto denominado “DESAFÍOS DE INNOVACIÓN ABIERTA EN DOMINUS, HACIA UNA AGROINDUSTRIA INTELIGENTE, ÁGIL Y COMPETITIVA”"
@@ -484,7 +504,10 @@
 					"type": "p",
 					"text": "El objetivo en esta etapa del proyecto es realizar un diagnóstico que permita identificar las principales brechas y retos a nivel tecnológico y de transformación de DOMINUS y sus socios agricultores."
 				},
-				{ "type": "subtitle", "text": "La solución" },
+				{
+					"type": "subtitle",
+					"text": "La solución"
+				},
 				{
 					"type": "p",
 					"text": "Durante la fase de diagnóstico se realizó una encuesta a 29 colaboradores Dominus y 18 socios agricultores. Luego se procedió a realizar entrevistas de profundización con algunos encuestados (13 colaboradores Dominus y 8 socios agricultores). También se realizó una visita a planta y a un Fundo modelo. Con toda la información relevada se realizó un diagnóstico sobre la madurez digital de DOMINUS utilizando el modelo de capacidades definido por CEIBO. Y por último, para completar la fase de diagnóstico, se realizó un estudio de benchmark de tendencias y una serie de entrevistas a referentes regionales y globales de la industria.  "
@@ -493,7 +516,10 @@
 					"type": "p",
 					"text": "Utilizando metodología de talleres, se trabajó en conjunto con el cliente para identificar las iniciativas para cubrir las brechas detectadas. "
 				},
-				{ "type": "subtitle", "text": "Los resultados" },
+				{
+					"type": "subtitle",
+					"text": "Los resultados"
+				},
 				{
 					"type": "p",
 					"text": "Se identificaron 35 iniciativas. Estas se priorizaron de acuerdo al impacto/ beneficios y costo/ riesgo/ dificultad de implementar y se elaboró una propuesta de roadmap de implementación."
@@ -579,7 +605,10 @@
 				"name": "Martin Kraitman",
 				"position": "Senior Specialist"
 			},
-			"tags": ["Retail", "Excelencia operacional"],
+			"tags": [
+				"Retail",
+				"Excelencia operacional"
+			],
 			"image": "/images-ceibo/casos-de-exito/Farmacenter.jpeg",
 			"clientimgType": "vertical"
 		},
@@ -734,7 +763,10 @@
 				"name": " ",
 				"position": " "
 			},
-			"tags": ["Servicios financieros", "Estrategia"],
+			"tags": [
+				"Servicios financieros",
+				"Estrategia"
+			],
 			"image": "/images-ceibo/casos-de-exito/Negofin estrategia.jpeg",
 			"clientimgType": "horizontal"
 		}
@@ -783,7 +815,6 @@
 				"type": "p",
 				"text": "La empresa presentaba una caída en la tasa de renovación de préstamos frente a los años anteriores en la marca CrediÁgil y no lograba identificar la razón o las múltiples razones causales de no renovación. En ese contexto nos convocan para ayudarlos a identificar los potenciales causantes de este fenómeno."
 			},
-
 			{
 				"type": "subtitle",
 				"text": "La solución"
@@ -806,7 +837,10 @@
 				"name": " ",
 				"position": " "
 			},
-			"tags": ["Servicios financieros", "Customer engagement"],
+			"tags": [
+				"Servicios financieros",
+				"Customer engagement"
+			],
 			"image": "/images-ceibo/casos-de-exito/Negofin fidelizacion.jpeg",
 			"clientimgType": "horizontal"
 		}
@@ -901,7 +935,10 @@
 				"name": "Martin Kraitman",
 				"position": "Senior Specialist"
 			},
-			"tags": ["Servicios financieros", "Customer engagement"],
+			"tags": [
+				"Servicios financieros",
+				"Customer engagement"
+			],
 			"image": "/images-ceibo/casos-de-exito/Scotiabank customer engagement.jpeg",
 			"clientimgType": "horizontal"
 		},
@@ -1068,7 +1105,10 @@
 			}
 		],
 		"metadata": {
-			"tags": ["Servicios financieros", "Customer engagement"],
+			"tags": [
+				"Servicios financieros",
+				"Customer engagement"
+			],
 			"image": "/images-ceibo/casos-de-exito/Scotiabank JMO.jpeg",
 			"clientimgType": "horizontal"
 		},
@@ -1241,7 +1281,10 @@
 			}
 		],
 		"metadata": {
-			"tags": ["Servicios financieros", "Organización"],
+			"tags": [
+				"Servicios financieros",
+				"Organización"
+			],
 			"image": "/images-ceibo/casos-de-exito/Scotiabank WOW.jpeg",
 			"clientimgType": "horizontal"
 		}
@@ -1300,7 +1343,6 @@
 				"type": "p",
 				"text": "Para ello, requiere una estrategia de negocio y un roadmap tecnológico para evitar pasos en falso."
 			},
-
 			{
 				"type": "subtitle",
 				"text": "La solución"
@@ -1313,7 +1355,6 @@
 				"type": "p",
 				"text": "Además, como recomendación de Ceibo, NFD se estructuró en tres células ágiles para gestionar el crecimiento del negocio: Célula BAU (business as usual), que gestiona las operaciones diarias del negocio digital; Célula Credi Ágil 2.0, que gestiona la evolución del negocio y recorre el roadmap de iniciativas tecnológicas; y Célula Fraccionate, que gestiona el negocio “B2B2C”, para la colocación de préstamos a clientes a través de comercios."
 			},
-
 			{
 				"type": "subtitle",
 				"text": "Los resultados"
@@ -1332,8 +1373,118 @@
 			}
 		],
 		"metadata": {
-			"tags": ["Servicios Financieros", "Estrategia"],
+			"tags": [
+				"Servicios Financieros",
+				"Estrategia"
+			],
 			"image": "/images-ceibo/casos-de-exito/NFD.jpeg",
+			"clientimgType": "horizontal"
+		}
+	},
+	{
+		"id": "12",
+		"cliente": "Telecom",
+		"clientimg": "/images-ceibo/clientes-iconos/Telecom_logo_2021.svg.png",
+		"path-url": "marketing-automation-telecom",
+		"bannerContent": [
+			{
+				"type": "p-white",
+				"text": "Telecom es una compañía líder en la industria de telecomunicaciones y tecnología con más de 20,000 colaboradores y 170,000 empresas clientes. Ofrece soluciones de conectividad, seguridad, cloud, productividad e IoT."
+			},
+			{
+				"type": "p-white",
+				"text": "Comercializa productos financieros, típicamente préstamos para el consumo, a través de canales digitales y un centro de atención al cliente online. Además del negocio central, el cliente ha creado una marca para el negocio financiero con retailers llamado Fraccionate."
+			}
+		],
+		"subcontent": [
+			{
+				"type": "duration",
+				"text": "Desde 2021 a la actualidad"
+			},
+			{
+				"type": "tag",
+				"text": "Marketing automation"
+			}
+		],
+		"content": [
+			{
+				"type": "title",
+				"text": "Ayudamos a Telecom a optimizar su estrategia de comunicación"
+			},
+			{
+				"type": "subtitle",
+				"text": "El dolor"
+			},
+			{
+				"type": "p",
+				"text": "A partir de 2021 Telecom junto con Ceibo Digital se enfrentaron al desafío de optimizar su estrategia de comunicación a través de dos etapas principales: la automatización y la personalización"
+			},
+			{
+				"type": "p",
+				"text": "Antes de la implementación del proyecto Telecom ejecutaba manualmente las tareas de gestionar sus comunicaciones recurrentes a través de correo electrónico y SMS, lo cual consumía recursos y tiempos."
+			},
+			{
+				"type": "p",
+				"text": "Antes de la implementación del proyecto Telecom ejecutaba manualmente las tareas de gestionar sus comunicaciones recurrentes a través de correo electrónico y SMS, lo cual consumía recursos y tiempos."
+			},
+			{
+				"type": "subtitle",
+				"text": "La solución"
+			},
+			{
+				"type": "p",
+				"text": "En la etapa de automatización de campañas se realizaron las siguientes acciones:"
+			},
+			{
+				"type": "p",
+				"text": "Modelo de datos y limpieza de base: Se llevó a cabo una estructuración de los datos, lo que permitió realizar una limpieza de la base para poder automatizar y personificar las comunicaciones."
+			},
+			{
+				"type": "p",
+				"text": "Optimizaciones en Eloqua: Se integró el modelo de datos en la herramienta, utilizando segmentos dinámicos y flujos complejos que permiten el envío reiterado de comunicaciones. Esto permitió automatizar las campañas BAU (business as usual) que se repetían mensualmente."
+			},
+			{
+				"type": "p",
+				"text": "Conector para SMS y WhatsApp: Se desarrolló un conector que automatiza el envío de comunicaciones mediante SMS y WhatsApp, permitiendo lograr la omnicanalidad dentro de un flujo de decisión en la misma herramienta."
+			},
+			{
+				"type": "p",
+				"text": "Y en la etapa de personalización de los mensajes se llevaron a cabo las siguientes acciones:"
+			},
+			{
+				"type": "p",
+				"text": "Engage - Personificación del remitente: Se implementó una herramienta que permite personalizar el remitente de los correos electrónicos, asociándolo a cada ejecutivo, logrando que las comunicaciones sean más naturales."
+			},
+			{
+				"type": "p",
+				"text": "Segmentación: Se aprovecharon datos tanto offline como online para segmentar de una manera más específica, lo que permite enviar comunicaciones adaptadas a los intereses y comportamientos de los clientes. Por ejemplo, se identifican los productos que tienen los clientes y en base a eso se les envía determinada comunicación."
+			},
+			{
+				"type": "p",
+				"text": "Customer Journey: Se implementaron campañas dirigidas a contactos en las diferentes etapas del ciclo de compra del cliente, enfocadas en ofrecer un valor extra en cada interacción y así poder reducir las comunicaciones comerciales."
+			},
+			{
+				"type": "p",
+				"text": "Contactos inactivos: Se implementó una campaña dirigida a contactos inactivos con el fin de conocer mejor sus intereses y así mejorar las comunicaciones para estos contactos."
+			},
+			{
+				"type": "subtitle",
+				"text": "Los resultados"
+			},
+			{
+				"type": "list",
+				"items": [
+					"Se logró reducir significativamente la cantidad de campañas comerciales mensuales, pasando de 20 a 8 en 2024, lo que representa una reducción del 60%.",
+					"Se logró un aumento en la generación de leads en un 116% con respecto al año anterior.",
+					"Se mejoraron significativamente las tasas de aperturas y de clics en los correos electrónicos, alcanzando un 25% en las tasas de aperturas y un 3% en las tasas de clics, en comparación con el mismo semestre del año pasado que fueron del 18% y 0,7% respectivamente."
+				]
+			}
+		],
+		"metadata": {
+			"tags": [
+				"Marketing Automation"
+			],
+			"image": "/images-ceibo/casos-de-exito/telecom-cover.jpg",
 			"clientimgType": "horizontal"
 		}
 	}
