@@ -12,14 +12,12 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import Head from "next/head";
-import generateUrl from "../../utils/generateUrl";
 import Image from "next/image";
 import FooterCeiboGrowth from "../../components/Layouts/FooterCeiboGrowth";
 
 const Caso = () => {
 	const { locale } = useRouter();
 	const router = useRouter();
-
 	const pathCaso = router.asPath.split("/")[2];
 	const [data, setdata] = React.useState({});
 	const [casos, setcasos] = useState(locale == "en" ? casosEN : casosES);
