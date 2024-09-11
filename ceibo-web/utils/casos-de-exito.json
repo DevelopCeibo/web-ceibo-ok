@@ -8,10 +8,6 @@
 			{
 				"type": "p-white",
 				"text": "Telecom es una compañía líder en la industria de telecomunicaciones y tecnología con más de 20,000 colaboradores y 170,000 empresas clientes. Ofrece soluciones de conectividad, seguridad, cloud, productividad e IoT."
-			},
-			{
-				"type": "p-white",
-				"text": "Comercializa productos financieros, típicamente préstamos para el consumo, a través de canales digitales y un centro de atención al cliente online. Además del negocio central, el cliente ha creado una marca para el negocio financiero con retailers llamado Fraccionate."
 			}
 		],
 		"subcontent": [
@@ -43,7 +39,7 @@
 			},
 			{
 				"type": "p",
-				"text": "Antes de la implementación del proyecto Telecom ejecutaba manualmente las tareas de gestionar sus comunicaciones recurrentes a través de correo electrónico y SMS, lo cual consumía recursos y tiempos."
+				"text": "Tras la automatización de las campañas se identificó una baja tasa de apertura en los emails y un bajo contacto con los ejecutivos debido a la falta de personalización de los mensajes."
 			},
 			{
 				"type": "subtitle",
@@ -51,39 +47,39 @@
 			},
 			{
 				"type": "p",
-				"text": "En la etapa de automatización de campañas se realizaron las siguientes acciones:"
+				"text": "En la etapa de **automatización de campañas** se realizaron las siguientes acciones:"
 			},
 			{
 				"type": "p",
-				"text": "Modelo de datos y limpieza de base: Se llevó a cabo una estructuración de los datos, lo que permitió realizar una limpieza de la base para poder automatizar y personificar las comunicaciones."
+				"text": "**Modelo de datos y limpieza de base:** Se llevó a cabo una estructuración de los datos, lo que permitió realizar una limpieza de la base para poder automatizar y personificar las comunicaciones."
 			},
 			{
 				"type": "p",
-				"text": "Optimizaciones en Eloqua: Se integró el modelo de datos en la herramienta, utilizando segmentos dinámicos y flujos complejos que permiten el envío reiterado de comunicaciones. Esto permitió automatizar las campañas BAU (business as usual) que se repetían mensualmente."
+				"text": "**Optimizaciones en Eloqua:** Se integró el modelo de datos en la herramienta, utilizando segmentos dinámicos y flujos complejos que permiten el envío reiterado de comunicaciones. Esto permitió automatizar las campañas BAU (business as usual) que se repetían mensualmente."
 			},
 			{
 				"type": "p",
-				"text": "Conector para SMS y WhatsApp: Se desarrolló un conector que automatiza el envío de comunicaciones mediante SMS y WhatsApp, permitiendo lograr la omnicanalidad dentro de un flujo de decisión en la misma herramienta."
+				"text": "**Conector para SMS y WhatsApp:** Se desarrolló un conector que automatiza el envío de comunicaciones mediante SMS y WhatsApp, permitiendo lograr la omnicanalidad dentro de un flujo de decisión en la misma herramienta."
 			},
 			{
 				"type": "p",
-				"text": "Y en la etapa de personalización de los mensajes se llevaron a cabo las siguientes acciones:"
+				"text": "Y en la etapa de **personalización de los mensajes** se llevaron a cabo las siguientes acciones:"
 			},
 			{
 				"type": "p",
-				"text": "Engage - Personificación del remitente: Se implementó una herramienta que permite personalizar el remitente de los correos electrónicos, asociándolo a cada ejecutivo, logrando que las comunicaciones sean más naturales."
+				"text": "**Engage - Personificación del remitente:** Se implementó una herramienta que permite personalizar el remitente de los correos electrónicos, asociándolo a cada ejecutivo, logrando que las comunicaciones sean más naturales."
 			},
 			{
 				"type": "p",
-				"text": "Segmentación: Se aprovecharon datos tanto offline como online para segmentar de una manera más específica, lo que permite enviar comunicaciones adaptadas a los intereses y comportamientos de los clientes. Por ejemplo, se identifican los productos que tienen los clientes y en base a eso se les envía determinada comunicación."
+				"text": "**Segmentación:** Se aprovecharon datos tanto offline como online para segmentar de una manera más específica, lo que permite enviar comunicaciones adaptadas a los intereses y comportamientos de los clientes. Por ejemplo, se identifican los productos que tienen los clientes y en base a eso se les envía determinada comunicación."
 			},
 			{
 				"type": "p",
-				"text": "Customer Journey: Se implementaron campañas dirigidas a contactos en las diferentes etapas del ciclo de compra del cliente, enfocadas en ofrecer un valor extra en cada interacción y así poder reducir las comunicaciones comerciales."
+				"text": "**Customer Journey:** Se implementaron campañas dirigidas a contactos en las diferentes etapas del ciclo de compra del cliente, enfocadas en ofrecer un valor extra en cada interacción y así poder reducir las comunicaciones comerciales."
 			},
 			{
 				"type": "p",
-				"text": "Contactos inactivos: Se implementó una campaña dirigida a contactos inactivos con el fin de conocer mejor sus intereses y así mejorar las comunicaciones para estos contactos."
+				"text": "**Contactos inactivos:** Se implementó una campaña dirigida a contactos inactivos con el fin de conocer mejor sus intereses y así mejorar las comunicaciones para estos contactos."
 			},
 			{
 				"type": "subtitle",
@@ -92,9 +88,9 @@
 			{
 				"type": "list",
 				"items": [
-					"Se logró reducir significativamente la cantidad de campañas comerciales mensuales, pasando de 20 a 8 en 2024, lo que representa una reducción del 60%.",
-					"Se logró un aumento en la generación de leads en un 116% con respecto al año anterior.",
-					"Se mejoraron significativamente las tasas de aperturas y de clics en los correos electrónicos, alcanzando un 25% en las tasas de aperturas y un 3% en las tasas de clics, en comparación con el mismo semestre del año pasado que fueron del 18% y 0,7% respectivamente."
+					"Se logró reducir significativamente la cantidad de campañas comerciales mensuales, pasando de 20 a 8 en 2024, lo que representa una **reducción del 60%.**",
+					"Se logró un aumento en la generación de leads en un **116% con respecto al año anterior.**",
+					"Se mejoraron significativamente las tasas de aperturas y de clics en los correos electrónicos, alcanzando un **25% en las tasas de aperturas** y un **3% en las tasas de clics**, en comparación con el mismo semestre del año pasado que fueron del 18% y 0,7% respectivamente."
 				]
 			}
 		],

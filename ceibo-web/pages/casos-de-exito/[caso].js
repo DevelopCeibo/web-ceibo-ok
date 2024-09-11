@@ -35,6 +35,8 @@ const Caso = () => {
 		});
 	}, [pathCaso, locale]);
 
+	const addBoldToText = (text) => text.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+
 	const renderContent = (content) => {
 		return content?.map((el, i) => {
 			switch (el.type) {
@@ -52,11 +54,8 @@ const Caso = () => {
 					);
 					break;
 				case "p":
-					return (
-						<Typography component="p" sx={{ pb: 2 }}>
-							{el.text}
-						</Typography>
-					);
+					const boldText = addBoldToText(el.text);
+					return <p className="pb-2" dangerouslySetInnerHTML={{ __html: boldText }}></p>;
 				case "p-white":
 					return (
 						<Typography
@@ -99,9 +98,12 @@ const Caso = () => {
 								fontSize: 16,
 							}}
 						>
-							{el.items.map((text, i) => (
-								<li key={i}>{text}</li>
-							))}
+							{el.items.map((text, i) => {
+								const boldText = addBoldToText(text)
+
+								return (<li key={i} dangerouslySetInnerHTML={{ __html: boldText }}></li>)
+							}
+							)}
 						</Box>
 					);
 				case "doublelist":
@@ -239,13 +241,13 @@ const Caso = () => {
 													width:
 														caso.metadata
 															.clientimgType ==
-														"horizontal"
+															"horizontal"
 															? "120px"
 															: "100px",
 													height:
 														caso.metadata
 															.clientimgType ==
-														"horizontal"
+															"horizontal"
 															? "80px"
 															: "90px",
 													zIndex: "100",
@@ -269,7 +271,7 @@ const Caso = () => {
 																		.metadata
 																		.tags
 																		.length -
-																		1 &&
+																	1 &&
 																	" | "}
 															</>
 														</Link>

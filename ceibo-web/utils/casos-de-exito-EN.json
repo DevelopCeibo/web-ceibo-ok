@@ -7,17 +7,13 @@
     "bannerContent": [
       {
         "type": "p-white",
-        "text": "Telecom is a leading company in the telecommunications and technology industry with over 20,000 employees and 170,000 business clients. It offers connectivity, security, cloud, productivity, and IoT solutions."
-      },
-      {
-        "type": "p-white",
-        "text": "It markets financial products, typically consumer loans, through digital channels and an online customer service center. In addition to the core business, the client has created a brand for its financial business with retailers called Fraccionate."
+        "text": "Telecom is a leading company in the telecommunications and technology industry with over 20,000 employees and 170,000 client companies. It offers connectivity, security, cloud, productivity, and IoT solutions."
       }
     ],
     "subcontent": [
       {
         "type": "duration",
-        "text": "Since 2021 to the present"
+        "text": "From 2021 to present"
       },
       {
         "type": "tag",
@@ -31,15 +27,19 @@
       },
       {
         "type": "subtitle",
-        "text": "The challenge"
+        "text": "The pain"
       },
       {
         "type": "p",
-        "text": "Starting in 2021, Telecom together with Ceibo Digital faced the challenge of optimizing its communication strategy through two main stages: automation and personalization."
+        "text": "Since 2021, Telecom along with Ceibo Digital faced the challenge of optimizing their communication strategy through two main stages: automation and personalization"
       },
       {
         "type": "p",
-        "text": "Before the project implementation, Telecom manually executed the tasks of managing its recurring communications via email and SMS, which consumed time and resources."
+        "text": "Before implementing the project, Telecom manually managed its recurring communications through email and SMS, which consumed resources and time."
+      },
+      {
+        "type": "p",
+        "text": "After automating the campaigns, a low open rate was identified in emails and poor contact with executives due to the lack of message personalization."
       },
       {
         "type": "subtitle",
@@ -47,39 +47,39 @@
       },
       {
         "type": "p",
-        "text": "During the campaign automation stage, the following actions were carried out:"
+        "text": "In the campaign automation stage, the following actions were taken:"
       },
       {
         "type": "p",
-        "text": "Data model and database cleanup: Data was structured, allowing for a database cleanup to automate and personalize communications."
+        "text": "**Data modeling and database cleaning:** A structuring of the data was carried out, allowing for a cleanup of the database to automate and personalize communications."
       },
       {
         "type": "p",
-        "text": "Optimizations in Eloqua: The data model was integrated into the tool, using dynamic segments and complex workflows that allowed for repeated communications. This automated the BAU (business as usual) campaigns that were repeated monthly."
+        "text": "**Eloqua optimizations:** The data model was integrated into the tool, using dynamic segments and complex flows that allow repeated sending of communications. This allowed automating BAU (business as usual) campaigns that were repeated monthly."
       },
       {
         "type": "p",
-        "text": "Connector for SMS and WhatsApp: A connector was developed to automate the sending of communications via SMS and WhatsApp, enabling omnichannel capabilities within a decision flow in the same tool."
+        "text": "**SMS and WhatsApp connector:** A connector was developed that automates the sending of communications via SMS and WhatsApp, enabling multichannel communication within a decision-making flow in the same tool."
       },
       {
         "type": "p",
-        "text": "During the message personalization stage, the following actions were taken:"
+        "text": "And in the message personalization stage, the following actions were taken:"
       },
       {
         "type": "p",
-        "text": "Engage - Sender personalization: A tool was implemented to personalize the sender of emails, associating it with each executive, making the communications more natural."
+        "text": "**Engage - Sender Personalization:** A tool was implemented that allows personalizing the sender of emails, associating it with each executive, making communications more natural."
       },
       {
         "type": "p",
-        "text": "Segmentation: Offline and online data were used to segment more specifically, allowing for tailored communications based on customers' interests and behaviors. For example, identifying the products customers have and sending them specific communications based on that."
+        "text": "**Segmentation:** Offline and online data were leveraged to segment in a more specific way, allowing for adapted communications based on customer interests and behaviors. For example, identifying products owned by customers and sending specific communications based on that."
       },
       {
         "type": "p",
-        "text": "Customer Journey: Campaigns were implemented targeting contacts at different stages of the customer buying cycle, focused on offering additional value in each interaction and thus reducing commercial communications."
+        "text": "**Customer Journey:** Directed campaigns were implemented targeting contacts at different stages of the customer purchase cycle, focused on offering added value in each interaction and thus reducing commercial communications."
       },
       {
         "type": "p",
-        "text": "Inactive contacts: A campaign targeting inactive contacts was implemented to better understand their interests and improve communications for these contacts."
+        "text": "**Inactive Contacts:** A campaign was implemented directed at inactive contacts to better understand their interests and improve communications for these contacts."
       },
       {
         "type": "subtitle",
@@ -88,9 +88,9 @@
       {
         "type": "list",
         "items": [
-          "A significant reduction in the number of monthly commercial campaigns was achieved, from 20 to 8 in 2024, representing a 60% reduction.",
-          "Lead generation increased by 116% compared to the previous year.",
-          "Email open and click-through rates significantly improved, reaching 25% for open rates and 3% for click-through rates, compared to the same semester last year, which were 18% and 0.7% respectively."
+          "Significant reduction in monthly commercial campaigns, from 20 to 8 in 2024, representing a **60% reduction**.",
+          "An increase in lead generation of **116% compared to the previous year**.",
+          "Significantly improved email opening and click-through rates, reaching a **25% opening rate** and a **3% click-through rate**, compared to the same period last year which were 18% and 0.7% respectively."
         ]
       }
     ],
@@ -98,7 +98,7 @@
       "tags": [
         "Marketing Automation"
       ],
-      "image": "/images-ceibo/casos-de-exito/telecom-cover.jpg",
+      "image": "/images-ceibo/case-studies/telecom-cover.jpg",
       "clientimgType": "horizontal"
     }
   },
