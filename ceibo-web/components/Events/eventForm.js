@@ -260,7 +260,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
             </FormGroup> */}
 
             <div className="container btn-two-container mb-1">
-                <Button className="default-btn-two text-white" disabled={isLoading} onClick={handleSubmit}>
+                <Button className="default-btn-two text-white" style={{borderRadius : '50px'}} disabled={isLoading} onClick={handleSubmit}>
                   {!isLoading ? registernow : `${suscribing} ...`}
                 </Button>
             </div>
