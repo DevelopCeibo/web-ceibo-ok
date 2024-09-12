@@ -126,9 +126,9 @@ export default async (req, res) => {
 			case "evento":
 				({ name, lastname, email, empresa, cargo, subject, checked, phone } =
 					rest);
-				// receiver = "prensa@ceibo.digital";
+				receiver = "prensa@ceibo.digital";
 				oc = "Prensa & Eventos";
-				receiver = "tomas.apochian@ceibo.digital";
+				// receiver = "tomas.apochian@ceibo.digital";
 				data = {
 					to: receiver,
 					from: email,
@@ -166,7 +166,7 @@ export default async (req, res) => {
         href="https://www.addevent.com/event/Ve22946273+yahoo" title="Yahoo" target="_blank"
         style="display:inline;"><img src="https://buttons.addevent.com/atc-yahoo-default-r48-ico-s36.png" alt="Yahoo"
             height="36" border="0" style="height:36px;display:inline;" /></a> </p>
-<p style="margin:0;padding:25px 0px 0px 0px;text-align:center;"><a
+		<p style="margin:0;padding:25px 0px 0px 0px;text-align:center;"><a
         href="https://www.addevent.com/?utm_source=event&utm_medium=atclinks&utm_id=plg" target="_blank"
         style="font-weight:normal;color:#125ef8;text-decoration:underline;">`
 				const confirmationEmailData = {
