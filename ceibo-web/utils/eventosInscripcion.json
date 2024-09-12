@@ -1,5 +1,18 @@
 [
     {
+        "id": "14",
+        "path-url": "empresas-inteligencia-artificial",
+        "title": "Las empresas con IA reemplazarán a las empresas sin IA",
+        "img": "/images-ceibo/eventos/banner-evento-argentina-empresas-ia.jpg",  
+        "imgBanner": "/images-ceibo/Banner-seccion-contacto.jpeg",
+        "desc": "Evento presencial con desayuno en Argentina",
+        "metadata": {
+            "date": "2 de octubre"
+        },
+        "isActive": true,
+        "contactList": "eventoId14"
+    },
+    {
         "id": "13",
         "path-url": "empresas-inteligencia-artificial",
         "title": "Las empresas con IA reemplazarán a las empresas sin IA",
@@ -9,7 +22,7 @@
         "metadata": {
             "date": "14 de agosto"
         },
-        "isActive": true,
+        "isActive": false,
         "contactList": "eventoId13"
     },
     {
