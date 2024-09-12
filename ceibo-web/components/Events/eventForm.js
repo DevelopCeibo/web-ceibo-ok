@@ -144,7 +144,7 @@ const eventForm = ({eventImageSource, eventContactList}) => {
             }}
           >
             <Image src={eventImageSource}
-                  height={600}
+                  height={604}
                   width={450}
                   alt="Imagen del evento"></Image>
           </Stack>
