@@ -55,7 +55,7 @@ const Caso = () => {
 					break;
 				case "p":
 					const boldText = addBoldToText(el.text);
-					return <p className="pb-2" dangerouslySetInnerHTML={{ __html: boldText }}></p>;
+					return <p dangerouslySetInnerHTML={{ __html: boldText }}></p>;
 				case "p-white":
 					return (
 						<Typography
@@ -237,6 +237,7 @@ const Caso = () => {
 												alt="cliente"
 												className="cliente-img-absolute"
 												style={{
+													objectFit : 'contain',
 													position: "absolute",
 													width:
 														caso.metadata
