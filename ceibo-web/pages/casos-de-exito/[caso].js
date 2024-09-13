@@ -55,7 +55,7 @@ const Caso = () => {
 					break;
 				case "p":
 					const boldText = addBoldToText(el.text);
-					return <p dangerouslySetInnerHTML={{ __html: boldText }}></p>;
+					return <p className="mb-2" dangerouslySetInnerHTML={{ __html: boldText }}></p>;
 				case "p-white":
 					return (
 						<Typography
