@@ -1,13 +1,13 @@
 [
 	{
 		"id": "12",
-		"cliente": "Telecom Empresas",
+		"cliente": "Telecom ",
 		"clientimg": "/images-ceibo/clientes-iconos/Telecom_logo_2021.svg.png",
 		"path-url": "marketing-automation-telecom",
 		"bannerContent": [
 			{
 				"type": "p-white",
-				"text": "Telecom Empresas es una compañía líder en la industria de telecomunicaciones y tecnología con más de 20,000 colaboradores y 170,000 empresas clientes. Ofrece soluciones de conectividad, seguridad, cloud, productividad e IoT."
+				"text": "Telecom es una compañía líder en la industria de telecomunicaciones y tecnología con más de 20,000 colaboradores y 170,000 empresas clientes. Ofrece soluciones de conectividad, seguridad, cloud, productividad e IoT."
 			}
 		],
 		"subcontent": [

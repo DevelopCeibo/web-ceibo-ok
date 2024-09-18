@@ -59,9 +59,8 @@ const Caso = () => {
 				case "p-white":
 					return (
 						<Typography
-							component="span"
-							sx={{ pb: 2, display: "block" }}
-							color={el.color}
+							component="p"
+							sx={{ pb: 2, display: "block", color : 'white !important' }}
 						>
 							{el.text}
 						</Typography>
