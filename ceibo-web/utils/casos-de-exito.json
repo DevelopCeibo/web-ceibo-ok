@@ -7,7 +7,19 @@
 		"bannerContent": [
 			{
 				"type": "p-white",
-				"text": "Telecom es una compañía líder en la industria de telecomunicaciones y tecnología con más de 20,000 colaboradores y 170,000 empresas clientes. Ofrece soluciones de conectividad, seguridad, cloud, productividad e IoT."
+				"text": "Telecom Argentina es una empresa en constante movimiento con el propósito de acompañar y potenciar la vida de sus 33 millones de clientes a través de la tecnología. Sus soluciones están pensadas para que personas y comunidades puedan crecer y avanzar, pero también disfrutar, entretenerse y conectarse con lo que quieran."
+			},
+			{
+				"type": "p-white",
+				"text": "Ofrecen una experiencia integral con su ecosistema de servicios y soluciones digitales. Con Personal, conectan a sus clientes con internet en su casa y en su celular. Con Flow, acercan contenido de TV y streaming. Con la billetera virtual Personal Pay, conectan a las personas con su plata."
+			},
+			{
+				"type": "p-white",
+				"text": "Y con Telecom, acompañan a más de 200.000 empresas e instituciones en su transformación digital. Además, para el segmento corporativo ofrecen un portfolio de soluciones flexibles y escalables, y desarrolladas a la medida de las necesidades específicas de cada empresa y se compone de 4 pilares tecnológicos como son: la familia de conectividad fija y móvil, ciberseguridad, soluciones cloud e internet de las cosas (IoT)."
+			},
+			{
+				"type": "p-white",
+				"text": "Están presentes con su propuesta integral de servicios en Argentina y Paraguay, televisión paga en Uruguay y servicios digitales en Chile."
 			}
 		],
 		"subcontent": [
