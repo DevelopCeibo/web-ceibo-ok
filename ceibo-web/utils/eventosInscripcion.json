@@ -1,5 +1,21 @@
 [
     {
+        "id": "15",
+        "path-url": "empresas-inteligencia-artificial-paraguay",
+        "title": "Las empresas con IA reemplazarán a las empresas sin IA",
+        "img": "/images-ceibo/eventos/banner-evento-paraguay-empresas-ia.jpg",  
+        "imgBanner": "/images-ceibo/Banner-seccion-contacto.jpeg",
+        "desc": "Evento presencial con desayuno en Paraguay",
+        "metadata": {
+            "date": "8 de octubre"
+        },
+        "isActive": true,
+        "contactList": "eventoId15",
+        "confirmationEmailTime" : "martes 8 de octubre a las 18:30hs",
+        "confirmationEventLocation" : "Palo Santo Brewing Co (Del Maestro 722) - Asunción",
+        "addToCalendarLink" : "https://www.addevent.com/event/XW23118124"
+    },
+    {
         "id": "14",
         "path-url": "empresas-inteligencia-artificial",
         "title": "Las empresas con IA reemplazarán a las empresas sin IA",
@@ -10,7 +26,10 @@
             "date": "2 de octubre"
         },
         "isActive": true,
-        "contactList": "eventoId14"
+        "contactList": "eventoId14",
+        "confirmationEmailTime" : "miércoles 2 de octubre a las 20:30hs",
+        "confirmationEventLocation" : "Espacio Circular Innova - Nordelta",
+        "addToCalendarLink" : "https://www.addevent.com/event/Ve22946273"
     },
     {
         "id": "13",

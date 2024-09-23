@@ -119,64 +119,46 @@ export default async (req, res) => {
 			utm_campaign,
 			utm_content,
 			utm_term,
-			roleType;
+			roleType,
+			eventName,
+			eventTime,
+			eventLocation,
+			addToCalendarLink
 		let data;
 
 		switch (type) {
 			case "evento":
-				({ name, lastname, email, empresa, cargo, subject, checked, phone } =
+				({ name, lastname, email, empresa, cargo, subject, checked, phone, eventName, eventTime, eventLocation, addToCalendarLink } =
 					rest);
-				receiver = "prensa@ceibo.digital";
+				// receiver = "prensa@ceibo.digital";
 				oc = "Prensa & Eventos";
-				// receiver = "tomas.apochian@ceibo.digital";
+				receiver = "tomas.apochian@ceibo.digital";
 				data = {
 					to: receiver,
 					from: email,
 					subject: subject,
 					text: text,
 					html: `
-                <b>Nueva suscripción al próximo evento</b>  <br />
-                <b>Nombre:</b> ${name}, Apellido: ${lastname} <br />
+                <b>Nueva suscripción al próximo evento ${eventName}</b> en <b>${eventLocation}</b> <br />
+                <b>Nombre:</b> ${name}, <b>Apellido:</b> ${lastname} <br />
                 <b>Email:</b> ${email} <br />
                 <b>Empresa:</b> ${empresa} <br />
-                <b>Cargo:</b> ${cargo} <br />
-                <b>Teléfono:</b> ${phone} <br />
-                <b>Se entero por :</b> ${checked}`,
+                <b>Teléfono:</b> ${phone} <br />`,
 				};
-				const confirmationEmailTime = "miércoles 2 de octubre a las 8:30hs"
-				const confirmationEventLocation = "Espacio Circular Innova - Nordelta"
-				const addToCalendarHtml = `<p style="margin:0px 0px 10px 0px;text-align:center;font-size:17px;line-height:150%;color:#152058;font-weight:bold;">
-    Agrega el evento a tu calendario</p>
-<p style="margin:0px 0px 10px 0px;text-align:center;"><a href="https://www.addevent.com/event/Ve22946273+apple"
-        title="Apple" target="_blank" style="display:inline;"><img
-            src="https://buttons.addevent.com/atc-apple-default-r48-ico-s36.png" alt="Apple" height="36" border="0"
-            style="height:36px;display:inline;" /></a> <a href="https://www.addevent.com/event/Ve22946273+google"
-        title="Google" target="_blank" style="display:inline;"><img
-            src="https://buttons.addevent.com/atc-google-default-r48-ico-s36.png" alt="Google" height="36" border="0"
-            style="height:36px;display:inline;" /></a> <a href="https://www.addevent.com/event/Ve22946273+outlook"
-        title="Outlook" target="_blank" style="display:inline;"><img
-            src="https://buttons.addevent.com/atc-outlook-default-r48-ico-s36.png" alt="Outlook" height="36" border="0"
-            style="height:36px;display:inline;" /></a> <a href="https://www.addevent.com/event/Ve22946273+outlookcom"
-        title="Outlook.com" target="_blank" style="display:inline;"><img
-            src="https://buttons.addevent.com/atc-outlookcom-default-r48-ico-s36.png" alt="Outlook.com" height="36"
-            border="0" style="height:36px;display:inline;" /></a> <a
-        href="https://www.addevent.com/event/Ve22946273+office365" title="Office 365" target="_blank"
-        style="display:inline;"><img src="https://buttons.addevent.com/atc-officecom-default-r48-ico-s36.png"
-            alt="Office 365" height="36" border="0" style="height:36px;display:inline;" /></a> <a
-        href="https://www.addevent.com/event/Ve22946273+yahoo" title="Yahoo" target="_blank"
-        style="display:inline;"><img src="https://buttons.addevent.com/atc-yahoo-default-r48-ico-s36.png" alt="Yahoo"
-            height="36" border="0" style="height:36px;display:inline;" /></a> </p>
-		<p style="margin:0;padding:25px 0px 0px 0px;text-align:center;"><a
-        href="https://www.addevent.com/?utm_source=event&utm_medium=atclinks&utm_id=plg" target="_blank"
-        style="font-weight:normal;color:#125ef8;text-decoration:underline;">`
+
 				const confirmationEmailData = {
 					to: email,
 					from: receiver,
 					fromname: "Ceibo Digital - Prensa y Eventos",
 					subject: 'Confirmación de registro - Ceibo Digital',
-					html: htmlEventTemplate("Las empresas con IA reemplazarán a las empresas sin IA", confirmationEmailTime, confirmationEventLocation, name, addToCalendarHtml)
+					html: htmlEventTemplate({
+						eventName,
+						eventTime,
+						eventLocation ,
+						name,
+						addToCalendarLink
+					})
 				}
-
 
 				const confirmationEmailResponse = await sendMail(confirmationEmailData)
 
