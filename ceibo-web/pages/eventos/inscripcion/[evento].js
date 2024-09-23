@@ -11,20 +11,20 @@ import Head from 'next/head'
 const Inscripcion = () => {
 
     const initialState = {}
-    const [event , setEvent] = useState(initialState)
+    const [event, setEvent] = useState(initialState)
 
     const router = useRouter()
-    const eventParam= router.query.evento
+    const eventParam = router.query.evento
 
-    const foundEvent = eventosInscripcion.find((e)=> e['path-url'] === eventParam && e.isActive)
-    useEffect(()=>{
-        if (foundEvent){
+    const foundEvent = eventosInscripcion.find((e) => e['path-url'] === eventParam && e.isActive)
+    useEffect(() => {
+        if (foundEvent) {
             setEvent(foundEvent)
         } else {
             router.push("/404-not-found")
         }
 
-    },[])  
+    }, [])
 
     return (
         <>
@@ -39,7 +39,12 @@ const Inscripcion = () => {
                 BGImage={event.imgBanner}
             />
             <div className='py-5'>
-                <Form eventImageSource={event.img} eventContactList={event.contactList} />
+                <Form eventImageSource={event.img} 
+                      eventContactList={event.contactList} 
+                      eventName={event.title}
+                      eventTime={event.confirmationEmailTime} 
+                      eventLocation={event.confirmationEventLocation} 
+                      addToCalendarLink={event.addToCalendarLink} />
             </div>
 
             <Footer />

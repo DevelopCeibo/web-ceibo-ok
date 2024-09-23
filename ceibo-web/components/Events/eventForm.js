@@ -6,11 +6,6 @@ import {
   Input,
   InputLabel,
   Stack,
-  Typography,
-  FormGroup,
-  Box,
-  MenuItem,
-  Select,
   Button
 } from "@mui/material";
 import useTranslation from "next-translate/useTranslation";
@@ -54,7 +49,7 @@ const alertMissingFields = () => {
   });
 }
 
-const eventForm = ({eventImageSource, eventContactList}) => {
+const eventForm = ({ eventImageSource, eventContactList, eventName, eventTime, eventLocation, addToCalendarLink }) => {
   const { t } = useTranslation("common");
   const prox = t("prox");
   const suscribiteEvento = t("suscribiteEvento");
@@ -109,6 +104,10 @@ const eventForm = ({eventImageSource, eventContactList}) => {
         "Nuevo inscripto al próximo evento / webinar de Ceibo."
       );
       formData.append("type", "evento");
+      formData.append("eventName", eventName);
+      formData.append("eventTime", eventTime);
+      formData.append("eventLocation", eventLocation);
+      formData.append("addToCalendarLink", addToCalendarLink);
 
       const response = await axios.post(url, formData, {
         headers: {
@@ -144,9 +143,9 @@ const eventForm = ({eventImageSource, eventContactList}) => {
             }}
           >
             <Image src={eventImageSource}
-                  height={604}
-                  width={450}
-                  alt="Imagen del evento"></Image>
+              height={604}
+              width={450}
+              alt="Imagen del evento"></Image>
           </Stack>
         </div>
         <div className="col-12 col-lg-6" style={{ padding: 4 }}>
@@ -260,9 +259,9 @@ const eventForm = ({eventImageSource, eventContactList}) => {
             </FormGroup> */}
 
             <div className="container btn-two-container mb-1">
-              <Button className="default-btn-two text-white" style={{ borderRadius: '50px', backgroundColor: '#3C86C4', borderWidth : '0px'}} disabled={isLoading} onClick={handleSubmit}>
-                  {!isLoading ? registernow : `${suscribing} ...`}
-                </Button>
+              <Button className="default-btn-two text-white" style={{ borderRadius: '50px', backgroundColor: '#3C86C4', borderWidth: '0px' }} disabled={isLoading} onClick={handleSubmit}>
+                {!isLoading ? registernow : `${suscribing} ...`}
+              </Button>
             </div>
           </Stack>
         </div>

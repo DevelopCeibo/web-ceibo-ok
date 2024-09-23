@@ -14,6 +14,7 @@ const sendgridContactListIds = {
 	eventoId12 : "fe6594df-451e-4d47-845b-b891b8aa2c09",
 	eventoId13:  "146b99bd-510e-4b4e-aec3-2b5c3f5ba338",
 	eventoId14: "eee4526f-6da3-4b86-a979-ab320b0b0033", 
+	eventoId15: "81b535b9-2352-48b1-a5a1-82dce77025b2"
 }
 
 
@@ -34,6 +35,9 @@ const getSendgridContactListId = ({ contactListName }) => {
 			break
 		case 'eventoId14':
 			return sendgridContactListIds.eventoId14
+			break
+		case 'eventoId15':
+			return sendgridContactListIds.eventoId15
 			break
 	}
 }
