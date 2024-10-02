@@ -135,7 +135,7 @@ export default async (req, res) => {
 				// receiver = "tomas.apochian@ceibo.digital";
 				data = {
 					to: receiver,
-					from: email,
+					from: 'oc.web@ceibo.digital',
 					subject: subject,
 					text: text,
 					html: `
@@ -160,7 +160,7 @@ export default async (req, res) => {
 					})
 				}
 
-				const confirmationEmailResponse = await sendMail(confirmationEmailData)
+				// const confirmationEmailResponse = await sendMail(confirmationEmailData)
 
 				break;
 			case "contacto":
@@ -185,7 +185,7 @@ export default async (req, res) => {
 				// receiver = "tomas.apochian@ceibo.digital";
 				data = {
 					to: receiver,
-					from: email,
+					from: 'oc.web@ceibo.digital',
 					subject: subject,
 					html: `
                 <b>Email:</b> ${email} <br />
@@ -225,7 +225,7 @@ export default async (req, res) => {
 				cv = req.file;
 				data = {
 					to: receiver,
-					from: email,
+					from: 'oc.web@ceibo.digital',
 					subject: subject,
 					html: `
                 <b>${name} se postulo a la vacante de </b>${vacante} <br />
