@@ -368,6 +368,28 @@
 		}
 	},
 	{
+		"nombre": "FRANCISCO DEANE",
+		"linkedinurl": "https://www.linkedin.com/in/franciscodeane/",
+		"src": "/images-ceibo/integrantes/Francisco Deane.png",
+		"posicion": "GROWTH OPS MANAGER",
+		"email": "francisco.deane@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "ALINA IBAÑEZ",
 		"linkedinurl": "https://www.linkedin.com/in/alina-iba%C3%B1ez-039636174/",
 		"src": "/images-ceibo/integrantes/Alina Ibañez.png",
@@ -505,28 +527,6 @@
 		"src": "/images-ceibo/integrantes/Ana Oconor.png",
 		"posicion": "PAID MEDIA SENIOR SPECIALIST",
 		"email": "ana.oconor@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "JULIAN BENAVIDES",
-		"linkedinurl": "https://www.linkedin.com/in/julianbenavides",
-		"src": "/images-ceibo/integrantes/Julian Benavides.png",
-		"posicion": "CONTENT SENIOR SPECIALIST",
-		"email": "julian.benavides@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",
@@ -978,6 +978,28 @@
 		}
 	},
 	{
+		"nombre": "JAGO TALIENTO",
+		"linkedinurl": "https://www.linkedin.com/in/jagotaliento/",
+		"src": "/images-ceibo/integrantes/Jago Taliento.png",
+		"posicion": "ASSOCIATE",
+		"email": "jago.taliento@ceibo.digital",
+		"ceiber": {
+			"nickname": "",
+			"quote": "",
+			"quoteEN": "",
+			"tags": [],
+			"tagsEN": [],
+			"img": ""
+		},
+		"globalTalent": {
+			"quote": "",
+			"edition": "",
+			"editionEN": "",
+			"quoteEN": "",
+			"img": ""
+		}
+	},
+	{
 		"nombre": "EZEQUIEL IBARRA",
 		"linkedinurl": "https://www.linkedin.com/in/ibarraezequiel/",
 		"src": "/images-ceibo/integrantes/Ezequiel Ibarra.png",
@@ -1225,28 +1247,6 @@
 		"src": "/images-ceibo/integrantes/Juana Schulmeier.png",
 		"posicion": "GROWTH OPS ANALYST",
 		"email": "juana.schulmeier@ceibo.digital",
-		"ceiber": {
-			"nickname": "",
-			"quote": "",
-			"quoteEN": "",
-			"tags": [],
-			"tagsEN": [],
-			"img": ""
-		},
-		"globalTalent": {
-			"quote": "",
-			"edition": "",
-			"editionEN": "",
-			"quoteEN": "",
-			"img": ""
-		}
-	},
-	{
-		"nombre": "FRANCO CAPRARULO",
-		"linkedinurl": "https://www.linkedin.com/in/francocaprarulo/",
-		"src": "/images-ceibo/integrantes/Franco Caprarulo.png",
-		"posicion": "PAID MEDIA ANALYST",
-		"email": "franco.caprarulo@ceibo.digital",
 		"ceiber": {
 			"nickname": "",
 			"quote": "",

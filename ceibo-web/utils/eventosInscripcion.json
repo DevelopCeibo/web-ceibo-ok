@@ -25,7 +25,7 @@
         "metadata": {
             "date": "2 de octubre"
         },
-        "isActive": true,
+        "isActive": false,
         "contactList": "eventoId14",
         "confirmationEmailTime" : "miércoles 2 de octubre a las 20:30hs",
         "confirmationEventLocation" : "Espacio Circular Innova - Nordelta",
