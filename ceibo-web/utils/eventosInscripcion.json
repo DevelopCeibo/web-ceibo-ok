@@ -9,7 +9,7 @@
         "metadata": {
             "date": "8 de octubre"
         },
-        "isActive": true,
+        "isActive": false,
         "contactList": "eventoId15",
         "confirmationEmailTime" : "martes 8 de octubre a las 18:30hs",
         "confirmationEventLocation" : "Palo Santo Brewing Co (Del Maestro 722) - Asunción",
