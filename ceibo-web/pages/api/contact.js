@@ -215,11 +215,8 @@ export default async (req, res) => {
 				fileStream.push(req.file?.buffer);
 				fileStream.push(null);
 
-				receiver = []
-
-				if (roleType === 'specialist') receiver.push('recruiting@ceibo.digital')
-				else if (roleType === 'consultant') { receiver.push('recruiting.consultingteam@ceibo.digital') }
-
+				receiver = ["recruiting@ceibo.digital"]
+				
 				if (utm_medium == 'landing-talento-global') receiver.push("marketing@ceibo.digital")
 
 				cv = req.file;
